@@ -354,6 +354,14 @@
       padding: 20px;
     }
 
+    .count {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
     .container.hidden {
       display: none;
     }
@@ -610,6 +618,7 @@
       <div class="book-cover-placeholder">Loading...</div>
     </div>
 
+    <div id="count" class="count"></div>
   </div>
 
   <script>
@@ -858,8 +867,6 @@
     async function transitionToQuote(quoteIndex) {
       const landingCanvas = document.getElementById('landing-canvas');
       const viewMode = document.getElementById('view-mode');
-      const controls = document.querySelector('.controls');
-      const gotoBox = document.querySelector('.goto-box');
       const backBtn = document.getElementById('back-to-canvas');
 
       // Fade out landing canvas
@@ -869,8 +876,6 @@
       setTimeout(async () => {
         landingCanvas.style.display = 'none';
         viewMode.style.display = 'flex';
-        controls.style.display = 'flex';
-        if (gotoBox) gotoBox.style.display = 'flex';
         backBtn.style.display = 'flex';
 
         isLandingVisible = false;
@@ -885,8 +890,6 @@
     function transitionToCanvas() {
       const landingCanvas = document.getElementById('landing-canvas');
       const viewMode = document.getElementById('view-mode');
-      const controls = document.querySelector('.controls');
-      const gotoBox = document.querySelector('.goto-box');
       const backBtn = document.getElementById('back-to-canvas');
 
       // Fade out quote view
@@ -897,8 +900,6 @@
         viewMode.style.display = 'none';
         viewMode.style.opacity = '';
         viewMode.style.transition = '';
-        controls.style.display = 'none';
-        if (gotoBox) gotoBox.style.display = 'none';
         backBtn.style.display = 'none';
 
         // Show landing canvas
@@ -1745,10 +1746,6 @@
         console.log(`Built index with ${Object.keys(publicationIndex).length} unique publications with covers`);
         renderLandingCanvas();
         initLandingCanvas();
-
-        // Hide controls while on landing canvas
-        document.querySelector('.controls').style.display = 'none';
-        document.querySelector('.goto-box').style.display = 'none';
       } catch (err) {
         console.error('Init error:', err);
       }
