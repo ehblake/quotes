@@ -16,7 +16,7 @@
     "publisher": "AST",
     "open_library_key": "/works/OL15723205W",
     "catalog_notes": "Found ISBN: 9785170177875; Year from Open Library: 2004",
-    "cover_url": "/covers/wind-sand-and-stars.jpg",
+    "cover_url": "covers/wind-sand-and-stars.jpg",
     "_flickr_id": "19839763540",
     "tags": [
       "Antoine de Saint-Exup\u00e9ry",
@@ -181,7 +181,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/coming-apart.jpg",
+    "cover_url": "covers/coming-apart.jpg",
     "_flickr_id": "53562655923",
     "tags": [
       "quote",
@@ -259,7 +259,7 @@
     "publisher": "Pearson Prentice Hall",
     "open_library_key": "/works/OL7946521W",
     "catalog_notes": "Found ISBN: 9780132008037; Year from Open Library: 2007",
-    "cover_url": "/covers/the-making-of-mona.jpg",
+    "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53561234029",
     "_match_score": 90,
     "tags": [
@@ -327,7 +327,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/agnes-martin-writings-interviews-photographs.jpg",
+    "cover_url": "covers/agnes-martin-writings-interviews-photographs.jpg",
     "_flickr_id": "54355838828",
     "tags": [
       "quote",
@@ -397,7 +397,7 @@
     "publisher": "Random House",
     "open_library_key": "/works/OL1230690W",
     "catalog_notes": "Found ISBN: 0394700759",
-    "cover_url": "/covers/the-myth-of-sisyphus.jpg",
+    "cover_url": "covers/the-myth-of-sisyphus.jpg",
     "_flickr_id": "37532745150",
     "_match_score": 70,
     "tags": [
@@ -474,7 +474,7 @@
     "publisher": "Everyman",
     "open_library_key": "/works/OL1230720W",
     "catalog_notes": "Found ISBN: 9781857152784; Year from Open Library: 2004",
-    "cover_url": "/covers/9781857152784.jpg",
+    "cover_url": "covers/9781857152784.jpg",
     "book_author": null,
     "tags": [
       "people",
@@ -515,7 +515,7 @@
     "needs_review": false,
     "book_author": "Keith Basso",
     "isbn": null,
-    "cover_url": "/covers/wisdom-sits-in-places.jpg",
+    "cover_url": "covers/wisdom-sits-in-places.jpg",
     "_flickr_id": "53324325458",
     "_match_score": 80,
     "tags": [
@@ -596,7 +596,7 @@
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/the-world-as-i-see-it.jpg",
+    "cover_url": "covers/the-world-as-i-see-it.jpg",
     "_flickr_id": "54771008239",
     "tags": [
       "quote",
@@ -653,7 +653,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9781846590054",
-    "cover_url": "/covers/on-borges.jpg",
+    "cover_url": "covers/on-borges.jpg",
     "_flickr_id": "52707521366",
     "tags": [
       "Alberto Manguel",
@@ -739,7 +739,7 @@
     "publisher": "Telegram",
     "open_library_key": "/works/OL42561W",
     "catalog_notes": "Found ISBN: 9781846590054",
-    "cover_url": "/covers/with-borges.jpg",
+    "cover_url": "covers/with-borges.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -785,7 +785,7 @@
     "publisher": "Telegram",
     "open_library_key": "/works/OL42561W",
     "catalog_notes": "Found ISBN: 9781846590054",
-    "cover_url": "/covers/with-borges.jpg",
+    "cover_url": "covers/with-borges.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -835,7 +835,7 @@
     "publisher": "Canadian Broadcasting Corporation (CBC Audio)",
     "open_library_key": "/works/OL42547W",
     "catalog_notes": "Found ISBN: 9780660197296",
-    "cover_url": "/covers/the-city-of-words.jpg",
+    "cover_url": "covers/the-city-of-words.jpg",
     "_flickr_id": "53819465350",
     "_match_score": 140,
     "tags": [
@@ -898,7 +898,7 @@
     "publisher": "Canadian Broadcasting Corporation (CBC Audio)",
     "open_library_key": "/works/OL42547W",
     "catalog_notes": "Found ISBN: 9780660197296",
-    "cover_url": "/covers/the-city-of-words.jpg",
+    "cover_url": "covers/the-city-of-words.jpg",
     "_flickr_id": "53819022141",
     "_match_score": 110,
     "tags": [
@@ -957,7 +957,7 @@
     "publisher": "Canadian Broadcasting Corporation (CBC Audio)",
     "open_library_key": "/works/OL42547W",
     "catalog_notes": "Found ISBN: 9780660197296; Year from Open Library: 2007",
-    "cover_url": "/covers/city-of-words.jpg",
+    "cover_url": "covers/city-of-words.jpg",
     "_flickr_id": "53819022196",
     "_match_score": 180,
     "tags": [
@@ -1019,7 +1019,7 @@
     "publisher": "Arnoldo Mondadori Editore",
     "open_library_key": "/works/OL64442W",
     "catalog_notes": "Found ISBN: 9788804508434",
-    "cover_url": "/covers/the-doors-of-perception.jpg",
+    "cover_url": "covers/the-doors-of-perception.jpg",
     "_flickr_id": "52630432263",
     "_match_score": 170,
     "tags": [
@@ -1081,7 +1081,7 @@
     "publisher": "Arnoldo Mondadori Editore",
     "open_library_key": "/works/OL64442W",
     "catalog_notes": "Found ISBN: 9788804508434",
-    "cover_url": "/covers/the-doors-of-perception.jpg",
+    "cover_url": "covers/the-doors-of-perception.jpg",
     "_flickr_id": "52630432283",
     "_match_score": 160,
     "tags": [
@@ -1138,7 +1138,7 @@
     "publisher": "Lucemar",
     "open_library_key": "/works/OL64365W",
     "catalog_notes": "Found ISBN: 978-980-7716-35-2; Year from Open Library: 1932",
-    "cover_url": "/covers/brave-new-world.jpg",
+    "cover_url": "covers/brave-new-world.jpg",
     "book_author": null,
     "_flickr_id": "52789486404",
     "_match_score": 80,
@@ -1225,7 +1225,7 @@
     "publisher": "Knopf; [distributed by Random House",
     "open_library_key": "/works/OL236964W",
     "catalog_notes": "Found ISBN: 0394483081",
-    "cover_url": "/covers/0394483081.jpg",
+    "cover_url": "covers/0394483081.jpg",
     "_match_score": 90,
     "book_author": null,
     "tags": [
@@ -1280,7 +1280,7 @@
     "publisher": "Knopf; [distributed by Random House",
     "open_library_key": "/works/OL236964W",
     "catalog_notes": "Found ISBN: 0394483081",
-    "cover_url": "/covers/0394483081.jpg",
+    "cover_url": "covers/0394483081.jpg",
     "_flickr_id": "54853096976",
     "_match_score": 80,
     "tags": [
@@ -1357,7 +1357,7 @@
     "publisher": "Knopf; [distributed by Random House",
     "open_library_key": "/works/OL236964W",
     "catalog_notes": "Found ISBN: 0394483081",
-    "cover_url": "/covers/0394483081.jpg",
+    "cover_url": "covers/0394483081.jpg",
     "_match_score": 60,
     "book_author": null,
     "tags": [
@@ -1427,7 +1427,7 @@
     "publisher": "Knopf; [distributed by Random House",
     "open_library_key": "/works/OL236964W",
     "catalog_notes": "Found ISBN: 0394483081",
-    "cover_url": "/covers/0394483081.jpg",
+    "cover_url": "covers/0394483081.jpg",
     "_flickr_id": "54868673920",
     "_match_score": 70,
     "tags": [
@@ -1495,7 +1495,7 @@
     "open_library_key": "/works/OL623499W",
     "catalog_notes": "Found ISBN: 1903517281; Year from Open Library: 1833",
     "book_author": null,
-    "cover_url": "/covers/the-tales-of-the-late-ivan-petrovich-belkin.jpg",
+    "cover_url": "covers/the-tales-of-the-late-ivan-petrovich-belkin.jpg",
     "tags": [
       "forces",
       "direction",
@@ -1534,7 +1534,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/the-captains-daughter-and-other-stories.jpg",
+    "cover_url": "covers/the-captains-daughter-and-other-stories.jpg",
     "tags": [
       "falsehood",
       "truth",
@@ -1581,7 +1581,7 @@
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/adventures-of-ideas.jpg",
+    "cover_url": "covers/adventures-of-ideas.jpg",
     "_flickr_id": "52749820072",
     "tags": [
       "quote",
@@ -1702,7 +1702,7 @@
     "publisher": "City Lights Books",
     "open_library_key": "/works/OL102476W",
     "catalog_notes": "Found ISBN: 0872860639; Year from Open Library: 1972",
-    "cover_url": "/covers/0872860639.jpg",
+    "cover_url": "covers/0872860639.jpg",
     "_flickr_id": "53985972652",
     "_match_score": 110,
     "tags": [
@@ -1761,7 +1761,7 @@
     "publisher": "City Lights Books",
     "open_library_key": "/works/OL102476W",
     "catalog_notes": "Found ISBN: 0872860639; Year from Open Library: 1972",
-    "cover_url": "/covers/0872860639.jpg",
+    "cover_url": "covers/0872860639.jpg",
     "_flickr_id": "53987180244",
     "_match_score": 130,
     "tags": [
@@ -1850,7 +1850,7 @@
     "publisher": "Harvard University Press",
     "open_library_key": "/works/OL16184467W",
     "catalog_notes": "Found ISBN: 9780674068513",
-    "cover_url": "/covers/varieties-of-presence.jpg",
+    "cover_url": "covers/varieties-of-presence.jpg",
     "_flickr_id": "38855462530",
     "_match_score": 170,
     "tags": [
@@ -1925,7 +1925,7 @@
     "open_library_key": "/works/OL9706402W",
     "catalog_notes": "Found ISBN: 9781406702934; Year from Open Library: 2007",
     "book_author": "Marshall McLuhan",
-    "cover_url": "/covers/the-medium-is-the-massage.jpg",
+    "cover_url": "covers/the-medium-is-the-massage.jpg",
     "_flickr_id": "52750350731",
     "tags": [
       "quote",
@@ -2030,7 +2030,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/the-diary-of-anas-nin-vol-1-1931-1934.jpg",
+    "cover_url": "covers/the-diary-of-anas-nin-vol-1-1931-1934.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -2085,7 +2085,7 @@
     "publisher": "Manchester University Press",
     "open_library_key": "/works/OL1386695W",
     "catalog_notes": "Found ISBN: 9781526132727",
-    "cover_url": "/covers/mozart-and-the-wolf-gang.jpg",
+    "cover_url": "covers/mozart-and-the-wolf-gang.jpg",
     "_flickr_id": "53556439561",
     "_match_score": 180,
     "tags": [
@@ -2142,7 +2142,7 @@
     "publisher": "Manchester University Press",
     "open_library_key": "/works/OL1386695W",
     "catalog_notes": "Found ISBN: 9781526132727",
-    "cover_url": "/covers/mozart-and-the-wolf-gang.jpg",
+    "cover_url": "covers/mozart-and-the-wolf-gang.jpg",
     "_flickr_id": "53556779894",
     "_match_score": 180,
     "tags": [
@@ -2204,7 +2204,7 @@
     "publisher": "Manchester University Press",
     "open_library_key": "/works/OL1386695W",
     "catalog_notes": "Found ISBN: 9781526132727",
-    "cover_url": "/covers/mozart-and-the-wolf-gang.jpg",
+    "cover_url": "covers/mozart-and-the-wolf-gang.jpg",
     "_flickr_id": "53556779929",
     "_match_score": 170,
     "tags": [
@@ -2296,7 +2296,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41550816W",
     "catalog_notes": "Found ISBN: 9781979301930; Year from Open Library: 2017",
-    "cover_url": "/covers/9781979301930.jpg",
+    "cover_url": "covers/9781979301930.jpg",
     "book_author": null,
     "tags": [
       "wall",
@@ -2355,7 +2355,7 @@
     "publisher": "Classic Books",
     "open_library_key": "/works/OL109853W",
     "catalog_notes": "Found ISBN: 9780742624597",
-    "cover_url": "/covers/9780742624597.jpg",
+    "cover_url": "covers/9780742624597.jpg",
     "_flickr_id": "55012468492",
     "_match_score": 60,
     "tags": [
@@ -2449,7 +2449,7 @@
     "open_library_key": "/works/OL109824W",
     "catalog_notes": "Found ISBN: 0712902996",
     "book_author": null,
-    "cover_url": "/covers/australia.jpg",
+    "cover_url": "covers/australia.jpg",
     "_flickr_id": "29101128364",
     "_match_score": 80,
     "tags": [
@@ -2540,7 +2540,7 @@
     "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
-    "cover_url": "/covers/antifragile.jpg",
+    "cover_url": "covers/antifragile.jpg",
     "_flickr_id": "46331198205",
     "_match_score": 170,
     "tags": [
@@ -2597,7 +2597,7 @@
     "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
-    "cover_url": "/covers/antifragile.jpg",
+    "cover_url": "covers/antifragile.jpg",
     "_flickr_id": "32303684437",
     "_match_score": 180,
     "tags": [
@@ -2664,7 +2664,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL55419W",
     "catalog_notes": "Found ISBN: 9781537054957",
-    "cover_url": "/covers/a-swim-in-a-pond-in-the-rain.jpg",
+    "cover_url": "covers/a-swim-in-a-pond-in-the-rain.jpg",
     "_flickr_id": "52992916170",
     "_match_score": 60,
     "tags": [
@@ -2745,7 +2745,7 @@
     "publisher": "Fanucci",
     "open_library_key": "/works/OL17365W",
     "catalog_notes": "Found ISBN: 9788834731024; Year from Open Library: 1968",
-    "cover_url": "/covers/the-wall-of-darkness.jpg",
+    "cover_url": "covers/the-wall-of-darkness.jpg",
     "_flickr_id": "52896790774",
     "_match_score": 70,
     "tags": [
@@ -2817,7 +2817,7 @@
     "publisher": "Bantam",
     "open_library_key": "/works/OL66347W",
     "catalog_notes": "Found ISBN: 9780553044980",
-    "cover_url": "/covers/the-crucible.jpg",
+    "cover_url": "covers/the-crucible.jpg",
     "_flickr_id": "52383698602",
     "_match_score": 180,
     "tags": [
@@ -2944,7 +2944,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL1183503W",
     "catalog_notes": "Found ISBN: 0140442278; Year from Open Library: 1970",
-    "cover_url": "/covers/0140442278.jpg",
+    "cover_url": "covers/0140442278.jpg",
     "book_author": null,
     "tags": [
       "suffering",
@@ -2998,7 +2998,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL1183503W",
     "catalog_notes": "Found ISBN: 0140442278; Year from Open Library: 1970",
-    "cover_url": "/covers/0140442278.jpg",
+    "cover_url": "covers/0140442278.jpg",
     "book_author": null,
     "tags": [
       "hell",
@@ -3067,7 +3067,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL1183503W",
     "catalog_notes": "Found ISBN: 0140442278; Year from Open Library: 1970",
-    "cover_url": "/covers/0140442278.jpg",
+    "cover_url": "covers/0140442278.jpg",
     "book_author": null,
     "tags": [
       "stupidity",
@@ -3121,7 +3121,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL1183503W",
     "catalog_notes": "Found ISBN: 0140442278; Year from Open Library: 1970",
-    "cover_url": "/covers/0140442278.jpg",
+    "cover_url": "covers/0140442278.jpg",
     "book_author": null,
     "tags": [
       "poetry",
@@ -3170,7 +3170,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL1183503W",
     "catalog_notes": "Found ISBN: 0140442278; Year from Open Library: 1970",
-    "cover_url": "/covers/0140442278.jpg",
+    "cover_url": "covers/0140442278.jpg",
     "book_author": null,
     "tags": [
       "narration",
@@ -3219,7 +3219,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL1183503W",
     "catalog_notes": "Found ISBN: 0140442278; Year from Open Library: 1970",
-    "cover_url": "/covers/0140442278.jpg",
+    "cover_url": "covers/0140442278.jpg",
     "book_author": null,
     "tags": [
       "animals",
@@ -3396,7 +3396,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/foundation.jpg",
+    "cover_url": "covers/foundation.jpg",
     "book_author": null,
     "isbn": null,
     "_flickr_id": "52978378956",
@@ -3532,7 +3532,7 @@
     "publisher": "Pocket",
     "open_library_key": "/works/OL85234W",
     "catalog_notes": "Found ISBN: 9782266093767; Year from Open Library: 1873",
-    "cover_url": "/covers/cousin-pons.jpg",
+    "cover_url": "covers/cousin-pons.jpg",
     "_flickr_id": "52693007657",
     "tags": [
       "quote",
@@ -3617,7 +3617,7 @@
     "notes": "The text was initially in all caps and has been converted to sentence case.",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/ethics.jpg",
+    "cover_url": "covers/ethics.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -3738,7 +3738,7 @@
     "publisher": "Flammarion",
     "open_library_key": "/works/OL1158921W",
     "catalog_notes": "Found ISBN: 9782081279032; Year from Open Library: 1855",
-    "cover_url": "/covers/interlude.jpg",
+    "cover_url": "covers/interlude.jpg",
     "_flickr_id": "47254834372",
     "_match_score": 90,
     "tags": [
@@ -3847,7 +3847,7 @@
     "publisher": "Bonanza Books, Random House Value Publishing",
     "open_library_key": "/works/OL26609W",
     "catalog_notes": "Found ISBN: 0517308061",
-    "cover_url": "/covers/poor-richards-almanack.jpg",
+    "cover_url": "covers/poor-richards-almanack.jpg",
     "_flickr_id": "50377159688",
     "tags": [
       "quote",
@@ -3944,7 +3944,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/the-works-of-benjamin-franklin.jpg",
+    "cover_url": "covers/the-works-of-benjamin-franklin.jpg",
     "tags": [
       "corruption",
       "goverment",
@@ -4017,7 +4017,7 @@
     "publisher": "Bonanza Books, Random House Value Publishing",
     "open_library_key": "/works/OL26609W",
     "catalog_notes": "Found ISBN: 0517308061",
-    "cover_url": "/covers/poor-richards-almanack.jpg",
+    "cover_url": "covers/poor-richards-almanack.jpg",
     "book_author": null,
     "tags": [
       "self",
@@ -4175,7 +4175,7 @@
     "publisher": "G. Allen & Unwin",
     "open_library_key": "/works/OL1088547W",
     "catalog_notes": "Found ISBN: 004109008X",
-    "cover_url": "/covers/the-history-of-western-philosophy.jpg",
+    "cover_url": "covers/the-history-of-western-philosophy.jpg",
     "_flickr_id": "51070158282",
     "_match_score": 140,
     "tags": [
@@ -4257,7 +4257,7 @@
     "publisher": "Scribner",
     "open_library_key": "/works/OL15538310W",
     "catalog_notes": "Found ISBN: 9781416552734",
-    "cover_url": "/covers/popular-crime.jpg",
+    "cover_url": "covers/popular-crime.jpg",
     "_flickr_id": "50377160138",
     "_match_score": 160,
     "tags": [
@@ -4334,7 +4334,7 @@
     "publisher": "ReadHowYouWant.com, Limited",
     "open_library_key": "/works/OL21137223W",
     "catalog_notes": "Found ISBN: 9781525237010; Year from Open Library: 2017",
-    "cover_url": "/covers/moneyball.jpg",
+    "cover_url": "covers/moneyball.jpg",
     "_flickr_id": "53987286275",
     "_match_score": 110,
     "tags": [
@@ -4395,7 +4395,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/penses.jpg",
+    "cover_url": "covers/penses.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -4439,7 +4439,7 @@
     "notes": "The quote is clearly attributed to Blaise Pascal.",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/penses.jpg",
+    "cover_url": "covers/penses.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -4499,7 +4499,7 @@
     "publisher": "Simon & Schuster",
     "open_library_key": "/works/OL28809W",
     "catalog_notes": "Found ISBN: 9780743272582; Year from Open Library: 2004",
-    "cover_url": "/covers/jokerman-the-lyrics-1962-2012.webp",
+    "cover_url": "covers/jokerman-the-lyrics-1962-2012.webp",
     "_flickr_id": "54429398036",
     "_match_score": 130,
     "tags": [
@@ -4596,7 +4596,7 @@
     "publisher": "Pen\u00ednsula",
     "open_library_key": "/works/OL612496W",
     "catalog_notes": "Found ISBN: 8483072688",
-    "cover_url": "/covers/the-songlines.jpg",
+    "cover_url": "covers/the-songlines.jpg",
     "_flickr_id": "49098364821",
     "_match_score": 70,
     "tags": [
@@ -4941,7 +4941,7 @@
     "publisher": "Routledge & Kegan Paul",
     "open_library_key": "/works/OL1092579W",
     "catalog_notes": "Found ISBN: 0710045166; Year from Open Library: 1819",
-    "cover_url": "/covers/don-juan.jpg",
+    "cover_url": "covers/don-juan.jpg",
     "book_author": null,
     "tags": [
       "futility",
@@ -5015,7 +5015,7 @@
     "publisher": "Signet",
     "open_library_key": "/works/OL261722W",
     "catalog_notes": "Found ISBN: 9780451626509",
-    "cover_url": "/covers/the-undiscovered-self.jpg",
+    "cover_url": "covers/the-undiscovered-self.jpg",
     "_flickr_id": "54553491300",
     "_match_score": 110,
     "tags": [
@@ -5082,7 +5082,7 @@
     "publisher": "Signet",
     "open_library_key": "/works/OL261722W",
     "catalog_notes": "Found ISBN: 9780451626509",
-    "cover_url": "/covers/the-undiscovered-self.jpg",
+    "cover_url": "covers/the-undiscovered-self.jpg",
     "_flickr_id": "54553151991",
     "_match_score": 120,
     "tags": [
@@ -5170,7 +5170,7 @@
     "publisher": "Signet",
     "open_library_key": "/works/OL261722W",
     "catalog_notes": "Found ISBN: 9780451626509",
-    "cover_url": "/covers/the-undiscovered-self.jpg",
+    "cover_url": "covers/the-undiscovered-self.jpg",
     "_flickr_id": "54552276487",
     "_match_score": 140,
     "tags": [
@@ -5242,7 +5242,7 @@
     "publisher": "Cr\u00edtica, Editorial Cr\u00edtica",
     "open_library_key": "/works/OL2950942W",
     "catalog_notes": "Found ISBN: 9788416771486",
-    "cover_url": "/covers/the-demon-haunted-world.jpg",
+    "cover_url": "covers/the-demon-haunted-world.jpg",
     "_flickr_id": "37587332251",
     "_match_score": 130,
     "tags": [
@@ -5309,7 +5309,7 @@
     "publisher": null,
     "open_library_key": "/works/OL11015367W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-death-of-artemio-cruz.jpg",
+    "cover_url": "covers/the-death-of-artemio-cruz.jpg",
     "_flickr_id": "53695536626",
     "_match_score": 180,
     "tags": [
@@ -5377,7 +5377,7 @@
     "publisher": null,
     "open_library_key": "/works/OL11015367W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-death-of-artemio-cruz.jpg",
+    "cover_url": "covers/the-death-of-artemio-cruz.jpg",
     "_flickr_id": "53695979445",
     "_match_score": 180,
     "tags": [
@@ -5439,7 +5439,7 @@
     "publisher": null,
     "open_library_key": "/works/OL11015367W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-death-of-artemio-cruz.jpg",
+    "cover_url": "covers/the-death-of-artemio-cruz.jpg",
     "_flickr_id": "53695749363",
     "_match_score": 170,
     "tags": [
@@ -5540,7 +5540,7 @@
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/the-descent-of-man-and-selection-in-relation-to-se.jpg",
+    "cover_url": "covers/the-descent-of-man-and-selection-in-relation-to-se.jpg",
     "_flickr_id": "46675164025",
     "tags": [
       "book",
@@ -5637,7 +5637,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL40997723W",
     "catalog_notes": "Found ISBN: 9781507787151; Year from Open Library: 2015",
-    "cover_url": "/covers/an-anonymous-story.jpg",
+    "cover_url": "covers/an-anonymous-story.jpg",
     "_flickr_id": "51222698500",
     "tags": [
       "Anton Chekhov",
@@ -5699,7 +5699,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL40997723W",
     "catalog_notes": "Found ISBN: 9781507787151; Year from Open Library: 2015",
-    "cover_url": "/covers/an-anonymous-story.jpg",
+    "cover_url": "covers/an-anonymous-story.jpg",
     "_flickr_id": "51221835123",
     "tags": [
       "Anton Chekhov",
@@ -5770,7 +5770,7 @@
     "publisher": "Gebr. Mann",
     "open_library_key": "/works/OL54653W",
     "catalog_notes": "Found ISBN: 9783786125631",
-    "cover_url": "/covers/a-natural-history-of-empty-lots.jpg",
+    "cover_url": "covers/a-natural-history-of-empty-lots.jpg",
     "_flickr_id": "54282995245",
     "_match_score": 70,
     "tags": [
@@ -5837,7 +5837,7 @@
     "publisher": "Gebr. Mann",
     "open_library_key": "/works/OL54653W",
     "catalog_notes": "Found ISBN: 9783786125631",
-    "cover_url": "/covers/a-natural-history-of-empty-lots.jpg",
+    "cover_url": "covers/a-natural-history-of-empty-lots.jpg",
     "_flickr_id": "54282808684",
     "_match_score": 60,
     "tags": [
@@ -5914,7 +5914,7 @@
     "publisher": "Simon & Schuster",
     "open_library_key": "/works/OL15399069W",
     "catalog_notes": "Found ISBN: 9780743270762; Year from Open Library: 2010",
-    "cover_url": "/covers/the-gun.jpg",
+    "cover_url": "covers/the-gun.jpg",
     "book_author": null,
     "_flickr_id": "54284542745",
     "_match_score": 170,
@@ -5997,7 +5997,7 @@
     "publisher": null,
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
-    "cover_url": "/covers/thinking-in-systems.jpg",
+    "cover_url": "covers/thinking-in-systems.jpg",
     "_flickr_id": "51727878818",
     "_match_score": 170,
     "tags": [
@@ -6070,7 +6070,7 @@
     "publisher": "LANDMARK",
     "open_library_key": "/works/OL93227W",
     "catalog_notes": "Found ISBN: 9788580700800; Year from Open Library: 1767",
-    "cover_url": "/covers/comedy-of-errors.jpg",
+    "cover_url": "covers/comedy-of-errors.jpg",
     "book_author": null,
     "tags": [
       "darkness",
@@ -6124,7 +6124,7 @@
     "publisher": "Einaudi",
     "open_library_key": "/works/OL2943602W",
     "catalog_notes": "Found ISBN: 9788806178727",
-    "cover_url": "/covers/infinite-jest.jpg",
+    "cover_url": "covers/infinite-jest.jpg",
     "_flickr_id": "54877237752",
     "tags": [
       "quote",
@@ -6186,7 +6186,7 @@
     "publisher": "Einaudi",
     "open_library_key": "/works/OL2943602W",
     "catalog_notes": "Found ISBN: 9788806178727",
-    "cover_url": "/covers/infinite-jest.jpg",
+    "cover_url": "covers/infinite-jest.jpg",
     "book_author": null,
     "tags": [
       "individuality",
@@ -6235,7 +6235,7 @@
     "publisher": "",
     "open_library_key": "/works/OL20153626W",
     "catalog_notes": "Found ISBN: 9791020907363",
-    "cover_url": "/covers/bullshit-jobs.jpg",
+    "cover_url": "covers/bullshit-jobs.jpg",
     "_flickr_id": "54322828159",
     "_match_score": 180,
     "tags": [
@@ -6313,7 +6313,7 @@
     "publisher": "",
     "open_library_key": "/works/OL20153626W",
     "catalog_notes": "Found ISBN: 9791020907363",
-    "cover_url": "/covers/bullshit-jobs.jpg",
+    "cover_url": "covers/bullshit-jobs.jpg",
     "_flickr_id": "54322828164",
     "_match_score": 180,
     "tags": [
@@ -6385,7 +6385,7 @@
     "publisher": "",
     "open_library_key": "/works/OL20153626W",
     "catalog_notes": "Found ISBN: 9791020907363",
-    "cover_url": "/covers/bullshit-jobs.jpg",
+    "cover_url": "covers/bullshit-jobs.jpg",
     "_flickr_id": "54322593981",
     "_match_score": 170,
     "tags": [
@@ -6452,7 +6452,7 @@
     "publisher": "Everest",
     "open_library_key": "/works/OL14909099W",
     "catalog_notes": "Found ISBN: 9786051418377",
-    "cover_url": "/covers/the-history-of-debt.jpg",
+    "cover_url": "covers/the-history-of-debt.jpg",
     "_flickr_id": "54602564667",
     "_match_score": 170,
     "tags": [
@@ -6530,7 +6530,7 @@
     "publisher": "Everest",
     "open_library_key": "/works/OL14909099W",
     "catalog_notes": "Found ISBN: 9786051418377",
-    "cover_url": "/covers/the-history-of-debt.jpg",
+    "cover_url": "covers/the-history-of-debt.jpg",
     "_flickr_id": "54602564677",
     "_match_score": 170,
     "tags": [
@@ -6607,7 +6607,7 @@
     "publisher": "",
     "open_library_key": "/works/OL20153626W",
     "catalog_notes": "Found ISBN: 9791020907363",
-    "cover_url": "/covers/bullshit-jobs.jpg",
+    "cover_url": "covers/bullshit-jobs.jpg",
     "_flickr_id": "54321705602",
     "_match_score": 180,
     "tags": [
@@ -6674,7 +6674,7 @@
     "publisher": "Companhia das Letras",
     "open_library_key": "/works/OL24663287W",
     "catalog_notes": "Found ISBN: 9786557826188",
-    "cover_url": "/covers/the-dawn-of-everything.jpg",
+    "cover_url": "covers/the-dawn-of-everything.jpg",
     "_match_score": 160,
     "book_author": null,
     "tags": [
@@ -6730,7 +6730,7 @@
     "publisher": "Everest Yayinlari",
     "open_library_key": "/works/OL17840829W",
     "catalog_notes": "Found ISBN: 9786051850078",
-    "cover_url": "/covers/9786051850078.jpg",
+    "cover_url": "covers/9786051850078.jpg",
     "_match_score": 110,
     "book_author": null,
     "tags": [
@@ -6780,7 +6780,7 @@
     "publisher": "Everest Yayinlari",
     "open_library_key": "/works/OL17840829W",
     "catalog_notes": "Found ISBN: 9786051850078",
-    "cover_url": "/covers/9786051850078.jpg",
+    "cover_url": "covers/9786051850078.jpg",
     "_match_score": 120,
     "book_author": null,
     "tags": [
@@ -6835,7 +6835,7 @@
     "publisher": "Everest Yayinlari",
     "open_library_key": "/works/OL17840829W",
     "catalog_notes": "Found ISBN: 9786051850078",
-    "cover_url": "/covers/9786051850078.jpg",
+    "cover_url": "covers/9786051850078.jpg",
     "_flickr_id": "54507190399",
     "_match_score": 120,
     "tags": [
@@ -6897,7 +6897,7 @@
     "needs_review": false,
     "book_author": "David Graeber",
     "isbn": "9786051850078",
-    "cover_url": "/covers/9786051850078.jpg",
+    "cover_url": "covers/9786051850078.jpg",
     "_flickr_id": "54507355980",
     "_match_score": 180,
     "tags": [
@@ -6978,7 +6978,7 @@
     "publisher": "Everest Yayinlari",
     "open_library_key": "/works/OL17840829W",
     "catalog_notes": "Found ISBN: 9786051850078; Year from Open Library: 2015",
-    "cover_url": "/covers/9786051850078.jpg",
+    "cover_url": "covers/9786051850078.jpg",
     "_flickr_id": "54507411188",
     "_match_score": 160,
     "tags": [
@@ -7045,7 +7045,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL44551914W",
     "catalog_notes": "Found ISBN: 9781802061604; Year from Open Library: 2025",
-    "cover_url": "/covers/the-ultimate-hidden-truth-of-the-world.jpg",
+    "cover_url": "covers/the-ultimate-hidden-truth-of-the-world.jpg",
     "book_author": null,
     "tags": [
       "anarchy",
@@ -7104,7 +7104,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL37868377W",
     "catalog_notes": "Found ISBN: 9780241611555; Year from Open Library: 2024",
-    "cover_url": "/covers/ultimate-hidden-truth.jpg",
+    "cover_url": "covers/ultimate-hidden-truth.jpg",
     "_flickr_id": "54603440621",
     "_match_score": 50,
     "tags": [
@@ -7173,7 +7173,7 @@
     "publisher": "Viking",
     "open_library_key": "/works/OL10626182W",
     "catalog_notes": "Found ISBN: 9780670830336",
-    "cover_url": "/covers/9780670830336.jpg",
+    "cover_url": "covers/9780670830336.jpg",
     "_flickr_id": "55029752919",
     "_match_score": 180,
     "tags": [
@@ -7245,7 +7245,7 @@
     "publisher": "Viking",
     "open_library_key": "/works/OL10626182W",
     "catalog_notes": "Found ISBN: 9780670830336",
-    "cover_url": "/covers/9780670830336.jpg",
+    "cover_url": "covers/9780670830336.jpg",
     "_flickr_id": "55029841250",
     "_match_score": 180,
     "tags": [
@@ -7313,7 +7313,7 @@
     "publisher": "Broadway",
     "open_library_key": "/works/OL3290872W",
     "catalog_notes": "Found ISBN: 9780767911733; Year from Open Library: 2004",
-    "cover_url": "/covers/letter-perfect.jpg",
+    "cover_url": "covers/letter-perfect.jpg",
     "_flickr_id": "52749820177",
     "_match_score": 170,
     "tags": [
@@ -7376,7 +7376,7 @@
     "needs_review": false,
     "book_author": "David Walsh",
     "isbn": null,
-    "cover_url": "/covers/monanisms.jpg",
+    "cover_url": "covers/monanisms.jpg",
     "_flickr_id": "52789255291",
     "tags": [
       "quote",
@@ -7452,7 +7452,7 @@
     "publisher": null,
     "open_library_key": "/works/OL31903823W",
     "catalog_notes": "Year from Open Library: 2020; No ISBN edition found",
-    "cover_url": "/covers/a-bone-of-fact.jpg",
+    "cover_url": "covers/a-bone-of-fact.jpg",
     "_flickr_id": "52789704818",
     "_match_score": 160,
     "tags": [
@@ -7524,7 +7524,7 @@
     "publisher": null,
     "open_library_key": "/works/OL31903823W",
     "catalog_notes": "Year from Open Library: 2020; No ISBN edition found",
-    "cover_url": "/covers/a-bone-of-fact.jpg",
+    "cover_url": "covers/a-bone-of-fact.jpg",
     "_flickr_id": "52788699247",
     "_match_score": 160,
     "tags": [
@@ -7581,7 +7581,7 @@
     "open_library_key": "/works/OL16048288W",
     "catalog_notes": "Found ISBN: 9780895770080",
     "book_author": "Mona",
-    "cover_url": "/covers/theatre-of-the-world.jpg",
+    "cover_url": "covers/theatre-of-the-world.jpg",
     "_flickr_id": "52811621171",
     "_match_score": 170,
     "tags": [
@@ -7658,7 +7658,7 @@
     "publisher": "Museum of Old and New Art",
     "open_library_key": "/works/OL32666057W",
     "catalog_notes": "Found ISBN: 9780992419295; Year from Open Library: 2016",
-    "cover_url": "/covers/on-the-origin-of-art.jpg",
+    "cover_url": "covers/on-the-origin-of-art.jpg",
     "book_author": "Mona",
     "_flickr_id": "52896622116",
     "_match_score": 150,
@@ -7721,7 +7721,7 @@
     "publisher": "Reader's Digest Association, Reader's Digest",
     "open_library_key": "/works/OL16048288W",
     "catalog_notes": "Found ISBN: 9780895770080; Year from Open Library: 1972",
-    "cover_url": "/covers/the-making-of-mona.jpg",
+    "cover_url": "covers/the-making-of-mona.jpg",
     "book_author": "Adrian Franklin",
     "_flickr_id": "53560903416",
     "_match_score": 70,
@@ -7781,7 +7781,7 @@
     "needs_review": false,
     "book_author": "Adrian Franklin",
     "isbn": null,
-    "cover_url": "/covers/the-making-of-mona.jpg",
+    "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53558950269",
     "_match_score": 90,
     "tags": [
@@ -7870,7 +7870,7 @@
     "open_library_key": "/works/OL24259583W",
     "catalog_notes": "Found ISBN: 9780544699588",
     "book_author": null,
-    "cover_url": "/covers/the-little-prince.webp",
+    "cover_url": "covers/the-little-prince.webp",
     "_flickr_id": "52939554318",
     "tags": [
       "book",
@@ -7947,7 +7947,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/complete-writings-19591975.jpg",
+    "cover_url": "covers/complete-writings-19591975.jpg",
     "tags": [
       "design",
       "art",
@@ -7995,7 +7995,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185; Year from Open Library: 2015",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_flickr_id": "52897072433",
     "tags": [
       "book",
@@ -8066,7 +8066,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL26416603W",
     "catalog_notes": "Found ISBN: 9798770072389",
-    "cover_url": "/covers/9798770072389.jpg",
+    "cover_url": "covers/9798770072389.jpg",
     "_flickr_id": "51264240160",
     "_match_score": 60,
     "tags": [
@@ -8138,7 +8138,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL26416603W",
     "catalog_notes": "Found ISBN: 9798770072389",
-    "cover_url": "/covers/9798770072389.jpg",
+    "cover_url": "covers/9798770072389.jpg",
     "_flickr_id": "51263943089",
     "_match_score": 60,
     "tags": [
@@ -8206,7 +8206,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL26416603W",
     "catalog_notes": "Found ISBN: 9798770072389",
-    "cover_url": "/covers/9798770072389.jpg",
+    "cover_url": "covers/9798770072389.jpg",
     "_flickr_id": "51264240330",
     "_match_score": 70,
     "tags": [
@@ -8279,7 +8279,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/quite-early-one-morning-stories-poems-and-essays.jpg",
+    "cover_url": "covers/quite-early-one-morning-stories-poems-and-essays.jpg",
     "tags": [
       "design",
       "simplicity",
@@ -8332,7 +8332,7 @@
     "publisher": null,
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
-    "cover_url": "/covers/war-and-peace-in-the-global-village.jpg",
+    "cover_url": "covers/war-and-peace-in-the-global-village.jpg",
     "book_author": null,
     "tags": [
       "society",
@@ -8377,7 +8377,7 @@
     "publisher": "St. Martin's Griffin (August 15, 1989), St. Martin's Griffin",
     "open_library_key": "/works/OL11334563W",
     "catalog_notes": "Found ISBN: 9780312064884",
-    "cover_url": "/covers/a-voice-crying-in-the-wilderness.jpg",
+    "cover_url": "covers/a-voice-crying-in-the-wilderness.jpg",
     "book_author": null,
     "tags": [
       "america",
@@ -8452,7 +8452,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "_flickr_id": "54405948112",
     "_match_score": 160,
@@ -8545,7 +8545,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "tags": [
       "poetry",
@@ -8594,7 +8594,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "tags": [
       "pessimism",
@@ -8659,7 +8659,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "tags": [
       "cioran",
@@ -8718,7 +8718,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "tags": [
       "cioran",
@@ -8782,7 +8782,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "tags": [
       "cioran",
@@ -8846,7 +8846,7 @@
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
-    "cover_url": "/covers/a-short-history-of-decay.png",
+    "cover_url": "covers/a-short-history-of-decay.png",
     "book_author": null,
     "tags": [
       "cioran",
@@ -8910,7 +8910,7 @@
     "publisher": "Ullstein Taschenbuchvlg.",
     "open_library_key": "/works/OL1184991W",
     "catalog_notes": "Found ISBN: 9783548367842",
-    "cover_url": "/covers/fear-of-freedom.jpg",
+    "cover_url": "covers/fear-of-freedom.jpg",
     "book_author": null,
     "_flickr_id": "48262305987",
     "_match_score": 180,
@@ -8983,7 +8983,7 @@
     "publisher": "HarperCollins Publishers",
     "open_library_key": "/works/OL15507960W",
     "catalog_notes": "Found ISBN: 9780062035127",
-    "cover_url": "/covers/on-disobedience.jpg",
+    "cover_url": "covers/on-disobedience.jpg",
     "_flickr_id": "53686595821",
     "_match_score": 170,
     "tags": [
@@ -9090,7 +9090,7 @@
     "publisher": "HarperCollins Publishers",
     "open_library_key": "/works/OL15507960W",
     "catalog_notes": "Found ISBN: 9780062035127",
-    "cover_url": "/covers/on-disobedience.jpg",
+    "cover_url": "covers/on-disobedience.jpg",
     "_flickr_id": "53687051780",
     "_match_score": 180,
     "tags": [
@@ -9157,7 +9157,7 @@
     "publisher": "Free Press",
     "open_library_key": "/works/OL154567W",
     "catalog_notes": "Found ISBN: 9780029024508",
-    "cover_url": "/covers/escape-from-evil.jpg",
+    "cover_url": "covers/escape-from-evil.jpg",
     "_flickr_id": "52398800800",
     "_match_score": 180,
     "tags": [
@@ -9214,7 +9214,7 @@
     "publisher": "Free Press",
     "open_library_key": "/works/OL154567W",
     "catalog_notes": "Found ISBN: 9780029024508",
-    "cover_url": "/covers/escape-from-evil.jpg",
+    "cover_url": "covers/escape-from-evil.jpg",
     "book_author": null,
     "_flickr_id": "52223745025",
     "tags": [
@@ -9282,7 +9282,7 @@
     "open_library_key": "/works/OL62979W",
     "catalog_notes": "Found ISBN: 9798434168557; Year from Open Library: 1926",
     "book_author": "Larry W. Philips",
-    "cover_url": "/covers/hemingway-on-writing.jpg",
+    "cover_url": "covers/hemingway-on-writing.jpg",
     "_flickr_id": "54003917814",
     "_match_score": 50,
     "tags": [
@@ -9463,7 +9463,7 @@
     "publisher": "Viking Press",
     "open_library_key": "/works/OL3282045W",
     "catalog_notes": "Found ISBN: 9780670573912",
-    "cover_url": "/covers/presentation-of-self-in-everyday-life.jpg",
+    "cover_url": "covers/presentation-of-self-in-everyday-life.jpg",
     "_flickr_id": "48262889476",
     "_match_score": 160,
     "tags": [
@@ -9554,7 +9554,7 @@
     "publisher": "Vintage Books",
     "open_library_key": "/works/OL474426W",
     "catalog_notes": "Found ISBN: 9780394712369",
-    "cover_url": "/covers/a-moon-for-the-misbegotten.jpg",
+    "cover_url": "covers/a-moon-for-the-misbegotten.jpg",
     "_flickr_id": "54065192030",
     "tags": [
       "quote",
@@ -9649,7 +9649,7 @@
     "publisher": "Gallimard",
     "open_library_key": "/works/OL468488W",
     "catalog_notes": "Found ISBN: 9782070299546",
-    "cover_url": "/covers/this-side-of-paradise.jpg",
+    "cover_url": "covers/this-side-of-paradise.jpg",
     "_flickr_id": "52223255391",
     "_match_score": 170,
     "tags": [
@@ -9727,7 +9727,7 @@
     "publisher": "Gallimard",
     "open_library_key": "/works/OL468488W",
     "catalog_notes": "Found ISBN: 9782070299546",
-    "cover_url": "/covers/this-side-of-paradise.jpg",
+    "cover_url": "covers/this-side-of-paradise.jpg",
     "_flickr_id": "52223255491",
     "_match_score": 170,
     "tags": [
@@ -9789,7 +9789,7 @@
     "publisher": "Oxford University Press",
     "open_library_key": "/works/OL259026W",
     "catalog_notes": "Found ISBN: 9780191584244; Year from Open Library: 1608",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "book_author": null,
     "tags": [
       "instinct",
@@ -9858,7 +9858,7 @@
     "publisher": "Creative Media Partners, LLC",
     "open_library_key": "/works/OL258902W",
     "catalog_notes": "Found ISBN: 9781017049442; Year from Open Library: 1508",
-    "cover_url": "/covers/macbeth.jpg",
+    "cover_url": "covers/macbeth.jpg",
     "book_author": null,
     "tags": [
       "shakespeare",
@@ -9913,7 +9913,7 @@
     "needs_review": false,
     "book_author": "Gustav Janouch",
     "isbn": null,
-    "cover_url": "/covers/conversations-with-kafka-notes-and-reminiscences.jpg",
+    "cover_url": "covers/conversations-with-kafka-notes-and-reminiscences.jpg",
     "tags": [
       "kafka",
       "franz kafka",
@@ -9976,7 +9976,7 @@
     "publisher": "Rizzoli",
     "open_library_key": "/works/OL498411W",
     "catalog_notes": "Found ISBN: 9788817167697",
-    "cover_url": "/covers/amerika.jpg",
+    "cover_url": "covers/amerika.jpg",
     "tags": [
       "kafka",
       "franz kafka",
@@ -10034,7 +10034,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL498556W",
     "catalog_notes": "Found ISBN: 9798518395817; Year from Open Library: 1915",
-    "cover_url": "/covers/meditations-on-sin-suffering-and-hope.jpg",
+    "cover_url": "covers/meditations-on-sin-suffering-and-hope.jpg",
     "_flickr_id": "53819022276",
     "tags": [
       "Alberto Manguel",
@@ -10086,7 +10086,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9781781682708",
-    "cover_url": "/covers/a-philosophy-of-walking.jpg",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
     "_match_score": 100,
     "tags": [
       "walking",
@@ -10136,7 +10136,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9781781682708",
-    "cover_url": "/covers/a-philosophy-of-walking.jpg",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
     "_match_score": 100,
     "tags": [
       "walking",
@@ -10184,7 +10184,7 @@
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/twilight-of-the-idols.jpg",
+    "cover_url": "covers/twilight-of-the-idols.jpg",
     "tags": [
       "nietzsche",
       "friedrich nietzsche",
@@ -10242,7 +10242,7 @@
     "publisher": "Vintage",
     "open_library_key": "/works/OL15326236W",
     "catalog_notes": "Found ISBN: 9780679724629",
-    "cover_url": "/covers/ecce-homo.jpg",
+    "cover_url": "covers/ecce-homo.jpg",
     "_flickr_id": "53681803761",
     "tags": [
       "book",
@@ -10289,7 +10289,7 @@
     "publisher": "Penguin Books Ltd",
     "open_library_key": "/works/OL98106W",
     "catalog_notes": "Found ISBN: 9780141018973",
-    "cover_url": "/covers/why-i-am-so-wise.jpg",
+    "cover_url": "covers/why-i-am-so-wise.jpg",
     "_flickr_id": "53682028633",
     "_match_score": 170,
     "tags": [
@@ -10342,7 +10342,7 @@
     "publisher": "Penguin Books Ltd",
     "open_library_key": "/works/OL98106W",
     "catalog_notes": "Found ISBN: 9780141018973",
-    "cover_url": "/covers/why-i-am-so-wise.jpg",
+    "cover_url": "covers/why-i-am-so-wise.jpg",
     "_flickr_id": "53680939612",
     "_match_score": 160,
     "tags": [
@@ -10390,7 +10390,7 @@
     "publisher": "Penguin Books Ltd",
     "open_library_key": "/works/OL98106W",
     "catalog_notes": "Found ISBN: 9780141018973",
-    "cover_url": "/covers/why-i-am-so-wise.jpg",
+    "cover_url": "covers/why-i-am-so-wise.jpg",
     "_flickr_id": "53682167984",
     "_match_score": 160,
     "tags": [
@@ -10443,7 +10443,7 @@
     "publisher": "L&PM",
     "open_library_key": "/works/OL15692719W",
     "catalog_notes": "Found ISBN: 9788525417916",
-    "cover_url": "/covers/9788525417916.jpg",
+    "cover_url": "covers/9788525417916.jpg",
     "tags": [
       "nietzsche",
       "friedrich nietzsche",
@@ -10501,7 +10501,7 @@
     "publisher": "L&PM",
     "open_library_key": "/works/OL15692719W",
     "catalog_notes": "Found ISBN: 9788525417916",
-    "cover_url": "/covers/9788525417916.jpg",
+    "cover_url": "covers/9788525417916.jpg",
     "_flickr_id": "53682168019",
     "tags": [
       "book",
@@ -10558,7 +10558,7 @@
     "publisher": "L&PM",
     "open_library_key": "/works/OL15692719W",
     "catalog_notes": "Found ISBN: 9788525417916",
-    "cover_url": "/covers/9788525417916.jpg",
+    "cover_url": "covers/9788525417916.jpg",
     "_flickr_id": "53682262510",
     "tags": [
       "book",
@@ -10616,7 +10616,7 @@
     "needs_review": false,
     "book_author": "Frederic Gros",
     "isbn": "9781781682708",
-    "cover_url": "/covers/a-philosophy-of-walking.jpg",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
     "_flickr_id": "54772112497",
     "_match_score": 100,
     "tags": [
@@ -10689,7 +10689,7 @@
     "needs_review": false,
     "book_author": "Nassim Nicholas Taleb",
     "isbn": "9780141982656",
-    "cover_url": "/covers/skin-in-the-game-hidden-asymmetries-in-daily-life.jpg",
+    "cover_url": "covers/skin-in-the-game-hidden-asymmetries-in-daily-life.jpg",
     "_flickr_id": "31406918507",
     "tags": [
       "book",
@@ -10766,7 +10766,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53986003477",
     "_match_score": 190,
     "tags": [
@@ -10834,7 +10834,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53987327250",
     "_match_score": 170,
     "tags": [
@@ -10912,7 +10912,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53987134778",
     "_match_score": 170,
     "tags": [
@@ -10990,7 +10990,7 @@
     "publisher": "Todavia",
     "open_library_key": "/works/OL166894W",
     "catalog_notes": "Found ISBN: 9788588808850",
-    "cover_url": "/covers/the-meek-one.jpg",
+    "cover_url": "covers/the-meek-one.jpg",
     "_flickr_id": "53368161351",
     "_match_score": 60,
     "tags": [
@@ -11057,7 +11057,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53986003532",
     "_match_score": 160,
     "tags": [
@@ -11124,7 +11124,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53986003507",
     "_match_score": 170,
     "tags": [
@@ -11183,7 +11183,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53987210779",
     "_match_score": 190,
     "tags": [
@@ -11241,7 +11241,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL41445411W",
     "catalog_notes": "Found ISBN: 9781985793736",
-    "cover_url": "/covers/9781985793736.jpg",
+    "cover_url": "covers/9781985793736.jpg",
     "_flickr_id": "53987210854",
     "_match_score": 160,
     "tags": [
@@ -11300,7 +11300,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_flickr_id": "54768929963",
     "_match_score": 110,
     "tags": [
@@ -11368,7 +11368,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 110,
     "book_author": null,
     "tags": [
@@ -11429,7 +11429,7 @@
     "open_library_key": "/works/OL166948W",
     "catalog_notes": "Found ISBN: 9781406734362",
     "book_author": null,
-    "cover_url": "/covers/the-gambler.jpg",
+    "cover_url": "covers/the-gambler.jpg",
     "_flickr_id": "45001819394",
     "_match_score": 160,
     "tags": [
@@ -11520,7 +11520,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 120,
     "book_author": null,
     "tags": [
@@ -11561,7 +11561,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -11611,7 +11611,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -11656,7 +11656,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 110,
     "book_author": null,
     "tags": [
@@ -11702,7 +11702,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -11752,7 +11752,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 120,
     "book_author": null,
     "tags": [
@@ -11803,7 +11803,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -11848,7 +11848,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "/covers/9798457106185.jpg",
+    "cover_url": "covers/9798457106185.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -11888,7 +11888,7 @@
     "publisher": "The New American Library, The New English Library",
     "open_library_key": "/works/OL166934W",
     "catalog_notes": "Found ISBN: 0451512235",
-    "cover_url": "/covers/the-dream-of-a-ridiculous-man.jpg",
+    "cover_url": "covers/the-dream-of-a-ridiculous-man.jpg",
     "_flickr_id": "54894028980",
     "_match_score": 100,
     "tags": [
@@ -11957,7 +11957,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/empirical-model-building-and-response-surfaces.jpg",
+    "cover_url": "covers/empirical-model-building-and-response-surfaces.jpg",
     "_flickr_id": "53820220187",
     "tags": [
       "quote",
@@ -12018,7 +12018,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL3179606W",
     "catalog_notes": "Found ISBN: 0140561218",
-    "cover_url": "/covers/the-history-of-things.jpg",
+    "cover_url": "covers/the-history-of-things.jpg",
     "book_author": null,
     "tags": [
       "luck",
@@ -12066,7 +12066,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/the-shape-of-time-remarks-on-the-history-of-things.jpg",
+    "cover_url": "covers/the-shape-of-time-remarks-on-the-history-of-things.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -12111,7 +12111,7 @@
     "publisher": "Pearson Education, Limited",
     "open_library_key": "/works/OL11326416W",
     "catalog_notes": "Found ISBN: 9781408292464; Year from Open Library: 2003",
-    "cover_url": "/covers/1984.jpg",
+    "cover_url": "covers/1984.jpg",
     "_flickr_id": "54222264637",
     "tags": [
       "quote",
@@ -12170,7 +12170,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/the-life-of-reason-or-the-phases-of-human-progress.jpg",
+    "cover_url": "covers/the-life-of-reason-or-the-phases-of-human-progress.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -12225,7 +12225,7 @@
     "publisher": null,
     "open_library_key": "/works/OL43062707W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-man-who-was-thursday.jpg",
+    "cover_url": "covers/the-man-who-was-thursday.jpg",
     "_flickr_id": "53212561803",
     "_match_score": 140,
     "tags": [
@@ -12307,7 +12307,7 @@
     "publisher": null,
     "open_library_key": "/works/OL43062707W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-man-who-was-thursday.jpg",
+    "cover_url": "covers/the-man-who-was-thursday.jpg",
     "_flickr_id": "53211372252",
     "_match_score": 130,
     "tags": [
@@ -12390,7 +12390,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/whats-wrong-with-the-world.jpg",
+    "cover_url": "covers/whats-wrong-with-the-world.jpg",
     "tags": [
       "humour",
       "poorly",
@@ -12434,7 +12434,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9780486201463",
-    "cover_url": "/covers/the-maxims-and-reflections-of-goethe.jpg",
+    "cover_url": "covers/the-maxims-and-reflections-of-goethe.jpg",
     "_flickr_id": "53379233798",
     "tags": [
       "goethe",
@@ -12481,7 +12481,7 @@
     "needs_review": false,
     "book_author": "Aldous Huxley",
     "isbn": "9788804508434",
-    "cover_url": "/covers/the-doors-of-perception.jpg",
+    "cover_url": "covers/the-doors-of-perception.jpg",
     "tags": [
       "talking",
       "drawing",
@@ -12555,7 +12555,7 @@
     "needs_review": false,
     "book_author": "William Poundstone",
     "isbn": null,
-    "cover_url": "/covers/fortunes-formula.avif",
+    "cover_url": "covers/fortunes-formula.avif",
     "_flickr_id": "32882297608",
     "tags": [
       "book",
@@ -12662,7 +12662,7 @@
     "open_library_key": "/works/OL27034619W",
     "catalog_notes": "Found ISBN: 9788934947202",
     "book_author": null,
-    "cover_url": "/covers/the-invisible-gorilla.jpg",
+    "cover_url": "covers/the-invisible-gorilla.jpg",
     "tags": [
       "knowledge",
       "understanding",
@@ -12731,7 +12731,7 @@
     "open_library_key": "/works/OL27034619W",
     "catalog_notes": "Found ISBN: 9788934947202",
     "book_author": null,
-    "cover_url": "/covers/the-invisible-gorilla.jpg",
+    "cover_url": "covers/the-invisible-gorilla.jpg",
     "tags": [
       "intelligence",
       "expertise",
@@ -12794,7 +12794,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL106054W",
     "catalog_notes": "Found ISBN: 9781536882469",
-    "cover_url": "/covers/9781536882469.jpg",
+    "cover_url": "covers/9781536882469.jpg",
     "_flickr_id": "54389684836",
     "_match_score": 110,
     "tags": [
@@ -12852,7 +12852,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL106054W",
     "catalog_notes": "Found ISBN: 9781536882469",
-    "cover_url": "/covers/9781536882469.jpg",
+    "cover_url": "covers/9781536882469.jpg",
     "_flickr_id": "54388809717",
     "_match_score": 110,
     "tags": [
@@ -12906,7 +12906,7 @@
     "needs_review": false,
     "book_author": "Adrian Franklin",
     "isbn": null,
-    "cover_url": "/covers/the-making-of-mona.jpg",
+    "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53561234039",
     "_match_score": 70,
     "tags": [
@@ -12969,7 +12969,7 @@
     "needs_review": false,
     "book_author": "Adrian Franklin",
     "isbn": null,
-    "cover_url": "/covers/the-making-of-mona.jpg",
+    "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53558813328",
     "_match_score": 50,
     "tags": [
@@ -13037,7 +13037,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL893707W",
     "catalog_notes": "Found ISBN: 9781727475883; Year from Open Library: 1856",
-    "cover_url": "/covers/madame-bovary.jpg",
+    "cover_url": "covers/madame-bovary.jpg",
     "_flickr_id": "48580652136",
     "tags": [
       "quote",
@@ -13098,7 +13098,7 @@
     "needs_review": false,
     "book_author": "Sean Adams",
     "isbn": null,
-    "cover_url": "/covers/why-design-makes-us-think.jpg",
+    "cover_url": "covers/why-design-makes-us-think.jpg",
     "_flickr_id": "52812030575",
     "tags": [
       "book",
@@ -13171,7 +13171,7 @@
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
     "book_author": null,
-    "cover_url": "/covers/factfulness.jpg",
+    "cover_url": "covers/factfulness.jpg",
     "_flickr_id": "30104131228",
     "_match_score": 160,
     "tags": [
@@ -13249,7 +13249,7 @@
     "publisher": null,
     "open_library_key": "/works/OL42267453W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/almansor.jpg",
+    "cover_url": "covers/almansor.jpg",
     "book_author": null,
     "_flickr_id": "52896622541",
     "tags": [
@@ -13317,7 +13317,7 @@
     "needs_review": false,
     "book_author": "Ellen Lupton, Andrea Lipps",
     "isbn": null,
-    "cover_url": "/covers/design-beyond-vision.webp",
+    "cover_url": "covers/design-beyond-vision.webp",
     "_flickr_id": "52657245816",
     "_match_score": 70,
     "tags": [
@@ -13405,7 +13405,7 @@
     "needs_review": false,
     "book_author": "Bertrand Russell",
     "isbn": null,
-    "cover_url": "/covers/the-history-of-western-philosophy.png",
+    "cover_url": "covers/the-history-of-western-philosophy.png",
     "_flickr_id": "51070059701",
     "tags": [
       "book",
@@ -13477,7 +13477,7 @@
     "needs_review": false,
     "book_author": "Frederic Gros",
     "isbn": null,
-    "cover_url": "/covers/a-philosophy-of-walking.jpg",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
     "_flickr_id": "54832299107",
     "_match_score": 50,
     "tags": [
@@ -13550,7 +13550,7 @@
     "needs_review": false,
     "book_author": "Frederic Gros",
     "isbn": null,
-    "cover_url": "/covers/a-philosophy-of-walking.jpg",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
     "_flickr_id": "54833385069",
     "_match_score": 70,
     "tags": [
@@ -13603,7 +13603,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/walden.webp",
+    "cover_url": "covers/walden.webp",
     "_match_score": 160,
     "tags": [
       "time",
@@ -13644,7 +13644,7 @@
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
     "book_author": "Henry Petroski",
-    "cover_url": "/covers/the-book-on-the-bookshelf.jpg",
+    "cover_url": "covers/the-book-on-the-bookshelf.jpg",
     "tags": [
       "books",
       "reading",
@@ -13692,7 +13692,7 @@
     "publisher": "MIT Press",
     "open_library_key": "/works/OL1205035W",
     "catalog_notes": "Found ISBN: 0262691914; Year from Open Library: 1969",
-    "cover_url": "/covers/0262691914.jpg",
+    "cover_url": "covers/0262691914.jpg",
     "book_author": null,
     "tags": [
       "wonder",
@@ -13756,7 +13756,7 @@
     "publisher": "MIT Press",
     "open_library_key": "/works/OL1205035W",
     "catalog_notes": "Found ISBN: 0262691914; Year from Open Library: 1969",
-    "cover_url": "/covers/0262691914.jpg",
+    "cover_url": "covers/0262691914.jpg",
     "book_author": null,
     "tags": [
       "problem solving",
@@ -13815,7 +13815,7 @@
     "publisher": "Bruguera",
     "open_library_key": "/works/OL102749W",
     "catalog_notes": "Found ISBN: 8402065929",
-    "cover_url": "/covers/moby-dick.jpg",
+    "cover_url": "covers/moby-dick.jpg",
     "_flickr_id": "14789498980",
     "_match_score": 170,
     "tags": [
@@ -13866,7 +13866,7 @@
     "notes": "Year of birth and death provided, no specific year or publication mentioned for quote.",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/the-outline-of-history.jpg",
+    "cover_url": "covers/the-outline-of-history.jpg",
     "_flickr_id": "52750762030",
     "tags": [
       "quote",
@@ -13953,7 +13953,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/a-mencken-chrestomathy.jpg",
+    "cover_url": "covers/a-mencken-chrestomathy.jpg",
     "_flickr_id": "54324653064",
     "tags": [
       "quote",
@@ -14039,7 +14039,7 @@
     "publisher": null,
     "open_library_key": "/works/OL2629597W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-science-of-fear.webp",
+    "cover_url": "covers/the-science-of-fear.webp",
     "book_author": "Dan Gardner",
     "_flickr_id": "50378033342",
     "tags": [
@@ -14132,7 +14132,7 @@
     "publisher": null,
     "open_library_key": "/works/OL33848977W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/building-a-bridge-to-the-18th-century.png",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
     "book_author": "Neil Postman",
     "_flickr_id": "40733424714",
     "tags": [
@@ -14200,7 +14200,7 @@
     "open_library_key": "/works/OL1701279W",
     "catalog_notes": "Found ISBN: 9783849138035; Year from Open Library: 1882",
     "book_author": "Harold Innis",
-    "cover_url": "/covers/the-bias-of-communication.jpg",
+    "cover_url": "covers/the-bias-of-communication.jpg",
     "tags": [
       "invention",
       "mind",
@@ -14258,7 +14258,7 @@
     "publisher": "Penguin Random House",
     "open_library_key": "/works/OL29323043W",
     "catalog_notes": "Found ISBN: 9781473570535",
-    "cover_url": "/covers/serotonin.jpg",
+    "cover_url": "covers/serotonin.jpg",
     "_flickr_id": "49205561768",
     "_match_score": 170,
     "tags": [
@@ -14320,7 +14320,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14370,7 +14370,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14440,7 +14440,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14515,7 +14515,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14575,7 +14575,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14625,7 +14625,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14680,7 +14680,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14730,7 +14730,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14785,7 +14785,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL158088W",
     "catalog_notes": "Found ISBN: 0713997141",
-    "cover_url": "/covers/0713997141.jpg",
+    "cover_url": "covers/0713997141.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -14841,7 +14841,7 @@
     "open_library_key": "/works/OL21562400W",
     "catalog_notes": "Found ISBN: 9788415862307",
     "book_author": null,
-    "cover_url": "/covers/to-our-friends.jpg",
+    "cover_url": "covers/to-our-friends.jpg",
     "_flickr_id": "47255014972",
     "_match_score": 120,
     "tags": [
@@ -14924,7 +14924,7 @@
     "needs_review": false,
     "book_author": "Max Tegmark",
     "isbn": null,
-    "cover_url": "/covers/life-30.jpg",
+    "cover_url": "covers/life-30.jpg",
     "_flickr_id": "52896622246",
     "_match_score": 90,
     "tags": [
@@ -14997,7 +14997,7 @@
     "needs_review": false,
     "book_author": "Richard S. Westfall",
     "isbn": "9780521299730",
-    "cover_url": "/covers/never-at-rest-a-biography-of-isaac-newton.jpg",
+    "cover_url": "covers/never-at-rest-a-biography-of-isaac-newton.jpg",
     "_flickr_id": "8042192530",
     "tags": [
       "quote",
@@ -15108,7 +15108,7 @@
     "publisher": "French and European Publications Inc",
     "open_library_key": "/works/OL15307W",
     "catalog_notes": "Found ISBN: 9782070453009; Year from Open Library: 1958",
-    "cover_url": "/covers/marcovaldo.jpg",
+    "cover_url": "covers/marcovaldo.jpg",
     "book_author": null,
     "_flickr_id": "52746884509",
     "_match_score": 50,
@@ -15226,7 +15226,7 @@
     "publisher": "Penguin Random House",
     "open_library_key": "/works/OL24233895W",
     "catalog_notes": "Found ISBN: 9781446414279",
-    "cover_url": "/covers/invisible-cities.jpg",
+    "cover_url": "covers/invisible-cities.jpg",
     "_flickr_id": "54296077123",
     "_match_score": 170,
     "tags": [
@@ -15298,7 +15298,7 @@
     "publisher": "Penguin Random House",
     "open_library_key": "/works/OL24233895W",
     "catalog_notes": "Found ISBN: 9781446414279",
-    "cover_url": "/covers/invisible-cities.jpg",
+    "cover_url": "covers/invisible-cities.jpg",
     "_flickr_id": "54294947122",
     "_match_score": 170,
     "tags": [
@@ -15370,7 +15370,7 @@
     "publisher": "Penguin Random House",
     "open_library_key": "/works/OL24233895W",
     "catalog_notes": "Found ISBN: 9781446414279",
-    "cover_url": "/covers/invisible-cities.jpg",
+    "cover_url": "covers/invisible-cities.jpg",
     "_flickr_id": "54295828746",
     "_match_score": 170,
     "tags": [
@@ -15452,7 +15452,7 @@
     "publisher": "Penguin Random House",
     "open_library_key": "/works/OL24233895W",
     "catalog_notes": "Found ISBN: 9781446414279",
-    "cover_url": "/covers/invisible-cities.jpg",
+    "cover_url": "covers/invisible-cities.jpg",
     "_flickr_id": "54296066099",
     "_match_score": 180,
     "tags": [
@@ -15534,7 +15534,7 @@
     "publisher": "Penguin Random House",
     "open_library_key": "/works/OL24233895W",
     "catalog_notes": "Found ISBN: 9781446414279",
-    "cover_url": "/covers/invisible-cities.jpg",
+    "cover_url": "covers/invisible-cities.jpg",
     "_flickr_id": "54296077138",
     "_match_score": 180,
     "tags": [
@@ -15606,7 +15606,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL17433200W",
     "catalog_notes": "Found ISBN: 9780141189697",
-    "cover_url": "/covers/six-memos.jpg",
+    "cover_url": "covers/six-memos.jpg",
     "_flickr_id": "54379356294",
     "_match_score": 160,
     "tags": [
@@ -15723,7 +15723,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL17433200W",
     "catalog_notes": "Found ISBN: 9780141189697",
-    "cover_url": "/covers/six-memos.jpg",
+    "cover_url": "covers/six-memos.jpg",
     "_flickr_id": "54389796876",
     "_match_score": 180,
     "tags": [
@@ -15800,7 +15800,7 @@
     "publisher": "Rupa & Co",
     "open_library_key": "/works/OL31839173W",
     "catalog_notes": "Found ISBN: 9788171674985",
-    "cover_url": "/covers/fathers-sons.jpg",
+    "cover_url": "covers/fathers-sons.jpg",
     "book_author": null,
     "_flickr_id": "46296212192",
     "tags": [
@@ -15897,7 +15897,7 @@
     "publisher": "Shambhala Audio",
     "open_library_key": "/works/OL65927W",
     "catalog_notes": "Found ISBN: 9780877736806",
-    "cover_url": "/covers/mexico-city-blues.jpg",
+    "cover_url": "covers/mexico-city-blues.jpg",
     "book_author": null,
     "_flickr_id": "54894028990",
     "_match_score": 160,
@@ -15980,7 +15980,7 @@
     "publisher": "Shambhala Audio",
     "open_library_key": "/works/OL65927W",
     "catalog_notes": "Found ISBN: 9780877736806",
-    "cover_url": "/covers/mexico-city-blues.jpg",
+    "cover_url": "covers/mexico-city-blues.jpg",
     "book_author": null,
     "_flickr_id": "54878360374",
     "_match_score": 170,
@@ -16053,7 +16053,7 @@
     "publisher": null,
     "open_library_key": "/works/OL18520159W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-presence-of-the-kingdom.jpg",
+    "cover_url": "covers/the-presence-of-the-kingdom.jpg",
     "_flickr_id": "51155401645",
     "_match_score": 120,
     "tags": [
@@ -16127,7 +16127,7 @@
     "publisher": "Economica",
     "open_library_key": "/works/OL1985884W",
     "catalog_notes": "Found ISBN: 9782717818482",
-    "cover_url": "/covers/propaganda.jpg",
+    "cover_url": "covers/propaganda.jpg",
     "_match_score": 160,
     "book_author": null,
     "tags": [
@@ -16192,7 +16192,7 @@
     "publisher": "Economica",
     "open_library_key": "/works/OL1985884W",
     "catalog_notes": "Found ISBN: 9782717818482",
-    "cover_url": "/covers/propaganda.jpg",
+    "cover_url": "covers/propaganda.jpg",
     "_match_score": 180,
     "book_author": null,
     "tags": [
@@ -16257,7 +16257,7 @@
     "publisher": "Dell Publishing",
     "open_library_key": "/works/OL228718W",
     "catalog_notes": "Found ISBN: 9780803785793",
-    "cover_url": "/covers/tell-me-how-long-the-trains-been-gone.jpg",
+    "cover_url": "covers/tell-me-how-long-the-trains-been-gone.jpg",
     "_flickr_id": "49389071772",
     "_match_score": 60,
     "tags": [
@@ -16325,7 +16325,7 @@
     "publisher": "Dell Publishing",
     "open_library_key": "/works/OL228718W",
     "catalog_notes": "Found ISBN: 9780803785793",
-    "cover_url": "/covers/tell-me-how-long-the-trains-been-gone.jpg",
+    "cover_url": "covers/tell-me-how-long-the-trains-been-gone.jpg",
     "_flickr_id": "49388874626",
     "_match_score": 70,
     "tags": [
@@ -16403,7 +16403,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL26003614W",
     "catalog_notes": "Found ISBN: 9780141994260",
-    "cover_url": "/covers/ways-of-being.jpg",
+    "cover_url": "covers/ways-of-being.jpg",
     "_flickr_id": "53149394041",
     "_match_score": 170,
     "tags": [
@@ -16491,7 +16491,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL86318W",
     "catalog_notes": "Found ISBN: 9781721068074; Year from Open Library: 1914",
-    "cover_url": "/covers/in-praise-of-walking.webp",
+    "cover_url": "covers/in-praise-of-walking.webp",
     "_flickr_id": "48719796716",
     "_match_score": 60,
     "tags": [
@@ -16570,7 +16570,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL86319W",
     "catalog_notes": "Found ISBN: 9798724095471",
-    "cover_url": "/covers/war-and-peace-in-the-global-village.jpg",
+    "cover_url": "covers/war-and-peace-in-the-global-village.jpg",
     "book_author": "Marshall McLuhan",
     "_flickr_id": "52812030335",
     "_match_score": 60,
@@ -16633,7 +16633,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL86318W",
     "catalog_notes": "Found ISBN: 9781721068074",
-    "cover_url": "/covers/ulysses.jpg",
+    "cover_url": "covers/ulysses.jpg",
     "_match_score": 80,
     "book_author": null,
     "tags": [
@@ -16683,7 +16683,7 @@
     "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
-    "cover_url": "/covers/a-portrait-of-the-artist-as-a-young-man.jpg",
+    "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
     "book_author": null,
     "tags": [
       "darkness",
@@ -16737,7 +16737,7 @@
     "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
-    "cover_url": "/covers/a-portrait-of-the-artist-as-a-young-man.jpg",
+    "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
     "book_author": null,
     "tags": [
       "achievement",
@@ -16791,7 +16791,7 @@
     "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
-    "cover_url": "/covers/a-portrait-of-the-artist-as-a-young-man.jpg",
+    "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
     "book_author": null,
     "tags": [
       "ideas",
@@ -16846,7 +16846,7 @@
     "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
-    "cover_url": "/covers/a-portrait-of-the-artist-as-a-young-man.jpg",
+    "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
     "book_author": null,
     "tags": [
       "past",
@@ -16900,7 +16900,7 @@
     "publisher": "Penguin Books, Limited, Viking",
     "open_library_key": "/works/OL276557W",
     "catalog_notes": "Found ISBN: 9780141035239; Year from Open Library: 2004",
-    "cover_url": "/covers/collapse.jpg",
+    "cover_url": "covers/collapse.jpg",
     "_flickr_id": "50474828587",
     "_match_score": 170,
     "tags": [
@@ -16969,7 +16969,7 @@
     "needs_review": false,
     "book_author": "Lawrence Weschler",
     "isbn": null,
-    "cover_url": "/covers/mr-wilsons-cabinet-of-wonders.jpg",
+    "cover_url": "covers/mr-wilsons-cabinet-of-wonders.jpg",
     "_flickr_id": "54895462318",
     "tags": [
       "quote",
@@ -17051,7 +17051,7 @@
     "open_library_key": "/works/OL18569583W",
     "catalog_notes": "Found ISBN: 9782711856138",
     "book_author": null,
-    "cover_url": "/covers/theatre-of-the-world.jpg",
+    "cover_url": "covers/theatre-of-the-world.jpg",
     "_flickr_id": "52811621356",
     "_match_score": 190,
     "tags": [
@@ -17118,7 +17118,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/escape-from-evil.png",
+    "cover_url": "covers/escape-from-evil.png",
     "_flickr_id": "52398800860",
     "tags": [
       "quote",
@@ -17268,7 +17268,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/reveries-of-the-solitary-walker.jpg",
+    "cover_url": "covers/reveries-of-the-solitary-walker.jpg",
     "_flickr_id": "20145870809",
     "_match_score": 160,
     "tags": [
@@ -17361,7 +17361,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL31613772W",
     "catalog_notes": "Found ISBN: 9781511971249",
-    "cover_url": "/covers/nausea.jpg",
+    "cover_url": "covers/nausea.jpg",
     "_flickr_id": "38919958214",
     "_match_score": 170,
     "tags": [
@@ -17448,7 +17448,7 @@
     "publisher": "Yale University Press",
     "open_library_key": "/works/OL1161181W",
     "catalog_notes": "Found ISBN: 9780300115468",
-    "cover_url": "/covers/existentialism-is-a-humanism.jpg",
+    "cover_url": "covers/existentialism-is-a-humanism.jpg",
     "book_author": null,
     "tags": [
       "self",
@@ -17502,7 +17502,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL31613772W",
     "catalog_notes": "Found ISBN: 9781511971249",
-    "cover_url": "/covers/nausea.jpg",
+    "cover_url": "covers/nausea.jpg",
     "_flickr_id": "27850721279",
     "_match_score": 180,
     "tags": [
@@ -17599,7 +17599,7 @@
     "publisher": "Basic Books",
     "open_library_key": "/works/OL24217597W",
     "catalog_notes": "Found ISBN: 9781541675797",
-    "cover_url": "/covers/a-thousands-brains.jpg",
+    "cover_url": "covers/a-thousands-brains.jpg",
     "book_author": null,
     "tags": [
       "knowledge",
@@ -17663,7 +17663,7 @@
     "publisher": "Basic Books",
     "open_library_key": "/works/OL24217597W",
     "catalog_notes": "Found ISBN: 9781541675797",
-    "cover_url": "/covers/a-thousands-brains.jpg",
+    "cover_url": "covers/a-thousands-brains.jpg",
     "book_author": null,
     "tags": [
       "learning",
@@ -17712,7 +17712,7 @@
     "publisher": "Faber & Faber, Limited",
     "open_library_key": "/works/OL22151172W",
     "catalog_notes": "Found ISBN: 9780571367207",
-    "cover_url": "/covers/9780571367207.jpg",
+    "cover_url": "covers/9780571367207.jpg",
     "_flickr_id": "53281545093",
     "_match_score": 160,
     "tags": [
@@ -17776,7 +17776,7 @@
     "publisher": "Faber & Faber, Limited",
     "open_library_key": "/works/OL22151172W",
     "catalog_notes": "Found ISBN: 9780571367207",
-    "cover_url": "/covers/9780571367207.jpg",
+    "cover_url": "covers/9780571367207.jpg",
     "_flickr_id": "53281261171",
     "_match_score": 170,
     "tags": [
@@ -17849,7 +17849,7 @@
     "publisher": "Faber & Faber, Limited",
     "open_library_key": "/works/OL22151172W",
     "catalog_notes": "Found ISBN: 9780571367207",
-    "cover_url": "/covers/9780571367207.jpg",
+    "cover_url": "covers/9780571367207.jpg",
     "_flickr_id": "53281545203",
     "_match_score": 170,
     "tags": [
@@ -17907,7 +17907,7 @@
     "publisher": "University of Chicago Press",
     "open_library_key": "/works/OL42403282W",
     "catalog_notes": "Found ISBN: 9780226828138",
-    "cover_url": "/covers/unforgiving-places.jpg",
+    "cover_url": "covers/unforgiving-places.jpg",
     "_flickr_id": "54769931902",
     "_match_score": 70,
     "tags": [
@@ -17989,7 +17989,7 @@
     "publisher": "Sierra Club Books",
     "open_library_key": "/works/OL553396W",
     "catalog_notes": "Found ISBN: 0871567393; Year from Open Library: 1991",
-    "cover_url": "/covers/in-the-absence-of-the-sacred.jpg",
+    "cover_url": "covers/in-the-absence-of-the-sacred.jpg",
     "_flickr_id": "26790172568",
     "_match_score": 160,
     "tags": [
@@ -18068,7 +18068,7 @@
     "needs_review": false,
     "book_author": "Bruce Chatwin",
     "isbn": null,
-    "cover_url": "/covers/the-songlines.jpg",
+    "cover_url": "covers/the-songlines.jpg",
     "_flickr_id": "49098413251",
     "_match_score": 70,
     "tags": [
@@ -18151,7 +18151,7 @@
     "needs_review": false,
     "book_author": "Eric Shanes",
     "isbn": null,
-    "cover_url": "/covers/the-life-and-masterworks-of-jmw-turner.jpg",
+    "cover_url": "covers/the-life-and-masterworks-of-jmw-turner.jpg",
     "_flickr_id": "52629971773",
     "tags": [
       "book",
@@ -18223,7 +18223,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/the-shape-of-a-pocket.jpg",
+    "cover_url": "covers/the-shape-of-a-pocket.jpg",
     "_flickr_id": "51155081704",
     "_match_score": 70,
     "tags": [
@@ -18305,7 +18305,7 @@
     "publisher": "British Broadcasting Corporation and Penguin Books",
     "open_library_key": "/works/OL1980231W",
     "catalog_notes": "Found ISBN: 0563122447",
-    "cover_url": "/covers/the-red-tenda-of-bologna.jpg",
+    "cover_url": "covers/the-red-tenda-of-bologna.jpg",
     "_flickr_id": "52631990034",
     "_match_score": 120,
     "tags": [
@@ -18392,7 +18392,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL21137112W",
     "catalog_notes": "Found ISBN: 9780141984957",
-    "cover_url": "/covers/confabulations.jpg",
+    "cover_url": "covers/confabulations.jpg",
     "_flickr_id": "55027524787",
     "_match_score": 120,
     "tags": [
@@ -18475,7 +18475,7 @@
     "needs_review": false,
     "book_author": "George Schuster",
     "isbn": null,
-    "cover_url": "/covers/christianity-and-human-relations-in-industry.png",
+    "cover_url": "covers/christianity-and-human-relations-in-industry.png",
     "_flickr_id": "54349689346",
     "tags": [
       "quote",
@@ -18546,7 +18546,7 @@
     "needs_review": false,
     "book_author": "Charles Murray",
     "isbn": null,
-    "cover_url": "/covers/coming-apart.jpg",
+    "cover_url": "covers/coming-apart.jpg",
     "_flickr_id": "53562461406",
     "_match_score": 70,
     "tags": [
@@ -18639,7 +18639,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL1618182W",
     "catalog_notes": "Found ISBN: 9781724948038",
-    "cover_url": "/covers/my-first-summer-in-the-sierras.jpg",
+    "cover_url": "covers/my-first-summer-in-the-sierras.jpg",
     "book_author": null,
     "_flickr_id": "53149598279",
     "tags": [
@@ -18705,7 +18705,7 @@
     "publisher": "Proszynski",
     "open_library_key": "/works/OL23190W",
     "catalog_notes": "Found ISBN: 9788380690660",
-    "cover_url": "/covers/the-winter-of-our-discontent.jpg",
+    "cover_url": "covers/the-winter-of-our-discontent.jpg",
     "_flickr_id": "24630931060",
     "tags": [
       "quote",
@@ -18785,7 +18785,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL1068091W",
     "catalog_notes": "Found ISBN: 9781795245128",
-    "cover_url": "/covers/on-liberty.jpg",
+    "cover_url": "covers/on-liberty.jpg",
     "book_author": null,
     "_flickr_id": "54984923101",
     "_match_score": 50,
@@ -18853,7 +18853,7 @@
     "publisher": "Allen Lane",
     "open_library_key": "/works/OL444723W",
     "catalog_notes": "Found ISBN: 9780713992694",
-    "cover_url": "/covers/fictions.jpg",
+    "cover_url": "covers/fictions.jpg",
     "_flickr_id": "54431109419",
     "_match_score": 60,
     "tags": [
@@ -18940,7 +18940,7 @@
     "publisher": "GALLIMARD, FOLIO",
     "open_library_key": "/works/OL110971W",
     "catalog_notes": "Found ISBN: 9782072798153; Year from Open Library: 1945",
-    "cover_url": "/covers/the-library-of-babel.jpg",
+    "cover_url": "covers/the-library-of-babel.jpg",
     "_flickr_id": "52749820237",
     "tags": [
       "quote",
@@ -19016,7 +19016,7 @@
     "publisher": "Grove/Atlantic, Grove Pr, Grove/Atlantic, Incorporated",
     "open_library_key": "/works/OL444917W",
     "catalog_notes": "Found ISBN: 9780394621920",
-    "cover_url": "/covers/with-borges.jpg",
+    "cover_url": "covers/with-borges.jpg",
     "_flickr_id": "53695885999",
     "_match_score": 70,
     "tags": [
@@ -19088,7 +19088,7 @@
     "publisher": "Grove/Atlantic, Grove Pr, Grove/Atlantic, Incorporated",
     "open_library_key": "/works/OL444917W",
     "catalog_notes": "Found ISBN: 9780394621920",
-    "cover_url": "/covers/with-borges.jpg",
+    "cover_url": "covers/with-borges.jpg",
     "_flickr_id": "53695536691",
     "_match_score": 70,
     "tags": [
@@ -19174,7 +19174,7 @@
     "open_library_key": "/works/OL110971W",
     "catalog_notes": "Found ISBN: 9782072798153",
     "book_author": null,
-    "cover_url": "/covers/selected-non-fictions-jorge-luis-borges.jpg",
+    "cover_url": "covers/selected-non-fictions-jorge-luis-borges.jpg",
     "_flickr_id": "17291626336",
     "tags": [
       "libraries",
@@ -19251,7 +19251,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9780713992694",
-    "cover_url": "/covers/fictions.jpg",
+    "cover_url": "covers/fictions.jpg",
     "_flickr_id": "52750350851",
     "_match_score": 60,
     "tags": [
@@ -19337,7 +19337,7 @@
     "notes": "",
     "confidence": 0.95,
     "needs_review": false,
-    "cover_url": "/covers/wonder-boys.jpg",
+    "cover_url": "covers/wonder-boys.jpg",
     "_flickr_id": "54892850372",
     "tags": [
       "quote",
@@ -19420,7 +19420,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL38663W",
     "catalog_notes": "Found ISBN: 9798482874318",
-    "cover_url": "/covers/heart-of-darkness.jpg",
+    "cover_url": "covers/heart-of-darkness.jpg",
     "_flickr_id": "52186829557",
     "_match_score": 160,
     "tags": [
@@ -19482,7 +19482,7 @@
     "publisher": "Highbridge Audio",
     "open_library_key": "/works/OL7988187W",
     "catalog_notes": "Found ISBN: 9781565118690; Year from Open Library: 2004",
-    "cover_url": "/covers/the-journey-of-crazy-horse.jpg",
+    "cover_url": "covers/the-journey-of-crazy-horse.jpg",
     "book_author": null,
     "tags": [
       "nature",
@@ -19531,7 +19531,7 @@
     "publisher": "Highbridge Audio",
     "open_library_key": "/works/OL7988187W",
     "catalog_notes": "Found ISBN: 9781565118690; Year from Open Library: 2004",
-    "cover_url": "/covers/the-journey-of-crazy-horse.jpg",
+    "cover_url": "covers/the-journey-of-crazy-horse.jpg",
     "book_author": null,
     "tags": [
       "perspective",
@@ -19571,7 +19571,7 @@
     "needs_review": false,
     "book_author": "Thomas Chatterton Williams",
     "isbn": null,
-    "cover_url": "/covers/the-summer-of-our-discontent.jpg",
+    "cover_url": "covers/the-summer-of-our-discontent.jpg",
     "tags": [
       "upsetting",
       "challenging",
@@ -19629,7 +19629,7 @@
     "publisher": "Project Gutenberg, NetLibrary",
     "open_library_key": "/works/OL42215515W",
     "catalog_notes": "Found ISBN: 0585015821",
-    "cover_url": "/covers/the-eighteenth-brumaire-of-louis-bonaparte.jpg",
+    "cover_url": "covers/the-eighteenth-brumaire-of-louis-bonaparte.jpg",
     "book_author": null,
     "_flickr_id": "54429596494",
     "_match_score": 190,
@@ -19712,7 +19712,7 @@
     "open_library_key": "/works/OL25282920W",
     "catalog_notes": "Found ISBN: 9780399563447; Year from Open Library: 2021",
     "book_author": null,
-    "cover_url": "/covers/the-morning-star.jpg",
+    "cover_url": "covers/the-morning-star.jpg",
     "_flickr_id": "51760151263",
     "_match_score": 100,
     "tags": [
@@ -19804,7 +19804,7 @@
     "publisher": null,
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
-    "cover_url": "/covers/wisdom-sits-in-places.jpg",
+    "cover_url": "covers/wisdom-sits-in-places.jpg",
     "book_author": null,
     "_flickr_id": "53323218187",
     "_match_score": 80,
@@ -19893,7 +19893,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9781101050484",
-    "cover_url": "/covers/stone-me.jpg",
+    "cover_url": "covers/stone-me.jpg",
     "_flickr_id": "54984039162",
     "tags": [
       "quote",
@@ -19955,7 +19955,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9781101050484",
-    "cover_url": "/covers/stone-me.jpg",
+    "cover_url": "covers/stone-me.jpg",
     "_flickr_id": "54984039167",
     "tags": [
       "quote",
@@ -20016,7 +20016,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL98454W",
     "catalog_notes": "Found ISBN: 9781499376074",
-    "cover_url": "/covers/9781499376074.jpg",
+    "cover_url": "covers/9781499376074.jpg",
     "_flickr_id": "53212769270",
     "_match_score": 160,
     "tags": [
@@ -20090,7 +20090,7 @@
     "open_library_key": "/works/OL17582586W",
     "catalog_notes": "Found ISBN: 9781609805913",
     "book_author": null,
-    "cover_url": "/covers/if-this-isnt-nice-what-is.png",
+    "cover_url": "covers/if-this-isnt-nice-what-is.png",
     "_flickr_id": "50721048473",
     "_match_score": 70,
     "tags": [
@@ -20193,7 +20193,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/a-man-without-a-country.jpg",
+    "cover_url": "covers/a-man-without-a-country.jpg",
     "_flickr_id": "26800982917",
     "_match_score": 150,
     "tags": [
@@ -20246,7 +20246,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/a-man-without-a-country.jpg",
+    "cover_url": "covers/a-man-without-a-country.jpg",
     "_flickr_id": "41667766241",
     "_match_score": 170,
     "tags": [
@@ -20308,7 +20308,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL98454W",
     "catalog_notes": "Found ISBN: 9781499376074",
-    "cover_url": "/covers/9781499376074.jpg",
+    "cover_url": "covers/9781499376074.jpg",
     "_flickr_id": "53212561733",
     "_match_score": 170,
     "tags": [
@@ -20375,7 +20375,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL98454W",
     "catalog_notes": "Found ISBN: 9781499376074",
-    "cover_url": "/covers/9781499376074.jpg",
+    "cover_url": "covers/9781499376074.jpg",
     "_flickr_id": "53212641624",
     "_match_score": 170,
     "tags": [
@@ -20454,7 +20454,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98483W",
     "catalog_notes": "Found ISBN: 9780440571636; Year from Open Library: 1981",
-    "cover_url": "/covers/palm-sunday.jpg",
+    "cover_url": "covers/palm-sunday.jpg",
     "_flickr_id": "53561119003",
     "_match_score": 170,
     "tags": [
@@ -20522,7 +20522,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98483W",
     "catalog_notes": "Found ISBN: 9780440571636; Year from Open Library: 1981",
-    "cover_url": "/covers/palm-sunday.jpg",
+    "cover_url": "covers/palm-sunday.jpg",
     "_flickr_id": "53560919206",
     "_match_score": 160,
     "tags": [
@@ -20600,7 +20600,7 @@
     "publisher": "Vintage Classics",
     "open_library_key": "/works/OL98487W",
     "catalog_notes": "Found ISBN: 9781784874544",
-    "cover_url": "/covers/mother-night.jpg",
+    "cover_url": "covers/mother-night.jpg",
     "_flickr_id": "53681604931",
     "_match_score": 160,
     "tags": [
@@ -20662,7 +20662,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98483W",
     "catalog_notes": "Found ISBN: 9780440571636; Year from Open Library: 1981",
-    "cover_url": "/covers/palm-sunday.jpg",
+    "cover_url": "covers/palm-sunday.jpg",
     "book_author": null,
     "_flickr_id": "53561249399",
     "_match_score": 180,
@@ -20721,7 +20721,7 @@
     "publisher": "Vintage Classics",
     "open_library_key": "/works/OL98487W",
     "catalog_notes": "Found ISBN: 9781784874544",
-    "cover_url": "/covers/mother-night.jpg",
+    "cover_url": "covers/mother-night.jpg",
     "_flickr_id": "53681829743",
     "_match_score": 170,
     "tags": [
@@ -20793,7 +20793,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98483W",
     "catalog_notes": "Found ISBN: 9780440571636; Year from Open Library: 1981",
-    "cover_url": "/covers/palm-sunday.jpg",
+    "cover_url": "covers/palm-sunday.jpg",
     "_flickr_id": "53561119053",
     "_match_score": 190,
     "tags": [
@@ -20887,7 +20887,7 @@
     "publisher": "Vintage Classics",
     "open_library_key": "/works/OL98487W",
     "catalog_notes": "Found ISBN: 9781784874544",
-    "cover_url": "/covers/mother-night.jpg",
+    "cover_url": "covers/mother-night.jpg",
     "_flickr_id": "53680741347",
     "_match_score": 170,
     "tags": [
@@ -20949,7 +20949,7 @@
     "publisher": "Vintage Classics",
     "open_library_key": "/works/OL98487W",
     "catalog_notes": "Found ISBN: 9781784874544",
-    "cover_url": "/covers/mother-night.jpg",
+    "cover_url": "covers/mother-night.jpg",
     "_flickr_id": "53681604986",
     "_match_score": 160,
     "tags": [
@@ -21016,7 +21016,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98478W",
     "catalog_notes": "Found ISBN: 0440117658; Year from Open Library: 1982",
-    "cover_url": "/covers/deadeye-dick.jpg",
+    "cover_url": "covers/deadeye-dick.jpg",
     "_flickr_id": "53685669722",
     "_match_score": 170,
     "tags": [
@@ -21088,7 +21088,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98478W",
     "catalog_notes": "Found ISBN: 0440117658; Year from Open Library: 1982",
-    "cover_url": "/covers/deadeye-dick.jpg",
+    "cover_url": "covers/deadeye-dick.jpg",
     "_flickr_id": "53686542786",
     "_match_score": 180,
     "tags": [
@@ -21150,7 +21150,7 @@
     "publisher": "Dell Publishing Company",
     "open_library_key": "/works/OL98488W",
     "catalog_notes": "Found ISBN: 9785552667604",
-    "cover_url": "/covers/breakfast-of-champions.jpg",
+    "cover_url": "covers/breakfast-of-champions.jpg",
     "_flickr_id": "54354068474",
     "_match_score": 150,
     "tags": [
@@ -21212,7 +21212,7 @@
     "publisher": "Dell Publishing Company",
     "open_library_key": "/works/OL98488W",
     "catalog_notes": "Found ISBN: 9785552667604",
-    "cover_url": "/covers/breakfast-of-champions.jpg",
+    "cover_url": "covers/breakfast-of-champions.jpg",
     "_flickr_id": "54354089638",
     "_match_score": 160,
     "tags": [
@@ -21289,7 +21289,7 @@
     "publisher": "Seven Stories Press",
     "open_library_key": "/works/OL98457W",
     "catalog_notes": "Found ISBN: 1583220836; Year from Open Library: 1999",
-    "cover_url": "/covers/god-bless-you-dr-kevorkian.jpg",
+    "cover_url": "covers/god-bless-you-dr-kevorkian.jpg",
     "_flickr_id": "54379545795",
     "_match_score": 180,
     "tags": [
@@ -21381,7 +21381,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98481W",
     "catalog_notes": "Found ISBN: 9780440029298",
-    "cover_url": "/covers/god-bless-you-mr-rosewater.jpg",
+    "cover_url": "covers/god-bless-you-mr-rosewater.jpg",
     "book_author": null,
     "tags": [
       "money",
@@ -21435,7 +21435,7 @@
     "publisher": "Seven Stories Press",
     "open_library_key": "/works/OL98457W",
     "catalog_notes": "Found ISBN: 1583220836; Year from Open Library: 1999",
-    "cover_url": "/covers/god-bless-you-dr-kevorkian.jpg",
+    "cover_url": "covers/god-bless-you-dr-kevorkian.jpg",
     "_flickr_id": "54378280922",
     "_match_score": 180,
     "tags": [
@@ -21512,7 +21512,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98481W",
     "catalog_notes": "Found ISBN: 9780440029298",
-    "cover_url": "/covers/god-bless-you-mr-rosewater.jpg",
+    "cover_url": "covers/god-bless-you-mr-rosewater.jpg",
     "book_author": null,
     "tags": [
       "crude",
@@ -21601,7 +21601,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98481W",
     "catalog_notes": "Found ISBN: 9780440029298",
-    "cover_url": "/covers/god-bless-you-mr-rosewater.jpg",
+    "cover_url": "covers/god-bless-you-mr-rosewater.jpg",
     "book_author": null,
     "tags": [
       "vonnegut",
@@ -21660,7 +21660,7 @@
     "publisher": "Dell",
     "open_library_key": "/works/OL98481W",
     "catalog_notes": "Found ISBN: 9780440029298",
-    "cover_url": "/covers/god-bless-you-mr-rosewater.jpg",
+    "cover_url": "covers/god-bless-you-mr-rosewater.jpg",
     "tags": [
       "vonnegut",
       "kurt vonnegut",
@@ -21815,7 +21815,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL24495916W",
     "catalog_notes": "Found ISBN: 9781514330906",
-    "cover_url": "/covers/the-story-of-utopias.jpg",
+    "cover_url": "covers/the-story-of-utopias.jpg",
     "book_author": null,
     "_flickr_id": "48856488592",
     "_match_score": 180,
@@ -21903,7 +21903,7 @@
     "publisher": "Penguin Books Ltd",
     "open_library_key": "/works/OL1879188W",
     "catalog_notes": "Found ISBN: 9780140137170",
-    "cover_url": "/covers/the-city-in-history.jpg",
+    "cover_url": "covers/the-city-in-history.jpg",
     "_flickr_id": "17223691813",
     "_match_score": 170,
     "tags": [
@@ -21979,7 +21979,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/the-culture-of-cities.jpg",
+    "cover_url": "covers/the-culture-of-cities.jpg",
     "book_author": null,
     "isbn": null,
     "_flickr_id": "48855934353",
@@ -22046,7 +22046,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/childe-harolds-pilgrimage.jpg",
+    "cover_url": "covers/childe-harolds-pilgrimage.jpg",
     "book_author": null,
     "isbn": null,
     "_flickr_id": "54987379684",
@@ -22159,7 +22159,7 @@
     "publisher": null,
     "open_library_key": "/works/OL5153574W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "tags": [
       "saint-just",
       "revolution",
@@ -22217,7 +22217,7 @@
     "publisher": null,
     "open_library_key": "/works/OL35291441W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/journey-to-the-end-of-the-night.jpg",
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
     "_flickr_id": "45746744461",
     "_match_score": 160,
     "tags": [
@@ -22289,7 +22289,7 @@
     "publisher": "Malmo Konsthall,Sweden",
     "open_library_key": "/works/OL2123091W",
     "catalog_notes": "Found ISBN: 9789177040866",
-    "cover_url": "/covers/bourgeois.jpg",
+    "cover_url": "covers/bourgeois.jpg",
     "_flickr_id": "54557749565",
     "_match_score": 120,
     "tags": [
@@ -22349,7 +22349,7 @@
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/the-go-between.jpg",
+    "cover_url": "covers/the-go-between.jpg",
     "tags": [
       "l.p. hartley",
       "past",
@@ -22478,7 +22478,7 @@
     "publisher": "Fitzcarraldo Editions",
     "open_library_key": "/works/OL21347000W",
     "catalog_notes": "Found ISBN: 9781913097110",
-    "cover_url": "/covers/axiomatic.jpg",
+    "cover_url": "covers/axiomatic.jpg",
     "book_author": "Maria Tumarkin",
     "tags": [
       "technology",
@@ -22538,7 +22538,7 @@
     "needs_review": false,
     "book_author": "James Breslin",
     "isbn": null,
-    "cover_url": "/covers/mark-rothko-a-biography.jpg",
+    "cover_url": "covers/mark-rothko-a-biography.jpg",
     "_flickr_id": "27336851924",
     "_match_score": 170,
     "tags": [
@@ -22620,7 +22620,7 @@
     "publisher": "Norton & Company Limited, W. W.",
     "open_library_key": "/works/OL26522289W",
     "catalog_notes": "Found ISBN: 9781324021919",
-    "cover_url": "/covers/the-hidden-spring.jpg",
+    "cover_url": "covers/the-hidden-spring.jpg",
     "_flickr_id": "53368604870",
     "_match_score": 180,
     "tags": [
@@ -22697,7 +22697,7 @@
     "publisher": "Norton & Company Limited, W. W.",
     "open_library_key": "/works/OL26522289W",
     "catalog_notes": "Found ISBN: 9781324021919",
-    "cover_url": "/covers/the-hidden-spring.jpg",
+    "cover_url": "covers/the-hidden-spring.jpg",
     "_flickr_id": "53368354403",
     "_match_score": 180,
     "tags": [
@@ -22774,7 +22774,7 @@
     "publisher": "Norton & Company Limited, W. W.",
     "open_library_key": "/works/OL26522289W",
     "catalog_notes": "Found ISBN: 9781324021919",
-    "cover_url": "/covers/the-hidden-spring.jpg",
+    "cover_url": "covers/the-hidden-spring.jpg",
     "_flickr_id": "53368472214",
     "_match_score": 170,
     "tags": [
@@ -22826,7 +22826,7 @@
     "publisher": "Reprint Services Corp",
     "open_library_key": "/works/OL54126W",
     "catalog_notes": "Found ISBN: 9780781211109",
-    "cover_url": "/covers/following-the-equator.jpg",
+    "cover_url": "covers/following-the-equator.jpg",
     "_match_score": 190,
     "book_author": null,
     "tags": [
@@ -22877,7 +22877,7 @@
     "open_library_key": "/works/OL54031W",
     "catalog_notes": "Found ISBN: 9798772022795",
     "book_author": null,
-    "cover_url": "/covers/puddnhead-wilson.jpg",
+    "cover_url": "covers/puddnhead-wilson.jpg",
     "_match_score": 50,
     "tags": [
       "stupidity",
@@ -22931,7 +22931,7 @@
     "publisher": "Hesperides Press",
     "open_library_key": "/works/OL54100W",
     "catalog_notes": "Found ISBN: 9781406736892; Year from Open Library: 1935",
-    "cover_url": "/covers/mark-twains-notebook.jpg",
+    "cover_url": "covers/mark-twains-notebook.jpg",
     "_flickr_id": "53986952571",
     "tags": [
       "book",
@@ -22997,7 +22997,7 @@
     "publisher": "Touchstone",
     "open_library_key": "/works/OL871841W",
     "catalog_notes": "Found ISBN: 0671689967",
-    "cover_url": "/covers/war-and-peace-in-the-global-village.jpg",
+    "cover_url": "covers/war-and-peace-in-the-global-village.jpg",
     "_flickr_id": "52812030425",
     "_match_score": 60,
     "tags": [
@@ -23069,7 +23069,7 @@
     "publisher": "Touchstone",
     "open_library_key": "/works/OL871841W",
     "catalog_notes": "Found ISBN: 0671689967",
-    "cover_url": "/covers/war-and-peace-in-the-global-village.jpg",
+    "cover_url": "covers/war-and-peace-in-the-global-village.jpg",
     "_flickr_id": "52811621066",
     "_match_score": 80,
     "tags": [
@@ -23131,7 +23131,7 @@
     "publisher": "Touchstone",
     "open_library_key": "/works/OL871841W",
     "catalog_notes": "Found ISBN: 0671689967",
-    "cover_url": "/covers/war-and-peace-in-the-global-village.jpg",
+    "cover_url": "covers/war-and-peace-in-the-global-village.jpg",
     "_flickr_id": "52811621011",
     "_match_score": 80,
     "tags": [
@@ -23188,7 +23188,7 @@
     "publisher": "Touchstone",
     "open_library_key": "/works/OL871841W",
     "catalog_notes": "Found ISBN: 0671689967",
-    "cover_url": "/covers/war-and-peace-in-the-global-village.jpg",
+    "cover_url": "covers/war-and-peace-in-the-global-village.jpg",
     "_flickr_id": "52811817109",
     "_match_score": 90,
     "tags": [
@@ -23280,7 +23280,7 @@
     "publisher": "University of Toronto Press",
     "open_library_key": "/works/OL871786W",
     "catalog_notes": "Found ISBN: 9781442612693",
-    "cover_url": "/covers/the-gutenberg-galaxy.jpg",
+    "cover_url": "covers/the-gutenberg-galaxy.jpg",
     "_flickr_id": "53681987069",
     "tags": [
       "book",
@@ -23367,7 +23367,7 @@
     "publisher": "Bruguera",
     "open_library_key": "/works/OL102749W",
     "catalog_notes": "Found ISBN: 8402065929; Year from Open Library: 1851",
-    "cover_url": "/covers/moby-dick.jpg",
+    "cover_url": "covers/moby-dick.jpg",
     "_flickr_id": "14975713852",
     "_match_score": 150,
     "tags": [
@@ -23443,7 +23443,7 @@
     "publisher": "Atlantic Books, Limited",
     "open_library_key": "/works/OL35720373W",
     "catalog_notes": "Found ISBN: 9781838957469; Year from Open Library: 2023",
-    "cover_url": "/covers/thinking-in-pictures.jpg",
+    "cover_url": "covers/thinking-in-pictures.jpg",
     "_flickr_id": "53821553559",
     "_match_score": 70,
     "tags": [
@@ -23511,7 +23511,7 @@
     "needs_review": false,
     "book_author": "Carl Sagan",
     "isbn": "9788416771486",
-    "cover_url": "/covers/the-demon-haunted-world.jpg",
+    "cover_url": "covers/the-demon-haunted-world.jpg",
     "_flickr_id": "37587330511",
     "_match_score": 120,
     "tags": [
@@ -23671,7 +23671,7 @@
     "needs_review": false,
     "book_author": "Frederic Gros",
     "isbn": "9781781682708",
-    "cover_url": "/covers/a-philosophy-of-walking.jpg",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
     "_flickr_id": "54833385074",
     "tags": [
       "quote",
@@ -23733,7 +23733,7 @@
     "open_library_key": "/works/OL43601473W",
     "catalog_notes": "Year from Open Library: 1886; No ISBN edition found",
     "book_author": null,
-    "cover_url": "/covers/essays.jpg",
+    "cover_url": "covers/essays.jpg",
     "_flickr_id": "53368161316",
     "tags": [
       "quote",
@@ -23805,7 +23805,7 @@
     "open_library_key": "/works/OL43601473W",
     "catalog_notes": "Year from Open Library: 1886; No ISBN edition found",
     "book_author": null,
-    "cover_url": "/covers/essays.jpg",
+    "cover_url": "covers/essays.jpg",
     "_flickr_id": "53368161486",
     "tags": [
       "quote",
@@ -23862,7 +23862,7 @@
     "publisher": "Bompiani",
     "open_library_key": "/works/OL2286729W",
     "catalog_notes": "Found ISBN: 9788845278822; Year from Open Library: 1998",
-    "cover_url": "/covers/in-the-presence-of-schopenhauer.jpg",
+    "cover_url": "covers/in-the-presence-of-schopenhauer.jpg",
     "_flickr_id": "52707771944",
     "_match_score": 100,
     "tags": [
@@ -23940,7 +23940,7 @@
     "open_library_key": "/works/OL22569527W",
     "catalog_notes": "Found ISBN: 9781509549955",
     "book_author": null,
-    "cover_url": "/covers/interventions.png",
+    "cover_url": "covers/interventions.png",
     "tags": [
       "self",
       "trap",
@@ -23993,7 +23993,7 @@
     "publisher": "Polity Press",
     "open_library_key": "/works/OL22569527W",
     "catalog_notes": "Found ISBN: 9781509549955",
-    "cover_url": "/covers/interventions.jpg",
+    "cover_url": "covers/interventions.jpg",
     "book_author": null,
     "tags": [
       "capitalism",
@@ -24047,7 +24047,7 @@
     "publisher": "Pan Macmillan",
     "open_library_key": "/works/OL37832967W",
     "catalog_notes": "Found ISBN: 9781035026418",
-    "cover_url": "/covers/annihilation.jpg",
+    "cover_url": "covers/annihilation.jpg",
     "_flickr_id": "54355838813",
     "_match_score": 180,
     "tags": [
@@ -24129,7 +24129,7 @@
     "publisher": "Pan Macmillan",
     "open_library_key": "/works/OL37832967W",
     "catalog_notes": "Found ISBN: 9781035026418",
-    "cover_url": "/covers/annihilation.jpg",
+    "cover_url": "covers/annihilation.jpg",
     "_flickr_id": "54377065959",
     "_match_score": 160,
     "tags": [
@@ -24206,7 +24206,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL25543788W",
     "catalog_notes": "Found ISBN: 9798458501644",
-    "cover_url": "/covers/don-quixote.jpg",
+    "cover_url": "covers/don-quixote.jpg",
     "book_author": null,
     "tags": [
       "change",
@@ -24265,7 +24265,7 @@
     "publisher": "Fontana, HarperCollins Distribution Services",
     "open_library_key": "/works/OL1945959W",
     "catalog_notes": "Found ISBN: 0006219381",
-    "cover_url": "/covers/strength-to-love.jpg",
+    "cover_url": "covers/strength-to-love.jpg",
     "book_author": null,
     "tags": [
       "stupidity",
@@ -24314,7 +24314,7 @@
     "publisher": "Pearson Education, Limited",
     "open_library_key": "/works/OL137916W",
     "catalog_notes": "Found ISBN: 9780136006466",
-    "cover_url": "/covers/amusing-ourselves-to-death.jpg",
+    "cover_url": "covers/amusing-ourselves-to-death.jpg",
     "_flickr_id": "52398869353",
     "_match_score": 190,
     "tags": [
@@ -24397,7 +24397,7 @@
     "publisher": "Pearson Education, Limited",
     "open_library_key": "/works/OL137916W",
     "catalog_notes": "Found ISBN: 9780136006466",
-    "cover_url": "/covers/amusing-ourselves-to-death.jpg",
+    "cover_url": "covers/amusing-ourselves-to-death.jpg",
     "_match_score": 170,
     "book_author": null,
     "tags": [
@@ -24462,7 +24462,7 @@
     "publisher": "Pearson Education, Limited",
     "open_library_key": "/works/OL137916W",
     "catalog_notes": "Found ISBN: 9780136006466",
-    "cover_url": "/covers/amusing-ourselves-to-death.jpg",
+    "cover_url": "covers/amusing-ourselves-to-death.jpg",
     "_match_score": 180,
     "book_author": null,
     "tags": [
@@ -24542,7 +24542,7 @@
     "publisher": "Fayard",
     "open_library_key": "/works/OL627068W",
     "catalog_notes": "Found ISBN: 9782213010717; Year from Open Library: 1980",
-    "cover_url": "/covers/lectures-on-literature.jpg",
+    "cover_url": "covers/lectures-on-literature.jpg",
     "_flickr_id": "53557429040",
     "_match_score": 90,
     "tags": [
@@ -24610,7 +24610,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL627081W",
     "catalog_notes": "Found ISBN: 9780141197241",
-    "cover_url": "/covers/pale-fire.jpg",
+    "cover_url": "covers/pale-fire.jpg",
     "_flickr_id": "53556127282",
     "_match_score": 170,
     "tags": [
@@ -24687,7 +24687,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL627081W",
     "catalog_notes": "Found ISBN: 9780141197241",
-    "cover_url": "/covers/pale-fire.jpg",
+    "cover_url": "covers/pale-fire.jpg",
     "_flickr_id": "53557429080",
     "_match_score": 170,
     "tags": [
@@ -24754,7 +24754,7 @@
     "publisher": null,
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
-    "cover_url": "/covers/pale-fire.jpg",
+    "cover_url": "covers/pale-fire.jpg",
     "book_author": null,
     "_flickr_id": "53557175223",
     "_match_score": 170,
@@ -24807,7 +24807,7 @@
     "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
-    "cover_url": "/covers/antifragile.jpg",
+    "cover_url": "covers/antifragile.jpg",
     "_flickr_id": "32301997577",
     "_match_score": 170,
     "tags": [
@@ -24879,7 +24879,7 @@
     "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
-    "cover_url": "/covers/antifragile.jpg",
+    "cover_url": "covers/antifragile.jpg",
     "_flickr_id": "40279143173",
     "_match_score": 170,
     "tags": [
@@ -24962,7 +24962,7 @@
     "publisher": "CITIC Press Corporation",
     "open_library_key": "/works/OL3295029W",
     "catalog_notes": "Found ISBN: 9787508633749; Year from Open Library: 2001",
-    "cover_url": "/covers/fooled-by-randomness.jpg",
+    "cover_url": "covers/fooled-by-randomness.jpg",
     "_flickr_id": "50018497432",
     "_match_score": 150,
     "tags": [
@@ -25054,7 +25054,7 @@
     "publisher": "Random House Trade Paperbacks",
     "open_library_key": "/works/OL21193795W",
     "catalog_notes": "Found ISBN: 9780425284643",
-    "cover_url": "/covers/skin-in-the-game.jpg",
+    "cover_url": "covers/skin-in-the-game.jpg",
     "_flickr_id": "31406918307",
     "_match_score": 170,
     "tags": [
@@ -25101,7 +25101,7 @@
     "publisher": "Random House Trade Paperbacks",
     "open_library_key": "/works/OL21193795W",
     "catalog_notes": "Found ISBN: 9780425284643",
-    "cover_url": "/covers/skin-in-the-game.jpg",
+    "cover_url": "covers/skin-in-the-game.jpg",
     "_flickr_id": "45433675295",
     "_match_score": 190,
     "tags": [
@@ -25168,7 +25168,7 @@
     "publisher": "Random House Trade Paperbacks",
     "open_library_key": "/works/OL21193795W",
     "catalog_notes": "Found ISBN: 9780425284643",
-    "cover_url": "/covers/skin-in-the-game.jpg",
+    "cover_url": "covers/skin-in-the-game.jpg",
     "_flickr_id": "31406918417",
     "_match_score": 160,
     "tags": [
@@ -25280,7 +25280,7 @@
     "publisher": "Random House Trade Paperbacks",
     "open_library_key": "/works/OL21193795W",
     "catalog_notes": "Found ISBN: 9780425284643",
-    "cover_url": "/covers/skin-in-the-game.jpg",
+    "cover_url": "covers/skin-in-the-game.jpg",
     "_flickr_id": "45622890314",
     "_match_score": 170,
     "tags": [
@@ -25347,7 +25347,7 @@
     "publisher": "Random House Trade Paperbacks",
     "open_library_key": "/works/OL21193795W",
     "catalog_notes": "Found ISBN: 9780425284643",
-    "cover_url": "/covers/skin-in-the-game.jpg",
+    "cover_url": "covers/skin-in-the-game.jpg",
     "_flickr_id": "31406918547",
     "_match_score": 180,
     "tags": [
@@ -25414,7 +25414,7 @@
     "publisher": "Delacorte Press",
     "open_library_key": "/works/OL137914W",
     "catalog_notes": "Found ISBN: 0440016916",
-    "cover_url": "/covers/the-disappearance-of-childhood.jpg",
+    "cover_url": "covers/the-disappearance-of-childhood.jpg",
     "_flickr_id": "48589850886",
     "_match_score": 110,
     "tags": [
@@ -25471,7 +25471,7 @@
     "publisher": "Delacorte Press",
     "open_library_key": "/works/OL137914W",
     "catalog_notes": "Found ISBN: 0440016916",
-    "cover_url": "/covers/the-disappearance-of-childhood.jpg",
+    "cover_url": "covers/the-disappearance-of-childhood.jpg",
     "_flickr_id": "48589850956",
     "_match_score": 110,
     "tags": [
@@ -25538,7 +25538,7 @@
     "publisher": "Delacorte Press",
     "open_library_key": "/works/OL137914W",
     "catalog_notes": "Found ISBN: 0440016916",
-    "cover_url": "/covers/the-disappearance-of-childhood.jpg",
+    "cover_url": "covers/the-disappearance-of-childhood.jpg",
     "_flickr_id": "48589990627",
     "_match_score": 120,
     "tags": [
@@ -25606,7 +25606,7 @@
     "needs_review": false,
     "book_author": "Neil Postman",
     "isbn": "9780136006466",
-    "cover_url": "/covers/amusing-ourselves-to-death.jpg",
+    "cover_url": "covers/amusing-ourselves-to-death.jpg",
     "_match_score": 150,
     "tags": [
       "america",
@@ -25670,7 +25670,7 @@
     "publisher": "Heinemann",
     "open_library_key": "/works/OL137909W",
     "catalog_notes": "Found ISBN: 0434593028",
-    "cover_url": "/covers/0434593028.jpg",
+    "cover_url": "covers/0434593028.jpg",
     "_flickr_id": "53281615134",
     "_match_score": 190,
     "tags": [
@@ -25738,7 +25738,7 @@
     "publisher": "Heinemann",
     "open_library_key": "/works/OL137909W",
     "catalog_notes": "Found ISBN: 0434593028",
-    "cover_url": "/covers/0434593028.jpg",
+    "cover_url": "covers/0434593028.jpg",
     "_flickr_id": "53281730185",
     "_match_score": 180,
     "tags": [
@@ -25807,7 +25807,7 @@
     "publisher": "Heinemann",
     "open_library_key": "/works/OL137909W",
     "catalog_notes": "Found ISBN: 0434593028; Year from Open Library: 1988",
-    "cover_url": "/covers/0434593028.jpg",
+    "cover_url": "covers/0434593028.jpg",
     "_flickr_id": "28379060539",
     "_match_score": 170,
     "tags": [
@@ -25859,7 +25859,7 @@
     "publisher": "Heinemann",
     "open_library_key": "/works/OL137909W",
     "catalog_notes": "Found ISBN: 0434593028; Year from Open Library: 1988",
-    "cover_url": "/covers/0434593028.jpg",
+    "cover_url": "covers/0434593028.jpg",
     "_flickr_id": "53281261441",
     "_match_score": 190,
     "tags": [
@@ -25932,7 +25932,7 @@
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
     "book_author": "Neil Postman",
-    "cover_url": "/covers/0434593028.jpg",
+    "cover_url": "covers/0434593028.jpg",
     "tags": [
       "understanding",
       "word",
@@ -25985,7 +25985,7 @@
     "publisher": "Heinemann",
     "open_library_key": "/works/OL137909W",
     "catalog_notes": "Found ISBN: 0434593028; Year from Open Library: 1988",
-    "cover_url": "/covers/0434593028.jpg",
+    "cover_url": "covers/0434593028.jpg",
     "_flickr_id": "53281545423",
     "_match_score": 180,
     "tags": [
@@ -26047,7 +26047,7 @@
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/beyond-good-and-evil.jpg",
+    "cover_url": "covers/beyond-good-and-evil.jpg",
     "book_author": null,
     "isbn": null,
     "tags": [
@@ -26107,7 +26107,7 @@
     "publisher": "L&PM",
     "open_library_key": "/works/OL15692719W",
     "catalog_notes": "Found ISBN: 9788525417916",
-    "cover_url": "/covers/9788525417916.jpg",
+    "cover_url": "covers/9788525417916.jpg",
     "_flickr_id": "53682168004",
     "tags": [
       "Friedrich nietzsche",
@@ -26185,7 +26185,7 @@
     "publisher": "Ass\u00edrio & Alvim",
     "open_library_key": "/works/OL17396611W",
     "catalog_notes": "Found ISBN: 9789723706819",
-    "cover_url": "/covers/dead-souls.jpg",
+    "cover_url": "covers/dead-souls.jpg",
     "_flickr_id": "49462571272",
     "_match_score": 160,
     "tags": [
@@ -26263,7 +26263,7 @@
     "publisher": "CITIC Press Corporation",
     "open_library_key": "/works/OL3295029W",
     "catalog_notes": "Found ISBN: 9787508633749; Year from Open Library: 2001",
-    "cover_url": "/covers/fooled-by-randomness.jpg",
+    "cover_url": "covers/fooled-by-randomness.jpg",
     "_flickr_id": "50018236421",
     "_match_score": 170,
     "tags": [
@@ -26356,7 +26356,7 @@
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
     "book_author": null,
-    "cover_url": "/covers/fashionable-nonsense.jpg",
+    "cover_url": "covers/fashionable-nonsense.jpg",
     "tags": [
       "understanding",
       "nonsense",
@@ -26419,7 +26419,7 @@
     "publisher": null,
     "open_library_key": "/works/OL14877829W",
     "catalog_notes": "Year from Open Library: 1900; No ISBN edition found",
-    "cover_url": "/covers/escape-from-evil.png",
+    "cover_url": "covers/escape-from-evil.png",
     "_flickr_id": "52398869633",
     "tags": [
       "quote",
@@ -26467,7 +26467,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/lady-windermeres-fan.jpg",
+    "cover_url": "covers/lady-windermeres-fan.jpg",
     "_flickr_id": "52079384615",
     "tags": [
       "Oscar wilde",
@@ -26539,7 +26539,7 @@
     "publisher": "Sphere",
     "open_library_key": "/works/OL15179984W",
     "catalog_notes": "Found ISBN: 9781847443472",
-    "cover_url": "/covers/i-am-ozzy.jpg",
+    "cover_url": "covers/i-am-ozzy.jpg",
     "_flickr_id": "53212641559",
     "_match_score": 180,
     "tags": [
@@ -26592,7 +26592,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/tate-brief-lessons-in-rule-breaking.jpg",
+    "cover_url": "covers/tate-brief-lessons-in-rule-breaking.jpg",
     "tags": [
       "creativity",
       "design",
@@ -26651,7 +26651,7 @@
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
     "book_author": null,
-    "cover_url": "/covers/superforecasting.jpg",
+    "cover_url": "covers/superforecasting.jpg",
     "_flickr_id": "53821473754",
     "_match_score": 70,
     "tags": [
@@ -26713,7 +26713,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/the-philip-johnson-tapes.jpg",
+    "cover_url": "covers/the-philip-johnson-tapes.jpg",
     "_flickr_id": "52750844518",
     "tags": [
       "quote",
@@ -26770,7 +26770,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/phaedo.jpg",
+    "cover_url": "covers/phaedo.jpg",
     "_flickr_id": "50997060019",
     "tags": [
       "quote",
@@ -26831,7 +26831,7 @@
     "publisher": "Mermaid Turbulence",
     "open_library_key": "/works/OL62161W",
     "catalog_notes": "Found ISBN: 1901776204",
-    "cover_url": "/covers/society-and-solitude.jpg",
+    "cover_url": "covers/society-and-solitude.jpg",
     "book_author": null,
     "tags": [
       "language",
@@ -27017,7 +27017,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27077,7 +27077,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27122,7 +27122,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27167,7 +27167,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27218,7 +27218,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27268,7 +27268,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27318,7 +27318,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27368,7 +27368,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27423,7 +27423,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27488,7 +27488,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_match_score": 150,
     "book_author": null,
     "tags": [
@@ -27553,7 +27553,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_flickr_id": "54966795211",
     "_match_score": 200,
     "tags": [
@@ -27626,7 +27626,7 @@
     "publisher": "PM Press",
     "open_library_key": "/works/OL2481882W",
     "catalog_notes": "Found ISBN: 9781604867848",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_flickr_id": "54966795216",
     "_match_score": 190,
     "tags": [
@@ -27770,7 +27770,7 @@
     "publisher": "Angle Editorial",
     "open_library_key": "/works/OL12446W",
     "catalog_notes": "Found ISBN: 9788418197253",
-    "cover_url": "/covers/wanderlust.jpg",
+    "cover_url": "covers/wanderlust.jpg",
     "_flickr_id": "41852560414",
     "_match_score": 60,
     "tags": [
@@ -27897,7 +27897,7 @@
     "publisher": "Doubleday",
     "open_library_key": "/works/OL715381W",
     "catalog_notes": "Found ISBN: 0385243944",
-    "cover_url": "/covers/0385243944.jpg",
+    "cover_url": "covers/0385243944.jpg",
     "_flickr_id": "53681623076",
     "tags": [
       "book",
@@ -27960,7 +27960,7 @@
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
     "catalog_notes": "Found ISBN: 9780679643272",
-    "cover_url": "/covers/a-season-in-hell.jpg",
+    "cover_url": "covers/a-season-in-hell.jpg",
     "book_author": null,
     "tags": [
       "poetry",
@@ -28009,7 +28009,7 @@
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
     "catalog_notes": "Found ISBN: 9780679643272; Year from Open Library: 1991",
-    "cover_url": "/covers/a-season-in-hell.jpg",
+    "cover_url": "covers/a-season-in-hell.jpg",
     "book_author": null,
     "tags": [
       "science",
@@ -28063,7 +28063,7 @@
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
     "catalog_notes": "Found ISBN: 9780679643272",
-    "cover_url": "/covers/a-season-in-hell.jpg",
+    "cover_url": "covers/a-season-in-hell.jpg",
     "book_author": null,
     "tags": [
       "life",
@@ -28107,7 +28107,7 @@
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
     "catalog_notes": "Found ISBN: 9780679643272; Year from Open Library: 1991",
-    "cover_url": "/covers/a-season-in-hell.jpg",
+    "cover_url": "covers/a-season-in-hell.jpg",
     "book_author": null,
     "tags": [
       "hell",
@@ -28156,7 +28156,7 @@
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
     "catalog_notes": "Found ISBN: 9780679643272; Year from Open Library: 1991",
-    "cover_url": "/covers/a-season-in-hell.jpg",
+    "cover_url": "covers/a-season-in-hell.jpg",
     "book_author": null,
     "tags": [
       "time",
@@ -28210,7 +28210,7 @@
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
     "catalog_notes": "Found ISBN: 9780679643272; Year from Open Library: 1991",
-    "cover_url": "/covers/a-season-in-hell.jpg",
+    "cover_url": "covers/a-season-in-hell.jpg",
     "book_author": null,
     "tags": [
       "death",
@@ -28260,7 +28260,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9780030059102",
-    "cover_url": "/covers/the-poetry-of-robert-frost-the-collected-poems.jpg",
+    "cover_url": "covers/the-poetry-of-robert-frost-the-collected-poems.jpg",
     "tags": [
       "poetry",
       "wall",
@@ -28308,7 +28308,7 @@
     "publisher": "Vintage Books",
     "open_library_key": "/works/OL2908661W",
     "catalog_notes": "Found ISBN: 9780394753669",
-    "cover_url": "/covers/the-fatal-shore.jpg",
+    "cover_url": "covers/the-fatal-shore.jpg",
     "_flickr_id": "51222698330",
     "_match_score": 110,
     "tags": [
@@ -28386,7 +28386,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": "9781564773392",
-    "cover_url": "/covers/origami-design-secrets-mathematical-methods-for-an.jpg",
+    "cover_url": "covers/origami-design-secrets-mathematical-methods-for-an.jpg",
     "_flickr_id": "54878105211",
     "tags": [
       "quote",
@@ -28459,7 +28459,7 @@
     "open_library_key": "/works/OL827357W",
     "catalog_notes": "Found ISBN: 9780061908040",
     "book_author": null,
-    "cover_url": "/covers/the-art-of-motorcycle-maintenance.jpg",
+    "cover_url": "covers/the-art-of-motorcycle-maintenance.jpg",
     "_flickr_id": "47590708181",
     "_match_score": 60,
     "tags": [
@@ -28542,7 +28542,7 @@
     "open_library_key": "/works/OL3638785W",
     "catalog_notes": "Found ISBN: 0767907183; Year from Open Library: 2000",
     "book_author": null,
-    "cover_url": "/covers/irrational-exuberance.jpg",
+    "cover_url": "covers/irrational-exuberance.jpg",
     "_flickr_id": "53686780508",
     "_match_score": 160,
     "tags": [
@@ -28620,7 +28620,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/discourse-on-the-origin-and-foundations-of-inequal.jpg",
+    "cover_url": "covers/discourse-on-the-origin-and-foundations-of-inequal.jpg",
     "tags": [
       "change",
       "progress",
@@ -28678,7 +28678,7 @@
     "publisher": null,
     "open_library_key": "/works/OL15099837W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/note-books.jpg",
+    "cover_url": "covers/note-books.jpg",
     "book_author": null,
     "tags": [
       "progress",
@@ -28737,7 +28737,7 @@
     "publisher": "IndyPublish",
     "open_library_key": "/works/OL4559048W",
     "catalog_notes": "Found ISBN: 9781435361188",
-    "cover_url": "/covers/preface-to-shakespeare.jpg",
+    "cover_url": "covers/preface-to-shakespeare.jpg",
     "book_author": null,
     "_flickr_id": "54876148149",
     "tags": [
@@ -28798,7 +28798,7 @@
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL362223W",
     "catalog_notes": "Found ISBN: 9781517567064; Year from Open Library: 1734",
-    "cover_url": "/covers/timon-of-athens.jpg",
+    "cover_url": "covers/timon-of-athens.jpg",
     "book_author": null,
     "tags": [
       "sun",
@@ -28858,7 +28858,7 @@
     "open_library_key": "/works/OL258850W",
     "catalog_notes": "Found ISBN: 9781377898773",
     "book_author": "William Shakespeare",
-    "cover_url": "/covers/othello.jpg",
+    "cover_url": "covers/othello.jpg",
     "tags": [
       "hell",
       "night",
@@ -28937,7 +28937,7 @@
     "open_library_key": "/works/OL258850W",
     "catalog_notes": "Found ISBN: 9781377898773",
     "book_author": "William Shakespeare",
-    "cover_url": "/covers/othello.jpg",
+    "cover_url": "covers/othello.jpg",
     "tags": [
       "shakespeare",
       "othello",
@@ -28996,7 +28996,7 @@
     "open_library_key": "/works/OL362687W",
     "catalog_notes": "Found ISBN: 9780344207730; Year from Open Library: 1735",
     "book_author": null,
-    "cover_url": "/covers/henry-v.webp",
+    "cover_url": "covers/henry-v.webp",
     "tags": [
       "shakespeare",
       "henry v",
@@ -29054,7 +29054,7 @@
     "publisher": "Oxford University Press",
     "open_library_key": "/works/OL259026W",
     "catalog_notes": "Found ISBN: 9780191584244; Year from Open Library: 1608",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "book_author": null,
     "tags": [
       "shakespeare",
@@ -29104,7 +29104,7 @@
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "/covers/the-tempest.webp",
+    "cover_url": "covers/the-tempest.webp",
     "tags": [
       "shakespeare",
       "tempest",
@@ -29164,7 +29164,7 @@
     "open_library_key": "/works/OL362687W",
     "catalog_notes": "Found ISBN: 9780344207730; Year from Open Library: 1735",
     "book_author": null,
-    "cover_url": "/covers/hamlet.jpg",
+    "cover_url": "covers/hamlet.jpg",
     "_match_score": 50,
     "tags": [
       "shakespeare",
@@ -29223,7 +29223,7 @@
     "publisher": "Oxford University Press",
     "open_library_key": "/works/OL259026W",
     "catalog_notes": "Found ISBN: 9780191584244; Year from Open Library: 1608",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "book_author": null,
     "_flickr_id": "53685772797",
     "tags": [
@@ -29300,7 +29300,7 @@
     "publisher": "Oxford University Press",
     "open_library_key": "/works/OL259026W",
     "catalog_notes": "Found ISBN: 9780191584244; Year from Open Library: 1608",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "book_author": null,
     "tags": [
       "shakespeare",
@@ -29354,7 +29354,7 @@
     "publisher": "Oxford University Press",
     "open_library_key": "/works/OL259026W",
     "catalog_notes": "Found ISBN: 9780191584244; Year from Open Library: 1608",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "tags": [
       "shakespeare",
       "jester",
@@ -29408,7 +29408,7 @@
     "publisher": "Oxford University Press",
     "open_library_key": "/works/OL259026W",
     "catalog_notes": "Found ISBN: 9780191584244; Year from Open Library: 1608",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "tags": [
       "shakespeare",
       "time",
@@ -29461,7 +29461,7 @@
     "publisher": "Creative Media Partners, LLC",
     "open_library_key": "/works/OL362687W",
     "catalog_notes": "Found ISBN: 9780344207730; Year from Open Library: 1735",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "tags": [
       "shakespeare",
       "trust",
@@ -29515,7 +29515,7 @@
     "publisher": "Creative Media Partners, LLC",
     "open_library_key": "/works/OL362687W",
     "catalog_notes": "Found ISBN: 9780344207730; Year from Open Library: 1735",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "tags": [
       "shakespeare",
       "honesty",
@@ -29569,7 +29569,7 @@
     "publisher": "W.W. Norton & Co.",
     "open_library_key": "/works/OL362528W",
     "catalog_notes": "Found ISBN: 9780393933130; Year from Open Library: 2001",
-    "cover_url": "/covers/king-lear.jpg",
+    "cover_url": "covers/king-lear.jpg",
     "tags": [
       "shakespeare",
       "anger",
@@ -29797,7 +29797,7 @@
     "publisher": "Gallimard",
     "open_library_key": "/works/OL14865999W",
     "catalog_notes": "Found ISBN: 9782070717293; Year from Open Library: 1987",
-    "cover_url": "/covers/9782070717293.jpg",
+    "cover_url": "covers/9782070717293.jpg",
     "_flickr_id": "54986851981",
     "_match_score": 180,
     "tags": [
@@ -29884,7 +29884,7 @@
     "publisher": "Gallimard",
     "open_library_key": "/works/OL14865999W",
     "catalog_notes": "Found ISBN: 9782070717293; Year from Open Library: 1987",
-    "cover_url": "/covers/9782070717293.jpg",
+    "cover_url": "covers/9782070717293.jpg",
     "_flickr_id": "54987131790",
     "_match_score": 170,
     "tags": [
@@ -30045,7 +30045,7 @@
     "publisher": null,
     "open_library_key": "/works/OL43069785W",
     "catalog_notes": "Year from Open Library: 1979; No ISBN edition found",
-    "cover_url": "/covers/the-gulag-archipelago.jpg",
+    "cover_url": "covers/the-gulag-archipelago.jpg",
     "_flickr_id": "33992608845",
     "_match_score": 120,
     "tags": [
@@ -30237,7 +30237,7 @@
     "publisher": "",
     "open_library_key": "/works/OL17930369W",
     "catalog_notes": "Found ISBN: 9781432856465",
-    "cover_url": "/covers/the-library-book.jpg",
+    "cover_url": "covers/the-library-book.jpg",
     "_flickr_id": "53987268264",
     "_match_score": 180,
     "tags": [
@@ -30304,7 +30304,7 @@
     "publisher": "",
     "open_library_key": "/works/OL17930369W",
     "catalog_notes": "Found ISBN: 9781432856465",
-    "cover_url": "/covers/the-library-book.jpg",
+    "cover_url": "covers/the-library-book.jpg",
     "_flickr_id": "53986952596",
     "_match_score": 180,
     "tags": [
@@ -30575,7 +30575,7 @@
     "notes": "Author indicates 'The Tempest', which is a play by William Shakespeare, but no direct attribution to an individual.",
     "confidence": 0.9,
     "needs_review": true,
-    "cover_url": "/covers/the-tempest.webp",
+    "cover_url": "covers/the-tempest.webp",
     "_flickr_id": "53686763983",
     "_match_score": 150,
     "tags": [
@@ -30668,7 +30668,7 @@
     "publisher": "Mus\u00e9e du Louvre, Mus\u00e9e d'Orsay, Centre Pompidou",
     "open_library_key": "/works/OL12294430W",
     "catalog_notes": "Found ISBN: 2350310450",
-    "cover_url": "/covers/theatre-of-the-world.jpg",
+    "cover_url": "covers/theatre-of-the-world.jpg",
     "tags": [
       "books",
       "reading",
@@ -30821,7 +30821,7 @@
     "notes": "The quote and author are clear and legible.",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/9781520082523.jpg",
+    "cover_url": "covers/9781520082523.jpg",
     "_match_score": 150,
     "tags": [
       "thoreau",
@@ -30881,7 +30881,7 @@
     "publisher": "Dreamscape Media, LLC",
     "open_library_key": "/works/OL55649W",
     "catalog_notes": "Found ISBN: 9781520082523",
-    "cover_url": "/covers/9781520082523.jpg",
+    "cover_url": "covers/9781520082523.jpg",
     "_match_score": 150,
     "tags": [
       "thoreau",
@@ -30945,7 +30945,7 @@
     "publisher": "Crown",
     "open_library_key": "/works/OL17710110W",
     "catalog_notes": "Found ISBN: 9780804190114",
-    "cover_url": "/covers/on-tyranny.jpg",
+    "cover_url": "covers/on-tyranny.jpg",
     "_flickr_id": "54406821536",
     "_match_score": 170,
     "tags": [
@@ -31032,7 +31032,7 @@
     "publisher": null,
     "open_library_key": "/works/OL23763491M",
     "catalog_notes": "Year from Open Library: 1968; No ISBN edition found",
-    "cover_url": "/covers/rosencrantz-and-guildenstern-are-dead.jpg",
+    "cover_url": "covers/rosencrantz-and-guildenstern-are-dead.jpg",
     "_flickr_id": "54173648084",
     "_match_score": 170,
     "tags": [
@@ -31103,7 +31103,7 @@
     "publisher": "Wings Press (TX)",
     "open_library_key": "/works/OL8695915W",
     "catalog_notes": "Found ISBN: 9780930324056",
-    "cover_url": "/covers/a-deeper-blue.png",
+    "cover_url": "covers/a-deeper-blue.png",
     "_flickr_id": "54868807958",
     "tags": [
       "lyrics",
@@ -31214,7 +31214,7 @@
     "publisher": null,
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
-    "cover_url": "/covers/tracker.jpg",
+    "cover_url": "covers/tracker.jpg",
     "_flickr_id": "54173648179",
     "_match_score": 250,
     "tags": [
@@ -31305,7 +31305,7 @@
     "publisher": "Reprint Services Corp",
     "open_library_key": "/works/OL413433W",
     "catalog_notes": "Found ISBN: 9780781211284",
-    "cover_url": "/covers/the-man-that-corrupted-hadleyburg.jpg",
+    "cover_url": "covers/the-man-that-corrupted-hadleyburg.jpg",
     "_flickr_id": "47307265981",
     "_match_score": 50,
     "tags": [
@@ -31392,7 +31392,7 @@
     "publisher": null,
     "open_library_key": "/works/OL37535473W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-name-of-the-rose.jpg",
+    "cover_url": "covers/the-name-of-the-rose.jpg",
     "_match_score": 110,
     "tags": [
       "umberto eco",
@@ -31451,7 +31451,7 @@
     "publisher": null,
     "open_library_key": "/works/OL37535473W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-name-of-the-rose.jpg",
+    "cover_url": "covers/the-name-of-the-rose.jpg",
     "_match_score": 110,
     "tags": [
       "umberto eco",
@@ -31510,7 +31510,7 @@
     "publisher": null,
     "open_library_key": "/works/OL37535473W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-name-of-the-rose.jpg",
+    "cover_url": "covers/the-name-of-the-rose.jpg",
     "_match_score": 100,
     "tags": [
       "umberto eco",
@@ -31585,7 +31585,7 @@
     "publisher": null,
     "open_library_key": "/works/OL37535473W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-name-of-the-rose.jpg",
+    "cover_url": "covers/the-name-of-the-rose.jpg",
     "_flickr_id": "53830098125",
     "_match_score": 140,
     "tags": [
@@ -31667,7 +31667,7 @@
     "publisher": null,
     "open_library_key": "/works/OL37535473W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-name-of-the-rose.jpg",
+    "cover_url": "covers/the-name-of-the-rose.jpg",
     "_flickr_id": "53828748722",
     "_match_score": 130,
     "tags": [
@@ -31745,7 +31745,7 @@
     "publisher": null,
     "open_library_key": "/works/OL37535473W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/the-name-of-the-rose.jpg",
+    "cover_url": "covers/the-name-of-the-rose.jpg",
     "_flickr_id": "53829905218",
     "_match_score": 120,
     "tags": [
@@ -31858,7 +31858,7 @@
     "publisher": "Harper",
     "open_library_key": "/works/OL59863W",
     "catalog_notes": "Found ISBN: 9780063382930; Year from Open Library: 1974",
-    "cover_url": "/covers/the-dispossessed.jpg",
+    "cover_url": "covers/the-dispossessed.jpg",
     "_flickr_id": "54610637838",
     "_match_score": 150,
     "tags": [
@@ -31940,7 +31940,7 @@
     "publisher": "Mondadori",
     "open_library_key": "/works/OL59800W",
     "catalog_notes": "Found ISBN: 9788804732051; Year from Open Library: 1969",
-    "cover_url": "/covers/the-left-hand-of-darkness.jpg",
+    "cover_url": "covers/the-left-hand-of-darkness.jpg",
     "_flickr_id": "54773318594",
     "_match_score": 130,
     "tags": [
@@ -32023,7 +32023,7 @@
     "publisher": "Mondadori",
     "open_library_key": "/works/OL59800W",
     "catalog_notes": "Found ISBN: 9788804732051; Year from Open Library: 1969",
-    "cover_url": "/covers/the-left-hand-of-darkness.jpg",
+    "cover_url": "covers/the-left-hand-of-darkness.jpg",
     "_flickr_id": "54772244347",
     "_match_score": 120,
     "tags": [
@@ -32085,7 +32085,7 @@
     "publisher": "Mondadori",
     "open_library_key": "/works/OL59800W",
     "catalog_notes": "Found ISBN: 9788804732051; Year from Open Library: 1969",
-    "cover_url": "/covers/the-left-hand-of-darkness.jpg",
+    "cover_url": "covers/the-left-hand-of-darkness.jpg",
     "_flickr_id": "54773091096",
     "_match_score": 140,
     "tags": [
@@ -32157,7 +32157,7 @@
     "publisher": "Mondadori",
     "open_library_key": "/works/OL59800W",
     "catalog_notes": "Found ISBN: 9788804732051; Year from Open Library: 1969",
-    "cover_url": "/covers/the-left-hand-of-darkness.jpg",
+    "cover_url": "covers/the-left-hand-of-darkness.jpg",
     "_flickr_id": "54773091146",
     "_match_score": 140,
     "tags": [
@@ -32286,7 +32286,7 @@
     "publisher": null,
     "open_library_key": "/works/OL5098582W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/idea-that-created-the-future.jpg",
+    "cover_url": "covers/idea-that-created-the-future.jpg",
     "_flickr_id": "53324325353",
     "_match_score": 70,
     "tags": [
@@ -32447,7 +32447,7 @@
     "publisher": null,
     "open_library_key": "/works/OL2141395W",
     "catalog_notes": "No ISBN edition found",
-    "cover_url": "/covers/9781604867848.jpg",
+    "cover_url": "covers/9781604867848.jpg",
     "_flickr_id": "54901252789",
     "_match_score": 140,
     "tags": [
@@ -32735,7 +32735,7 @@
     "publisher": "New Directions Pub. Corp.",
     "open_library_key": "/works/OL1836051W",
     "catalog_notes": "Found ISBN: 0811212254; Year from Open Library: 1946",
-    "cover_url": "/covers/paterson.jpg",
+    "cover_url": "covers/paterson.jpg",
     "_flickr_id": "49161011298",
     "_match_score": 180,
     "tags": [
@@ -32826,7 +32826,7 @@
     "publisher": "",
     "open_library_key": "/works/OL19761624W",
     "catalog_notes": "Found ISBN: 9780141987125; Year from Open Library: 2018",
-    "cover_url": "/covers/the-peace-of-wild-things.jpg",
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
     "_flickr_id": "48855933983",
     "_match_score": 170,
     "tags": [
@@ -32933,7 +32933,7 @@
     "publisher": "",
     "open_library_key": "/works/OL19761624W",
     "catalog_notes": "Found ISBN: 9780141987125; Year from Open Library: 2018",
-    "cover_url": "/covers/the-peace-of-wild-things.jpg",
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
     "_flickr_id": "48856290346",
     "_match_score": 200,
     "tags": [
@@ -33014,7 +33014,7 @@
     "publisher": "",
     "open_library_key": "/works/OL19761624W",
     "catalog_notes": "Found ISBN: 9780141987125; Year from Open Library: 2018",
-    "cover_url": "/covers/the-peace-of-wild-things.jpg",
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
     "_flickr_id": "48856487817",
     "_match_score": 180,
     "tags": [
@@ -33101,7 +33101,7 @@
     "publisher": "Counterpoint Press",
     "open_library_key": "/works/OL21342128W",
     "catalog_notes": "Found ISBN: 9781640091733",
-    "cover_url": "/covers/think-little.jpg",
+    "cover_url": "covers/think-little.jpg",
     "_flickr_id": "53501184831",
     "_match_score": 80,
     "tags": [
@@ -33194,7 +33194,7 @@
     "publisher": "Counterpoint",
     "open_library_key": "/works/OL14862065W",
     "catalog_notes": "Found ISBN: 1582430292",
-    "cover_url": "/covers/the-art-of-the-common-place.jpg",
+    "cover_url": "covers/the-art-of-the-common-place.jpg",
     "_match_score": 50,
     "tags": [
       "wendell berry",
@@ -33264,7 +33264,7 @@
     "publisher": "Counterpoint",
     "open_library_key": "/works/OL14862065W",
     "catalog_notes": "Found ISBN: 1582430292",
-    "cover_url": "/covers/think-little.jpg",
+    "cover_url": "covers/think-little.jpg",
     "_match_score": 50,
     "tags": [
       "wendell berry",
@@ -33318,7 +33318,7 @@
     "notes": "Converted text from uppercase to sentence case.",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/as-i-walked-out-one-evening.jpg",
+    "cover_url": "covers/as-i-walked-out-one-evening.jpg",
     "tags": [
       "auden",
       "w.h. auden",
@@ -33423,7 +33423,7 @@
     "publisher": "Arpa Editores, ARPA",
     "open_library_key": "/works/OL1073956W",
     "catalog_notes": "Found ISBN: 9788418741524",
-    "cover_url": "/covers/the-lessons-of-history.jpg",
+    "cover_url": "covers/the-lessons-of-history.jpg",
     "tags": [
       "will durant",
       "ariel durant",
@@ -33481,7 +33481,7 @@
     "publisher": "Arpa Editores, ARPA",
     "open_library_key": "/works/OL1073956W",
     "catalog_notes": "Found ISBN: 9788418741524",
-    "cover_url": "/covers/the-lessons-of-history.jpg",
+    "cover_url": "covers/the-lessons-of-history.jpg",
     "tags": [
       "will durant",
       "ariel durant",
@@ -33540,7 +33540,7 @@
     "publisher": "Taurus P",
     "open_library_key": "/works/OL575432W",
     "catalog_notes": "Found ISBN: 0900731117; Year from Open Library: 1914",
-    "cover_url": "/covers/songs-of-innocence-and-of-experience.jpg",
+    "cover_url": "covers/songs-of-innocence-and-of-experience.jpg",
     "_flickr_id": "49161493851",
     "tags": [
       "quote",
@@ -33683,7 +33683,7 @@
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
-    "cover_url": "/covers/the-marriage-of-heaven-and-hell.jpg",
+    "cover_url": "covers/the-marriage-of-heaven-and-hell.jpg",
     "_flickr_id": "49161011268",
     "tags": [
       "quote",
@@ -33753,7 +33753,7 @@
     "publisher": "Doubleday",
     "open_library_key": "/works/OL575419W",
     "catalog_notes": "Found ISBN: 0385152132; Year from Open Library: 1981",
-    "cover_url": "/covers/the-complete-poetry-and-prose.jpg",
+    "cover_url": "covers/the-complete-poetry-and-prose.jpg",
     "_flickr_id": "54173671019",
     "tags": [
       "book",
@@ -33825,7 +33825,7 @@
     "publisher": "New Directions Pub. Corp.",
     "open_library_key": "/works/OL1836051W",
     "catalog_notes": "Found ISBN: 0811212254; Year from Open Library: 1946",
-    "cover_url": "/covers/paterson.jpg",
+    "cover_url": "covers/paterson.jpg",
     "_flickr_id": "49161729782",
     "_match_score": 170,
     "tags": [
@@ -33921,7 +33921,7 @@
     "publisher": "Adelphi",
     "open_library_key": "/works/OL82931W",
     "catalog_notes": "Found ISBN: 9788845928178; Year from Open Library: 1931",
-    "cover_url": "/covers/9788845928178.jpg",
+    "cover_url": "covers/9788845928178.jpg",
     "_flickr_id": "53986952566",
     "_match_score": 70,
     "tags": [
@@ -33994,7 +33994,7 @@
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "/covers/up-the-line.jpg",
+    "cover_url": "covers/up-the-line.jpg",
     "tags": [
       "william gibson",
       "death",
@@ -34057,7 +34057,7 @@
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "/covers/distrust-that-particular-flavor.jpg",
+    "cover_url": "covers/distrust-that-particular-flavor.jpg",
     "_flickr_id": "49191072243",
     "tags": [
       "William Gibson",
@@ -34125,7 +34125,7 @@
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "/covers/distrust-that-particular-flavor.jpg",
+    "cover_url": "covers/distrust-that-particular-flavor.jpg",
     "_flickr_id": "49191072143",
     "tags": [
       "William Gibson",
@@ -34179,7 +34179,7 @@
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "/covers/my-own-private-tokyo.jpg",
+    "cover_url": "covers/my-own-private-tokyo.jpg",
     "_flickr_id": "49191072493",
     "tags": [
       "book",
@@ -34241,7 +34241,7 @@
     "publisher": "Woodstock Books",
     "open_library_key": "/works/OL1839615W",
     "catalog_notes": "Found ISBN: 1854770306",
-    "cover_url": "/covers/political-essays.jpg",
+    "cover_url": "covers/political-essays.jpg",
     "_flickr_id": "53819022131",
     "tags": [
       "quote",
@@ -34292,7 +34292,7 @@
     "publisher": "Hill and Wang",
     "open_library_key": "/works/OL118144W",
     "catalog_notes": "Found ISBN: 9780374707088; Year from Open Library: 2005",
-    "cover_url": "/covers/fortunes-formula.jpg",
+    "cover_url": "covers/fortunes-formula.jpg",
     "_flickr_id": "39792453703",
     "_match_score": 160,
     "tags": [
@@ -34364,7 +34364,7 @@
     "publisher": "Hill and Wang",
     "open_library_key": "/works/OL118144W",
     "catalog_notes": "Found ISBN: 9780374707088; Year from Open Library: 2005",
-    "cover_url": "/covers/fortunes-formula.jpg",
+    "cover_url": "covers/fortunes-formula.jpg",
     "_flickr_id": "46757834081",
     "_match_score": 170,
     "tags": [
@@ -34441,7 +34441,7 @@
     "publisher": "Philipp Reclam jun. Stuttgart",
     "open_library_key": "/works/OL9170454W",
     "catalog_notes": "Found ISBN: 3150000319; Year from Open Library: 1603",
-    "cover_url": "/covers/hamlet.jpg",
+    "cover_url": "covers/hamlet.jpg",
     "_match_score": 50,
     "book_author": null,
     "tags": [
@@ -34506,7 +34506,7 @@
     "publisher": "Sterling",
     "open_library_key": "/works/OL26386W",
     "catalog_notes": "Found ISBN: 9780806982779",
-    "cover_url": "/covers/lyrical-ballads.jpg",
+    "cover_url": "covers/lyrical-ballads.jpg",
     "tags": [
       "wordsworth",
       "william wordsworth",
@@ -34570,7 +34570,7 @@
     "publisher": null,
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
-    "cover_url": "/covers/if-anyone-builds-it-everyone-dies.jpg",
+    "cover_url": "covers/if-anyone-builds-it-everyone-dies.jpg",
     "book_author": null,
     "tags": [
       "prediction",
