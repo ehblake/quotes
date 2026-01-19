@@ -256,9 +256,9 @@
     .book-block {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       gap: clamp(12px, 2vw, 22px);
-      padding: clamp(12px, 2vw, 22px);
+      padding: clamp(8px, 1.5vw, 12px);
       background: transparent;
       border: none;
       border-top: 1px solid #333;
@@ -279,6 +279,7 @@
     .book-block-inner {
       display: flex;
       align-items: center;
+      justify-content: flex-start;
       gap: 22px;
       opacity: 0;
       transition: opacity 0.3s ease;
@@ -469,8 +470,15 @@
 
     .landing-canvas.hidden {
       opacity: 0;
-      transform: scale(1.05);
       pointer-events: none;
+    }
+
+    /* When transitioning out, shrink covers toward bottom-center and drift downward with blur */
+    .landing-canvas.shrinking .canvas-cover {
+      transform: scale(0.3) translateY(150px);
+      transform-origin: center bottom;
+      opacity: 0;
+      filter: blur(8px);
     }
 
     .landing-canvas.grabbing {
@@ -509,7 +517,7 @@
       object-fit: cover;
       border-radius: 4px;
       cursor: pointer;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease, opacity 0.5s ease, filter 0.5s ease;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
 
@@ -894,23 +902,55 @@
         if (info && info.quoteIndices.length > 0) {
           // Pick random quote from this publication
           const randomIdx = info.quoteIndices[Math.floor(Math.random() * info.quoteIndices.length)];
-          transitionToQuote(randomIdx);
+          // Pass the clicked cover element for animation
+          transitionToQuote(randomIdx, e.target);
         }
       }
     }
 
+    // Store flying cover globally so render() can coordinate with it
+    let activeFlyingCover = null;
+
     // Transition from landing canvas to quote view
-    async function transitionToQuote(quoteIndex) {
+    async function transitionToQuote(quoteIndex, clickedCover = null) {
       const landingCanvas = document.getElementById('landing-canvas');
       const viewMode = document.getElementById('view-mode');
       const backBtn = document.getElementById('back-to-canvas');
 
-      // Fade out landing canvas
+      // If we have a clicked cover, create a flying clone at its current position
+      if (clickedCover) {
+        const startRect = clickedCover.getBoundingClientRect();
+
+        const flyingCover = document.createElement('img');
+        flyingCover.src = clickedCover.src;
+        flyingCover.className = 'flying-cover';
+        flyingCover.style.cssText = `
+          position: fixed;
+          z-index: 1000;
+          left: ${startRect.left}px;
+          top: ${startRect.top}px;
+          width: ${startRect.width}px;
+          height: ${startRect.height}px;
+          object-fit: cover;
+          border-radius: 4px;
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+          transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+          pointer-events: none;
+          filter: blur(2px);
+          opacity: 0.85;
+        `;
+        document.body.appendChild(flyingCover);
+        activeFlyingCover = flyingCover;
+      }
+
+      // Add shrinking class to make all covers zoom out with blur
+      landingCanvas.classList.add('shrinking');
       landingCanvas.classList.add('hidden');
 
-      // After animation, show quote view
+      // After canvas fades, show quote view and animate flying cover
       setTimeout(async () => {
         landingCanvas.style.display = 'none';
+        landingCanvas.classList.remove('shrinking');
         viewMode.style.display = 'flex';
         backBtn.style.display = 'flex';
 
@@ -918,8 +958,10 @@
         currentIndex = quoteIndex;
         startTagJourney(quotes[quoteIndex]);
         addToRecentQuotes(quotes[quoteIndex].id);
+
+        // Render content - this will also trigger flying cover animation
         await render(quotes[quoteIndex], quoteIndex);
-      }, 500);
+      }, 150);
     }
 
     // Transition back to landing canvas
@@ -927,6 +969,9 @@
       const landingCanvas = document.getElementById('landing-canvas');
       const viewMode = document.getElementById('view-mode');
       const backBtn = document.getElementById('back-to-canvas');
+
+      // Remove any leftover flying covers
+      document.querySelectorAll('.flying-cover').forEach(el => el.remove());
 
       // Fade out quote view
       viewMode.style.opacity = '0';
@@ -1335,49 +1380,85 @@
       // Render prev/next panels
       renderSideQuotes();
 
-      // Block 2: Book - delay loading by 0.5s, animate in without layout shift
+      // Block 2: Book - coordinate with flying cover if present
       const bookBlock = document.getElementById("book-block");
-      // Create invisible inner wrapper immediately to reserve space
       bookBlock.innerHTML = '<div class="book-block-inner"></div>';
       const innerBlock = bookBlock.querySelector('.book-block-inner');
 
-      setTimeout(async () => {
-        const bookTitle = q.publication || q.book_title;
-        const hasBook = bookTitle || q.isbn || q.cover_url;
-        // Use book_author if set, otherwise fall back to quoted person (author)
-        const bookAuthor = q.book_author || q.author;
+      const bookTitle = q.publication || q.book_title;
+      const hasBook = bookTitle || q.isbn || q.cover_url;
+      const bookAuthor = q.book_author || q.author;
 
-        if (hasBook) {
-          // Try local cover first, then fetch from Goodreads
-          let coverUrl = getCoverUrl(q);
+      // Build book info HTML (without cover initially if we have flying cover)
+      const buildBookInfo = () => `
+        <div class="book-info">
+          <div class="book-title">${bookTitle || 'Unknown title'}</div>
+          <div class="book-author">${bookAuthor}</div>
+          ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
+          ${q.isbn ? `<div class="book-isbn">ISBN: ${q.isbn}</div>` : ''}
+        </div>
+      `;
 
-          if (!coverUrl) {
-            // Fetch from Goodreads API
-            coverUrl = await fetchGoodreadsCover(q);
+      console.log('render() - activeFlyingCover:', !!activeFlyingCover, 'hasBook:', hasBook);
+
+      if (activeFlyingCover && hasBook) {
+        // We have a flying cover - animate it to the book cover position
+        // It stays as a fixed element forever (no swap = no flash)
+        console.log('Using flying cover path');
+        innerBlock.innerHTML = buildBookInfo();
+        innerBlock.classList.add('visible');
+
+        // Create invisible placeholder to measure exact target position
+        const placeholder = document.createElement('div');
+        placeholder.className = 'book-cover-placeholder';
+        placeholder.style.visibility = 'hidden';
+        innerBlock.insertBefore(placeholder, innerBlock.firstChild);
+
+        // Wait for layout, then animate flying cover to match
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            const targetRect = placeholder.getBoundingClientRect();
+            console.log('Flying cover target:', targetRect.left, targetRect.top, targetRect.width, targetRect.height);
+
+            // Animate flying cover to exact target position
+            // Also clear blur and restore opacity as it lands
+            activeFlyingCover.style.left = `${targetRect.left}px`;
+            activeFlyingCover.style.top = `${targetRect.top}px`;
+            activeFlyingCover.style.width = `${targetRect.width}px`;
+            activeFlyingCover.style.height = `${targetRect.height}px`;
+            activeFlyingCover.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+            activeFlyingCover.style.filter = 'blur(0px)';
+            activeFlyingCover.style.opacity = '1';
+
+            // Flying cover stays in place permanently - no removal, no flash
+            // Clear the reference so subsequent renders don't try to animate it
+            activeFlyingCover = null;
+          });
+        });
+
+      } else {
+        // No flying cover - use standard delayed load
+        setTimeout(async () => {
+          if (hasBook) {
+            let coverUrl = getCoverUrl(q);
+            if (!coverUrl) {
+              coverUrl = await fetchGoodreadsCover(q);
+            }
+
+            const coverHtml = coverUrl
+              ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
+              : `<div class="book-cover-placeholder">No cover available</div>`;
+
+            innerBlock.innerHTML = `${coverHtml}${buildBookInfo()}`;
+          } else {
+            innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
           }
 
-          const coverHtml = coverUrl
-            ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
-            : `<div class="book-cover-placeholder">No cover available</div>`;
-
-          innerBlock.innerHTML = `
-            ${coverHtml}
-            <div class="book-info">
-              <div class="book-title">${bookTitle || 'Unknown title'}</div>
-              <div class="book-author">${bookAuthor}</div>
-              ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
-              ${q.isbn ? `<div class="book-isbn">ISBN: ${q.isbn}</div>` : ''}
-            </div>
-          `;
-        } else {
-          innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
-        }
-
-        // Fade in the content
-        requestAnimationFrame(() => {
-          innerBlock.classList.add('visible');
-        });
-      }, 500);
+          requestAnimationFrame(() => {
+            innerBlock.classList.add('visible');
+          });
+        }, 500);
+      }
 
       // Count
       document.getElementById("count").textContent = `${index + 1} / ${quotes.length}`;
