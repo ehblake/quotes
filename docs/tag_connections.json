@@ -18,16 +18,8 @@
         "score": 6.0131
       },
       {
-        "tag": "distrust that particular flavor",
-        "score": 6.0131
-      },
-      {
         "tag": "change",
         "score": 5.5021
-      },
-      {
-        "tag": "war and peace in the global village",
-        "score": 5.305
       },
       {
         "tag": "media",
@@ -83,10 +75,6 @@
   },
   "nature": {
     "related": [
-      {
-        "tag": "the peace of wild things",
-        "score": 6.6544
-      },
       {
         "tag": "poetry",
         "score": 6.4139
@@ -189,7 +177,7 @@
         "score": 4.1105
       },
       {
-        "tag": "city",
+        "tag": "cities",
         "score": 3.9638
       },
       {
@@ -222,7 +210,7 @@
         "score": 7.7736
       },
       {
-        "tag": "city",
+        "tag": "cities",
         "score": 4.8947
       }
     ],
@@ -233,10 +221,6 @@
       {
         "tag": "creativity",
         "score": 6.8825
-      },
-      {
-        "tag": "solution",
-        "score": 5.6666
       },
       {
         "tag": "problem solving",
@@ -281,10 +265,6 @@
       {
         "tag": "storytelling",
         "score": 3.93
-      },
-      {
-        "tag": "story",
-        "score": 3.8343
       }
     ],
     "quote_count": 26
@@ -294,10 +274,6 @@
       {
         "tag": "words",
         "score": 11.732
-      },
-      {
-        "tag": "invisible cities",
-        "score": 5.721
       },
       {
         "tag": "cities",
@@ -314,10 +290,6 @@
       {
         "tag": "understanding",
         "score": 4.1685
-      },
-      {
-        "tag": "conscientious objections",
-        "score": 4.0883
       },
       {
         "tag": "knowledge",
@@ -366,10 +338,6 @@
       },
       {
         "tag": "speaking",
-        "score": 4.1447
-      },
-      {
-        "tag": "invisible cities",
         "score": 4.1447
       },
       {
@@ -675,10 +643,6 @@
       {
         "tag": "storytelling",
         "score": 4.7253
-      },
-      {
-        "tag": "story",
-        "score": 4.6495
       }
     ],
     "quote_count": 4
@@ -710,15 +674,11 @@
         "score": 3.2733
       },
       {
-        "tag": "story",
-        "score": 3.1975
-      },
-      {
         "tag": "humanity",
         "score": 2.7222
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.1764
       },
       {
@@ -751,10 +711,6 @@
         "score": 5.2155
       },
       {
-        "tag": "on directing film",
-        "score": 4.7653
-      },
-      {
         "tag": "value",
         "score": 4.7653
       },
@@ -781,10 +737,6 @@
       {
         "tag": "storytelling",
         "score": 3.073
-      },
-      {
-        "tag": "story",
-        "score": 2.9972
       },
       {
         "tag": "america",
@@ -820,10 +772,6 @@
         "score": 5.6377
       },
       {
-        "tag": "how to write one song",
-        "score": 5.6143
-      },
-      {
         "tag": "making",
         "score": 5.2155
       },
@@ -844,19 +792,11 @@
         "score": 4.4397
       },
       {
-        "tag": "problem",
-        "score": 4.0038
-      },
-      {
         "tag": "creative",
         "score": 4.0038
       },
       {
         "tag": "f scott fitzgerald",
-        "score": 4.0038
-      },
-      {
-        "tag": "this side of paradise",
         "score": 4.0038
       },
       {
@@ -911,7 +851,7 @@
         "score": 3.0136
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.9806
       },
       {
@@ -944,7 +884,7 @@
         "score": 3.073
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.0136
       }
     ],
@@ -1014,10 +954,6 @@
         "score": 5.0608
       },
       {
-        "tag": "walk",
-        "score": 5.0608
-      },
-      {
         "tag": "mind",
         "score": 4.8757
       },
@@ -1026,19 +962,7 @@
         "score": 4.496
       },
       {
-        "tag": "how to write one song",
-        "score": 4.496
-      },
-      {
         "tag": "abstract",
-        "score": 4.1799
-      },
-      {
-        "tag": "solution",
-        "score": 4.1799
-      },
-      {
-        "tag": "frederic gros",
         "score": 4.1799
       },
       {
@@ -1171,10 +1095,6 @@
         "score": 6.0654
       },
       {
-        "tag": "escape from evil",
-        "score": 5.1228
-      },
-      {
         "tag": "technology",
         "score": 5.0841
       },
@@ -1291,10 +1211,6 @@
         "score": 4.7653
       },
       {
-        "tag": "this side of paradise",
-        "score": 4.7653
-      },
-      {
         "tag": "wit",
         "score": 4.4492
       },
@@ -1373,10 +1289,6 @@
         "score": 3.7463
       },
       {
-        "tag": "conscientious objections",
-        "score": 3.6069
-      },
-      {
         "tag": "intelligence",
         "score": 3.5905
       },
@@ -1390,10 +1302,6 @@
       },
       {
         "tag": "uncertainty",
-        "score": 3.4066
-      },
-      {
-        "tag": "skin in the game",
         "score": 3.4066
       }
     ],
@@ -1434,7 +1342,7 @@
         "score": 2.2625
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.0389
       },
       {
@@ -1451,12 +1359,8 @@
         "score": 10.1015
       },
       {
-        "tag": "library",
-        "score": 9.8319
-      },
-      {
         "tag": "libraries",
-        "score": 7.0418
+        "score": 9.8319
       },
       {
         "tag": "associations",
@@ -1472,14 +1376,6 @@
       },
       {
         "tag": "collecting",
-        "score": 4.3613
-      },
-      {
-        "tag": "fictions",
-        "score": 4.3613
-      },
-      {
-        "tag": "the library book",
         "score": 4.3613
       },
       {
@@ -1501,10 +1397,6 @@
       {
         "tag": "knowledge",
         "score": 3.7463
-      },
-      {
-        "tag": "why i am so wise",
-        "score": 3.4305
       }
     ],
     "quote_count": 26
@@ -1516,11 +1408,28 @@
         "score": 7.0418
       },
       {
-        "tag": "library",
+        "tag": "libraries",
         "score": 6.9912
+      },
+      {
+        "tag": "reading",
+        "score": 6.4523
+      },
+      {
+        "tag": "serendipity",
+        "score": 5.411
+      },
+      {
+        "tag": "associations",
+        "score": 5.095
+      },
+      {
+        "tag": "connections",
+        "score": 5.095
       }
     ],
-    "quote_count": 4
+    "quote_count": 4,
+    "count": 0
   },
   "collecting": {
     "related": [
@@ -1559,7 +1468,7 @@
         "score": 10.1015
       },
       {
-        "tag": "library",
+        "tag": "libraries",
         "score": 6.4523
       },
       {
@@ -1567,15 +1476,11 @@
         "score": 4.4044
       },
       {
-        "tag": "why i am so wise",
-        "score": 4.0347
-      },
-      {
         "tag": "change",
         "score": 2.1764
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.1764
       }
     ],
@@ -1616,10 +1521,6 @@
   },
   "stories": {
     "related": [
-      {
-        "tag": "story",
-        "score": 7.0263
-      },
       {
         "tag": "storytelling",
         "score": 5.749
@@ -1689,7 +1590,7 @@
     ],
     "quote_count": 4
   },
-  "city": {
+  "cities": {
     "related": [
       {
         "tag": "cities",
@@ -1714,9 +1615,22 @@
       {
         "tag": "life",
         "score": 2.6812
+      },
+      {
+        "tag": "language",
+        "score": 5.0694
+      },
+      {
+        "tag": "reality",
+        "score": 3.8171
+      },
+      {
+        "tag": "words",
+        "score": 3.6284
       }
     ],
-    "quote_count": 8
+    "quote_count": 8,
+    "count": 0
   },
   "reality": {
     "related": [
@@ -1729,16 +1643,8 @@
         "score": 4.8947
       },
       {
-        "tag": "utopia of rules",
-        "score": 4.8947
-      },
-      {
         "tag": "living",
         "score": 4.7057
-      },
-      {
-        "tag": "invisible cities",
-        "score": 4.3335
       },
       {
         "tag": "quotes",
@@ -1782,11 +1688,7 @@
   "truth": {
     "related": [
       {
-        "tag": "false",
-        "score": 7.8099
-      },
-      {
-        "tag": "fact",
+        "tag": "facts",
         "score": 6.7076
       },
       {
@@ -1802,10 +1704,6 @@
         "score": 5.7776
       },
       {
-        "tag": "facts",
-        "score": 5.3788
-      },
-      {
         "tag": "speaking",
         "score": 5.0694
       },
@@ -1814,11 +1712,7 @@
         "score": 4.603
       },
       {
-        "tag": "king lear",
-        "score": 4.4179
-      },
-      {
-        "tag": "liar",
+        "tag": "liars",
         "score": 4.1332
       },
       {
@@ -1847,7 +1741,7 @@
   "australia": {
     "related": [
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.0136
       }
     ],
@@ -1858,20 +1752,12 @@
       {
         "tag": "happiness",
         "score": 7.2579
-      },
-      {
-        "tag": "happy",
-        "score": 6.1725
       }
     ],
     "quote_count": 3
   },
   "happiness": {
     "related": [
-      {
-        "tag": "happy",
-        "score": 8.067
-      },
       {
         "tag": "comfort",
         "score": 7.2579
@@ -1885,7 +1771,7 @@
         "score": 3.2785
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.5171
       },
       {
@@ -1894,19 +1780,6 @@
       }
     ],
     "quote_count": 11
-  },
-  "happy": {
-    "related": [
-      {
-        "tag": "happiness",
-        "score": 8.067
-      },
-      {
-        "tag": "comfort",
-        "score": 6.1725
-      }
-    ],
-    "quote_count": 5
   },
   "individuality": {
     "related": [
@@ -2206,10 +2079,6 @@
         "score": 3.3832
       },
       {
-        "tag": "war and peace in the global village",
-        "score": 3.3832
-      },
-      {
         "tag": "media",
         "score": 3.3832
       }
@@ -2259,14 +2128,6 @@
         "score": 3.8171
       },
       {
-        "tag": "antifragile",
-        "score": 3.572
-      },
-      {
-        "tag": "bullshit jobs",
-        "score": 3.572
-      },
-      {
         "tag": "old",
         "score": 3.572
       },
@@ -2304,7 +2165,7 @@
         "score": 3.1477
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.9095
       },
       {
@@ -2325,27 +2186,6 @@
       }
     ],
     "quote_count": 20
-  },
-  "demons": {
-    "related": [
-      {
-        "tag": "life",
-        "score": 3.9453
-      },
-      {
-        "tag": "time",
-        "score": 3.0557
-      },
-      {
-        "tag": "funny",
-        "score": 2.8669
-      },
-      {
-        "tag": "humanity",
-        "score": 2.4024
-      }
-    ],
-    "quote_count": 8
   },
   "direction": {
     "related": [
@@ -2398,33 +2238,8 @@
     ],
     "quote_count": 3
   },
-  "false": {
-    "related": [
-      {
-        "tag": "truth",
-        "score": 7.8099
-      },
-      {
-        "tag": "falsehood",
-        "score": 5.8029
-      },
-      {
-        "tag": "liar",
-        "score": 5.8029
-      },
-      {
-        "tag": "lying",
-        "score": 5.8029
-      }
-    ],
-    "quote_count": 7
-  },
   "falsehood": {
     "related": [
-      {
-        "tag": "false",
-        "score": 5.8029
-      },
       {
         "tag": "truth",
         "score": 5.7776
@@ -2475,7 +2290,7 @@
         "score": 2.4
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.1764
       },
       {
@@ -2513,10 +2328,6 @@
   },
   "problem solving": {
     "related": [
-      {
-        "tag": "problem",
-        "score": 6.1725
-      },
       {
         "tag": "creativity",
         "score": 6.1589
@@ -2609,10 +2420,6 @@
         "score": 6.4139
       },
       {
-        "tag": "the peace of wild things",
-        "score": 6.0131
-      },
-      {
         "tag": "poet",
         "score": 5.6143
       },
@@ -2627,10 +2434,6 @@
       {
         "tag": "walking",
         "score": 3.6926
-      },
-      {
-        "tag": "walk",
-        "score": 3.389
       },
       {
         "tag": "death",
@@ -2715,7 +2518,7 @@
         "score": 3.6878
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.2188
       },
       {
@@ -2759,7 +2562,7 @@
     ],
     "quote_count": 3
   },
-  "funny": {
+  "humour": {
     "related": [
       {
         "tag": "life",
@@ -2804,10 +2607,6 @@
       {
         "tag": "history",
         "score": 2.9095
-      },
-      {
-        "tag": "demons",
-        "score": 2.8669
       }
     ],
     "quote_count": 38
@@ -3049,7 +2848,7 @@
         "score": 5.3063
       },
       {
-        "tag": "city",
+        "tag": "cities",
         "score": 4.2288
       },
       {
@@ -3175,10 +2974,6 @@
         "score": 11.6792
       },
       {
-        "tag": "the peace of wild things",
-        "score": 6.6544
-      },
-      {
         "tag": "nature",
         "score": 6.4081
       },
@@ -3189,10 +2984,6 @@
       {
         "tag": "poet",
         "score": 4.512
-      },
-      {
-        "tag": "walk",
-        "score": 3.8972
       },
       {
         "tag": "death",
@@ -3217,47 +3008,6 @@
     ],
     "quote_count": 17
   },
-  "story": {
-    "related": [
-      {
-        "tag": "storytelling",
-        "score": 11.0036
-      },
-      {
-        "tag": "stories",
-        "score": 7.0263
-      },
-      {
-        "tag": "on directing film",
-        "score": 6.828
-      },
-      {
-        "tag": "narrative",
-        "score": 6.828
-      },
-      {
-        "tag": "interpretation",
-        "score": 4.6495
-      },
-      {
-        "tag": "design",
-        "score": 3.8343
-      },
-      {
-        "tag": "perspective",
-        "score": 3.1975
-      },
-      {
-        "tag": "purpose",
-        "score": 2.9972
-      },
-      {
-        "tag": "life",
-        "score": 1.9906
-      }
-    ],
-    "quote_count": 15
-  },
   "humanity": {
     "related": [
       {
@@ -3279,10 +3029,6 @@
       {
         "tag": "end",
         "score": 4.9892
-      },
-      {
-        "tag": "undiscovered self",
-        "score": 4.9532
       },
       {
         "tag": "human",
@@ -3356,14 +3102,6 @@
   "storytelling": {
     "related": [
       {
-        "tag": "story",
-        "score": 11.0036
-      },
-      {
-        "tag": "on directing film",
-        "score": 6.9236
-      },
-      {
         "tag": "narrative",
         "score": 6.9236
       },
@@ -3401,15 +3139,6 @@
   "unique": {
     "related": [],
     "quote_count": 4
-  },
-  "antifragile": {
-    "related": [
-      {
-        "tag": "time",
-        "score": 3.572
-      }
-    ],
-    "quote_count": 5
   },
   "success": {
     "related": [],
@@ -3460,7 +3189,7 @@
         "score": 6.6702
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 4.9848
       },
       {
@@ -3474,10 +3203,6 @@
       {
         "tag": "death",
         "score": 4.202
-      },
-      {
-        "tag": "demons",
-        "score": 3.9453
       },
       {
         "tag": "reality",
@@ -3529,10 +3254,6 @@
         "score": 4.9656
       },
       {
-        "tag": "conscientious objections",
-        "score": 4.4044
-      },
-      {
         "tag": "stupid",
         "score": 4.0347
       },
@@ -3566,23 +3287,6 @@
       }
     ],
     "quote_count": 15
-  },
-  "problem": {
-    "related": [
-      {
-        "tag": "solution",
-        "score": 6.4177
-      },
-      {
-        "tag": "problem solving",
-        "score": 6.1725
-      },
-      {
-        "tag": "creativity",
-        "score": 4.0038
-      }
-    ],
-    "quote_count": 3
   },
   "formula": {
     "related": [
@@ -3642,10 +3346,6 @@
         "score": 4.5448
       },
       {
-        "tag": "pale fire",
-        "score": 4.2288
-      },
-      {
         "tag": "earth",
         "score": 4.2288
       },
@@ -3670,7 +3370,7 @@
         "score": 2.9339
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.7774
       },
       {
@@ -3712,18 +3412,6 @@
   "walking": {
     "related": [
       {
-        "tag": "walk",
-        "score": 10.1077
-      },
-      {
-        "tag": "frederic gros",
-        "score": 7.8231
-      },
-      {
-        "tag": "a philosophy of walking",
-        "score": 6.7385
-      },
-      {
         "tag": "ideas",
         "score": 5.9751
       },
@@ -3732,7 +3420,7 @@
         "score": 5.4945
       },
       {
-        "tag": "city",
+        "tag": "cities",
         "score": 5.3788
       },
       {
@@ -3790,7 +3478,7 @@
         "score": 4.2595
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.0136
       }
     ],
@@ -3918,10 +3606,6 @@
   "imagination": {
     "related": [
       {
-        "tag": "disappearance of childhood",
-        "score": 5.8029
-      },
-      {
         "tag": "imagine",
         "score": 5.8029
       },
@@ -3961,10 +3645,6 @@
       {
         "tag": "end",
         "score": 5.3361
-      },
-      {
-        "tag": "solution",
-        "score": 4.8947
       },
       {
         "tag": "disaster",
@@ -4078,7 +3758,7 @@
         "score": 3.9638
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.0136
       }
     ],
@@ -4122,43 +3802,6 @@
       }
     ],
     "quote_count": 6
-  },
-  "library": {
-    "related": [
-      {
-        "tag": "books",
-        "score": 9.8319
-      },
-      {
-        "tag": "fictions",
-        "score": 7.39
-      },
-      {
-        "tag": "libraries",
-        "score": 6.9912
-      },
-      {
-        "tag": "reading",
-        "score": 6.4523
-      },
-      {
-        "tag": "the library book",
-        "score": 5.411
-      },
-      {
-        "tag": "serendipity",
-        "score": 5.411
-      },
-      {
-        "tag": "associations",
-        "score": 5.095
-      },
-      {
-        "tag": "connections",
-        "score": 5.095
-      }
-    ],
-    "quote_count": 10
   },
   "idea": {
     "related": [
@@ -4222,19 +3865,11 @@
         "score": 7.0263
       },
       {
-        "tag": "king lear",
-        "score": 5.6666
-      },
-      {
         "tag": "knowledge",
         "score": 4.8618
       },
       {
         "tag": "emotion",
-        "score": 4.8067
-      },
-      {
-        "tag": "palm sunday",
         "score": 4.8067
       },
       {
@@ -4251,35 +3886,6 @@
       }
     ],
     "quote_count": 13
-  },
-  "cities": {
-    "related": [
-      {
-        "tag": "invisible cities",
-        "score": 9.9513
-      },
-      {
-        "tag": "city",
-        "score": 6.3397
-      },
-      {
-        "tag": "language",
-        "score": 5.0694
-      },
-      {
-        "tag": "reality",
-        "score": 3.8171
-      },
-      {
-        "tag": "words",
-        "score": 3.6284
-      },
-      {
-        "tag": "life",
-        "score": 2.6812
-      }
-    ],
-    "quote_count": 8
   },
   "eyes": {
     "related": [
@@ -4360,11 +3966,7 @@
         "score": 9.1536
       },
       {
-        "tag": "fact",
-        "score": 5.4868
-      },
-      {
-        "tag": "solution",
+        "tag": "facts",
         "score": 5.4868
       },
       {
@@ -4381,19 +3983,6 @@
       }
     ],
     "quote_count": 7
-  },
-  "fact": {
-    "related": [
-      {
-        "tag": "truth",
-        "score": 6.7076
-      },
-      {
-        "tag": "wrong",
-        "score": 5.4868
-      }
-    ],
-    "quote_count": 4
   },
   "self": {
     "related": [
@@ -4626,15 +4215,11 @@
   "quotes": {
     "related": [
       {
-        "tag": "utopia of rules",
-        "score": 5.9722
-      },
-      {
         "tag": "utopia",
         "score": 5.0414
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 4.5785
       },
       {
@@ -4678,35 +4263,6 @@
     ],
     "quote_count": 5
   },
-  "solution": {
-    "related": [
-      {
-        "tag": "problem",
-        "score": 6.4177
-      },
-      {
-        "tag": "incorrect",
-        "score": 6.1016
-      },
-      {
-        "tag": "design",
-        "score": 5.6666
-      },
-      {
-        "tag": "wrong",
-        "score": 5.4868
-      },
-      {
-        "tag": "humans",
-        "score": 4.8947
-      },
-      {
-        "tag": "ideas",
-        "score": 4.1799
-      }
-    ],
-    "quote_count": 4
-  },
   "beauty": {
     "related": [],
     "quote_count": 3
@@ -4716,10 +4272,6 @@
       {
         "tag": "wrong",
         "score": 9.1536
-      },
-      {
-        "tag": "solution",
-        "score": 6.1016
       },
       {
         "tag": "design",
@@ -4765,10 +4317,6 @@
         "score": 4.7131
       },
       {
-        "tag": "frederic gros",
-        "score": 4.512
-      },
-      {
         "tag": "problems",
         "score": 4.512
       },
@@ -4782,10 +4330,6 @@
       },
       {
         "tag": "imagination",
-        "score": 3.8972
-      },
-      {
-        "tag": "walk",
         "score": 3.8972
       },
       {
@@ -4806,15 +4350,6 @@
       }
     ],
     "quote_count": 17
-  },
-  "undiscovered self": {
-    "related": [
-      {
-        "tag": "humanity",
-        "score": 4.9532
-      }
-    ],
-    "quote_count": 3
   },
   "god": {
     "related": [
@@ -4852,7 +4387,7 @@
         "score": 3.2842
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.6218
       }
     ],
@@ -5021,7 +4556,7 @@
         "score": 3.614
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.5171
       }
     ],
@@ -5099,36 +4634,11 @@
     ],
     "quote_count": 8
   },
-  "bullshit jobs": {
-    "related": [
-      {
-        "tag": "labour",
-        "score": 10.4668
-      },
-      {
-        "tag": "jobs",
-        "score": 9.6951
-      },
-      {
-        "tag": "work",
-        "score": 9.3807
-      },
-      {
-        "tag": "time",
-        "score": 3.572
-      }
-    ],
-    "quote_count": 5
-  },
   "work": {
     "related": [
       {
         "tag": "labour",
         "score": 10.1878
-      },
-      {
-        "tag": "bullshit jobs",
-        "score": 9.3807
       },
       {
         "tag": "jobs",
@@ -5156,10 +4666,6 @@
   "labour": {
     "related": [
       {
-        "tag": "bullshit jobs",
-        "score": 10.4668
-      },
-      {
         "tag": "work",
         "score": 10.1878
       },
@@ -5176,10 +4682,6 @@
   },
   "jobs": {
     "related": [
-      {
-        "tag": "bullshit jobs",
-        "score": 9.6951
-      },
       {
         "tag": "labour",
         "score": 9.4017
@@ -5218,7 +4720,7 @@
         "score": 3.5757
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 2.6218
       }
     ],
@@ -5269,10 +4771,6 @@
   },
   "math": {
     "related": [
-      {
-        "tag": "fortune's formula",
-        "score": 8.3509
-      },
       {
         "tag": "odds",
         "score": 8.3509
@@ -5356,29 +4854,8 @@
     ],
     "quote_count": 6
   },
-  "utopia of rules": {
-    "related": [
-      {
-        "tag": "utopia",
-        "score": 7.8845
-      },
-      {
-        "tag": "quotes",
-        "score": 5.9722
-      },
-      {
-        "tag": "reality",
-        "score": 4.8947
-      }
-    ],
-    "quote_count": 3
-  },
   "utopia": {
     "related": [
-      {
-        "tag": "utopia of rules",
-        "score": 7.8845
-      },
       {
         "tag": "quotes",
         "score": 5.0414
@@ -5407,40 +4884,11 @@
     ],
     "quote_count": 4
   },
-  "on directing film": {
-    "related": [
-      {
-        "tag": "storytelling",
-        "score": 6.9236
-      },
-      {
-        "tag": "story",
-        "score": 6.828
-      },
-      {
-        "tag": "narrative",
-        "score": 6.7337
-      },
-      {
-        "tag": "purpose",
-        "score": 4.7653
-      }
-    ],
-    "quote_count": 3
-  },
   "narrative": {
     "related": [
       {
         "tag": "storytelling",
         "score": 6.9236
-      },
-      {
-        "tag": "story",
-        "score": 6.828
-      },
-      {
-        "tag": "on directing film",
-        "score": 6.7337
       }
     ],
     "quote_count": 3
@@ -5478,7 +4926,7 @@
         "score": 7.1373
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.1829
       }
     ],
@@ -5554,7 +5002,7 @@
         "score": 6.7337
       },
       {
-        "tag": "library",
+        "tag": "libraries",
         "score": 5.411
       },
       {
@@ -5566,10 +5014,6 @@
   },
   "expectations": {
     "related": [
-      {
-        "tag": "the hidden spring",
-        "score": 6.4177
-      },
       {
         "tag": "consciousness",
         "score": 5.6562
@@ -5597,10 +5041,6 @@
   "dostoevsky": {
     "related": [
       {
-        "tag": "the idiot",
-        "score": 8.6603
-      },
-      {
         "tag": "1868",
         "score": 8.6603
       },
@@ -5620,25 +5060,8 @@
     ],
     "quote_count": 3
   },
-  "the idiot": {
-    "related": [
-      {
-        "tag": "1868",
-        "score": 9.0591
-      },
-      {
-        "tag": "dostoevsky",
-        "score": 8.6603
-      }
-    ],
-    "quote_count": 3
-  },
   "1868": {
     "related": [
-      {
-        "tag": "the idiot",
-        "score": 9.0591
-      },
       {
         "tag": "dostoevsky",
         "score": 8.6603
@@ -5655,23 +5078,6 @@
     ],
     "quote_count": 3
   },
-  "liar": {
-    "related": [
-      {
-        "tag": "lying",
-        "score": 9.0591
-      },
-      {
-        "tag": "false",
-        "score": 5.8029
-      },
-      {
-        "tag": "truth",
-        "score": 4.1332
-      }
-    ],
-    "quote_count": 3
-  },
   "laws": {
     "related": [],
     "quote_count": 3
@@ -5679,12 +5085,8 @@
   "lying": {
     "related": [
       {
-        "tag": "liar",
+        "tag": "liars",
         "score": 9.0591
-      },
-      {
-        "tag": "false",
-        "score": 5.8029
       },
       {
         "tag": "truth",
@@ -5740,15 +5142,6 @@
     "related": [],
     "quote_count": 3
   },
-  "escape from evil": {
-    "related": [
-      {
-        "tag": "science",
-        "score": 5.1228
-      }
-    ],
-    "quote_count": 3
-  },
   "wit": {
     "related": [
       {
@@ -5798,27 +5191,6 @@
   },
   "f scott fitzgerald": {
     "related": [
-      {
-        "tag": "this side of paradise",
-        "score": 9.0591
-      },
-      {
-        "tag": "writing",
-        "score": 4.7653
-      },
-      {
-        "tag": "creativity",
-        "score": 4.0038
-      }
-    ],
-    "quote_count": 3
-  },
-  "this side of paradise": {
-    "related": [
-      {
-        "tag": "f scott fitzgerald",
-        "score": 9.0591
-      },
       {
         "tag": "writing",
         "score": 4.7653
@@ -5909,10 +5281,6 @@
   "childhood": {
     "related": [
       {
-        "tag": "disappearance of childhood",
-        "score": 8.6603
-      },
-      {
         "tag": "imagine",
         "score": 6.4177
       },
@@ -5926,19 +5294,6 @@
       }
     ],
     "quote_count": 4
-  },
-  "why i am so wise": {
-    "related": [
-      {
-        "tag": "reading",
-        "score": 4.0347
-      },
-      {
-        "tag": "books",
-        "score": 3.4305
-      }
-    ],
-    "quote_count": 7
   },
   "meaning": {
     "related": [
@@ -5973,40 +5328,6 @@
       }
     ],
     "quote_count": 3
-  },
-  "frederic gros": {
-    "related": [
-      {
-        "tag": "a philosophy of walking",
-        "score": 8.6603
-      },
-      {
-        "tag": "walking",
-        "score": 7.8231
-      },
-      {
-        "tag": "walk",
-        "score": 5.4868
-      },
-      {
-        "tag": "thinking",
-        "score": 4.512
-      },
-      {
-        "tag": "ideas",
-        "score": 4.1799
-      }
-    ],
-    "quote_count": 4
-  },
-  "skin in the game": {
-    "related": [
-      {
-        "tag": "knowledge",
-        "score": 3.4066
-      }
-    ],
-    "quote_count": 6
   },
   "aging": {
     "related": [
@@ -6114,10 +5435,6 @@
         "score": 9.6951
       },
       {
-        "tag": "fortune's formula",
-        "score": 8.3509
-      },
-      {
         "tag": "odds",
         "score": 8.3509
       },
@@ -6130,10 +5447,6 @@
   },
   "consciousness": {
     "related": [
-      {
-        "tag": "the hidden spring",
-        "score": 8.0982
-      },
       {
         "tag": "expectations",
         "score": 5.6562
@@ -6148,39 +5461,6 @@
       }
     ],
     "quote_count": 6
-  },
-  "walk": {
-    "related": [
-      {
-        "tag": "walking",
-        "score": 10.1077
-      },
-      {
-        "tag": "a philosophy of walking",
-        "score": 5.8029
-      },
-      {
-        "tag": "frederic gros",
-        "score": 5.4868
-      },
-      {
-        "tag": "ideas",
-        "score": 5.0608
-      },
-      {
-        "tag": "thinking",
-        "score": 3.8972
-      },
-      {
-        "tag": "poem",
-        "score": 3.8972
-      },
-      {
-        "tag": "poetry",
-        "score": 3.389
-      }
-    ],
-    "quote_count": 7
   },
   "adventure": {
     "related": [],
@@ -6245,42 +5525,17 @@
         "score": 8.6603
       },
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.6284
       }
     ],
     "quote_count": 4
-  },
-  "fortune's formula": {
-    "related": [
-      {
-        "tag": "odds",
-        "score": 9.0591
-      },
-      {
-        "tag": "gamble",
-        "score": 8.6603
-      },
-      {
-        "tag": "gambling",
-        "score": 8.3509
-      },
-      {
-        "tag": "math",
-        "score": 8.3509
-      }
-    ],
-    "quote_count": 3
   },
   "gamble": {
     "related": [
       {
         "tag": "gambling",
         "score": 9.6951
-      },
-      {
-        "tag": "fortune's formula",
-        "score": 8.6603
       },
       {
         "tag": "odds",
@@ -6296,10 +5551,6 @@
   "odds": {
     "related": [
       {
-        "tag": "fortune's formula",
-        "score": 9.0591
-      },
-      {
         "tag": "gamble",
         "score": 8.6603
       },
@@ -6310,23 +5561,6 @@
       {
         "tag": "math",
         "score": 8.3509
-      }
-    ],
-    "quote_count": 3
-  },
-  "a philosophy of walking": {
-    "related": [
-      {
-        "tag": "frederic gros",
-        "score": 8.6603
-      },
-      {
-        "tag": "walking",
-        "score": 6.7385
-      },
-      {
-        "tag": "walk",
-        "score": 5.8029
       }
     ],
     "quote_count": 3
@@ -6365,27 +5599,6 @@
     ],
     "quote_count": 3
   },
-  "invisible cities": {
-    "related": [
-      {
-        "tag": "cities",
-        "score": 9.9513
-      },
-      {
-        "tag": "language",
-        "score": 5.721
-      },
-      {
-        "tag": "reality",
-        "score": 4.3335
-      },
-      {
-        "tag": "words",
-        "score": 4.1447
-      }
-    ],
-    "quote_count": 5
-  },
   "machines": {
     "related": [
       {
@@ -6415,19 +5628,6 @@
       }
     ],
     "quote_count": 3
-  },
-  "war and peace in the global village": {
-    "related": [
-      {
-        "tag": "technology",
-        "score": 5.305
-      },
-      {
-        "tag": "change",
-        "score": 3.3832
-      }
-    ],
-    "quote_count": 5
   },
   "night": {
     "related": [
@@ -6500,7 +5700,7 @@
         "score": 5.6666
       },
       {
-        "tag": "library",
+        "tag": "libraries",
         "score": 5.095
       },
       {
@@ -6521,7 +5721,7 @@
         "score": 5.6666
       },
       {
-        "tag": "library",
+        "tag": "libraries",
         "score": 5.095
       },
       {
@@ -6531,29 +5731,8 @@
     ],
     "quote_count": 4
   },
-  "how to write one song": {
-    "related": [
-      {
-        "tag": "process",
-        "score": 6.1725
-      },
-      {
-        "tag": "creativity",
-        "score": 5.6143
-      },
-      {
-        "tag": "ideas",
-        "score": 4.496
-      }
-    ],
-    "quote_count": 3
-  },
   "process": {
     "related": [
-      {
-        "tag": "how to write one song",
-        "score": 6.1725
-      },
       {
         "tag": "creativity",
         "score": 3.4426
@@ -6622,35 +5801,17 @@
       {
         "tag": "history",
         "score": 4.3335
-      }
-    ],
-    "quote_count": 4
-  },
-  "fictions": {
-    "related": [
-      {
-        "tag": "library",
-        "score": 7.39
       },
       {
-        "tag": "books",
-        "score": 4.3613
+        "tag": "wrong",
+        "score": 5.4868
       }
     ],
-    "quote_count": 3
+    "quote_count": 8
   },
   "cat's cradle": {
     "related": [],
     "quote_count": 3
-  },
-  "palm sunday": {
-    "related": [
-      {
-        "tag": "wisdom",
-        "score": 4.8067
-      }
-    ],
-    "quote_count": 4
   },
   "mother night": {
     "related": [],
@@ -6658,10 +5819,6 @@
   },
   "imagine": {
     "related": [
-      {
-        "tag": "disappearance of childhood",
-        "score": 6.7337
-      },
       {
         "tag": "childhood",
         "score": 6.4177
@@ -6723,21 +5880,8 @@
   "architecture": {
     "related": [
       {
-        "tag": "funny",
+        "tag": "humour",
         "score": 3.9444
-      }
-    ],
-    "quote_count": 3
-  },
-  "the hidden spring": {
-    "related": [
-      {
-        "tag": "consciousness",
-        "score": 8.0982
-      },
-      {
-        "tag": "expectations",
-        "score": 6.4177
       }
     ],
     "quote_count": 3
@@ -6772,53 +5916,6 @@
     "related": [],
     "quote_count": 3
   },
-  "pale fire": {
-    "related": [
-      {
-        "tag": "death",
-        "score": 4.2288
-      }
-    ],
-    "quote_count": 4
-  },
-  "disappearance of childhood": {
-    "related": [
-      {
-        "tag": "childhood",
-        "score": 8.6603
-      },
-      {
-        "tag": "imagine",
-        "score": 6.7337
-      },
-      {
-        "tag": "imagination",
-        "score": 5.8029
-      },
-      {
-        "tag": "creativity",
-        "score": 4.0038
-      }
-    ],
-    "quote_count": 3
-  },
-  "conscientious objections": {
-    "related": [
-      {
-        "tag": "learning",
-        "score": 4.4044
-      },
-      {
-        "tag": "language",
-        "score": 4.0883
-      },
-      {
-        "tag": "knowledge",
-        "score": 3.6069
-      }
-    ],
-    "quote_count": 5
-  },
   "testing": {
     "related": [
       {
@@ -6850,45 +5947,11 @@
     "related": [],
     "quote_count": 3
   },
-  "king lear": {
-    "related": [
-      {
-        "tag": "wisdom",
-        "score": 5.6666
-      },
-      {
-        "tag": "fool",
-        "score": 5.6562
-      },
-      {
-        "tag": "truth",
-        "score": 4.4179
-      }
-    ],
-    "quote_count": 8
-  },
   "fool": {
     "related": [
       {
         "tag": "wisdom",
         "score": 7.0263
-      },
-      {
-        "tag": "king lear",
-        "score": 5.6562
-      }
-    ],
-    "quote_count": 3
-  },
-  "the library book": {
-    "related": [
-      {
-        "tag": "library",
-        "score": 5.411
-      },
-      {
-        "tag": "books",
-        "score": 4.3613
       }
     ],
     "quote_count": 3
@@ -6914,28 +5977,15 @@
     "related": [],
     "quote_count": 3
   },
-  "the peace of wild things": {
+  "liars": {
     "related": [
       {
-        "tag": "nature",
-        "score": 6.6544
+        "tag": "lying",
+        "score": 9.0591
       },
       {
-        "tag": "poem",
-        "score": 6.6544
-      },
-      {
-        "tag": "poetry",
-        "score": 6.0131
-      }
-    ],
-    "quote_count": 3
-  },
-  "distrust that particular flavor": {
-    "related": [
-      {
-        "tag": "technology",
-        "score": 6.0131
+        "tag": "truth",
+        "score": 4.1332
       }
     ],
     "quote_count": 3

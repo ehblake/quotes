@@ -610,7 +610,6 @@
     <!-- Drift tags below (press down arrow) -->
     <div class="drift-tags-below">
       <div id="drift-tag-2" class="drift-tag"></div>
-      <div id="drift-tag-3" class="drift-tag"></div>
     </div>
 
     <!-- Book block at bottom -->
@@ -1441,20 +1440,10 @@
     function renderRelatedTags() {
       const tagAboveEl = document.getElementById('drift-tag-above');
       const tag2El = document.getElementById('drift-tag-2');
-      const tag3El = document.getElementById('drift-tag-3');
-
       // Clear existing
       tagAboveEl.textContent = '';
       tag2El.textContent = '';
-      tag3El.textContent = '';
       driftTags = [];
-
-      if (!activeTag || !tagConnections[activeTag]) return;
-
-      // Get related tags to the active tag (from tagConnections)
-      // Filter out tags that are on cooldown (recently active)
-      const related = (tagConnections[activeTag].related || [])
-        .filter(r => !isTagOnCooldown(r.tag));
 
       // Show previous tag above (if we have navigation history)
       // The "back" tag is exempt from cooldown - always show it
@@ -1465,18 +1454,39 @@
         driftTags.push(prevTag);
       }
 
-      // Show top 2 related tags below (already filtered for cooldown)
-      // When pressed, they become the active tag and the next quote will have that tag
-      const tagsBelow = related.slice(0, 2);
-      if (tagsBelow.length > 0) {
-        tag2El.textContent = tagsBelow[0].tag;
-        tag2El.onclick = () => switchToTag(tagsBelow[0].tag);
-        driftTags.push(tagsBelow[0].tag);
+      // Get related tags - try from tagConnections first, fall back to current quote's tags
+      let related = [];
+      if (activeTag && tagConnections[activeTag]) {
+        related = (tagConnections[activeTag].related || [])
+          .filter(r => !isTagOnCooldown(r.tag) && r.tag !== activeTag);
       }
-      if (tagsBelow.length > 1) {
-        tag3El.textContent = tagsBelow[1].tag;
-        tag3El.onclick = () => switchToTag(tagsBelow[1].tag);
-        driftTags.push(tagsBelow[1].tag);
+
+      // If no related tags from connections, use the current quote's other weighted tags
+      if (related.length === 0 && quotes[currentIndex]) {
+        const currentQuote = quotes[currentIndex];
+        const weightedTags = currentQuote.weighted_tags || [];
+        const author = (currentQuote.author || '').toLowerCase();
+
+        related = weightedTags
+          .filter(t => {
+            // Skip the active tag itself
+            if (t.tag === activeTag) return false;
+            // Skip author-like tags
+            if (t.tag.includes(author) || author.includes(t.tag)) return false;
+            // Skip tags on cooldown
+            if (isTagOnCooldown(t.tag)) return false;
+            // Only include tags that exist in tagConnections
+            if (!tagConnections[t.tag]) return false;
+            return true;
+          })
+          .map(t => ({ tag: t.tag, score: t.weight }));
+      }
+
+      // Show top 1 related tag below
+      if (related.length > 0) {
+        tag2El.textContent = related[0].tag;
+        tag2El.onclick = () => switchToTag(related[0].tag);
+        driftTags.push(related[0].tag);
       }
     }
 
