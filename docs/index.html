@@ -700,8 +700,9 @@
       return CHUNK_ROWS * (coverHeight + coverGap);
     }
 
-    // Pick a cover that's not currently in use (or any if all used)
+    // Pick a cover, preferring unused ones but cycling through all if needed
     function pickUniqueCover() {
+      // First try to find an unused cover
       const startIndex = coverIndex;
       let attempts = 0;
 
@@ -715,8 +716,10 @@
         attempts++;
       }
 
-      // All covers in use, just return current one (rare with ~400 covers)
-      return allCovers[startIndex];
+      // All covers in use - just cycle through sequentially to spread out repeats
+      const cover = allCovers[coverIndex];
+      coverIndex = (coverIndex + 1) % allCovers.length;
+      return cover;
     }
 
     // Create a chunk at given chunk coordinates
@@ -800,12 +803,12 @@
         }
       }
 
-      // Unload chunks that are too far away (2+ chunks outside visible range)
+      // Unload chunks outside the visible range (aggressive - free covers quickly)
       const chunksToRemove = [];
       loadedChunks.forEach((chunk, key) => {
         const [cx, cy] = key.split('_').map(Number);
-        if (cx < minChunkX - 1 || cx > maxChunkX + 1 ||
-            cy < minChunkY - 1 || cy > maxChunkY + 1) {
+        if (cx < minChunkX || cx > maxChunkX ||
+            cy < minChunkY || cy > maxChunkY) {
           chunksToRemove.push({ cx, cy });
         }
       });
