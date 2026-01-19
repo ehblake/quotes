@@ -651,9 +651,14 @@
     let coverWidth = 160;
     let coverHeight = 240;
     let coverGap = 20;
-    let gridCols = 0;
-    let gridRows = 0;
     let allCovers = [];  // Shuffled array of publication names
+
+    // Chunk-based infinite canvas
+    const CHUNK_COLS = 4;  // Covers per chunk horizontally
+    const CHUNK_ROWS = 3;  // Covers per chunk vertically
+    let loadedChunks = new Map();  // Map<"x_y", {element, covers: string[]}>
+    let usedCovers = new Set();    // Covers currently displayed
+    let coverIndex = 0;            // Index into shuffled covers for picking new ones
 
     // Build index of publications with covers
     function buildPublicationIndex() {
@@ -681,130 +686,159 @@
       return result;
     }
 
-    // Calculate grid dimensions based on viewport
-    function calculateGridDimensions() {
+    // Get chunk key from chunk coordinates
+    function getChunkKey(chunkX, chunkY) {
+      return `${chunkX}_${chunkY}`;
+    }
+
+    // Get chunk pixel dimensions
+    function getChunkWidth() {
+      return CHUNK_COLS * (coverWidth + coverGap);
+    }
+
+    function getChunkHeight() {
+      return CHUNK_ROWS * (coverHeight + coverGap);
+    }
+
+    // Pick a cover that's not currently in use (or any if all used)
+    function pickUniqueCover() {
+      const startIndex = coverIndex;
+      let attempts = 0;
+
+      while (attempts < allCovers.length) {
+        const cover = allCovers[coverIndex];
+        coverIndex = (coverIndex + 1) % allCovers.length;
+
+        if (!usedCovers.has(cover)) {
+          return cover;
+        }
+        attempts++;
+      }
+
+      // All covers in use, just return current one (rare with ~400 covers)
+      return allCovers[startIndex];
+    }
+
+    // Create a chunk at given chunk coordinates
+    function createChunk(chunkX, chunkY) {
+      const key = getChunkKey(chunkX, chunkY);
+      if (loadedChunks.has(key)) return;
+
+      const chunkDiv = document.createElement('div');
+      chunkDiv.className = 'canvas-chunk';
+      chunkDiv.style.position = 'absolute';
+      chunkDiv.style.left = `${chunkX * getChunkWidth()}px`;
+      chunkDiv.style.top = `${chunkY * getChunkHeight()}px`;
+      chunkDiv.style.display = 'grid';
+      chunkDiv.style.gridTemplateColumns = `repeat(${CHUNK_COLS}, ${coverWidth}px)`;
+      chunkDiv.style.gap = `${coverGap}px`;
+
+      const covers = [];
+      for (let i = 0; i < CHUNK_COLS * CHUNK_ROWS; i++) {
+        const pub = pickUniqueCover();
+        covers.push(pub);
+        usedCovers.add(pub);
+
+        const info = publicationIndex[pub];
+        const img = document.createElement('img');
+        img.className = 'canvas-cover';
+        img.src = info.cover_url;
+        img.alt = pub;
+        img.dataset.publication = pub;
+        img.loading = 'lazy';
+        chunkDiv.appendChild(img);
+      }
+
+      document.getElementById('canvas-grid').appendChild(chunkDiv);
+      loadedChunks.set(key, { element: chunkDiv, covers });
+    }
+
+    // Remove a chunk
+    function removeChunk(chunkX, chunkY) {
+      const key = getChunkKey(chunkX, chunkY);
+      const chunk = loadedChunks.get(key);
+      if (!chunk) return;
+
+      // Free up the covers
+      chunk.covers.forEach(cover => usedCovers.delete(cover));
+
+      // Remove from DOM
+      chunk.element.remove();
+      loadedChunks.delete(key);
+    }
+
+    // Calculate which chunks should be visible
+    function getVisibleChunkRange() {
       const vw = window.innerWidth;
       const vh = window.innerHeight;
+      const chunkW = getChunkWidth();
+      const chunkH = getChunkHeight();
 
-      // Calculate how many covers fit in viewport, plus extra for infinite scroll
-      const visibleCols = Math.ceil(vw / (coverWidth + coverGap)) + 2;
-      const visibleRows = Math.ceil(vh / (coverHeight + coverGap)) + 2;
+      // Current viewport in world coordinates
+      const viewLeft = -canvasOffset.x;
+      const viewTop = -canvasOffset.y;
+      const viewRight = viewLeft + vw;
+      const viewBottom = viewTop + vh;
 
-      // Make grid larger than viewport for scrolling (3x in each direction)
-      gridCols = visibleCols * 3;
-      gridRows = visibleRows * 3;
+      // Convert to chunk coordinates with 1 chunk buffer
+      const minChunkX = Math.floor(viewLeft / chunkW) - 1;
+      const maxChunkX = Math.floor(viewRight / chunkW) + 1;
+      const minChunkY = Math.floor(viewTop / chunkH) - 1;
+      const maxChunkY = Math.floor(viewBottom / chunkH) + 1;
+
+      return { minChunkX, maxChunkX, minChunkY, maxChunkY };
     }
 
-    // Pre-generated grid to avoid adjacent duplicates
-    let gridAssignments = [];
+    // Update which chunks are loaded based on current position
+    function updateVisibleChunks() {
+      const { minChunkX, maxChunkX, minChunkY, maxChunkY } = getVisibleChunkRange();
 
-    // Build grid ensuring no adjacent cells have the same book
-    function buildGridAssignments() {
-      const publications = Object.keys(publicationIndex);
-      allCovers = shuffleArray(publications);
-      gridAssignments = [];
-
-      for (let row = 0; row < gridRows; row++) {
-        gridAssignments[row] = [];
-        for (let col = 0; col < gridCols; col++) {
-          // Get neighbors to avoid
-          const forbidden = new Set();
-          if (col > 0) forbidden.add(gridAssignments[row][col - 1]); // left
-          if (row > 0) forbidden.add(gridAssignments[row - 1][col]); // above
-          if (row > 0 && col > 0) forbidden.add(gridAssignments[row - 1][col - 1]); // top-left
-          if (row > 0 && col < gridCols - 1) forbidden.add(gridAssignments[row - 1][col + 1]); // top-right
-
-          // Find a valid cover that's not adjacent
-          let attempts = 0;
-          let pick;
-          do {
-            const baseIdx = (row * gridCols + col + attempts * 7) % allCovers.length;
-            pick = allCovers[baseIdx];
-            attempts++;
-          } while (forbidden.has(pick) && attempts < allCovers.length);
-
-          gridAssignments[row][col] = pick;
+      // Load chunks that should be visible
+      for (let cx = minChunkX; cx <= maxChunkX; cx++) {
+        for (let cy = minChunkY; cy <= maxChunkY; cy++) {
+          createChunk(cx, cy);
         }
       }
+
+      // Unload chunks that are too far away (2+ chunks outside visible range)
+      const chunksToRemove = [];
+      loadedChunks.forEach((chunk, key) => {
+        const [cx, cy] = key.split('_').map(Number);
+        if (cx < minChunkX - 1 || cx > maxChunkX + 1 ||
+            cy < minChunkY - 1 || cy > maxChunkY + 1) {
+          chunksToRemove.push({ cx, cy });
+        }
+      });
+      chunksToRemove.forEach(({ cx, cy }) => removeChunk(cx, cy));
     }
 
-    // Render the landing canvas with book covers
+    // Render the landing canvas - initialize chunks
     function renderLandingCanvas() {
       const grid = document.getElementById('canvas-grid');
 
-      calculateGridDimensions();
-      buildGridAssignments();
+      // Clear existing chunks
+      loadedChunks.forEach((chunk) => chunk.element.remove());
+      loadedChunks.clear();
+      usedCovers.clear();
 
-      // Set grid template
-      grid.style.gridTemplateColumns = `repeat(${gridCols}, ${coverWidth}px)`;
+      // Shuffle covers for fresh order
+      allCovers = shuffleArray(Object.keys(publicationIndex));
+      coverIndex = 0;
 
-      // Generate covers for the grid
-      let html = '';
-      for (let row = 0; row < gridRows; row++) {
-        for (let col = 0; col < gridCols; col++) {
-          const pub = gridAssignments[row][col];
-          const info = publicationIndex[pub];
-          html += `<img
-            class="canvas-cover"
-            src="${info.cover_url}"
-            alt="${pub}"
-            data-publication="${pub.replace(/"/g, '&quot;')}"
-            loading="lazy"
-          >`;
-        }
-      }
-      grid.innerHTML = html;
+      // Reset position to center (0,0 in world space)
+      canvasOffset.x = window.innerWidth / 2;
+      canvasOffset.y = window.innerHeight / 2;
 
-      // Center the grid so viewport shows middle section
-      centerCanvas();
-    }
-
-    // Center the canvas grid in viewport
-    function centerCanvas() {
-      const gridWidth = gridCols * (coverWidth + coverGap);
-      const gridHeight = gridRows * (coverHeight + coverGap);
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-
-      // Start centered in the grid
-      canvasOffset.x = -(gridWidth - vw) / 2;
-      canvasOffset.y = -(gridHeight - vh) / 2;
-
+      // Load initial chunks
+      updateVisibleChunks();
       updateCanvasPosition();
     }
 
-    // Update canvas grid position with infinite wrapping
+    // Update canvas position (no wrapping - truly infinite)
     function updateCanvasPosition() {
       const grid = document.getElementById('canvas-grid');
-      const gridWidth = gridCols * (coverWidth + coverGap);
-      const gridHeight = gridRows * (coverHeight + coverGap);
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-
-      // The "wrap zone" - when we scroll this far, we wrap back
-      const wrapZoneX = (gridWidth - vw) / 3;
-      const wrapZoneY = (gridHeight - vh) / 3;
-
-      // Center offset (where we want to be centered)
-      const centerX = -(gridWidth - vw) / 2;
-      const centerY = -(gridHeight - vh) / 2;
-
-      // Use modulo-style wrapping to handle any scroll distance
-      // Keep offset within one wrap zone of center
-      while (canvasOffset.x > centerX + wrapZoneX) {
-        canvasOffset.x -= wrapZoneX;
-      }
-      while (canvasOffset.x < centerX - wrapZoneX) {
-        canvasOffset.x += wrapZoneX;
-      }
-      while (canvasOffset.y > centerY + wrapZoneY) {
-        canvasOffset.y -= wrapZoneY;
-      }
-      while (canvasOffset.y < centerY - wrapZoneY) {
-        canvasOffset.y += wrapZoneY;
-      }
-
       grid.style.transform = `translate(${canvasOffset.x}px, ${canvasOffset.y}px)`;
+      updateVisibleChunks();
     }
 
     // Handle canvas pan start
