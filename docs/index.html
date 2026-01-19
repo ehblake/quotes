@@ -1,0 +1,1839 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Quotes</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Neue Haas Grotesk", "Aktiv Grotesk", "Helvetica Neue", "Inter", sans-serif;
+      background: #111;
+      color: #fafafa;
+      line-height: 1.45;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      overflow: clip;
+      overflow-x: clip;
+      overflow-y: clip;
+    }
+
+    html {
+      overflow: clip;
+    }
+
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding: clamp(10px, 2vh, 20px) 0;
+      overflow: visible;
+      -webkit-transform: translateZ(0); /* Create stacking context for Safari */
+    }
+
+    /* Drift tag above */
+    .drift-tag-above {
+      text-align: center;
+      padding: clamp(10px, 2vh, 20px) 0;
+      color: #444;
+      font-size: clamp(0.75rem, 1vw, 1rem);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      cursor: pointer;
+      transition: color 0.2s, transform 0.2s;
+      min-height: clamp(30px, 5vh, 50px);
+    }
+
+    .drift-tag-above:hover {
+      color: #777;
+      transform: translateY(-2px);
+    }
+
+    .drift-tag-above:not(:empty)::before {
+      content: "↑ ";
+      opacity: 0.5;
+    }
+
+    /* Main row - contains the quote panels */
+    .main-row {
+      flex: 1;
+      position: relative;
+      overflow: visible; /* Allow side quotes to extend beyond */
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Quotes strip - contains all 3 quotes, slides horizontally */
+    .quotes-strip {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      /* No transform needed - panels positioned absolutely */
+      transition: transform 0.5s ease-out;
+      overflow: visible;
+      -webkit-backface-visibility: hidden;
+    }
+
+    .quotes-strip.no-transition {
+      transition: none;
+    }
+
+    .quotes-strip.slide-left {
+      transform: translateX(-100vw);
+    }
+
+    .quotes-strip.slide-right {
+      transform: translateX(100vw);
+    }
+
+    /* Each quote panel - all panels use identical internal layout */
+    .quote-panel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 clamp(5%, 10vw, 15%);
+      will-change: transform, filter, opacity;
+    }
+
+    /* Current panel - centered in viewport */
+    .quote-panel.current-panel {
+      transform: translateX(0);
+      z-index: 2;
+    }
+
+    /* Previous panel - off-screen to the left, inner content peeks in */
+    .quote-panel.prev-panel {
+      transform: translateX(-100%);
+      -webkit-filter: blur(8px);
+      filter: blur(8px);
+      color: #444;
+      z-index: 1;
+    }
+
+    .quote-panel.prev-panel .quote-panel-author {
+      color: #444;
+    }
+
+    .quote-panel.prev-panel .quote-panel-inner {
+      transform: translateX(85%);
+    }
+
+    /* Next panel - off-screen to the right, inner content peeks in */
+    .quote-panel.next-panel {
+      transform: translateX(100%);
+      -webkit-filter: blur(8px);
+      filter: blur(8px);
+      color: #555;
+      z-index: 1;
+    }
+
+    .quote-panel.next-panel .quote-panel-author {
+      color: #555;
+    }
+
+    .quote-panel.next-panel .quote-panel-inner {
+      transform: translateX(-85%);
+    }
+
+    .quote-panel-inner {
+      text-align: center;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .quote-panel-text {
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: clamp(1rem, 3vw, 2.25rem);
+    }
+
+    .quote-panel-author {
+      font-size: clamp(0.9rem, 1.5vw, 1.6rem);
+      font-weight: 400;
+      color: #FF0064;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* Center column - for backwards compatibility with other code */
+    .center-column {
+      display: none;
+    }
+
+    /* Drift tags below */
+    .drift-tags-below {
+      text-align: center;
+      padding: clamp(8px, 1.5vh, 15px) 0;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(2px, 0.5vh, 5px);
+    }
+
+    .drift-tag {
+      display: block;
+      color: #444;
+      font-size: clamp(0.75rem, 1vw, 1rem);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      cursor: pointer;
+      padding: clamp(5px, 1vh, 10px) 0;
+      transition: color 0.2s, transform 0.2s;
+      min-height: clamp(25px, 4vh, 40px);
+    }
+
+    .drift-tag:hover {
+      color: #777;
+      transform: translateY(2px);
+    }
+
+    .drift-tag:not(:empty)::before {
+      content: "↓ ";
+      opacity: 0.5;
+    }
+
+    /* Block 1: Quote */
+    .quote-block {
+      text-align: center;
+      padding: 40px 20px;
+      transition: opacity 0.3s ease;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .quote-block.fade {
+      opacity: 0;
+    }
+
+    .quote-text {
+      font-size: 48px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 36px;
+      line-height: 1.2;
+    }
+
+    .quote-author {
+      font-size: 1.6rem;
+	  font-weight: 400;
+      color: #FF0064;
+	  letter-spacing: .05em;
+	  margin-top: 15px;
+    }
+
+    .quote-tags {
+      text-align: center;
+      position: fixed;
+      top: clamp(50px, 8vh, 80px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+
+    .quote-tag {
+      font-size: clamp(0.9rem, 1.3vw, 1.5rem);
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 500;
+    }
+
+    /* Block 2: Book */
+    .book-block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(12px, 2vw, 22px);
+      padding: clamp(12px, 2vw, 22px);
+      background: transparent;
+      border: none;
+      border-top: 1px solid #333;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      height: clamp(100px, 15vh, 168px);
+      transition: opacity 0.3s ease;
+      overflow: hidden;
+    }
+
+    .book-block.fade-out {
+      opacity: 0;
+      transition: opacity 0.15s ease-out;
+    }
+
+    /* Inner content fades in */
+    .book-block-inner {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .book-block-inner.visible {
+      opacity: 1;
+    }
+
+    .book-block-inner .book-info {
+      text-align: left;
+    }
+
+    .book-cover {
+      height: clamp(80px, 12vh, 124px);
+      width: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 4px;
+    }
+
+    .book-cover-placeholder {
+      height: clamp(80px, 12vh, 124px);
+      width: clamp(54px, 8vh, 84px);
+      background: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      color: #888;
+      font-size: clamp(9px, 1vw, 11px);
+      text-align: center;
+      padding: 8px;
+    }
+
+    .book-info {
+      text-align: left;
+    }
+
+    .book-title {
+      font-size: clamp(11px, 1.2vw, 14px);
+      font-weight: bold;
+      margin-bottom: clamp(3px, 0.5vw, 6px);
+    }
+
+    .book-author {
+      font-size: clamp(10px, 1vw, 12px);
+      opacity: 0.8;
+      margin-bottom: clamp(3px, 0.5vw, 6px);
+    }
+
+    .book-year {
+      font-size: clamp(9px, 0.9vw, 11px);
+      opacity: 0.6;
+      margin-bottom: clamp(3px, 0.5vw, 6px);
+    }
+
+    .book-isbn {
+      font-size: clamp(8px, 0.8vw, 10px);
+      opacity: 0.5;
+      font-family: monospace;
+    }
+
+    .book-publisher {
+      font-size: clamp(8px, 0.8vw, 10px);
+      opacity: 0.5;
+      margin-top: 4px;
+    }
+
+    .no-book {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+      padding: 20px;
+    }
+
+    .container.hidden {
+      display: none;
+    }
+
+    .status-message {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 12px 24px;
+      background: #fafafa;
+      color: #111;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 100;
+    }
+
+    .status-message.show {
+      opacity: 1;
+    }
+
+    .status-message.error {
+      background: #c00;
+    }
+
+    @media (max-width: 768px) {
+      .quote-text {
+        font-size: 32px;
+      }
+
+      .book-block {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .book-info {
+        text-align: center;
+      }
+    }
+
+    /* Responsive adjustments for smaller laptops/windows */
+    @media (max-height: 700px) {
+      .quote-tags {
+        top: 40px;
+      }
+
+      .drift-tag-above {
+        padding: 8px 0;
+        min-height: 28px;
+      }
+
+      .drift-tags-below {
+        padding: 6px 0;
+      }
+
+      .drift-tag {
+        padding: 4px 0;
+        min-height: 22px;
+      }
+
+      .book-block {
+        height: 90px;
+      }
+    }
+
+    @media (max-height: 600px) {
+      .quote-tags {
+        top: 30px;
+      }
+
+      .drift-tag-above,
+      .drift-tags-below {
+        display: none;
+      }
+
+      .book-block {
+        height: 80px;
+        padding: 10px;
+      }
+
+      .book-cover {
+        height: 70px;
+      }
+
+      .book-cover-placeholder {
+        height: 70px;
+        width: 48px;
+      }
+    }
+
+    /* Landing Canvas - Infinite Book Cover Grid */
+    .landing-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #111;
+      overflow: hidden;
+      cursor: grab;
+      z-index: 100;
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .landing-canvas.hidden {
+      opacity: 0;
+      transform: scale(1.05);
+      pointer-events: none;
+    }
+
+    .landing-canvas.grabbing {
+      cursor: grabbing;
+    }
+
+    /* Edge fade overlay - radial gradient from center */
+    .canvas-edge-fade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 10;
+      background: radial-gradient(
+        ellipse 70% 70% at center,
+        transparent 0%,
+        transparent 40%,
+        rgba(17, 17, 17, 0.3) 60%,
+        rgba(17, 17, 17, 0.7) 80%,
+        rgba(17, 17, 17, 0.95) 100%
+      );
+    }
+
+    .canvas-grid {
+      display: grid;
+      gap: 20px;
+      position: absolute;
+      user-select: none;
+    }
+
+    .canvas-cover {
+      width: 160px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .canvas-cover:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+      z-index: 5;
+    }
+
+    /* Back to canvas button */
+    .back-to-canvas {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      width: 44px;
+      height: 44px;
+      background: transparent;
+      border: 1px solid #333;
+      border-radius: 50%;
+      color: #FF0064;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .back-to-canvas:hover {
+      border-color: #FF0064;
+      color: #FF0064;
+      background: rgba(255, 0, 100, 0.1);
+    }
+
+    .back-to-canvas svg {
+      width: 20px;
+      height: 20px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div id="status-message" class="status-message"></div>
+
+  <!-- Landing Canvas - Book Cover Grid -->
+  <div id="landing-canvas" class="landing-canvas">
+    <div class="canvas-grid" id="canvas-grid">
+      <!-- Book covers populated dynamically -->
+    </div>
+    <div class="canvas-edge-fade"></div>
+  </div>
+
+  <!-- Back to canvas button -->
+  <button id="back-to-canvas" class="back-to-canvas" title="Back to books">
+    <svg viewBox="0 0 24 24"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
+  </button>
+
+  <div id="view-mode" class="container" style="display: none;">
+    <!-- Drift tag above (press up arrow) -->
+    <div id="drift-tag-above" class="drift-tag-above"></div>
+
+    <!-- Current active tag (fixed position) -->
+    <div id="quote-tags" class="quote-tags"></div>
+
+    <!-- Main row: sliding strip of quotes -->
+    <div class="main-row">
+      <div id="quotes-strip" class="quotes-strip">
+        <!-- Previous quote panel -->
+        <div id="prev-panel" class="quote-panel prev-panel">
+          <div class="quote-panel-inner">
+            <div class="quote-panel-text"></div>
+            <div class="quote-panel-author"></div>
+          </div>
+        </div>
+
+        <!-- Current quote panel -->
+        <div id="current-panel" class="quote-panel current-panel">
+          <div class="quote-panel-inner">
+            <div class="quote-panel-text">Loading...</div>
+            <div class="quote-panel-author"></div>
+          </div>
+        </div>
+
+        <!-- Next quote panel -->
+        <div id="next-panel" class="quote-panel next-panel">
+          <div class="quote-panel-inner">
+            <div class="quote-panel-text"></div>
+            <div class="quote-panel-author"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Drift tags below (press down arrow) -->
+    <div class="drift-tags-below">
+      <div id="drift-tag-2" class="drift-tag"></div>
+      <div id="drift-tag-3" class="drift-tag"></div>
+    </div>
+
+    <!-- Book block at bottom -->
+    <div id="book-block" class="book-block">
+      <div class="book-cover-placeholder">Loading...</div>
+    </div>
+
+  </div>
+
+  <script>
+    let quotes = [];
+    let currentIndex = 0;
+    let transitionActive = false;
+
+    // Tag navigation state
+    let tagConnections = {};  // Related tags data
+    let activeTag = null;     // Current tag we're navigating by
+    let activeTagCount = 0;   // How many times current tag has been used consecutively
+    let recentQuotes = [];    // Last 50 quote IDs shown (circular buffer)
+    let recentTags = [];      // Last N tags that were active (for cooldown)
+    let tagHistory = [];      // History of tags we've drifted through
+    let precomputedNextQuote = null;  // Pre-computed next quote for preview consistency
+
+    const MAX_TAG_STREAK = 12;   // Force tag drift after this many uses
+    const QUOTE_COOLDOWN = 50;   // Don't repeat a quote for this many views
+    const TAG_COOLDOWN = 8;      // Don't show a tag as drift option for this many tag changes
+
+    // Cache for Goodreads cover lookups
+    const goodreadsCoverCache = {};
+
+    // Landing canvas state
+    let isLandingVisible = true;
+    let publicationIndex = {};  // Maps publication -> { cover_url, quoteIndices[] }
+    let canvasOffset = { x: 0, y: 0 };
+    let isDragging = false;
+    let dragStart = { x: 0, y: 0 };
+    let dragMoved = false;  // Track if drag actually moved (vs click)
+    let coverWidth = 160;
+    let coverHeight = 240;
+    let coverGap = 20;
+    let gridCols = 0;
+    let gridRows = 0;
+    let allCovers = [];  // Shuffled array of publication names
+
+    // Build index of publications with covers
+    function buildPublicationIndex() {
+      publicationIndex = {};
+      quotes.forEach((q, idx) => {
+        if (q.cover_url && q.publication) {
+          if (!publicationIndex[q.publication]) {
+            publicationIndex[q.publication] = {
+              cover_url: q.cover_url,
+              quoteIndices: []
+            };
+          }
+          publicationIndex[q.publication].quoteIndices.push(idx);
+        }
+      });
+    }
+
+    // Shuffle array (Fisher-Yates)
+    function shuffleArray(arr) {
+      const result = [...arr];
+      for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+      }
+      return result;
+    }
+
+    // Calculate grid dimensions based on viewport
+    function calculateGridDimensions() {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+
+      // Calculate how many covers fit in viewport, plus extra for infinite scroll
+      const visibleCols = Math.ceil(vw / (coverWidth + coverGap)) + 2;
+      const visibleRows = Math.ceil(vh / (coverHeight + coverGap)) + 2;
+
+      // Make grid larger than viewport for scrolling (3x in each direction)
+      gridCols = visibleCols * 3;
+      gridRows = visibleRows * 3;
+    }
+
+    // Pre-generated grid to avoid adjacent duplicates
+    let gridAssignments = [];
+
+    // Build grid ensuring no adjacent cells have the same book
+    function buildGridAssignments() {
+      const publications = Object.keys(publicationIndex);
+      allCovers = shuffleArray(publications);
+      gridAssignments = [];
+
+      for (let row = 0; row < gridRows; row++) {
+        gridAssignments[row] = [];
+        for (let col = 0; col < gridCols; col++) {
+          // Get neighbors to avoid
+          const forbidden = new Set();
+          if (col > 0) forbidden.add(gridAssignments[row][col - 1]); // left
+          if (row > 0) forbidden.add(gridAssignments[row - 1][col]); // above
+          if (row > 0 && col > 0) forbidden.add(gridAssignments[row - 1][col - 1]); // top-left
+          if (row > 0 && col < gridCols - 1) forbidden.add(gridAssignments[row - 1][col + 1]); // top-right
+
+          // Find a valid cover that's not adjacent
+          let attempts = 0;
+          let pick;
+          do {
+            const baseIdx = (row * gridCols + col + attempts * 7) % allCovers.length;
+            pick = allCovers[baseIdx];
+            attempts++;
+          } while (forbidden.has(pick) && attempts < allCovers.length);
+
+          gridAssignments[row][col] = pick;
+        }
+      }
+    }
+
+    // Render the landing canvas with book covers
+    function renderLandingCanvas() {
+      const grid = document.getElementById('canvas-grid');
+
+      calculateGridDimensions();
+      buildGridAssignments();
+
+      // Set grid template
+      grid.style.gridTemplateColumns = `repeat(${gridCols}, ${coverWidth}px)`;
+
+      // Generate covers for the grid
+      let html = '';
+      for (let row = 0; row < gridRows; row++) {
+        for (let col = 0; col < gridCols; col++) {
+          const pub = gridAssignments[row][col];
+          const info = publicationIndex[pub];
+          html += `<img
+            class="canvas-cover"
+            src="${info.cover_url}"
+            alt="${pub}"
+            data-publication="${pub.replace(/"/g, '&quot;')}"
+            loading="lazy"
+          >`;
+        }
+      }
+      grid.innerHTML = html;
+
+      // Center the grid so viewport shows middle section
+      centerCanvas();
+    }
+
+    // Center the canvas grid in viewport
+    function centerCanvas() {
+      const gridWidth = gridCols * (coverWidth + coverGap);
+      const gridHeight = gridRows * (coverHeight + coverGap);
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+
+      // Start centered in the grid
+      canvasOffset.x = -(gridWidth - vw) / 2;
+      canvasOffset.y = -(gridHeight - vh) / 2;
+
+      updateCanvasPosition();
+    }
+
+    // Update canvas grid position with infinite wrapping
+    function updateCanvasPosition() {
+      const grid = document.getElementById('canvas-grid');
+      const gridWidth = gridCols * (coverWidth + coverGap);
+      const gridHeight = gridRows * (coverHeight + coverGap);
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+
+      // The "wrap zone" - when we scroll this far, we wrap back
+      const wrapZoneX = (gridWidth - vw) / 3;
+      const wrapZoneY = (gridHeight - vh) / 3;
+
+      // Center offset (where we want to be centered)
+      const centerX = -(gridWidth - vw) / 2;
+      const centerY = -(gridHeight - vh) / 2;
+
+      // Use modulo-style wrapping to handle any scroll distance
+      // Keep offset within one wrap zone of center
+      while (canvasOffset.x > centerX + wrapZoneX) {
+        canvasOffset.x -= wrapZoneX;
+      }
+      while (canvasOffset.x < centerX - wrapZoneX) {
+        canvasOffset.x += wrapZoneX;
+      }
+      while (canvasOffset.y > centerY + wrapZoneY) {
+        canvasOffset.y -= wrapZoneY;
+      }
+      while (canvasOffset.y < centerY - wrapZoneY) {
+        canvasOffset.y += wrapZoneY;
+      }
+
+      grid.style.transform = `translate(${canvasOffset.x}px, ${canvasOffset.y}px)`;
+    }
+
+    // Handle canvas pan start
+    function onCanvasPanStart(e) {
+      // Allow drag to start on covers too for better UX
+      isDragging = true;
+      dragMoved = false;
+      const clientX = e.clientX ?? e.touches?.[0]?.clientX ?? 0;
+      const clientY = e.clientY ?? e.touches?.[0]?.clientY ?? 0;
+      dragStart.x = clientX - canvasOffset.x;
+      dragStart.y = clientY - canvasOffset.y;
+      document.getElementById('landing-canvas').classList.add('grabbing');
+    }
+
+    // Handle canvas pan move
+    function onCanvasPanMove(e) {
+      if (!isDragging) return;
+      e.preventDefault();
+      const clientX = e.clientX ?? e.touches?.[0]?.clientX ?? 0;
+      const clientY = e.clientY ?? e.touches?.[0]?.clientY ?? 0;
+
+      const newX = clientX - dragStart.x;
+      const newY = clientY - dragStart.y;
+
+      // Check if we've actually moved (for click vs drag detection)
+      if (Math.abs(newX - canvasOffset.x) > 5 || Math.abs(newY - canvasOffset.y) > 5) {
+        dragMoved = true;
+      }
+
+      canvasOffset.x = newX;
+      canvasOffset.y = newY;
+
+      updateCanvasPosition();
+    }
+
+    // Handle canvas pan end
+    function onCanvasPanEnd() {
+      isDragging = false;
+      document.getElementById('landing-canvas').classList.remove('grabbing');
+    }
+
+    // Handle cover click
+    function onCoverClick(e) {
+      // Only trigger if we didn't drag
+      if (dragMoved) return;
+
+      if (e.target.classList.contains('canvas-cover')) {
+        const publication = e.target.dataset.publication;
+        const info = publicationIndex[publication];
+        if (info && info.quoteIndices.length > 0) {
+          // Pick random quote from this publication
+          const randomIdx = info.quoteIndices[Math.floor(Math.random() * info.quoteIndices.length)];
+          transitionToQuote(randomIdx);
+        }
+      }
+    }
+
+    // Transition from landing canvas to quote view
+    async function transitionToQuote(quoteIndex) {
+      const landingCanvas = document.getElementById('landing-canvas');
+      const viewMode = document.getElementById('view-mode');
+      const controls = document.querySelector('.controls');
+      const gotoBox = document.querySelector('.goto-box');
+      const backBtn = document.getElementById('back-to-canvas');
+
+      // Fade out landing canvas
+      landingCanvas.classList.add('hidden');
+
+      // After animation, show quote view
+      setTimeout(async () => {
+        landingCanvas.style.display = 'none';
+        viewMode.style.display = 'flex';
+        controls.style.display = 'flex';
+        if (gotoBox) gotoBox.style.display = 'flex';
+        backBtn.style.display = 'flex';
+
+        isLandingVisible = false;
+        currentIndex = quoteIndex;
+        startTagJourney(quotes[quoteIndex]);
+        addToRecentQuotes(quotes[quoteIndex].id);
+        await render(quotes[quoteIndex], quoteIndex);
+      }, 500);
+    }
+
+    // Transition back to landing canvas
+    function transitionToCanvas() {
+      const landingCanvas = document.getElementById('landing-canvas');
+      const viewMode = document.getElementById('view-mode');
+      const controls = document.querySelector('.controls');
+      const gotoBox = document.querySelector('.goto-box');
+      const backBtn = document.getElementById('back-to-canvas');
+
+      // Fade out quote view
+      viewMode.style.opacity = '0';
+      viewMode.style.transition = 'opacity 0.4s ease';
+
+      setTimeout(() => {
+        viewMode.style.display = 'none';
+        viewMode.style.opacity = '';
+        viewMode.style.transition = '';
+        controls.style.display = 'none';
+        if (gotoBox) gotoBox.style.display = 'none';
+        backBtn.style.display = 'none';
+
+        // Show landing canvas
+        landingCanvas.style.display = 'block';
+        landingCanvas.classList.remove('hidden');
+        isLandingVisible = true;
+
+        // Re-shuffle covers for fresh experience
+        renderLandingCanvas();
+      }, 400);
+    }
+
+    // Handle scroll/wheel for panning (trackpad two-finger, mouse wheel)
+    function onCanvasScroll(e) {
+      if (!isLandingVisible) return;
+      e.preventDefault();
+
+      // Use deltaX and deltaY for panning
+      canvasOffset.x -= e.deltaX;
+      canvasOffset.y -= e.deltaY;
+
+      updateCanvasPosition();
+    }
+
+    // Initialize landing canvas event listeners
+    function initLandingCanvas() {
+      const canvas = document.getElementById('landing-canvas');
+
+      // Mouse drag events (click and hold)
+      canvas.addEventListener('mousedown', onCanvasPanStart);
+      document.addEventListener('mousemove', onCanvasPanMove);
+      document.addEventListener('mouseup', onCanvasPanEnd);
+
+      // Touch events (mobile drag)
+      canvas.addEventListener('touchstart', onCanvasPanStart, { passive: false });
+      document.addEventListener('touchmove', onCanvasPanMove, { passive: false });
+      document.addEventListener('touchend', onCanvasPanEnd);
+
+      // Scroll/wheel events (trackpad two-finger, mouse wheel)
+      canvas.addEventListener('wheel', onCanvasScroll, { passive: false });
+
+      // Cover click
+      canvas.addEventListener('click', onCoverClick);
+
+      // Back button
+      document.getElementById('back-to-canvas').addEventListener('click', transitionToCanvas);
+
+      // Handle window resize
+      window.addEventListener('resize', () => {
+        if (isLandingVisible) {
+          renderLandingCanvas();  // Re-render to fill new viewport size
+        }
+      });
+    }
+
+    // Smart uppercase that preserves Mc/Mac patterns (e.g., McLuhan -> McLUHAN)
+    function smartUppercase(name) {
+      return name.replace(/\b(\w+)/g, (word) => {
+        // Check for Mc or Mac prefix
+        if (/^Mc[A-Z]/.test(word)) {
+          return 'Mc' + word.slice(2).toUpperCase();
+        }
+        if (/^Mac[A-Z]/.test(word) && word.length > 4) {
+          return 'Mac' + word.slice(3).toUpperCase();
+        }
+        return word.toUpperCase();
+      });
+    }
+
+    // Simple fade transition for quote changes (used for up/down drift)
+    function fadeTransition(newIndex, onComplete) {
+      const currentPanel = document.getElementById('current-panel');
+      const bookBlock = document.getElementById('book-block');
+
+      // Fade out
+      currentPanel.style.opacity = '0';
+      currentPanel.style.transition = 'opacity 0.3s ease';
+      bookBlock.classList.add('fade-out');
+
+      // After fade out, update content and fade in
+      setTimeout(() => {
+        currentIndex = newIndex;
+        render(quotes[newIndex], newIndex);
+
+        // Fade in
+        currentPanel.style.opacity = '1';
+        bookBlock.classList.remove('fade-out');
+
+        if (onComplete) onComplete();
+      }, 300);
+    }
+
+    // Horizontal slide transition for left/right navigation
+    function slideTransition(newIndex, direction, onComplete) {
+      const prevPanel = document.getElementById('prev-panel');
+      const currentPanel = document.getElementById('current-panel');
+      const nextPanel = document.getElementById('next-panel');
+      const bookBlock = document.getElementById('book-block');
+
+      // Fade out book
+      bookBlock.classList.add('fade-out');
+
+      // Set up transitions on all panels
+      const panels = [prevPanel, currentPanel, nextPanel];
+      panels.forEach(p => {
+        p.style.transition = 'transform 0.5s ease-out, filter 0.5s ease-out, opacity 0.5s ease-out, color 0.5s ease-out';
+      });
+
+      // Also transition the author color
+      const prevAuthor = prevPanel.querySelector('.quote-panel-author');
+      const currentAuthor = currentPanel.querySelector('.quote-panel-author');
+      const nextAuthor = nextPanel.querySelector('.quote-panel-author');
+      [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+        if (a) a.style.transition = 'color 0.5s ease-out';
+      });
+
+      // Get inner elements for animating their transforms too
+      const prevInner = prevPanel.querySelector('.quote-panel-inner');
+      const currentInner = currentPanel.querySelector('.quote-panel-inner');
+      const nextInner = nextPanel.querySelector('.quote-panel-inner');
+
+      // Add transitions to inner elements
+      [prevInner, currentInner, nextInner].forEach(inner => {
+        if (inner) inner.style.transition = 'transform 0.5s ease-out';
+      });
+
+      // Panels use transform: prev at -100%, current at 0%, next at 100%
+      // Inner content is offset by 85% to peek in from edges
+      // When sliding, we move panel by 100% AND remove inner offset
+      if (direction === 'left') {
+        // Going to next quote (right arrow/spacebar)
+        // Next panel slides from right (100%) to center (0)
+        nextPanel.style.transform = 'translateX(0)';
+        nextPanel.style.filter = 'blur(0px)';
+        nextPanel.style.color = '#fafafa';
+        if (nextAuthor) nextAuthor.style.color = '#FF0064';
+        // Remove inner offset so text centers
+        if (nextInner) nextInner.style.transform = 'translateX(0)';
+
+        // Current panel slides from center (0) to left (-100%)
+        currentPanel.style.transform = 'translateX(-100%)';
+        currentPanel.style.color = '#444';
+        if (currentAuthor) currentAuthor.style.color = '#444';
+        // Add inner offset for left peek position
+        if (currentInner) currentInner.style.transform = 'translateX(85%)';
+
+        // Prev panel slides further left (fade out)
+        prevPanel.style.transform = 'translateX(-200%)';
+        prevPanel.style.opacity = '0';
+      } else {
+        // Going to prev quote (left arrow)
+        // Prev panel slides from left (-100%) to center (0)
+        prevPanel.style.transform = 'translateX(0)';
+        prevPanel.style.filter = 'blur(0px)';
+        prevPanel.style.color = '#fafafa';
+        if (prevAuthor) prevAuthor.style.color = '#FF0064';
+        // Remove inner offset so text centers
+        if (prevInner) prevInner.style.transform = 'translateX(0)';
+
+        // Current panel slides from center (0) to right (100%)
+        currentPanel.style.transform = 'translateX(100%)';
+        currentPanel.style.filter = 'blur(8px)';
+        currentPanel.style.color = '#555';
+        if (currentAuthor) currentAuthor.style.color = '#555';
+        // Add inner offset for right peek position
+        if (currentInner) currentInner.style.transform = 'translateX(-85%)';
+
+        // Next panel slides further right (fade out)
+        nextPanel.style.transform = 'translateX(200%)';
+        nextPanel.style.opacity = '0';
+      }
+
+      // After slide completes, swap content
+      setTimeout(() => {
+          // Disable transitions for swap
+          panels.forEach(p => {
+            p.style.transition = 'none';
+          });
+          [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+            if (a) a.style.transition = 'none';
+          });
+          [prevInner, currentInner, nextInner].forEach(inner => {
+            if (inner) inner.style.transition = 'none';
+          });
+
+          // Update state
+          currentIndex = newIndex;
+
+          // Reset all inline styles on panels
+          panels.forEach(p => {
+            p.style.transform = '';
+            p.style.filter = '';
+            p.style.color = '';
+          });
+          [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+            if (a) a.style.color = '';
+          });
+          // Reset inner transforms (CSS will re-apply the offsets based on class)
+          [prevInner, currentInner, nextInner].forEach(inner => {
+            if (inner) inner.style.transform = '';
+          });
+
+          // Force reflow
+          currentPanel.offsetHeight;
+
+          // Update all panel content
+          renderPanel(currentPanel, quotes[newIndex]);
+          precomputeNextQuote();
+          renderPanel(nextPanel, peekNextQuote());
+          renderPanel(prevPanel, getPrevQuote());
+
+          // Update other UI elements
+          const tagsEl = document.getElementById("quote-tags");
+          if (activeTag) {
+            tagsEl.innerHTML = `<span class="quote-tag active-tag">On ${activeTag}</span>`;
+          } else {
+            const topTag = getTopWeightedTag(quotes[newIndex]);
+            if (topTag) {
+              tagsEl.innerHTML = `<span class="quote-tag">${topTag}</span>`;
+            } else {
+              tagsEl.innerHTML = '';
+            }
+          }
+          document.getElementById("count").textContent = `${newIndex + 1} / ${quotes.length}`;
+          renderRelatedTags();
+
+          // Update book block
+          updateBookBlock(quotes[newIndex]);
+
+          // Force reflow
+          currentPanel.offsetHeight;
+
+          // Reset opacity for panels that were faded out
+          panels.forEach(p => {
+            p.style.opacity = '';
+            p.style.transition = '';
+          });
+          [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+            if (a) a.style.transition = '';
+          });
+          [prevInner, currentInner, nextInner].forEach(inner => {
+            if (inner) inner.style.transition = '';
+          });
+
+          // Fade in book
+          bookBlock.classList.remove('fade-out');
+
+          if (onComplete) {
+            setTimeout(onComplete, 100);
+          }
+      }, 500); // Wait for slide to complete
+    }
+
+    // Update book block without full re-render
+    function updateBookBlock(q) {
+      const bookBlock = document.getElementById("book-block");
+      bookBlock.innerHTML = '<div class="book-block-inner"></div>';
+      const innerBlock = bookBlock.querySelector('.book-block-inner');
+
+      setTimeout(async () => {
+        const bookTitle = q.publication || q.book_title;
+        const hasBook = bookTitle || q.isbn || q.cover_url;
+        const bookAuthor = q.book_author || q.author;
+
+        if (hasBook) {
+          let coverUrl = getCoverUrl(q);
+          if (!coverUrl) {
+            coverUrl = await fetchGoodreadsCover(q);
+          }
+
+          const coverHtml = coverUrl
+            ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
+            : `<div class="book-cover-placeholder">No cover available</div>`;
+
+          innerBlock.innerHTML = `
+            ${coverHtml}
+            <div class="book-info">
+              <div class="book-title">${bookTitle || 'Unknown title'}</div>
+              <div class="book-author">${bookAuthor}</div>
+              ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
+              ${q.isbn ? `<div class="book-isbn">ISBN: ${q.isbn}</div>` : ''}
+            </div>
+          `;
+        } else {
+          innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
+        }
+
+        requestAnimationFrame(() => {
+          innerBlock.classList.add('visible');
+        });
+      }, 500);
+    }
+
+    function getCoverUrl(q) {
+      // Local cover URL takes precedence
+      if (q.cover_url) return q.cover_url;
+      return null;
+    }
+
+    async function fetchGoodreadsCover(q) {
+      // Try to get cover from Goodreads API
+      const title = q.publication || q.book_title;
+      const author = q.book_author || q.author;
+
+      if (!title) return null;
+
+      const cacheKey = `${title}|${author}`;
+      if (goodreadsCoverCache[cacheKey] !== undefined) {
+        return goodreadsCoverCache[cacheKey];
+      }
+
+      try {
+        const params = new URLSearchParams({ book_title: title, author_name: author });
+        const res = await fetch(`https://bookcover.longitood.com/bookcover?${params}`);
+        if (res.ok) {
+          const data = await res.json();
+          goodreadsCoverCache[cacheKey] = data.url || null;
+          return data.url || null;
+        }
+      } catch (e) {
+        console.log("Goodreads cover fetch failed:", e);
+      }
+      goodreadsCoverCache[cacheKey] = null;
+      return null;
+    }
+
+    function showStatus(message, isError = false) {
+      const el = document.getElementById("status-message");
+      el.textContent = message;
+      el.className = "status-message show" + (isError ? " error" : "");
+      setTimeout(() => {
+        el.className = "status-message";
+      }, 3000);
+    }
+
+    function getQuoteFontSize(text) {
+      const len = text.length;
+      // Returns a clamp() value for responsive sizing
+      // Short quotes get larger text, long quotes get smaller
+      // Base scale: vw unit for fluid scaling
+      // Short quotes (< 50 chars): clamp(2.4rem, 6vw, 5rem)
+      // Long quotes (> 200 chars): clamp(1.2rem, 2.5vw, 2.2rem)
+      let vwBase, minRem, maxRem;
+      if (len <= 50) {
+        vwBase = 6;
+        minRem = 2.4;
+        maxRem = 5;
+      } else if (len >= 200) {
+        vwBase = 2.5;
+        minRem = 1.2;
+        maxRem = 2.2;
+      } else {
+        // Linear interpolation
+        const ratio = (len - 50) / (200 - 50);
+        vwBase = 6 - ratio * 3.5;
+        minRem = 2.4 - ratio * 1.2;
+        maxRem = 5 - ratio * 2.8;
+      }
+      return `clamp(${minRem.toFixed(2)}rem, ${vwBase.toFixed(2)}vw, ${maxRem.toFixed(2)}rem)`;
+    }
+
+    // Render a quote into a panel element
+    function renderPanel(panel, q) {
+      if (!q) {
+        panel.querySelector('.quote-panel-text').textContent = '';
+        panel.querySelector('.quote-panel-author').textContent = '';
+        return;
+      }
+      const textEl = panel.querySelector('.quote-panel-text');
+      textEl.textContent = '\u2018' + q.quote + '\u2019';
+      textEl.style.fontSize = getQuoteFontSize(q.quote);
+      panel.querySelector('.quote-panel-author').textContent = smartUppercase(q.author);
+    }
+
+    async function render(q, index) {
+      // Render current quote into center panel
+      const currentPanel = document.getElementById('current-panel');
+      renderPanel(currentPanel, q);
+
+      // Tags - show only the active navigation tag
+      const tagsEl = document.getElementById("quote-tags");
+      if (activeTag) {
+        tagsEl.innerHTML = `<span class="quote-tag active-tag">On ${activeTag}</span>`;
+      } else {
+        // Fallback: show top weighted tag
+        const topTag = getTopWeightedTag(q);
+        if (topTag) {
+          tagsEl.innerHTML = `<span class="quote-tag">${topTag}</span>`;
+        } else {
+          tagsEl.innerHTML = '';
+        }
+      }
+
+      // Precompute next quote BEFORE rendering side panels
+      precomputeNextQuote();
+
+      // Render prev/next panels
+      renderSideQuotes();
+
+      // Block 2: Book - delay loading by 0.5s, animate in without layout shift
+      const bookBlock = document.getElementById("book-block");
+      // Create invisible inner wrapper immediately to reserve space
+      bookBlock.innerHTML = '<div class="book-block-inner"></div>';
+      const innerBlock = bookBlock.querySelector('.book-block-inner');
+
+      setTimeout(async () => {
+        const bookTitle = q.publication || q.book_title;
+        const hasBook = bookTitle || q.isbn || q.cover_url;
+        // Use book_author if set, otherwise fall back to quoted person (author)
+        const bookAuthor = q.book_author || q.author;
+
+        if (hasBook) {
+          // Try local cover first, then fetch from Goodreads
+          let coverUrl = getCoverUrl(q);
+
+          if (!coverUrl) {
+            // Fetch from Goodreads API
+            coverUrl = await fetchGoodreadsCover(q);
+          }
+
+          const coverHtml = coverUrl
+            ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
+            : `<div class="book-cover-placeholder">No cover available</div>`;
+
+          innerBlock.innerHTML = `
+            ${coverHtml}
+            <div class="book-info">
+              <div class="book-title">${bookTitle || 'Unknown title'}</div>
+              <div class="book-author">${bookAuthor}</div>
+              ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
+              ${q.isbn ? `<div class="book-isbn">ISBN: ${q.isbn}</div>` : ''}
+            </div>
+          `;
+        } else {
+          innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
+        }
+
+        // Fade in the content
+        requestAnimationFrame(() => {
+          innerBlock.classList.add('visible');
+        });
+      }, 500);
+
+      // Count
+      document.getElementById("count").textContent = `${index + 1} / ${quotes.length}`;
+      currentIndex = index;
+
+      // Render related tags
+      renderRelatedTags();
+    }
+
+    // Precompute the next quote so preview matches what will actually load
+    // Also tracks which tag the next quote will use (for seamless tag updates)
+    let precomputedNextTag = null;
+
+    function precomputeNextQuote() {
+      const currentQuoteId = quotes[currentIndex]?.id;
+      precomputedNextTag = activeTag;  // Default: same tag
+
+      // Check if we need to force a drift due to streak limit
+      // Use MAX_TAG_STREAK - 1 because the next quote will increment count
+      const mustDrift = activeTagCount >= MAX_TAG_STREAK - 1;
+
+      // If we have an active tag, try to find a quote with that tag
+      if (activeTag) {
+        // If we haven't hit the streak limit, try to stay on same tag
+        if (!mustDrift) {
+          const candidates = getQuotesWithTag(activeTag).filter(q => q.id !== currentQuoteId);
+          if (candidates.length > 0) {
+            precomputedNextQuote = candidates[Math.floor(Math.random() * candidates.length)];
+            precomputedNextTag = activeTag;
+            return;
+          }
+        } else {
+          console.log(`Streak limit approaching (${activeTagCount}/${MAX_TAG_STREAK}), forcing drift from: ${activeTag}`);
+        }
+
+        // No more quotes with current tag OR must drift - go to related tag
+        if (tagConnections[activeTag]) {
+          for (const r of tagConnections[activeTag].related || []) {
+            const relatedCandidates = getQuotesWithTag(r.tag).filter(q => q.id !== currentQuoteId);
+            if (relatedCandidates.length > 0) {
+              precomputedNextQuote = relatedCandidates[Math.floor(Math.random() * relatedCandidates.length)];
+              precomputedNextTag = r.tag;  // Tag will change!
+              console.log(`Precomputed drift: ${activeTag} -> ${r.tag}`);
+              return;
+            }
+          }
+        }
+      }
+
+      // Fallback: pick any random quote that's not the current one
+      const otherQuotes = quotes.filter(q => q.id !== currentQuoteId);
+      if (otherQuotes.length > 0) {
+        precomputedNextQuote = otherQuotes[Math.floor(Math.random() * otherQuotes.length)];
+        // Use the top tag from this random quote
+        precomputedNextTag = getTopWeightedTag(precomputedNextQuote);
+      } else {
+        precomputedNextQuote = null;
+        precomputedNextTag = null;
+      }
+    }
+
+    // Get the next quote that would be shown (preview)
+    function peekNextQuote() {
+      return precomputedNextQuote;
+    }
+
+    // Get the previous quote shown (from history)
+    function getPrevQuote() {
+      // Use the quote before current in recent history
+      // Only show prev if we have actual history (user has navigated)
+      if (recentQuotes.length >= 2) {
+        const prevId = recentQuotes[recentQuotes.length - 2];
+        return quotes.find(q => q.id === prevId);
+      }
+      // No history yet - return null (left panel stays empty on first load)
+      return null;
+    }
+
+    function renderSideQuotes() {
+      const prevPanel = document.getElementById('prev-panel');
+      const nextPanel = document.getElementById('next-panel');
+
+      // Previous quote
+      const prev = getPrevQuote();
+      console.log('Rendering prev quote:', prev ? prev.quote.substring(0, 30) + '...' : 'null');
+      renderPanel(prevPanel, prev);
+
+      // Next quote preview
+      const next = peekNextQuote();
+      console.log('Rendering next quote:', next ? next.quote.substring(0, 30) + '...' : 'null');
+      renderPanel(nextPanel, next);
+    }
+
+    // Track available drift tags for up/down navigation
+    let driftTags = [];  // [tagAbove, tag2, tag3]
+
+    function renderRelatedTags() {
+      const tagAboveEl = document.getElementById('drift-tag-above');
+      const tag2El = document.getElementById('drift-tag-2');
+      const tag3El = document.getElementById('drift-tag-3');
+
+      // Clear existing
+      tagAboveEl.textContent = '';
+      tag2El.textContent = '';
+      tag3El.textContent = '';
+      driftTags = [];
+
+      if (!activeTag || !tagConnections[activeTag]) return;
+
+      // Get related tags to the active tag (from tagConnections)
+      // Filter out tags that are on cooldown (recently active)
+      const related = (tagConnections[activeTag].related || [])
+        .filter(r => !isTagOnCooldown(r.tag));
+
+      // Show previous tag above (if we have navigation history)
+      // The "back" tag is exempt from cooldown - always show it
+      if (tagHistory.length > 0) {
+        const prevTag = tagHistory[tagHistory.length - 1];
+        tagAboveEl.textContent = prevTag;
+        tagAboveEl.onclick = () => switchToTag(prevTag);
+        driftTags.push(prevTag);
+      }
+
+      // Show top 2 related tags below (already filtered for cooldown)
+      // When pressed, they become the active tag and the next quote will have that tag
+      const tagsBelow = related.slice(0, 2);
+      if (tagsBelow.length > 0) {
+        tag2El.textContent = tagsBelow[0].tag;
+        tag2El.onclick = () => switchToTag(tagsBelow[0].tag);
+        driftTags.push(tagsBelow[0].tag);
+      }
+      if (tagsBelow.length > 1) {
+        tag3El.textContent = tagsBelow[1].tag;
+        tag3El.onclick = () => switchToTag(tagsBelow[1].tag);
+        driftTags.push(tagsBelow[1].tag);
+      }
+    }
+
+    // Switch to a different tag (when user clicks a related tag)
+    function switchToTag(newTag) {
+      if (transitionActive) return;
+
+      console.log(`Switching to tag: ${newTag}`);
+      tagHistory.push(activeTag);
+      addToRecentTags(activeTag);  // Put old tag on cooldown
+      activeTag = newTag;
+      activeTagCount = 0;
+
+      // Find a quote with this tag
+      const candidates = getQuotesWithTag(newTag);
+      if (candidates.length > 0) {
+        const pick = candidates[Math.floor(Math.random() * candidates.length)];
+        const nextIndex = quotes.indexOf(pick);
+        addToRecentQuotes(pick.id);
+        activeTagCount = 1;
+
+        transitionActive = true;
+        fadeTransition(nextIndex, () => {
+          transitionActive = false;
+        });
+      }
+    }
+
+    function pickRandom() {
+      return Math.floor(Math.random() * quotes.length);
+    }
+
+    function transitionTo(index, preserveTag = false) {
+      // Update currentIndex immediately to prevent edit mismatch
+      currentIndex = index;
+
+      // Reset tag journey when manually navigating (prev/next/goto)
+      if (!preserveTag) {
+        startTagJourney(quotes[index]);
+      }
+
+      // Use fade transition
+      fadeTransition(index, null);
+    }
+
+    function showNext() {
+      const nextIndex = (currentIndex + 1) % quotes.length;
+      transitionTo(nextIndex);
+    }
+
+    function showPrev() {
+      const prevIndex = (currentIndex - 1 + quotes.length) % quotes.length;
+      transitionTo(prevIndex);
+    }
+
+    // Get the top weighted tag for a quote (excluding author names)
+    // Only returns tags that exist in tagConnections (popular/connected tags)
+    function getTopWeightedTag(quote) {
+      const weightedTags = quote.weighted_tags || [];
+      const author = (quote.author || '').toLowerCase();
+
+      for (const t of weightedTags) {
+        // Skip author-like tags
+        if (t.tag.includes(author) || author.includes(t.tag)) continue;
+        // Only return tags that exist in our connections data
+        if (tagConnections[t.tag]) {
+          return t.tag;
+        }
+      }
+      return null;
+    }
+
+    // Get all quotes that have a specific tag (excluding recently shown)
+    function getQuotesWithTag(tag, excludeRecent = true) {
+      return quotes.filter(q => {
+        const tags = (q.weighted_tags || []).map(t => t.tag);
+        if (!tags.includes(tag)) return false;
+        if (excludeRecent && recentQuotes.includes(q.id)) return false;
+        return true;
+      });
+    }
+
+    // Add a quote to the recent history
+    function addToRecentQuotes(quoteId) {
+      recentQuotes.push(quoteId);
+      if (recentQuotes.length > QUOTE_COOLDOWN) {
+        recentQuotes.shift();  // Remove oldest
+      }
+    }
+
+    // Add a tag to the recent tags list (for cooldown)
+    function addToRecentTags(tag) {
+      // Don't add duplicates in a row
+      if (recentTags[recentTags.length - 1] === tag) return;
+      recentTags.push(tag);
+      if (recentTags.length > TAG_COOLDOWN) {
+        recentTags.shift();  // Remove oldest
+      }
+    }
+
+    // Check if a tag is on cooldown (recently active)
+    function isTagOnCooldown(tag) {
+      return recentTags.includes(tag);
+    }
+
+    // Find next unvisited quote with current tag, or drift to related tag
+    function findNextTaggedQuote() {
+      if (!activeTag) return null;
+
+      // Force drift if we've used this tag too many times
+      if (activeTagCount >= MAX_TAG_STREAK) {
+        console.log(`Tag streak limit reached (${MAX_TAG_STREAK}), forcing drift from: ${activeTag}`);
+        const drifted = driftToRelatedTag();
+        if (drifted) {
+          activeTagCount = 0;
+          return findNextTaggedQuote();
+        }
+      }
+
+      // Get quotes with this tag (excluding recently shown)
+      const candidates = getQuotesWithTag(activeTag);
+
+      if (candidates.length > 0) {
+        // Pick a random quote with this tag
+        const pick = candidates[Math.floor(Math.random() * candidates.length)];
+        activeTagCount++;
+        return { quote: pick, drifted: false };
+      }
+
+      // No more quotes with this tag - drift to a related tag
+      const drifted = driftToRelatedTag();
+      if (drifted) {
+        activeTagCount = 0;
+        return findNextTaggedQuote();  // Try again with new tag
+      }
+
+      return null;  // No related tags available
+    }
+
+    // Drift to a related tag
+    function driftToRelatedTag() {
+      if (!activeTag || !tagConnections[activeTag]) return false;
+
+      const related = tagConnections[activeTag].related || [];
+
+      // Find a related tag that has available quotes (not recently shown)
+      for (const r of related) {
+        const candidates = getQuotesWithTag(r.tag);
+        if (candidates.length > 0) {
+          console.log(`Tag drift: ${activeTag} -> ${r.tag} (${candidates.length} quotes available)`);
+          tagHistory.push(activeTag);
+          activeTag = r.tag;
+          return true;
+        }
+      }
+
+      return false;
+    }
+
+    // Start a new tag journey from a quote
+    function startTagJourney(quote) {
+      const topTag = getTopWeightedTag(quote);
+      if (topTag) {
+        activeTag = topTag;
+        activeTagCount = 1;  // This quote counts as first use
+        tagHistory = [];
+        console.log(`Started tag journey: ${activeTag}`);
+      } else {
+        // Quote has no popular tags - pick a random popular tag to start
+        const popularTags = Object.keys(tagConnections);
+        if (popularTags.length > 0) {
+          activeTag = popularTags[Math.floor(Math.random() * popularTags.length)];
+          activeTagCount = 0;  // This quote doesn't have the tag
+          tagHistory = [];
+          console.log(`Started with random popular tag: ${activeTag}`);
+        }
+      }
+    }
+
+    // Navigate to next quote via tag (spacebar/right arrow behavior)
+    function showNextViaTag() {
+      console.log('showNextViaTag called', { transitionActive, activeTag, quotesLength: quotes.length });
+      if (transitionActive) return;
+
+      // If no active tag, start a journey from current quote
+      if (!activeTag) {
+        startTagJourney(quotes[currentIndex]);
+        precomputeNextQuote();
+      }
+
+      // Use the precomputed next quote (same one shown in preview)
+      if (precomputedNextQuote) {
+        const nextIndex = quotes.indexOf(precomputedNextQuote);
+        addToRecentQuotes(precomputedNextQuote.id);
+
+        // Update the active tag if it changed (drift happened)
+        if (precomputedNextTag && precomputedNextTag !== activeTag) {
+          console.log(`Tag drift: ${activeTag} -> ${precomputedNextTag}`);
+          tagHistory.push(activeTag);
+          addToRecentTags(activeTag);  // Put old tag on cooldown
+          activeTag = precomputedNextTag;
+          activeTagCount = 1;
+        } else {
+          activeTagCount++;
+        }
+
+        transitionActive = true;
+        slideTransition(nextIndex, 'left', () => {
+          transitionActive = false;
+        });
+      } else {
+        // Exhausted all tags - start fresh with a random quote not in recent
+        console.log("Tag journey exhausted, starting fresh");
+        let randomIndex;
+        let attempts = 0;
+        do {
+          randomIndex = pickRandom();
+          attempts++;
+        } while (recentQuotes.includes(quotes[randomIndex].id) && attempts < 100);
+
+        startTagJourney(quotes[randomIndex]);
+        addToRecentQuotes(quotes[randomIndex].id);
+
+        transitionActive = true;
+        slideTransition(randomIndex, 'left', () => {
+          transitionActive = false;
+        });
+      }
+    }
+
+    function showRandom() {
+      if (transitionActive) return;
+
+      // Random now uses tag navigation
+      showNextViaTag();
+    }
+
+    function goToEntry(num) {
+      const index = num - 1; // Convert 1-based to 0-based
+      if (index >= 0 && index < quotes.length) {
+        transitionTo(index);
+      }
+    }
+
+    async function init() {
+      try {
+        // Load quotes and tag connections in parallel
+        const [quotesRes, connectionsRes] = await Promise.all([
+          fetch("quotes.json"),
+          fetch("tag_connections.json")
+        ]);
+
+        const allQuotes = await quotesRes.json();
+        tagConnections = await connectionsRes.json();
+
+        // Filter out entries without usable information or book info
+        quotes = allQuotes.filter(q =>
+          q.quote && q.quote.trim() &&
+          q.author && q.author.trim() &&
+          (q.publication || q.book_title)
+        );
+
+        console.log(`Loaded ${quotes.length} quotes, ${Object.keys(tagConnections).length} tag connections`);
+
+        // Build publication index and render landing canvas
+        buildPublicationIndex();
+        console.log(`Built index with ${Object.keys(publicationIndex).length} unique publications with covers`);
+        renderLandingCanvas();
+        initLandingCanvas();
+
+        // Hide controls while on landing canvas
+        document.querySelector('.controls').style.display = 'none';
+        document.querySelector('.goto-box').style.display = 'none';
+      } catch (err) {
+        console.error('Init error:', err);
+      }
+
+      // Button handlers
+      // Side quote click handlers
+      document.getElementById("prev-panel").addEventListener("click", () => {
+        const prev = getPrevQuote();
+        if (prev) {
+          const prevIndex = quotes.indexOf(prev);
+          if (prevIndex >= 0) {
+            goToPrevInHistory();
+          }
+        }
+      });
+
+      document.getElementById("next-panel").addEventListener("click", () => {
+        showNextViaTag();  // Same as spacebar
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight") {
+          e.preventDefault();
+          showNextViaTag();  // Right arrow = next quote with same tag
+        } else if (e.key === " ") {
+          e.preventDefault();
+          showNextViaTag();  // Spacebar = next quote with same tag
+        } else if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          goToPrevInHistory();  // Left arrow = go back in history
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          driftUp();  // Up arrow = switch to drift tag above
+        } else if (e.key === "ArrowDown") {
+          e.preventDefault();
+          driftDown();  // Down arrow = switch to drift tag below
+        } else if (e.key === "r") {
+          showRandom();
+        }
+      });
+    }
+
+    // Navigate to previous quote in history (left arrow)
+    function goToPrevInHistory() {
+      if (transitionActive) return;
+      const prev = getPrevQuote();
+      if (prev) {
+        const prevIndex = quotes.indexOf(prev);
+        if (prevIndex >= 0) {
+          // Remove current from recent so we can go back
+          if (recentQuotes.length > 1) {
+            recentQuotes.pop();
+          }
+          transitionActive = true;
+          slideTransition(prevIndex, 'right', () => {
+            transitionActive = false;
+          });
+        }
+      }
+    }
+
+    // Drift up to the tag shown above (first drift tag)
+    function driftUp() {
+      if (transitionActive) return;
+      if (driftTags.length > 0) {
+        switchToTag(driftTags[0]);
+      }
+    }
+
+    // Drift down - switch to first drift tag below (not the tag above)
+    function driftDown() {
+      if (transitionActive) return;
+      // driftTags[0] is the tag above (from history), driftTags[1+] are tags below
+      // If we have history, first tag below is at index 1
+      // If no history, first tag below is at index 0
+      const hasTagAbove = tagHistory.length > 0;
+      const firstBelowIndex = hasTagAbove ? 1 : 0;
+
+      if (driftTags.length > firstBelowIndex) {
+        switchToTag(driftTags[firstBelowIndex]);
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local development files (keep out of repo)
+site/server.py
+site/quotes.json
+site/tag_connections.json
+site/quotes_weighted.json
+
+# Environment
+.env
+.env.local
