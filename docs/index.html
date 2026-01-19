@@ -910,6 +910,8 @@
 
     // Store flying cover globally so render() can coordinate with it
     let activeFlyingCover = null;
+    // Track the landed flying cover so we can remove it when navigating away
+    let landedFlyingCover = null;
 
     // Transition from landing canvas to quote view
     async function transitionToQuote(quoteIndex, clickedCover = null) {
@@ -1381,6 +1383,14 @@
       renderSideQuotes();
 
       // Block 2: Book - coordinate with flying cover if present
+      // Remove the previous landed flying cover if it exists
+      console.log('Checking landedFlyingCover:', landedFlyingCover);
+      if (landedFlyingCover) {
+        console.log('Removing landedFlyingCover');
+        landedFlyingCover.remove();
+        landedFlyingCover = null;
+      }
+
       const bookBlock = document.getElementById("book-block");
       bookBlock.innerHTML = '<div class="book-block-inner"></div>';
       const innerBlock = bookBlock.querySelector('.book-block-inner');
@@ -1403,7 +1413,12 @@
 
       if (activeFlyingCover && hasBook) {
         // We have a flying cover - animate it to the book cover position
-        // It stays as a fixed element forever (no swap = no flash)
+        // Capture reference immediately and clear globals to prevent re-entry issues
+        const flyingCover = activeFlyingCover;
+        activeFlyingCover = null;
+        // Store reference NOW so it can be cleaned up on next render
+        landedFlyingCover = flyingCover;
+
         console.log('Using flying cover path');
         innerBlock.innerHTML = buildBookInfo();
         innerBlock.classList.add('visible');
@@ -1414,6 +1429,9 @@
         placeholder.style.visibility = 'hidden';
         innerBlock.insertBefore(placeholder, innerBlock.firstChild);
 
+        // Get cover URL for this quote
+        let coverUrl = getCoverUrl(q);
+
         // Wait for layout, then animate flying cover to match
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {
@@ -1422,17 +1440,29 @@
 
             // Animate flying cover to exact target position
             // Also clear blur and restore opacity as it lands
-            activeFlyingCover.style.left = `${targetRect.left}px`;
-            activeFlyingCover.style.top = `${targetRect.top}px`;
-            activeFlyingCover.style.width = `${targetRect.width}px`;
-            activeFlyingCover.style.height = `${targetRect.height}px`;
-            activeFlyingCover.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
-            activeFlyingCover.style.filter = 'blur(0px)';
-            activeFlyingCover.style.opacity = '1';
+            flyingCover.style.left = `${targetRect.left}px`;
+            flyingCover.style.top = `${targetRect.top}px`;
+            flyingCover.style.width = `${targetRect.width}px`;
+            flyingCover.style.height = `${targetRect.height}px`;
+            flyingCover.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+            flyingCover.style.filter = 'blur(0px)';
+            flyingCover.style.opacity = '1';
 
-            // Flying cover stays in place permanently - no removal, no flash
-            // Clear the reference so subsequent renders don't try to animate it
-            activeFlyingCover = null;
+            // After animation completes, swap flying cover with real DOM cover
+            setTimeout(() => {
+              // Only swap if this flying cover is still the landed one
+              if (landedFlyingCover === flyingCover) {
+                // Replace placeholder with actual cover image
+                const realCover = coverUrl
+                  ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover</div>'">`
+                  : `<div class="book-cover-placeholder">No cover</div>`;
+                placeholder.outerHTML = realCover;
+
+                // Remove the flying cover
+                flyingCover.remove();
+                landedFlyingCover = null;
+              }
+            }, 350); // Match animation duration
           });
         });
 
