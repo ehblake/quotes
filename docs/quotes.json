@@ -1,10 +1,10 @@
 [
   {
     "id": "quote_0001",
-    "source_image": "Antoine de Saint-Exupéry.png",
-    "filename_stem": "Antoine de Saint-Exupéry",
-    "quote": "Perfection is finally obtained not when there is no longer anything to add, but when there’s no longer anything to take away.",
-    "author": "Antoine de Saint-Exupéry",
+    "source_image": "Antoine de Saint-Exupe\u0301ry.png",
+    "filename_stem": "Antoine de Saint-Exupe\u0301ry",
+    "quote": "Perfection is finally obtained not when there is no longer anything to add, but when there\u2019s no longer anything to take away.",
+    "author": "Antoine de Saint-Exup\u00e9ry",
     "year": "2004",
     "publication": "Wind, Sand and Stars",
     "notes": "",
@@ -19,7 +19,7 @@
     "cover_url": "covers/wind-sand-and-stars.jpg",
     "_flickr_id": "19839763540",
     "tags": [
-      "Antoine de Saint-Exupéry",
+      "Antoine de Saint-Exup\u00e9ry",
       "saint-exupery",
       "french",
       "quote",
@@ -35,52 +35,20 @@
     ],
     "weighted_tags": [
       {
-        "tag": "technology",
-        "weight": 0.4589
+        "tag": "simplicity",
+        "weight": 1.0
       },
       {
-        "tag": "nature",
-        "weight": 0.3871
+        "tag": "design",
+        "weight": 0.9
       },
       {
-        "tag": "man",
-        "weight": 0.2533
+        "tag": "perfection",
+        "weight": 0.85
       },
       {
-        "tag": "type",
-        "weight": 0.2265
-      },
-      {
-        "tag": "problems",
-        "weight": 0.2125
-      },
-      {
-        "tag": "typography",
-        "weight": 0.2004
-      },
-      {
-        "tag": "machine",
-        "weight": 0.1883
-      },
-      {
-        "tag": "french",
-        "weight": 0.1575
-      },
-      {
-        "tag": "saint-exupery",
-        "weight": 0.1007
-      },
-      {
-        "tag": "courier",
-        "weight": 0.0968
-      },
-      {
-        "tag": "luddite",
-        "weight": 0.0889
-      },
-      {
-        "tag": "antoine de saint-exupéry",
-        "weight": 0.0595
+        "tag": "creativity",
+        "weight": 0.7
       }
     ]
   },
@@ -88,7 +56,7 @@
     "id": "quote_0003",
     "source_image": "abbie-hoffman.png",
     "filename_stem": "abbie-hoffman",
-    "quote": "Once you get the right image the details aren’t that important.",
+    "quote": "Once you get the right image the details aren\u2019t that important.",
     "author": "Abbie Hoffman",
     "year": null,
     "publication": "Abbie Hoffman: American Rebel",
@@ -246,7 +214,7 @@
     "id": "quote_0006",
     "source_image": "adrian-franklin-01.png",
     "filename_stem": "adrian-franklin-01",
-    "quote": "...a single voice of authority is a lot less interesting than the multiple voices and subject positions that art inevitably generates. It’s the difference between art as a conversation and art as a lecture.",
+    "quote": "...a single voice of authority is a lot less interesting than the multiple voices and subject positions that art inevitably generates. It\u2019s the difference between art as a conversation and art as a lecture.",
     "author": "Adrian Franklin",
     "year": "2007",
     "publication": "The Making of Mona",
@@ -544,7 +512,7 @@
         "weight": 0.2598
       },
       {
-        "tag": "senses",
+        "tag": "the senses",
         "weight": 0.2557
       },
       {
@@ -627,7 +595,7 @@
         "weight": 0.2105
       },
       {
-        "tag": "unknown",
+        "tag": "the unknown",
         "weight": 0.2061
       },
       {
@@ -644,7 +612,7 @@
     "id": "quote_0014",
     "source_image": "alberto-manguel-02.png",
     "filename_stem": "alberto-manguel-02",
-    "quote": "Borges literary credo: the writer’s task is to find the right words to name the world, knowing all the while that these words are, as words, unreachable.",
+    "quote": "Borges literary credo: the writer\u2019s task is to find the right words to name the world, knowing all the while that these words are, as words, unreachable.",
     "author": "Alberto Manguel",
     "year": "2004",
     "publication": "With Borges",
@@ -751,7 +719,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.7089
       },
       {
@@ -855,7 +823,7 @@
         "weight": 0.6497
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.5941
       },
       {
@@ -944,7 +912,7 @@
     "id": "quote_0019",
     "source_image": "alberto-manguel-41.png",
     "filename_stem": "alberto-manguel-41",
-    "quote": "The word exotic comes from the Greek, exotikos, meaning “outside,” that is to say, that which is not contained within the city’s walls.",
+    "quote": "The word exotic comes from the Greek, exotikos, meaning \u201coutside,\u201d that is to say, that which is not contained within the city\u2019s walls.",
     "author": "Alberto Manguel",
     "year": "2007",
     "publication": "City of Words",
@@ -1068,7 +1036,7 @@
     "id": "quote_0021",
     "source_image": "aldous-huxley-06.png",
     "filename_stem": "aldous-huxley-06",
-    "quote": "Anything rather than the burning brightness of unmitigated Reality—anything!",
+    "quote": "Anything rather than the burning brightness of unmitigated Reality\u2014anything!",
     "author": "Aldous Huxley",
     "year": "1954",
     "publication": "The Doors of Perception",
@@ -1125,7 +1093,7 @@
     "id": "quote_0022",
     "source_image": "aldous-huxley-10.jpg",
     "filename_stem": "aldous-huxley-10",
-    "quote": "...that’s the price we have to pay for stability. You’ve got to choose between happiness and what people used to call high art. We’ve sacrificed the high art.",
+    "quote": "...that\u2019s the price we have to pay for stability. You\u2019ve got to choose between happiness and what people used to call high art. We\u2019ve sacrificed the high art.",
     "author": "Aldous Huxley",
     "year": "1932",
     "publication": "Brave New World",
@@ -1481,7 +1449,7 @@
     "id": "quote_0027",
     "source_image": "alexander-pushkin-01.jpg",
     "filename_stem": "alexander-pushkin-01",
-    "quote": "Upon my life, the tracks have vanished, we’ve lost our way, what shall we do? It must be a demon’s leading us this way and that around the fields.",
+    "quote": "Upon my life, the tracks have vanished, we\u2019ve lost our way, what shall we do? It must be a demon\u2019s leading us this way and that around the fields.",
     "author": "Alexander Pushkin",
     "year": "1831",
     "publication": "The Tales of the Late Ivan Petrovich Belkin",
@@ -1490,7 +1458,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
-    "book_title": "Evgeniĭ Onegin",
+    "book_title": "Evgenii\u0306 Onegin",
     "publisher": "Dedalus",
     "open_library_key": "/works/OL623499W",
     "catalog_notes": "Found ISBN: 1903517281; Year from Open Library: 1833",
@@ -1512,7 +1480,7 @@
         "weight": 0.3128
       },
       {
-        "tag": "path",
+        "tag": "paths",
         "weight": 0.2131
       },
       {
@@ -1748,7 +1716,7 @@
     "id": "quote_0031",
     "source_image": "allen-ginsberg-10.jpg",
     "filename_stem": "allen-ginsberg-10",
-    "quote": "In a thousand years, if there’s history America’ll be remembered as a nasty little country.",
+    "quote": "In a thousand years, if there\u2019s history America\u2019ll be remembered as a nasty little country.",
     "author": "Allen Ginsberg",
     "year": "1972",
     "publication": "The Fall of America",
@@ -1838,7 +1806,7 @@
     "source_image": "alva-noe.jpg",
     "filename_stem": "alva-noe",
     "quote": "Following a rule is only one of the different ways for rules to govern what we do.",
-    "author": "Alva Noë (paraphrasing Wittgenstein)",
+    "author": "Alva No\u00eb (paraphrasing Wittgenstein)",
     "year": "2012",
     "publication": "Varieties of Presence",
     "notes": "The quote is labeled as 'Paraphrasing Wittgenstein'.",
@@ -1854,7 +1822,7 @@
     "_flickr_id": "38855462530",
     "_match_score": 170,
     "tags": [
-      "alva noë",
+      "alva no\u00eb",
       "book",
       "varieties of presence",
       "quote",
@@ -1898,7 +1866,7 @@
         "weight": 0.0992
       },
       {
-        "tag": "alva noë",
+        "tag": "alva no\u00eb",
         "weight": 0.0595
       },
       {
@@ -1966,11 +1934,11 @@
         "weight": 0.3035
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.2779
       },
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.2751
       },
       {
@@ -2024,9 +1992,9 @@
     "source_image": "anais-nin-01.png",
     "filename_stem": "anais-nin-01",
     "quote": "What we are familiar with we cease to see.",
-    "author": "Anaïs Nin",
+    "author": "Ana\u00efs Nin",
     "year": "1966",
-    "publication": "The Diary of Anaïs Nin, Vol. 1: 1931-1934",
+    "publication": "The Diary of Ana\u00efs Nin, Vol. 1: 1931-1934",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -2283,7 +2251,7 @@
     "id": "quote_0038",
     "source_image": "anthony-esolen-03.png",
     "filename_stem": "anthony-esolen-03",
-    "quote": "Something there is in us that doesn’t love a wall, that wants it down.",
+    "quote": "Something there is in us that doesn\u2019t love a wall, that wants it down.",
     "author": "Robert Frost",
     "year": "2017",
     "publication": "Mending Wall",
@@ -2313,7 +2281,7 @@
         "weight": 0.4436
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.3949
       },
       {
@@ -2435,7 +2403,7 @@
     "id": "quote_0040",
     "source_image": "anthony-trollope.jpg",
     "filename_stem": "anthony-trollope",
-    "quote": "A man who has been all his life fighting against the law, who has been always controlled but never tamed by law, is interesting, though inconvenient – as is a tiger.",
+    "quote": "A man who has been all his life fighting against the law, who has been always controlled but never tamed by law, is interesting, though inconvenient \u2013 as is a tiger.",
     "author": "Anthony Trollope",
     "year": "1873",
     "publication": "Australia",
@@ -2482,7 +2450,7 @@
         "weight": 0.2521
       },
       {
-        "tag": "unique",
+        "tag": "uniqueness",
         "weight": 0.2255
       },
       {
@@ -2537,7 +2505,7 @@
     "catalog_searched": true,
     "isbn": "9788449328640",
     "book_title": "Antifragile",
-    "publisher": "Ediciones Paidós",
+    "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
     "cover_url": "covers/antifragile.jpg",
@@ -2594,7 +2562,7 @@
     "catalog_searched": true,
     "isbn": "9788449328640",
     "book_title": "Antifragile",
-    "publisher": "Ediciones Paidós",
+    "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
     "cover_url": "covers/antifragile.jpg",
@@ -2651,7 +2619,7 @@
     "id": "quote_0043",
     "source_image": "anton-chekhov-02.png",
     "filename_stem": "anton-chekhov-02",
-    "quote": "Art doesn’t have to solve problems, it only has to formulate them correctly.",
+    "quote": "Art doesn\u2019t have to solve problems, it only has to formulate them correctly.",
     "author": "Anton Chekhov",
     "year": "2021",
     "publication": "A Swim in a Pond in the Rain",
@@ -2660,7 +2628,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781537054957",
-    "book_title": "Три сестры",
+    "book_title": "\u0422\u0440\u0438 \u0441\u0435\u0441\u0442\u0440\u044b",
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL55419W",
     "catalog_notes": "Found ISBN: 9781537054957",
@@ -2734,18 +2702,18 @@
     "filename_stem": "arthur-clarke-01",
     "quote": "Many and strange are the universes that drift like bubbles in the foam upon the river of time.",
     "author": "Arthur C. Clarke",
-    "year": "1968",
-    "publication": "The Wall of Darkness",
+    "year": null,
+    "publication": "The Nine Billion Names of God",
     "notes": "Quote includes punctuation marks such as quotation marks and italics for publication title.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9788834731024",
+    "isbn": null,
     "book_title": "2001",
     "publisher": "Fanucci",
     "open_library_key": "/works/OL17365W",
     "catalog_notes": "Found ISBN: 9788834731024; Year from Open Library: 1968",
-    "cover_url": "covers/the-wall-of-darkness.jpg",
+    "cover_url": null,
     "_flickr_id": "52896790774",
     "_match_score": 70,
     "tags": [
@@ -2798,7 +2766,8 @@
         "tag": "plurality",
         "weight": 0.0896
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0045",
@@ -2880,7 +2849,7 @@
     "id": "quote_0046",
     "source_image": "arthur-rimbaud.png",
     "filename_stem": "arthur-rimbaud",
-    "quote": "I’m a pedestrian, nothing more.",
+    "quote": "I\u2019m a pedestrian, nothing more.",
     "author": "Arthur Rimbaud",
     "year": null,
     "publication": null,
@@ -3029,7 +2998,7 @@
         "weight": 0.3463
       },
       {
-        "tag": "devil",
+        "tag": "the devil",
         "weight": 0.3222
       },
       {
@@ -3520,7 +3489,7 @@
     "source_image": "balzac.png",
     "filename_stem": "balzac",
     "quote": "An obsession is a pleasure that has attained the status of an idea.",
-    "author": "Honoré de Balzac",
+    "author": "Honor\u00e9 de Balzac",
     "year": "1873",
     "publication": "Cousin Pons",
     "notes": "Quote formatting with quotes and italics included.",
@@ -3886,7 +3855,7 @@
         "weight": 0.3425
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.2884
       },
       {
@@ -4004,10 +3973,10 @@
     "id": "quote_0063",
     "source_image": "benjamin-franklin.png",
     "filename_stem": "benjamin-franklin",
-    "quote": "There are three things extremely hard: steel, a diamond, and to know one’s self.",
+    "quote": "There are three things extremely hard: steel, a diamond, and to know one\u2019s self.",
     "author": "Benjamin Franklin",
     "year": "1750",
-    "publication": "Poor Richard’s Almanack",
+    "publication": "Poor Richard\u2019s Almanack",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -4030,7 +3999,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.51
       },
       {
@@ -4065,10 +4034,10 @@
     "filename_stem": "bertolt-brecht",
     "quote": "In the dark times will there also be singing? Yes, there will also be singing. About the dark times.",
     "author": "Bertolt Brecht",
-    "year": 1939,
-    "publication": "Svendborger Gedichte",
+    "year": null,
+    "publication": "The Collected Poems of Bertolt Brecht",
     "notes": "Extracted from image attributed to Bertolt Brecht.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "_flickr_id": "32365428737",
     "tags": [
@@ -4101,7 +4070,7 @@
         "weight": 0.4348
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3915
       },
       {
@@ -4121,7 +4090,7 @@
         "weight": 0.2467
       },
       {
-        "tag": "song",
+        "tag": "songs",
         "weight": 0.2223
       },
       {
@@ -4156,7 +4125,10 @@
         "tag": "bertolt brecht",
         "weight": 0.0586
       }
-    ]
+    ],
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "/covers/the-collected-poems-of-bertolt-brecht.jpg"
   },
   {
     "id": "quote_0065",
@@ -4203,7 +4175,7 @@
         "weight": 0.5876
       },
       {
-        "tag": "king",
+        "tag": "kings",
         "weight": 0.3181
       },
       {
@@ -4215,7 +4187,7 @@
         "weight": 0.2002
       },
       {
-        "tag": "dream",
+        "tag": "dreams",
         "weight": 0.1773
       },
       {
@@ -4276,7 +4248,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6616
       },
       {
@@ -4296,7 +4268,7 @@
         "weight": 0.4391
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.4092
       },
       {
@@ -4321,7 +4293,7 @@
     "id": "quote_0068",
     "source_image": "billy-beane-01.png",
     "filename_stem": "billy-beane-01",
-    "quote": "Let them make the mistakes. When your enemy’s making mistakes, don’t interrupt them. They’re giving you an out. Just giving it to you. Take it. Say “thank you”.",
+    "quote": "Let them make the mistakes. When your enemy\u2019s making mistakes, don\u2019t interrupt them. They\u2019re giving you an out. Just giving it to you. Take it. Say \u201cthank you\u201d.",
     "author": "Billy Beane",
     "year": "2017",
     "publication": "Moneyball",
@@ -4391,7 +4363,7 @@
     "quote": "Men are necessarily mad that not to be mad would amount to another form of madness.",
     "author": "Blaise Pascal",
     "year": 1670,
-    "publication": "Pensées",
+    "publication": "Pens\u00e9es",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -4419,7 +4391,7 @@
         "weight": 0.4772
       },
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.2802
       },
       {
@@ -4435,7 +4407,7 @@
     "quote": "Our nature lies in movement; complete calm is death.",
     "author": "Blaise Pascal",
     "year": "1670",
-    "publication": "Pensées",
+    "publication": "Pens\u00e9es",
     "notes": "The quote is clearly attributed to Blaise Pascal.",
     "confidence": 1,
     "needs_review": false,
@@ -4469,7 +4441,7 @@
         "weight": 0.3834
       },
       {
-        "tag": "calm",
+        "tag": "calmness",
         "weight": 0.34
       },
       {
@@ -4530,7 +4502,7 @@
         "weight": 0.2533
       },
       {
-        "tag": "song",
+        "tag": "songs",
         "weight": 0.2316
       },
       {
@@ -4583,7 +4555,7 @@
     "id": "quote_0072",
     "source_image": "bruce-chatwin-02.png",
     "filename_stem": "bruce-chatwin-02",
-    "quote": "...the surest way of judging a man’s intelligence was his ability to handle words.",
+    "quote": "...the surest way of judging a man\u2019s intelligence was his ability to handle words.",
     "author": "Bruce Chatwin",
     "year": "1987",
     "publication": "The Songlines",
@@ -4593,7 +4565,7 @@
     "catalog_searched": true,
     "isbn": "8483072688",
     "book_title": "The Songlines",
-    "publisher": "Península",
+    "publisher": "Pen\u00ednsula",
     "open_library_key": "/works/OL612496W",
     "catalog_notes": "Found ISBN: 8483072688",
     "cover_url": "covers/the-songlines.jpg",
@@ -4670,7 +4642,7 @@
     "id": "quote_0073",
     "source_image": "buckminster-fuller-01.png",
     "filename_stem": "buckminster-fuller-01",
-    "quote": "Dare to be naïve.",
+    "quote": "Dare to be na\u00efve.",
     "author": "Buckminster Fuller",
     "year": null,
     "publication": null,
@@ -4723,7 +4695,7 @@
     "id": "quote_0074",
     "source_image": "buckminster-fuller-03.png",
     "filename_stem": "buckminster-fuller-03",
-    "quote": "Humans beings always do the most intelligent thing... after they’ve tried every stupid alternative and none of them have worked.",
+    "quote": "Humans beings always do the most intelligent thing... after they\u2019ve tried every stupid alternative and none of them have worked.",
     "author": "Buckminster Fuller",
     "year": null,
     "publication": null,
@@ -4834,7 +4806,7 @@
     "id": "quote_0076",
     "source_image": "buckminster-fuller-05.png",
     "filename_stem": "buckminster-fuller-05",
-    "quote": "If you want to teach people a new way of thinking, don’t bother trying to teach them. Instead, give them a tool, the use of which will lead to new ways of thinking.",
+    "quote": "If you want to teach people a new way of thinking, don\u2019t bother trying to teach them. Instead, give them a tool, the use of which will lead to new ways of thinking.",
     "author": "Buckminster Fuller",
     "year": null,
     "publication": null,
@@ -4875,7 +4847,7 @@
         "weight": 0.4801
       },
       {
-        "tag": "new",
+        "tag": "the new",
         "weight": 0.4147
       },
       {
@@ -4930,18 +4902,18 @@
     "filename_stem": "byron-02",
     "quote": "Shut up the world at large, let Bedlam out and you will be perhaps surprised to find all things pursue exactly the same route,",
     "author": "Lord Byron",
-    "year": "1819",
-    "publication": "Don Juan, xiv, 84",
+    "year": null,
+    "publication": "Don Juan",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "0710045166",
+    "isbn": null,
     "book_title": "Don Juan",
     "publisher": "Routledge & Kegan Paul",
     "open_library_key": "/works/OL1092579W",
     "catalog_notes": "Found ISBN: 0710045166; Year from Open Library: 1819",
-    "cover_url": "covers/don-juan.jpg",
+    "cover_url": "/covers/don-juan.jpg",
     "book_author": null,
     "tags": [
       "futility",
@@ -4977,7 +4949,7 @@
         "weight": 0.4188
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3755
       },
       {
@@ -4985,7 +4957,7 @@
         "weight": 0.3352
       },
       {
-        "tag": "path",
+        "tag": "paths",
         "weight": 0.2171
       },
       {
@@ -5002,7 +4974,7 @@
     "id": "quote_0078",
     "source_image": "carl-jung-07.png",
     "filename_stem": "carl-jung-07",
-    "quote": "You can take away a man’s gods, but only to give him others in return.",
+    "quote": "You can take away a man\u2019s gods, but only to give him others in return.",
     "author": "Carl Jung",
     "year": "1957",
     "publication": "The Undiscovered Self",
@@ -5069,7 +5041,7 @@
     "id": "quote_0079",
     "source_image": "carl-jung-08.png",
     "filename_stem": "carl-jung-08",
-    "quote": "To make oneself understood is certainly impossible without far reaching comprehension of the other’s standpoint.",
+    "quote": "To make oneself understood is certainly impossible without far reaching comprehension of the other\u2019s standpoint.",
     "author": "Carl Jung",
     "year": "1957",
     "publication": "The Undiscovered Self",
@@ -5132,7 +5104,7 @@
         "weight": 0.2459
       },
       {
-        "tag": "viewpoint",
+        "tag": "views",
         "weight": 0.1891
       },
       {
@@ -5239,7 +5211,7 @@
     "catalog_searched": true,
     "isbn": "9788416771486",
     "book_title": "The Demon-Haunted World",
-    "publisher": "Crítica, Editorial Crítica",
+    "publisher": "Cr\u00edtica, Editorial Cr\u00edtica",
     "open_library_key": "/works/OL2950942W",
     "catalog_notes": "Found ISBN: 9788416771486",
     "cover_url": "covers/the-demon-haunted-world.jpg",
@@ -5296,7 +5268,7 @@
     "id": "quote_0082",
     "source_image": "carlos-fuentes-01.png",
     "filename_stem": "carlos-fuentes-01",
-    "quote": "I’ll go on being an impossible person as long as the people who are possible today go on being possible.",
+    "quote": "I\u2019ll go on being an impossible person as long as the people who are possible today go on being possible.",
     "author": "Carlos Fuentes",
     "year": "1962",
     "publication": "The Death of Artemio Cruz",
@@ -5474,7 +5446,7 @@
     "source_image": "charles-d'orleans.jpg",
     "filename_stem": "charles-d'orleans",
     "quote": "The world is weary of me, and I am weary of it.",
-    "author": "Charles d'Orléans",
+    "author": "Charles d'Orl\u00e9ans",
     "year": "2012",
     "publication": "The Map and the Territory",
     "notes": "",
@@ -5496,7 +5468,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.7089
       },
       {
@@ -5575,7 +5547,7 @@
         "weight": 0.376
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.2789
       },
       {
@@ -5824,7 +5796,7 @@
     "id": "quote_0090",
     "source_image": "christopher-brown-17.png",
     "filename_stem": "christopher-brown-17",
-    "quote": "The question is not whether nature will survive—it always does. It’s whether we will.",
+    "quote": "The question is not whether nature will survive\u2014it always does. It\u2019s whether we will.",
     "author": "Christopher Brown",
     "year": "2024",
     "publication": "A Natural History of Empty Lots",
@@ -5868,7 +5840,7 @@
         "weight": 0.3344
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.325
       },
       {
@@ -6098,7 +6070,7 @@
         "weight": 0.323
       },
       {
-        "tag": "path",
+        "tag": "paths",
         "weight": 0.2302
       },
       {
@@ -6156,7 +6128,7 @@
         "weight": 0.2533
       },
       {
-        "tag": "unique",
+        "tag": "uniqueness",
         "weight": 0.2013
       },
       {
@@ -6209,7 +6181,7 @@
         "weight": 0.3125
       },
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.2754
       },
       {
@@ -6222,7 +6194,7 @@
     "id": "quote_0097",
     "source_image": "david-graeber-01.png",
     "filename_stem": "david-graeber-01",
-    "quote": "Given the choice between less hours and more toys and pleasures, we’ve collectively chosen the latter.",
+    "quote": "Given the choice between less hours and more toys and pleasures, we\u2019ve collectively chosen the latter.",
     "author": "David Graeber",
     "year": "2018",
     "publication": "Bullshit Jobs",
@@ -6300,7 +6272,7 @@
     "id": "quote_0098",
     "source_image": "david-graeber-03.png",
     "filename_stem": "david-graeber-03",
-    "quote": "Hell is a collection of individuals who are spending the bulk of their time working on a task they don’t like and are not especially good at.",
+    "quote": "Hell is a collection of individuals who are spending the bulk of their time working on a task they don\u2019t like and are not especially good at.",
     "author": "David Graeber",
     "year": "2018",
     "publication": "Bullshit Jobs",
@@ -6372,7 +6344,7 @@
     "id": "quote_0099",
     "source_image": "david-graeber-05.png",
     "filename_stem": "david-graeber-05",
-    "quote": "When and how did we come to believe that creativity was supposed to be painful, or, how did we ever come up with the notion that it would be possible to sell one’s time?",
+    "quote": "When and how did we come to believe that creativity was supposed to be painful, or, how did we ever come up with the notion that it would be possible to sell one\u2019s time?",
     "author": "David Graeber",
     "year": "2018",
     "publication": "Bullshit Jobs",
@@ -6565,7 +6537,7 @@
         "weight": 0.1842
       },
       {
-        "tag": "view",
+        "tag": "views",
         "weight": 0.1757
       },
       {
@@ -6688,7 +6660,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6785
       },
       {
@@ -6696,7 +6668,7 @@
         "weight": 0.4857
       },
       {
-        "tag": "new",
+        "tag": "the new",
         "weight": 0.4143
       },
       {
@@ -6928,7 +6900,7 @@
         "weight": 0.3528
       },
       {
-        "tag": "dream",
+        "tag": "dreams",
         "weight": 0.3138
       },
       {
@@ -7279,7 +7251,7 @@
         "weight": 0.3684
       },
       {
-        "tag": "value",
+        "tag": "values",
         "weight": 0.1785
       },
       {
@@ -7367,7 +7339,7 @@
     "id": "quote_0116",
     "source_image": "david-walsh-02.png",
     "filename_stem": "david-walsh-02",
-    "quote": "Mona is trying not to give cues about value, in cash or culture, so it’s trying to democratise viewing art. So think up your own themes and we will run with them.",
+    "quote": "Mona is trying not to give cues about value, in cash or culture, so it\u2019s trying to democratise viewing art. So think up your own themes and we will run with them.",
     "author": "David Walsh",
     "year": null,
     "publication": "Monanisms",
@@ -7439,7 +7411,7 @@
     "id": "quote_0117",
     "source_image": "david-walsh-05.png",
     "filename_stem": "david-walsh-05",
-    "quote": "Civilisation without books is possible, but it wouldn’t be much fun.",
+    "quote": "Civilisation without books is possible, but it wouldn\u2019t be much fun.",
     "author": "David Walsh",
     "year": "2020",
     "publication": "A Bone of Fact",
@@ -7498,7 +7470,7 @@
         "weight": 0.2234
       },
       {
-        "tag": "value",
+        "tag": "values",
         "weight": 0.1813
       },
       {
@@ -7511,7 +7483,7 @@
     "id": "quote_0118",
     "source_image": "david-walsh-06.png",
     "filename_stem": "david-walsh-06",
-    "quote": "Excessive commitment to one’s own property is known as the endowment effect... I have it big time.",
+    "quote": "Excessive commitment to one\u2019s own property is known as the endowment effect... I have it big time.",
     "author": "David Walsh",
     "year": "2020",
     "publication": "A Bone of Fact",
@@ -7567,7 +7539,7 @@
     "id": "quote_0119",
     "source_image": "david-walsh-10.png",
     "filename_stem": "david-walsh-10",
-    "quote": "The earth isn’t peculiarly adapted to humanity, we are particularly adapted to the earth. That’s what evolution does.",
+    "quote": "The earth isn\u2019t peculiarly adapted to humanity, we are particularly adapted to the earth. That\u2019s what evolution does.",
     "author": "David Walsh",
     "year": "2012",
     "publication": "Theatre of the World",
@@ -7708,7 +7680,7 @@
     "id": "quote_0121",
     "source_image": "david-walsh-13.png",
     "filename_stem": "david-walsh-13",
-    "quote": "When you go to the British Museum, you know what you’re going to get. It’s amazing, but it doesn’t confound your expectations... I’m trying to build a museum that you discover gradually.",
+    "quote": "When you go to the British Museum, you know what you\u2019re going to get. It\u2019s amazing, but it doesn\u2019t confound your expectations... I\u2019m trying to build a museum that you discover gradually.",
     "author": "David Walsh",
     "year": "2014",
     "publication": "The Making of Mona",
@@ -7772,7 +7744,7 @@
     "id": "quote_0122",
     "source_image": "david-walsh-15.png",
     "filename_stem": "david-walsh-15",
-    "quote": "My motives are complex and often internally contradictory. I don’t think I am capable of a consistent picture of myself. I am a mess of little boys fighting in a sack.",
+    "quote": "My motives are complex and often internally contradictory. I don\u2019t think I am capable of a consistent picture of myself. I am a mess of little boys fighting in a sack.",
     "author": "David Walsh",
     "year": "2014",
     "publication": "The Making of Mona",
@@ -7856,7 +7828,7 @@
     "id": "quote_0123",
     "source_image": "de-saint-exupery.png",
     "filename_stem": "de-saint-exupery",
-    "quote": "People have forgotten this truth but you mustn’t forget it. You become responsible forever for what you’ve tamed.",
+    "quote": "People have forgotten this truth but you mustn\u2019t forget it. You become responsible forever for what you\u2019ve tamed.",
     "author": "Antoine de Saint-Exupery",
     "year": "1943",
     "publication": "The Little Prince",
@@ -7941,7 +7913,7 @@
     "quote": "Design has to work. Art does not.",
     "author": "Donald Judd",
     "year": "2005",
-    "publication": "Complete Writings 1959–1975",
+    "publication": "Complete Writings 1959\u20131975",
     "notes": "Quote text was in all caps, converted to sentence case.",
     "confidence": 1,
     "needs_review": false,
@@ -8364,7 +8336,7 @@
     "id": "quote_0132",
     "source_image": "edward-abbey.png",
     "filename_stem": "edward-abbey",
-    "quote": "I know my own nation best. That’s why I despise it the most. And I know and love my own people too, the swine. I’m a patriot. A dangerous man.",
+    "quote": "I know my own nation best. That\u2019s why I despise it the most. And I know and love my own people too, the swine. I\u2019m a patriot. A dangerous man.",
     "author": "Edward Abbey",
     "year": "1989",
     "publication": "A Voice Crying in the Wilderness",
@@ -8448,7 +8420,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8479,7 +8451,7 @@
         "weight": 0.8701
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.3781
       },
       {
@@ -8541,7 +8513,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8590,7 +8562,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8655,7 +8627,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8714,7 +8686,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8778,7 +8750,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8842,7 +8814,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781611457407",
-    "book_title": "De l'inconvénient d'être né",
+    "book_title": "De l'inconv\u00e9nient d'\u00eatre n\u00e9",
     "publisher": "Arcade",
     "open_library_key": "/works/OL1407429W",
     "catalog_notes": "Found ISBN: 9781611457407",
@@ -8928,6 +8900,18 @@
       "surveillance"
     ],
     "weighted_tags": [
+      {
+        "tag": "change",
+        "weight": 1.0
+      },
+      {
+        "tag": "humankind",
+        "weight": 1.0
+      },
+      {
+        "tag": "revolution",
+        "weight": 1.0
+      },
       {
         "tag": "revolutionary",
         "weight": 0.1638
@@ -9107,7 +9091,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.6643
       },
       {
@@ -9144,7 +9128,7 @@
     "id": "quote_0145",
     "source_image": "ernest-becker-15.png",
     "filename_stem": "ernest-becker-15",
-    "quote": "We call it magic because we don’t believe it worked, and we call our technology scientific because we believe it works.",
+    "quote": "We call it magic because we don\u2019t believe it worked, and we call our technology scientific because we believe it works.",
     "author": "Ernest Becker",
     "year": "1975",
     "publication": "Escape From Evil",
@@ -9268,7 +9252,7 @@
     "id": "quote_0147",
     "source_image": "ernest-hemingway-11.png",
     "filename_stem": "ernest-hemingway-11",
-    "quote": "It wasn’t by accident that the Gettysburg address was so short. The laws of prose writing are as immutable as those of flight, of mathematics, of physics.",
+    "quote": "It wasn\u2019t by accident that the Gettysburg address was so short. The laws of prose writing are as immutable as those of flight, of mathematics, of physics.",
     "author": "Ernest Hemingway",
     "year": "1984",
     "publication": "Hemingway on Writing",
@@ -9450,7 +9434,7 @@
     "id": "quote_0149",
     "source_image": "erving-goffman-1.jpg",
     "filename_stem": "erving-goffman-1",
-    "quote": "All the world is not, of course, a stage, but the crucial ways in which it isn’t are not easy to specify.",
+    "quote": "All the world is not, of course, a stage, but the crucial ways in which it isn\u2019t are not easy to specify.",
     "author": "Erving Goffman",
     "year": "1959",
     "publication": "Presentation of Self in Everyday Life",
@@ -9492,7 +9476,7 @@
         "weight": 0.3041
       },
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.2951
       },
       {
@@ -9541,7 +9525,7 @@
     "id": "quote_0150",
     "source_image": "eugene-oneill-02.png",
     "filename_stem": "eugene-oneill-02",
-    "quote": "There is no present or future—only the past, happening over and over again—now.",
+    "quote": "There is no present or future\u2014only the past, happening over and over again\u2014now.",
     "author": "Eugene O'Neill",
     "year": "1947",
     "publication": "A Moon for the Misbegotten",
@@ -9575,11 +9559,11 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.6788
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.5997
       },
       {
@@ -9591,7 +9575,7 @@
         "weight": 0.4859
       },
       {
-        "tag": "present",
+        "tag": "the present",
         "weight": 0.3737
       },
       {
@@ -9681,7 +9665,7 @@
         "weight": 0.3786
       },
       {
-        "tag": "banal",
+        "tag": "banality",
         "weight": 0.2095
       },
       {
@@ -9845,7 +9829,7 @@
     "id": "quote_0155",
     "source_image": "fintan-otoole-08.png",
     "filename_stem": "fintan-otoole-08",
-    "quote": "I have no spur to prick the sides of my intent, but only vaulting ambition, which o’erleaps itself and falls on t’other...",
+    "quote": "I have no spur to prick the sides of my intent, but only vaulting ambition, which o\u2019erleaps itself and falls on t\u2019other...",
     "author": "William Shakespeare",
     "year": "1607",
     "publication": "Macbeth",
@@ -10255,6 +10239,14 @@
     ],
     "weighted_tags": [
       {
+        "tag": "knowledge",
+        "weight": 1.0
+      },
+      {
+        "tag": "learning",
+        "weight": 1.0
+      },
+      {
         "tag": "friedrich nietzsche",
         "weight": 0.1974
       },
@@ -10488,7 +10480,7 @@
     "id": "quote_0169",
     "source_image": "friedrich-nietzsche-23.png",
     "filename_stem": "friedrich-nietzsche-23",
-    "quote": "Christianity is a hangman’s metaphysics.",
+    "quote": "Christianity is a hangman\u2019s metaphysics.",
     "author": "Friedrich Nietzsche",
     "year": "1888",
     "publication": "The Four Great Errors",
@@ -10545,7 +10537,7 @@
     "id": "quote_0170",
     "source_image": "friedrich-nietzsche-24.png",
     "filename_stem": "friedrich-nietzsche-24",
-    "quote": "We invented the concept of ‘purpose’: in reality purpose is lacking.",
+    "quote": "We invented the concept of \u2018purpose\u2019: in reality purpose is lacking.",
     "author": "Friedrich Nietzsche",
     "year": "1888",
     "publication": "The Four Great Errors",
@@ -10708,6 +10700,14 @@
     ],
     "weighted_tags": [
       {
+        "tag": "society",
+        "weight": 1.0
+      },
+      {
+        "tag": "humanity",
+        "weight": 1.0
+      },
+      {
         "tag": "nassim nicholas taleb",
         "weight": 0.3156
       },
@@ -10753,7 +10753,7 @@
     "id": "quote_0173",
     "source_image": "fyodor-dostoevsky-06.png",
     "filename_stem": "fyodor-dostoevsky-06",
-    "quote": "Time isn’t an object, it’s an idea. It will die out in the mind.",
+    "quote": "Time isn\u2019t an object, it\u2019s an idea. It will die out in the mind.",
     "author": "Fyodor Dostoevsky",
     "year": "1872",
     "publication": "Demons",
@@ -10788,7 +10788,7 @@
         "weight": 0.8146
       },
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.494
       },
       {
@@ -10854,7 +10854,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.5746
       },
       {
@@ -10899,7 +10899,7 @@
     "id": "quote_0175",
     "source_image": "fyodor-dostoevsky-11.png",
     "filename_stem": "fyodor-dostoevsky-11",
-    "quote": "...the whole second half of a man’s life is most often made up only of habits accumulated during the first half.",
+    "quote": "...the whole second half of a man\u2019s life is most often made up only of habits accumulated during the first half.",
     "author": "Fyodor Dostoevsky",
     "year": "1872",
     "publication": "Demons",
@@ -10977,7 +10977,7 @@
     "id": "quote_0176",
     "source_image": "fyodor-dostoevsky-13.png",
     "filename_stem": "fyodor-dostoevsky-13",
-    "quote": "When you begin justifying yourself – that’s when it gets difficult.",
+    "quote": "When you begin justifying yourself \u2013 that\u2019s when it gets difficult.",
     "author": "Fyodor Dostoevsky",
     "year": "1876",
     "publication": "The Meek One",
@@ -10986,7 +10986,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788588808850",
-    "book_title": "Преступление и наказание",
+    "book_title": "\u041f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435 \u0438 \u043d\u0430\u043a\u0430\u0437\u0430\u043d\u0438\u0435",
     "publisher": "Todavia",
     "open_library_key": "/works/OL166894W",
     "catalog_notes": "Found ISBN: 9788588808850",
@@ -11228,7 +11228,7 @@
     "id": "quote_0180",
     "source_image": "fyodor-dostoevsky-31.png",
     "filename_stem": "fyodor-dostoevsky-31",
-    "quote": "I’ve always been surprised that everyone remains alive.",
+    "quote": "I\u2019ve always been surprised that everyone remains alive.",
     "author": "Fyodor Dostoevsky",
     "year": "1872",
     "publication": "Demons",
@@ -11330,7 +11330,7 @@
         "weight": 0.2967
       },
       {
-        "tag": "devil",
+        "tag": "the devil",
         "weight": 0.2397
       },
       {
@@ -11424,7 +11424,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781406734362",
-    "book_title": "The Gambler and Other Stories (Бедные люди / Игрокъ / Хозяйка)",
+    "book_title": "The Gambler and Other Stories (\u0411\u0435\u0434\u043d\u044b\u0435 \u043b\u044e\u0434\u0438 / \u0418\u0433\u0440\u043e\u043a\u044a / \u0425\u043e\u0437\u044f\u0439\u043a\u0430)",
     "publisher": "Hesperides Press",
     "open_library_key": "/works/OL166948W",
     "catalog_notes": "Found ISBN: 9781406734362",
@@ -11548,7 +11548,7 @@
     "id": "quote_0185",
     "source_image": "fyodor-dostoevsky-44.png",
     "filename_stem": "fyodor-dostoevsky-44",
-    "quote": "I always liked side-paths, little dark back-alleys behind the main road—there one finds adventures and surprises, and precious metal in the dirt.",
+    "quote": "I always liked side-paths, little dark back-alleys behind the main road\u2014there one finds adventures and surprises, and precious metal in the dirt.",
     "author": "Fyodor Dostoevsky",
     "year": "1880",
     "publication": "The Brothers Karamazov",
@@ -11643,7 +11643,7 @@
     "id": "quote_0187",
     "source_image": "fyodor-dostoevsky-52.png",
     "filename_stem": "fyodor-dostoevsky-52",
-    "quote": "I think if the devil doesn’t exist, but man has created him, he has created him in his own image and likeness.",
+    "quote": "I think if the devil doesn\u2019t exist, but man has created him, he has created him in his own image and likeness.",
     "author": "Fyodor Dostoevsky",
     "year": "1880",
     "publication": "The Brothers Karamazov",
@@ -11676,7 +11676,7 @@
         "weight": 0.4782
       },
       {
-        "tag": "devil",
+        "tag": "the devil",
         "weight": 0.4394
       },
       {
@@ -11915,7 +11915,7 @@
         "weight": 0.4073
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.3995
       },
       {
@@ -12163,7 +12163,7 @@
     "id": "quote_0199",
     "source_image": "george-santayana.png",
     "filename_stem": "george-santayana",
-    "quote": "There are books in which the footnotes, or the comments scrawled by some reader’s hand in the margin, are more interesting than the text. The world is one of these books.",
+    "quote": "There are books in which the footnotes, or the comments scrawled by some reader\u2019s hand in the margin, are more interesting than the text. The world is one of these books.",
     "author": "George Santayana",
     "year": "1905",
     "publication": "The Life of Reason: Or the Phases of Human Progress",
@@ -12187,7 +12187,7 @@
         "weight": 0.8083
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.697
       },
       {
@@ -12245,7 +12245,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "artist",
+        "tag": "artists",
         "weight": 0.4158
       },
       {
@@ -12332,7 +12332,7 @@
         "weight": 0.4631
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.397
       },
       {
@@ -12814,7 +12814,7 @@
         "weight": 0.5222
       },
       {
-        "tag": "senses",
+        "tag": "the senses",
         "weight": 0.2598
       },
       {
@@ -12839,7 +12839,7 @@
     "id": "quote_0211",
     "source_image": "graham-greene-02.png",
     "filename_stem": "graham-greene-02",
-    "quote": "Truth doesn’t teach you to know your fellow man.",
+    "quote": "Truth doesn\u2019t teach you to know your fellow man.",
     "author": "Graham Greene",
     "year": "1944",
     "publication": "The Tenth Man",
@@ -12922,6 +12922,14 @@
       "excitement"
     ],
     "weighted_tags": [
+      {
+        "tag": "spirit",
+        "weight": 1.0
+      },
+      {
+        "tag": "design",
+        "weight": 1.0
+      },
       {
         "tag": "mona",
         "weight": 0.2704
@@ -13068,11 +13076,11 @@
         "weight": 0.2105
       },
       {
-        "tag": "unique",
+        "tag": "uniqueness",
         "weight": 0.2061
       },
       {
-        "tag": "banal",
+        "tag": "banality",
         "weight": 0.2017
       },
       {
@@ -13116,7 +13124,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6675
       },
       {
@@ -13271,7 +13279,7 @@
         "weight": 0.7716
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.3738
       },
       {
@@ -13343,7 +13351,7 @@
         "weight": 0.4685
       },
       {
-        "tag": "senses",
+        "tag": "the senses",
         "weight": 0.2641
       },
       {
@@ -13397,7 +13405,7 @@
     "source_image": "helvetius.png",
     "filename_stem": "helvetius",
     "quote": "Men are born ignorant, not stupid; they are made stupid by education.",
-    "author": "Claude Adrien Helvétius",
+    "author": "Claude Adrien Helv\u00e9tius",
     "year": "2004",
     "publication": "The History of Western Philosophy",
     "notes": "Converted to sentence case.",
@@ -13419,7 +13427,7 @@
       "idiot",
       "learning",
       "education",
-      "Claude Adrien Helvétius"
+      "Claude Adrien Helv\u00e9tius"
     ],
     "weighted_tags": [
       {
@@ -13459,7 +13467,7 @@
         "weight": 0.0968
       },
       {
-        "tag": "claude adrien helvétius",
+        "tag": "claude adrien helv\u00e9tius",
         "weight": 0.0438
       }
     ]
@@ -13679,7 +13687,7 @@
     "id": "quote_0225",
     "source_image": "herbert-simon-03.png",
     "filename_stem": "herbert-simon-03",
-    "quote": "Wonderful, but not incomprehensible. This is the task of natural science: to show that the wonderful is not incomprehensible, to show how it can be comprehended —but not to destroy wonder.",
+    "quote": "Wonderful, but not incomprehensible. This is the task of natural science: to show that the wonderful is not incomprehensible, to show how it can be comprehended \u2014but not to destroy wonder.",
     "author": "Herbert Simon",
     "year": "1969",
     "publication": "The Sciences of the Artificial",
@@ -13903,7 +13911,7 @@
         "weight": 0.3397
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.325
       },
       {
@@ -14026,7 +14034,7 @@
     "id": "quote_0235",
     "source_image": "hl-mencken.png",
     "filename_stem": "hl-mencken",
-    "quote": "Explanations exist; they have existed for all time; there is always a well-known solution to every human problem—neat, plausible, and wrong.",
+    "quote": "Explanations exist; they have existed for all time; there is always a well-known solution to every human problem\u2014neat, plausible, and wrong.",
     "author": "H.L. Mencken",
     "year": "2008",
     "publication": "The Science of Fear",
@@ -14186,8 +14194,8 @@
     "id": "quote_0237",
     "source_image": "honore-gabriel-riqueti.png",
     "filename_stem": "honore-gabriel-riqueti",
-    "quote": "The two greatest inventions of the human mind are writing and money — the common language of intelligence and the common language of self-interest.",
-    "author": "Honoré-Gabriel Riqueti",
+    "quote": "The two greatest inventions of the human mind are writing and money \u2014 the common language of intelligence and the common language of self-interest.",
+    "author": "Honor\u00e9-Gabriel Riqueti",
     "year": "1951",
     "publication": "The Bias of Communication",
     "notes": "",
@@ -14195,7 +14203,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
-    "book_title": "Le rideau levé",
+    "book_title": "Le rideau leve\u0301",
     "publisher": "tredition Verlag",
     "open_library_key": "/works/OL1701279W",
     "catalog_notes": "Found ISBN: 9783849138035; Year from Open Library: 1882",
@@ -14224,7 +14232,7 @@
         "weight": 0.5405
       },
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.5312
       },
       {
@@ -14245,7 +14253,7 @@
     "id": "quote_0238",
     "source_image": "houellebecq-4.png",
     "filename_stem": "houellebecq-4",
-    "quote": "Was I capable of being happy in solitude? I didn’t think so. Was I capable of being happy in general? That’s the kind of question, I think, that is best not asked.",
+    "quote": "Was I capable of being happy in solitude? I didn\u2019t think so. Was I capable of being happy in general? That\u2019s the kind of question, I think, that is best not asked.",
     "author": "Michel Houellebecq",
     "year": "2019",
     "publication": "Serotonin",
@@ -14340,7 +14348,7 @@
         "weight": 0.5317
       },
       {
-        "tag": "calm",
+        "tag": "calmness",
         "weight": 0.3196
       },
       {
@@ -14502,7 +14510,7 @@
     "id": "quote_0242",
     "source_image": "hunter-thompson-16.png",
     "filename_stem": "hunter-thompson-16",
-    "quote": "You can’t hoard fun. It has no shelf life.",
+    "quote": "You can\u2019t hoard fun. It has no shelf life.",
     "author": "Hunter S. Thompson",
     "year": "2002",
     "publication": "Kingdom of Fear",
@@ -14772,7 +14780,7 @@
     "id": "quote_0247",
     "source_image": "hunter-thompson-22.png",
     "filename_stem": "hunter-thompson-22",
-    "quote": "If history judges a man by his heroes, like they say, then let the record show that Howlin’ Wolf was one of mine. He was a monster.",
+    "quote": "If history judges a man by his heroes, like they say, then let the record show that Howlin\u2019 Wolf was one of mine. He was a monster.",
     "author": "Hunter S. Thompson",
     "year": "2002",
     "publication": "Kingdom of Fear",
@@ -14874,7 +14882,7 @@
         "weight": 0.3845
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.3781
       },
       {
@@ -15030,7 +15038,7 @@
         "weight": 0.4387
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3839
       },
       {
@@ -15066,7 +15074,7 @@
         "weight": 0.1574
       },
       {
-        "tag": "new",
+        "tag": "the new",
         "weight": 0.1284
       },
       {
@@ -15104,7 +15112,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9782070453009",
-    "book_title": "Marcovaldo, ovvero Le stagioni in città",
+    "book_title": "Marcovaldo, ovvero Le stagioni in citt\u00e0",
     "publisher": "French and European Publications Inc",
     "open_library_key": "/works/OL15307W",
     "catalog_notes": "Found ISBN: 9782070453009; Year from Open Library: 1958",
@@ -15144,7 +15152,7 @@
         "weight": 0.2161
       },
       {
-        "tag": "unknown",
+        "tag": "the unknown",
         "weight": 0.2011
       },
       {
@@ -15357,7 +15365,7 @@
     "id": "quote_0256",
     "source_image": "italo-calvino-14.png",
     "filename_stem": "italo-calvino-14",
-    "quote": "Memory’s images, once they are fixed in words, are erased.",
+    "quote": "Memory\u2019s images, once they are fixed in words, are erased.",
     "author": "Italo Calvino",
     "year": "1972",
     "publication": "Invisible Cities",
@@ -15552,7 +15560,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.5536
       },
       {
@@ -15593,7 +15601,7 @@
     "id": "quote_0259",
     "source_image": "italo-calvino-32.png",
     "filename_stem": "italo-calvino-32",
-    "quote": "It sometimes seems to me that a pestilence has struck the human race in its most distinctive faculty—that is, the use of words.",
+    "quote": "It sometimes seems to me that a pestilence has struck the human race in its most distinctive faculty\u2014that is, the use of words.",
     "author": "Italo Calvino",
     "year": "1986",
     "publication": "Six Memos",
@@ -15787,7 +15795,7 @@
     "id": "quote_0261",
     "source_image": "ivan-turgenev.png",
     "filename_stem": "ivan-turgenev",
-    "quote": "Nature isn’t a temple but a workshop, and man is a workman in it.",
+    "quote": "Nature isn\u2019t a temple but a workshop, and man is a workman in it.",
     "author": "Ivan Turgenev",
     "year": "1862",
     "publication": "Fathers & Sons",
@@ -15884,7 +15892,7 @@
     "id": "quote_0262",
     "source_image": "jack-kerouac-02.jpg",
     "filename_stem": "jack-kerouac-02",
-    "quote": "We’re all taking short cut through Death Valley.",
+    "quote": "We\u2019re all taking short cut through Death Valley.",
     "author": "Jack Kerouac",
     "year": "1959",
     "publication": "Mexico City Blues",
@@ -15930,7 +15938,7 @@
         "weight": 0.4778
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.409
       },
       {
@@ -15938,7 +15946,7 @@
         "weight": 0.3286
       },
       {
-        "tag": "path",
+        "tag": "paths",
         "weight": 0.2065
       },
       {
@@ -16011,7 +16019,7 @@
         "weight": 0.4555
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.406
       },
       {
@@ -16247,7 +16255,7 @@
     "quote": "The daylight may always come, but it does not come for everybody and it does not come on time.",
     "author": "James Baldwin",
     "year": "1968",
-    "publication": "Tell Me How Long the Train’s Been Gone",
+    "publication": "Tell Me How Long the Train\u2019s Been Gone",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -16312,10 +16320,10 @@
     "id": "quote_0269",
     "source_image": "james-baldwin-04.png",
     "filename_stem": "james-baldwin-04",
-    "quote": "I always think that you can tell a great deal from the way a man looks at you when he’s talking.",
+    "quote": "I always think that you can tell a great deal from the way a man looks at you when he\u2019s talking.",
     "author": "James Baldwin",
     "year": "1968",
-    "publication": "Tell Me How Long the Train’s Been Gone",
+    "publication": "Tell Me How Long the Train\u2019s Been Gone",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -16520,11 +16528,11 @@
         "weight": 0.397
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.337
       },
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.2586
       },
       {
@@ -16557,7 +16565,7 @@
     "id": "quote_0272",
     "source_image": "james-joyce-02.png",
     "filename_stem": "james-joyce-02",
-    "quote": "Television kills telephony in brothers’ broil. Our eyes demand their turn. Let them be seen!",
+    "quote": "Television kills telephony in brothers\u2019 broil. Our eyes demand their turn. Let them be seen!",
     "author": "James Joyce",
     "year": "1968",
     "publication": "War and Peace in the Global Village",
@@ -16586,6 +16594,18 @@
       "Finnegan's wake"
     ],
     "weighted_tags": [
+      {
+        "tag": "the senses",
+        "weight": 1.0
+      },
+      {
+        "tag": "vision",
+        "weight": 1.0
+      },
+      {
+        "tag": "media",
+        "weight": 1.0
+      },
       {
         "tag": "marshall mcluhan",
         "weight": 0.2802
@@ -16657,7 +16677,7 @@
         "weight": 0.4672
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.3397
       },
       {
@@ -16680,7 +16700,7 @@
     "catalog_searched": true,
     "isbn": "9789928418005",
     "book_title": "A Portrait of the Artist as a Young Man",
-    "publisher": "Botime Kuçuku",
+    "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
     "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
@@ -16734,7 +16754,7 @@
     "catalog_searched": true,
     "isbn": "9789928418005",
     "book_title": "A Portrait of the Artist as a Young Man",
-    "publisher": "Botime Kuçuku",
+    "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
     "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
@@ -16761,7 +16781,7 @@
         "weight": 0.3143
       },
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.289
       },
       {
@@ -16788,7 +16808,7 @@
     "catalog_searched": true,
     "isbn": "9789928418005",
     "book_title": "A Portrait of the Artist as a Young Man",
-    "publisher": "Botime Kuçuku",
+    "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
     "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
@@ -16843,7 +16863,7 @@
     "catalog_searched": true,
     "isbn": "9789928418005",
     "book_title": "A Portrait of the Artist as a Young Man",
-    "publisher": "Botime Kuçuku",
+    "publisher": "Botime Ku\u00e7uku",
     "open_library_key": "/works/OL86343W",
     "catalog_notes": "Found ISBN: 9789928418005",
     "cover_url": "covers/a-portrait-of-the-artist-as-a-young-man.jpg",
@@ -16858,11 +16878,11 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.698
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.629
       },
       {
@@ -16878,7 +16898,7 @@
         "weight": 0.4716
       },
       {
-        "tag": "present",
+        "tag": "the present",
         "weight": 0.3881
       }
     ]
@@ -16988,7 +17008,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6598
       },
       {
@@ -17047,7 +17067,7 @@
     "catalog_searched": true,
     "isbn": "9782711856138",
     "book_title": "Une image peut en cacher une autre",
-    "publisher": "Réunion des musées nationaux",
+    "publisher": "R\u00e9union des mus\u00e9es nationaux",
     "open_library_key": "/works/OL18569583W",
     "catalog_notes": "Found ISBN: 9782711856138",
     "book_author": null,
@@ -17435,7 +17455,7 @@
     "id": "quote_0286",
     "source_image": "jean-paul-sartre-11.png",
     "filename_stem": "jean-paul-sartre-11",
-    "quote": "...man first of all exists, encounters himself, surges up in the world—and defines himself afterwards.",
+    "quote": "...man first of all exists, encounters himself, surges up in the world\u2014and defines himself afterwards.",
     "author": "Jean-Paul Sartre",
     "year": "1945",
     "publication": "Existentialism Is a Humanism",
@@ -17468,7 +17488,7 @@
         "weight": 0.4758
       },
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.408
       },
       {
@@ -17629,7 +17649,7 @@
         "weight": 0.3031
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.2829
       },
       {
@@ -17690,7 +17710,7 @@
         "weight": 0.3808
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.291
       }
     ]
@@ -17763,7 +17783,7 @@
     "id": "quote_0291",
     "source_image": "jeff-tweedy-04.png",
     "filename_stem": "jeff-tweedy-04",
-    "quote": "Don’t take for granted that your ideas are so great that you’ll remember them.",
+    "quote": "Don\u2019t take for granted that your ideas are so great that you\u2019ll remember them.",
     "author": "Jeff Tweedy",
     "year": "2022",
     "publication": "How to Write One Song",
@@ -17836,7 +17856,7 @@
     "id": "quote_0292",
     "source_image": "jeff-tweedy-09.png",
     "filename_stem": "jeff-tweedy-09",
-    "quote": "Just because the description of a process sounds mundane doesn’t mean that the end result will be.",
+    "quote": "Just because the description of a process sounds mundane doesn\u2019t mean that the end result will be.",
     "author": "Jeff Tweedy",
     "year": "2022",
     "publication": "How to Write One Song",
@@ -17955,7 +17975,7 @@
         "weight": 0.2034
       },
       {
-        "tag": "unknown",
+        "tag": "the unknown",
         "weight": 0.2004
       },
       {
@@ -18010,7 +18030,7 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.6721
       },
       {
@@ -18089,7 +18109,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.5065
       },
       {
@@ -18173,7 +18193,7 @@
         "weight": 0.3456
       },
       {
-        "tag": "artist",
+        "tag": "artists",
         "weight": 0.249
       },
       {
@@ -18181,11 +18201,11 @@
         "weight": 0.2204
       },
       {
-        "tag": "banal",
+        "tag": "banality",
         "weight": 0.2138
       },
       {
-        "tag": "view",
+        "tag": "views",
         "weight": 0.1785
       },
       {
@@ -18292,7 +18312,7 @@
     "id": "quote_0299",
     "source_image": "john-berger-13.png",
     "filename_stem": "john-berger-13",
-    "quote": "It’s not that with age I have become more patient. I’m as patient as I was when I was eleven; it’s simply that I believe in time less.",
+    "quote": "It\u2019s not that with age I have become more patient. I\u2019m as patient as I was when I was eleven; it\u2019s simply that I believe in time less.",
     "author": "John Berger",
     "year": "2007",
     "publication": "The Red Tenda of Bologna",
@@ -18597,11 +18617,11 @@
         "weight": 0.2122
       },
       {
-        "tag": "view",
+        "tag": "views",
         "weight": 0.1785
       },
       {
-        "tag": "viewpoint",
+        "tag": "views",
         "weight": 0.1764
       },
       {
@@ -18654,6 +18674,14 @@
       "total"
     ],
     "weighted_tags": [
+      {
+        "tag": "complexity",
+        "weight": 1.0
+      },
+      {
+        "tag": "nature",
+        "weight": 1.0
+      },
       {
         "tag": "universe",
         "weight": 0.2575
@@ -18739,7 +18767,7 @@
         "weight": 0.1927
       },
       {
-        "tag": "dream",
+        "tag": "dreams",
         "weight": 0.1785
       },
       {
@@ -18815,7 +18843,7 @@
         "weight": 0.2171
       },
       {
-        "tag": "viewpoint",
+        "tag": "views",
         "weight": 0.1904
       },
       {
@@ -19003,7 +19031,7 @@
     "id": "quote_0311",
     "source_image": "jorge-luis-borges-07.png",
     "filename_stem": "jorge-luis-borges-07",
-    "quote": "I don’t know exactly why I believe that a book brings us the possibility of happiness, but I am truly grateful for that modest miracle.",
+    "quote": "I don\u2019t know exactly why I believe that a book brings us the possibility of happiness, but I am truly grateful for that modest miracle.",
     "author": "Jorge Luis Borges",
     "year": "2004",
     "publication": "With Borges",
@@ -19163,7 +19191,7 @@
     "quote": "When writers die they become books, which is, after all, not too bad an incarnation.",
     "author": "Jorge Luis Borges",
     "year": "1986",
-    "publication": "Selected Non-Fictions — Jorge Luis Borges",
+    "publication": "Selected Non-Fictions \u2014 Jorge Luis Borges",
     "notes": "Attribution provided by Alastair Reid in The New Yorker article.",
     "confidence": 1,
     "needs_review": false,
@@ -19285,7 +19313,7 @@
         "weight": 0.3479
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3199
       },
       {
@@ -19330,7 +19358,7 @@
     "id": "quote_0315",
     "source_image": "joseph-conrad-01.jpg",
     "filename_stem": "joseph-conrad-01",
-    "quote": "Let them think what they liked, but I didn’t mean to drown myself. I meant to swim till I sank—but that’s not the same thing.",
+    "quote": "Let them think what they liked, but I didn\u2019t mean to drown myself. I meant to swim till I sank\u2014but that\u2019s not the same thing.",
     "author": "Joseph Conrad",
     "year": "1995",
     "publication": "Wonder Boys",
@@ -19440,7 +19468,7 @@
         "weight": 0.2575
       },
       {
-        "tag": "unique",
+        "tag": "uniqueness",
         "weight": 0.2105
       },
       {
@@ -19649,7 +19677,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.494
       },
       {
@@ -19661,7 +19689,7 @@
         "weight": 0.3982
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.3669
       },
       {
@@ -19738,15 +19766,15 @@
         "weight": 0.4916
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3851
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.3439
       },
       {
-        "tag": "present",
+        "tag": "the present",
         "weight": 0.2131
       },
       {
@@ -19884,7 +19912,7 @@
     "id": "quote_0324",
     "source_image": "keith-richards-01.png",
     "filename_stem": "keith-richards-01",
-    "quote": "Everything I’ve ever planned has never worked out. I’ve relied on accidents all my life.",
+    "quote": "Everything I\u2019ve ever planned has never worked out. I\u2019ve relied on accidents all my life.",
     "author": "Keith Richards",
     "year": "2009",
     "publication": "Stone Me",
@@ -20119,7 +20147,7 @@
         "weight": 0.7544
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.5119
       },
       {
@@ -20127,7 +20155,7 @@
         "weight": 0.3589
       },
       {
-        "tag": "senses",
+        "tag": "the senses",
         "weight": 0.2492
       },
       {
@@ -20224,7 +20252,7 @@
         "weight": 0.2614
       },
       {
-        "tag": "artist",
+        "tag": "artists",
         "weight": 0.2417
       },
       {
@@ -20237,7 +20265,7 @@
     "id": "quote_0329",
     "source_image": "kurt-vonnegut-10.jpg",
     "filename_stem": "kurt-vonnegut-10",
-    "quote": "Shrapnel was invented by an Englishman of the same name. Don’t you wish you could have something named after you?",
+    "quote": "Shrapnel was invented by an Englishman of the same name. Don\u2019t you wish you could have something named after you?",
     "author": "Kurt Vonnegut",
     "year": "2004",
     "publication": "A Man Without A Country",
@@ -20817,7 +20845,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6797
       },
       {
@@ -20874,7 +20902,7 @@
     "id": "quote_0339",
     "source_image": "kurt-vonnegut-29.png",
     "filename_stem": "kurt-vonnegut-29",
-    "quote": "I’ve lost the knack of making sense. I speak gibberish to the civilized world, and it replies in kind.",
+    "quote": "I\u2019ve lost the knack of making sense. I speak gibberish to the civilized world, and it replies in kind.",
     "author": "Kurt Vonnegut",
     "year": "1961",
     "publication": "Mother Night",
@@ -21231,7 +21259,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.6028
       },
       {
@@ -21243,7 +21271,7 @@
         "weight": 0.4645
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3851
       },
       {
@@ -21276,7 +21304,7 @@
     "id": "quote_0346",
     "source_image": "kurt-vonnegut-51.jpg",
     "filename_stem": "kurt-vonnegut-51",
-    "quote": "I am a humanist, which means, in part, that I have tried to behave decently without any expectation of rewards or punishments after I’m dead.",
+    "quote": "I am a humanist, which means, in part, that I have tried to behave decently without any expectation of rewards or punishments after I\u2019m dead.",
     "author": "Kurt Vonnegut",
     "year": "1999",
     "publication": "God Bless You Dr. Kevorkian",
@@ -21319,7 +21347,7 @@
         "weight": 0.4204
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3169
       },
       {
@@ -21422,7 +21450,7 @@
     "id": "quote_0348",
     "source_image": "kurt-vonnegut-52.jpg",
     "filename_stem": "kurt-vonnegut-52",
-    "quote": "If it weren’t for the message of mercy and pity in Jesus’ Sermon on the Mount, I wouldn’t want to be a human being. I would just as soon be a rattlesnake.",
+    "quote": "If it weren\u2019t for the message of mercy and pity in Jesus\u2019 Sermon on the Mount, I wouldn\u2019t want to be a human being. I would just as soon be a rattlesnake.",
     "author": "Kurt Vonnegut",
     "year": "1999",
     "publication": "God Bless You Dr. Kevorkian",
@@ -21998,7 +22026,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3676
       },
       {
@@ -22089,7 +22117,7 @@
         "weight": 0.4297
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4214
       },
       {
@@ -22105,7 +22133,7 @@
         "weight": 0.332
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3318
       },
       {
@@ -22155,7 +22183,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
-    "book_title": "Rapport sur les factions de l'étranger",
+    "book_title": "Rapport sur les factions de l'\u00e9tranger",
     "publisher": null,
     "open_library_key": "/works/OL5153574W",
     "catalog_notes": "No ISBN edition found",
@@ -22205,7 +22233,7 @@
     "source_image": "louis-ferdinand-celine.png",
     "filename_stem": "louis-ferdinand-celine",
     "quote": "When you have no imagination, dying is small beer; when you do have an imagination, dying is too much.",
-    "author": "Louis-Ferdinand Céline",
+    "author": "Louis-Ferdinand C\u00e9line",
     "year": "1932",
     "publication": "Journey to the End of the Night",
     "notes": "",
@@ -22221,7 +22249,7 @@
     "_flickr_id": "45746744461",
     "_match_score": 160,
     "tags": [
-      "Louis-Ferdinand Céline",
+      "Louis-Ferdinand C\u00e9line",
       "Celine",
       "1932",
       "journey to the end of the night",
@@ -22267,7 +22295,7 @@
         "weight": 0.0974
       },
       {
-        "tag": "louis-ferdinand céline",
+        "tag": "louis-ferdinand c\u00e9line",
         "weight": 0.0595
       }
     ]
@@ -22309,7 +22337,7 @@
         "weight": 0.8552
       },
       {
-        "tag": "banal",
+        "tag": "banality",
         "weight": 0.3859
       },
       {
@@ -22361,7 +22389,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.6201
       },
       {
@@ -22504,7 +22532,7 @@
         "weight": 0.4133
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.4062
       },
       {
@@ -22716,11 +22744,11 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.6832
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.5903
       },
       {
@@ -22920,18 +22948,18 @@
     "filename_stem": "mark-twain-09",
     "quote": "Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).",
     "author": "Mark Twain",
-    "year": "1935",
-    "publication": "Mark Twain's notebook",
+    "year": "2015",
+    "publication": "Mark Twain's Notebooks",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9781406736892",
+    "isbn": null,
     "book_title": "Mark Twain's Notebook",
     "publisher": "Hesperides Press",
     "open_library_key": "/works/OL54100W",
     "catalog_notes": "Found ISBN: 9781406736892; Year from Open Library: 1935",
-    "cover_url": "covers/mark-twains-notebook.jpg",
+    "cover_url": "/covers/mark-twains-notebook.jpg",
     "_flickr_id": "53986952571",
     "tags": [
       "book",
@@ -22978,7 +23006,8 @@
         "tag": "mark twain",
         "weight": 0.0835
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0373",
@@ -23023,7 +23052,7 @@
         "weight": 0.4427
       },
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3671
       },
       {
@@ -23158,7 +23187,7 @@
         "weight": 0.4592
       },
       {
-        "tag": "new",
+        "tag": "the new",
         "weight": 0.4052
       },
       {
@@ -23309,7 +23338,7 @@
         "weight": 0.5317
       },
       {
-        "tag": "senses",
+        "tag": "the senses",
         "weight": 0.2418
       },
       {
@@ -23430,7 +23459,7 @@
     "id": "quote_0379",
     "source_image": "michael-blastland-01.png",
     "filename_stem": "michael-blastland-01",
-    "quote": "We’re all comically ignorant. Own it. Take the one virtue that comes from this exercise: learn to recalibrate.",
+    "quote": "We\u2019re all comically ignorant. Own it. Take the one virtue that comes from this exercise: learn to recalibrate.",
     "author": "Michael Blastland",
     "year": "2023",
     "publication": "Thinking in Pictures",
@@ -23481,7 +23510,7 @@
         "weight": 0.2596
       },
       {
-        "tag": "unknown",
+        "tag": "the unknown",
         "weight": 0.2117
       },
       {
@@ -23751,7 +23780,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "king",
+        "tag": "kings",
         "weight": 0.1762
       },
       {
@@ -23859,7 +23888,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788845278822",
-    "book_title": "Les particules élémentaires",
+    "book_title": "Les particules \u00e9l\u00e9mentaires",
     "publisher": "Bompiani",
     "open_library_key": "/works/OL2286729W",
     "catalog_notes": "Found ISBN: 9788845278822; Year from Open Library: 1998",
@@ -23886,7 +23915,7 @@
         "weight": 0.8145
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6557
       },
       {
@@ -23927,7 +23956,7 @@
     "id": "quote_0386",
     "source_image": "michel-houellebecq-04.png",
     "filename_stem": "michel-houellebecq-04",
-    "quote": "...in daily life, you should avoid being trapped by your own story – or, more insidiously, by the personality you imagine to be yours.",
+    "quote": "...in daily life, you should avoid being trapped by your own story \u2013 or, more insidiously, by the personality you imagine to be yours.",
     "author": "Michel Houellebecq",
     "year": "2020",
     "publication": "Interventions",
@@ -23968,7 +23997,7 @@
         "weight": 0.3416
       },
       {
-        "tag": "self",
+        "tag": "the self",
         "weight": 0.306
       },
       {
@@ -23981,7 +24010,7 @@
     "id": "quote_0387",
     "source_image": "michel-houellebecq-11.png",
     "filename_stem": "michel-houellebecq-11",
-    "quote": "The West isn’t made for a human life. In fact, there’s only one thing you can really do in the West, and that’s to make money.",
+    "quote": "The West isn\u2019t made for a human life. In fact, there\u2019s only one thing you can really do in the West, and that\u2019s to make money.",
     "author": "Michel Houellebecq",
     "year": "2020",
     "publication": "Interventions",
@@ -24165,7 +24194,7 @@
         "weight": 0.3783
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3149
       },
       {
@@ -24194,7 +24223,7 @@
     "id": "quote_0390",
     "source_image": "miguel-cervantes-02.png",
     "filename_stem": "miguel-cervantes-02",
-    "quote": "To change the world, Sancho my friend, is neither a utopia nor an act of madness, it’s simply justice.",
+    "quote": "To change the world, Sancho my friend, is neither a utopia nor an act of madness, it\u2019s simply justice.",
     "author": "Miguel de Cervantes",
     "year": "1615",
     "publication": "Don Quixote",
@@ -24224,7 +24253,7 @@
         "weight": 0.8985
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6987
       },
       {
@@ -24530,7 +24559,7 @@
     "id": "quote_0395",
     "source_image": "nabokov-01.png",
     "filename_stem": "nabokov-01",
-    "quote": "Beauty plus pity — that is the closest we can get to a definition of art.",
+    "quote": "Beauty plus pity \u2014 that is the closest we can get to a definition of art.",
     "author": "Vladimir Nabokov",
     "year": "1980",
     "publication": "Lectures on Literature",
@@ -24638,7 +24667,7 @@
         "weight": 0.401
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4
       },
       {
@@ -24774,7 +24803,7 @@
         "weight": 0.7305
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3123
       },
       {
@@ -24795,7 +24824,7 @@
     "id": "quote_0399",
     "source_image": "nassim-taleb-12.png",
     "filename_stem": "nassim-taleb-12",
-    "quote": "Life is more, a lot more, labyrinthine than shown in our memory—our minds are in the business of turning history into something smooth and linear, which makes us underestimate randomness.",
+    "quote": "Life is more, a lot more, labyrinthine than shown in our memory\u2014our minds are in the business of turning history into something smooth and linear, which makes us underestimate randomness.",
     "author": "Nassim Nicholas Taleb",
     "year": "2012",
     "publication": "Antifragile",
@@ -24805,7 +24834,7 @@
     "catalog_searched": true,
     "isbn": "9788449328640",
     "book_title": "Antifragile",
-    "publisher": "Ediciones Paidós",
+    "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
     "cover_url": "covers/antifragile.jpg",
@@ -24877,7 +24906,7 @@
     "catalog_searched": true,
     "isbn": "9788449328640",
     "book_title": "Antifragile",
-    "publisher": "Ediciones Paidós",
+    "publisher": "Ediciones Paid\u00f3s",
     "open_library_key": "/works/OL16726829W",
     "catalog_notes": "Found ISBN: 9788449328640; Year from Open Library: 2012",
     "cover_url": "covers/antifragile.jpg",
@@ -25430,7 +25459,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3771
       },
       {
@@ -25459,7 +25488,7 @@
     "id": "quote_0408",
     "source_image": "neil-postman-06.png",
     "filename_stem": "neil-postman-06",
-    "quote": "...one’s imaginative reach for solutions goes no farther than one’s grasp of the problem.",
+    "quote": "...one\u2019s imaginative reach for solutions goes no farther than one\u2019s grasp of the problem.",
     "author": "Neil Postman",
     "year": "1982",
     "publication": "The Disappearance of Childhood",
@@ -25701,7 +25730,7 @@
         "weight": 0.3381
       },
       {
-        "tag": "king",
+        "tag": "kings",
         "weight": 0.3153
       },
       {
@@ -25847,7 +25876,7 @@
     "id": "quote_0414",
     "source_image": "neil-postman-37.png",
     "filename_stem": "neil-postman-37",
-    "quote": "Definitions are not given to us by God... it is a form of stupidity to accept without reflection someone else’s definition of a word, a problem, or a situation.",
+    "quote": "Definitions are not given to us by God... it is a form of stupidity to accept without reflection someone else\u2019s definition of a word, a problem, or a situation.",
     "author": "Neil Postman",
     "year": "1988",
     "publication": "Conscientious Objections",
@@ -26098,7 +26127,7 @@
     "quote": "Without music life would be a mistake.",
     "author": "Friedrich Nietzsche",
     "year": "1888",
-    "publication": "Nietzsche’s Maxims and Arrows",
+    "publication": "Nietzsche\u2019s Maxims and Arrows",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -26144,7 +26173,7 @@
         "weight": 0.226
       },
       {
-        "tag": "song",
+        "tag": "songs",
         "weight": 0.2227
       },
       {
@@ -26173,7 +26202,7 @@
     "id": "quote_0419",
     "source_image": "nikolai-gogol-05.jpg",
     "filename_stem": "nikolai-gogol-05",
-    "quote": "Anything uttered wittily, whether written down or not, can’t be erased even by the blows of an axe.",
+    "quote": "Anything uttered wittily, whether written down or not, can\u2019t be erased even by the blows of an axe.",
     "author": "Nikolai Gogol",
     "year": "1842",
     "publication": "Dead Souls",
@@ -26183,7 +26212,7 @@
     "catalog_searched": true,
     "isbn": "9789723706819",
     "book_title": "Dead Souls",
-    "publisher": "Assírio & Alvim",
+    "publisher": "Ass\u00edrio & Alvim",
     "open_library_key": "/works/OL17396611W",
     "catalog_notes": "Found ISBN: 9789723706819",
     "cover_url": "covers/dead-souls.jpg",
@@ -26409,18 +26438,18 @@
     "filename_stem": "oscar-wilde-01",
     "quote": "Religions die when they are proved to be true. Science is the record of dead religions.",
     "author": "Oscar Wilde",
-    "year": "1975",
-    "publication": "Escape From Evil",
+    "year": "1981",
+    "publication": "Intentions",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9780029024508",
+    "isbn": null,
     "book_title": "Phrases and philosophies for the use of the young",
     "publisher": null,
     "open_library_key": "/works/OL14877829W",
     "catalog_notes": "Year from Open Library: 1900; No ISBN edition found",
-    "cover_url": "covers/escape-from-evil.png",
+    "cover_url": "/covers/intentions.jpg",
     "_flickr_id": "52398869633",
     "tags": [
       "quote",
@@ -26431,7 +26460,7 @@
       "Oscar wilde",
       "dead religions"
     ],
-    "book_author": "Ernest Becker",
+    "book_author": null,
     "weighted_tags": [
       {
         "tag": "science",
@@ -26524,67 +26553,10 @@
     ]
   },
   {
-    "id": "quote_0424",
-    "source_image": "ozzy-06.png",
-    "filename_stem": "ozzy-06",
-    "quote": "...it’s all bullshit with wine, isn’t it? It’s just fucking vinegar with a fizz, no matter what the tasters say.",
-    "author": "Ozzy Osbourne",
-    "year": "2009",
-    "publication": "I Am Ozzy",
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "catalog_searched": true,
-    "isbn": "9781847443472",
-    "book_title": "I Am Ozzy",
-    "publisher": "Sphere",
-    "open_library_key": "/works/OL15179984W",
-    "catalog_notes": "Found ISBN: 9781847443472",
-    "cover_url": "covers/i-am-ozzy.jpg",
-    "_flickr_id": "53212641559",
-    "_match_score": 180,
-    "tags": [
-      "quote",
-      "book",
-      "Ozzy Osbourne",
-      "ozzy",
-      "I am Ozzy",
-      "wine",
-      "bullshit",
-      "vinegar"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "wine",
-        "weight": 0.2526
-      },
-      {
-        "tag": "bullshit",
-        "weight": 0.2492
-      },
-      {
-        "tag": "vinegar",
-        "weight": 0.1551
-      },
-      {
-        "tag": "i am ozzy",
-        "weight": 0.0935
-      },
-      {
-        "tag": "ozzy osbourne",
-        "weight": 0.0552
-      },
-      {
-        "tag": "ozzy",
-        "weight": 0.0531
-      }
-    ]
-  },
-  {
     "id": "quote_0425",
     "source_image": "pablo-picasso-02.png",
     "filename_stem": "pablo-picasso-02",
-    "quote": "When there’s anything to steal, I steal.",
+    "quote": "When there\u2019s anything to steal, I steal.",
     "author": "Pablo Picasso",
     "year": "2019",
     "publication": "Tate: Brief Lessons in Rule Breaking",
@@ -26794,7 +26766,7 @@
         "weight": 0.2539
       },
       {
-        "tag": "value",
+        "tag": "values",
         "weight": 0.1738
       },
       {
@@ -27065,7 +27037,7 @@
     "id": "quote_0433",
     "source_image": "raoul-vaneigem-07.png",
     "filename_stem": "raoul-vaneigem-07",
-    "quote": "There are more truths in twenty-four hours of an individual’s life than in all the philosophies.",
+    "quote": "There are more truths in twenty-four hours of an individual\u2019s life than in all the philosophies.",
     "author": "Raoul Vaneigem",
     "year": "1967",
     "publication": "The Revolution of Everyday Life",
@@ -27356,7 +27328,7 @@
     "id": "quote_0439",
     "source_image": "raoul-vaneigem-17.png",
     "filename_stem": "raoul-vaneigem-17",
-    "quote": "Ideology is the rebel’s tombstone.",
+    "quote": "Ideology is the rebel\u2019s tombstone.",
     "author": "Raoul Vaneigem",
     "year": "1967",
     "publication": "The Revolution of Everyday Life",
@@ -27476,7 +27448,7 @@
     "id": "quote_0441",
     "source_image": "raoul-vaneigem-19.png",
     "filename_stem": "raoul-vaneigem-19",
-    "quote": "Everything that makes you into an owner adapts you to the order of things – and makes you old.",
+    "quote": "Everything that makes you into an owner adapts you to the order of things \u2013 and makes you old.",
     "author": "Raoul Vaneigem",
     "year": "1967",
     "publication": "The Revolution of Everyday Life",
@@ -27573,7 +27545,7 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.6762
       },
       {
@@ -27581,7 +27553,7 @@
         "weight": 0.6062
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.5947
       },
       {
@@ -27997,7 +27969,7 @@
     "id": "quote_0449",
     "source_image": "rimbaud-03.png",
     "filename_stem": "rimbaud-03",
-    "quote": "Science, the new nobility! Progress. The world marches on! Why shouldn’t it turn?",
+    "quote": "Science, the new nobility! Progress. The world marches on! Why shouldn\u2019t it turn?",
     "author": "Arthur Rimbaud",
     "year": "1991",
     "publication": "A Season in Hell",
@@ -28026,7 +27998,7 @@
         "weight": 0.6686
       },
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6498
       },
       {
@@ -28169,7 +28141,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6734
       },
       {
@@ -28227,7 +28199,7 @@
         "weight": 0.4614
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3149
       },
       {
@@ -28252,7 +28224,7 @@
     "id": "quote_0454",
     "source_image": "robert-frost.png",
     "filename_stem": "robert-frost",
-    "quote": "Something there is that doesn’t love a wall.",
+    "quote": "Something there is that doesn\u2019t love a wall.",
     "author": "Robert Frost",
     "year": "1914",
     "publication": "The Poetry of Robert Frost: The Collected Poems",
@@ -28446,7 +28418,7 @@
     "id": "quote_0458",
     "source_image": "robert-pirsig.png",
     "filename_stem": "robert-pirsig",
-    "quote": "The real purpose of scientific method is to make sure nature hasn’t misled you into thinking you know something that you actually don’t.",
+    "quote": "The real purpose of scientific method is to make sure nature hasn\u2019t misled you into thinking you know something that you actually don\u2019t.",
     "author": "Robert Pirsig",
     "year": "1974",
     "publication": "The Art of Motorcycle Maintenance",
@@ -28786,7 +28758,7 @@
     "id": "quote_0463",
     "source_image": "shakespeare-01.png",
     "filename_stem": "shakespeare-01",
-    "quote": "The moon’s an arrant thief, and her pale fire she snatches from the sun.",
+    "quote": "The moon\u2019s an arrant thief, and her pale fire she snatches from the sun.",
     "author": "William Shakespeare",
     "year": "1734",
     "publication": "Timon of Athens",
@@ -28845,7 +28817,7 @@
     "id": "quote_0464",
     "source_image": "shakespeare-07.png",
     "filename_stem": "shakespeare-07",
-    "quote": "Hell and night must bring this monstrous birth to the world’s light.",
+    "quote": "Hell and night must bring this monstrous birth to the world\u2019s light.",
     "author": "William Shakespeare (Iago)",
     "year": "1603",
     "publication": "Othello",
@@ -28875,7 +28847,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6702
       },
       {
@@ -28950,7 +28922,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "devil",
+        "tag": "the devil",
         "weight": 0.4143
       },
       {
@@ -29042,7 +29014,7 @@
     "id": "quote_0468",
     "source_image": "shakespeare-11.png",
     "filename_stem": "shakespeare-11",
-    "quote": "How sharper than a serpent’s tooth it is to have a thankless child.",
+    "quote": "How sharper than a serpent\u2019s tooth it is to have a thankless child.",
     "author": "William Shakespeare",
     "year": "1608",
     "publication": "King Lear",
@@ -29211,7 +29183,7 @@
     "id": "quote_0471",
     "source_image": "shakespeare.png",
     "filename_stem": "shakespeare",
-    "quote": "Striving to better, oft we mar what’s well.",
+    "quote": "Striving to better, oft we mar what\u2019s well.",
     "author": "William Shakespeare",
     "year": "1608",
     "publication": "King Lear",
@@ -29449,7 +29421,7 @@
     "id": "quote_0475",
     "source_image": "shakespeare07.png",
     "filename_stem": "shakespeare07",
-    "quote": "He’s mad that trusts in the tameness of a wolf, a horse’s health, a boy’s love, or a whore’s oath.",
+    "quote": "He\u2019s mad that trusts in the tameness of a wolf, a horse\u2019s health, a boy\u2019s love, or a whore\u2019s oath.",
     "author": "William Shakespeare (Fool)",
     "year": "1735",
     "publication": "King Lear",
@@ -29639,7 +29611,7 @@
         "weight": 0.375
       },
       {
-        "tag": "artist",
+        "tag": "artists",
         "weight": 0.2505
       },
       {
@@ -29668,7 +29640,7 @@
     "id": "quote_0479",
     "source_image": "sidney-nolan-01.jpg",
     "filename_stem": "sidney-nolan-01",
-    "quote": "Nothing is fixed—everything keeps being transformed—and you have to sense where paradise is in the process.",
+    "quote": "Nothing is fixed\u2014everything keeps being transformed\u2014and you have to sense where paradise is in the process.",
     "author": "Sidney Nolan",
     "year": null,
     "publication": null,
@@ -29748,7 +29720,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.7004
       },
       {
@@ -29756,11 +29728,11 @@
         "weight": 0.4545
       },
       {
-        "tag": "present",
+        "tag": "the present",
         "weight": 0.3592
       },
       {
-        "tag": "past",
+        "tag": "the past",
         "weight": 0.3271
       },
       {
@@ -30171,10 +30143,10 @@
   },
   {
     "id": "quote_0486",
-    "source_image": "stéphane-mallarmé.png",
-    "filename_stem": "stéphane-mallarmé",
+    "source_image": "ste\u0301phane-mallarme\u0301.png",
+    "filename_stem": "ste\u0301phane-mallarme\u0301",
     "quote": "Everything in the world exists to end in a book.",
-    "author": "Stéphane Mallarmé",
+    "author": "St\u00e9phane Mallarm\u00e9",
     "year": null,
     "publication": null,
     "notes": "",
@@ -30607,7 +30579,7 @@
         "weight": 0.3265
       },
       {
-        "tag": "end",
+        "tag": "the end",
         "weight": 0.3221
       },
       {
@@ -30666,7 +30638,7 @@
     "catalog_searched": true,
     "isbn": "2350310450",
     "book_title": "La grande galerie des sculptures",
-    "publisher": "Musée du Louvre, Musée d'Orsay, Centre Pompidou",
+    "publisher": "Mus\u00e9e du Louvre, Mus\u00e9e d'Orsay, Centre Pompidou",
     "open_library_key": "/works/OL12294430W",
     "catalog_notes": "Found ISBN: 2350310450",
     "cover_url": "covers/theatre-of-the-world.jpg",
@@ -30714,8 +30686,8 @@
     "id": "quote_0495",
     "source_image": "thomas-kempis.png",
     "filename_stem": "thomas-kempis",
-    "quote": "A man’s library is a sort of harem.",
-    "author": "Thomas à Kempis",
+    "quote": "A man\u2019s library is a sort of harem.",
+    "author": "Thomas \u00e0 Kempis",
     "year": null,
     "publication": null,
     "notes": "Author's name and years are visible, but publication is not mentioned.",
@@ -30761,7 +30733,7 @@
     "id": "quote_0496",
     "source_image": "thomas-pynchon-01.png",
     "filename_stem": "thomas-pynchon-01",
-    "quote": "Life’s single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
+    "quote": "Life\u2019s single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
     "author": "Thomas Pynchon",
     "year": null,
     "publication": null,
@@ -31020,7 +30992,7 @@
     "id": "quote_0500",
     "source_image": "tom-stoppard-03.png",
     "filename_stem": "tom-stoppard-03",
-    "quote": "Life is a gamble, at terrible odds — if it was a bet you wouldn’t take it. Did you know that any number doubled is even?",
+    "quote": "Life is a gamble, at terrible odds \u2014 if it was a bet you wouldn\u2019t take it. Did you know that any number doubled is even?",
     "author": "Tom Stoppard",
     "year": "1968",
     "publication": "Rosencrantz and Guildenstern are Dead",
@@ -31091,7 +31063,7 @@
     "id": "quote_0501",
     "source_image": "townes-van-zandt-01.png",
     "filename_stem": "townes-van-zandt-01",
-    "quote": "To me, living’s to be laughing in satisfaction’s face.",
+    "quote": "To me, living\u2019s to be laughing in satisfaction\u2019s face.",
     "author": "Townes Van Zandt",
     "year": "2010",
     "publication": "A Deeper Blue: The Life and Music of Townes Van Zandt",
@@ -31149,7 +31121,7 @@
         "weight": 0.3135
       },
       {
-        "tag": "song",
+        "tag": "songs",
         "weight": 0.2346
       },
       {
@@ -31240,7 +31212,7 @@
         "weight": 0.5045
       },
       {
-        "tag": "devil",
+        "tag": "the devil",
         "weight": 0.4124
       },
       {
@@ -31879,7 +31851,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.4974
       },
       {
@@ -31928,7 +31900,7 @@
     "id": "quote_0513",
     "source_image": "ursula-le-guin-01.png",
     "filename_stem": "ursula-le-guin-01",
-    "quote": "Prediction is the business of prophets, clairvoyants, and futurologists. It is not the business of novelists. A novelist’s business is lying.",
+    "quote": "Prediction is the business of prophets, clairvoyants, and futurologists. It is not the business of novelists. A novelist\u2019s business is lying.",
     "author": "Ursula Le Guin",
     "year": "1969",
     "publication": "The Left Hand of Darkness",
@@ -32048,7 +32020,7 @@
         "weight": 0.4211
       },
       {
-        "tag": "artist",
+        "tag": "artists",
         "weight": 0.415
       },
       {
@@ -32222,7 +32194,7 @@
     "id": "quote_0517",
     "source_image": "van-gogh.png",
     "filename_stem": "van-gogh",
-    "quote": "Normality is a paved road: it’s comfortable to walk, but no flowers grow on it.",
+    "quote": "Normality is a paved road: it\u2019s comfortable to walk, but no flowers grow on it.",
     "author": "Vincent Van Gogh",
     "year": null,
     "publication": null,
@@ -32334,11 +32306,11 @@
         "weight": 0.3083
       },
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.291
       },
       {
-        "tag": "brain",
+        "tag": "the brain",
         "weight": 0.2874
       },
       {
@@ -32444,7 +32416,7 @@
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
-    "book_title": "Vladimir Ilʹich Lenin",
+    "book_title": "Vladimir Il\u02b9ich Lenin",
     "publisher": null,
     "open_library_key": "/works/OL2141395W",
     "catalog_notes": "No ISBN edition found",
@@ -32610,7 +32582,7 @@
         "weight": 0.4589
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4035
       },
       {
@@ -32678,7 +32650,7 @@
         "weight": 0.4631
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4064
       },
       {
@@ -32769,7 +32741,7 @@
         "weight": 0.4174
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4
       },
       {
@@ -32860,7 +32832,7 @@
         "weight": 0.4135
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4096
       },
       {
@@ -32961,7 +32933,7 @@
         "weight": 0.409
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4035
       },
       {
@@ -33036,7 +33008,7 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "mind",
+        "tag": "the mind",
         "weight": 0.5196
       },
       {
@@ -33056,7 +33028,7 @@
         "weight": 0.4101
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.4051
       },
       {
@@ -33314,12 +33286,12 @@
     "filename_stem": "wh-auden",
     "quote": "The desires of the heart are as crooked as corkscrews.",
     "author": "W.H. Auden",
-    "year": 1937,
+    "year": "1937",
     "publication": "As I Walked Out One Evening",
     "notes": "Converted text from uppercase to sentence case.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "cover_url": "covers/as-i-walked-out-one-evening.jpg",
+    "cover_url": "/covers/as-i-walked-out-one-evening.jpg",
     "tags": [
       "auden",
       "w.h. auden",
@@ -33354,7 +33326,9 @@
         "tag": "w.h. auden",
         "weight": 0.0905
       }
-    ]
+    ],
+    "isbn": null,
+    "book_author": null
   },
   {
     "id": "quote_0532",
@@ -33563,7 +33537,7 @@
         "weight": 0.4755
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.406
       },
       {
@@ -33636,7 +33610,7 @@
         "weight": 0.4222
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.3721
       },
       {
@@ -33656,7 +33630,7 @@
         "weight": 0.2006
       },
       {
-        "tag": "calm",
+        "tag": "calmness",
         "weight": 0.1955
       },
       {
@@ -33704,7 +33678,7 @@
         "weight": 0.474
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.404
       },
       {
@@ -33813,7 +33787,7 @@
     "id": "quote_0539",
     "source_image": "william-carlos-williams-10.png",
     "filename_stem": "william-carlos-williams-10",
-    "quote": "Walk in the world (you can’t see anything from a car window, still less from a plane, or from the moon!? Come off of it.)",
+    "quote": "Walk in the world (you can\u2019t see anything from a car window, still less from a plane, or from the moon!? Come off of it.)",
     "author": "William Carlos Williams",
     "year": "1946",
     "publication": "Paterson",
@@ -33848,7 +33822,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "world",
+        "tag": "the world",
         "weight": 0.6424
       },
       {
@@ -33860,7 +33834,7 @@
         "weight": 0.4356
       },
       {
-        "tag": "poem",
+        "tag": "poems",
         "weight": 0.3943
       },
       {
@@ -33982,20 +33956,20 @@
     "id": "quote_0541",
     "source_image": "william-gibson-02.png",
     "filename_stem": "william-gibson-02",
-    "quote": "In terms of most of our life so far, as a species, it’s not a natural thing to see the dead, or hear their voices. I believe the significance of this is still far from being understood.",
+    "quote": "In terms of most of our life so far, as a species, it\u2019s not a natural thing to see the dead, or hear their voices. I believe the significance of this is still far from being understood.",
     "author": "William Gibson",
-    "year": "2003",
-    "publication": "Up the Line",
+    "year": "2012",
+    "publication": "Distrust That Particular Flavour",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9789510172049",
+    "isbn": null,
     "book_title": "Neuromancer",
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "covers/up-the-line.jpg",
+    "cover_url": "/covers/distrust-that-particular-flavour.jpg",
     "tags": [
       "william gibson",
       "death",
@@ -34039,7 +34013,8 @@
         "tag": "william gibson",
         "weight": 0.1381
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0542",
@@ -34079,7 +34054,7 @@
         "weight": 0.7875
       },
       {
-        "tag": "new",
+        "tag": "the new",
         "weight": 0.2237
       },
       {
@@ -34494,7 +34469,7 @@
     "id": "quote_0549",
     "source_image": "wordsworth-01.png",
     "filename_stem": "wordsworth-01",
-    "quote": "The eye—it cannot choose but see; we cannot bid the ear be still; our bodies feel, where’er they be, against or with our will.",
+    "quote": "The eye\u2014it cannot choose but see; we cannot bid the ear be still; our bodies feel, where\u2019er they be, against or with our will.",
     "author": "William Wordsworth",
     "year": null,
     "publication": "Lyrical Ballads",
@@ -34532,7 +34507,7 @@
         "weight": 0.381
       },
       {
-        "tag": "senses",
+        "tag": "the senses",
         "weight": 0.2744
       },
       {
@@ -34583,7 +34558,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "future",
+        "tag": "the future",
         "weight": 0.3731
       },
       {
