@@ -3505,18 +3505,18 @@
     "filename_stem": "balzac",
     "quote": "An obsession is a pleasure that has attained the status of an idea.",
     "author": "Honoré de Balzac",
-    "year": "1873",
-    "publication": "Cousin Pons",
+    "year": "2019",
+    "publication": "Packing My Library",
     "notes": "Quote formatting with quotes and italics included.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9782266093767",
+    "isbn": null,
     "book_title": "Le cousin Pons",
     "publisher": "Pocket",
     "open_library_key": "/works/OL85234W",
     "catalog_notes": "Found ISBN: 9782266093767; Year from Open Library: 1873",
-    "cover_url": "covers/cousin-pons.jpg",
+    "cover_url": "covers/packing-my-library.jpg",
     "_flickr_id": "52693007657",
     "tags": [
       "quote",
@@ -3541,10 +3541,6 @@
         "weight": 0.4572
       },
       {
-        "tag": "books",
-        "weight": 0.4547
-      },
-      {
         "tag": "idea",
         "weight": 0.4504
       },
@@ -3557,38 +3553,19 @@
         "weight": 0.3996
       },
       {
-        "tag": "libraries",
-        "weight": 0.3381
-      },
-      {
         "tag": "obsession",
         "weight": 0.2576
-      },
-      {
-        "tag": "packing my library",
-        "weight": 0.1566
-      },
-      {
-        "tag": "albert manguel",
-        "weight": 0.1009
-      },
-      {
-        "tag": "obsessed",
-        "weight": 0.0903
-      },
-      {
-        "tag": "need",
-        "weight": 0.0892
       },
       {
         "tag": "drive",
         "weight": 0.0882
       },
       {
-        "tag": "balzac",
-        "weight": 0.051
+        "tag": "thinking",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": "Alberto Manguel"
   },
   {
     "id": "quote_0058",
@@ -19003,7 +18980,7 @@
     "year": "2004",
     "publication": "With Borges",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780394621920",
@@ -19064,7 +19041,8 @@
         "tag": "miracles",
         "weight": 0.0977
       }
-    ]
+    ],
+    "book_author": "Alberto Manguel"
   },
   {
     "id": "quote_0312",
@@ -19157,19 +19135,19 @@
     "filename_stem": "jorge-luis-borges-22",
     "quote": "When writers die they become books, which is, after all, not too bad an incarnation.",
     "author": "Jorge Luis Borges",
-    "year": "1986",
-    "publication": "Selected Non-Fictions — Jorge Luis Borges",
+    "year": "1985",
+    "publication": "Seven Nights",
     "notes": "Attribution provided by Alastair Reid in The New Yorker article.",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9782072798153",
+    "isbn": null,
     "book_title": "Ficciones",
     "publisher": "GALLIMARD, FOLIO",
     "open_library_key": "/works/OL110971W",
     "catalog_notes": "Found ISBN: 9782072798153",
     "book_author": null,
-    "cover_url": "covers/selected-non-fictions-jorge-luis-borges.jpg",
+    "cover_url": null,
     "_flickr_id": "17291626336",
     "tags": [
       "libraries",
@@ -19192,44 +19170,16 @@
         "weight": 0.7563
       },
       {
-        "tag": "libraries",
-        "weight": 0.3528
+        "tag": "writing",
+        "weight": 1
       },
       {
-        "tag": "type",
-        "weight": 0.2448
+        "tag": "death",
+        "weight": 1
       },
       {
-        "tag": "wall",
-        "weight": 0.2227
-      },
-      {
-        "tag": "typography",
-        "weight": 0.2171
-      },
-      {
-        "tag": "jorge luis borges",
-        "weight": 0.1639
-      },
-      {
-        "tag": "borges",
-        "weight": 0.1573
-      },
-      {
-        "tag": "paradise",
-        "weight": 0.1386
-      },
-      {
-        "tag": "chicago",
-        "weight": 0.1008
-      },
-      {
-        "tag": "harold washington library",
-        "weight": 0.0996
-      },
-      {
-        "tag": "exhibition",
-        "weight": 0.0886
+        "tag": "life",
+        "weight": 1
       }
     ]
   },
@@ -34442,5 +34392,71 @@
         "weight": 0.0907
       }
     ]
+  },
+  {
+    "quote": "The two most common elements in the universe are hydrogen and stupidity.",
+    "author": "Harlan Ellison",
+    "publication": "An Edge in My Voice",
+    "year": "1985",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/an-edge-in-my-voice.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0551",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What is written without effort is, in general, read without pleasure.",
+    "author": "Samuel Johnson",
+    "publication": "Lives of the English Poets",
+    "year": "1779",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/lives-of-the-english-poets.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "effort",
+        "weight": 1
+      },
+      {
+        "tag": "pleasure",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0552",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]
