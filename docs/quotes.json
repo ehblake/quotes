@@ -4128,7 +4128,7 @@
     ],
     "isbn": null,
     "book_author": null,
-    "cover_url": "/covers/the-collected-poems-of-bertolt-brecht.jpg"
+    "cover_url": "covers/the-collected-poems-of-bertolt-brecht.jpg"
   },
   {
     "id": "quote_0065",
@@ -4913,7 +4913,7 @@
     "publisher": "Routledge & Kegan Paul",
     "open_library_key": "/works/OL1092579W",
     "catalog_notes": "Found ISBN: 0710045166; Year from Open Library: 1819",
-    "cover_url": "/covers/don-juan.jpg",
+    "cover_url": "covers/don-juan.jpg",
     "book_author": null,
     "tags": [
       "futility",
@@ -22959,7 +22959,7 @@
     "publisher": "Hesperides Press",
     "open_library_key": "/works/OL54100W",
     "catalog_notes": "Found ISBN: 9781406736892; Year from Open Library: 1935",
-    "cover_url": "/covers/mark-twains-notebook.jpg",
+    "cover_url": "covers/mark-twains-notebook.jpg",
     "_flickr_id": "53986952571",
     "tags": [
       "book",
@@ -26449,7 +26449,7 @@
     "publisher": null,
     "open_library_key": "/works/OL14877829W",
     "catalog_notes": "Year from Open Library: 1900; No ISBN edition found",
-    "cover_url": "/covers/intentions.jpg",
+    "cover_url": "covers/intentions.jpg",
     "_flickr_id": "52398869633",
     "tags": [
       "quote",
@@ -33291,7 +33291,7 @@
     "notes": "Converted text from uppercase to sentence case.",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "/covers/as-i-walked-out-one-evening.jpg",
+    "cover_url": "covers/as-i-walked-out-one-evening.jpg",
     "tags": [
       "auden",
       "w.h. auden",
@@ -33969,7 +33969,7 @@
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "/covers/distrust-that-particular-flavour.jpg",
+    "cover_url": "covers/distrust-that-particular-flavour.jpg",
     "tags": [
       "william gibson",
       "death",
