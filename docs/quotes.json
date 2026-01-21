@@ -5333,7 +5333,7 @@
     "year": "1962",
     "publication": "The Death of Artemio Cruz",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
@@ -5365,10 +5365,6 @@
         "weight": 0.4958
       },
       {
-        "tag": "the death of artemio cruz",
-        "weight": 0.2002
-      },
-      {
         "tag": "debauchery",
         "weight": 0.1643
       },
@@ -5384,7 +5380,8 @@
         "tag": "carlos fuentes",
         "weight": 0.1114
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0084",
@@ -11596,7 +11593,7 @@
     "publisher": "Independently Published",
     "open_library_key": "/works/OL24600223W",
     "catalog_notes": "Found ISBN: 9798457106185",
-    "cover_url": "covers/9798457106185.jpg",
+    "cover_url": "covers/the-brothers-karamazov.jpg",
     "_match_score": 100,
     "book_author": null,
     "tags": [
@@ -17996,26 +17993,6 @@
       {
         "tag": "disconnection",
         "weight": 0.1569
-      },
-      {
-        "tag": "in the absence of the sacred",
-        "weight": 0.1007
-      },
-      {
-        "tag": "reagan",
-        "weight": 0.0955
-      },
-      {
-        "tag": "general electric",
-        "weight": 0.0941
-      },
-      {
-        "tag": "slogan",
-        "weight": 0.0915
-      },
-      {
-        "tag": "jerry mander",
-        "weight": 0.0595
       }
     ]
   },
@@ -19357,7 +19334,7 @@
     "year": "1899",
     "publication": "Heart of Darkness",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9798482874318",
@@ -19393,22 +19370,19 @@
         "weight": 0.1605
       },
       {
-        "tag": "heart of darkness",
-        "weight": 0.0982
-      },
-      {
-        "tag": "joseph conrad",
-        "weight": 0.0943
-      },
-      {
         "tag": "colonel kurtz",
         "weight": 0.0888
       },
       {
         "tag": "bland",
         "weight": 0.0869
+      },
+      {
+        "tag": "mankind",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0317",
@@ -31639,7 +31613,7 @@
     "year": "1974",
     "publication": "The Dispossessed",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780063382930",
@@ -31671,10 +31645,6 @@
         "weight": 0.4974
       },
       {
-        "tag": "idea",
-        "weight": 0.4515
-      },
-      {
         "tag": "ideas",
         "weight": 0.4251
       },
@@ -31687,30 +31657,15 @@
         "weight": 0.2332
       },
       {
-        "tag": "think",
-        "weight": 0.1648
-      },
-      {
-        "tag": "deserving",
-        "weight": 0.1635
-      },
-      {
         "tag": "earning",
         "weight": 0.1621
       },
       {
-        "tag": "science fiction",
-        "weight": 0.1389
-      },
-      {
-        "tag": "ursula k le guin",
-        "weight": 0.0994
-      },
-      {
-        "tag": "market",
-        "weight": 0.0863
+        "tag": "knowledge",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0513",
@@ -34456,6 +34411,107 @@
     ],
     "id": "quote_0552",
     "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Life's single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
+    "author": "Thomas Pynchon",
+    "publication": "V.",
+    "year": "1963",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/v.jpg",
+    "weighted_tags": [
+      {
+        "tag": "sanity",
+        "weight": 1
+      },
+      {
+        "tag": "luck",
+        "weight": 1
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
+      },
+      {
+        "tag": "accident",
+        "weight": 1
+      },
+      {
+        "tag": "planning",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0553",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One is almost driven to the cynical conclusion that men are only decent when they are powerless.",
+    "author": "George Orwell",
+    "publication": "The Collected Essays, Journalism and Letters of George Orwell",
+    "year": "1968",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-collected-essays-journalism-and-letters-of-geo.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "mankind",
+        "weight": 1
+      },
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "war",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0554",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...once a specific crime has appeared for the first time, its reappearance is more likely than its initial emergence could ever have been.",
+    "author": "Hannah Arendt",
+    "publication": "Eichmann in Jerusalem: A Report on the Banality of Evil",
+    "year": "1963",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/eichmann-in-jerusalem-a-report-on-the-banality-of-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "crime",
+        "weight": 1
+      },
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "war",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0555",
+    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   }
