@@ -2501,6 +2501,22 @@
         console.log(`Built index with ${Object.keys(publicationIndex).length} unique publications with covers`);
         renderLandingCanvas();
         initLandingCanvas();
+
+        // Check for URL parameter to jump directly to a quote
+        const urlParams = new URLSearchParams(window.location.search);
+        const quoteParam = urlParams.get('q');
+        if (quoteParam) {
+          // Find quote by number (e.g., ?q=493 finds quote_0493)
+          const quoteId = `quote_${quoteParam.padStart(4, '0')}`;
+          const quoteIndex = quotes.findIndex(q => q.id === quoteId);
+          if (quoteIndex >= 0) {
+            console.log(`URL param: jumping to ${quoteId} (index ${quoteIndex})`);
+            // Skip landing canvas, go directly to quote
+            transitionToQuote(quoteIndex, null);
+          } else {
+            console.log(`URL param: quote ${quoteId} not found`);
+          }
+        }
       } catch (err) {
         console.error('Init error:', err);
       }
