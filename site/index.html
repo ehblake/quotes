@@ -2564,6 +2564,19 @@
           showRandom();
         }
       });
+
+      // Auto-convert straight quotes to curly quotes in edit fields
+      document.getElementById('edit-quote').addEventListener('input', (e) => {
+        const textarea = e.target;
+        const start = textarea.selectionStart;
+        const end = textarea.selectionEnd;
+        // Replace straight apostrophes with curly
+        if (textarea.value.includes("'")) {
+          textarea.value = textarea.value.replace(/'/g, ''');
+          // Restore cursor position
+          textarea.setSelectionRange(start, end);
+        }
+      });
     }
 
     // Navigate to previous quote in history (left arrow)
