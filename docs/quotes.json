@@ -23239,7 +23239,7 @@
     "year": "1961",
     "publication": "The Winter of Our Discontent",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788380690660",
@@ -23265,72 +23265,23 @@
     ],
     "weighted_tags": [
       {
-        "tag": "pleasure",
-        "weight": 0.3963,
-        "corpus_score": 0.5038,
-        "relevance": 0.5583
+        "tag": "advice",
+        "weight": 1
       },
       {
-        "tag": "dreams",
-        "weight": 0.3667,
-        "corpus_score": 0.5038,
-        "relevance": 0.5167
+        "tag": "perspective",
+        "weight": 1
       },
       {
-        "tag": "dreams",
-        "weight": 0.3667,
-        "corpus_score": 0.5038,
-        "relevance": 0.5167
+        "tag": "opinion",
+        "weight": 1
       },
       {
-        "tag": "lost",
-        "weight": 0.3333,
-        "corpus_score": 0.3359,
-        "relevance": 0.575
-      },
-      {
-        "tag": "wandering",
-        "weight": 0.3284,
-        "corpus_score": 0.3359,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "dreaming",
-        "weight": 0.2752,
-        "corpus_score": 0.2662,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "aloof",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "adrift",
-        "weight": 0.222,
-        "corpus_score": 0.1679,
-        "relevance": 0.5417
-      },
-      {
-        "tag": "black-white",
-        "weight": 0.2083,
-        "corpus_score": 0.1679,
-        "relevance": 0.5083
-      },
-      {
-        "tag": "john steinbeck",
-        "weight": 0.14,
-        "corpus_score": 0.1679,
-        "relevance": 0.3417
-      },
-      {
-        "tag": "steinbeck",
-        "weight": 0.1366,
-        "corpus_score": 0.1679,
-        "relevance": 0.3333
+        "tag": "creativity",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0308",
@@ -37842,82 +37793,20 @@
     "isbn": null,
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.5317,
-        "corpus_score": 0.8877,
-        "relevance": 0.5643
-      },
-      {
-        "tag": "hell",
-        "weight": 0.4326,
-        "corpus_score": 0.5324,
-        "relevance": 0.5929
-      },
-      {
-        "tag": "darkness",
-        "weight": 0.4157,
-        "corpus_score": 0.6021,
-        "relevance": 0.5357
-      },
-      {
-        "tag": "the end",
-        "weight": 0.388,
-        "corpus_score": 0.6021,
-        "relevance": 0.5
-      },
-      {
-        "tag": "devils",
-        "weight": 0.3395,
-        "corpus_score": 0.3359,
-        "relevance": 0.5857
-      },
-      {
-        "tag": "eschatology",
-        "weight": 0.3256,
-        "corpus_score": 0.39,
-        "relevance": 0.5214
-      },
-      {
-        "tag": "night",
-        "weight": 0.3188,
-        "corpus_score": 0.3359,
-        "relevance": 0.55
-      },
-      {
-        "tag": "nighttime",
-        "weight": 0.3146,
-        "corpus_score": 0.3359,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "gloom",
-        "weight": 0.2875,
-        "corpus_score": 0.2662,
-        "relevance": 0.5571
+        "tag": "collecting",
+        "weight": 1
       },
       {
         "tag": "shakespeare",
-        "weight": 0.2662,
-        "corpus_score": 0.6562,
-        "relevance": 0.3286
+        "weight": 1
       },
       {
-        "tag": "party",
-        "weight": 0.2342,
-        "corpus_score": 0.1679,
-        "relevance": 0.5714
+        "tag": "books",
+        "weight": 1
       },
       {
-        "tag": "the tempest",
-        "weight": 0.2108,
-        "corpus_score": 0.1679,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "prospero",
-        "weight": 0.2078,
-        "corpus_score": 0.1679,
-        "relevance": 0.5071
+        "tag": "libraries",
+        "weight": 1
       }
     ]
   },
@@ -43284,6 +43173,45 @@
     ],
     "id": "quote_0561",
     "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Accentuate the positives - medicate the negatives.",
+    "author": "Amy Sedaris",
+    "publication": "I Like You",
+    "year": "2008",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/i-like-you.jpg",
+    "weighted_tags": [
+      {
+        "tag": "positivity",
+        "weight": 1
+      },
+      {
+        "tag": "personality",
+        "weight": 1
+      },
+      {
+        "tag": "madness",
+        "weight": 1
+      },
+      {
+        "tag": "drugs",
+        "weight": 1
+      },
+      {
+        "tag": "happiness",
+        "weight": 1
+      },
+      {
+        "tag": "problems",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0562",
+    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   }

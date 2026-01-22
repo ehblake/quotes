@@ -1241,21 +1241,48 @@
     }
 
     // Pick a cover, preferring unused ones and avoiding adjacent duplicates
-    function pickUniqueCover(chunkCovers, position) {
+    // Also checks adjacent chunks' edge covers to prevent cross-chunk duplicates
+    function pickUniqueCover(chunkCovers, position, chunkX, chunkY) {
       const cols = CHUNK_COLS;
+      const rows = CHUNK_ROWS;
 
       // Get adjacent covers in this chunk (left and above)
       const adjacentCovers = new Set();
       const row = Math.floor(position / cols);
       const col = position % cols;
 
-      // Left neighbor
+      // Left neighbor within chunk
       if (col > 0 && chunkCovers[position - 1]) {
         adjacentCovers.add(chunkCovers[position - 1]);
       }
-      // Above neighbor
+      // Above neighbor within chunk
       if (row > 0 && chunkCovers[position - cols]) {
         adjacentCovers.add(chunkCovers[position - cols]);
+      }
+
+      // Check adjacent chunks' edge covers
+      // If we're on the left edge (col 0), check the right edge of the chunk to our left
+      if (col === 0) {
+        const leftChunk = loadedChunks.get(getChunkKey(chunkX - 1, chunkY));
+        if (leftChunk && leftChunk.covers) {
+          // Right edge of left chunk at same row
+          const leftChunkRightEdgeIndex = row * cols + (cols - 1);
+          if (leftChunk.covers[leftChunkRightEdgeIndex]) {
+            adjacentCovers.add(leftChunk.covers[leftChunkRightEdgeIndex]);
+          }
+        }
+      }
+
+      // If we're on the top edge (row 0), check the bottom edge of the chunk above
+      if (row === 0) {
+        const aboveChunk = loadedChunks.get(getChunkKey(chunkX, chunkY - 1));
+        if (aboveChunk && aboveChunk.covers) {
+          // Bottom edge of above chunk at same column
+          const aboveChunkBottomEdgeIndex = (rows - 1) * cols + col;
+          if (aboveChunk.covers[aboveChunkBottomEdgeIndex]) {
+            adjacentCovers.add(aboveChunk.covers[aboveChunkBottomEdgeIndex]);
+          }
+        }
       }
 
       // First try to find an unused cover that's not adjacent
@@ -1304,7 +1331,7 @@
 
       const covers = [];
       for (let i = 0; i < CHUNK_COLS * CHUNK_ROWS; i++) {
-        const pub = pickUniqueCover(covers, i);
+        const pub = pickUniqueCover(covers, i, chunkX, chunkY);
         covers.push(pub);
         usedCovers.add(pub);
 
