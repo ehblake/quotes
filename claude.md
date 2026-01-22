@@ -128,6 +128,10 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 ### Last Session (Jan 22 2026) - Search, Tag Weighting & Pipeline Fixes
 
+- **Fixed duplicate covers across chunk boundaries**:
+  - `pickUniqueCover()` now checks edge covers of neighboring chunks
+  - Prevents same book appearing side-by-side when chunks are adjacent
+
 - **Added search feature** (localhost only):
   - Search input next to go-to and "+" buttons
   - Searches quote text, author, and publication
