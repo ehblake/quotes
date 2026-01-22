@@ -126,7 +126,46 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Jan 22 2026) - Search, Tag Weighting & Pipeline Fixes
+### Last Session (Jan 22 2026) - URL Parameters, Quote IDs & New Quotes
+
+- **Added URL parameter for direct quote access**:
+  - Use `?q=484` to jump directly to quote_0484
+  - Skips landing canvas, goes straight to quote view
+  - Works on both localhost and GitHub Pages
+
+- **Fixed quote numbering to use quote ID**:
+  - Display now shows quote ID (484) instead of array index (425)
+  - Go-to input accepts quote IDs, matching the URL parameter
+  - Makes `?q=484` and displayed "484 / 561" consistent
+
+- **Auto-convert straight apostrophes to curly**:
+  - Fixed 3 existing quotes with straight apostrophes
+  - Editor auto-converts `'` to `'` as you type
+  - Uses Unicode escape `\u2019` for safe encoding
+
+- **Added new quotes and covers**:
+  - Virginia Woolf: Mrs Dalloway, Orlando, The Waves, Between the Acts, Three Guineas
+  - Emily Dickinson Letters
+  - When Things Fall Apart (Pema Chödrön)
+
+### Previous Session (Jan 22 2026) - Primary Tag Allowlist & Pipeline Fixes
+
+- **Added ALLOWED_PRIMARY_TAGS allowlist** to `build_tag_connections.py`:
+  - 230 curated tags that can appear as navigable primary themes
+  - Only these tags show in drift navigation (tag above/below)
+  - Quotes can still have other tags in `weighted_tags`, they just won't be primary
+  - Result: 227 primary tags (3 from the list don't have enough quotes)
+
+- **Fixed drift navigation for renamed tags**:
+  - `build_tag_connections.py` now reads from `weighted_tags` (curated) instead of `tags` (original)
+  - This fixes navigation for renamed tags like "the end" (was "end")
+  - Without this fix, renamed tags wouldn't appear as drift suggestions
+
+- **Investigated lost quote edit**:
+  - Steinbeck "advice" quote tags weren't saved from a previous session
+  - Examined server.py save mechanism - works correctly
+  - Likely cause: file operations (cp commands) during session overwrote the edit
+  - User re-edited, confirmed save now works (both site/ and docs/ updated)
 
 - **Fixed duplicate covers across chunk boundaries**:
   - `pickUniqueCover()` now checks edge covers of neighboring chunks
@@ -148,11 +187,6 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
   - Now reads from `weighted_tags` (curated) instead of `tags` (original)
   - Preserves manual tag edits (additions/removals) made through the editor
   - Only recalculates weights, doesn't replace tag lists
-
-- **Fixed build_tag_connections.py pipeline**:
-  - Now reads from `weighted_tags` (curated) instead of `tags` (original)
-  - This fixes drift navigation for renamed tags (e.g., "the end" vs "end")
-  - Without this fix, renamed tags wouldn't appear as drift suggestions
 
 - **Tag weighting formula**:
   - `weight = sqrt(corpus_score) × relevance`
