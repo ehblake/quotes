@@ -1,0 +1,3032 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Quotes</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Neue Haas Grotesk", "Aktiv Grotesk", "Helvetica Neue", "Inter", sans-serif;
+      background: #111;
+      color: #fafafa;
+      line-height: 1.45;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      overflow: clip;
+      overflow-x: clip;
+      overflow-y: clip;
+    }
+
+    html {
+      overflow: clip;
+    }
+
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding: clamp(10px, 2vh, 20px) 0;
+      overflow: visible;
+      -webkit-transform: translateZ(0); /* Create stacking context for Safari */
+    }
+
+    /* Drift tag above */
+    .drift-tag-above {
+      text-align: center;
+      padding: clamp(10px, 2vh, 20px) 0;
+      color: #444;
+      font-size: clamp(0.75rem, 1vw, 1rem);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      cursor: pointer;
+      transition: color 0.2s, transform 0.2s;
+      min-height: clamp(30px, 5vh, 50px);
+    }
+
+    .drift-tag-above:hover {
+      color: #777;
+      transform: translateY(-2px);
+    }
+
+    .drift-tag-above:not(:empty)::before {
+      content: "↑ ";
+      opacity: 0.5;
+    }
+
+    /* Main row - contains the quote panels */
+    .main-row {
+      flex: 1;
+      position: relative;
+      overflow: visible; /* Allow side quotes to extend beyond */
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Quotes strip - contains all 3 quotes, slides horizontally */
+    .quotes-strip {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      /* No transform needed - panels positioned absolutely */
+      transition: transform 0.5s ease-out;
+      overflow: visible;
+      -webkit-backface-visibility: hidden;
+    }
+
+    .quotes-strip.no-transition {
+      transition: none;
+    }
+
+    .quotes-strip.slide-left {
+      transform: translateX(-100vw);
+    }
+
+    .quotes-strip.slide-right {
+      transform: translateX(100vw);
+    }
+
+    /* Each quote panel - all panels use identical internal layout */
+    .quote-panel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 clamp(5%, 10vw, 15%);
+      will-change: transform, filter, opacity;
+    }
+
+    /* Current panel - centered in viewport */
+    .quote-panel.current-panel {
+      transform: translateX(0);
+      z-index: 2;
+    }
+
+    /* Previous panel - off-screen to the left, inner content peeks in */
+    .quote-panel.prev-panel {
+      transform: translateX(-100%);
+      -webkit-filter: blur(8px);
+      filter: blur(8px);
+      color: #444;
+      z-index: 1;
+    }
+
+    .quote-panel.prev-panel .quote-panel-author {
+      color: #444;
+    }
+
+    .quote-panel.prev-panel .quote-panel-inner {
+      transform: translateX(85%);
+    }
+
+    /* Next panel - off-screen to the right, inner content peeks in */
+    .quote-panel.next-panel {
+      transform: translateX(100%);
+      -webkit-filter: blur(8px);
+      filter: blur(8px);
+      color: #555;
+      z-index: 1;
+    }
+
+    .quote-panel.next-panel .quote-panel-author {
+      color: #555;
+    }
+
+    .quote-panel.next-panel .quote-panel-inner {
+      transform: translateX(-85%);
+    }
+
+    .quote-panel-inner {
+      text-align: center;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .quote-panel-text {
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: clamp(1rem, 3vw, 2.25rem);
+    }
+
+    .quote-panel-author {
+      font-size: clamp(0.9rem, 1.5vw, 1.6rem);
+      font-weight: 400;
+      color: #FF0064;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* Center column - for backwards compatibility with other code */
+    .center-column {
+      display: none;
+    }
+
+    /* Drift tags below */
+    .drift-tags-below {
+      text-align: center;
+      padding: clamp(8px, 1.5vh, 15px) 0;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(2px, 0.5vh, 5px);
+    }
+
+    .drift-tag {
+      display: block;
+      color: #444;
+      font-size: clamp(0.75rem, 1vw, 1rem);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      cursor: pointer;
+      padding: clamp(5px, 1vh, 10px) 0;
+      transition: color 0.2s, transform 0.2s;
+      min-height: clamp(25px, 4vh, 40px);
+    }
+
+    .drift-tag:hover {
+      color: #777;
+      transform: translateY(2px);
+    }
+
+    .drift-tag:not(:empty)::before {
+      content: "↓ ";
+      opacity: 0.5;
+    }
+
+    /* Block 1: Quote */
+    .quote-block {
+      text-align: center;
+      padding: 40px 20px;
+      transition: opacity 0.3s ease;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .quote-block.fade {
+      opacity: 0;
+    }
+
+    .quote-text {
+      font-size: 48px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 36px;
+      line-height: 1.2;
+    }
+
+    .quote-author {
+      font-size: 1.6rem;
+	  font-weight: 400;
+      color: #FF0064;
+	  letter-spacing: .05em;
+	  margin-top: 15px;
+    }
+
+    .quote-tags {
+      text-align: center;
+      position: fixed;
+      top: clamp(50px, 8vh, 80px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+
+    .quote-tag {
+      font-size: clamp(0.9rem, 1.3vw, 1.5rem);
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 500;
+    }
+
+    /* Block 2: Book */
+    .book-block {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: clamp(12px, 2vw, 22px);
+      padding: clamp(8px, 1.5vw, 12px);
+      background: transparent;
+      border: none;
+      border-top: 1px solid #333;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+      height: clamp(100px, 15vh, 168px);
+      transition: opacity 0.3s ease;
+      overflow: hidden;
+    }
+
+    .book-block.fade-out {
+      opacity: 0;
+      transition: opacity 0.15s ease-out;
+    }
+
+    /* Inner content fades in */
+    .book-block-inner {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 22px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .book-block-inner.visible {
+      opacity: 1;
+    }
+
+    .book-block-inner .book-info {
+      text-align: left;
+    }
+
+    .book-cover {
+      height: clamp(80px, 12vh, 124px);
+      width: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 4px;
+    }
+
+    .book-cover-placeholder {
+      height: clamp(80px, 12vh, 124px);
+      width: clamp(54px, 8vh, 84px);
+      background: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      color: #888;
+      font-size: clamp(9px, 1vw, 11px);
+      text-align: center;
+      padding: 8px;
+    }
+
+    .book-info {
+      text-align: left;
+    }
+
+    .book-title {
+      font-size: clamp(11px, 1.2vw, 14px);
+      font-weight: bold;
+      margin-bottom: clamp(3px, 0.5vw, 6px);
+    }
+
+    .book-author {
+      font-size: clamp(10px, 1vw, 12px);
+      opacity: 0.8;
+      margin-bottom: clamp(3px, 0.5vw, 6px);
+    }
+
+    .book-year {
+      font-size: clamp(9px, 0.9vw, 11px);
+      opacity: 0.6;
+      margin-bottom: clamp(3px, 0.5vw, 6px);
+    }
+
+    .book-isbn {
+      font-size: clamp(8px, 0.8vw, 10px);
+      opacity: 0.5;
+      font-family: monospace;
+    }
+
+    .book-publisher {
+      font-size: clamp(8px, 0.8vw, 10px);
+      opacity: 0.5;
+      margin-top: 4px;
+    }
+
+    .no-book {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+      padding: 20px;
+    }
+
+    .count {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    /* Go to input - below count, only on localhost */
+    .goto-container {
+      position: fixed;
+      top: 40px;
+      left: 20px;
+      display: none;
+      align-items: center;
+      gap: 6px;
+      z-index: 50;
+    }
+
+    .goto-container input {
+      width: 50px;
+      padding: 4px 8px;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #fafafa;
+      font-size: 12px;
+      font-family: inherit;
+    }
+
+    .goto-container input:focus {
+      outline: none;
+      border-color: #FF0064;
+    }
+
+    .goto-container button {
+      padding: 4px 10px;
+      background: #333;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #888;
+      font-size: 11px;
+      cursor: pointer;
+    }
+
+    .goto-container button:hover {
+      background: #444;
+      color: #fafafa;
+    }
+
+    /* Search input and results */
+    .search-container {
+      position: relative;
+      margin-left: 12px;
+    }
+
+    .search-container input {
+      width: 180px;
+      padding: 4px 8px;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #fafafa;
+      font-size: 12px;
+      font-family: inherit;
+    }
+
+    .search-container input:focus {
+      outline: none;
+      border-color: #FF0064;
+    }
+
+    .search-results {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 350px;
+      max-height: 300px;
+      overflow-y: auto;
+      background: #1a1a1a;
+      border: 1px solid #444;
+      border-radius: 4px;
+      margin-top: 4px;
+      display: none;
+      z-index: 100;
+    }
+
+    .search-results.open {
+      display: block;
+    }
+
+    .search-result {
+      padding: 10px 12px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+
+    .search-result:last-child {
+      border-bottom: none;
+    }
+
+    .search-result:hover {
+      background: #252525;
+    }
+
+    .search-result-quote {
+      font-size: 12px;
+      color: #ccc;
+      line-height: 1.4;
+      margin-bottom: 4px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .search-result-meta {
+      font-size: 10px;
+      color: #888;
+    }
+
+    .search-result-meta .author {
+      color: #FF0064;
+    }
+
+    .search-no-results {
+      padding: 12px;
+      color: #666;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .container.hidden {
+      display: none;
+    }
+
+    .status-message {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 12px 24px;
+      background: #fafafa;
+      color: #111;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 100;
+    }
+
+    .status-message.show {
+      opacity: 1;
+    }
+
+    .status-message.error {
+      background: #c00;
+    }
+
+    @media (max-width: 768px) {
+      .quote-text {
+        font-size: 32px;
+      }
+
+      .book-block {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .book-info {
+        text-align: center;
+      }
+    }
+
+    /* Responsive adjustments for smaller laptops/windows */
+    @media (max-height: 700px) {
+      .quote-tags {
+        top: 40px;
+      }
+
+      .drift-tag-above {
+        padding: 8px 0;
+        min-height: 28px;
+      }
+
+      .drift-tags-below {
+        padding: 6px 0;
+      }
+
+      .drift-tag {
+        padding: 4px 0;
+        min-height: 22px;
+      }
+
+      .book-block {
+        height: 90px;
+      }
+    }
+
+    @media (max-height: 600px) {
+      .quote-tags {
+        top: 30px;
+      }
+
+      .drift-tag-above,
+      .drift-tags-below {
+        display: none;
+      }
+
+      .book-block {
+        height: 80px;
+        padding: 10px;
+      }
+
+      .book-cover {
+        height: 70px;
+      }
+
+      .book-cover-placeholder {
+        height: 70px;
+        width: 48px;
+      }
+    }
+
+    /* Landing Canvas - Infinite Book Cover Grid */
+    .landing-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #111;
+      overflow: hidden;
+      cursor: grab;
+      z-index: 100;
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .landing-canvas.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* When transitioning out, shrink covers toward bottom-center and drift downward with blur */
+    .landing-canvas.shrinking .canvas-cover {
+      transform: scale(0.3) translateY(150px);
+      transform-origin: center bottom;
+      opacity: 0;
+      filter: blur(8px);
+    }
+
+    .landing-canvas.grabbing {
+      cursor: grabbing;
+    }
+
+    /* Edge fade overlay - radial gradient from center */
+    .canvas-edge-fade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 10;
+      background: radial-gradient(
+        ellipse 70% 70% at center,
+        transparent 0%,
+        transparent 40%,
+        rgba(17, 17, 17, 0.3) 60%,
+        rgba(17, 17, 17, 0.7) 80%,
+        rgba(17, 17, 17, 0.95) 100%
+      );
+    }
+
+    .canvas-grid {
+      display: grid;
+      gap: 20px;
+      position: absolute;
+      user-select: none;
+    }
+
+    .canvas-cover {
+      width: 160px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease, opacity 0.5s ease, filter 0.5s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .canvas-cover:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+      z-index: 5;
+    }
+
+    /* Back to canvas button */
+    .back-to-canvas {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      width: 44px;
+      height: 44px;
+      background: transparent;
+      border: 1px solid #333;
+      border-radius: 50%;
+      color: #FF0064;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .back-to-canvas:hover {
+      border-color: #FF0064;
+      color: #FF0064;
+      background: rgba(255, 0, 100, 0.1);
+    }
+
+    .back-to-canvas svg {
+      width: 20px;
+      height: 20px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.5;
+    }
+
+    /* Edit link - top right, only shown on localhost */
+    .edit-link {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      color: #555;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      z-index: 50;
+      display: none;
+      transition: color 0.2s;
+    }
+
+    .edit-link:hover {
+      color: #FF0064;
+    }
+
+    /* Edit Modal */
+    .edit-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 200;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 40px 20px;
+      overflow-y: auto;
+    }
+
+    .edit-modal.open {
+      display: flex;
+    }
+
+    .edit-modal-content {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .edit-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #333;
+    }
+
+    .edit-modal-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fafafa;
+    }
+
+    .edit-modal-close {
+      background: none;
+      border: none;
+      color: #666;
+      font-size: 28px;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+    }
+
+    .edit-modal-close:hover {
+      color: #fafafa;
+    }
+
+    .edit-section {
+      margin-bottom: 24px;
+    }
+
+    .edit-section-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 12px;
+    }
+
+    .edit-field {
+      margin-bottom: 16px;
+    }
+
+    .edit-field label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      color: #888;
+      margin-bottom: 6px;
+    }
+
+    .edit-field input,
+    .edit-field textarea {
+      width: 100%;
+      padding: 10px 12px;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #fafafa;
+      font-size: 14px;
+      font-family: inherit;
+    }
+
+    .edit-field textarea {
+      min-height: 120px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+
+    .edit-field input:focus,
+    .edit-field textarea:focus {
+      outline: none;
+      border-color: #FF0064;
+    }
+
+    .edit-field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .edit-field-row-3 {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 12px;
+    }
+
+    /* Cover image section */
+    .cover-section {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .cover-preview {
+      width: 80px;
+      height: 120px;
+      background: #333;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .cover-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .cover-preview .no-cover {
+      color: #666;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    .cover-actions {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .cover-actions input[type="file"] {
+      display: none;
+    }
+
+    .cover-btn {
+      padding: 8px 12px;
+      background: #333;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #aaa;
+      font-size: 12px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s;
+    }
+
+    .cover-btn:hover {
+      background: #444;
+      color: #fafafa;
+    }
+
+    .cover-btn.remove {
+      border-color: #633;
+      color: #c66;
+    }
+
+    .cover-btn.remove:hover {
+      background: #633;
+      color: #fcc;
+    }
+
+    /* Tags section */
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .tag-chip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #333;
+      border: 1px solid #444;
+      border-radius: 16px;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    .tag-chip .tag-remove {
+      cursor: pointer;
+      color: #666;
+      font-size: 14px;
+      line-height: 1;
+    }
+
+    .tag-chip .tag-remove:hover {
+      color: #FF0064;
+    }
+
+    .tag-input-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .tag-input-row input {
+      flex: 1;
+    }
+
+    .tag-input-row button {
+      padding: 8px 16px;
+      background: #333;
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #aaa;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .tag-input-row button:hover {
+      background: #444;
+      color: #fafafa;
+    }
+
+    /* Modal actions */
+    .edit-modal-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+    }
+
+    .edit-modal-actions button {
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-save {
+      background: #FF0064;
+      border: none;
+      color: white;
+    }
+
+    .btn-save:hover {
+      background: #e6005a;
+    }
+
+    .btn-cancel {
+      background: transparent;
+      border: 1px solid #444;
+      color: #888;
+    }
+
+    .btn-cancel:hover {
+      border-color: #666;
+      color: #fafafa;
+    }
+
+    .btn-delete {
+      background: transparent;
+      border: 1px solid #633;
+      color: #c66;
+      margin-left: auto;
+    }
+
+    .btn-delete:hover {
+      background: #411;
+      border-color: #944;
+      color: #faa;
+    }
+  </style>
+</head>
+<body>
+  <div id="status-message" class="status-message"></div>
+
+  <!-- Edit link - only shown on localhost -->
+  <div id="edit-link" class="edit-link" onclick="openEditModal()">Edit</div>
+
+  <!-- Edit Modal -->
+  <div id="edit-modal" class="edit-modal" onclick="if(event.target === this) closeEditModal()">
+    <div class="edit-modal-content">
+      <div class="edit-modal-header">
+        <div class="edit-modal-title" id="modal-title">Edit Quote</div>
+        <button class="edit-modal-close" onclick="closeEditModal()">&times;</button>
+      </div>
+
+      <!-- Quote Section -->
+      <div class="edit-section">
+        <div class="edit-section-title">Quote</div>
+        <div class="edit-field">
+          <label>Quote Text</label>
+          <textarea id="edit-quote"></textarea>
+        </div>
+        <div class="edit-field">
+          <label>Quote Author</label>
+          <input type="text" id="edit-author">
+        </div>
+      </div>
+
+      <!-- Book Section -->
+      <div class="edit-section">
+        <div class="edit-section-title">Book</div>
+        <div class="edit-field-row-3">
+          <div class="edit-field">
+            <label>Publication / Book Title</label>
+            <input type="text" id="edit-publication">
+          </div>
+          <div class="edit-field">
+            <label>Year</label>
+            <input type="text" id="edit-year">
+          </div>
+          <div class="edit-field">
+            <label>ISBN</label>
+            <input type="text" id="edit-isbn">
+          </div>
+        </div>
+        <div class="edit-field">
+          <label>Book Author (if different from quote author)</label>
+          <input type="text" id="edit-book-author">
+        </div>
+      </div>
+
+      <!-- Cover Section -->
+      <div class="edit-section">
+        <div class="edit-section-title">Cover Image</div>
+        <div class="cover-section">
+          <div class="cover-preview" id="cover-preview">
+            <span class="no-cover">No cover</span>
+          </div>
+          <div class="cover-actions">
+            <label class="cover-btn" for="cover-upload">Upload Cover Image</label>
+            <input type="file" id="cover-upload" accept="image/*" onchange="handleCoverUpload(event)">
+            <button class="cover-btn remove" onclick="removeCover()">Remove Cover</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tags Section -->
+      <div class="edit-section">
+        <div class="edit-section-title">Tags</div>
+        <div class="tags-container" id="tags-container"></div>
+        <div class="tag-input-row">
+          <input type="text" id="new-tag-input" placeholder="Add a tag..." onkeydown="if(event.key==='Enter'){addTag(); event.preventDefault();}">
+          <button onclick="addTag()">Add</button>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="edit-modal-actions">
+        <button class="btn-save" id="save-btn" onclick="saveQuote()">Save Changes</button>
+        <button class="btn-cancel" onclick="closeEditModal()">Cancel</button>
+        <button class="btn-delete" id="delete-btn" onclick="deleteQuote()">Delete Quote</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Landing Canvas - Book Cover Grid -->
+  <div id="landing-canvas" class="landing-canvas">
+    <div class="canvas-grid" id="canvas-grid">
+      <!-- Book covers populated dynamically -->
+    </div>
+    <div class="canvas-edge-fade"></div>
+  </div>
+
+  <!-- Back to canvas button -->
+  <button id="back-to-canvas" class="back-to-canvas" title="Back to books">
+    <svg viewBox="0 0 24 24"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
+  </button>
+
+  <div id="view-mode" class="container" style="display: none;">
+    <!-- Drift tag above (press up arrow) -->
+    <div id="drift-tag-above" class="drift-tag-above"></div>
+
+    <!-- Current active tag (fixed position) -->
+    <div id="quote-tags" class="quote-tags"></div>
+
+    <!-- Main row: sliding strip of quotes -->
+    <div class="main-row">
+      <div id="quotes-strip" class="quotes-strip">
+        <!-- Previous quote panel -->
+        <div id="prev-panel" class="quote-panel prev-panel">
+          <div class="quote-panel-inner">
+            <div class="quote-panel-text"></div>
+            <div class="quote-panel-author"></div>
+          </div>
+        </div>
+
+        <!-- Current quote panel -->
+        <div id="current-panel" class="quote-panel current-panel">
+          <div class="quote-panel-inner">
+            <div class="quote-panel-text">Loading...</div>
+            <div class="quote-panel-author"></div>
+          </div>
+        </div>
+
+        <!-- Next quote panel -->
+        <div id="next-panel" class="quote-panel next-panel">
+          <div class="quote-panel-inner">
+            <div class="quote-panel-text"></div>
+            <div class="quote-panel-author"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Drift tags below (press down arrow) -->
+    <div class="drift-tags-below">
+      <div id="drift-tag-2" class="drift-tag"></div>
+    </div>
+
+    <!-- Book block at bottom -->
+    <div id="book-block" class="book-block">
+      <div class="book-cover-placeholder">Loading...</div>
+    </div>
+
+    <div id="count" class="count"></div>
+
+    <!-- Go to input - only shown on localhost -->
+    <div id="goto-container" class="goto-container">
+      <input type="number" id="goto-input" placeholder="#" min="1" onkeydown="if(event.key==='Enter'){goToQuote(); event.preventDefault();}">
+      <button onclick="goToQuote()">Go</button>
+      <button id="add-quote-btn" onclick="openAddModal()" title="Add new quote">+</button>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
+        <div id="search-results" class="search-results"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let quotes = [];
+    let currentIndex = 0;
+    let transitionActive = false;
+
+    // Tag navigation state
+    let tagConnections = {};  // Related tags data
+    let activeTag = null;     // Current tag we're navigating by
+    let activeTagCount = 0;   // How many times current tag has been used consecutively
+    let recentQuotes = [];    // Last 50 quote IDs shown (circular buffer)
+    let recentTags = [];      // Last N tags that were active (for cooldown)
+    let tagHistory = [];      // History of tags we've drifted through
+    let precomputedNextQuote = null;  // Pre-computed next quote for preview consistency
+
+    const MAX_TAG_STREAK = 12;   // Force tag drift after this many uses
+    const QUOTE_COOLDOWN = 50;   // Don't repeat a quote for this many views
+    const TAG_COOLDOWN = 8;      // Don't show a tag as drift option for this many tag changes
+
+    // Cache for Goodreads cover lookups
+    const goodreadsCoverCache = {};
+
+    // Landing canvas state
+    let isLandingVisible = true;
+    let publicationIndex = {};  // Maps publication -> { cover_url, quoteIndices[] }
+    let canvasOffset = { x: 0, y: 0 };
+    let isDragging = false;
+    let dragStart = { x: 0, y: 0 };
+    let dragMoved = false;  // Track if drag actually moved (vs click)
+    let coverWidth = 160;
+    let coverHeight = 240;
+    let coverGap = 20;
+    let allCovers = [];  // Shuffled array of publication names
+
+    // Chunk-based infinite canvas
+    const CHUNK_COLS = 4;  // Covers per chunk horizontally
+    const CHUNK_ROWS = 3;  // Covers per chunk vertically
+    let loadedChunks = new Map();  // Map<"x_y", {element, covers: string[]}>
+    let usedCovers = new Set();    // Covers currently displayed
+    let coverIndex = 0;            // Index into shuffled covers for picking new ones
+
+    // Build index of publications with covers
+    function buildPublicationIndex() {
+      publicationIndex = {};
+      quotes.forEach((q, idx) => {
+        if (q.cover_url && q.publication) {
+          if (!publicationIndex[q.publication]) {
+            publicationIndex[q.publication] = {
+              cover_url: q.cover_url,
+              quoteIndices: []
+            };
+          }
+          publicationIndex[q.publication].quoteIndices.push(idx);
+        }
+      });
+    }
+
+    // Shuffle array (Fisher-Yates)
+    function shuffleArray(arr) {
+      const result = [...arr];
+      for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+      }
+      return result;
+    }
+
+    // Get chunk key from chunk coordinates
+    function getChunkKey(chunkX, chunkY) {
+      return `${chunkX}_${chunkY}`;
+    }
+
+    // Get chunk pixel dimensions
+    function getChunkWidth() {
+      return CHUNK_COLS * (coverWidth + coverGap);
+    }
+
+    function getChunkHeight() {
+      return CHUNK_ROWS * (coverHeight + coverGap);
+    }
+
+    // Pick a cover, preferring unused ones and avoiding adjacent duplicates
+    function pickUniqueCover(chunkCovers, position) {
+      const cols = CHUNK_COLS;
+
+      // Get adjacent covers in this chunk (left and above)
+      const adjacentCovers = new Set();
+      const row = Math.floor(position / cols);
+      const col = position % cols;
+
+      // Left neighbor
+      if (col > 0 && chunkCovers[position - 1]) {
+        adjacentCovers.add(chunkCovers[position - 1]);
+      }
+      // Above neighbor
+      if (row > 0 && chunkCovers[position - cols]) {
+        adjacentCovers.add(chunkCovers[position - cols]);
+      }
+
+      // First try to find an unused cover that's not adjacent
+      let attempts = 0;
+      while (attempts < allCovers.length) {
+        const cover = allCovers[coverIndex];
+        coverIndex = (coverIndex + 1) % allCovers.length;
+
+        if (!usedCovers.has(cover) && !adjacentCovers.has(cover)) {
+          return cover;
+        }
+        attempts++;
+      }
+
+      // All covers used - find one that's at least not adjacent
+      attempts = 0;
+      while (attempts < allCovers.length) {
+        const cover = allCovers[coverIndex];
+        coverIndex = (coverIndex + 1) % allCovers.length;
+
+        if (!adjacentCovers.has(cover)) {
+          return cover;
+        }
+        attempts++;
+      }
+
+      // Fallback (shouldn't happen unless very few covers)
+      const cover = allCovers[coverIndex];
+      coverIndex = (coverIndex + 1) % allCovers.length;
+      return cover;
+    }
+
+    // Create a chunk at given chunk coordinates
+    function createChunk(chunkX, chunkY) {
+      const key = getChunkKey(chunkX, chunkY);
+      if (loadedChunks.has(key)) return;
+
+      const chunkDiv = document.createElement('div');
+      chunkDiv.className = 'canvas-chunk';
+      chunkDiv.style.position = 'absolute';
+      chunkDiv.style.left = `${chunkX * getChunkWidth()}px`;
+      chunkDiv.style.top = `${chunkY * getChunkHeight()}px`;
+      chunkDiv.style.display = 'grid';
+      chunkDiv.style.gridTemplateColumns = `repeat(${CHUNK_COLS}, ${coverWidth}px)`;
+      chunkDiv.style.gap = `${coverGap}px`;
+
+      const covers = [];
+      for (let i = 0; i < CHUNK_COLS * CHUNK_ROWS; i++) {
+        const pub = pickUniqueCover(covers, i);
+        covers.push(pub);
+        usedCovers.add(pub);
+
+        const info = publicationIndex[pub];
+        const img = document.createElement('img');
+        img.className = 'canvas-cover';
+        img.src = info.cover_url;
+        img.alt = pub;
+        img.dataset.publication = pub;
+        img.loading = 'lazy';
+        chunkDiv.appendChild(img);
+      }
+
+      document.getElementById('canvas-grid').appendChild(chunkDiv);
+      loadedChunks.set(key, { element: chunkDiv, covers });
+    }
+
+    // Remove a chunk
+    function removeChunk(chunkX, chunkY) {
+      const key = getChunkKey(chunkX, chunkY);
+      const chunk = loadedChunks.get(key);
+      if (!chunk) return;
+
+      // Free up the covers
+      chunk.covers.forEach(cover => usedCovers.delete(cover));
+
+      // Remove from DOM
+      chunk.element.remove();
+      loadedChunks.delete(key);
+    }
+
+    // Calculate which chunks should be visible
+    function getVisibleChunkRange() {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const chunkW = getChunkWidth();
+      const chunkH = getChunkHeight();
+
+      // Current viewport in world coordinates
+      const viewLeft = -canvasOffset.x;
+      const viewTop = -canvasOffset.y;
+      const viewRight = viewLeft + vw;
+      const viewBottom = viewTop + vh;
+
+      // Convert to chunk coordinates with 1 chunk buffer
+      const minChunkX = Math.floor(viewLeft / chunkW) - 1;
+      const maxChunkX = Math.floor(viewRight / chunkW) + 1;
+      const minChunkY = Math.floor(viewTop / chunkH) - 1;
+      const maxChunkY = Math.floor(viewBottom / chunkH) + 1;
+
+      return { minChunkX, maxChunkX, minChunkY, maxChunkY };
+    }
+
+    // Update which chunks are loaded based on current position
+    function updateVisibleChunks() {
+      const { minChunkX, maxChunkX, minChunkY, maxChunkY } = getVisibleChunkRange();
+
+      // Load chunks that should be visible
+      for (let cx = minChunkX; cx <= maxChunkX; cx++) {
+        for (let cy = minChunkY; cy <= maxChunkY; cy++) {
+          createChunk(cx, cy);
+        }
+      }
+
+      // Unload chunks outside the visible range (aggressive - free covers quickly)
+      const chunksToRemove = [];
+      loadedChunks.forEach((chunk, key) => {
+        const [cx, cy] = key.split('_').map(Number);
+        if (cx < minChunkX || cx > maxChunkX ||
+            cy < minChunkY || cy > maxChunkY) {
+          chunksToRemove.push({ cx, cy });
+        }
+      });
+      chunksToRemove.forEach(({ cx, cy }) => removeChunk(cx, cy));
+    }
+
+    // Render the landing canvas - initialize chunks
+    function renderLandingCanvas() {
+      const grid = document.getElementById('canvas-grid');
+
+      // Clear existing chunks
+      loadedChunks.forEach((chunk) => chunk.element.remove());
+      loadedChunks.clear();
+      usedCovers.clear();
+
+      // Shuffle covers for fresh order
+      allCovers = shuffleArray(Object.keys(publicationIndex));
+      coverIndex = 0;
+
+      // Reset position to center (0,0 in world space)
+      canvasOffset.x = window.innerWidth / 2;
+      canvasOffset.y = window.innerHeight / 2;
+
+      // Load initial chunks
+      updateVisibleChunks();
+      updateCanvasPosition();
+    }
+
+    // Update canvas position (no wrapping - truly infinite)
+    function updateCanvasPosition() {
+      const grid = document.getElementById('canvas-grid');
+      grid.style.transform = `translate(${canvasOffset.x}px, ${canvasOffset.y}px)`;
+      updateVisibleChunks();
+    }
+
+    // Handle canvas pan start
+    function onCanvasPanStart(e) {
+      // Allow drag to start on covers too for better UX
+      isDragging = true;
+      dragMoved = false;
+      const clientX = e.clientX ?? e.touches?.[0]?.clientX ?? 0;
+      const clientY = e.clientY ?? e.touches?.[0]?.clientY ?? 0;
+      dragStart.x = clientX - canvasOffset.x;
+      dragStart.y = clientY - canvasOffset.y;
+      document.getElementById('landing-canvas').classList.add('grabbing');
+    }
+
+    // Handle canvas pan move
+    function onCanvasPanMove(e) {
+      if (!isDragging) return;
+      e.preventDefault();
+      const clientX = e.clientX ?? e.touches?.[0]?.clientX ?? 0;
+      const clientY = e.clientY ?? e.touches?.[0]?.clientY ?? 0;
+
+      const newX = clientX - dragStart.x;
+      const newY = clientY - dragStart.y;
+
+      // Check if we've actually moved (for click vs drag detection)
+      if (Math.abs(newX - canvasOffset.x) > 5 || Math.abs(newY - canvasOffset.y) > 5) {
+        dragMoved = true;
+      }
+
+      canvasOffset.x = newX;
+      canvasOffset.y = newY;
+
+      updateCanvasPosition();
+    }
+
+    // Handle canvas pan end
+    function onCanvasPanEnd() {
+      isDragging = false;
+      document.getElementById('landing-canvas').classList.remove('grabbing');
+    }
+
+    // Handle cover click
+    function onCoverClick(e) {
+      // Only trigger if we didn't drag
+      if (dragMoved) return;
+
+      if (e.target.classList.contains('canvas-cover')) {
+        const publication = e.target.dataset.publication;
+        const info = publicationIndex[publication];
+        if (info && info.quoteIndices.length > 0) {
+          // Pick random quote from this publication
+          const randomIdx = info.quoteIndices[Math.floor(Math.random() * info.quoteIndices.length)];
+          // Pass the clicked cover element for animation
+          transitionToQuote(randomIdx, e.target);
+        }
+      }
+    }
+
+    // Store flying cover globally so render() can coordinate with it
+    let activeFlyingCover = null;
+    // Track the landed flying cover so we can remove it when navigating away
+    let landedFlyingCover = null;
+
+    // Transition from landing canvas to quote view
+    async function transitionToQuote(quoteIndex, clickedCover = null) {
+      const landingCanvas = document.getElementById('landing-canvas');
+      const viewMode = document.getElementById('view-mode');
+      const backBtn = document.getElementById('back-to-canvas');
+
+      // If we have a clicked cover, create a flying clone at its current position
+      if (clickedCover) {
+        const startRect = clickedCover.getBoundingClientRect();
+
+        const flyingCover = document.createElement('img');
+        flyingCover.src = clickedCover.src;
+        flyingCover.className = 'flying-cover';
+        flyingCover.style.cssText = `
+          position: fixed;
+          z-index: 1000;
+          left: ${startRect.left}px;
+          top: ${startRect.top}px;
+          width: ${startRect.width}px;
+          height: ${startRect.height}px;
+          object-fit: cover;
+          border-radius: 4px;
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+          transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+          pointer-events: none;
+          filter: blur(2px);
+          opacity: 0.85;
+        `;
+        document.body.appendChild(flyingCover);
+        activeFlyingCover = flyingCover;
+      }
+
+      // Add shrinking class to make all covers zoom out with blur
+      landingCanvas.classList.add('shrinking');
+      landingCanvas.classList.add('hidden');
+
+      // After canvas fades, show quote view and animate flying cover
+      setTimeout(async () => {
+        landingCanvas.style.display = 'none';
+        landingCanvas.classList.remove('shrinking');
+        viewMode.style.display = 'flex';
+        backBtn.style.display = 'flex';
+
+        isLandingVisible = false;
+        currentIndex = quoteIndex;
+        startTagJourney(quotes[quoteIndex]);
+        addToRecentQuotes(quotes[quoteIndex].id);
+
+        // Render content - this will also trigger flying cover animation
+        await render(quotes[quoteIndex], quoteIndex);
+      }, 150);
+    }
+
+    // Transition back to landing canvas
+    function transitionToCanvas() {
+      const landingCanvas = document.getElementById('landing-canvas');
+      const viewMode = document.getElementById('view-mode');
+      const backBtn = document.getElementById('back-to-canvas');
+
+      // Remove any leftover flying covers
+      document.querySelectorAll('.flying-cover').forEach(el => el.remove());
+
+      // Fade out quote view
+      viewMode.style.opacity = '0';
+      viewMode.style.transition = 'opacity 0.4s ease';
+
+      setTimeout(() => {
+        viewMode.style.display = 'none';
+        viewMode.style.opacity = '';
+        viewMode.style.transition = '';
+        backBtn.style.display = 'none';
+
+        // Show landing canvas
+        landingCanvas.style.display = 'block';
+        landingCanvas.classList.remove('hidden');
+        isLandingVisible = true;
+
+        // Re-shuffle covers for fresh experience
+        renderLandingCanvas();
+      }, 400);
+    }
+
+    // Handle scroll/wheel for panning (trackpad two-finger, mouse wheel)
+    function onCanvasScroll(e) {
+      if (!isLandingVisible) return;
+      e.preventDefault();
+
+      // Use deltaX and deltaY for panning
+      canvasOffset.x -= e.deltaX;
+      canvasOffset.y -= e.deltaY;
+
+      updateCanvasPosition();
+    }
+
+    // Initialize landing canvas event listeners
+    function initLandingCanvas() {
+      const canvas = document.getElementById('landing-canvas');
+
+      // Mouse drag events (click and hold)
+      canvas.addEventListener('mousedown', onCanvasPanStart);
+      document.addEventListener('mousemove', onCanvasPanMove);
+      document.addEventListener('mouseup', onCanvasPanEnd);
+
+      // Touch events (mobile drag)
+      canvas.addEventListener('touchstart', onCanvasPanStart, { passive: false });
+      document.addEventListener('touchmove', onCanvasPanMove, { passive: false });
+      document.addEventListener('touchend', onCanvasPanEnd);
+
+      // Scroll/wheel events (trackpad two-finger, mouse wheel)
+      canvas.addEventListener('wheel', onCanvasScroll, { passive: false });
+
+      // Cover click
+      canvas.addEventListener('click', onCoverClick);
+
+      // Back button
+      document.getElementById('back-to-canvas').addEventListener('click', transitionToCanvas);
+
+      // Handle window resize
+      window.addEventListener('resize', () => {
+        if (isLandingVisible) {
+          renderLandingCanvas();  // Re-render to fill new viewport size
+        }
+      });
+    }
+
+    // Smart uppercase that preserves Mc/Mac patterns (e.g., McLuhan -> McLUHAN)
+    function smartUppercase(name) {
+      return name.replace(/\b(\w+)/g, (word) => {
+        // Check for Mc or Mac prefix
+        if (/^Mc[A-Z]/.test(word)) {
+          return 'Mc' + word.slice(2).toUpperCase();
+        }
+        if (/^Mac[A-Z]/.test(word) && word.length > 4) {
+          return 'Mac' + word.slice(3).toUpperCase();
+        }
+        return word.toUpperCase();
+      });
+    }
+
+    // Simple fade transition for quote changes (used for up/down drift)
+    function fadeTransition(newIndex, onComplete) {
+      const currentPanel = document.getElementById('current-panel');
+      const bookBlock = document.getElementById('book-block');
+
+      // Fade out
+      currentPanel.style.opacity = '0';
+      currentPanel.style.transition = 'opacity 0.3s ease';
+      bookBlock.classList.add('fade-out');
+
+      // After fade out, update content and fade in
+      setTimeout(() => {
+        currentIndex = newIndex;
+        render(quotes[newIndex], newIndex);
+
+        // Fade in
+        currentPanel.style.opacity = '1';
+        bookBlock.classList.remove('fade-out');
+
+        if (onComplete) onComplete();
+      }, 300);
+    }
+
+    // Horizontal slide transition for left/right navigation
+    function slideTransition(newIndex, direction, onComplete) {
+      const prevPanel = document.getElementById('prev-panel');
+      const currentPanel = document.getElementById('current-panel');
+      const nextPanel = document.getElementById('next-panel');
+      const bookBlock = document.getElementById('book-block');
+
+      // Fade out book
+      bookBlock.classList.add('fade-out');
+
+      // Set up transitions on all panels
+      const panels = [prevPanel, currentPanel, nextPanel];
+      panels.forEach(p => {
+        p.style.transition = 'transform 0.5s ease-out, filter 0.5s ease-out, opacity 0.5s ease-out, color 0.5s ease-out';
+      });
+
+      // Also transition the author color
+      const prevAuthor = prevPanel.querySelector('.quote-panel-author');
+      const currentAuthor = currentPanel.querySelector('.quote-panel-author');
+      const nextAuthor = nextPanel.querySelector('.quote-panel-author');
+      [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+        if (a) a.style.transition = 'color 0.5s ease-out';
+      });
+
+      // Get inner elements for animating their transforms too
+      const prevInner = prevPanel.querySelector('.quote-panel-inner');
+      const currentInner = currentPanel.querySelector('.quote-panel-inner');
+      const nextInner = nextPanel.querySelector('.quote-panel-inner');
+
+      // Add transitions to inner elements
+      [prevInner, currentInner, nextInner].forEach(inner => {
+        if (inner) inner.style.transition = 'transform 0.5s ease-out';
+      });
+
+      // Panels use transform: prev at -100%, current at 0%, next at 100%
+      // Inner content is offset by 85% to peek in from edges
+      // When sliding, we move panel by 100% AND remove inner offset
+      if (direction === 'left') {
+        // Going to next quote (right arrow/spacebar)
+        // Next panel slides from right (100%) to center (0)
+        nextPanel.style.transform = 'translateX(0)';
+        nextPanel.style.filter = 'blur(0px)';
+        nextPanel.style.color = '#fafafa';
+        if (nextAuthor) nextAuthor.style.color = '#FF0064';
+        // Remove inner offset so text centers
+        if (nextInner) nextInner.style.transform = 'translateX(0)';
+
+        // Current panel slides from center (0) to left (-100%)
+        currentPanel.style.transform = 'translateX(-100%)';
+        currentPanel.style.color = '#444';
+        if (currentAuthor) currentAuthor.style.color = '#444';
+        // Add inner offset for left peek position
+        if (currentInner) currentInner.style.transform = 'translateX(85%)';
+
+        // Prev panel slides further left (fade out)
+        prevPanel.style.transform = 'translateX(-200%)';
+        prevPanel.style.opacity = '0';
+      } else {
+        // Going to prev quote (left arrow)
+        // Prev panel slides from left (-100%) to center (0)
+        prevPanel.style.transform = 'translateX(0)';
+        prevPanel.style.filter = 'blur(0px)';
+        prevPanel.style.color = '#fafafa';
+        if (prevAuthor) prevAuthor.style.color = '#FF0064';
+        // Remove inner offset so text centers
+        if (prevInner) prevInner.style.transform = 'translateX(0)';
+
+        // Current panel slides from center (0) to right (100%)
+        currentPanel.style.transform = 'translateX(100%)';
+        currentPanel.style.filter = 'blur(8px)';
+        currentPanel.style.color = '#555';
+        if (currentAuthor) currentAuthor.style.color = '#555';
+        // Add inner offset for right peek position
+        if (currentInner) currentInner.style.transform = 'translateX(-85%)';
+
+        // Next panel slides further right (fade out)
+        nextPanel.style.transform = 'translateX(200%)';
+        nextPanel.style.opacity = '0';
+      }
+
+      // After slide completes, swap content
+      setTimeout(() => {
+          // Disable transitions for swap
+          panels.forEach(p => {
+            p.style.transition = 'none';
+          });
+          [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+            if (a) a.style.transition = 'none';
+          });
+          [prevInner, currentInner, nextInner].forEach(inner => {
+            if (inner) inner.style.transition = 'none';
+          });
+
+          // Update state
+          currentIndex = newIndex;
+
+          // Reset all inline styles on panels
+          panels.forEach(p => {
+            p.style.transform = '';
+            p.style.filter = '';
+            p.style.color = '';
+          });
+          [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+            if (a) a.style.color = '';
+          });
+          // Reset inner transforms (CSS will re-apply the offsets based on class)
+          [prevInner, currentInner, nextInner].forEach(inner => {
+            if (inner) inner.style.transform = '';
+          });
+
+          // Force reflow
+          currentPanel.offsetHeight;
+
+          // Update all panel content
+          renderPanel(currentPanel, quotes[newIndex]);
+          precomputeNextQuote();
+          renderPanel(nextPanel, peekNextQuote());
+          renderPanel(prevPanel, getPrevQuote());
+
+          // Update other UI elements
+          const tagsEl = document.getElementById("quote-tags");
+          if (activeTag) {
+            tagsEl.innerHTML = `<span class="quote-tag active-tag">On ${activeTag}</span>`;
+          } else {
+            const topTag = getTopWeightedTag(quotes[newIndex]);
+            if (topTag) {
+              tagsEl.innerHTML = `<span class="quote-tag">${topTag}</span>`;
+            } else {
+              tagsEl.innerHTML = '';
+            }
+          }
+          document.getElementById("count").textContent = `${newIndex + 1} / ${quotes.length}`;
+          renderRelatedTags();
+
+          // Update book block
+          updateBookBlock(quotes[newIndex]);
+
+          // Force reflow
+          currentPanel.offsetHeight;
+
+          // Reset opacity for panels that were faded out
+          panels.forEach(p => {
+            p.style.opacity = '';
+            p.style.transition = '';
+          });
+          [prevAuthor, currentAuthor, nextAuthor].forEach(a => {
+            if (a) a.style.transition = '';
+          });
+          [prevInner, currentInner, nextInner].forEach(inner => {
+            if (inner) inner.style.transition = '';
+          });
+
+          // Fade in book
+          bookBlock.classList.remove('fade-out');
+
+          if (onComplete) {
+            setTimeout(onComplete, 100);
+          }
+      }, 500); // Wait for slide to complete
+    }
+
+    // Update book block without full re-render
+    function updateBookBlock(q) {
+      const bookBlock = document.getElementById("book-block");
+      bookBlock.innerHTML = '<div class="book-block-inner"></div>';
+      const innerBlock = bookBlock.querySelector('.book-block-inner');
+
+      setTimeout(async () => {
+        const bookTitle = q.publication || q.book_title;
+        const hasBook = bookTitle || q.isbn || q.cover_url;
+        const bookAuthor = q.book_author || q.author;
+
+        if (hasBook) {
+          let coverUrl = getCoverUrl(q);
+          if (!coverUrl) {
+            coverUrl = await fetchGoodreadsCover(q);
+          }
+
+          const coverHtml = coverUrl
+            ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
+            : `<div class="book-cover-placeholder">No cover available</div>`;
+
+          innerBlock.innerHTML = `
+            ${coverHtml}
+            <div class="book-info">
+              <div class="book-title">${bookTitle || 'Unknown title'}</div>
+              <div class="book-author">${bookAuthor}</div>
+              ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
+            </div>
+          `;
+        } else {
+          innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
+        }
+
+        requestAnimationFrame(() => {
+          innerBlock.classList.add('visible');
+        });
+      }, 500);
+    }
+
+    function getCoverUrl(q) {
+      // Local cover URL takes precedence
+      if (q.cover_url) return q.cover_url;
+      return null;
+    }
+
+    async function fetchGoodreadsCover(q) {
+      // Try to get cover from Goodreads API
+      const title = q.publication || q.book_title;
+      const author = q.book_author || q.author;
+
+      if (!title) return null;
+
+      const cacheKey = `${title}|${author}`;
+      if (goodreadsCoverCache[cacheKey] !== undefined) {
+        return goodreadsCoverCache[cacheKey];
+      }
+
+      try {
+        const params = new URLSearchParams({ book_title: title, author_name: author });
+        const res = await fetch(`https://bookcover.longitood.com/bookcover?${params}`);
+        if (res.ok) {
+          const data = await res.json();
+          goodreadsCoverCache[cacheKey] = data.url || null;
+          return data.url || null;
+        }
+      } catch (e) {
+        console.log("Goodreads cover fetch failed:", e);
+      }
+      goodreadsCoverCache[cacheKey] = null;
+      return null;
+    }
+
+    function showStatus(message, isError = false) {
+      const el = document.getElementById("status-message");
+      el.textContent = message;
+      el.className = "status-message show" + (isError ? " error" : "");
+      setTimeout(() => {
+        el.className = "status-message";
+      }, 3000);
+    }
+
+    function getQuoteFontSize(text) {
+      const len = text.length;
+      // Returns a clamp() value for responsive sizing
+      // Short quotes get larger text, long quotes get smaller
+      // Base scale: vw unit for fluid scaling
+      // Short quotes (< 50 chars): clamp(2.4rem, 6vw, 5rem)
+      // Long quotes (> 200 chars): clamp(1.2rem, 2.5vw, 2.2rem)
+      let vwBase, minRem, maxRem;
+      if (len <= 50) {
+        vwBase = 6;
+        minRem = 2.4;
+        maxRem = 5;
+      } else if (len >= 200) {
+        vwBase = 2.5;
+        minRem = 1.2;
+        maxRem = 2.2;
+      } else {
+        // Linear interpolation
+        const ratio = (len - 50) / (200 - 50);
+        vwBase = 6 - ratio * 3.5;
+        minRem = 2.4 - ratio * 1.2;
+        maxRem = 5 - ratio * 2.8;
+      }
+      return `clamp(${minRem.toFixed(2)}rem, ${vwBase.toFixed(2)}vw, ${maxRem.toFixed(2)}rem)`;
+    }
+
+    // Render a quote into a panel element
+    function renderPanel(panel, q) {
+      if (!q) {
+        panel.querySelector('.quote-panel-text').textContent = '';
+        panel.querySelector('.quote-panel-author').textContent = '';
+        return;
+      }
+      const textEl = panel.querySelector('.quote-panel-text');
+      textEl.textContent = '\u2018' + q.quote + '\u2019';
+      textEl.style.fontSize = getQuoteFontSize(q.quote);
+      panel.querySelector('.quote-panel-author').textContent = smartUppercase(q.author);
+    }
+
+    async function render(q, index) {
+      // Render current quote into center panel
+      const currentPanel = document.getElementById('current-panel');
+      renderPanel(currentPanel, q);
+
+      // Tags - show only the active navigation tag
+      const tagsEl = document.getElementById("quote-tags");
+      if (activeTag) {
+        tagsEl.innerHTML = `<span class="quote-tag active-tag">On ${activeTag}</span>`;
+      } else {
+        // Fallback: show top weighted tag
+        const topTag = getTopWeightedTag(q);
+        if (topTag) {
+          tagsEl.innerHTML = `<span class="quote-tag">${topTag}</span>`;
+        } else {
+          tagsEl.innerHTML = '';
+        }
+      }
+
+      // Precompute next quote BEFORE rendering side panels
+      precomputeNextQuote();
+
+      // Render prev/next panels
+      renderSideQuotes();
+
+      // Block 2: Book - coordinate with flying cover if present
+      // Remove the previous landed flying cover if it exists
+      console.log('Checking landedFlyingCover:', landedFlyingCover);
+      if (landedFlyingCover) {
+        console.log('Removing landedFlyingCover');
+        landedFlyingCover.remove();
+        landedFlyingCover = null;
+      }
+
+      const bookBlock = document.getElementById("book-block");
+      bookBlock.innerHTML = '<div class="book-block-inner"></div>';
+      const innerBlock = bookBlock.querySelector('.book-block-inner');
+
+      const bookTitle = q.publication || q.book_title;
+      const hasBook = bookTitle || q.isbn || q.cover_url;
+      const bookAuthor = q.book_author || q.author;
+
+      // Build book info HTML (without cover initially if we have flying cover)
+      const buildBookInfo = () => `
+        <div class="book-info">
+          <div class="book-title">${bookTitle || 'Unknown title'}</div>
+          <div class="book-author">${bookAuthor}</div>
+          ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
+        </div>
+      `;
+
+      console.log('render() - activeFlyingCover:', !!activeFlyingCover, 'hasBook:', hasBook);
+
+      if (activeFlyingCover && hasBook) {
+        // We have a flying cover - animate it to the book cover position
+        // Capture reference immediately and clear globals to prevent re-entry issues
+        const flyingCover = activeFlyingCover;
+        activeFlyingCover = null;
+        // Store reference NOW so it can be cleaned up on next render
+        landedFlyingCover = flyingCover;
+
+        console.log('Using flying cover path');
+        innerBlock.innerHTML = buildBookInfo();
+        innerBlock.classList.add('visible');
+
+        // Create invisible placeholder to measure exact target position
+        const placeholder = document.createElement('div');
+        placeholder.className = 'book-cover-placeholder';
+        placeholder.style.visibility = 'hidden';
+        innerBlock.insertBefore(placeholder, innerBlock.firstChild);
+
+        // Get cover URL for this quote
+        let coverUrl = getCoverUrl(q);
+
+        // Wait for layout, then animate flying cover to match
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            const targetRect = placeholder.getBoundingClientRect();
+            console.log('Flying cover target:', targetRect.left, targetRect.top, targetRect.width, targetRect.height);
+
+            // Animate flying cover to exact target position
+            // Also clear blur and restore opacity as it lands
+            flyingCover.style.left = `${targetRect.left}px`;
+            flyingCover.style.top = `${targetRect.top}px`;
+            flyingCover.style.width = `${targetRect.width}px`;
+            flyingCover.style.height = `${targetRect.height}px`;
+            flyingCover.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+            flyingCover.style.filter = 'blur(0px)';
+            flyingCover.style.opacity = '1';
+
+            // After animation completes, swap flying cover with real DOM cover
+            setTimeout(() => {
+              // Only swap if this flying cover is still the landed one
+              if (landedFlyingCover === flyingCover) {
+                // Replace placeholder with actual cover image
+                const realCover = coverUrl
+                  ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover</div>'">`
+                  : `<div class="book-cover-placeholder">No cover</div>`;
+                placeholder.outerHTML = realCover;
+
+                // Remove the flying cover
+                flyingCover.remove();
+                landedFlyingCover = null;
+              }
+            }, 350); // Match animation duration
+          });
+        });
+
+      } else {
+        // No flying cover - use standard delayed load
+        setTimeout(async () => {
+          if (hasBook) {
+            let coverUrl = getCoverUrl(q);
+            if (!coverUrl) {
+              coverUrl = await fetchGoodreadsCover(q);
+            }
+
+            const coverHtml = coverUrl
+              ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
+              : `<div class="book-cover-placeholder">No cover available</div>`;
+
+            innerBlock.innerHTML = `${coverHtml}${buildBookInfo()}`;
+          } else {
+            innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
+          }
+
+          requestAnimationFrame(() => {
+            innerBlock.classList.add('visible');
+          });
+        }, 500);
+      }
+
+      // Count
+      document.getElementById("count").textContent = `${index + 1} / ${quotes.length}`;
+      currentIndex = index;
+
+      // Render related tags
+      renderRelatedTags();
+    }
+
+    // Precompute the next quote so preview matches what will actually load
+    // Also tracks which tag the next quote will use (for seamless tag updates)
+    let precomputedNextTag = null;
+
+    function precomputeNextQuote() {
+      const currentQuoteId = quotes[currentIndex]?.id;
+      precomputedNextTag = activeTag;  // Default: same tag
+
+      // Check if we need to force a drift due to streak limit
+      // Use MAX_TAG_STREAK - 1 because the next quote will increment count
+      const mustDrift = activeTagCount >= MAX_TAG_STREAK - 1;
+
+      // If we have an active tag, try to find a quote with that tag
+      if (activeTag) {
+        // If we haven't hit the streak limit, try to stay on same tag
+        if (!mustDrift) {
+          const candidates = getQuotesWithTag(activeTag).filter(q => q.id !== currentQuoteId);
+          if (candidates.length > 0) {
+            precomputedNextQuote = candidates[Math.floor(Math.random() * candidates.length)];
+            precomputedNextTag = activeTag;
+            return;
+          }
+        } else {
+          console.log(`Streak limit approaching (${activeTagCount}/${MAX_TAG_STREAK}), forcing drift from: ${activeTag}`);
+        }
+
+        // No more quotes with current tag OR must drift - go to related tag
+        if (tagConnections[activeTag]) {
+          for (const r of tagConnections[activeTag].related || []) {
+            const relatedCandidates = getQuotesWithTag(r.tag).filter(q => q.id !== currentQuoteId);
+            if (relatedCandidates.length > 0) {
+              precomputedNextQuote = relatedCandidates[Math.floor(Math.random() * relatedCandidates.length)];
+              precomputedNextTag = r.tag;  // Tag will change!
+              console.log(`Precomputed drift: ${activeTag} -> ${r.tag}`);
+              return;
+            }
+          }
+        }
+      }
+
+      // Fallback: pick any random quote that's not the current one
+      const otherQuotes = quotes.filter(q => q.id !== currentQuoteId);
+      if (otherQuotes.length > 0) {
+        precomputedNextQuote = otherQuotes[Math.floor(Math.random() * otherQuotes.length)];
+        // Use the top tag from this random quote
+        precomputedNextTag = getTopWeightedTag(precomputedNextQuote);
+      } else {
+        precomputedNextQuote = null;
+        precomputedNextTag = null;
+      }
+    }
+
+    // Get the next quote that would be shown (preview)
+    function peekNextQuote() {
+      return precomputedNextQuote;
+    }
+
+    // Get the previous quote shown (from history)
+    function getPrevQuote() {
+      // Use the quote before current in recent history
+      // Only show prev if we have actual history (user has navigated)
+      if (recentQuotes.length >= 2) {
+        const prevId = recentQuotes[recentQuotes.length - 2];
+        return quotes.find(q => q.id === prevId);
+      }
+      // No history yet - return null (left panel stays empty on first load)
+      return null;
+    }
+
+    function renderSideQuotes() {
+      const prevPanel = document.getElementById('prev-panel');
+      const nextPanel = document.getElementById('next-panel');
+
+      // Previous quote
+      const prev = getPrevQuote();
+      console.log('Rendering prev quote:', prev ? prev.quote.substring(0, 30) + '...' : 'null');
+      renderPanel(prevPanel, prev);
+
+      // Next quote preview
+      const next = peekNextQuote();
+      console.log('Rendering next quote:', next ? next.quote.substring(0, 30) + '...' : 'null');
+      renderPanel(nextPanel, next);
+    }
+
+    // Track available drift tags for up/down navigation
+    let driftTags = [];  // [tagAbove, tag2, tag3]
+
+    function renderRelatedTags() {
+      const tagAboveEl = document.getElementById('drift-tag-above');
+      const tag2El = document.getElementById('drift-tag-2');
+      // Clear existing
+      tagAboveEl.textContent = '';
+      tag2El.textContent = '';
+      driftTags = [];
+
+      console.log('renderRelatedTags called, tagHistory:', tagHistory);
+
+      // Show previous tag above (if we have navigation history)
+      // The "back" tag is exempt from cooldown - always show it
+      if (tagHistory.length > 0) {
+        const prevTag = tagHistory[tagHistory.length - 1];
+        tagAboveEl.textContent = prevTag;
+        tagAboveEl.onclick = () => switchToTag(prevTag);
+        driftTags.push(prevTag);
+        console.log('Set tag above to:', prevTag);
+      }
+
+      // Get related tags - try from tagConnections first, fall back to current quote's tags
+      let related = [];
+      if (activeTag && tagConnections[activeTag]) {
+        related = (tagConnections[activeTag].related || [])
+          .filter(r => !isTagOnCooldown(r.tag) && r.tag !== activeTag);
+      }
+
+      // If no related tags from connections, use the current quote's other weighted tags
+      if (related.length === 0 && quotes[currentIndex]) {
+        const currentQuote = quotes[currentIndex];
+        const weightedTags = currentQuote.weighted_tags || [];
+        const author = (currentQuote.author || '').toLowerCase();
+
+        related = weightedTags
+          .filter(t => {
+            // Skip the active tag itself
+            if (t.tag === activeTag) return false;
+            // Skip author-like tags
+            if (t.tag.includes(author) || author.includes(t.tag)) return false;
+            // Skip tags on cooldown
+            if (isTagOnCooldown(t.tag)) return false;
+            // Only include tags that exist in tagConnections
+            if (!tagConnections[t.tag]) return false;
+            return true;
+          })
+          .map(t => ({ tag: t.tag, score: t.weight }));
+      }
+
+      // Show top 1 related tag below
+      if (related.length > 0) {
+        tag2El.textContent = related[0].tag;
+        tag2El.onclick = () => switchToTag(related[0].tag);
+        driftTags.push(related[0].tag);
+      }
+    }
+
+    // Switch to a different tag (when user clicks a related tag)
+    function switchToTag(newTag) {
+      if (transitionActive) return;
+
+      console.log(`Switching to tag: ${newTag}`);
+      tagHistory.push(activeTag);
+      addToRecentTags(activeTag);  // Put old tag on cooldown
+      activeTag = newTag;
+      activeTagCount = 0;
+
+      // Find a quote with this tag
+      const candidates = getQuotesWithTag(newTag);
+      if (candidates.length > 0) {
+        const pick = candidates[Math.floor(Math.random() * candidates.length)];
+        const nextIndex = quotes.indexOf(pick);
+        addToRecentQuotes(pick.id);
+        activeTagCount = 1;
+
+        transitionActive = true;
+        fadeTransition(nextIndex, () => {
+          transitionActive = false;
+        });
+      }
+    }
+
+    function pickRandom() {
+      return Math.floor(Math.random() * quotes.length);
+    }
+
+    function transitionTo(index, preserveTag = false) {
+      // Update currentIndex immediately to prevent edit mismatch
+      currentIndex = index;
+
+      // Reset tag journey when manually navigating (prev/next/goto)
+      if (!preserveTag) {
+        startTagJourney(quotes[index]);
+      }
+
+      // Use fade transition
+      fadeTransition(index, null);
+    }
+
+    function showNext() {
+      const nextIndex = (currentIndex + 1) % quotes.length;
+      transitionTo(nextIndex);
+    }
+
+    function showPrev() {
+      const prevIndex = (currentIndex - 1 + quotes.length) % quotes.length;
+      transitionTo(prevIndex);
+    }
+
+    // Get the top weighted tag for a quote (excluding author names)
+    // Only returns tags that exist in tagConnections (popular/connected tags)
+    // Randomly selects from tags within 50% of the max weight for variety
+    function getTopWeightedTag(quote) {
+      const weightedTags = quote.weighted_tags || [];
+      const author = (quote.author || '').toLowerCase();
+
+      // Filter to valid tags (in connections, not author names)
+      const validTags = weightedTags.filter(t => {
+        if (t.tag.includes(author) || author.includes(t.tag)) return false;
+        if (!tagConnections[t.tag]) return false;
+        return true;
+      });
+
+      if (validTags.length === 0) return null;
+
+      // Find max weight among valid tags
+      const maxWeight = validTags[0].weight; // Already sorted by weight desc
+
+      // Get all tags within 50% of max weight
+      const threshold = maxWeight * 0.5;
+      const candidates = validTags.filter(t => t.weight >= threshold);
+
+      // Randomly pick from candidates
+      const pick = candidates[Math.floor(Math.random() * candidates.length)];
+      return pick.tag;
+    }
+
+    // Get all quotes that have a specific tag (excluding recently shown)
+    function getQuotesWithTag(tag, excludeRecent = true) {
+      return quotes.filter(q => {
+        const tags = (q.weighted_tags || []).map(t => t.tag);
+        if (!tags.includes(tag)) return false;
+        if (excludeRecent && recentQuotes.includes(q.id)) return false;
+        return true;
+      });
+    }
+
+    // Add a quote to the recent history
+    function addToRecentQuotes(quoteId) {
+      recentQuotes.push(quoteId);
+      if (recentQuotes.length > QUOTE_COOLDOWN) {
+        recentQuotes.shift();  // Remove oldest
+      }
+    }
+
+    // Add a tag to the recent tags list (for cooldown)
+    function addToRecentTags(tag) {
+      // Don't add duplicates in a row
+      if (recentTags[recentTags.length - 1] === tag) return;
+      recentTags.push(tag);
+      if (recentTags.length > TAG_COOLDOWN) {
+        recentTags.shift();  // Remove oldest
+      }
+    }
+
+    // Check if a tag is on cooldown (recently active)
+    function isTagOnCooldown(tag) {
+      return recentTags.includes(tag);
+    }
+
+    // Find next unvisited quote with current tag, or drift to related tag
+    function findNextTaggedQuote() {
+      if (!activeTag) return null;
+
+      // Force drift if we've used this tag too many times
+      if (activeTagCount >= MAX_TAG_STREAK) {
+        console.log(`Tag streak limit reached (${MAX_TAG_STREAK}), forcing drift from: ${activeTag}`);
+        const drifted = driftToRelatedTag();
+        if (drifted) {
+          activeTagCount = 0;
+          return findNextTaggedQuote();
+        }
+      }
+
+      // Get quotes with this tag (excluding recently shown)
+      const candidates = getQuotesWithTag(activeTag);
+
+      if (candidates.length > 0) {
+        // Pick a random quote with this tag
+        const pick = candidates[Math.floor(Math.random() * candidates.length)];
+        activeTagCount++;
+        return { quote: pick, drifted: false };
+      }
+
+      // No more quotes with this tag - drift to a related tag
+      const drifted = driftToRelatedTag();
+      if (drifted) {
+        activeTagCount = 0;
+        return findNextTaggedQuote();  // Try again with new tag
+      }
+
+      return null;  // No related tags available
+    }
+
+    // Drift to a related tag
+    function driftToRelatedTag() {
+      if (!activeTag || !tagConnections[activeTag]) return false;
+
+      const related = tagConnections[activeTag].related || [];
+
+      // Find a related tag that has available quotes (not recently shown)
+      for (const r of related) {
+        const candidates = getQuotesWithTag(r.tag);
+        if (candidates.length > 0) {
+          console.log(`Tag drift: ${activeTag} -> ${r.tag} (${candidates.length} quotes available)`);
+          tagHistory.push(activeTag);
+          activeTag = r.tag;
+          return true;
+        }
+      }
+
+      return false;
+    }
+
+    // Start a new tag journey from a quote
+    function startTagJourney(quote) {
+      const topTag = getTopWeightedTag(quote);
+      if (topTag) {
+        activeTag = topTag;
+        activeTagCount = 1;  // This quote counts as first use
+        tagHistory = [];
+        console.log(`Started tag journey: ${activeTag}`);
+      } else {
+        // Quote has no popular tags - pick a random popular tag to start
+        const popularTags = Object.keys(tagConnections);
+        if (popularTags.length > 0) {
+          activeTag = popularTags[Math.floor(Math.random() * popularTags.length)];
+          activeTagCount = 0;  // This quote doesn't have the tag
+          tagHistory = [];
+          console.log(`Started with random popular tag: ${activeTag}`);
+        }
+      }
+    }
+
+    // Navigate to next quote via tag (spacebar/right arrow behavior)
+    function showNextViaTag() {
+      console.log('showNextViaTag called', { transitionActive, activeTag, quotesLength: quotes.length });
+      if (transitionActive) return;
+
+      // If no active tag, start a journey from current quote
+      if (!activeTag) {
+        startTagJourney(quotes[currentIndex]);
+        precomputeNextQuote();
+      }
+
+      // Use the precomputed next quote (same one shown in preview)
+      if (precomputedNextQuote) {
+        const nextIndex = quotes.indexOf(precomputedNextQuote);
+        addToRecentQuotes(precomputedNextQuote.id);
+
+        // Update the active tag if it changed (drift happened)
+        if (precomputedNextTag && precomputedNextTag !== activeTag) {
+          console.log(`Tag drift: ${activeTag} -> ${precomputedNextTag}`);
+          tagHistory.push(activeTag);
+          addToRecentTags(activeTag);  // Put old tag on cooldown
+          activeTag = precomputedNextTag;
+          activeTagCount = 1;
+        } else {
+          activeTagCount++;
+        }
+
+        transitionActive = true;
+        slideTransition(nextIndex, 'left', () => {
+          transitionActive = false;
+        });
+      } else {
+        // Exhausted all tags - start fresh with a random quote not in recent
+        console.log("Tag journey exhausted, starting fresh");
+        let randomIndex;
+        let attempts = 0;
+        do {
+          randomIndex = pickRandom();
+          attempts++;
+        } while (recentQuotes.includes(quotes[randomIndex].id) && attempts < 100);
+
+        startTagJourney(quotes[randomIndex]);
+        addToRecentQuotes(quotes[randomIndex].id);
+
+        transitionActive = true;
+        slideTransition(randomIndex, 'left', () => {
+          transitionActive = false;
+        });
+      }
+    }
+
+    function showRandom() {
+      if (transitionActive) return;
+
+      // Random now uses tag navigation
+      showNextViaTag();
+    }
+
+    function goToEntry(num) {
+      const index = num - 1; // Convert 1-based to 0-based
+      if (index >= 0 && index < quotes.length) {
+        transitionTo(index);
+      }
+    }
+
+    async function init() {
+      try {
+        // Load quotes and tag connections in parallel
+        const [quotesRes, connectionsRes] = await Promise.all([
+          fetch("quotes.json"),
+          fetch("tag_connections.json")
+        ]);
+
+        const allQuotes = await quotesRes.json();
+        tagConnections = await connectionsRes.json();
+
+        // Filter out entries without usable information or book info
+        quotes = allQuotes.filter(q =>
+          q.quote && q.quote.trim() &&
+          q.author && q.author.trim() &&
+          (q.publication || q.book_title)
+        );
+
+        console.log(`Loaded ${quotes.length} quotes, ${Object.keys(tagConnections).length} tag connections`);
+
+        // Build publication index and render landing canvas
+        buildPublicationIndex();
+        console.log(`Built index with ${Object.keys(publicationIndex).length} unique publications with covers`);
+        renderLandingCanvas();
+        initLandingCanvas();
+      } catch (err) {
+        console.error('Init error:', err);
+      }
+
+      // Button handlers
+      // Side quote click handlers
+      document.getElementById("prev-panel").addEventListener("click", () => {
+        const prev = getPrevQuote();
+        if (prev) {
+          const prevIndex = quotes.indexOf(prev);
+          if (prevIndex >= 0) {
+            goToPrevInHistory();
+          }
+        }
+      });
+
+      document.getElementById("next-panel").addEventListener("click", () => {
+        showNextViaTag();  // Same as spacebar
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        // Ignore keyboard shortcuts when typing in input fields
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+          return;
+        }
+
+        if (e.key === "ArrowRight") {
+          e.preventDefault();
+          showNextViaTag();  // Right arrow = next quote with same tag
+        } else if (e.key === " ") {
+          e.preventDefault();
+          showNextViaTag();  // Spacebar = next quote with same tag
+        } else if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          goToPrevInHistory();  // Left arrow = go back in history
+        } else if (e.key === "ArrowUp") {
+          console.log('ArrowUp pressed, calling driftUp');
+          e.preventDefault();
+          driftUp();  // Up arrow = switch to drift tag above
+        } else if (e.key === "ArrowDown") {
+          e.preventDefault();
+          driftDown();  // Down arrow = switch to drift tag below
+        } else if (e.key === "r") {
+          showRandom();
+        }
+      });
+    }
+
+    // Navigate to previous quote in history (left arrow)
+    function goToPrevInHistory() {
+      if (transitionActive) return;
+      const prev = getPrevQuote();
+      if (prev) {
+        const prevIndex = quotes.indexOf(prev);
+        if (prevIndex >= 0) {
+          // Remove current from recent so we can go back
+          if (recentQuotes.length > 1) {
+            recentQuotes.pop();
+          }
+          transitionActive = true;
+          slideTransition(prevIndex, 'right', () => {
+            transitionActive = false;
+          });
+        }
+      }
+    }
+
+    // Drift up to the tag shown above (first drift tag)
+    function driftUp() {
+      console.log('driftUp called', { transitionActive, driftTags, tagHistory });
+      if (transitionActive) return;
+      if (driftTags.length > 0) {
+        console.log('driftUp switching to:', driftTags[0]);
+        switchToTag(driftTags[0]);
+      } else {
+        console.log('driftUp: no drift tags available');
+      }
+    }
+
+    // Drift down - switch to first drift tag below (not the tag above)
+    function driftDown() {
+      if (transitionActive) return;
+      // driftTags[0] is the tag above (from history), driftTags[1+] are tags below
+      // If we have history, first tag below is at index 1
+      // If no history, first tag below is at index 0
+      const hasTagAbove = tagHistory.length > 0;
+      const firstBelowIndex = hasTagAbove ? 1 : 0;
+
+      if (driftTags.length > firstBelowIndex) {
+        switchToTag(driftTags[firstBelowIndex]);
+      }
+    }
+
+    // ============================================
+    // EDIT MODAL FUNCTIONALITY (localhost only)
+    // ============================================
+
+    let isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    let editingQuote = null;
+    let pendingCoverData = null;
+    let isAddingQuote = false;
+
+    // Show edit link and goto input only on localhost
+    function initEditMode() {
+      if (isLocalhost) {
+        document.getElementById('edit-link').style.display = 'block';
+        document.getElementById('goto-container').style.display = 'flex';
+      }
+    }
+
+    // Go to a specific quote number
+    function goToQuote() {
+      const input = document.getElementById('goto-input');
+      const num = parseInt(input.value, 10);
+      if (isNaN(num) || num < 1 || num > quotes.length) {
+        showStatus(`Enter a number between 1 and ${quotes.length}`, true);
+        return;
+      }
+      const index = num - 1;
+      transitionTo(index);
+      input.value = '';
+      input.blur();
+    }
+
+    // Search functionality
+    let searchSelectedIndex = -1;
+
+    function handleSearch() {
+      const input = document.getElementById('search-input');
+      const resultsDiv = document.getElementById('search-results');
+      const query = input.value.trim().toLowerCase();
+
+      if (query.length < 2) {
+        resultsDiv.classList.remove('open');
+        searchSelectedIndex = -1;
+        return;
+      }
+
+      const results = quotes
+        .map((q, idx) => ({ quote: q, index: idx }))
+        .filter(({ quote }) => {
+          const text = (quote.quote || '').toLowerCase();
+          const author = (quote.author || '').toLowerCase();
+          const publication = (quote.publication || '').toLowerCase();
+          return text.includes(query) || author.includes(query) || publication.includes(query);
+        })
+        .slice(0, 10);
+
+      if (results.length === 0) {
+        resultsDiv.innerHTML = '<div class="search-no-results">No quotes found</div>';
+      } else {
+        resultsDiv.innerHTML = results.map(({ quote, index }, i) => {
+          const truncatedQuote = (quote.quote || '').length > 120
+            ? (quote.quote || '').substring(0, 120) + '...'
+            : (quote.quote || '');
+          return `
+            <div class="search-result ${i === searchSelectedIndex ? 'selected' : ''}" data-index="${index}" onclick="selectSearchResult(${index})">
+              <div class="search-result-quote">${escapeHtml(truncatedQuote)}</div>
+              <div class="search-result-meta">
+                <span class="author">${escapeHtml(quote.author || 'Unknown')}</span>
+                ${quote.publication ? ` — ${escapeHtml(quote.publication)}` : ''}
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      resultsDiv.classList.add('open');
+      searchSelectedIndex = -1;
+    }
+
+    function handleSearchKeydown(event) {
+      const resultsDiv = document.getElementById('search-results');
+      const results = resultsDiv.querySelectorAll('.search-result');
+
+      if (event.key === 'Escape') {
+        closeSearchResults();
+        event.preventDefault();
+      } else if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (results.length > 0) {
+          searchSelectedIndex = Math.min(searchSelectedIndex + 1, results.length - 1);
+          updateSearchSelection(results);
+        }
+      } else if (event.key === 'ArrowUp') {
+        event.preventDefault();
+        if (results.length > 0) {
+          searchSelectedIndex = Math.max(searchSelectedIndex - 1, 0);
+          updateSearchSelection(results);
+        }
+      } else if (event.key === 'Enter') {
+        event.preventDefault();
+        if (searchSelectedIndex >= 0 && results[searchSelectedIndex]) {
+          const index = parseInt(results[searchSelectedIndex].dataset.index, 10);
+          selectSearchResult(index);
+        }
+      }
+    }
+
+    function updateSearchSelection(results) {
+      results.forEach((el, i) => {
+        el.style.background = i === searchSelectedIndex ? '#333' : '';
+      });
+      if (results[searchSelectedIndex]) {
+        results[searchSelectedIndex].scrollIntoView({ block: 'nearest' });
+      }
+    }
+
+    function selectSearchResult(index) {
+      transitionTo(index);
+      closeSearchResults();
+    }
+
+    function closeSearchResults() {
+      const input = document.getElementById('search-input');
+      const resultsDiv = document.getElementById('search-results');
+      input.value = '';
+      resultsDiv.classList.remove('open');
+      searchSelectedIndex = -1;
+      input.blur();
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Close search results when clicking outside
+    document.addEventListener('click', function(event) {
+      const searchContainer = document.querySelector('.search-container');
+      if (searchContainer && !searchContainer.contains(event.target)) {
+        const resultsDiv = document.getElementById('search-results');
+        if (resultsDiv) resultsDiv.classList.remove('open');
+      }
+    });
+
+    function openEditModal() {
+      if (!quotes[currentIndex]) return;
+
+      isAddingQuote = false;
+      editingQuote = { ...quotes[currentIndex] };
+      pendingCoverData = null;
+
+      // Update modal for edit mode
+      document.getElementById('modal-title').textContent = 'Edit Quote';
+      document.getElementById('save-btn').textContent = 'Save Changes';
+      document.getElementById('delete-btn').style.display = 'inline-block';
+
+      // Populate form fields
+      document.getElementById('edit-quote').value = editingQuote.quote || '';
+      document.getElementById('edit-author').value = editingQuote.author || '';
+      document.getElementById('edit-publication').value = editingQuote.publication || '';
+      document.getElementById('edit-year').value = editingQuote.year || '';
+      document.getElementById('edit-isbn').value = editingQuote.isbn || '';
+      document.getElementById('edit-book-author').value = editingQuote.book_author || '';
+
+      // Update cover preview
+      updateCoverPreview(editingQuote.cover_url);
+
+      // Populate tags
+      renderEditTags();
+
+      // Show modal
+      document.getElementById('edit-modal').classList.add('open');
+    }
+
+    function openAddModal() {
+      isAddingQuote = true;
+      editingQuote = {
+        quote: '',
+        author: '',
+        publication: null,
+        year: null,
+        isbn: null,
+        book_author: null,
+        cover_url: null,
+        weighted_tags: []
+      };
+      pendingCoverData = null;
+
+      // Update modal for add mode
+      document.getElementById('modal-title').textContent = 'Add Quote';
+      document.getElementById('save-btn').textContent = 'Add Quote';
+      document.getElementById('delete-btn').style.display = 'none';
+
+      // Clear form fields
+      document.getElementById('edit-quote').value = '';
+      document.getElementById('edit-author').value = '';
+      document.getElementById('edit-publication').value = '';
+      document.getElementById('edit-year').value = '';
+      document.getElementById('edit-isbn').value = '';
+      document.getElementById('edit-book-author').value = '';
+
+      // Clear cover preview
+      updateCoverPreview(null);
+
+      // Clear tags
+      renderEditTags();
+
+      // Show modal
+      document.getElementById('edit-modal').classList.add('open');
+    }
+
+    function closeEditModal() {
+      document.getElementById('edit-modal').classList.remove('open');
+      editingQuote = null;
+      pendingCoverData = null;
+      // Remove focus from any input fields to restore keyboard navigation
+      if (document.activeElement) {
+        document.activeElement.blur();
+      }
+    }
+
+    function updateCoverPreview(coverUrl) {
+      const preview = document.getElementById('cover-preview');
+      if (coverUrl) {
+        preview.innerHTML = `<img src="${coverUrl}" alt="Cover">`;
+      } else {
+        preview.innerHTML = '<span class="no-cover">No cover</span>';
+      }
+    }
+
+    function handleCoverUpload(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        pendingCoverData = e.target.result;
+        updateCoverPreview(pendingCoverData);
+      };
+      reader.readAsDataURL(file);
+    }
+
+    function removeCover() {
+      pendingCoverData = null;
+      editingQuote.cover_url = null;
+      updateCoverPreview(null);
+    }
+
+    function renderEditTags() {
+      const container = document.getElementById('tags-container');
+      const tags = editingQuote.weighted_tags || [];
+
+      container.innerHTML = tags.map((t, i) => `
+        <div class="tag-chip">
+          <span>${t.tag}</span>
+          <span class="tag-remove" onclick="removeTag(${i})">&times;</span>
+        </div>
+      `).join('');
+    }
+
+    function removeTag(index) {
+      if (!editingQuote.weighted_tags) return;
+      editingQuote.weighted_tags.splice(index, 1);
+      renderEditTags();
+    }
+
+    function addTag() {
+      const input = document.getElementById('new-tag-input');
+      const tagName = input.value.trim().toLowerCase();
+      if (!tagName) return;
+
+      if (!editingQuote.weighted_tags) {
+        editingQuote.weighted_tags = [];
+      }
+
+      // Check if tag already exists
+      if (editingQuote.weighted_tags.some(t => t.tag === tagName)) {
+        input.value = '';
+        return;
+      }
+
+      editingQuote.weighted_tags.push({ tag: tagName, weight: 1.0 });
+      renderEditTags();
+      input.value = '';
+    }
+
+    async function saveQuote() {
+      if (!editingQuote) return;
+
+      // Update from form fields
+      editingQuote.quote = document.getElementById('edit-quote').value.trim();
+      editingQuote.author = document.getElementById('edit-author').value.trim();
+      editingQuote.publication = document.getElementById('edit-publication').value.trim() || null;
+      editingQuote.year = document.getElementById('edit-year').value.trim() || null;
+      editingQuote.isbn = document.getElementById('edit-isbn').value.trim() || null;
+      editingQuote.book_author = document.getElementById('edit-book-author').value.trim() || null;
+
+      // Validate required fields
+      if (!editingQuote.quote) {
+        showStatus('Quote text is required', true);
+        return;
+      }
+      if (!editingQuote.author) {
+        showStatus('Author is required', true);
+        return;
+      }
+
+      try {
+        if (isAddingQuote) {
+          // Adding a new quote
+          // First upload cover if present (need a temp ID for the upload)
+          if (pendingCoverData) {
+            const coverRes = await fetch('/api/upload-cover', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                image: pendingCoverData,
+                quote_id: 'new_quote',
+                publication: editingQuote.publication
+              })
+            });
+            const coverData = await coverRes.json();
+            if (coverData.cover_url) {
+              editingQuote.cover_url = coverData.cover_url;
+            }
+          }
+
+          // Add the quote
+          const res = await fetch('/api/add-quote', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(editingQuote)
+          });
+
+          const data = await res.json();
+          if (data.error) {
+            throw new Error(data.error);
+          }
+
+          // Add to local quotes array and navigate to it
+          quotes.push(data.quote);
+          currentIndex = quotes.length - 1;
+
+          // Re-render with new quote
+          render(quotes[currentIndex], currentIndex);
+
+          closeEditModal();
+          showStatus(`Quote added! (${data.quote.id})`);
+        } else {
+          // Editing existing quote
+          // Upload cover if changed
+          if (pendingCoverData) {
+            const coverRes = await fetch('/api/upload-cover', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                image: pendingCoverData,
+                quote_id: editingQuote.id,
+                publication: editingQuote.publication
+              })
+            });
+            const coverData = await coverRes.json();
+            if (coverData.cover_url) {
+              editingQuote.cover_url = coverData.cover_url;
+            }
+          }
+
+          // Save quote
+          const res = await fetch('/api/save-quote', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(editingQuote)
+          });
+
+          const data = await res.json();
+          if (data.error) {
+            throw new Error(data.error);
+          }
+
+          // Update cover_url if auto-linked from another quote
+          if (data.cover_url) {
+            editingQuote.cover_url = data.cover_url;
+          }
+
+          // Update local quotes array
+          const idx = quotes.findIndex(q => q.id === editingQuote.id);
+          if (idx !== -1) {
+            quotes[idx] = editingQuote;
+          }
+
+          // Re-render current quote
+          render(quotes[currentIndex], currentIndex);
+
+          closeEditModal();
+          showStatus('Quote saved!');
+        }
+      } catch (err) {
+        showStatus('Error saving: ' + err.message, true);
+      }
+    }
+
+    async function deleteQuote() {
+      if (!editingQuote) return;
+
+      if (!confirm('Are you sure you want to delete this quote? This cannot be undone.')) {
+        return;
+      }
+
+      try {
+        const res = await fetch('/api/delete-quote', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: editingQuote.id })
+        });
+
+        const data = await res.json();
+        if (data.error) {
+          throw new Error(data.error);
+        }
+
+        // Remove from local quotes array
+        const idx = quotes.findIndex(q => q.id === editingQuote.id);
+        if (idx !== -1) {
+          quotes.splice(idx, 1);
+        }
+
+        // Navigate to next quote
+        if (currentIndex >= quotes.length) {
+          currentIndex = quotes.length - 1;
+        }
+        if (currentIndex < 0) currentIndex = 0;
+
+        closeEditModal();
+        render(quotes[currentIndex], currentIndex);
+        showStatus('Quote deleted');
+      } catch (err) {
+        showStatus('Error deleting: ' + err.message, true);
+      }
+    }
+
+    // Add keyboard shortcut for edit (press 'e')
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'e' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        // Don't trigger if typing in an input
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        if (isLocalhost && !isLandingVisible) {
+          openEditModal();
+        }
+      }
+      // Close modal on Escape
+      if (e.key === 'Escape') {
+        closeEditModal();
+      }
+    });
+
+    // Initialize edit mode after main init
+    setTimeout(initEditMode, 100);
+
+    init();
+  </script>
+</body>
+</html>
