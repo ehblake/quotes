@@ -4997,16 +4997,16 @@
         "relevance": 0.5857
       },
       {
+        "tag": "the self",
+        "weight": 0.5108,
+        "corpus_score": 0.5324,
+        "relevance": 0.7
+      },
+      {
         "tag": "understanding",
         "weight": 0.5106,
         "corpus_score": 0.8397,
         "relevance": 0.5571
-      },
-      {
-        "tag": "the self",
-        "weight": 0.4969,
-        "corpus_score": 0.5038,
-        "relevance": 0.7
       },
       {
         "tag": "knowing",
@@ -7746,8 +7746,8 @@
       },
       {
         "tag": "the self",
-        "weight": 0.3549,
-        "corpus_score": 0.5038,
+        "weight": 0.3648,
+        "corpus_score": 0.5324,
         "relevance": 0.5
       },
       {
@@ -11867,8 +11867,8 @@
       },
       {
         "tag": "the self",
-        "weight": 0.3549,
-        "corpus_score": 0.5038,
+        "weight": 0.3648,
+        "corpus_score": 0.5324,
         "relevance": 0.5
       },
       {
@@ -20600,8 +20600,8 @@
       },
       {
         "tag": "the self",
-        "weight": 0.3549,
-        "corpus_score": 0.5038,
+        "weight": 0.3648,
+        "corpus_score": 0.5324,
         "relevance": 0.5
       },
       {
@@ -20905,8 +20905,8 @@
       },
       {
         "tag": "the self",
-        "weight": 0.3549,
-        "corpus_score": 0.5038,
+        "weight": 0.3648,
+        "corpus_score": 0.5324,
         "relevance": 0.5
       },
       {
@@ -21791,16 +21791,16 @@
         "relevance": 0.5833
       },
       {
+        "tag": "the self",
+        "weight": 0.5108,
+        "corpus_score": 0.5324,
+        "relevance": 0.7
+      },
+      {
         "tag": "creativity",
         "weight": 0.5042,
         "corpus_score": 0.8938,
         "relevance": 0.5333
-      },
-      {
-        "tag": "the self",
-        "weight": 0.4969,
-        "corpus_score": 0.5038,
-        "relevance": 0.7
       },
       {
         "tag": "individuality",
@@ -29806,8 +29806,8 @@
       },
       {
         "tag": "the self",
-        "weight": 0.3549,
-        "corpus_score": 0.5038,
+        "weight": 0.3648,
+        "corpus_score": 0.5324,
         "relevance": 0.5
       },
       {
@@ -42495,10 +42495,10 @@
     "filename_stem": "william-hazlitt",
     "quote": "The love of liberty is the love of others; the love of power is the love of ourselves.",
     "author": "William Hazlitt",
-    "year": "1819",
-    "publication": "Political Essays",
+    "year": "2000",
+    "publication": "The Fight and Other Writings",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "1854770306",
@@ -42506,7 +42506,7 @@
     "publisher": "Woodstock Books",
     "open_library_key": "/works/OL1839615W",
     "catalog_notes": "Found ISBN: 1854770306",
-    "cover_url": "covers/political-essays.jpg",
+    "cover_url": "covers/the-fight-and-other-writings.jpg",
     "_flickr_id": "53819022131",
     "tags": [
       "quote",
@@ -42543,12 +42543,13 @@
         "relevance": 0.9714
       },
       {
-        "tag": "william hazlitt",
-        "weight": 0.1376,
-        "corpus_score": 0.1679,
-        "relevance": 0.3357
+        "tag": "the self",
+        "weight": 0.3648,
+        "corpus_score": 0.5324,
+        "relevance": 0.5
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0546",
