@@ -263,7 +263,7 @@
       border: none;
       border-top: 1px solid #333;
       width: 100%;
-      max-width: 400px;
+      max-width: 320px;
       margin: 0 auto;
       height: clamp(100px, 15vh, 168px);
       transition: opacity 0.3s ease;
@@ -403,6 +403,89 @@
     .goto-container button:hover {
       background: #444;
       color: #fafafa;
+    }
+
+    /* Search input and results */
+    .search-container {
+      position: relative;
+      margin-left: 12px;
+    }
+
+    .search-container input {
+      width: 180px;
+      padding: 4px 8px;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: #fafafa;
+      font-size: 12px;
+      font-family: inherit;
+    }
+
+    .search-container input:focus {
+      outline: none;
+      border-color: #FF0064;
+    }
+
+    .search-results {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 350px;
+      max-height: 300px;
+      overflow-y: auto;
+      background: #1a1a1a;
+      border: 1px solid #444;
+      border-radius: 4px;
+      margin-top: 4px;
+      display: none;
+      z-index: 100;
+    }
+
+    .search-results.open {
+      display: block;
+    }
+
+    .search-result {
+      padding: 10px 12px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+
+    .search-result:last-child {
+      border-bottom: none;
+    }
+
+    .search-result:hover {
+      background: #252525;
+    }
+
+    .search-result-quote {
+      font-size: 12px;
+      color: #ccc;
+      line-height: 1.4;
+      margin-bottom: 4px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .search-result-meta {
+      font-size: 10px;
+      color: #888;
+    }
+
+    .search-result-meta .author {
+      color: #FF0064;
+    }
+
+    .search-no-results {
+      padding: 12px;
+      color: #666;
+      font-size: 12px;
+      text-align: center;
     }
 
     .container.hidden {
@@ -930,7 +1013,7 @@
   <div id="edit-modal" class="edit-modal" onclick="if(event.target === this) closeEditModal()">
     <div class="edit-modal-content">
       <div class="edit-modal-header">
-        <div class="edit-modal-title">Edit Quote</div>
+        <div class="edit-modal-title" id="modal-title">Edit Quote</div>
         <button class="edit-modal-close" onclick="closeEditModal()">&times;</button>
       </div>
 
@@ -997,9 +1080,9 @@
 
       <!-- Actions -->
       <div class="edit-modal-actions">
-        <button class="btn-save" onclick="saveQuote()">Save Changes</button>
+        <button class="btn-save" id="save-btn" onclick="saveQuote()">Save Changes</button>
         <button class="btn-cancel" onclick="closeEditModal()">Cancel</button>
-        <button class="btn-delete" onclick="deleteQuote()">Delete Quote</button>
+        <button class="btn-delete" id="delete-btn" onclick="deleteQuote()">Delete Quote</button>
       </div>
     </div>
   </div>
@@ -1069,6 +1152,11 @@
     <div id="goto-container" class="goto-container">
       <input type="number" id="goto-input" placeholder="#" min="1" onkeydown="if(event.key==='Enter'){goToQuote(); event.preventDefault();}">
       <button onclick="goToQuote()">Go</button>
+      <button id="add-quote-btn" onclick="openAddModal()" title="Add new quote">+</button>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
+        <div id="search-results" class="search-results"></div>
+      </div>
     </div>
   </div>
 
@@ -1153,21 +1241,48 @@
     }
 
     // Pick a cover, preferring unused ones and avoiding adjacent duplicates
-    function pickUniqueCover(chunkCovers, position) {
+    // Also checks adjacent chunks' edge covers to prevent cross-chunk duplicates
+    function pickUniqueCover(chunkCovers, position, chunkX, chunkY) {
       const cols = CHUNK_COLS;
+      const rows = CHUNK_ROWS;
 
       // Get adjacent covers in this chunk (left and above)
       const adjacentCovers = new Set();
       const row = Math.floor(position / cols);
       const col = position % cols;
 
-      // Left neighbor
+      // Left neighbor within chunk
       if (col > 0 && chunkCovers[position - 1]) {
         adjacentCovers.add(chunkCovers[position - 1]);
       }
-      // Above neighbor
+      // Above neighbor within chunk
       if (row > 0 && chunkCovers[position - cols]) {
         adjacentCovers.add(chunkCovers[position - cols]);
+      }
+
+      // Check adjacent chunks' edge covers
+      // If we're on the left edge (col 0), check the right edge of the chunk to our left
+      if (col === 0) {
+        const leftChunk = loadedChunks.get(getChunkKey(chunkX - 1, chunkY));
+        if (leftChunk && leftChunk.covers) {
+          // Right edge of left chunk at same row
+          const leftChunkRightEdgeIndex = row * cols + (cols - 1);
+          if (leftChunk.covers[leftChunkRightEdgeIndex]) {
+            adjacentCovers.add(leftChunk.covers[leftChunkRightEdgeIndex]);
+          }
+        }
+      }
+
+      // If we're on the top edge (row 0), check the bottom edge of the chunk above
+      if (row === 0) {
+        const aboveChunk = loadedChunks.get(getChunkKey(chunkX, chunkY - 1));
+        if (aboveChunk && aboveChunk.covers) {
+          // Bottom edge of above chunk at same column
+          const aboveChunkBottomEdgeIndex = (rows - 1) * cols + col;
+          if (aboveChunk.covers[aboveChunkBottomEdgeIndex]) {
+            adjacentCovers.add(aboveChunk.covers[aboveChunkBottomEdgeIndex]);
+          }
+        }
       }
 
       // First try to find an unused cover that's not adjacent
@@ -1216,7 +1331,7 @@
 
       const covers = [];
       for (let i = 0; i < CHUNK_COLS * CHUNK_ROWS; i++) {
-        const pub = pickUniqueCover(covers, i);
+        const pub = pickUniqueCover(covers, i, chunkX, chunkY);
         covers.push(pub);
         usedCovers.add(pub);
 
@@ -1733,7 +1848,6 @@
               <div class="book-title">${bookTitle || 'Unknown title'}</div>
               <div class="book-author">${bookAuthor}</div>
               ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
-              ${q.isbn ? `<div class="book-isbn">ISBN: ${q.isbn}</div>` : ''}
             </div>
           `;
         } else {
@@ -1875,7 +1989,6 @@
           <div class="book-title">${bookTitle || 'Unknown title'}</div>
           <div class="book-author">${bookAuthor}</div>
           ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
-          ${q.isbn ? `<div class="book-isbn">ISBN: ${q.isbn}</div>` : ''}
         </div>
       `;
 
@@ -2165,19 +2278,30 @@
 
     // Get the top weighted tag for a quote (excluding author names)
     // Only returns tags that exist in tagConnections (popular/connected tags)
+    // Randomly selects from tags within 50% of the max weight for variety
     function getTopWeightedTag(quote) {
       const weightedTags = quote.weighted_tags || [];
       const author = (quote.author || '').toLowerCase();
 
-      for (const t of weightedTags) {
-        // Skip author-like tags
-        if (t.tag.includes(author) || author.includes(t.tag)) continue;
-        // Only return tags that exist in our connections data
-        if (tagConnections[t.tag]) {
-          return t.tag;
-        }
-      }
-      return null;
+      // Filter to valid tags (in connections, not author names)
+      const validTags = weightedTags.filter(t => {
+        if (t.tag.includes(author) || author.includes(t.tag)) return false;
+        if (!tagConnections[t.tag]) return false;
+        return true;
+      });
+
+      if (validTags.length === 0) return null;
+
+      // Find max weight among valid tags
+      const maxWeight = validTags[0].weight; // Already sorted by weight desc
+
+      // Get all tags within 50% of max weight
+      const threshold = maxWeight * 0.5;
+      const candidates = validTags.filter(t => t.weight >= threshold);
+
+      // Randomly pick from candidates
+      const pick = candidates[Math.floor(Math.random() * candidates.length)];
+      return pick.tag;
     }
 
     // Get all quotes that have a specific tag (excluding recently shown)
@@ -2478,6 +2602,7 @@
     let isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
     let editingQuote = null;
     let pendingCoverData = null;
+    let isAddingQuote = false;
 
     // Show edit link and goto input only on localhost
     function initEditMode() {
@@ -2501,11 +2626,130 @@
       input.blur();
     }
 
+    // Search functionality
+    let searchSelectedIndex = -1;
+
+    function handleSearch() {
+      const input = document.getElementById('search-input');
+      const resultsDiv = document.getElementById('search-results');
+      const query = input.value.trim().toLowerCase();
+
+      if (query.length < 2) {
+        resultsDiv.classList.remove('open');
+        searchSelectedIndex = -1;
+        return;
+      }
+
+      const results = quotes
+        .map((q, idx) => ({ quote: q, index: idx }))
+        .filter(({ quote }) => {
+          const text = (quote.quote || '').toLowerCase();
+          const author = (quote.author || '').toLowerCase();
+          const publication = (quote.publication || '').toLowerCase();
+          return text.includes(query) || author.includes(query) || publication.includes(query);
+        })
+        .slice(0, 10);
+
+      if (results.length === 0) {
+        resultsDiv.innerHTML = '<div class="search-no-results">No quotes found</div>';
+      } else {
+        resultsDiv.innerHTML = results.map(({ quote, index }, i) => {
+          const truncatedQuote = (quote.quote || '').length > 120
+            ? (quote.quote || '').substring(0, 120) + '...'
+            : (quote.quote || '');
+          return `
+            <div class="search-result ${i === searchSelectedIndex ? 'selected' : ''}" data-index="${index}" onclick="selectSearchResult(${index})">
+              <div class="search-result-quote">${escapeHtml(truncatedQuote)}</div>
+              <div class="search-result-meta">
+                <span class="author">${escapeHtml(quote.author || 'Unknown')}</span>
+                ${quote.publication ? ` — ${escapeHtml(quote.publication)}` : ''}
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      resultsDiv.classList.add('open');
+      searchSelectedIndex = -1;
+    }
+
+    function handleSearchKeydown(event) {
+      const resultsDiv = document.getElementById('search-results');
+      const results = resultsDiv.querySelectorAll('.search-result');
+
+      if (event.key === 'Escape') {
+        closeSearchResults();
+        event.preventDefault();
+      } else if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        if (results.length > 0) {
+          searchSelectedIndex = Math.min(searchSelectedIndex + 1, results.length - 1);
+          updateSearchSelection(results);
+        }
+      } else if (event.key === 'ArrowUp') {
+        event.preventDefault();
+        if (results.length > 0) {
+          searchSelectedIndex = Math.max(searchSelectedIndex - 1, 0);
+          updateSearchSelection(results);
+        }
+      } else if (event.key === 'Enter') {
+        event.preventDefault();
+        if (searchSelectedIndex >= 0 && results[searchSelectedIndex]) {
+          const index = parseInt(results[searchSelectedIndex].dataset.index, 10);
+          selectSearchResult(index);
+        }
+      }
+    }
+
+    function updateSearchSelection(results) {
+      results.forEach((el, i) => {
+        el.style.background = i === searchSelectedIndex ? '#333' : '';
+      });
+      if (results[searchSelectedIndex]) {
+        results[searchSelectedIndex].scrollIntoView({ block: 'nearest' });
+      }
+    }
+
+    function selectSearchResult(index) {
+      transitionTo(index);
+      closeSearchResults();
+    }
+
+    function closeSearchResults() {
+      const input = document.getElementById('search-input');
+      const resultsDiv = document.getElementById('search-results');
+      input.value = '';
+      resultsDiv.classList.remove('open');
+      searchSelectedIndex = -1;
+      input.blur();
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Close search results when clicking outside
+    document.addEventListener('click', function(event) {
+      const searchContainer = document.querySelector('.search-container');
+      if (searchContainer && !searchContainer.contains(event.target)) {
+        const resultsDiv = document.getElementById('search-results');
+        if (resultsDiv) resultsDiv.classList.remove('open');
+      }
+    });
+
     function openEditModal() {
       if (!quotes[currentIndex]) return;
 
+      isAddingQuote = false;
       editingQuote = { ...quotes[currentIndex] };
       pendingCoverData = null;
+
+      // Update modal for edit mode
+      document.getElementById('modal-title').textContent = 'Edit Quote';
+      document.getElementById('save-btn').textContent = 'Save Changes';
+      document.getElementById('delete-btn').style.display = 'inline-block';
 
       // Populate form fields
       document.getElementById('edit-quote').value = editingQuote.quote || '';
@@ -2519,6 +2763,43 @@
       updateCoverPreview(editingQuote.cover_url);
 
       // Populate tags
+      renderEditTags();
+
+      // Show modal
+      document.getElementById('edit-modal').classList.add('open');
+    }
+
+    function openAddModal() {
+      isAddingQuote = true;
+      editingQuote = {
+        quote: '',
+        author: '',
+        publication: null,
+        year: null,
+        isbn: null,
+        book_author: null,
+        cover_url: null,
+        weighted_tags: []
+      };
+      pendingCoverData = null;
+
+      // Update modal for add mode
+      document.getElementById('modal-title').textContent = 'Add Quote';
+      document.getElementById('save-btn').textContent = 'Add Quote';
+      document.getElementById('delete-btn').style.display = 'none';
+
+      // Clear form fields
+      document.getElementById('edit-quote').value = '';
+      document.getElementById('edit-author').value = '';
+      document.getElementById('edit-publication').value = '';
+      document.getElementById('edit-year').value = '';
+      document.getElementById('edit-isbn').value = '';
+      document.getElementById('edit-book-author').value = '';
+
+      // Clear cover preview
+      updateCoverPreview(null);
+
+      // Clear tags
       renderEditTags();
 
       // Show modal
@@ -2611,52 +2892,105 @@
       editingQuote.isbn = document.getElementById('edit-isbn').value.trim() || null;
       editingQuote.book_author = document.getElementById('edit-book-author').value.trim() || null;
 
+      // Validate required fields
+      if (!editingQuote.quote) {
+        showStatus('Quote text is required', true);
+        return;
+      }
+      if (!editingQuote.author) {
+        showStatus('Author is required', true);
+        return;
+      }
+
       try {
-        // Upload cover if changed
-        if (pendingCoverData) {
-          const coverRes = await fetch('/api/upload-cover', {
+        if (isAddingQuote) {
+          // Adding a new quote
+          // First upload cover if present (need a temp ID for the upload)
+          if (pendingCoverData) {
+            const coverRes = await fetch('/api/upload-cover', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                image: pendingCoverData,
+                quote_id: 'new_quote',
+                publication: editingQuote.publication
+              })
+            });
+            const coverData = await coverRes.json();
+            if (coverData.cover_url) {
+              editingQuote.cover_url = coverData.cover_url;
+            }
+          }
+
+          // Add the quote
+          const res = await fetch('/api/add-quote', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              image: pendingCoverData,
-              quote_id: editingQuote.id,
-              publication: editingQuote.publication
-            })
+            body: JSON.stringify(editingQuote)
           });
-          const coverData = await coverRes.json();
-          if (coverData.cover_url) {
-            editingQuote.cover_url = coverData.cover_url;
+
+          const data = await res.json();
+          if (data.error) {
+            throw new Error(data.error);
           }
+
+          // Add to local quotes array and navigate to it
+          quotes.push(data.quote);
+          currentIndex = quotes.length - 1;
+
+          // Re-render with new quote
+          render(quotes[currentIndex], currentIndex);
+
+          closeEditModal();
+          showStatus(`Quote added! (${data.quote.id})`);
+        } else {
+          // Editing existing quote
+          // Upload cover if changed
+          if (pendingCoverData) {
+            const coverRes = await fetch('/api/upload-cover', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                image: pendingCoverData,
+                quote_id: editingQuote.id,
+                publication: editingQuote.publication
+              })
+            });
+            const coverData = await coverRes.json();
+            if (coverData.cover_url) {
+              editingQuote.cover_url = coverData.cover_url;
+            }
+          }
+
+          // Save quote
+          const res = await fetch('/api/save-quote', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(editingQuote)
+          });
+
+          const data = await res.json();
+          if (data.error) {
+            throw new Error(data.error);
+          }
+
+          // Update cover_url if auto-linked from another quote
+          if (data.cover_url) {
+            editingQuote.cover_url = data.cover_url;
+          }
+
+          // Update local quotes array
+          const idx = quotes.findIndex(q => q.id === editingQuote.id);
+          if (idx !== -1) {
+            quotes[idx] = editingQuote;
+          }
+
+          // Re-render current quote
+          render(quotes[currentIndex], currentIndex);
+
+          closeEditModal();
+          showStatus('Quote saved!');
         }
-
-        // Save quote
-        const res = await fetch('/api/save-quote', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(editingQuote)
-        });
-
-        const data = await res.json();
-        if (data.error) {
-          throw new Error(data.error);
-        }
-
-        // Update cover_url if auto-linked from another quote
-        if (data.cover_url) {
-          editingQuote.cover_url = data.cover_url;
-        }
-
-        // Update local quotes array
-        const idx = quotes.findIndex(q => q.id === editingQuote.id);
-        if (idx !== -1) {
-          quotes[idx] = editingQuote;
-        }
-
-        // Re-render current quote
-        render(quotes[currentIndex], currentIndex);
-
-        closeEditModal();
-        showStatus('Quote saved!');
       } catch (err) {
         showStatus('Error saving: ' + err.message, true);
       }
