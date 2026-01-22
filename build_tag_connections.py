@@ -34,9 +34,13 @@ def build_cooccurrence_matrix(quotes: list) -> dict:
     tag_counts = Counter()
 
     for q in quotes:
-        tags = q.get('tags', [])
-        # Normalize and filter
-        tags = [t.lower() for t in tags if t.lower() not in EXCLUDED_TAGS]
+        # Prefer weighted_tags (curated) over tags (original)
+        if q.get('weighted_tags'):
+            tags = [t['tag'] for t in q['weighted_tags']]
+        else:
+            tags = [t.lower() for t in q.get('tags', [])]
+        # Filter excluded tags
+        tags = [t for t in tags if t not in EXCLUDED_TAGS]
         # Remove author-like tags (those matching author name)
         author = q.get('author', '').lower()
         tags = [t for t in tags if t not in author and author not in t]

@@ -149,6 +149,11 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
   - Preserves manual tag edits (additions/removals) made through the editor
   - Only recalculates weights, doesn't replace tag lists
 
+- **Fixed build_tag_connections.py pipeline**:
+  - Now reads from `weighted_tags` (curated) instead of `tags` (original)
+  - This fixes drift navigation for renamed tags (e.g., "the end" vs "end")
+  - Without this fix, renamed tags wouldn't appear as drift suggestions
+
 - **Tag weighting formula**:
   - `weight = sqrt(corpus_score) × relevance`
   - `corpus_score`: log-scaled frequency across all quotes (0-1)
