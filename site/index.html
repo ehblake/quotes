@@ -1791,7 +1791,8 @@
               tagsEl.innerHTML = '';
             }
           }
-          document.getElementById("count").textContent = `${newIndex + 1} / ${quotes.length}`;
+          const quoteNum = quotes[newIndex]?.id?.replace('quote_', '').replace(/^0+/, '') || (newIndex + 1);
+          document.getElementById("count").textContent = `${quoteNum} / ${quotes.length}`;
           renderRelatedTags();
 
           // Update book block
@@ -2073,8 +2074,9 @@
         }, 500);
       }
 
-      // Count
-      document.getElementById("count").textContent = `${index + 1} / ${quotes.length}`;
+      // Count - show quote ID number instead of array index
+      const quoteNum = q?.id?.replace('quote_', '').replace(/^0+/, '') || (index + 1);
+      document.getElementById("count").textContent = `${quoteNum} / ${quotes.length}`;
       currentIndex = index;
 
       // Render related tags
@@ -2644,15 +2646,21 @@
       }
     }
 
-    // Go to a specific quote number
+    // Go to a specific quote by ID number (e.g., 484 for quote_0484)
     function goToQuote() {
       const input = document.getElementById('goto-input');
       const num = parseInt(input.value, 10);
-      if (isNaN(num) || num < 1 || num > quotes.length) {
-        showStatus(`Enter a number between 1 and ${quotes.length}`, true);
+      if (isNaN(num) || num < 1) {
+        showStatus('Enter a valid quote number', true);
         return;
       }
-      const index = num - 1;
+      // Find quote by ID
+      const quoteId = `quote_${String(num).padStart(4, '0')}`;
+      const index = quotes.findIndex(q => q.id === quoteId);
+      if (index < 0) {
+        showStatus(`Quote #${num} not found`, true);
+        return;
+      }
       transitionTo(index);
       input.value = '';
       input.blur();
