@@ -126,7 +126,28 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Jan 22 2026) - URL Parameters, Quote IDs & New Quotes
+### Last Session (Jan 23 2026) - Tag Revisions & New Quotes
+
+- **Revised tags on multiple quotes**:
+  - Cleaned up weighted_tags by removing less relevant tags
+  - Improved tag accuracy across several quotes (Bertrand Russell, Dostoevsky, etc.)
+
+- **Added 7 new quotes with cover images**:
+  - Goethe: "Correspondence Between Schiller and Goethe" (books, understanding, discovery)
+  - Hilary Mantel: "Wolf Hall" (the past, sins)
+  - Shoshana Zuboff: "The Age of Surveillance Capitalism" - 2 quotes (surveillance, technology, uncertainty, chaos)
+  - David Walsh: "A Bone of Fact" (iteration, prototyping, design)
+  - Antonio Gramsci: "Selections from the Prison Notebooks" (history, teaching, learning)
+  - Albert Camus: "The Plague" (words, language, clarity)
+
+- **Added 5 new cover images**:
+  - correspondence-between-schiller-and-goethe.jpg
+  - selections-from-the-prison-notebooks.jpg
+  - the-age-of-surveillance-capitalism.jpg
+  - the-plague.jpg
+  - wolf-hall.jpg
+
+### Previous Session (Jan 22 2026) - URL Parameters, Quote IDs & New Quotes
 
 - **Added URL parameter for direct quote access**:
   - Use `?q=484` to jump directly to quote_0484
