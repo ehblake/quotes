@@ -43490,5 +43490,250 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "A book is only ever truly discovered when it is understood.",
+    "author": "Johann Wolfgang von Goethe",
+    "publication": "Correspondence Between Schiller and Goethe",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/correspondence-between-schiller-and-goethe.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "discovery",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0574",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Over the city lies the sweet, rotting odor of yesterday’s unrecollected sins.",
+    "author": "Hilary Mantel",
+    "publication": "Wolf Hall",
+    "year": "2009",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/wolf-hall.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "sins",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0575",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is no longer enough to automate information flows about us; the goal now is to automate us.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
+    "weighted_tags": [
+      {
+        "tag": "information",
+        "weight": 1
+      },
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "data",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0576",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Uncertainty is not chaos but rather the necessary habitat of the present tense.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
+    "weighted_tags": [
+      {
+        "tag": "uncertainty",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      },
+      {
+        "tag": "the present",
+        "weight": 1
+      },
+      {
+        "tag": "now",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0577",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Inspiration is a poor substitute for iteration.",
+    "author": "David Walsh",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "iteration",
+        "weight": 1
+      },
+      {
+        "tag": "prototyping",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "inspiration",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0578",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "History teaches, but has no pupils.",
+    "author": "Antonio Gramsci",
+    "publication": "Selections from the Prison Notebooks",
+    "year": "1971",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/selections-from-the-prison-notebooks.jpg",
+    "weighted_tags": [
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "teaching",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0579",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "All our troubles spring from our failure to use plain, clear-cut language.",
+    "author": "Albert Camus",
+    "publication": "The Plague",
+    "year": "1948",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-plague.jpg",
+    "weighted_tags": [
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "trouble",
+        "weight": 1
+      },
+      {
+        "tag": "clarity",
+        "weight": 1
+      },
+      {
+        "tag": "communication",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0580",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
