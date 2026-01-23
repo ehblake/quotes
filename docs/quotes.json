@@ -5088,7 +5088,7 @@
     "year": "1945",
     "publication": "The History of Western Philosophy",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "004109008X",
@@ -5146,42 +5146,13 @@
         "relevance": 0.5077
       },
       {
-        "tag": "dreams",
-        "weight": 0.3604,
-        "corpus_score": 0.5038,
-        "relevance": 0.5077
-      },
-      {
-        "tag": "kings",
-        "weight": 0.3122,
-        "corpus_score": 0.39,
-        "relevance": 0.5
-      },
-      {
-        "tag": "history of western philosophy",
-        "weight": 0.3016,
-        "corpus_score": 0.2662,
-        "relevance": 0.5846
-      },
-      {
         "tag": "dreaming",
         "weight": 0.2659,
         "corpus_score": 0.2662,
         "relevance": 0.5154
-      },
-      {
-        "tag": "bliss",
-        "weight": 0.227,
-        "corpus_score": 0.1679,
-        "relevance": 0.5538
-      },
-      {
-        "tag": "bertrand russell",
-        "weight": 0.2138,
-        "corpus_score": 0.39,
-        "relevance": 0.3423
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0067",
@@ -14780,12 +14751,6 @@
         "relevance": 0.5
       },
       {
-        "tag": "promotion",
-        "weight": 0.38,
-        "corpus_score": 0.1679,
-        "relevance": 0.9273
-      },
-      {
         "tag": "madness",
         "weight": 0.3683,
         "corpus_score": 0.4715,
@@ -14796,12 +14761,6 @@
         "weight": 0.3179,
         "corpus_score": 0.39,
         "relevance": 0.5091
-      },
-      {
-        "tag": "fyodor dostoevsky",
-        "weight": 0.2575,
-        "corpus_score": 0.6021,
-        "relevance": 0.3318
       }
     ]
   },
@@ -26877,12 +26836,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humanity",
-        "weight": 0.925,
-        "corpus_score": 1.0,
-        "relevance": 0.925
-      },
-      {
         "tag": "dreams",
         "weight": 0.6788,
         "corpus_score": 0.5038,
@@ -26907,52 +26860,16 @@
         "relevance": 0.5188
       },
       {
-        "tag": "boss",
-        "weight": 0.397,
-        "corpus_score": 0.1679,
-        "relevance": 0.9688
-      },
-      {
         "tag": "aim",
         "weight": 0.297,
         "corpus_score": 0.3359,
         "relevance": 0.5125
       },
       {
-        "tag": "kurt vonnegut",
-        "weight": 0.2942,
-        "corpus_score": 0.7597,
-        "relevance": 0.3375
-      },
-      {
         "tag": "focus",
         "weight": 0.2838,
         "corpus_score": 0.2662,
         "relevance": 0.55
-      },
-      {
-        "tag": "point",
-        "weight": 0.2805,
-        "corpus_score": 0.2662,
-        "relevance": 0.5437
-      },
-      {
-        "tag": "vonnegut",
-        "weight": 0.2611,
-        "corpus_score": 0.6215,
-        "relevance": 0.3312
-      },
-      {
-        "tag": "brothers vonnegut",
-        "weight": 0.2433,
-        "corpus_score": 0.1679,
-        "relevance": 0.5938
-      },
-      {
-        "tag": "buy in",
-        "weight": 0.2203,
-        "corpus_score": 0.1679,
-        "relevance": 0.5375
       },
       {
         "tag": "alignment",
@@ -27208,58 +27125,20 @@
     ],
     "weighted_tags": [
       {
-        "tag": "the future",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
+        "tag": "cities",
+        "weight": 1
       },
       {
-        "tag": "utopia",
-        "weight": 0.4065,
-        "corpus_score": 0.5038,
-        "relevance": 0.5727
+        "tag": "time",
+        "weight": 1
       },
       {
-        "tag": "dreams",
-        "weight": 0.3936,
-        "corpus_score": 0.5038,
-        "relevance": 0.5545
+        "tag": "change",
+        "weight": 1
       },
       {
-        "tag": "aim",
-        "weight": 0.3161,
-        "corpus_score": 0.3359,
-        "relevance": 0.5455
-      },
-      {
-        "tag": "the story of utopias",
-        "weight": 0.3049,
-        "corpus_score": 0.2662,
-        "relevance": 0.5909
-      },
-      {
-        "tag": "goals",
-        "weight": 0.2767,
-        "corpus_score": 0.2662,
-        "relevance": 0.5364
-      },
-      {
-        "tag": "compass",
-        "weight": 0.231,
-        "corpus_score": 0.1679,
-        "relevance": 0.5636
-      },
-      {
-        "tag": "north star",
-        "weight": 0.2161,
-        "corpus_score": 0.1679,
-        "relevance": 0.5273
-      },
-      {
-        "tag": "needle",
-        "weight": 0.2124,
-        "corpus_score": 0.1679,
-        "relevance": 0.5182
+        "tag": "vision",
+        "weight": 1
       }
     ]
   },
@@ -36050,6 +35929,10 @@
         "weight": 0.2283,
         "corpus_score": 0.1679,
         "relevance": 0.5571
+      },
+      {
+        "tag": "sadness",
+        "weight": 1
       }
     ]
   },
@@ -42850,7 +42733,7 @@
     "notes": ""
   },
   {
-    "quote": "Life's single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
+    "quote": "Life’s single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
     "author": "Thomas Pynchon",
     "publication": "V.",
     "year": "1963",
@@ -43523,10 +43406,14 @@
       {
         "tag": "movement",
         "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
       }
     ],
     "id": "quote_0571",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
