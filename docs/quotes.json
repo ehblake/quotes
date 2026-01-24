@@ -5457,131 +5457,6 @@
     ]
   },
   {
-    "id": "quote_0071",
-    "source_image": "bob-dylan-05.png",
-    "filename_stem": "bob-dylan-05",
-    "quote": "You were born with a snake in both of your fists while a hurricane was blowing",
-    "author": "Bob Dylan",
-    "year": null,
-    "publication": "The Lyrics 1962-2012 (song: Jokerman)",
-    "notes": "",
-    "confidence": 1,
-    "needs_review": false,
-    "catalog_searched": true,
-    "isbn": null,
-    "book_title": "Chronicles",
-    "publisher": "Simon & Schuster",
-    "open_library_key": "/works/OL28809W",
-    "catalog_notes": "Found ISBN: 9780743272582; Year from Open Library: 2004",
-    "cover_url": "covers/jokerman-the-lyrics-1962-2012.webp",
-    "_flickr_id": "54429398036",
-    "_match_score": 130,
-    "tags": [
-      "quote",
-      "lyric",
-      "song",
-      "lyrics",
-      "joker",
-      "man",
-      "bob Dylan",
-      "born",
-      "birth",
-      "snake",
-      "hurricane",
-      "force",
-      "powerful",
-      "wind",
-      "storm"
-    ],
-    "book_author": null,
-    "weighted_tags": [
-      {
-        "tag": "snake",
-        "weight": 0.485,
-        "corpus_score": 0.2662,
-        "relevance": 0.94
-      },
-      {
-        "tag": "born",
-        "weight": 0.3907,
-        "corpus_score": 0.1679,
-        "relevance": 0.9533
-      },
-      {
-        "tag": "hurricane",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "man",
-        "weight": 0.3539,
-        "corpus_score": 0.39,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "songs",
-        "weight": 0.3433,
-        "corpus_score": 0.4715,
-        "relevance": 0.5
-      },
-      {
-        "tag": "birth",
-        "weight": 0.3168,
-        "corpus_score": 0.3359,
-        "relevance": 0.5467
-      },
-      {
-        "tag": "lyrics",
-        "weight": 0.2992,
-        "corpus_score": 0.2662,
-        "relevance": 0.58
-      },
-      {
-        "tag": "force",
-        "weight": 0.2717,
-        "corpus_score": 0.2662,
-        "relevance": 0.5267
-      },
-      {
-        "tag": "lyric",
-        "weight": 0.2432,
-        "corpus_score": 0.1679,
-        "relevance": 0.5933
-      },
-      {
-        "tag": "joker",
-        "weight": 0.235,
-        "corpus_score": 0.1679,
-        "relevance": 0.5733
-      },
-      {
-        "tag": "powerful",
-        "weight": 0.2131,
-        "corpus_score": 0.1679,
-        "relevance": 0.52
-      },
-      {
-        "tag": "wind",
-        "weight": 0.2104,
-        "corpus_score": 0.1679,
-        "relevance": 0.5133
-      },
-      {
-        "tag": "storm",
-        "weight": 0.2076,
-        "corpus_score": 0.1679,
-        "relevance": 0.5067
-      },
-      {
-        "tag": "bob dylan",
-        "weight": 0.127,
-        "corpus_score": 0.1679,
-        "relevance": 0.31
-      }
-    ]
-  },
-  {
     "id": "quote_0072",
     "source_image": "bruce-chatwin-02.png",
     "filename_stem": "bruce-chatwin-02",
@@ -6974,18 +6849,18 @@
     "filename_stem": "chekhov-08",
     "quote": "The world of ideas is large and cannot be exhausted.",
     "author": "Anton Chekhov",
-    "year": "2015",
-    "publication": "An Anonymous Story",
+    "year": "2000",
+    "publication": "Selected Stories of Anton Chekhov",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9781507787151",
+    "isbn": null,
     "book_title": "Anonymous Story : An Anonymous Story",
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL40997723W",
     "catalog_notes": "Found ISBN: 9781507787151; Year from Open Library: 2015",
-    "cover_url": "covers/an-anonymous-story.jpg",
+    "cover_url": "covers/selected-stories-of-anton-chekhov.jpg",
     "_flickr_id": "51221835123",
     "tags": [
       "Anton Chekhov",
@@ -7032,30 +6907,17 @@
         "relevance": 0.5273
       },
       {
-        "tag": "short story",
-        "weight": 0.2347,
-        "corpus_score": 0.1679,
-        "relevance": 0.5727
-      },
-      {
         "tag": "unlimited",
         "weight": 0.2198,
         "corpus_score": 0.1679,
         "relevance": 0.5364
       },
       {
-        "tag": "anton chekhov",
-        "weight": 0.2028,
-        "corpus_score": 0.3359,
-        "relevance": 0.35
-      },
-      {
-        "tag": "chekhov",
-        "weight": 0.1759,
-        "corpus_score": 0.2662,
-        "relevance": 0.3409
+        "tag": "design",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0089",
@@ -43733,6 +43595,271 @@
       }
     ],
     "id": "quote_0580",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "He not busy being born is busy dying.",
+    "author": "Bob Dylan",
+    "publication": "The Lyrics 1962-2012",
+    "year": "2016",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/jokerman-the-lyrics-1962-2012.webp",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "living",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "ageing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0581",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We never look at just one thing; we are always looking at the relation between things and ourselves. Our vision is continually active...",
+    "author": "John Berger",
+    "publication": "Ways of Seeing",
+    "year": "1972",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/ways-of-seeing.jpg",
+    "weighted_tags": [
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "relationships",
+        "weight": 1
+      },
+      {
+        "tag": "looking",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "relations",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0582",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To those who have machines, men are given.",
+    "author": "John Berger",
+    "publication": "A Seventh Man",
+    "year": "1975",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-seventh-man.jpg",
+    "weighted_tags": [
+      {
+        "tag": "machines",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "machine intelligence",
+        "weight": 1
+      },
+      {
+        "tag": "ai",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "labor",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0583",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Nature has to be bribed to yield enough.",
+    "author": "John Berger",
+    "publication": "A Seventh Man",
+    "year": "1975",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-seventh-man.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      },
+      {
+        "tag": "the environment",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0584",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "People who work for a living are suffering under a system designed to favor those who make their money with money.",
+    "author": "Douglas Rushkoff",
+    "publication": "Throwing Rocks at the Google Bus",
+    "year": "2017",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/throwing-rocks-at-the-google-bus.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0585",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A dream itself is but a shadow.",
+    "author": "William Shakespeare",
+    "publication": "Hamlet",
+    "year": "1735",
+    "isbn": "9780344207730",
+    "book_author": null,
+    "cover_url": "covers/hamlet.jpg",
+    "weighted_tags": [
+      {
+        "tag": "dreams",
+        "weight": 1
+      },
+      {
+        "tag": "dreaming",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "shadows",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "sleep",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0586",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Purpose is but the slave to memory...",
+    "author": "William Shakespeare",
+    "publication": "Hamlet",
+    "year": "1735",
+    "isbn": "9780344207730",
+    "book_author": null,
+    "cover_url": "covers/hamlet.jpg",
+    "weighted_tags": [
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "meaning",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0587",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
