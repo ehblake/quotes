@@ -29859,7 +29859,7 @@
         "tag": "change",
         "weight": 0.9486,
         "corpus_score": 0.8998,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "the world",
@@ -42102,18 +42102,18 @@
     "filename_stem": "william-gibson-08",
     "quote": "Make it big enough and anything looks cool.",
     "author": "William Gibson",
-    "year": "2001",
-    "publication": "My Own Private Tokyo",
+    "year": "2012",
+    "publication": "Distrust That Particular Flavor",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9789510172049",
+    "isbn": null,
     "book_title": "Neuromancer",
     "publisher": "WSOY",
     "open_library_key": "/works/OL27258W",
     "catalog_notes": "Found ISBN: 9789510172049",
-    "cover_url": "covers/my-own-private-tokyo.jpg",
+    "cover_url": "covers/distrust-that-particular-flavour.jpg",
     "_flickr_id": "49191072493",
     "tags": [
       "book",
@@ -42170,7 +42170,8 @@
         "corpus_score": 0.39,
         "relevance": 0.31
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0545",
