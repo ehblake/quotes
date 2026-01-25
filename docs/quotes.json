@@ -21240,76 +21240,12 @@
         "relevance": 0.95
       },
       {
-        "tag": "curiosity",
-        "weight": 0.3167,
-        "corpus_score": 0.39,
-        "relevance": 0.5071
+        "tag": "learning",
+        "weight": 1
       },
       {
-        "tag": "passion",
-        "weight": 0.269,
-        "corpus_score": 0.2662,
-        "relevance": 0.5214
-      },
-      {
-        "tag": "1782",
-        "weight": 0.2371,
-        "corpus_score": 0.1679,
-        "relevance": 0.5786
-      },
-      {
-        "tag": "reveries",
-        "weight": 0.2342,
-        "corpus_score": 0.1679,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "reveries of the solitary walker",
-        "weight": 0.2313,
-        "corpus_score": 0.1679,
-        "relevance": 0.5643
-      },
-      {
-        "tag": "walker",
-        "weight": 0.2283,
-        "corpus_score": 0.1679,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "study",
-        "weight": 0.2225,
-        "corpus_score": 0.1679,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "studying",
-        "weight": 0.2195,
-        "corpus_score": 0.1679,
-        "relevance": 0.5357
-      },
-      {
-        "tag": "desert island",
-        "weight": 0.2166,
-        "corpus_score": 0.1679,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "interests",
-        "weight": 0.2108,
-        "corpus_score": 0.1679,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "rousseau",
-        "weight": 0.1806,
-        "corpus_score": 0.2662,
-        "relevance": 0.35
-      },
-      {
-        "tag": "jean-jacques rousseau",
-        "weight": 0.1405,
-        "corpus_score": 0.1679,
-        "relevance": 0.3429
+        "tag": "thinking",
+        "weight": 1
       }
     ]
   },
@@ -38268,7 +38204,7 @@
     "year": "1899",
     "publication": "The Man That Corrupted Hadleyburg",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780781211284",
@@ -38297,34 +38233,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "simple",
-        "weight": 0.5713,
-        "corpus_score": 0.3359,
-        "relevance": 0.9857
-      },
-      {
         "tag": "humanity",
         "weight": 0.5571,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5571
-      },
-      {
-        "tag": "fire",
-        "weight": 0.5382,
-        "corpus_score": 0.3359,
-        "relevance": 0.9286
-      },
-      {
-        "tag": "creatures",
-        "weight": 0.401,
-        "corpus_score": 0.1679,
-        "relevance": 0.9786
-      },
-      {
-        "tag": "weak",
-        "weight": 0.3981,
-        "corpus_score": 0.1679,
-        "relevance": 0.9714
       },
       {
         "tag": "virtue",
@@ -38333,42 +38245,15 @@
         "relevance": 0.95
       },
       {
-        "tag": "test",
-        "weight": 0.3685,
-        "corpus_score": 0.2662,
-        "relevance": 0.7143
+        "tag": "weakness",
+        "weight": 1
       },
       {
-        "tag": "testing",
-        "weight": 0.339,
-        "corpus_score": 0.39,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "stress",
-        "weight": 0.269,
-        "corpus_score": 0.2662,
-        "relevance": 0.5214
-      },
-      {
-        "tag": "trial",
-        "weight": 0.2617,
-        "corpus_score": 0.2662,
-        "relevance": 0.5071
-      },
-      {
-        "tag": "tests",
-        "weight": 0.2195,
-        "corpus_score": 0.1679,
-        "relevance": 0.5357
-      },
-      {
-        "tag": "mark twain",
-        "weight": 0.1769,
-        "corpus_score": 0.2662,
-        "relevance": 0.3429
+        "tag": "challenges",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0505",
