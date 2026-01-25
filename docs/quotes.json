@@ -4174,42 +4174,6 @@
         "weight": 0.4218,
         "corpus_score": 0.6865,
         "relevance": 0.5091
-      },
-      {
-        "tag": "stupid",
-        "weight": 0.4001,
-        "corpus_score": 0.5038,
-        "relevance": 0.5636
-      },
-      {
-        "tag": "incompetent",
-        "weight": 0.3986,
-        "corpus_score": 0.1679,
-        "relevance": 0.9727
-      },
-      {
-        "tag": "refuge",
-        "weight": 0.3875,
-        "corpus_score": 0.1679,
-        "relevance": 0.9455
-      },
-      {
-        "tag": "politics",
-        "weight": 0.3349,
-        "corpus_score": 0.39,
-        "relevance": 0.5364
-      },
-      {
-        "tag": "unrest",
-        "weight": 0.2673,
-        "corpus_score": 0.2662,
-        "relevance": 0.5182
-      },
-      {
-        "tag": "isaac asimov",
-        "weight": 0.1397,
-        "corpus_score": 0.1679,
-        "relevance": 0.3409
       }
     ]
   },
@@ -4793,16 +4757,16 @@
     "id": "quote_0062",
     "source_image": "ben-franklin-02.png",
     "filename_stem": "ben-franklin-02",
-    "quote": "As nations become more corrupt and vicious, they need more masters.",
+    "quote": "As nations become more corrupt and vicious, they have more need of masters.",
     "author": "Benjamin Franklin",
-    "year": "1755",
-    "publication": "The Works of Benjamin Franklin",
+    "year": "1961",
+    "publication": "The Autobiography of Benjamin Franklin and Other Writings",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "book_author": null,
     "isbn": null,
-    "cover_url": "covers/the-works-of-benjamin-franklin.jpg",
+    "cover_url": "covers/the-autobiography-of-benjamin-franklin-and-other-w.jpg",
     "tags": [
       "corruption",
       "goverment",
@@ -4829,12 +4793,6 @@
         "relevance": 0.54
       },
       {
-        "tag": "vicious",
-        "weight": 0.3934,
-        "corpus_score": 0.1679,
-        "relevance": 0.96
-      },
-      {
         "tag": "masters",
         "weight": 0.3811,
         "corpus_score": 0.1679,
@@ -4845,12 +4803,6 @@
         "weight": 0.3185,
         "corpus_score": 0.39,
         "relevance": 0.51
-      },
-      {
-        "tag": "violent",
-        "weight": 0.2838,
-        "corpus_score": 0.2662,
-        "relevance": 0.55
       },
       {
         "tag": "corruption",
@@ -12455,12 +12407,12 @@
     "filename_stem": "friedrich-nietzsche-01",
     "quote": "Only thoughts reached by walking have value.",
     "author": "Friedrich Nietzsche",
-    "year": 1889,
-    "publication": "Twilight of the Idols",
+    "year": "1954",
+    "publication": "The Portable Nietzsche",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "cover_url": "covers/twilight-of-the-idols.jpg",
+    "cover_url": "covers/the-portable-nietzsche.jpg",
     "tags": [
       "nietzsche",
       "friedrich nietzsche",
@@ -12490,30 +12442,14 @@
         "relevance": 0.5571
       },
       {
-        "tag": "philosophy",
-        "weight": 0.3752,
-        "corpus_score": 0.5324,
-        "relevance": 0.5143
-      },
-      {
         "tag": "movement",
         "weight": 0.3301,
         "corpus_score": 0.39,
         "relevance": 0.5286
-      },
-      {
-        "tag": "friedrich nietzsche",
-        "weight": 0.2559,
-        "corpus_score": 0.581,
-        "relevance": 0.3357
-      },
-      {
-        "tag": "nietzsche",
-        "weight": 0.2186,
-        "corpus_score": 0.39,
-        "relevance": 0.35
       }
-    ]
+    ],
+    "isbn": null,
+    "book_author": null
   },
   {
     "id": "quote_0164",
@@ -27316,7 +27252,7 @@
     "year": "1998",
     "publication": "Bourgeois",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9789177040866",
@@ -27364,30 +27300,13 @@
         "relevance": 0.5667
       },
       {
-        "tag": "banality",
-        "weight": 0.3891,
-        "corpus_score": 0.4715,
-        "relevance": 0.5667
-      },
-      {
         "tag": "making",
         "weight": 0.34,
         "corpus_score": 0.39,
         "relevance": 0.5444
-      },
-      {
-        "tag": "clarity",
-        "weight": 0.2962,
-        "corpus_score": 0.3359,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "louise bourgeois",
-        "weight": 0.1252,
-        "corpus_score": 0.1679,
-        "relevance": 0.3056
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0362",
@@ -27395,10 +27314,10 @@
     "filename_stem": "lp-hartley",
     "quote": "The past is a foreign country. They do things differently there.",
     "author": "L. P. Hartley",
-    "year": 1953,
+    "year": "1953",
     "publication": "The Go-Between",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "cover_url": "covers/the-go-between.jpg",
     "tags": [
@@ -27453,7 +27372,9 @@
         "corpus_score": 0.1679,
         "relevance": 0.5286
       }
-    ]
+    ],
+    "isbn": null,
+    "book_author": null
   },
   {
     "id": "quote_0363",
@@ -32003,7 +31924,7 @@
         "tag": "monsters",
         "weight": 0.5796,
         "corpus_score": 0.3359,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "monster",
@@ -34778,12 +34699,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "dead",
-        "weight": 0.5506,
-        "corpus_score": 0.3359,
-        "relevance": 0.95
-      },
-      {
         "tag": "creativity",
         "weight": 0.5357,
         "corpus_score": 0.8938,
@@ -34808,28 +34723,14 @@
         "relevance": 0.5583
       },
       {
-        "tag": "problems",
-        "weight": 0.3381,
-        "corpus_score": 0.3359,
-        "relevance": 0.5833
-      },
-      {
         "tag": "solutions",
         "weight": 0.2666,
         "corpus_score": 0.2662,
         "relevance": 0.5167
       },
       {
-        "tag": "robert j lang",
-        "weight": 0.2186,
-        "corpus_score": 0.1679,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "lang",
-        "weight": 0.1127,
-        "corpus_score": 0.1679,
-        "relevance": 0.275
+        "tag": "ideas",
+        "weight": 1
       }
     ]
   },
@@ -35530,7 +35431,7 @@
     "open_library_key": "/works/OL362687W",
     "catalog_notes": "Found ISBN: 9780344207730; Year from Open Library: 1735",
     "book_author": null,
-    "cover_url": "covers/henry-v.webp",
+    "cover_url": "covers/henry-v.jpg",
     "tags": [
       "shakespeare",
       "henry v",
@@ -41348,10 +41249,10 @@
     "filename_stem": "william-blake-05",
     "quote": "Opposition is true friendship.",
     "author": "William Blake",
-    "year": 1790,
+    "year": "1790",
     "publication": "The Marriage of Heaven and Hell",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "cover_url": "covers/the-marriage-of-heaven-and-hell.jpg",
     "_flickr_id": "49161011268",
@@ -41422,7 +41323,9 @@
         "corpus_score": 0.39,
         "relevance": 0.34
       }
-    ]
+    ],
+    "isbn": null,
+    "book_author": null
   },
   {
     "id": "quote_0538",
@@ -43860,6 +43763,41 @@
       }
     ],
     "id": "quote_0587",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A lot of good things don’t get made because of too much thinking.",
+    "author": "Agnes Martin",
+    "publication": "Agnes Martin: Writings, Interviews, Photographs",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/agnes-martin-writings-interviews-photographs.jpg",
+    "weighted_tags": [
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0588",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
