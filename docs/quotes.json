@@ -43686,5 +43686,426 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "I believe in Spinoza’s God, who reveals himself in the lawful harmony of the world, not in a God who concerns himself with the fate and the doings of mankind.",
+    "author": "Albert Einstein",
+    "publication": "Albert Einstein, The Human Side: Glimpses from His Archives",
+    "year": "2014",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/albert-einstein-the-human-side-glimpses-from-his-a.jpg",
+    "weighted_tags": [
+      {
+        "tag": "god",
+        "weight": 1
+      },
+      {
+        "tag": "religion",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "fate",
+        "weight": 1
+      },
+      {
+        "tag": "mankind",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "harmony",
+        "weight": 1
+      },
+      {
+        "tag": "the earth",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0589",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If it were not for the impractical characters, all the practical people would remain at the same dull stage of perpetual repetition.",
+    "author": "Albert Herzen",
+    "publication": "My Past and Thoughts",
+    "year": "1870",
+    "isbn": "0394483081",
+    "book_author": null,
+    "cover_url": "covers/0394483081.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the impractical",
+        "weight": 1
+      },
+      {
+        "tag": "characters",
+        "weight": 1
+      },
+      {
+        "tag": "dullness",
+        "weight": 1
+      },
+      {
+        "tag": "banality",
+        "weight": 1
+      },
+      {
+        "tag": "idealism",
+        "weight": 1
+      },
+      {
+        "tag": "mundanity",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0590",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Avoidable human misery is more often caused not so much by stupidity as by ignorance, particularly our ignorance about ourselves.",
+    "author": "Carl Sagan",
+    "publication": "The Demon-Haunted World",
+    "year": "1996",
+    "isbn": "9788416771486",
+    "book_author": null,
+    "cover_url": "covers/the-demon-haunted-world.jpg",
+    "weighted_tags": [
+      {
+        "tag": "misery",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0591",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Certainty is the great enemy of unity. Certainty is the deadly enemy of tolerance. Even Christ was not certain at the end.",
+    "author": "Robert Harris",
+    "publication": "Conclave",
+    "year": "2016",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/conclave.jpg",
+    "weighted_tags": [
+      {
+        "tag": "certainty",
+        "weight": 1
+      },
+      {
+        "tag": "unity",
+        "weight": 1
+      },
+      {
+        "tag": "tolerance",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "christianity",
+        "weight": 1
+      },
+      {
+        "tag": "enemies",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0592",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Nothing from nature is good or bad. Natural things just are; the only good and bad things are people’s various choices in the face of what is.",
+    "author": "David Foster Wallace",
+    "publication": "Both Flesh and Not",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/both-flesh-and-not.jpg",
+    "weighted_tags": [
+      {
+        "tag": "goodness",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "choice",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "action",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0593",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is the nature of human perception to connect unrelated images into a story, because we need to make sense of the world.",
+    "author": "David Mamet",
+    "publication": "On Directing Film",
+    "year": "1991",
+    "isbn": "9780670830336",
+    "book_author": null,
+    "cover_url": "covers/9780670830336.jpg",
+    "weighted_tags": [
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "pareidolia",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0594",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Only the mind that has been taken off itself and put on a task is allowed true creativity.",
+    "author": "David Mamet",
+    "publication": "On Directing Film",
+    "year": "1991",
+    "isbn": "9780670830336",
+    "book_author": null,
+    "cover_url": "covers/9780670830336.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the mind",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0595",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the essential tools in any worthwhile endeavour are incredibly simple. And very difficult to master.",
+    "author": "David Mamet",
+    "publication": "On Directing Film",
+    "year": "1991",
+    "isbn": "9780670830336",
+    "book_author": null,
+    "cover_url": "covers/9780670830336.jpg",
+    "weighted_tags": [
+      {
+        "tag": "tools",
+        "weight": 1
+      },
+      {
+        "tag": "craft",
+        "weight": 1
+      },
+      {
+        "tag": "simplicity",
+        "weight": 1
+      },
+      {
+        "tag": "difficulty",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0596",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The more I love humanity in general, the less I love man in particular.",
+    "author": "Fyodor Dostoevsky",
+    "publication": "The Brothers Karamazov",
+    "year": "1880",
+    "isbn": "9798457106185",
+    "book_author": null,
+    "cover_url": "covers/the-brothers-karamazov.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "love",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0597",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I have seen people behave badly with great morality.",
+    "author": "Albert Camus",
+    "publication": "The Myth of Sisyphus",
+    "year": "1942",
+    "isbn": "0394700759",
+    "book_author": null,
+    "cover_url": "covers/the-myth-of-sisyphus.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "morality",
+        "weight": 1
+      },
+      {
+        "tag": "behaviour",
+        "weight": 1
+      },
+      {
+        "tag": "actions",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0598",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We live in an unending rainfall of images... this cloud of visual images fades... but what does not fade is a feeling of alienation and discomfort.",
+    "author": "Italo Calvino",
+    "publication": "Six Memos",
+    "year": "1986",
+    "isbn": "9780141189697",
+    "book_author": null,
+    "cover_url": "covers/six-memos.jpg",
+    "weighted_tags": [
+      {
+        "tag": "images",
+        "weight": 1
+      },
+      {
+        "tag": "imagery",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "discomfort",
+        "weight": 1
+      },
+      {
+        "tag": "alienation",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0599",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]
