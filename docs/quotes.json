@@ -35147,7 +35147,7 @@
         "tag": "sun",
         "weight": 0.4098,
         "corpus_score": 0.1679,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "pale",
@@ -44104,6 +44104,212 @@
       }
     ],
     "id": "quote_0599",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If you find yourself in a hole, stop digging.",
+    "author": "Will Rogers",
+    "publication": "Unforgiving Places",
+    "year": "2025",
+    "isbn": "9780226828138",
+    "book_author": null,
+    "cover_url": "covers/unforgiving-places.jpg",
+    "weighted_tags": [
+      {
+        "tag": "failure",
+        "weight": 1
+      },
+      {
+        "tag": "direction",
+        "weight": 1
+      },
+      {
+        "tag": "mistakes",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0600",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Children of the future Age\nReading this indignant page, \nKnow that in a former time\nLove! sweet Love! was thought a crime.",
+    "author": "William Blake",
+    "publication": "Songs of Innocence and of Experience",
+    "year": "1794",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/songs-of-innocence-and-of-experience.jpg",
+    "weighted_tags": [
+      {
+        "tag": "love",
+        "weight": 1
+      },
+      {
+        "tag": "crime",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0601",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Not to find one’s way around a city does not mean much. But to lose one’s way in a city, as one loses one’s way in a forest, requires some schooling.",
+    "author": "Walter Benjamin",
+    "publication": "Berlin Childhood Around 1900",
+    "year": "1932",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/berlin-childhood-around-1900.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "wandering",
+        "weight": 1
+      },
+      {
+        "tag": "discovery",
+        "weight": 1
+      },
+      {
+        "tag": "adventure",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0602",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...when we do not know enough, we tend always to substitute emotions for thoughts.",
+    "author": "T. S. Eliot",
+    "publication": "The Perfect Critic, 1919–1926",
+    "year": "2014",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-perfect-critic-19191926.jpg",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "emotion",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "thoughts",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0603",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.",
+    "author": "Daniel Kahneman",
+    "publication": "Thinking Fast and Slow",
+    "year": "2011",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/thinking-fast-and-slow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "answers",
+        "weight": 1
+      },
+      {
+        "tag": "difficulty",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0604",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Big breakthroughs often come not from a single isolated techology but from imaginative juxtapositions or combinations of several.",
+    "author": "Alvin Toffler",
+    "publication": "The Third Wave",
+    "year": "1980",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-third-wave.jpg",
+    "weighted_tags": [
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "juxtaposition",
+        "weight": 1
+      },
+      {
+        "tag": "the new",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "invention",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0605",
     "confidence": 1,
     "needs_review": false,
     "notes": ""
