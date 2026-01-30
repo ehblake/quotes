@@ -14854,7 +14854,7 @@
         "tag": "books",
         "weight": 0.8885,
         "corpus_score": 0.7894,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "the world",
@@ -44342,6 +44342,193 @@
     ],
     "id": "quote_0606",
     "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Nature is always more subtle, more intricate, more elegant than what we are able to imagine.",
+    "author": "Carl Sagan",
+    "publication": "The Demon-Haunted World",
+    "year": "1996",
+    "isbn": "9788416771486",
+    "book_author": null,
+    "cover_url": "covers/the-demon-haunted-world.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      },
+      {
+        "tag": "elegance",
+        "weight": 1
+      },
+      {
+        "tag": "subtlety",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0607",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One recognizes one’s course by discovering the paths that stray from it.",
+    "author": "Albert Camus",
+    "publication": "The Myth of Sisyphus",
+    "year": "1942",
+    "isbn": "0394700759",
+    "book_author": null,
+    "cover_url": "covers/the-myth-of-sisyphus.jpg",
+    "weighted_tags": [
+      {
+        "tag": "discovery",
+        "weight": 1
+      },
+      {
+        "tag": "wandering",
+        "weight": 1
+      },
+      {
+        "tag": "serendipity",
+        "weight": 1
+      },
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "paths",
+        "weight": 1
+      },
+      {
+        "tag": "directions",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0608",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "All technologies should be assumed guilty until proven innocent.",
+    "author": "David Brower",
+    "publication": "In The Absence of the Sacred",
+    "year": "1991",
+    "isbn": "0871567393",
+    "book_author": null,
+    "cover_url": "covers/in-the-absence-of-the-sacred.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "skepticism",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "assumptions",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0609",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If you speak for the wolf, speak against him as well.",
+    "author": "Folk saying",
+    "publication": "The Gulag Archipelago",
+    "year": "1973",
+    "isbn": null,
+    "book_author": "Alexander Solzhenitsyn",
+    "cover_url": "covers/the-gulag-archipelago.jpg",
+    "weighted_tags": [
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      },
+      {
+        "tag": "police",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "corruption",
+        "weight": 1
+      },
+      {
+        "tag": "power",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0610",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There are no such things as principles, only events; no laws, only circumstances.",
+    "author": "Honoré de Balzac",
+    "publication": "Pere Goriot",
+    "year": "1835",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/pere-goriot.jpg",
+    "weighted_tags": [
+      {
+        "tag": "principles",
+        "weight": 1
+      },
+      {
+        "tag": "laws",
+        "weight": 1
+      },
+      {
+        "tag": "circumstances",
+        "weight": 1
+      },
+      {
+        "tag": "events",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0611",
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   }
