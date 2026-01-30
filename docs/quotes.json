@@ -44313,5 +44313,36 @@
     "confidence": 1,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "You’ve got to learn to leave the table / When love’s no longer being served…",
+    "author": "Nina Simone",
+    "publication": "Very Best of Nina Simone, Vol 2",
+    "year": "2008",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/very-best-of-nina-simone-vol-2.jpg",
+    "weighted_tags": [
+      {
+        "tag": "leaving",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      },
+      {
+        "tag": "love",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0606",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
