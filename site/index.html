@@ -1226,6 +1226,82 @@
       return result;
     }
 
+    // Seeded PRNG for deterministic chunk cover selection
+    function seededRandom(seed) {
+      const x = Math.sin(seed * 9999) * 10000;
+      return x - Math.floor(x);
+    }
+
+    // Get a deterministic shuffle for a specific chunk based on its coordinates
+    function getChunkCovers(chunkX, chunkY, adjacentCovers) {
+      const seed = chunkX * 7919 + chunkY * 7927 + 12345; // Prime-based seed
+      const numCovers = CHUNK_COLS * CHUNK_ROWS;
+      const result = [];
+      const available = [...allCovers];
+
+      for (let i = 0; i < numCovers; i++) {
+        const position = i;
+        const row = Math.floor(position / CHUNK_COLS);
+        const col = position % CHUNK_COLS;
+
+        // Build set of covers to avoid (adjacent within this chunk)
+        const avoid = new Set();
+        if (col > 0 && result[position - 1]) {
+          avoid.add(result[position - 1]);
+        }
+        if (row > 0 && result[position - CHUNK_COLS]) {
+          avoid.add(result[position - CHUNK_COLS]);
+        }
+
+        // Also avoid adjacent covers from neighboring chunks
+        if (adjacentCovers) {
+          // Left edge: avoid right edge of left chunk
+          if (col === 0 && adjacentCovers.left) {
+            const leftCover = adjacentCovers.left[row * CHUNK_COLS + (CHUNK_COLS - 1)];
+            if (leftCover) avoid.add(leftCover);
+          }
+          // Top edge: avoid bottom edge of above chunk
+          if (row === 0 && adjacentCovers.above) {
+            const aboveCover = adjacentCovers.above[(CHUNK_ROWS - 1) * CHUNK_COLS + col];
+            if (aboveCover) avoid.add(aboveCover);
+          }
+        }
+
+        // Use seeded random to pick from available covers, avoiding adjacent ones
+        const itemSeed = seed + i * 31;
+        let attempts = 0;
+        let chosenIndex;
+
+        // First try: find unused cover that's not adjacent
+        const unusedNonAdjacent = available.filter(c => !usedCovers.has(c) && !avoid.has(c));
+        if (unusedNonAdjacent.length > 0) {
+          chosenIndex = Math.floor(seededRandom(itemSeed) * unusedNonAdjacent.length);
+          const chosen = unusedNonAdjacent[chosenIndex];
+          result.push(chosen);
+          available.splice(available.indexOf(chosen), 1);
+          continue;
+        }
+
+        // Second try: any cover that's not adjacent
+        const nonAdjacent = available.filter(c => !avoid.has(c));
+        if (nonAdjacent.length > 0) {
+          chosenIndex = Math.floor(seededRandom(itemSeed) * nonAdjacent.length);
+          const chosen = nonAdjacent[chosenIndex];
+          result.push(chosen);
+          available.splice(available.indexOf(chosen), 1);
+          continue;
+        }
+
+        // Fallback: just pick any available
+        chosenIndex = Math.floor(seededRandom(itemSeed) * available.length);
+        const chosen = available[chosenIndex];
+        result.push(chosen);
+        available.splice(available.indexOf(chosen), 1);
+      }
+
+      return result;
+    }
+
     // Get chunk key from chunk coordinates
     function getChunkKey(chunkX, chunkY) {
       return `${chunkX}_${chunkY}`;
@@ -1320,6 +1396,12 @@
       const key = getChunkKey(chunkX, chunkY);
       if (loadedChunks.has(key)) return;
 
+      // Get adjacent chunk covers for avoiding duplicates at edges
+      const adjacentCovers = {
+        left: loadedChunks.get(getChunkKey(chunkX - 1, chunkY))?.covers,
+        above: loadedChunks.get(getChunkKey(chunkX, chunkY - 1))?.covers
+      };
+
       const chunkDiv = document.createElement('div');
       chunkDiv.className = 'canvas-chunk';
       chunkDiv.style.position = 'absolute';
@@ -1329,10 +1411,9 @@
       chunkDiv.style.gridTemplateColumns = `repeat(${CHUNK_COLS}, ${coverWidth}px)`;
       chunkDiv.style.gap = `${coverGap}px`;
 
-      const covers = [];
-      for (let i = 0; i < CHUNK_COLS * CHUNK_ROWS; i++) {
-        const pub = pickUniqueCover(covers, i, chunkX, chunkY);
-        covers.push(pub);
+      // Use deterministic cover selection based on chunk coordinates
+      const covers = getChunkCovers(chunkX, chunkY, adjacentCovers);
+      covers.forEach(pub => {
         usedCovers.add(pub);
 
         const info = publicationIndex[pub];
@@ -1343,7 +1424,7 @@
         img.dataset.publication = pub;
         img.loading = 'lazy';
         chunkDiv.appendChild(img);
-      }
+      });
 
       document.getElementById('canvas-grid').appendChild(chunkDiv);
       loadedChunks.set(key, { element: chunkDiv, covers });
