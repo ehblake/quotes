@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Connections</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #1a1a1a;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            overflow: hidden;
+        }
+        #graph {
+            width: 100vw;
+            height: 100vh;
+        }
+        .node {
+            cursor: pointer;
+        }
+        .node circle {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+        .node text {
+            fill: #fff;
+            font-size: 11px;
+            pointer-events: none;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+        }
+        .node.dimmed circle {
+            opacity: 0.15;
+        }
+        .node.dimmed text {
+            opacity: 0.15;
+        }
+        .link {
+            stroke: #555;
+            stroke-opacity: 0.4;
+        }
+        .link.highlighted {
+            stroke: #fff;
+            stroke-opacity: 0.8;
+        }
+        .link.dimmed {
+            stroke-opacity: 0.05;
+        }
+        #controls {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px 20px;
+            border-radius: 8px;
+            z-index: 100;
+        }
+        #controls h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        #controls p {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+        #search {
+            background: #333;
+            border: 1px solid #555;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            width: 200px;
+            font-size: 14px;
+        }
+        #search:focus {
+            outline: none;
+            border-color: #888;
+        }
+        #info {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px 20px;
+            border-radius: 8px;
+            max-width: 300px;
+            display: none;
+        }
+        #info h2 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        #info .quote-count {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        #info .related-list {
+            font-size: 12px;
+            color: #aaa;
+        }
+        #info .related-list span {
+            display: inline-block;
+            background: #333;
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin: 2px;
+        }
+        #legend {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+        #legend h3 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <h1>Tag Connections</h1>
+        <p>Click a tag to highlight connections</p>
+        <input type="text" id="search" placeholder="Search tags...">
+    </div>
+
+    <div id="legend">
+        <h3>Node Size = Quote Count</h3>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #e74c3c;"></div>
+            <span>Philosophy / Mind</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #3498db;"></div>
+            <span>Art / Creativity</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #2ecc71;"></div>
+            <span>Nature / Science</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #f39c12;"></div>
+            <span>Society / Politics</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #9b59b6;"></div>
+            <span>Time / Change</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #1abc9c;"></div>
+            <span>Language / Expression</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #888;"></div>
+            <span>Other</span>
+        </div>
+    </div>
+
+    <div id="info">
+        <h2 id="info-tag"></h2>
+        <div class="quote-count" id="info-count"></div>
+        <div class="related-list" id="info-related"></div>
+    </div>
+
+    <svg id="graph"></svg>
+
+    <script>
+        // Tag categories for coloring
+        const tagCategories = {
+            philosophy: ['philosophy', 'the mind', 'consciousness', 'thought', 'thinking', 'existence', 'meaning', 'reality', 'truth', 'wisdom', 'knowledge', 'understanding', 'learning', 'intelligence', 'logic', 'reason', 'belief', 'doubt', 'certainty', 'uncertainty', 'the self', 'psychology', 'perception', 'the senses', 'dreams', 'imagination', 'memory', 'the brain'],
+            art: ['art', 'artists', 'creativity', 'design', 'beauty', 'music', 'poetry', 'poems', 'literature', 'writing', 'reading', 'books', 'stories', 'storytelling', 'narrative', 'painting', 'architecture', 'museums', 'expression', 'originality', 'making', 'play', 'songs', 'libraries'],
+            nature: ['nature', 'science', 'earth', 'evolution', 'mathematics', 'discovery', 'invention', 'technology', 'machines', 'complexity', 'chaos', 'order', 'entropy', 'fire', 'darkness', 'nighttime', 'walking', 'wandering', 'adventure', 'travel'],
+            society: ['society', 'politics', 'government', 'power', 'freedom', 'revolution', 'war', 'violence', 'capitalism', 'economics', 'money', 'property', 'ownership', 'labour', 'jobs', 'work', 'laws', 'rules', 'ethics', 'good', 'evil', 'humanity', 'humankind', 'mankind', 'humans', 'civilisation', 'culture', 'religion', 'god', 'faith', 'bureaucracy', 'control', 'anarchy'],
+            time: ['time', 'change', 'the future', 'the past', 'the present', 'history', 'progress', 'the end', 'end times', 'death', 'dying', 'birth', 'age', 'ageing', 'childhood', 'children', 'life', 'living', 'doom', 'eschatology', 'decay', 'ruin', 'destruction', 'collapse'],
+            language: ['language', 'words', 'speaking', 'talking', 'clarity', 'definition', 'interpretation', 'meaning', 'communication', 'media', 'information', 'lies', 'lying', 'liars', 'truth', 'falsehood', 'honesty', 'quotes', 'wit', 'humour']
+        };
+
+        function getTagColor(tag) {
+            for (const [category, tags] of Object.entries(tagCategories)) {
+                if (tags.includes(tag)) {
+                    switch(category) {
+                        case 'philosophy': return '#e74c3c';
+                        case 'art': return '#3498db';
+                        case 'nature': return '#2ecc71';
+                        case 'society': return '#f39c12';
+                        case 'time': return '#9b59b6';
+                        case 'language': return '#1abc9c';
+                    }
+                }
+            }
+            return '#888';
+        }
+
+        // Load data and create visualization
+        async function init() {
+            const response = await fetch('tag_connections.json');
+            const tagConnections = await response.json();
+
+            // Build nodes and links
+            const nodes = [];
+            const links = [];
+            const nodeMap = {};
+
+            // Create nodes
+            for (const [tag, data] of Object.entries(tagConnections)) {
+                const node = {
+                    id: tag,
+                    quoteCount: data.quote_count,
+                    related: data.related
+                };
+                nodes.push(node);
+                nodeMap[tag] = node;
+            }
+
+            // Create links (only include if both nodes exist)
+            const linkSet = new Set();
+            for (const [tag, data] of Object.entries(tagConnections)) {
+                for (const rel of data.related.slice(0, 8)) { // Top 8 connections per tag
+                    if (nodeMap[rel.tag]) {
+                        const linkId = [tag, rel.tag].sort().join('--');
+                        if (!linkSet.has(linkId)) {
+                            linkSet.add(linkId);
+                            links.push({
+                                source: tag,
+                                target: rel.tag,
+                                score: rel.score
+                            });
+                        }
+                    }
+                }
+            }
+
+            // Set up SVG
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            const svg = d3.select('#graph')
+                .attr('width', width)
+                .attr('height', height);
+
+            // Add zoom behavior
+            const g = svg.append('g');
+
+            svg.call(d3.zoom()
+                .scaleExtent([0.1, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                }));
+
+            // Create force simulation - spread out but keep clusters
+            const simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links)
+                    .id(d => d.id)
+                    .distance(d => 180 - d.score * 15)  // Longer base distance
+                    .strength(d => Math.min(d.score / 3, 0.7)))  // Stronger pull for related tags
+                .force('charge', d3.forceManyBody()
+                    .strength(-400)  // Much stronger repulsion to spread out
+                    .distanceMax(500))  // Limit repulsion range
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide()
+                    .radius(d => Math.sqrt(d.quoteCount) * 4 + 25))  // Larger collision radius
+                .alphaDecay(0.02);  // Slower decay for better settling
+
+            // Draw links
+            const link = g.append('g')
+                .selectAll('line')
+                .data(links)
+                .join('line')
+                .attr('class', 'link')
+                .attr('stroke-width', d => Math.max(1, d.score / 2));
+
+            // Draw nodes
+            const node = g.append('g')
+                .selectAll('g')
+                .data(nodes)
+                .join('g')
+                .attr('class', 'node')
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended));
+
+            node.append('circle')
+                .attr('r', d => Math.sqrt(d.quoteCount) * 2 + 5)
+                .attr('fill', d => getTagColor(d.id));
+
+            node.append('text')
+                .text(d => d.id)
+                .attr('x', d => Math.sqrt(d.quoteCount) * 2 + 8)
+                .attr('y', 4);
+
+            // Interaction
+            let selectedNode = null;
+
+            node.on('click', (event, d) => {
+                event.stopPropagation();
+
+                if (selectedNode === d) {
+                    // Deselect
+                    selectedNode = null;
+                    node.classed('dimmed', false);
+                    link.classed('highlighted', false).classed('dimmed', false);
+                    document.getElementById('info').style.display = 'none';
+                } else {
+                    // Select this node
+                    selectedNode = d;
+
+                    const connectedIds = new Set([d.id]);
+                    d.related.forEach(r => connectedIds.add(r.tag));
+
+                    node.classed('dimmed', n => !connectedIds.has(n.id));
+
+                    link.classed('highlighted', l => l.source.id === d.id || l.target.id === d.id)
+                        .classed('dimmed', l => l.source.id !== d.id && l.target.id !== d.id);
+
+                    // Show info panel
+                    const info = document.getElementById('info');
+                    document.getElementById('info-tag').textContent = d.id;
+                    document.getElementById('info-count').textContent = `${d.quoteCount} quotes`;
+                    document.getElementById('info-related').innerHTML =
+                        d.related.slice(0, 10).map(r => `<span>${r.tag}</span>`).join('');
+                    info.style.display = 'block';
+                }
+            });
+
+            svg.on('click', () => {
+                selectedNode = null;
+                node.classed('dimmed', false);
+                link.classed('highlighted', false).classed('dimmed', false);
+                document.getElementById('info').style.display = 'none';
+            });
+
+            // Search functionality
+            const searchInput = document.getElementById('search');
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                if (query) {
+                    node.classed('dimmed', d => !d.id.includes(query));
+                    link.classed('dimmed', true);
+                } else {
+                    node.classed('dimmed', false);
+                    link.classed('dimmed', false);
+                }
+            });
+
+            // Update positions on tick
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+
+            // Drag functions
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

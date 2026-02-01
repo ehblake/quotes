@@ -3165,6 +3165,11 @@
           openEditModal();
         }
       }
+      // Open tag visualization (press 't')
+      if (e.key === 't' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        window.open('tag_viz.html', '_blank');
+      }
       // Close modal on Escape
       if (e.key === 'Escape') {
         closeEditModal();

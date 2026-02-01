@@ -13016,14 +13016,14 @@
     "filename_stem": "friedrich-nietzsche",
     "quote": "Sympathy for all would be tyranny for thee, my good neighbor.",
     "author": "Friedrich Nietzsche",
-    "year": "2019",
-    "publication": "Skin in the Game: Hidden Asymmetries in Daily Life",
+    "year": "2018",
+    "publication": "Skin in the Game",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "book_author": "Nassim Nicholas Taleb",
-    "isbn": "9780141982656",
-    "cover_url": "covers/skin-in-the-game-hidden-asymmetries-in-daily-life.jpg",
+    "isbn": "9780425284643",
+    "cover_url": "covers/skin-in-the-game.jpg",
     "_flickr_id": "31406918507",
     "tags": [
       "book",
@@ -13044,7 +13044,7 @@
       {
         "tag": "humanity",
         "weight": 0.5,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5
       },
       {
@@ -44272,7 +44272,7 @@
     "notes": ""
   },
   {
-    "quote": "Big breakthroughs often come not from a single isolated techology but from imaginative juxtapositions or combinations of several.",
+    "quote": "Big breakthroughs often come not from a single isolated technology but from imaginative juxtapositions or combinations of several.",
     "author": "Alvin Toffler",
     "publication": "The Third Wave",
     "year": "1980",
@@ -44529,6 +44529,142 @@
     ],
     "id": "quote_0611",
     "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The most profound technologies are those that disappear.",
+    "author": "Mark Weiser",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "disappearance",
+        "weight": 1
+      },
+      {
+        "tag": "invisibility",
+        "weight": 1
+      },
+      {
+        "tag": "hiding",
+        "weight": 1
+      },
+      {
+        "tag": "surveillance",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0612",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...never engage in detailed overexplanations of why something important is important. One debases a principle by endlessly justifying it.",
+    "author": "Nassim Nicholas Taleb",
+    "publication": "Skin in the Game",
+    "year": "2018",
+    "isbn": "9780425284643",
+    "book_author": null,
+    "cover_url": "covers/skin-in-the-game.jpg",
+    "weighted_tags": [
+      {
+        "tag": "explanations",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "intuition",
+        "weight": 1
+      },
+      {
+        "tag": "why",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0613",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The whole point of bureaucracy is to reduce the possibilities of your life to the greatest possible degree when it doesn’t simply succeed in destroying them.",
+    "author": "Michel Houellebecq",
+    "publication": "Serotonin",
+    "year": "2019",
+    "isbn": "9781473570535",
+    "book_author": null,
+    "cover_url": "covers/serotonin.jpg",
+    "weighted_tags": [
+      {
+        "tag": "bureaucracy",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "possibilities",
+        "weight": 1
+      },
+      {
+        "tag": "opportunity",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0614",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Bureaucracy is a construction by which a person is conveniently separated from the consequences of his or her actions.",
+    "author": "Nassim Nicholas Taleb",
+    "publication": "Skin in the Game",
+    "year": "2018",
+    "isbn": "9780425284643",
+    "book_author": null,
+    "cover_url": "covers/skin-in-the-game.jpg",
+    "weighted_tags": [
+      {
+        "tag": "bureaucracy",
+        "weight": 1
+      },
+      {
+        "tag": "consequences",
+        "weight": 1
+      },
+      {
+        "tag": "agency",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0615",
+    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   }
