@@ -895,6 +895,16 @@
       color: #fcc;
     }
 
+    .cover-btn.keep {
+      border-color: #363;
+      color: #6c6;
+    }
+
+    .cover-btn.keep:hover {
+      background: #363;
+      color: #cfc;
+    }
+
     /* Tags section */
     .tags-container {
       display: flex;
@@ -1061,6 +1071,7 @@
             <span class="no-cover">No cover</span>
           </div>
           <div class="cover-actions">
+            <button class="cover-btn keep" id="keep-web-cover-btn" onclick="keepWebCover()" style="display: none;">Keep Web Cover</button>
             <label class="cover-btn" for="cover-upload">Upload Cover Image</label>
             <input type="file" id="cover-upload" accept="image/*" onchange="handleCoverUpload(event)">
             <button class="cover-btn remove" onclick="removeCover()">Remove Cover</button>
@@ -1180,6 +1191,7 @@
 
     // Cache for Goodreads cover lookups
     const goodreadsCoverCache = {};
+    let currentWebCoverUrl = null;  // Track web cover URL for "Keep" button
 
     // Landing canvas state
     let isLandingVisible = true;
@@ -2155,9 +2167,8 @@
         }, 500);
       }
 
-      // Count - show quote ID number instead of array index
-      const quoteNum = q?.id?.replace('quote_', '').replace(/^0+/, '') || (index + 1);
-      document.getElementById("count").textContent = `${quoteNum} / ${quotes.length}`;
+      // Count - show array position (1-indexed) and total quotes
+      document.getElementById("count").textContent = `${index + 1} / ${quotes.length}`;
       currentIndex = index;
 
       // Render related tags
@@ -2589,15 +2600,14 @@
         const urlParams = new URLSearchParams(window.location.search);
         const quoteParam = urlParams.get('q');
         if (quoteParam) {
-          // Find quote by number (e.g., ?q=493 finds quote_0493)
-          const quoteId = `quote_${quoteParam.padStart(4, '0')}`;
-          const quoteIndex = quotes.findIndex(q => q.id === quoteId);
-          if (quoteIndex >= 0) {
-            console.log(`URL param: jumping to ${quoteId} (index ${quoteIndex})`);
+          // Jump to quote by position (1-indexed), e.g., ?q=100 goes to the 100th quote
+          const position = parseInt(quoteParam, 10);
+          if (position >= 1 && position <= quotes.length) {
+            console.log(`URL param: jumping to quote position ${position}`);
             // Skip landing canvas, go directly to quote
-            transitionToQuote(quoteIndex, null);
+            transitionToQuote(position - 1, null);
           } else {
-            console.log(`URL param: quote ${quoteId} not found`);
+            console.log(`URL param: position ${position} out of range (1-${quotes.length})`);
           }
         }
       } catch (err) {
@@ -2727,22 +2737,15 @@
       }
     }
 
-    // Go to a specific quote by ID number (e.g., 484 for quote_0484)
+    // Go to a specific quote by position (1-indexed)
     function goToQuote() {
       const input = document.getElementById('goto-input');
       const num = parseInt(input.value, 10);
-      if (isNaN(num) || num < 1) {
-        showStatus('Enter a valid quote number', true);
+      if (isNaN(num) || num < 1 || num > quotes.length) {
+        showStatus(`Enter a number between 1 and ${quotes.length}`, true);
         return;
       }
-      // Find quote by ID
-      const quoteId = `quote_${String(num).padStart(4, '0')}`;
-      const index = quotes.findIndex(q => q.id === quoteId);
-      if (index < 0) {
-        showStatus(`Quote #${num} not found`, true);
-        return;
-      }
-      transitionTo(index);
+      transitionTo(num - 1);
       input.value = '';
       input.blur();
     }
@@ -2880,8 +2883,30 @@
       document.getElementById('edit-isbn').value = editingQuote.isbn || '';
       document.getElementById('edit-book-author').value = editingQuote.book_author || '';
 
-      // Update cover preview
-      updateCoverPreview(editingQuote.cover_url);
+      // Update cover preview and check for web cover
+      const keepBtn = document.getElementById('keep-web-cover-btn');
+      if (editingQuote.cover_url) {
+        // Has local cover
+        updateCoverPreview(editingQuote.cover_url);
+        currentWebCoverUrl = null;
+        keepBtn.style.display = 'none';
+      } else {
+        // Check if there's a web cover available
+        const title = editingQuote.publication || editingQuote.book_title;
+        const author = editingQuote.book_author || editingQuote.author;
+        const cacheKey = `${title}|${author}`;
+        const webCover = goodreadsCoverCache[cacheKey];
+
+        if (webCover) {
+          updateCoverPreview(webCover);
+          currentWebCoverUrl = webCover;
+          keepBtn.style.display = isLocalhost ? 'block' : 'none';
+        } else {
+          updateCoverPreview(null);
+          currentWebCoverUrl = null;
+          keepBtn.style.display = 'none';
+        }
+      }
 
       // Populate tags
       renderEditTags();
@@ -2961,7 +2986,47 @@
     function removeCover() {
       pendingCoverData = null;
       editingQuote.cover_url = null;
+      currentWebCoverUrl = null;
       updateCoverPreview(null);
+      document.getElementById('keep-web-cover-btn').style.display = 'none';
+    }
+
+    async function keepWebCover() {
+      if (!currentWebCoverUrl || !editingQuote) return;
+
+      const keepBtn = document.getElementById('keep-web-cover-btn');
+      keepBtn.textContent = 'Saving...';
+      keepBtn.disabled = true;
+
+      try {
+        const res = await fetch('/api/download-cover', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            url: currentWebCoverUrl,
+            quote_id: editingQuote.id,
+            publication: editingQuote.publication
+          })
+        });
+
+        const data = await res.json();
+        if (data.success && data.cover_url) {
+          editingQuote.cover_url = data.cover_url;
+          pendingCoverData = null;  // Clear any pending upload
+          currentWebCoverUrl = null;
+          updateCoverPreview(data.cover_url);
+          keepBtn.style.display = 'none';
+          showStatus('Cover saved locally');
+        } else {
+          throw new Error(data.error || 'Failed to save cover');
+        }
+      } catch (e) {
+        console.error('Failed to keep web cover:', e);
+        showStatus('Failed to save cover: ' + e.message, true);
+      } finally {
+        keepBtn.textContent = 'Keep Web Cover';
+        keepBtn.disabled = false;
+      }
     }
 
     function renderEditTags() {

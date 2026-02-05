@@ -44675,7 +44675,7 @@
     "year": "2018",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/the-ashtray.jpg",
     "weighted_tags": [
       {
         "tag": "limits",
@@ -44749,7 +44749,7 @@
     "year": "1948",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/citadelle.jpg",
     "weighted_tags": [
       {
         "tag": "work",
@@ -44828,6 +44828,37 @@
       }
     ],
     "id": "quote_0619",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Always the beautiful answer who asks a more beautiful question.",
+    "author": "E. E. Cummings",
+    "publication": "The Shape of Design",
+    "year": "2012",
+    "isbn": null,
+    "book_author": "Frank Chimero",
+    "cover_url": "covers/the-shape-of-design.jpg",
+    "weighted_tags": [
+      {
+        "tag": "questions",
+        "weight": 1
+      },
+      {
+        "tag": "answers",
+        "weight": 1
+      },
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "why",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0620",
     "confidence": 1,
     "needs_review": false,
     "notes": ""
