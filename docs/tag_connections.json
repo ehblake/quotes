@@ -1039,6 +1039,10 @@
       {
         "tag": "knowledge",
         "score": 3.2467
+      },
+      {
+        "tag": "luck",
+        "score": 4.0
       }
     ],
     "quote_count": 6
@@ -4672,6 +4676,26 @@
       {
         "tag": "randomness",
         "score": 5.0
+      },
+      {
+        "tag": "chance",
+        "score": 5.0
+      },
+      {
+        "tag": "gambling",
+        "score": 4.5
+      },
+      {
+        "tag": "uncertainty",
+        "score": 4.0
+      },
+      {
+        "tag": "failure",
+        "score": 3.5
+      },
+      {
+        "tag": "serendipity",
+        "score": 3.5
       }
     ],
     "quote_count": 5
@@ -4765,6 +4789,10 @@
       {
         "tag": "randomness",
         "score": 5.0
+      },
+      {
+        "tag": "luck",
+        "score": 3.5
       }
     ],
     "quote_count": 3
@@ -4931,6 +4959,10 @@
       {
         "tag": "mistakes",
         "score": 5.5529
+      },
+      {
+        "tag": "luck",
+        "score": 3.5
       }
     ],
     "quote_count": 5
@@ -5061,6 +5093,10 @@
       {
         "tag": "randomness",
         "score": 5.0
+      },
+      {
+        "tag": "luck",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -5311,6 +5347,10 @@
     "related": [
       {
         "tag": "randomness",
+        "score": 5.0
+      },
+      {
+        "tag": "luck",
         "score": 5.0
       }
     ],
