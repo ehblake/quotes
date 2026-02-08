@@ -44046,7 +44046,7 @@
     "publication": "Unforgiving Places",
     "year": "2025",
     "isbn": "9780226828138",
-    "book_author": null,
+    "book_author": "Jens Ludwig",
     "cover_url": "covers/unforgiving-places.jpg",
     "weighted_tags": [
       {
@@ -44063,7 +44063,7 @@
       }
     ],
     "id": "quote_0600",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -44721,7 +44721,7 @@
       }
     ],
     "id": "quote_0618",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
