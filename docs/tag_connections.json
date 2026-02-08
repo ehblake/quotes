@@ -138,6 +138,10 @@
       {
         "tag": "learning",
         "score": 2.3825
+      },
+      {
+        "tag": "simplification",
+        "score": 4.5
       }
     ],
     "quote_count": 28
@@ -3997,6 +4001,10 @@
       {
         "tag": "nature",
         "score": 4.3908
+      },
+      {
+        "tag": "simplification",
+        "score": 5.0
       }
     ],
     "quote_count": 4
@@ -4566,7 +4574,16 @@
     "quote_count": 4
   },
   "simplification": {
-    "related": [],
+    "related": [
+      {
+        "tag": "complexity",
+        "score": 5.0
+      },
+      {
+        "tag": "design",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "bureaucracy": {
