@@ -81,6 +81,10 @@
       {
         "tag": "play",
         "score": 4.5
+      },
+      {
+        "tag": "spirit",
+        "score": 5.0
       }
     ],
     "quote_count": 38
@@ -163,6 +167,10 @@
       {
         "tag": "creativity",
         "score": 3.5699
+      },
+      {
+        "tag": "depth",
+        "score": 4.5
       }
     ],
     "quote_count": 4
@@ -482,6 +490,10 @@
       {
         "tag": "comfort",
         "score": 3.2906
+      },
+      {
+        "tag": "ownership",
+        "score": 4.5
       }
     ],
     "quote_count": 49
@@ -959,6 +971,10 @@
       {
         "tag": "understanding",
         "score": 1.9907
+      },
+      {
+        "tag": "attitude",
+        "score": 5.0
       }
     ],
     "quote_count": 20
@@ -1644,6 +1660,10 @@
       {
         "tag": "media",
         "score": 3.2795
+      },
+      {
+        "tag": "laws",
+        "score": 4.5
       }
     ],
     "quote_count": 33
@@ -1728,6 +1748,10 @@
       {
         "tag": "society",
         "score": 1.8387
+      },
+      {
+        "tag": "uniqueness",
+        "score": 5.0
       }
     ],
     "quote_count": 15
@@ -1742,11 +1766,29 @@
     "quote_count": 7
   },
   "fire": {
-    "related": [],
+    "related": [
+      {
+        "tag": "power",
+        "score": 5.0
+      },
+      {
+        "tag": "revolution",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "property": {
-    "related": [],
+    "related": [
+      {
+        "tag": "ownership",
+        "score": 5.0
+      },
+      {
+        "tag": "capitalism",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "revolution": {
@@ -1758,6 +1800,14 @@
       {
         "tag": "freedom",
         "score": 4.5
+      },
+      {
+        "tag": "fire",
+        "score": 4.5
+      },
+      {
+        "tag": "spirit",
+        "score": 4.0
       }
     ],
     "quote_count": 5
@@ -1775,6 +1825,10 @@
       {
         "tag": "truth",
         "score": 3.9922
+      },
+      {
+        "tag": "danger",
+        "score": 5.0
       }
     ],
     "quote_count": 10
@@ -1923,6 +1977,10 @@
       {
         "tag": "evolution",
         "score": 3.0682
+      },
+      {
+        "tag": "improvement",
+        "score": 5.0
       }
     ],
     "quote_count": 40
@@ -2472,6 +2530,10 @@
       {
         "tag": "order",
         "score": 4.8363
+      },
+      {
+        "tag": "ownership",
+        "score": 4.0
       }
     ],
     "quote_count": 8
@@ -2734,7 +2796,16 @@
     "quote_count": 6
   },
   "depth": {
-    "related": [],
+    "related": [
+      {
+        "tag": "complexity",
+        "score": 5.0
+      },
+      {
+        "tag": "simplicity",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "evil": {
@@ -2902,6 +2973,14 @@
       {
         "tag": "love",
         "score": 3.8487
+      },
+      {
+        "tag": "uniqueness",
+        "score": 4.0
+      },
+      {
+        "tag": "gratitude",
+        "score": 4.5
       }
     ],
     "quote_count": 61
@@ -2970,7 +3049,16 @@
     "quote_count": 4
   },
   "uniqueness": {
-    "related": [],
+    "related": [
+      {
+        "tag": "individuality",
+        "score": 5.0
+      },
+      {
+        "tag": "humanity",
+        "score": 4.0
+      }
+    ],
     "quote_count": 4
   },
   "success": {
@@ -3271,6 +3359,10 @@
       {
         "tag": "books",
         "score": 2.0185
+      },
+      {
+        "tag": "calmness",
+        "score": 4.5
       }
     ],
     "quote_count": 24
@@ -4088,6 +4180,10 @@
       {
         "tag": "simplification",
         "score": 5.0
+      },
+      {
+        "tag": "depth",
+        "score": 5.0
       }
     ],
     "quote_count": 4
@@ -4105,6 +4201,10 @@
       {
         "tag": "life",
         "score": 3.0233
+      },
+      {
+        "tag": "error",
+        "score": 5.0
       }
     ],
     "quote_count": 5
@@ -4152,12 +4252,25 @@
       {
         "tag": "perception",
         "score": 4.2751
+      },
+      {
+        "tag": "calmness",
+        "score": 4.5
       }
     ],
     "quote_count": 4
   },
   "calmness": {
-    "related": [],
+    "related": [
+      {
+        "tag": "death",
+        "score": 4.5
+      },
+      {
+        "tag": "movement",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "birth": {
@@ -4328,6 +4441,10 @@
       {
         "tag": "freedom",
         "score": 5.0
+      },
+      {
+        "tag": "fire",
+        "score": 5.0
       }
     ],
     "quote_count": 7
@@ -4359,7 +4476,12 @@
     "quote_count": 4
   },
   "attitude": {
-    "related": [],
+    "related": [
+      {
+        "tag": "perception",
+        "score": 5.0
+      }
+    ],
     "quote_count": 3
   },
   "opinion": {
@@ -4567,6 +4689,10 @@
       {
         "tag": "success",
         "score": 4.0
+      },
+      {
+        "tag": "improvement",
+        "score": 4.5
       }
     ],
     "quote_count": 11
@@ -4613,6 +4739,10 @@
       {
         "tag": "humour",
         "score": 2.5926
+      },
+      {
+        "tag": "property",
+        "score": 4.5
       }
     ],
     "quote_count": 10
@@ -4937,7 +5067,16 @@
     "quote_count": 3
   },
   "laws": {
-    "related": [],
+    "related": [
+      {
+        "tag": "ethics",
+        "score": 5.0
+      },
+      {
+        "tag": "truth",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "lying": {
@@ -5009,6 +5148,10 @@
       },
       {
         "tag": "creativity",
+        "score": 4.5
+      },
+      {
+        "tag": "spirit",
         "score": 4.5
       }
     ],
@@ -5102,6 +5245,10 @@
       {
         "tag": "success",
         "score": 5.0
+      },
+      {
+        "tag": "error",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -5115,6 +5262,10 @@
       {
         "tag": "revolution",
         "score": 4.5
+      },
+      {
+        "tag": "gratitude",
+        "score": 4.0
       }
     ],
     "quote_count": 5
@@ -5128,6 +5279,10 @@
       {
         "tag": "philosophy",
         "score": 4.5
+      },
+      {
+        "tag": "laws",
+        "score": 5.0
       }
     ],
     "quote_count": 4
@@ -5226,11 +5381,29 @@
     "quote_count": 7
   },
   "error": {
-    "related": [],
+    "related": [
+      {
+        "tag": "mistakes",
+        "score": 5.0
+      },
+      {
+        "tag": "failure",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "gratitude": {
-    "related": [],
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 4.5
+      },
+      {
+        "tag": "freedom",
+        "score": 4.0
+      }
+    ],
     "quote_count": 3
   },
   "consciousness": {
@@ -5321,7 +5494,20 @@
     "quote_count": 3
   },
   "spirit": {
-    "related": [],
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 5.0
+      },
+      {
+        "tag": "play",
+        "score": 4.5
+      },
+      {
+        "tag": "revolution",
+        "score": 4.0
+      }
+    ],
     "quote_count": 3
   },
   "wonder": {
@@ -5403,7 +5589,20 @@
     "quote_count": 3
   },
   "ownership": {
-    "related": [],
+    "related": [
+      {
+        "tag": "property",
+        "score": 5.0
+      },
+      {
+        "tag": "society",
+        "score": 4.5
+      },
+      {
+        "tag": "control",
+        "score": 4.0
+      }
+    ],
     "quote_count": 3
   },
   "connections": {
@@ -5481,7 +5680,16 @@
     "quote_count": 3
   },
   "improvement": {
-    "related": [],
+    "related": [
+      {
+        "tag": "change",
+        "score": 5.0
+      },
+      {
+        "tag": "work",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "consumption": {
@@ -5520,7 +5728,12 @@
     "quote_count": 4
   },
   "danger": {
-    "related": [],
+    "related": [
+      {
+        "tag": "fear",
+        "score": 5.0
+      }
+    ],
     "quote_count": 3
   },
   "chance": {
