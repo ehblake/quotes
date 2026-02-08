@@ -14696,6 +14696,10 @@
         "weight": 0.2117,
         "corpus_score": 0.1679,
         "relevance": 0.5167
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
       }
     ]
   },
@@ -24337,6 +24341,10 @@
         "weight": 0.1754,
         "corpus_score": 0.2662,
         "relevance": 0.34
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
       }
     ]
   },
@@ -37461,6 +37469,10 @@
         "weight": 0.2108,
         "corpus_score": 0.1679,
         "relevance": 0.5143
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
       }
     ]
   },
@@ -37862,6 +37874,10 @@
         "weight": 0.1147,
         "corpus_score": 0.1679,
         "relevance": 0.28
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
       }
     ]
   },
@@ -41904,6 +41920,10 @@
         "weight": 0.1712,
         "corpus_score": 0.3359,
         "relevance": 0.2955
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
       }
     ]
   },
@@ -42001,6 +42021,10 @@
         "weight": 0.1739,
         "corpus_score": 0.3359,
         "relevance": 0.3
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
       }
     ]
   },

@@ -4668,7 +4668,12 @@
     "quote_count": 3
   },
   "luck": {
-    "related": [],
+    "related": [
+      {
+        "tag": "randomness",
+        "score": 5.0
+      }
+    ],
     "quote_count": 5
   },
   "literature": {
@@ -4756,6 +4761,10 @@
       {
         "tag": "books",
         "score": 4.3029
+      },
+      {
+        "tag": "randomness",
+        "score": 5.0
       }
     ],
     "quote_count": 3
@@ -5048,6 +5057,10 @@
       {
         "tag": "odds",
         "score": 8.2772
+      },
+      {
+        "tag": "randomness",
+        "score": 5.0
       }
     ],
     "quote_count": 5
@@ -5295,11 +5308,37 @@
     "quote_count": 3
   },
   "chance": {
-    "related": [],
+    "related": [
+      {
+        "tag": "randomness",
+        "score": 5.0
+      }
+    ],
     "quote_count": 3
   },
   "prediction": {
     "related": [],
     "quote_count": 3
+  },
+  "randomness": {
+    "related": [
+      {
+        "tag": "luck",
+        "score": 5.0
+      },
+      {
+        "tag": "chance",
+        "score": 5.0
+      },
+      {
+        "tag": "gambling",
+        "score": 4.5
+      },
+      {
+        "tag": "serendipity",
+        "score": 4.0
+      }
+    ],
+    "quote_count": 8
   }
 }
