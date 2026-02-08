@@ -407,8 +407,10 @@
 
     /* Search input and results */
     .search-container {
-      position: relative;
-      margin-left: 12px;
+      position: fixed;
+      top: 40px;
+      left: 20px;
+      z-index: 50;
     }
 
     .search-container input {
@@ -1164,10 +1166,10 @@
       <input type="number" id="goto-input" placeholder="#" min="1" onkeydown="if(event.key==='Enter'){goToQuote(); event.preventDefault();}">
       <button onclick="goToQuote()">Go</button>
       <button id="add-quote-btn" onclick="openAddModal()" title="Add new quote">+</button>
-      <div class="search-container">
-        <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
-        <div id="search-results" class="search-results"></div>
-      </div>
+    </div>
+    <div class="search-container" id="search-container" style="display:none;">
+      <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
+      <div id="search-results" class="search-results"></div>
     </div>
   </div>
 
@@ -2655,6 +2657,9 @@
           driftDown();  // Down arrow = switch to drift tag below
         } else if (e.key === "r") {
           showRandom();
+        } else if (e.key === "s") {
+          e.preventDefault();
+          toggleSearch();
         }
       });
 
@@ -2839,13 +2844,26 @@
       closeSearchResults();
     }
 
+    function toggleSearch() {
+      const container = document.getElementById('search-container');
+      const input = document.getElementById('search-input');
+      if (container.style.display === 'none' || !container.style.display) {
+        container.style.display = 'block';
+        input.focus();
+      } else {
+        closeSearchResults();
+      }
+    }
+
     function closeSearchResults() {
       const input = document.getElementById('search-input');
       const resultsDiv = document.getElementById('search-results');
+      const container = document.getElementById('search-container');
       input.value = '';
       resultsDiv.classList.remove('open');
       searchSelectedIndex = -1;
       input.blur();
+      container.style.display = 'none';
     }
 
     function escapeHtml(text) {
