@@ -37524,74 +37524,6 @@
     ]
   },
   {
-    "id": "quote_0496",
-    "source_image": "thomas-pynchon-01.png",
-    "filename_stem": "thomas-pynchon-01",
-    "quote": "Life’s single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
-    "author": "Thomas Pynchon",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "53820220237",
-    "tags": [
-      "quote",
-      "Thomas Pynchon",
-      "lesson",
-      "accident",
-      "sanity",
-      "luck",
-      "error",
-      "chance",
-      "pithy"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "accident",
-        "weight": 0.4987,
-        "corpus_score": 0.2662,
-        "relevance": 0.9667
-      },
-      {
-        "tag": "lesson",
-        "weight": 0.4007,
-        "corpus_score": 0.1679,
-        "relevance": 0.9778
-      },
-      {
-        "tag": "luck",
-        "weight": 0.3587,
-        "corpus_score": 0.4341,
-        "relevance": 0.5444
-      },
-      {
-        "tag": "error",
-        "weight": 0.3091,
-        "corpus_score": 0.3359,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "chance",
-        "weight": 0.3027,
-        "corpus_score": 0.3359,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "sanity",
-        "weight": 0.2866,
-        "corpus_score": 0.2662,
-        "relevance": 0.5556
-      },
-      {
-        "tag": "thomas pynchon",
-        "weight": 0.1389,
-        "corpus_score": 0.1679,
-        "relevance": 0.3389
-      }
-    ]
-  },
-  {
     "id": "quote_0497",
     "source_image": "thoreau-01.jpg",
     "filename_stem": "thoreau-01",
@@ -45237,41 +45169,6 @@
     ],
     "id": "quote_0631",
     "confidence": 1,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
-    "quote": "Life’s single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
-    "author": "Thomas Pynchon",
-    "publication": "V.",
-    "year": "1973",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/v.jpg",
-    "weighted_tags": [
-      {
-        "tag": "life",
-        "weight": 1
-      },
-      {
-        "tag": "accidents",
-        "weight": 1
-      },
-      {
-        "tag": "fate",
-        "weight": 1
-      },
-      {
-        "tag": "sanity",
-        "weight": 1
-      },
-      {
-        "tag": "existence",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0632",
-    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   },
