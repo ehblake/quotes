@@ -44862,5 +44862,483 @@
     "confidence": 1,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "The street finds its own use for things.",
+    "author": "William Gibson",
+    "publication": "Burning Chrome",
+    "year": "1982",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "streets",
+        "weight": 1
+      },
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0621",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The only good art school is a museum.",
+    "author": "Adolph Gottlieb",
+    "publication": "Mark Rothko: A Biography",
+    "year": "1993",
+    "isbn": null,
+    "book_author": "James Breslin",
+    "cover_url": "covers/mark-rothko-a-biography.jpg",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "school",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0622",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...what we call a creative gift is merely the social license to be obsessed.",
+    "author": "Ernest Becker",
+    "publication": "The Denial of Death",
+    "year": "1973",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/escape-from-evil.jpg",
+    "weighted_tags": [
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "obsession",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "passion",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0623",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "History has never been gentle in its judgements on bedrock degenerates.",
+    "author": "Hunter S. Thompson",
+    "publication": "Kingdom of Fear",
+    "year": "2002",
+    "isbn": "0713997141",
+    "book_author": null,
+    "cover_url": "covers/0713997141.jpg",
+    "weighted_tags": [
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "leaders",
+        "weight": 1
+      },
+      {
+        "tag": "politics",
+        "weight": 1
+      },
+      {
+        "tag": "america",
+        "weight": 1
+      },
+      {
+        "tag": "judgement",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0624",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Falsehood is the jockey of misfortune.",
+    "author": "Jean Giraudoux",
+    "publication": "Walsh Street",
+    "year": "1991",
+    "isbn": null,
+    "book_author": "Tom Noble",
+    "cover_url": "covers/walsh-street.jpg",
+    "weighted_tags": [
+      {
+        "tag": "honesty",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "false",
+        "weight": 1
+      },
+      {
+        "tag": "lying",
+        "weight": 1
+      },
+      {
+        "tag": "liars",
+        "weight": 1
+      },
+      {
+        "tag": "facts",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0625",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Ideas are one thing and what happens is another.",
+    "author": "John Cage",
+    "publication": "For the Birds",
+    "year": "1980",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/for-the-birds.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0626",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...persons who speak too much insult the imaginative capabilities of other people.",
+    "author": "Keith Basso",
+    "publication": "Wisdom Sits in Places",
+    "year": "1996",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/wisdom-sits-in-places.jpg",
+    "weighted_tags": [
+      {
+        "tag": "talking",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0627",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We are here on Earth to fart around. Don’t let anybody tell you any different.",
+    "author": "Kurt Vonnegut",
+    "publication": "A Man Without A Country",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-man-without-a-country.jpg",
+    "weighted_tags": [
+      {
+        "tag": "fun",
+        "weight": 1
+      },
+      {
+        "tag": "funny",
+        "weight": 1
+      },
+      {
+        "tag": "humour",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      },
+      {
+        "tag": "why",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0628",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...desire makes all things flourish, possession withers them all.",
+    "author": "Marcel Proust",
+    "publication": "Within a Budding Grove",
+    "year": "1913",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/within-a-budding-grove.jpg",
+    "weighted_tags": [
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "possession",
+        "weight": 1
+      },
+      {
+        "tag": "ownership",
+        "weight": 1
+      },
+      {
+        "tag": "things",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0629",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Everything in the world exists to end in a book.",
+    "author": "Stéphane Mallarmé",
+    "publication": "Selected Poetry and Prose",
+    "year": "1982",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/selected-poetry-and-prose.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0630",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The hand is the visible part of the brain.",
+    "author": "Immanuel Kant",
+    "publication": "Anthropology, History, and Education",
+    "year": "2007",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/anthropology-history-and-education.jpg",
+    "weighted_tags": [
+      {
+        "tag": "interaction",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "the senses",
+        "weight": 1
+      },
+      {
+        "tag": "the body",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0631",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Life’s single lesson: that there is more accident to it than a man can ever admit to in a lifetime and stay sane.",
+    "author": "Thomas Pynchon",
+    "publication": "Gravity's Rainbow",
+    "year": "1973",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "accidents",
+        "weight": 1
+      },
+      {
+        "tag": "fate",
+        "weight": 1
+      },
+      {
+        "tag": "sanity",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0632",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...it is only petty men who seem normal.",
+    "author": "Umberto Eco",
+    "publication": "The Name of the Rose",
+    "year": "1980",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-name-of-the-rose.jpg",
+    "weighted_tags": [
+      {
+        "tag": "normality",
+        "weight": 1
+      },
+      {
+        "tag": "people",
+        "weight": 1
+      },
+      {
+        "tag": "humankind",
+        "weight": 1
+      },
+      {
+        "tag": "pettiness",
+        "weight": 1
+      },
+      {
+        "tag": "personality",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0633",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Perhaps /\nThe truth depends on a walk around a lake",
+    "author": "Wallace Stevens",
+    "publication": "Collected Poems",
+    "year": "1984",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/collected-poems.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "lake",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "walking",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0634",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]
