@@ -73,6 +73,14 @@
       {
         "tag": "childhood",
         "score": 3.5699
+      },
+      {
+        "tag": "collaboration",
+        "score": 4.5
+      },
+      {
+        "tag": "play",
+        "score": 4.5
       }
     ],
     "quote_count": 38
@@ -1018,6 +1026,10 @@
       {
         "tag": "learning",
         "score": 3.2254
+      },
+      {
+        "tag": "mathematics",
+        "score": 5.0
       }
     ],
     "quote_count": 13
@@ -1043,12 +1055,25 @@
       {
         "tag": "luck",
         "score": 4.0
+      },
+      {
+        "tag": "prediction",
+        "score": 4.5
       }
     ],
     "quote_count": 6
   },
   "curiosity": {
-    "related": [],
+    "related": [
+      {
+        "tag": "discovery",
+        "score": 5.0
+      },
+      {
+        "tag": "learning",
+        "score": 4.5
+      }
+    ],
     "quote_count": 4
   },
   "the unknown": {
@@ -1056,6 +1081,10 @@
       {
         "tag": "uncertainty",
         "score": 5.5977
+      },
+      {
+        "tag": "travel",
+        "score": 4.0
       }
     ],
     "quote_count": 4
@@ -1497,6 +1526,10 @@
       {
         "tag": "life",
         "score": 1.8923
+      },
+      {
+        "tag": "travel",
+        "score": 4.5
       }
     ],
     "quote_count": 14
@@ -1721,6 +1754,10 @@
       {
         "tag": "change",
         "score": 3.2684
+      },
+      {
+        "tag": "freedom",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -2608,6 +2645,10 @@
       {
         "tag": "thinking",
         "score": 3.5699
+      },
+      {
+        "tag": "psychology",
+        "score": 5.0
       }
     ],
     "quote_count": 8
@@ -2630,7 +2671,16 @@
     "quote_count": 4
   },
   "logic": {
-    "related": [],
+    "related": [
+      {
+        "tag": "mathematics",
+        "score": 4.5
+      },
+      {
+        "tag": "thinking",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "seeing": {
@@ -2924,7 +2974,16 @@
     "quote_count": 4
   },
   "success": {
-    "related": [],
+    "related": [
+      {
+        "tag": "failure",
+        "score": 5.0
+      },
+      {
+        "tag": "work",
+        "score": 4.0
+      }
+    ],
     "quote_count": 3
   },
   "money": {
@@ -3088,6 +3147,10 @@
       {
         "tag": "creativity",
         "score": 2.0471
+      },
+      {
+        "tag": "curiosity",
+        "score": 4.5
       }
     ],
     "quote_count": 16
@@ -3662,6 +3725,14 @@
       {
         "tag": "truth",
         "score": 2.0133
+      },
+      {
+        "tag": "psychology",
+        "score": 4.5
+      },
+      {
+        "tag": "logic",
+        "score": 4.5
       }
     ],
     "quote_count": 19
@@ -3700,6 +3771,10 @@
       {
         "tag": "life",
         "score": 2.507
+      },
+      {
+        "tag": "ethics",
+        "score": 4.5
       }
     ],
     "quote_count": 8
@@ -3871,6 +3946,10 @@
       {
         "tag": "humanity",
         "score": 1.4606
+      },
+      {
+        "tag": "prediction",
+        "score": 5.0
       }
     ],
     "quote_count": 17
@@ -4245,6 +4324,10 @@
       {
         "tag": "society",
         "score": 2.6759
+      },
+      {
+        "tag": "freedom",
+        "score": 5.0
       }
     ],
     "quote_count": 7
@@ -4258,6 +4341,10 @@
       {
         "tag": "society",
         "score": 3.2906
+      },
+      {
+        "tag": "ethics",
+        "score": 5.0
       }
     ],
     "quote_count": 4
@@ -4472,6 +4559,14 @@
       {
         "tag": "creativity",
         "score": 2.4587
+      },
+      {
+        "tag": "collaboration",
+        "score": 5.0
+      },
+      {
+        "tag": "success",
+        "score": 4.0
       }
     ],
     "quote_count": 11
@@ -4540,7 +4635,16 @@
     "quote_count": 4
   },
   "collaboration": {
-    "related": [],
+    "related": [
+      {
+        "tag": "work",
+        "score": 5.0
+      },
+      {
+        "tag": "creativity",
+        "score": 4.5
+      }
+    ],
     "quote_count": 4
   },
   "government": {
@@ -4561,7 +4665,16 @@
     "quote_count": 4
   },
   "mathematics": {
-    "related": [],
+    "related": [
+      {
+        "tag": "science",
+        "score": 5.0
+      },
+      {
+        "tag": "logic",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "discovery": {
@@ -4573,6 +4686,10 @@
       {
         "tag": "understanding",
         "score": 3.7587
+      },
+      {
+        "tag": "curiosity",
+        "score": 5.0
       }
     ],
     "quote_count": 4
@@ -4863,7 +4980,16 @@
     "quote_count": 4
   },
   "psychology": {
-    "related": [],
+    "related": [
+      {
+        "tag": "the mind",
+        "score": 5.0
+      },
+      {
+        "tag": "thinking",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "wit": {
@@ -4876,7 +5002,16 @@
     "quote_count": 4
   },
   "play": {
-    "related": [],
+    "related": [
+      {
+        "tag": "children",
+        "score": 4.5
+      },
+      {
+        "tag": "creativity",
+        "score": 4.5
+      }
+    ],
     "quote_count": 4
   },
   "the present": {
@@ -4963,20 +5098,55 @@
       {
         "tag": "luck",
         "score": 3.5
+      },
+      {
+        "tag": "success",
+        "score": 5.0
       }
     ],
     "quote_count": 5
   },
   "freedom": {
-    "related": [],
+    "related": [
+      {
+        "tag": "power",
+        "score": 5.0
+      },
+      {
+        "tag": "revolution",
+        "score": 4.5
+      }
+    ],
     "quote_count": 5
   },
   "ethics": {
-    "related": [],
+    "related": [
+      {
+        "tag": "values",
+        "score": 5.0
+      },
+      {
+        "tag": "philosophy",
+        "score": 4.5
+      }
+    ],
     "quote_count": 4
   },
   "travel": {
-    "related": [],
+    "related": [
+      {
+        "tag": "adventure",
+        "score": 5.0
+      },
+      {
+        "tag": "cities",
+        "score": 4.5
+      },
+      {
+        "tag": "the unknown",
+        "score": 4.0
+      }
+    ],
     "quote_count": 4
   },
   "age": {
@@ -5102,7 +5272,12 @@
     "quote_count": 5
   },
   "adventure": {
-    "related": [],
+    "related": [
+      {
+        "tag": "travel",
+        "score": 5.0
+      }
+    ],
     "quote_count": 3
   },
   "heaven": {
@@ -5180,7 +5355,12 @@
     "quote_count": 4
   },
   "children": {
-    "related": [],
+    "related": [
+      {
+        "tag": "play",
+        "score": 4.5
+      }
+    ],
     "quote_count": 3
   },
   "aim": {
@@ -5357,7 +5537,20 @@
     "quote_count": 3
   },
   "prediction": {
-    "related": [],
+    "related": [
+      {
+        "tag": "the future",
+        "score": 5.0
+      },
+      {
+        "tag": "uncertainty",
+        "score": 4.5
+      },
+      {
+        "tag": "randomness",
+        "score": 4.0
+      }
+    ],
     "quote_count": 3
   },
   "randomness": {
@@ -5376,6 +5569,10 @@
       },
       {
         "tag": "serendipity",
+        "score": 4.0
+      },
+      {
+        "tag": "prediction",
         "score": 4.0
       }
     ],
