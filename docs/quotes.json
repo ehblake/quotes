@@ -4889,7 +4889,7 @@
     "year": "2011",
     "publication": "Popular Crime",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781416552734",
@@ -4928,12 +4928,6 @@
         "relevance": 0.5583
       },
       {
-        "tag": "society",
-        "weight": 0.4949,
-        "corpus_score": 0.9479,
-        "relevance": 0.5083
-      },
-      {
         "tag": "understanding",
         "weight": 0.4811,
         "corpus_score": 0.8397,
@@ -4946,36 +4940,13 @@
         "relevance": 0.5167
       },
       {
-        "tag": "the future",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
         "tag": "complexity",
         "weight": 0.3435,
         "corpus_score": 0.39,
         "relevance": 0.55
-      },
-      {
-        "tag": "popular crime",
-        "weight": 0.2391,
-        "corpus_score": 0.1679,
-        "relevance": 0.5833
-      },
-      {
-        "tag": "complex",
-        "weight": 0.222,
-        "corpus_score": 0.1679,
-        "relevance": 0.5417
-      },
-      {
-        "tag": "bill james",
-        "weight": 0.14,
-        "corpus_score": 0.1679,
-        "relevance": 0.3417
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0068",
@@ -24346,7 +24317,7 @@
     "year": "1961",
     "publication": "Mother Night",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781784874544",
@@ -24372,22 +24343,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "stage",
-        "weight": 0.4972,
-        "corpus_score": 0.2662,
-        "relevance": 0.9636
-      },
-      {
         "tag": "truth",
         "weight": 0.4958,
         "corpus_score": 0.8544,
         "relevance": 0.5364
-      },
-      {
-        "tag": "mother night",
-        "weight": 0.3577,
-        "corpus_score": 0.39,
-        "relevance": 0.5727
       },
       {
         "tag": "lying",
@@ -24402,30 +24361,17 @@
         "relevance": 0.5455
       },
       {
-        "tag": "kurt vonnegut",
-        "weight": 0.2892,
-        "corpus_score": 0.7597,
-        "relevance": 0.3318
-      },
-      {
-        "tag": "performer",
-        "weight": 0.2161,
-        "corpus_score": 0.1679,
-        "relevance": 0.5273
-      },
-      {
-        "tag": "actor",
-        "weight": 0.2124,
-        "corpus_score": 0.1679,
-        "relevance": 0.5182
-      },
-      {
         "tag": "fraud",
         "weight": 0.2086,
         "corpus_score": 0.1679,
         "relevance": 0.5091
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0337",
@@ -29013,7 +28959,7 @@
     "id": "quote_0396",
     "source_image": "nabokov-03.png",
     "filename_stem": "nabokov-03",
-    "quote": "I was the shadow of the waxwing slain by the false azure in the windowpane;",
+    "quote": "I was the shadow of the waxwing slain / by the false azure in the windowpane;",
     "author": "Vladimir Nabokov",
     "year": "1962",
     "publication": "Pale Fire",
@@ -31420,6 +31366,10 @@
         "weight": 0.2283,
         "corpus_score": 0.1679,
         "relevance": 0.5571
+      },
+      {
+        "tag": "painting",
+        "weight": 1
       }
     ]
   },
@@ -34988,7 +34938,7 @@
     "quote": "The brush is for saving things from chaos.",
     "author": "Shitao",
     "year": null,
-    "publication": "Shape of a Pocket",
+    "publication": "The Shape of a Pocket",
     "notes": "Text converted from all caps to sentence case.",
     "confidence": 1,
     "needs_review": false,
@@ -35056,7 +35006,8 @@
         "corpus_score": 0.1679,
         "relevance": 0.33
       }
-    ]
+    ],
+    "cover_url": "covers/the-shape-of-a-pocket.jpg"
   },
   {
     "id": "quote_0479",
@@ -35327,7 +35278,7 @@
     "year": "1987",
     "publication": "Embarrassment of Riches",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9782070717293",
@@ -35369,46 +35320,10 @@
         "relevance": 0.74
       },
       {
-        "tag": "guide",
-        "weight": 0.3798,
-        "corpus_score": 0.1679,
-        "relevance": 0.9267
-      },
-      {
         "tag": "process",
         "weight": 0.3426,
         "corpus_score": 0.4341,
         "relevance": 0.52
-      },
-      {
-        "tag": "golden age",
-        "weight": 0.3323,
-        "corpus_score": 0.3359,
-        "relevance": 0.5733
-      },
-      {
-        "tag": "amsterdam",
-        "weight": 0.3246,
-        "corpus_score": 0.3359,
-        "relevance": 0.56
-      },
-      {
-        "tag": "eclectic",
-        "weight": 0.3087,
-        "corpus_score": 0.1679,
-        "relevance": 0.7533
-      },
-      {
-        "tag": "embarrassment of riches",
-        "weight": 0.3027,
-        "corpus_score": 0.2662,
-        "relevance": 0.5867
-      },
-      {
-        "tag": "netherlands",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
       },
       {
         "tag": "approach",
@@ -35429,12 +35344,11 @@
         "relevance": 0.5067
       },
       {
-        "tag": "simon schama",
-        "weight": 0.199,
-        "corpus_score": 0.3359,
-        "relevance": 0.3433
+        "tag": "writing",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0483",
@@ -36261,7 +36175,7 @@
     "year": "2012",
     "publication": "Theatre of the World",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "2350310450",
@@ -36326,7 +36240,8 @@
         "tag": "randomness",
         "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0495",
@@ -37084,14 +36999,9 @@
         "weight": 0.4567,
         "corpus_score": 0.6718,
         "relevance": 0.5571
-      },
-      {
-        "tag": "umberto eco",
-        "weight": 0.2403,
-        "corpus_score": 0.4715,
-        "relevance": 0.35
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0506",
@@ -41509,7 +41419,7 @@
     "quote": "A book is only ever truly discovered when it is understood.",
     "author": "Johann Wolfgang von Goethe",
     "publication": "Correspondence Between Schiller and Goethe",
-    "year": "2012",
+    "year": "1898",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/correspondence-between-schiller-and-goethe.jpg",
@@ -41528,7 +41438,7 @@
       }
     ],
     "id": "quote_0574",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -43285,6 +43195,10 @@
       {
         "tag": "education",
         "weight": 1
+      },
+      {
+        "tag": "painting",
+        "weight": 1
       }
     ],
     "id": "quote_0622",
@@ -43380,10 +43294,6 @@
         "weight": 1
       },
       {
-        "tag": "false",
-        "weight": 1
-      },
-      {
         "tag": "lying",
         "weight": 1
       },
@@ -43393,6 +43303,10 @@
       },
       {
         "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
         "weight": 1
       }
     ],
@@ -43828,6 +43742,570 @@
       }
     ],
     "id": "quote_0639",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Memory does not stamp its own coins.",
+    "author": "Jorge Luis Borges",
+    "publication": "Other Inquisitions 1937–1952",
+    "year": "1964",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/other-inquisitions-19371952.jpg",
+    "weighted_tags": [
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0640",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The opposite of a correct statement is an incorrect statement. The opposite of a profound truth is another profound truth.",
+    "author": "Niehls Bohr",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": "Neil Postman",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "logic",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0641",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It isn’t easy to become a fossil. The fate of nearly all living organisms—over 99.9 per cent of them—is to compost down to nothingness.",
+    "author": "Bill Bryson",
+    "publication": "A Short History of Nearly Everything",
+    "year": "2004",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-short-history-of-nearly-everything.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0642",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s an unnerving thought that we may be the living universe’s supreme achievement and its worst nightmare simultaneously.",
+    "author": "Bill Bryson",
+    "publication": "A Short History of Nearly Everything",
+    "year": "2004",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-short-history-of-nearly-everything.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0643",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The passions that inspire feeling of unity are hate and fear. These depend upon the existence of an enemy, actual or potential.",
+    "author": "Bertrand Russell",
+    "publication": "The Impact of Science on Society",
+    "year": "1949",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-impact-of-science-on-society.jpg",
+    "weighted_tags": [
+      {
+        "tag": "fear",
+        "weight": 1
+      },
+      {
+        "tag": "enemies",
+        "weight": 1
+      },
+      {
+        "tag": "unity",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "civilisation",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "war",
+        "weight": 1
+      },
+      {
+        "tag": "passions",
+        "weight": 1
+      },
+      {
+        "tag": "passion",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0644",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There is no possibility, in working hours, of either adventure or idleness.",
+    "author": "Bertrand Russell",
+    "publication": "The Impact of Science on Society",
+    "year": "1949",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-impact-of-science-on-society.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "banality",
+        "weight": 1
+      },
+      {
+        "tag": "adventure",
+        "weight": 1
+      },
+      {
+        "tag": "leisure",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0645",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The brains of humans and other animals contain a mechanism that is designed to give priority to bad news.",
+    "author": "Daniel Kahneman",
+    "publication": "Thinking Fast and Slow",
+    "year": "2011",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/thinking-fast-and-slow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the brain",
+        "weight": 1
+      },
+      {
+        "tag": "pessimism",
+        "weight": 1
+      },
+      {
+        "tag": "news",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0646",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "He was an embittered atheist (the sort of atheist who does not so much disbelieve in God as personally dislike Him).",
+    "author": "George Orwell",
+    "publication": "Down and Out in Paris and London",
+    "year": "1933",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/down-and-out-in-paris-and-london.jpg",
+    "weighted_tags": [
+      {
+        "tag": "god",
+        "weight": 1
+      },
+      {
+        "tag": "pessimism",
+        "weight": 1
+      },
+      {
+        "tag": "atheism",
+        "weight": 1
+      },
+      {
+        "tag": "belief",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0647",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Presence does not come for free. We achieve presence. We act it out.",
+    "author": "Alva Noë",
+    "publication": "Varieties of Presence",
+    "year": "2012",
+    "isbn": "9780674068513",
+    "book_author": null,
+    "cover_url": "covers/varieties-of-presence.jpg",
+    "weighted_tags": [
+      {
+        "tag": "presence",
+        "weight": 1
+      },
+      {
+        "tag": "the senses",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "effort",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0648",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The presence of another person is the most powerful force there is.",
+    "author": "Alva Noë",
+    "publication": "Varieties of Presence",
+    "year": "2012",
+    "isbn": "9780674068513",
+    "book_author": null,
+    "cover_url": "covers/varieties-of-presence.jpg",
+    "weighted_tags": [
+      {
+        "tag": "presence",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "the other",
+        "weight": 1
+      },
+      {
+        "tag": "others",
+        "weight": 1
+      },
+      {
+        "tag": "connection",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0649",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We live in a world of arcs, not points.",
+    "author": "Alva Noë",
+    "publication": "Varieties of Presence",
+    "year": "2012",
+    "isbn": "9780674068513",
+    "book_author": null,
+    "cover_url": "covers/varieties-of-presence.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0650",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Again and again there comes a time in history when the man who dares to say that two and two make four is punished with death.",
+    "author": "Albert Camus",
+    "publication": "The Plague",
+    "year": "1948",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-plague.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "honesty",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0651",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The evil that is in the world always comes of ignorance, and good intentions may do as much harm as malevolence, if they lack understanding.",
+    "author": "Albert Camus",
+    "publication": "The Plague",
+    "year": "1948",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-plague.jpg",
+    "weighted_tags": [
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "goodness",
+        "weight": 1
+      },
+      {
+        "tag": "intentions",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0652",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Stupidity has a knack of getting its way; as we should see if we were not always so much wrapped up in ourselves.",
+    "author": "Albert Camus",
+    "publication": "The Plague",
+    "year": "1948",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-plague.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0653",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The tradition of liberty means all. The common people will let it go, oh yes. They will sell liberty for a quieter life. That is why they must be prodded...",
+    "author": "Anthony Burgess",
+    "publication": "A Clockwork Orange",
+    "year": "1962",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-clockwork-orange.jpg",
+    "weighted_tags": [
+      {
+        "tag": "liberty",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "difficulty",
+        "weight": 1
+      },
+      {
+        "tag": "challenges",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0654",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "No society can be progressive without a leaven of rebels, and modern technique makes it more and more difficult to be a rebel.",
+    "author": "Bertrand Russell",
+    "publication": "The Impact of Science on Society",
+    "year": "1949",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-impact-of-science-on-society.jpg",
+    "weighted_tags": [
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "rebels",
+        "weight": 1
+      },
+      {
+        "tag": "rebellion",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0655",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
