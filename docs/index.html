@@ -654,6 +654,68 @@
       z-index: 5;
     }
 
+    /* Tag Index Modal - Alphabetical list of all tags */
+    .tag-index-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 500;
+      display: none;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60px 20px;
+      overflow-y: auto;
+    }
+
+    .tag-index-overlay.visible {
+      display: flex;
+    }
+
+    .tag-index-modal {
+      max-width: 900px;
+      width: 100%;
+      padding: 40px 50px;
+    }
+
+    .tag-index-title {
+      text-align: center;
+      font-size: clamp(0.75rem, 1vw, 1rem);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #444;
+      margin-bottom: 40px;
+    }
+
+    .tag-index-grid {
+      column-count: 3;
+      column-gap: 40px;
+    }
+
+    .tag-index-item {
+      display: block;
+      padding: 8px 0;
+      color: #888;
+      font-size: clamp(0.85rem, 1.2vw, 1.1rem);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: color 0.2s;
+      break-inside: avoid;
+    }
+
+    .tag-index-item:hover {
+      color: #FF0064;
+    }
+
+    .tag-index-item .tag-count {
+      color: #333;
+      font-size: 0.75em;
+      margin-left: 6px;
+    }
+
     /* Back to canvas button */
     .back-to-canvas {
       position: fixed;
@@ -1108,6 +1170,14 @@
     <div class="canvas-edge-fade"></div>
   </div>
 
+  <!-- Tag Index Modal - Alphabetical list of all tags -->
+  <div id="tag-index-overlay" class="tag-index-overlay">
+    <div class="tag-index-modal">
+      <div class="tag-index-title">All Tags</div>
+      <div id="tag-index-grid" class="tag-index-grid"></div>
+    </div>
+  </div>
+
   <!-- Back to canvas button -->
   <button id="back-to-canvas" class="back-to-canvas" title="Back to books">
     <svg viewBox="0 0 24 24"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
@@ -1197,6 +1267,7 @@
 
     // Landing canvas state
     let isLandingVisible = true;
+    let isTagIndexVisible = false;
     let publicationIndex = {};  // Maps publication -> { cover_url, quoteIndices[] }
     let canvasOffset = { x: 0, y: 0 };
     let isDragging = false;
@@ -1716,6 +1787,73 @@
           renderLandingCanvas();  // Re-render to fill new viewport size
         }
       });
+    }
+
+    // === Tag Index Functions ===
+
+    function renderTagIndex() {
+      const grid = document.getElementById('tag-index-grid');
+      grid.innerHTML = '';
+      const allTags = Object.keys(tagConnections).sort();
+      allTags.forEach(tag => {
+        const item = document.createElement('div');
+        item.className = 'tag-index-item';
+        const count = getQuotesWithTag(tag, false).length;
+        item.innerHTML = `${tag}<span class="tag-count">${count}</span>`;
+        item.addEventListener('click', () => onTagIndexClick(tag));
+        grid.appendChild(item);
+      });
+    }
+
+    function showTagIndex() {
+      const overlay = document.getElementById('tag-index-overlay');
+      overlay.classList.add('visible');
+      overlay.scrollTop = 0;
+      isTagIndexVisible = true;
+      renderTagIndex();
+    }
+
+    // Close tag index when clicking outside the tag list
+    document.getElementById('tag-index-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'tag-index-overlay') {
+        hideTagIndex();
+      }
+    });
+
+    function hideTagIndex() {
+      document.getElementById('tag-index-overlay').classList.remove('visible');
+      isTagIndexVisible = false;
+    }
+
+    function onTagIndexClick(tag) {
+      const candidates = getQuotesWithTag(tag, false);
+      if (candidates.length === 0) return;
+      const pick = candidates[Math.floor(Math.random() * candidates.length)];
+      const quoteIndex = quotes.indexOf(pick);
+
+      hideTagIndex();
+
+      // If we're on the landing canvas, transition to quote view
+      if (isLandingVisible) {
+        const landingCanvas = document.getElementById('landing-canvas');
+        const viewMode = document.getElementById('view-mode');
+        const backBtn = document.getElementById('back-to-canvas');
+
+        landingCanvas.style.display = 'none';
+        isLandingVisible = false;
+        viewMode.style.display = 'flex';
+        backBtn.style.display = 'flex';
+      }
+
+      activeTag = tag;
+      activeTagCount = 1;
+      tagHistory = [];
+      recentQuotes = [];
+      recentTags = [];
+
+      currentIndex = quoteIndex;
+      addToRecentQuotes(pick.id);
+      render(quotes[quoteIndex], quoteIndex);
     }
 
     // Smart uppercase that preserves Mc/Mac patterns (e.g., McLuhan -> McLUHAN)
@@ -2660,6 +2798,13 @@
         } else if (e.key === "s") {
           e.preventDefault();
           toggleSearch();
+        } else if (e.key === "a") {
+          e.preventDefault();
+          if (isTagIndexVisible) {
+            hideTagIndex();
+          } else {
+            showTagIndex();
+          }
         }
       });
 
@@ -3252,6 +3397,11 @@
       if (e.key === 't' && !e.ctrlKey && !e.metaKey && !e.altKey) {
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
         window.open('tag_viz.html', '_blank');
+      }
+      // Close tag index on Escape
+      if (e.key === 'Escape' && isTagIndexVisible) {
+        hideTagIndex();
+        return;
       }
       // Close modal on Escape
       if (e.key === 'Escape') {
