@@ -88,7 +88,8 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - **Edit modal**: Localhost-only editing (quote, author, book, tags, cover upload/remove/keep-web-cover, delete)
 - **Add quote**: "+" button to add new quotes with all fields (localhost only)
 - **Go-to input**: Jump to specific quote by number (localhost only)
-- **Search**: Search quotes by text, author, or publication (localhost only)
+- **Search**: Search quotes by text, author, or publication (press 'S' to toggle)
+- **Tag index**: Press 'A' to view all tags alphabetically in a 3-column modal, click any tag to navigate to quotes with that tag
 
 ### Two Deployments
 - `site/index.html` - Local development (has edit features via `isLocalhost` check)
@@ -126,7 +127,45 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Feb 8 2026) - New Quotes, Search on GitHub Pages & Tag Connections
+### Last Session (Feb 9 2026) - Tag Index Modal, Weak Tag Fixes, New Quotes & Rebellion Tag
+
+- **Added tag index modal** (press 'A'):
+  - 3-column alphabetical list of all primary tags with quote counts
+  - Works as overlay from both landing canvas and quote view
+  - Click any tag to navigate to quotes with that tag
+  - Close with Escape, click outside, or press 'A' again
+  - Deployed to both localhost and GitHub Pages
+
+- **Fixed 20 weakest tag connections**:
+  - Replaced poor/irrelevant connections (e.g. architecture→humour, doom→songs, clarity→banality)
+  - Added 55 reciprocal connections for bidirectional navigation
+  - Examples: architecture now connects to cities/civilisation/art/design
+
+- **Removed 9 primary tags**: birth, error, eschatology, expression, jobs, humour, humankind, humans, speaking
+- **Renamed 2 tags**: definition→definitions, good→goodness
+- **Primary tag count**: 228→220
+
+- **Added 'rebellion' as primary tag**:
+  - Connected to revolution, power, disobedience, defiance, change
+  - Tagged 12 quotes (Fromm ×3, Cioran, Vaneigem ×3, Joyce, Camus, Twain, Saint-Just, Russell)
+
+- **Added 21 new quotes** (quote_0635–quote_0655):
+  - Balzac, Thoreau, Poincaré, Harlan Ellison, Paul Theroux
+  - Borges, Bohr, Bryson ×2, Russell ×3, Kahneman, Orwell, Alva Noë ×3, Camus ×3, Burgess
+  - 6 new covers: a-clockwork-orange, a-short-history-of-nearly-everything, down-and-out-in-paris-and-london, other-inquisitions, the-impact-of-science-on-society, the-happy-isles-of-oceania-paddling-the-pacific
+  - Updated cover: correspondence-between-schiller-and-goethe
+
+- **Cleaned up tags across 55 quotes**:
+  - Removed 288 low-value tags (author names, publication titles, "humour" over-tagging, generic filler)
+  - Added 40 meaningful replacements
+
+- **Minor fixes**:
+  - Fixed Shitao quote: publication "Shape of a Pocket" → "The Shape of a Pocket", added cover
+  - Fixed Goethe year: 2012 → 1898
+  - Fixed Mencken author: "HL Mencken" → "H.L. Mencken"
+  - Fixed Nabokov line break in waxwing quote
+
+### Previous Session (Feb 8 2026) - New Quotes, Search on GitHub Pages & Tag Connections
 
 - **Added 14 new quotes** (quote_0621–quote_0634):
   - Gibson, Gottlieb, Becker, Thompson, Giraudoux, Cage, Basso, Vonnegut, Proust, Mallarmé, Kant, Eco, Stevens
