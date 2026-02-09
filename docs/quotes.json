@@ -10306,6 +10306,12 @@
         "weight": 0.21,
         "corpus_score": 0.1679,
         "relevance": 0.5125
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -10415,6 +10421,12 @@
         "weight": 0.1923,
         "corpus_score": 0.3359,
         "relevance": 0.3318
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -10554,6 +10566,12 @@
         "weight": 0.1996,
         "corpus_score": 0.3359,
         "relevance": 0.3444
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -10637,6 +10655,12 @@
         "weight": 0.1971,
         "corpus_score": 0.3359,
         "relevance": 0.34
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ],
     "book_author": null
@@ -19767,6 +19791,12 @@
         "weight": 0.2186,
         "corpus_score": 0.1679,
         "relevance": 0.5333
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -26012,6 +26042,12 @@
         "weight": 0.1434,
         "corpus_score": 0.1679,
         "relevance": 0.35
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -26971,6 +27007,12 @@
         "weight": 0.1599,
         "corpus_score": 0.2662,
         "relevance": 0.31
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ],
     "book_author": null
@@ -32400,6 +32442,12 @@
         "weight": 0.2356,
         "corpus_score": 0.1679,
         "relevance": 0.575
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -32690,6 +32738,12 @@
         "weight": 0.2028,
         "corpus_score": 0.3359,
         "relevance": 0.35
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ]
   },
@@ -44155,6 +44209,12 @@
       {
         "tag": "history",
         "weight": 1
+      },
+      {
+        "tag": "rebellion",
+        "weight": 0.5,
+        "corpus_score": 0.3,
+        "relevance": 0.9
       }
     ],
     "id": "quote_0651",

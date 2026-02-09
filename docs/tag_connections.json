@@ -568,6 +568,10 @@
       {
         "tag": "patience",
         "score": 4.5
+      },
+      {
+        "tag": "rebellion",
+        "score": 4.5
       }
     ],
     "quote_count": 40
@@ -3724,6 +3728,10 @@
       {
         "tag": "fire",
         "score": 5.0
+      },
+      {
+        "tag": "rebellion",
+        "score": 4.5
       }
     ],
     "quote_count": 7
@@ -4094,6 +4102,10 @@
       {
         "tag": "spirit",
         "score": 4.0
+      },
+      {
+        "tag": "rebellion",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -5795,5 +5807,30 @@
       }
     ],
     "quote_count": 20
+  },
+  "rebellion": {
+    "related": [
+      {
+        "tag": "revolution",
+        "score": 4.5
+      },
+      {
+        "tag": "power",
+        "score": 4.5
+      },
+      {
+        "tag": "disobedience",
+        "score": 4.5
+      },
+      {
+        "tag": "defiance",
+        "score": 4.5
+      },
+      {
+        "tag": "change",
+        "score": 4.5
+      }
+    ],
+    "quote_count": 12
   }
 }
