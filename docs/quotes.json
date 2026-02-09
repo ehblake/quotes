@@ -448,7 +448,7 @@
     "year": "1942",
     "publication": "The Myth of Sisyphus",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "0394700759",
@@ -475,12 +475,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "thought",
-        "weight": 0.6095,
-        "corpus_score": 0.4341,
-        "relevance": 0.925
-      },
-      {
         "tag": "expression",
         "weight": 0.5506,
         "corpus_score": 0.3359,
@@ -505,36 +499,11 @@
         "relevance": 0.5167
       },
       {
-        "tag": "artwork",
-        "weight": 0.3786,
-        "corpus_score": 0.5038,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "the myth of sisyphus",
-        "weight": 0.2322,
-        "corpus_score": 0.1679,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "albert camus",
-        "weight": 0.172,
-        "corpus_score": 0.2662,
-        "relevance": 0.3333
-      },
-      {
-        "tag": "albert",
-        "weight": 0.1434,
-        "corpus_score": 0.1679,
-        "relevance": 0.35
-      },
-      {
-        "tag": "camus",
-        "weight": 0.14,
-        "corpus_score": 0.1679,
-        "relevance": 0.3417
+        "tag": "thinking",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0010",
@@ -2062,34 +2031,18 @@
         "relevance": 0.9444
       },
       {
-        "tag": "poetry",
-        "weight": 0.5232,
-        "corpus_score": 0.7894,
-        "relevance": 0.5889
-      },
-      {
         "tag": "society",
         "weight": 0.4976,
         "corpus_score": 0.9479,
         "relevance": 0.5111
       },
       {
-        "tag": "fall of america",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
+        "tag": "america",
+        "weight": 1
       },
       {
-        "tag": "war machine",
-        "weight": 0.2186,
-        "corpus_score": 0.1679,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "allen ginsberg",
-        "weight": 0.1806,
-        "corpus_score": 0.2662,
-        "relevance": 0.35
+        "tag": "peace",
+        "weight": 1
       }
     ]
   },
@@ -2145,64 +2098,16 @@
         "relevance": 0.96
       },
       {
-        "tag": "poetry",
-        "weight": 0.5272,
-        "corpus_score": 0.7894,
-        "relevance": 0.5933
+        "tag": "time",
+        "weight": 1
       },
       {
-        "tag": "humour",
-        "weight": 0.4774,
-        "corpus_score": 0.8877,
-        "relevance": 0.5067
+        "tag": "perspective",
+        "weight": 1
       },
       {
-        "tag": "remember",
-        "weight": 0.4173,
-        "corpus_score": 0.3359,
-        "relevance": 0.72
-      },
-      {
-        "tag": "fall of america",
-        "weight": 0.4024,
-        "corpus_score": 0.2662,
-        "relevance": 0.78
-      },
-      {
-        "tag": "country",
-        "weight": 0.3907,
-        "corpus_score": 0.1679,
-        "relevance": 0.9533
-      },
-      {
-        "tag": "nasty",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "remembering",
-        "weight": 0.3052,
-        "corpus_score": 0.3359,
-        "relevance": 0.5267
-      },
-      {
-        "tag": "home",
-        "weight": 0.282,
-        "corpus_score": 0.2662,
-        "relevance": 0.5467
-      },
-      {
-        "tag": "historical",
-        "weight": 0.2786,
-        "corpus_score": 0.2662,
-        "relevance": 0.54
-      },
-      {
-        "tag": "allen ginsberg",
-        "weight": 0.1806,
-        "corpus_score": 0.2662,
-        "relevance": 0.35
+        "tag": "memory",
+        "weight": 1
       }
     ]
   },
@@ -2359,12 +2264,6 @@
         "relevance": 0.5053
       },
       {
-        "tag": "marshall mcluhan",
-        "weight": 0.3997,
-        "corpus_score": 0.5038,
-        "relevance": 0.5632
-      },
-      {
         "tag": "superstition",
         "weight": 0.3796,
         "corpus_score": 0.1679,
@@ -2389,58 +2288,16 @@
         "relevance": 0.5368
       },
       {
-        "tag": "abstract",
-        "weight": 0.332,
-        "corpus_score": 0.39,
-        "relevance": 0.5316
-      },
-      {
         "tag": "logic",
         "weight": 0.3142,
         "corpus_score": 0.3359,
         "relevance": 0.5421
       },
       {
-        "tag": "an whitehead",
-        "weight": 0.3041,
-        "corpus_score": 0.2662,
-        "relevance": 0.5895
-      },
-      {
-        "tag": "alfred whitehead",
-        "weight": 0.3014,
-        "corpus_score": 0.2662,
-        "relevance": 0.5842
-      },
-      {
-        "tag": "the medium is the massage",
-        "weight": 0.296,
-        "corpus_score": 0.2662,
-        "relevance": 0.5737
-      },
-      {
-        "tag": "mcluhan",
-        "weight": 0.2933,
-        "corpus_score": 0.2662,
-        "relevance": 0.5684
-      },
-      {
         "tag": "rationality",
         "weight": 0.2851,
         "corpus_score": 0.2662,
         "relevance": 0.5526
-      },
-      {
-        "tag": "rational",
-        "weight": 0.2243,
-        "corpus_score": 0.1679,
-        "relevance": 0.5474
-      },
-      {
-        "tag": "whitehead",
-        "weight": 0.1697,
-        "corpus_score": 0.2662,
-        "relevance": 0.3289
       }
     ]
   },
@@ -2776,13 +2633,7 @@
         "tag": "wall",
         "weight": 0.5159,
         "corpus_score": 0.2662,
-        "relevance": 1.0
-      },
-      {
-        "tag": "poetry",
-        "weight": 0.4823,
-        "corpus_score": 0.7894,
-        "relevance": 0.5429
+        "relevance": 1
       },
       {
         "tag": "decay",
@@ -2795,18 +2646,6 @@
         "weight": 0.4356,
         "corpus_score": 0.581,
         "relevance": 0.5714
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
-        "tag": "divider",
-        "weight": 0.2166,
-        "corpus_score": 0.1679,
-        "relevance": 0.5286
       },
       {
         "tag": "division",
@@ -2974,22 +2813,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "law",
-        "weight": 0.4865,
-        "corpus_score": 0.2662,
-        "relevance": 0.9429
-      },
-      {
         "tag": "fighting",
         "weight": 0.4828,
         "corpus_score": 0.2662,
         "relevance": 0.9357
-      },
-      {
-        "tag": "tiger",
-        "weight": 0.3893,
-        "corpus_score": 0.1679,
-        "relevance": 0.95
       },
       {
         "tag": "australia",
@@ -3004,52 +2831,12 @@
         "relevance": 0.5
       },
       {
-        "tag": "different",
-        "weight": 0.2985,
-        "corpus_score": 0.2662,
-        "relevance": 0.5786
+        "tag": "control",
+        "weight": 1
       },
       {
-        "tag": "port arthur",
-        "weight": 0.2459,
-        "corpus_score": 0.1679,
-        "relevance": 0.6
-      },
-      {
-        "tag": "port arthur historic site",
-        "weight": 0.243,
-        "corpus_score": 0.1679,
-        "relevance": 0.5929
-      },
-      {
-        "tag": "convict",
-        "weight": 0.2313,
-        "corpus_score": 0.1679,
-        "relevance": 0.5643
-      },
-      {
-        "tag": "prisoner",
-        "weight": 0.2283,
-        "corpus_score": 0.1679,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "tasmania",
-        "weight": 0.2108,
-        "corpus_score": 0.1679,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "anthony trollope",
-        "weight": 0.1437,
-        "corpus_score": 0.2662,
-        "relevance": 0.2786
-      },
-      {
-        "tag": "trollope",
-        "weight": 0.14,
-        "corpus_score": 0.2662,
-        "relevance": 0.2714
+        "tag": "laws",
+        "weight": 1
       }
     ]
   },
@@ -3131,7 +2918,7 @@
     "year": "2012",
     "publication": "Antifragile",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788449328640",
@@ -3168,12 +2955,6 @@
         "relevance": 0.93
       },
       {
-        "tag": "humour",
-        "weight": 0.5182,
-        "corpus_score": 0.8877,
-        "relevance": 0.55
-      },
-      {
         "tag": "knowledge",
         "weight": 0.4992,
         "corpus_score": 0.8544,
@@ -3184,12 +2965,6 @@
         "weight": 0.4674,
         "corpus_score": 0.8397,
         "relevance": 0.51
-      },
-      {
-        "tag": "avoid",
-        "weight": 0.3975,
-        "corpus_score": 0.1679,
-        "relevance": 0.97
       },
       {
         "tag": "expertise",
@@ -3203,7 +2978,8 @@
         "corpus_score": 0.1679,
         "relevance": 0.56
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0043",
@@ -3742,15 +3518,9 @@
     ],
     "weighted_tags": [
       {
-        "tag": "thought",
-        "weight": 0.6259,
-        "corpus_score": 0.4341,
-        "relevance": 0.95
-      },
-      {
         "tag": "humanity",
         "weight": 0.5667,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5667
       },
       {
@@ -3776,6 +3546,10 @@
         "weight": 0.4141,
         "corpus_score": 0.5038,
         "relevance": 0.5833
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
       }
     ]
   },
@@ -5312,7 +5086,7 @@
         "tag": "madness",
         "weight": 0.6867,
         "corpus_score": 0.4715,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "society",
@@ -5417,7 +5191,7 @@
     "year": "1987",
     "publication": "The Songlines",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "8483072688",
@@ -5462,62 +5236,9 @@
         "weight": 0.4698,
         "corpus_score": 0.749,
         "relevance": 0.5429
-      },
-      {
-        "tag": "australia",
-        "weight": 0.3955,
-        "corpus_score": 0.5038,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "quotes",
-        "weight": 0.3875,
-        "corpus_score": 0.4715,
-        "relevance": 0.5643
-      },
-      {
-        "tag": "speaking",
-        "weight": 0.3483,
-        "corpus_score": 0.4341,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "smart",
-        "weight": 0.3436,
-        "corpus_score": 0.4341,
-        "relevance": 0.5214
-      },
-      {
-        "tag": "songlines",
-        "weight": 0.3059,
-        "corpus_score": 0.2662,
-        "relevance": 0.5929
-      },
-      {
-        "tag": "the songlines",
-        "weight": 0.3022,
-        "corpus_score": 0.2662,
-        "relevance": 0.5857
-      },
-      {
-        "tag": "sharp",
-        "weight": 0.2108,
-        "corpus_score": 0.1679,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "intelligent",
-        "weight": 0.2078,
-        "corpus_score": 0.1679,
-        "relevance": 0.5071
-      },
-      {
-        "tag": "bruce chatwin",
-        "weight": 0.1806,
-        "corpus_score": 0.2662,
-        "relevance": 0.35
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0073",
@@ -6448,22 +6169,10 @@
         "relevance": 0.9667
       },
       {
-        "tag": "paralysis",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
         "tag": "balance",
         "weight": 0.2694,
         "corpus_score": 0.2662,
         "relevance": 0.5222
-      },
-      {
-        "tag": "carlos fuentes",
-        "weight": 0.19,
-        "corpus_score": 0.3359,
-        "relevance": 0.3278
       }
     ],
     "book_author": null
@@ -8207,7 +7916,7 @@
     "year": "2015",
     "publication": "The Utopia of Rules",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9786051850078",
@@ -8265,20 +7974,9 @@
         "weight": 0.4101,
         "corpus_score": 0.5038,
         "relevance": 0.5778
-      },
-      {
-        "tag": "quotes",
-        "weight": 0.3891,
-        "corpus_score": 0.4715,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "david graeber",
-        "weight": 0.2668,
-        "corpus_score": 0.581,
-        "relevance": 0.35
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0108",
@@ -8324,34 +8022,10 @@
         "relevance": 0.55
       },
       {
-        "tag": "david graeber",
-        "weight": 0.4573,
-        "corpus_score": 0.581,
-        "relevance": 0.6
-      },
-      {
         "tag": "utopia",
         "weight": 0.4141,
         "corpus_score": 0.5038,
         "relevance": 0.5833
-      },
-      {
-        "tag": "contemporary",
-        "weight": 0.3962,
-        "corpus_score": 0.1679,
-        "relevance": 0.9667
-      },
-      {
-        "tag": "quotes",
-        "weight": 0.3948,
-        "corpus_score": 0.4715,
-        "relevance": 0.575
-      },
-      {
-        "tag": "beta version",
-        "weight": 0.3859,
-        "corpus_score": 0.1679,
-        "relevance": 0.9417
       },
       {
         "tag": "science fiction",
@@ -8360,22 +8034,10 @@
         "relevance": 0.9333
       },
       {
-        "tag": "beta",
-        "weight": 0.3757,
-        "corpus_score": 0.1679,
-        "relevance": 0.9167
-      },
-      {
         "tag": "dreams",
         "weight": 0.3549,
         "corpus_score": 0.5038,
         "relevance": 0.5
-      },
-      {
-        "tag": "richard barbrook",
-        "weight": 0.1059,
-        "corpus_score": 0.1679,
-        "relevance": 0.2583
       }
     ]
   },
@@ -9393,7 +9055,7 @@
     "confidence": 1,
     "needs_review": false,
     "book_author": "Adrian Franklin",
-    "isbn": null,
+    "isbn": "9780132008037",
     "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53558950269",
     "_match_score": 90,
@@ -9416,12 +9078,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.559,
-        "corpus_score": 0.8877,
-        "relevance": 0.5933
-      },
-      {
         "tag": "fighting",
         "weight": 0.4987,
         "corpus_score": 0.2662,
@@ -9434,22 +9090,10 @@
         "relevance": 0.5467
       },
       {
-        "tag": "boys",
-        "weight": 0.3989,
-        "corpus_score": 0.1679,
-        "relevance": 0.9733
-      },
-      {
         "tag": "motives",
         "weight": 0.3907,
         "corpus_score": 0.1679,
         "relevance": 0.9533
-      },
-      {
-        "tag": "contradictory",
-        "weight": 0.377,
-        "corpus_score": 0.1679,
-        "relevance": 0.92
       },
       {
         "tag": "complexity",
@@ -9462,30 +9106,6 @@
         "weight": 0.2752,
         "corpus_score": 0.2662,
         "relevance": 0.5333
-      },
-      {
-        "tag": "great",
-        "weight": 0.2648,
-        "corpus_score": 0.2662,
-        "relevance": 0.5133
-      },
-      {
-        "tag": "great quote",
-        "weight": 0.2614,
-        "corpus_score": 0.2662,
-        "relevance": 0.5067
-      },
-      {
-        "tag": "david walsh",
-        "weight": 0.22,
-        "corpus_score": 0.5038,
-        "relevance": 0.31
-      },
-      {
-        "tag": "contradiction",
-        "weight": 0.2158,
-        "corpus_score": 0.1679,
-        "relevance": 0.5267
       }
     ]
   },
@@ -9656,7 +9276,7 @@
     "year": "2015",
     "publication": "The Brothers Karamazov",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9798457106185",
@@ -9687,15 +9307,9 @@
         "relevance": 0.9364
       },
       {
-        "tag": "human",
-        "weight": 0.548,
-        "corpus_score": 0.3359,
-        "relevance": 0.9455
-      },
-      {
         "tag": "humanity",
         "weight": 0.5091,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5091
       },
       {
@@ -9705,36 +9319,13 @@
         "relevance": 0.5545
       },
       {
-        "tag": "dostoevsky",
-        "weight": 0.4653,
-        "corpus_score": 0.6394,
-        "relevance": 0.5818
-      },
-      {
-        "tag": "fyodor dostoevsky",
-        "weight": 0.4444,
-        "corpus_score": 0.6021,
-        "relevance": 0.5727
-      },
-      {
         "tag": "living",
         "weight": 0.4144,
         "corpus_score": 0.6394,
         "relevance": 0.5182
-      },
-      {
-        "tag": "russian",
-        "weight": 0.4001,
-        "corpus_score": 0.5038,
-        "relevance": 0.5636
-      },
-      {
-        "tag": "why",
-        "weight": 0.3847,
-        "corpus_score": 0.5324,
-        "relevance": 0.5273
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0127",
@@ -9919,7 +9510,7 @@
     "year": "1868",
     "publication": "The Idiot",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9798770072389",
@@ -9958,18 +9549,6 @@
         "relevance": 0.5083
       },
       {
-        "tag": "dostoevsky",
-        "weight": 0.4665,
-        "corpus_score": 0.6394,
-        "relevance": 0.5833
-      },
-      {
-        "tag": "lie",
-        "weight": 0.3859,
-        "corpus_score": 0.1679,
-        "relevance": 0.9417
-      },
-      {
         "tag": "falsehood",
         "weight": 0.3477,
         "corpus_score": 0.3359,
@@ -9982,12 +9561,6 @@
         "relevance": 0.5917
       },
       {
-        "tag": "1868",
-        "weight": 0.3236,
-        "corpus_score": 0.3359,
-        "relevance": 0.5583
-      },
-      {
         "tag": "laws",
         "weight": 0.3043,
         "corpus_score": 0.3359,
@@ -9998,14 +9571,9 @@
         "weight": 0.2994,
         "corpus_score": 0.3359,
         "relevance": 0.5167
-      },
-      {
-        "tag": "fyodor dostoyevsky",
-        "weight": 0.203,
-        "corpus_score": 0.39,
-        "relevance": 0.325
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0130",
@@ -10687,24 +10255,6 @@
         "weight": 0.3944,
         "corpus_score": 0.1679,
         "relevance": 0.9625
-      },
-      {
-        "tag": "emil cioran",
-        "weight": 0.3871,
-        "corpus_score": 0.4341,
-        "relevance": 0.5875
-      },
-      {
-        "tag": "psychology",
-        "weight": 0.297,
-        "corpus_score": 0.3359,
-        "relevance": 0.5125
-      },
-      {
-        "tag": "cioran",
-        "weight": 0.2186,
-        "corpus_score": 0.39,
-        "relevance": 0.35
       }
     ]
   },
@@ -11837,7 +11387,7 @@
     "year": "1920",
     "publication": "This Side of Paradise",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9782070299546",
@@ -11861,18 +11411,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "author",
-        "weight": 0.5474,
-        "corpus_score": 0.3359,
-        "relevance": 0.9444
-      },
-      {
-        "tag": "humour",
-        "weight": 0.492,
-        "corpus_score": 0.8877,
-        "relevance": 0.5222
-      },
-      {
         "tag": "creativity",
         "weight": 0.4832,
         "corpus_score": 0.8938,
@@ -11885,24 +11423,15 @@
         "relevance": 0.5556
       },
       {
-        "tag": "beheaded",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
+        "tag": "making",
+        "weight": 1
       },
       {
-        "tag": "f scott fitzgerald",
-        "weight": 0.3096,
-        "corpus_score": 0.2662,
-        "relevance": 0.6
-      },
-      {
-        "tag": "1920",
-        "weight": 0.2368,
-        "corpus_score": 0.1679,
-        "relevance": 0.5778
+        "tag": "honesty",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0154",
@@ -12096,12 +11625,6 @@
         "relevance": 0.525
       },
       {
-        "tag": "humour",
-        "weight": 0.4829,
-        "corpus_score": 0.8877,
-        "relevance": 0.5125
-      },
-      {
         "tag": "bureaucracy",
         "weight": 0.3948,
         "corpus_score": 0.4715,
@@ -12124,18 +11647,6 @@
         "weight": 0.3542,
         "corpus_score": 0.4341,
         "relevance": 0.5375
-      },
-      {
-        "tag": "franz kafka",
-        "weight": 0.1956,
-        "corpus_score": 0.3359,
-        "relevance": 0.3375
-      },
-      {
-        "tag": "kafka",
-        "weight": 0.1806,
-        "corpus_score": 0.2662,
-        "relevance": 0.35
       }
     ]
   },
@@ -12783,7 +12294,7 @@
     "year": "1888",
     "publication": "The Four Great Errors",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788525417916",
@@ -12806,12 +12317,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.5025,
-        "corpus_score": 0.8877,
-        "relevance": 0.5333
-      },
-      {
         "tag": "christianity",
         "weight": 0.493,
         "corpus_score": 0.2662,
@@ -12824,24 +12329,15 @@
         "relevance": 0.9222
       },
       {
-        "tag": "hangman",
-        "weight": 0.3734,
-        "corpus_score": 0.1679,
-        "relevance": 0.9111
+        "tag": "religion",
+        "weight": 1
       },
       {
-        "tag": "hangman's physics",
-        "weight": 0.3051,
-        "corpus_score": 0.1679,
-        "relevance": 0.7444
-      },
-      {
-        "tag": "friedrich nietzsche",
-        "weight": 0.2583,
-        "corpus_score": 0.581,
-        "relevance": 0.3389
+        "tag": "belief",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0170",
@@ -13489,7 +12985,7 @@
     "year": "1872",
     "publication": "Demons",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781985793736",
@@ -13520,34 +13016,10 @@
         "relevance": 0.51
       },
       {
-        "tag": "great",
-        "weight": 0.4953,
-        "corpus_score": 0.2662,
-        "relevance": 0.96
-      },
-      {
         "tag": "existence",
         "weight": 0.4949,
         "corpus_score": 0.9056,
         "relevance": 0.52
-      },
-      {
-        "tag": "elite",
-        "weight": 0.2786,
-        "corpus_score": 0.2662,
-        "relevance": 0.54
-      },
-      {
-        "tag": "fyodor dostoevsky",
-        "weight": 0.2561,
-        "corpus_score": 0.6021,
-        "relevance": 0.33
-      },
-      {
-        "tag": "dostoevsky",
-        "weight": 0.2559,
-        "corpus_score": 0.6394,
-        "relevance": 0.32
       },
       {
         "tag": "greatness",
@@ -13560,8 +13032,13 @@
         "weight": 0.2172,
         "corpus_score": 0.1679,
         "relevance": 0.53
+      },
+      {
+        "tag": "defiance",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0178",
@@ -13572,7 +13049,7 @@
     "year": "1872",
     "publication": "Demons",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781985793736",
@@ -13603,36 +13080,21 @@
         "relevance": 0.94
       },
       {
-        "tag": "humour",
-        "weight": 0.4993,
-        "corpus_score": 0.8877,
-        "relevance": 0.53
-      },
-      {
         "tag": "genius",
         "weight": 0.3893,
         "corpus_score": 0.1679,
         "relevance": 0.95
       },
       {
-        "tag": "smart",
-        "weight": 0.336,
-        "corpus_score": 0.4341,
-        "relevance": 0.51
+        "tag": "intelligence",
+        "weight": 1
       },
       {
-        "tag": "fyodor dostoevsky",
-        "weight": 0.2561,
-        "corpus_score": 0.6021,
-        "relevance": 0.33
-      },
-      {
-        "tag": "dostoevsky",
-        "weight": 0.2559,
-        "corpus_score": 0.6394,
-        "relevance": 0.32
+        "tag": "knowledge",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0179",
@@ -15138,12 +14600,6 @@
         "relevance": 0.96
       },
       {
-        "tag": "humour",
-        "weight": 0.5653,
-        "corpus_score": 0.8877,
-        "relevance": 0.6
-      },
-      {
         "tag": "wrong",
         "weight": 0.3833,
         "corpus_score": 0.5038,
@@ -15156,10 +14612,8 @@
         "relevance": 0.52
       },
       {
-        "tag": "poorly",
-        "weight": 0.2377,
-        "corpus_score": 0.1679,
-        "relevance": 0.58
+        "tag": "creativity",
+        "weight": 1
       }
     ]
   },
@@ -15854,13 +15308,13 @@
     "filename_stem": "gustav-flaubert",
     "quote": "The more words there are on a gallery wall next to a picture, the worse the picture.",
     "author": "Gustav Flaubert",
-    "year": null,
+    "year": "2007",
     "publication": "The Making of Mona",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "book_author": "Adrian Franklin",
-    "isbn": null,
+    "isbn": "9780132008037",
     "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53558813328",
     "_match_score": 50,
@@ -15878,12 +15332,6 @@
       "great quote"
     ],
     "weighted_tags": [
-      {
-        "tag": "humour",
-        "weight": 0.5567,
-        "corpus_score": 0.8877,
-        "relevance": 0.5909
-      },
       {
         "tag": "art",
         "weight": 0.4799,
@@ -15903,28 +15351,8 @@
         "relevance": 0.5636
       },
       {
-        "tag": "wall text",
-        "weight": 0.3167,
-        "corpus_score": 0.1679,
-        "relevance": 0.7727
-      },
-      {
-        "tag": "great quote",
-        "weight": 0.2627,
-        "corpus_score": 0.2662,
-        "relevance": 0.5091
-      },
-      {
-        "tag": "text",
-        "weight": 0.2161,
-        "corpus_score": 0.1679,
-        "relevance": 0.5273
-      },
-      {
-        "tag": "curation",
-        "weight": 0.2124,
-        "corpus_score": 0.1679,
-        "relevance": 0.5182
+        "tag": "writing",
+        "weight": 1
       }
     ]
   },
@@ -15937,7 +15365,7 @@
     "year": "1856",
     "publication": "Madame Bovary",
     "notes": "Author's name corrected based on known spelling.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781727475883",
@@ -15966,48 +15394,23 @@
         "relevance": 0.5778
       },
       {
-        "tag": "work",
-        "weight": 0.4397,
-        "corpus_score": 0.6021,
-        "relevance": 0.5667
+        "tag": "idols",
+        "weight": 1
       },
       {
-        "tag": "banality",
-        "weight": 0.3433,
-        "corpus_score": 0.4715,
-        "relevance": 0.5
+        "tag": "idolatry",
+        "weight": 1
       },
       {
-        "tag": "creative",
-        "weight": 0.34,
-        "corpus_score": 0.39,
-        "relevance": 0.5444
+        "tag": "perception",
+        "weight": 1
       },
       {
-        "tag": "originality",
-        "weight": 0.3331,
-        "corpus_score": 0.39,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "uniqueness",
-        "weight": 0.3122,
-        "corpus_score": 0.39,
-        "relevance": 0.5
-      },
-      {
-        "tag": "violent",
-        "weight": 0.2866,
-        "corpus_score": 0.2662,
-        "relevance": 0.5556
-      },
-      {
-        "tag": "gustave flaubert",
-        "weight": 0.1389,
-        "corpus_score": 0.1679,
-        "relevance": 0.3389
+        "tag": "reality",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0215",
@@ -16062,36 +15465,6 @@
         "weight": 0.4563,
         "corpus_score": 0.7799,
         "relevance": 0.5167
-      },
-      {
-        "tag": "remembering",
-        "weight": 0.3091,
-        "corpus_score": 0.3359,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "remember",
-        "weight": 0.3043,
-        "corpus_score": 0.3359,
-        "relevance": 0.525
-      },
-      {
-        "tag": "who design makes us think",
-        "weight": 0.2356,
-        "corpus_score": 0.1679,
-        "relevance": 0.575
-      },
-      {
-        "tag": "soul",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "guy de maupassant",
-        "weight": 0.1298,
-        "corpus_score": 0.1679,
-        "relevance": 0.3167
       }
     ]
   },
@@ -17099,18 +16472,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "fear",
-        "weight": 0.735,
-        "corpus_score": 0.581,
-        "relevance": 0.9643
-      },
-      {
-        "tag": "humour",
-        "weight": 0.5182,
-        "corpus_score": 0.8877,
-        "relevance": 0.55
-      },
-      {
         "tag": "happiness",
         "weight": 0.4323,
         "corpus_score": 0.6021,
@@ -17141,34 +16502,10 @@
         "relevance": 0.5214
       },
       {
-        "tag": "puritanical",
-        "weight": 0.2342,
-        "corpus_score": 0.1679,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "protestant",
-        "weight": 0.2195,
-        "corpus_score": 0.1679,
-        "relevance": 0.5357
-      },
-      {
         "tag": "labor",
         "weight": 0.2108,
         "corpus_score": 0.1679,
         "relevance": 0.5143
-      },
-      {
-        "tag": "toil",
-        "weight": 0.2078,
-        "corpus_score": 0.1679,
-        "relevance": 0.5071
-      },
-      {
-        "tag": "hl mencken",
-        "weight": 0.1732,
-        "corpus_score": 0.2662,
-        "relevance": 0.3357
       }
     ]
   },
@@ -17803,12 +17140,6 @@
         "relevance": 0.9143
       },
       {
-        "tag": "humour",
-        "weight": 0.5384,
-        "corpus_score": 0.8877,
-        "relevance": 0.5714
-      },
-      {
         "tag": "fun",
         "weight": 0.404,
         "corpus_score": 0.1679,
@@ -17821,22 +17152,8 @@
         "relevance": 0.5429
       },
       {
-        "tag": "hst",
-        "weight": 0.2459,
-        "corpus_score": 0.1679,
-        "relevance": 0.6
-      },
-      {
-        "tag": "hoarding",
-        "weight": 0.2283,
-        "corpus_score": 0.1679,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "enjoyment",
-        "weight": 0.2166,
-        "corpus_score": 0.1679,
-        "relevance": 0.5286
+        "tag": "purpose",
+        "weight": 1
       }
     ]
   },
@@ -18060,13 +17377,7 @@
         "tag": "history",
         "weight": 0.8589,
         "corpus_score": 0.7377,
-        "relevance": 1.0
-      },
-      {
-        "tag": "humour",
-        "weight": 0.5496,
-        "corpus_score": 0.8877,
-        "relevance": 0.5833
+        "relevance": 1
       },
       {
         "tag": "perception",
@@ -18091,6 +17402,10 @@
         "weight": 0.2117,
         "corpus_score": 0.1679,
         "relevance": 0.5167
+      },
+      {
+        "tag": "time",
+        "weight": 1
       }
     ]
   },
@@ -18200,12 +17515,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.5249,
-        "corpus_score": 0.8877,
-        "relevance": 0.5571
-      },
-      {
         "tag": "life",
         "weight": 0.5077,
         "corpus_score": 0.9479,
@@ -18236,40 +17545,10 @@
         "relevance": 0.9643
       },
       {
-        "tag": "daily",
-        "weight": 0.3835,
-        "corpus_score": 0.1679,
-        "relevance": 0.9357
-      },
-      {
-        "tag": "presence",
-        "weight": 0.2801,
-        "corpus_score": 0.2662,
-        "relevance": 0.5429
-      },
-      {
         "tag": "2014",
         "weight": 0.2342,
         "corpus_score": 0.1679,
         "relevance": 0.5714
-      },
-      {
-        "tag": "shit",
-        "weight": 0.2108,
-        "corpus_score": 0.1679,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "the invisible committee",
-        "weight": 0.1376,
-        "corpus_score": 0.1679,
-        "relevance": 0.3357
-      },
-      {
-        "tag": "invisible committee",
-        "weight": 0.1347,
-        "corpus_score": 0.1679,
-        "relevance": 0.3286
       }
     ]
   },
@@ -19148,7 +18427,7 @@
     "year": "1986",
     "publication": "Six Memos",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780141189697",
@@ -19183,12 +18462,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "race",
-        "weight": 0.4979,
-        "corpus_score": 0.2662,
-        "relevance": 0.965
-      },
-      {
         "tag": "thinking",
         "weight": 0.4815,
         "corpus_score": 0.7134,
@@ -19207,90 +18480,19 @@
         "relevance": 0.58
       },
       {
-        "tag": "thought",
-        "weight": 0.3459,
-        "corpus_score": 0.4341,
-        "relevance": 0.525
-      },
-      {
         "tag": "machines",
         "weight": 0.3159,
         "corpus_score": 0.3359,
         "relevance": 0.545
       },
       {
-        "tag": "six memos",
-        "weight": 0.3018,
-        "corpus_score": 0.2662,
-        "relevance": 0.585
-      },
-      {
-        "tag": "machine",
-        "weight": 0.2838,
-        "corpus_score": 0.2662,
-        "relevance": 0.55
-      },
-      {
-        "tag": "italo calvino",
-        "weight": 0.2517,
-        "corpus_score": 0.5324,
-        "relevance": 0.345
-      },
-      {
         "tag": "speed",
         "weight": 0.2356,
         "corpus_score": 0.1679,
         "relevance": 0.575
-      },
-      {
-        "tag": "faster",
-        "weight": 0.2295,
-        "corpus_score": 0.1679,
-        "relevance": 0.56
-      },
-      {
-        "tag": "motor age",
-        "weight": 0.2274,
-        "corpus_score": 0.1679,
-        "relevance": 0.555
-      },
-      {
-        "tag": "slow thinking",
-        "weight": 0.2193,
-        "corpus_score": 0.1679,
-        "relevance": 0.535
-      },
-      {
-        "tag": "pondering",
-        "weight": 0.2172,
-        "corpus_score": 0.1679,
-        "relevance": 0.53
-      },
-      {
-        "tag": "machine age",
-        "weight": 0.2131,
-        "corpus_score": 0.1679,
-        "relevance": 0.52
-      },
-      {
-        "tag": "swift",
-        "weight": 0.2111,
-        "corpus_score": 0.1679,
-        "relevance": 0.515
-      },
-      {
-        "tag": "slow",
-        "weight": 0.209,
-        "corpus_score": 0.1679,
-        "relevance": 0.51
-      },
-      {
-        "tag": "swiftness",
-        "weight": 0.207,
-        "corpus_score": 0.1679,
-        "relevance": 0.505
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0260",
@@ -22114,7 +21316,7 @@
     "confidence": 1,
     "needs_review": false,
     "book_author": "Bruce Chatwin",
-    "isbn": null,
+    "isbn": "8483072688",
     "cover_url": "covers/the-songlines.jpg",
     "_flickr_id": "49098413251",
     "_match_score": 70,
@@ -22142,12 +21344,6 @@
         "relevance": 0.7
       },
       {
-        "tag": "function",
-        "weight": 0.468,
-        "corpus_score": 0.2662,
-        "relevance": 0.9071
-      },
-      {
         "tag": "walking",
         "weight": 0.4616,
         "corpus_score": 0.6865,
@@ -22164,48 +21360,6 @@
         "weight": 0.4404,
         "corpus_score": 0.7134,
         "relevance": 0.5214
-      },
-      {
-        "tag": "australia",
-        "weight": 0.4056,
-        "corpus_score": 0.5038,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "thought",
-        "weight": 0.3483,
-        "corpus_score": 0.4341,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "the songlines",
-        "weight": 0.3096,
-        "corpus_score": 0.2662,
-        "relevance": 0.6
-      },
-      {
-        "tag": "songlines",
-        "weight": 0.3059,
-        "corpus_score": 0.2662,
-        "relevance": 0.5929
-      },
-      {
-        "tag": "bruce chatwin",
-        "weight": 0.3022,
-        "corpus_score": 0.2662,
-        "relevance": 0.5857
-      },
-      {
-        "tag": "johann georg hamann",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "jg hamann",
-        "weight": 0.2225,
-        "corpus_score": 0.1679,
-        "relevance": 0.5429
       }
     ]
   },
@@ -22659,22 +21813,10 @@
         "relevance": 0.9909
       },
       {
-        "tag": "good",
-        "weight": 0.6492,
-        "corpus_score": 0.4715,
-        "relevance": 0.9455
-      },
-      {
         "tag": "humanity",
         "weight": 0.5273,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5273
-      },
-      {
-        "tag": "humour",
-        "weight": 0.4882,
-        "corpus_score": 0.8877,
-        "relevance": 0.5182
       },
       {
         "tag": "evil",
@@ -22695,16 +21837,8 @@
         "relevance": 0.5545
       },
       {
-        "tag": "musk",
-        "weight": 0.2086,
-        "corpus_score": 0.1679,
-        "relevance": 0.5091
-      },
-      {
-        "tag": "john maynard keynes",
-        "weight": 0.1712,
-        "corpus_score": 0.2662,
-        "relevance": 0.3318
+        "tag": "goodness",
+        "weight": 1
       }
     ]
   },
@@ -23835,12 +22969,6 @@
         "relevance": 0.56
       },
       {
-        "tag": "nature",
-        "weight": 0.5021,
-        "corpus_score": 0.7003,
-        "relevance": 0.6
-      },
-      {
         "tag": "acceptance",
         "weight": 0.485,
         "corpus_score": 0.2662,
@@ -23851,12 +22979,6 @@
         "weight": 0.4016,
         "corpus_score": 0.1679,
         "relevance": 0.98
-      },
-      {
-        "tag": "collapse",
-        "weight": 0.3426,
-        "corpus_score": 0.4341,
-        "relevance": 0.52
       }
     ]
   },
@@ -24285,18 +23407,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.5276,
-        "corpus_score": 0.8877,
-        "relevance": 0.56
-      },
-      {
-        "tag": "quotes",
-        "weight": 0.3914,
-        "corpus_score": 0.4715,
-        "relevance": 0.57
-      },
-      {
         "tag": "accidents",
         "weight": 0.3811,
         "corpus_score": 0.1679,
@@ -24325,12 +23435,6 @@
         "weight": 0.2254,
         "corpus_score": 0.1679,
         "relevance": 0.55
-      },
-      {
-        "tag": "keith richards",
-        "weight": 0.1754,
-        "corpus_score": 0.2662,
-        "relevance": 0.34
       },
       {
         "tag": "randomness",
@@ -24366,12 +23470,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.5234,
-        "corpus_score": 0.8877,
-        "relevance": 0.5556
-      },
-      {
         "tag": "internet",
         "weight": 0.4815,
         "corpus_score": 0.2662,
@@ -24382,12 +23480,6 @@
         "weight": 0.4541,
         "corpus_score": 0.7894,
         "relevance": 0.5111
-      },
-      {
-        "tag": "quotes",
-        "weight": 0.3891,
-        "corpus_score": 0.4715,
-        "relevance": 0.5667
       },
       {
         "tag": "synthesisers",
@@ -24402,10 +23494,8 @@
         "relevance": 0.5222
       },
       {
-        "tag": "keith richards",
-        "weight": 0.1748,
-        "corpus_score": 0.2662,
-        "relevance": 0.3389
+        "tag": "secrets",
+        "weight": 1
       }
     ]
   },
@@ -24418,7 +23508,7 @@
     "year": "1963",
     "publication": "Cat's Cradle",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781499376074",
@@ -24445,60 +23535,19 @@
     ],
     "weighted_tags": [
       {
-        "tag": "perspective",
-        "weight": 0.4212,
-        "corpus_score": 0.6865,
-        "relevance": 0.5083
+        "tag": "curiosity",
+        "weight": 1
       },
       {
-        "tag": "meaning",
-        "weight": 0.3952,
-        "corpus_score": 0.5324,
-        "relevance": 0.5417
+        "tag": "research",
+        "weight": 1
       },
       {
-        "tag": "speaking",
-        "weight": 0.3624,
-        "corpus_score": 0.4341,
-        "relevance": 0.55
-      },
-      {
-        "tag": "talking",
-        "weight": 0.3539,
-        "corpus_score": 0.39,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "cat's cradle",
-        "weight": 0.3333,
-        "corpus_score": 0.3359,
-        "relevance": 0.575
-      },
-      {
-        "tag": "talk",
-        "weight": 0.3043,
-        "corpus_score": 0.3359,
-        "relevance": 0.525
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.2905,
-        "corpus_score": 0.7597,
-        "relevance": 0.3333
-      },
-      {
-        "tag": "point",
-        "weight": 0.2666,
-        "corpus_score": 0.2662,
-        "relevance": 0.5167
-      },
-      {
-        "tag": "voice box",
-        "weight": 0.2288,
-        "corpus_score": 0.1679,
-        "relevance": 0.5583
+        "tag": "work",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0327",
@@ -25994,7 +25043,7 @@
     "year": "1999",
     "publication": "God Bless You Dr. Kevorkian",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "1583220836",
@@ -26024,28 +25073,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.5465,
-        "corpus_score": 0.8877,
-        "relevance": 0.58
-      },
-      {
-        "tag": "dead",
-        "weight": 0.5371,
-        "corpus_score": 0.3359,
-        "relevance": 0.9267
-      },
-      {
         "tag": "death",
         "weight": 0.4828,
         "corpus_score": 0.7799,
         "relevance": 0.5467
-      },
-      {
-        "tag": "humanist",
-        "weight": 0.3989,
-        "corpus_score": 0.1679,
-        "relevance": 0.9733
       },
       {
         "tag": "hell",
@@ -26076,32 +25107,9 @@
         "weight": 0.313,
         "corpus_score": 0.3359,
         "relevance": 0.54
-      },
-      {
-        "tag": "god bless you dr. kevorkian",
-        "weight": 0.3027,
-        "corpus_score": 0.2662,
-        "relevance": 0.5867
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.276,
-        "corpus_score": 0.7597,
-        "relevance": 0.3167
-      },
-      {
-        "tag": "vonnegut",
-        "weight": 0.2444,
-        "corpus_score": 0.6215,
-        "relevance": 0.31
-      },
-      {
-        "tag": "afterlife",
-        "weight": 0.2268,
-        "corpus_score": 0.1679,
-        "relevance": 0.5533
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0347",
@@ -30010,7 +29018,7 @@
     "year": "1962",
     "publication": "Pale Fire",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780141197241",
@@ -30037,66 +29045,21 @@
     ],
     "weighted_tags": [
       {
-        "tag": "poetry",
-        "weight": 0.4961,
-        "corpus_score": 0.7894,
-        "relevance": 0.5583
-      },
-      {
         "tag": "death",
         "weight": 0.4636,
         "corpus_score": 0.7799,
         "relevance": 0.525
       },
       {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
+        "tag": "the end",
+        "weight": 1
       },
       {
-        "tag": "waxwing",
-        "weight": 0.3996,
-        "corpus_score": 0.1679,
-        "relevance": 0.975
-      },
-      {
-        "tag": "window",
-        "weight": 0.3039,
-        "corpus_score": 0.1679,
-        "relevance": 0.7417
-      },
-      {
-        "tag": "bird",
-        "weight": 0.2752,
-        "corpus_score": 0.2662,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "verse",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "allure",
-        "weight": 0.2117,
-        "corpus_score": 0.1679,
-        "relevance": 0.5167
-      },
-      {
-        "tag": "mirage",
-        "weight": 0.2083,
-        "corpus_score": 0.1679,
-        "relevance": 0.5083
-      },
-      {
-        "tag": "vladimir nabokov",
-        "weight": 0.2082,
-        "corpus_score": 0.39,
-        "relevance": 0.3333
+        "tag": "falsehood",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0397",
@@ -31286,12 +30249,6 @@
         "weight": 0.5578,
         "corpus_score": 0.3359,
         "relevance": 0.9625
-      },
-      {
-        "tag": "humour",
-        "weight": 0.5535,
-        "corpus_score": 0.8877,
-        "relevance": 0.5875
       },
       {
         "tag": "society",
@@ -34122,12 +33079,6 @@
         "relevance": 0.94
       },
       {
-        "tag": "poetry",
-        "weight": 0.5331,
-        "corpus_score": 0.7894,
-        "relevance": 0.6
-      },
-      {
         "tag": "misfortune",
         "weight": 0.4953,
         "corpus_score": 0.2662,
@@ -34377,12 +33328,6 @@
         "relevance": 0.5333
       },
       {
-        "tag": "clock",
-        "weight": 0.403,
-        "corpus_score": 0.1679,
-        "relevance": 0.9833
-      },
-      {
         "tag": "suffering",
         "weight": 0.3938,
         "corpus_score": 0.581,
@@ -34465,7 +33410,7 @@
     "year": "1986",
     "publication": "The Fatal Shore",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780394753669",
@@ -34505,60 +33450,19 @@
         "relevance": 0.5692
       },
       {
-        "tag": "humour",
-        "weight": 0.4856,
-        "corpus_score": 0.8877,
-        "relevance": 0.5154
+        "tag": "escape",
+        "weight": 1
       },
       {
-        "tag": "architecture",
-        "weight": 0.3254,
-        "corpus_score": 0.3359,
-        "relevance": 0.5615
+        "tag": "survival",
+        "weight": 1
       },
       {
-        "tag": "fatal shore",
-        "weight": 0.2427,
-        "corpus_score": 0.1679,
-        "relevance": 0.5923
-      },
-      {
-        "tag": "ruins",
-        "weight": 0.227,
-        "corpus_score": 0.1679,
-        "relevance": 0.5538
-      },
-      {
-        "tag": "parking",
-        "weight": 0.2238,
-        "corpus_score": 0.1679,
-        "relevance": 0.5462
-      },
-      {
-        "tag": "lot",
-        "weight": 0.2207,
-        "corpus_score": 0.1679,
-        "relevance": 0.5385
-      },
-      {
-        "tag": "parking lots",
-        "weight": 0.2175,
-        "corpus_score": 0.1679,
-        "relevance": 0.5308
-      },
-      {
-        "tag": "parking lot",
-        "weight": 0.2144,
-        "corpus_score": 0.1679,
-        "relevance": 0.5231
-      },
-      {
-        "tag": "robert hughes",
-        "weight": 0.1434,
-        "corpus_score": 0.1679,
-        "relevance": 0.35
+        "tag": "difficulty",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0456",
@@ -34937,7 +33841,7 @@
         "tag": "progress",
         "weight": 0.8196,
         "corpus_score": 0.6718,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "desire",
@@ -37745,7 +36649,7 @@
     "year": "1968",
     "publication": "Rosencrantz and Guildenstern are Dead",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
@@ -37776,28 +36680,10 @@
         "relevance": 0.98
       },
       {
-        "tag": "gamble",
-        "weight": 0.6057,
-        "corpus_score": 0.39,
-        "relevance": 0.97
-      },
-      {
-        "tag": "humour",
-        "weight": 0.5276,
-        "corpus_score": 0.8877,
-        "relevance": 0.56
-      },
-      {
         "tag": "existence",
         "weight": 0.5139,
         "corpus_score": 0.9056,
         "relevance": 0.54
-      },
-      {
-        "tag": "quotes",
-        "weight": 0.412,
-        "corpus_score": 0.4715,
-        "relevance": 0.6
       },
       {
         "tag": "gambling",
@@ -37806,28 +36692,11 @@
         "relevance": 0.55
       },
       {
-        "tag": "play",
-        "weight": 0.3185,
-        "corpus_score": 0.39,
-        "relevance": 0.51
-      },
-      {
-        "tag": "rosencrantz and guildenstern are dead",
-        "weight": 0.2131,
-        "corpus_score": 0.1679,
-        "relevance": 0.52
-      },
-      {
-        "tag": "tom stoppard",
-        "weight": 0.1147,
-        "corpus_score": 0.1679,
-        "relevance": 0.28
-      },
-      {
         "tag": "randomness",
         "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0501",
@@ -39284,15 +38153,9 @@
     "book_author": "Harry R. Lewis",
     "weighted_tags": [
       {
-        "tag": "thought",
-        "weight": 0.6325,
-        "corpus_score": 0.4341,
-        "relevance": 0.96
-      },
-      {
         "tag": "humanity",
         "weight": 0.5533,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5533
       },
       {
@@ -39306,12 +38169,6 @@
         "weight": 0.4979,
         "corpus_score": 0.8938,
         "relevance": 0.5267
-      },
-      {
-        "tag": "machine",
-        "weight": 0.4678,
-        "corpus_score": 0.2662,
-        "relevance": 0.9067
       },
       {
         "tag": "ideas",
@@ -39338,34 +38195,8 @@
         "relevance": 0.5133
       },
       {
-        "tag": "as we may think",
-        "weight": 0.235,
-        "corpus_score": 0.1679,
-        "relevance": 0.5733
-      },
-      {
-        "tag": "human mind",
-        "weight": 0.224,
-        "corpus_score": 0.1679,
-        "relevance": 0.5467
-      },
-      {
-        "tag": "vannevar",
-        "weight": 0.1407,
-        "corpus_score": 0.1679,
-        "relevance": 0.3433
-      },
-      {
-        "tag": "bush",
-        "weight": 0.138,
-        "corpus_score": 0.1679,
-        "relevance": 0.3367
-      },
-      {
-        "tag": "vannevar bush",
-        "weight": 0.1352,
-        "corpus_score": 0.1679,
-        "relevance": 0.33
+        "tag": "thinking",
+        "weight": 1
       }
     ]
   },
@@ -39825,7 +38656,7 @@
     "id": "quote_0524",
     "source_image": "wcw-03.png",
     "filename_stem": "wcw-03",
-    "quote": "But spring shall come and flowers will bloom and man must chatter of his doom.",
+    "quote": "But spring shall come and flowers will bloom / and man must chatter of his doom.",
     "author": "William Carlos Williams",
     "year": "1946",
     "publication": "Paterson",
@@ -39865,12 +38696,6 @@
         "relevance": 0.95
       },
       {
-        "tag": "poetry",
-        "weight": 0.5077,
-        "corpus_score": 0.7894,
-        "relevance": 0.5714
-      },
-      {
         "tag": "life",
         "weight": 0.4937,
         "corpus_score": 0.9479,
@@ -39889,54 +38714,13 @@
         "relevance": 0.5357
       },
       {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
-        "tag": "chatter",
-        "weight": 0.3923,
-        "corpus_score": 0.1679,
-        "relevance": 0.9571
-      },
-      {
-        "tag": "spring",
-        "weight": 0.3805,
-        "corpus_score": 0.1679,
-        "relevance": 0.9286
-      },
-      {
         "tag": "dying",
         "weight": 0.3212,
         "corpus_score": 0.39,
         "relevance": 0.5143
-      },
-      {
-        "tag": "wcw",
-        "weight": 0.3059,
-        "corpus_score": 0.2662,
-        "relevance": 0.5929
-      },
-      {
-        "tag": "paterson",
-        "weight": 0.2985,
-        "corpus_score": 0.2662,
-        "relevance": 0.5786
-      },
-      {
-        "tag": "summer",
-        "weight": 0.269,
-        "corpus_score": 0.2662,
-        "relevance": 0.5214
-      },
-      {
-        "tag": "william carlos williams",
-        "weight": 0.1732,
-        "corpus_score": 0.2662,
-        "relevance": 0.3357
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0525",
@@ -39980,34 +38764,10 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "poetry",
-        "weight": 0.5331,
-        "corpus_score": 0.7894,
-        "relevance": 0.6
-      },
-      {
         "tag": "nature",
         "weight": 0.4923,
         "corpus_score": 0.7003,
         "relevance": 0.5882
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
-        "tag": "fox",
-        "weight": 0.4002,
-        "corpus_score": 0.1679,
-        "relevance": 0.9765
-      },
-      {
-        "tag": "tracks",
-        "weight": 0.3809,
-        "corpus_score": 0.1679,
-        "relevance": 0.9294
       },
       {
         "tag": "failure",
@@ -40022,12 +38782,6 @@
         "relevance": 0.9059
       },
       {
-        "tag": "testing",
-        "weight": 0.3526,
-        "corpus_score": 0.39,
-        "relevance": 0.5647
-      },
-      {
         "tag": "movement",
         "weight": 0.3233,
         "corpus_score": 0.39,
@@ -40040,40 +38794,14 @@
         "relevance": 0.5118
       },
       {
-        "tag": "wendell berry",
-        "weight": 0.2443,
-        "corpus_score": 0.5038,
-        "relevance": 0.3441
-      },
-      {
         "tag": "prototyping",
         "weight": 0.229,
         "corpus_score": 0.1679,
         "relevance": 0.5588
       },
       {
-        "tag": "prototype",
-        "weight": 0.2266,
-        "corpus_score": 0.1679,
-        "relevance": 0.5529
-      },
-      {
-        "tag": "trying",
-        "weight": 0.2242,
-        "corpus_score": 0.1679,
-        "relevance": 0.5471
-      },
-      {
-        "tag": "attempt",
-        "weight": 0.2218,
-        "corpus_score": 0.1679,
-        "relevance": 0.5412
-      },
-      {
-        "tag": "try",
-        "weight": 0.2194,
-        "corpus_score": 0.1679,
-        "relevance": 0.5353
+        "tag": "making",
+        "weight": 1
       }
     ]
   },
@@ -40086,7 +38814,7 @@
     "year": "2018",
     "publication": "The Peace of Wild Things",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780141987125",
@@ -40119,66 +38847,17 @@
         "relevance": 0.9667
       },
       {
-        "tag": "simple",
-        "weight": 0.5458,
-        "corpus_score": 0.3359,
-        "relevance": 0.9417
-      },
-      {
         "tag": "simplification",
         "weight": 0.5409,
         "corpus_score": 0.3359,
         "relevance": 0.9333
       },
       {
-        "tag": "poetry",
-        "weight": 0.5331,
-        "corpus_score": 0.7894,
-        "relevance": 0.6
-      },
-      {
-        "tag": "nature",
-        "weight": 0.4882,
-        "corpus_score": 0.7003,
-        "relevance": 0.5833
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
-        "tag": "mail",
-        "weight": 0.3927,
-        "corpus_score": 0.1679,
-        "relevance": 0.9583
-      },
-      {
-        "tag": "duty",
-        "weight": 0.3757,
-        "corpus_score": 0.1679,
-        "relevance": 0.9167
-      },
-      {
-        "tag": "simplify",
-        "weight": 0.2709,
-        "corpus_score": 0.2662,
-        "relevance": 0.525
-      },
-      {
-        "tag": "wendell berry",
-        "weight": 0.2425,
-        "corpus_score": 0.5038,
-        "relevance": 0.3417
-      },
-      {
-        "tag": "simply",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
+        "tag": "simplicity",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0527",
@@ -40236,30 +38915,6 @@
         "relevance": 0.9
       },
       {
-        "tag": "poetry",
-        "weight": 0.5331,
-        "corpus_score": 0.7894,
-        "relevance": 0.6
-      },
-      {
-        "tag": "nature",
-        "weight": 0.4892,
-        "corpus_score": 0.7003,
-        "relevance": 0.5846
-      },
-      {
-        "tag": "fear",
-        "weight": 0.4222,
-        "corpus_score": 0.581,
-        "relevance": 0.5538
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
         "tag": "religion",
         "weight": 0.4104,
         "corpus_score": 0.581,
@@ -40270,24 +38925,6 @@
         "weight": 0.387,
         "corpus_score": 0.581,
         "relevance": 0.5077
-      },
-      {
-        "tag": "jukebox",
-        "weight": 0.3814,
-        "corpus_score": 0.1679,
-        "relevance": 0.9308
-      },
-      {
-        "tag": "wendell berry",
-        "weight": 0.243,
-        "corpus_score": 0.5038,
-        "relevance": 0.3423
-      },
-      {
-        "tag": "church",
-        "weight": 0.2238,
-        "corpus_score": 0.1679,
-        "relevance": 0.5462
       }
     ]
   },
@@ -40874,12 +39511,6 @@
         "relevance": 0.9364
       },
       {
-        "tag": "poetry",
-        "weight": 0.5169,
-        "corpus_score": 0.7894,
-        "relevance": 0.5818
-      },
-      {
         "tag": "rage",
         "weight": 0.4784,
         "corpus_score": 0.2662,
@@ -40890,42 +39521,6 @@
         "weight": 0.4336,
         "corpus_score": 0.7003,
         "relevance": 0.5182
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
-        "tag": "breast",
-        "weight": 0.3912,
-        "corpus_score": 0.1679,
-        "relevance": 0.9545
-      },
-      {
-        "tag": "cage",
-        "weight": 0.3875,
-        "corpus_score": 0.1679,
-        "relevance": 0.9455
-      },
-      {
-        "tag": "bird",
-        "weight": 0.2908,
-        "corpus_score": 0.2662,
-        "relevance": 0.5636
-      },
-      {
-        "tag": "william blake",
-        "weight": 0.2129,
-        "corpus_score": 0.39,
-        "relevance": 0.3409
-      },
-      {
-        "tag": "captivity",
-        "weight": 0.2086,
-        "corpus_score": 0.1679,
-        "relevance": 0.5091
       }
     ]
   },
@@ -41051,18 +39646,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "poetry",
-        "weight": 0.5153,
-        "corpus_score": 0.7894,
-        "relevance": 0.58
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
         "tag": "opposition",
         "weight": 0.3934,
         "corpus_score": 0.1679,
@@ -41079,30 +39662,6 @@
         "weight": 0.3852,
         "corpus_score": 0.1679,
         "relevance": 0.94
-      },
-      {
-        "tag": "battle",
-        "weight": 0.3571,
-        "corpus_score": 0.4715,
-        "relevance": 0.52
-      },
-      {
-        "tag": "fight",
-        "weight": 0.3072,
-        "corpus_score": 0.3359,
-        "relevance": 0.53
-      },
-      {
-        "tag": "tension",
-        "weight": 0.2631,
-        "corpus_score": 0.2662,
-        "relevance": 0.51
-      },
-      {
-        "tag": "william blake",
-        "weight": 0.2123,
-        "corpus_score": 0.39,
-        "relevance": 0.34
       }
     ],
     "isbn": null,
@@ -41143,24 +39702,6 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "fool",
-        "weight": 0.6131,
-        "corpus_score": 0.39,
-        "relevance": 0.9818
-      },
-      {
-        "tag": "folly",
-        "weight": 0.4925,
-        "corpus_score": 0.2662,
-        "relevance": 0.9545
-      },
-      {
-        "tag": "poetry",
-        "weight": 0.4604,
-        "corpus_score": 0.7894,
-        "relevance": 0.5182
-      },
-      {
         "tag": "wisdom",
         "weight": 0.4507,
         "corpus_score": 0.6394,
@@ -41173,28 +39714,18 @@
         "relevance": 0.5091
       },
       {
-        "tag": "wise",
-        "weight": 0.3986,
-        "corpus_score": 0.1679,
-        "relevance": 0.9727
-      },
-      {
-        "tag": "poet",
-        "weight": 0.3293,
-        "corpus_score": 0.39,
-        "relevance": 0.5273
-      },
-      {
         "tag": "persistence",
         "weight": 0.2235,
         "corpus_score": 0.1679,
         "relevance": 0.5455
       },
       {
-        "tag": "william blake",
-        "weight": 0.1788,
-        "corpus_score": 0.39,
-        "relevance": 0.2864
+        "tag": "fools",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
       }
     ]
   },
@@ -41202,7 +39733,7 @@
     "id": "quote_0539",
     "source_image": "william-carlos-williams-10.png",
     "filename_stem": "william-carlos-williams-10",
-    "quote": "Walk in the world (you can’t see anything from a car window, still less from a plane, or from the moon!? Come off of it.)",
+    "quote": "Walk in the world / (you can’t see anything from a car window, still less / from a plane, or from the moon!? Come off of it.)",
     "author": "William Carlos Williams",
     "year": "1946",
     "publication": "Paterson",
@@ -41243,40 +39774,16 @@
         "relevance": 0.9
       },
       {
-        "tag": "poetry",
-        "weight": 0.4976,
-        "corpus_score": 0.7894,
-        "relevance": 0.56
-      },
-      {
         "tag": "cities",
         "weight": 0.4798,
         "corpus_score": 0.6394,
         "relevance": 0.6
       },
       {
-        "tag": "understanding",
-        "weight": 0.4704,
-        "corpus_score": 0.8397,
-        "relevance": 0.5133
-      },
-      {
         "tag": "walking",
         "weight": 0.4529,
         "corpus_score": 0.6865,
         "relevance": 0.5467
-      },
-      {
-        "tag": "vision",
-        "weight": 0.4308,
-        "corpus_score": 0.6865,
-        "relevance": 0.52
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
       },
       {
         "tag": "seeing",
@@ -41291,34 +39798,10 @@
         "relevance": 0.5267
       },
       {
-        "tag": "wcw",
-        "weight": 0.2992,
-        "corpus_score": 0.2662,
-        "relevance": 0.58
-      },
-      {
-        "tag": "paterson",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "coty",
-        "weight": 0.2432,
-        "corpus_score": 0.1679,
-        "relevance": 0.5933
-      },
-      {
         "tag": "cars",
         "weight": 0.2213,
         "corpus_score": 0.1679,
         "relevance": 0.54
-      },
-      {
-        "tag": "william carlos williams",
-        "weight": 0.1668,
-        "corpus_score": 0.2662,
-        "relevance": 0.3233
       }
     ],
     "book_author": null
@@ -42093,12 +40576,6 @@
         "relevance": 0.5625
       },
       {
-        "tag": "poetry",
-        "weight": 0.4665,
-        "corpus_score": 0.7894,
-        "relevance": 0.525
-      },
-      {
         "tag": "nature",
         "weight": 0.4498,
         "corpus_score": 0.7003,
@@ -42115,24 +40592,6 @@
         "weight": 0.3519,
         "corpus_score": 0.4715,
         "relevance": 0.5125
-      },
-      {
-        "tag": "body",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "wordsworth",
-        "weight": 0.1434,
-        "corpus_score": 0.1679,
-        "relevance": 0.35
-      },
-      {
-        "tag": "william wordsworth",
-        "weight": 0.1383,
-        "corpus_score": 0.1679,
-        "relevance": 0.3375
       }
     ],
     "book_author": null
@@ -42478,7 +40937,7 @@
       }
     ],
     "id": "quote_0557",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -43549,10 +42008,14 @@
       {
         "tag": "meaning",
         "weight": 1
+      },
+      {
+        "tag": "why",
+        "weight": 1
       }
     ],
     "id": "quote_0587",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -45022,14 +43485,6 @@
         "weight": 1
       },
       {
-        "tag": "funny",
-        "weight": 1
-      },
-      {
-        "tag": "humour",
-        "weight": 1
-      },
-      {
         "tag": "earth",
         "weight": 1
       },
@@ -45043,7 +43498,7 @@
       }
     ],
     "id": "quote_0628",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
