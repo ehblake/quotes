@@ -85,7 +85,7 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - **Landing canvas**: Grid of book covers that users click to enter quote view
 - **Tag navigation**: Spacebar/right arrow advances through quotes with same tag, auto-drifts to related tags
 - **Drift tags**: Arrow up goes to previous tag (shown above), arrow down goes to related tag (shown below)
-- **Edit modal**: Localhost-only editing (quote, author, book, tags, cover upload/remove, delete)
+- **Edit modal**: Localhost-only editing (quote, author, book, tags, cover upload/remove/keep-web-cover, delete)
 - **Add quote**: "+" button to add new quotes with all fields (localhost only)
 - **Go-to input**: Jump to specific quote by number (localhost only)
 - **Search**: Search quotes by text, author, or publication (localhost only)
@@ -126,7 +126,75 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Jan 23 2026) - Tag Revisions & New Quotes
+### Last Session (Feb 8 2026) - New Quotes, Search on GitHub Pages & Tag Connections
+
+- **Added 14 new quotes** (quote_0621–quote_0634):
+  - Gibson, Gottlieb, Becker, Thompson, Giraudoux, Cage, Basso, Vonnegut, Proust, Mallarmé, Kant, Eco, Stevens
+  - 6 new cover images: anthropology-history-and-education, collected-poems, for-the-birds, selected-poetry-and-prose, walsh-street, within-a-budding-grove
+  - Fixed quote_0632 attribution: was Gravity's Rainbow, corrected to V. (Pynchon)
+  - Removed duplicate Pynchon quotes (quote_0496, quote_0632), kept quote_0553
+
+- **Added search to GitHub Pages**:
+  - Search container moved out of localhost-only goto-container
+  - Hidden by default, press 'S' to toggle open, Escape to close
+  - Same search functionality: text, author, publication matching
+
+- **Added 'randomness' tag**:
+  - Tagged 8 quotes (Taleb, Pynchon, Keith Richards, Kubler, Dufrêne, Stoppard, Poundstone ×2)
+  - Connected to luck, chance, gambling, serendipity
+
+- **Connected 'luck' tag** to chance, gambling, uncertainty, failure, serendipity
+
+- **Connected 'simplification' tag** to complexity, design
+
+- **Connected all orphan tags** (zero remaining):
+  - First batch (11): freedom, curiosity, collaboration, ethics, play, travel, mathematics, psychology, success, logic, prediction
+  - Second batch (13): uniqueness, attitude, calmness, danger, depth, error, fire, gratitude, improvement, laws, ownership, property, spirit
+
+- **Minor fixes**:
+  - Added book_author "Jens Ludwig" to quote_0600 (Unforgiving Places)
+  - Updated citadelle.jpg cover image
+
+### Previous Session (Feb 5 2026) - Keep Web Cover Feature & Cover Sync Fix
+
+- **Added "Keep Web Cover" button**:
+  - When editing a quote that has a web cover (from bookcover.longitood.com) but no local cover, a green "Keep Web Cover" button appears
+  - Clicking it downloads the image and saves it to both `covers/` and `docs/covers/`
+  - Updates the quote's `cover_url` to use the local path
+  - New `/api/download-cover` endpoint in server.py handles the download
+
+- **Fixed cover sync issue**:
+  - `citadelle.jpg` and `the-ashtray.jpg` were in `docs/covers/` but not `covers/`
+  - Copied missing covers to `covers/` folder
+  - Updated `cover_url` for quote_0616 (The Ashtray) and quote_0618 (Citadelle)
+
+- **Cover workflow clarified**:
+  - Web covers: fetched from `https://bookcover.longitood.com/bookcover` API
+  - Local covers: stored in `covers/` (localhost) and `docs/covers/` (GitHub Pages)
+  - Both folders must stay in sync for consistent behavior
+
+### Previous Session (Jan 30 2026) - New Quotes & Landing Canvas Fix
+
+- **Added 23 new quotes** from various authors:
+  - Einstein, Herzen, Sagan, Harris, Wallace, Pollan, Mamet (x2), Dostoevsky, Camus, Calvino
+  - Nina Simone, Will Rogers, William Blake, Walter Benjamin, T. S. Eliot, Kahneman, Toffler
+  - David Brower, Folk saying (via Solzhenitsyn), Balzac
+
+- **Added 10 new cover images**:
+  - albert-einstein-the-human-side, both-flesh-and-not, conclave, very-best-of-nina-simone-vol-2
+  - berlin-childhood-around-1900, the-perfect-critic, the-third-wave, thinking-fast-and-slow
+  - pere-goriot, bills-secrets-class-war-and-ambition
+
+- **Updated covers**: timon-of-athens, the-life-of-reason, whats-wrong-with-the-world
+
+- **Fixed landing canvas cover repetition bug**:
+  - Problem: Covers repeated in a pattern every 2 rows due to chunk recycling
+  - Solution: Implemented seeded PRNG based on chunk coordinates
+  - Each chunk (x,y) now gets deterministic but unique covers
+  - Added `seededRandom()` and `getChunkCovers()` functions
+  - Backup saved at `docs/index.html.backup`
+
+### Previous Session (Jan 23 2026) - Tag Revisions & New Quotes
 
 - **Revised tags on multiple quotes**:
   - Cleaned up weighted_tags by removing less relevant tags

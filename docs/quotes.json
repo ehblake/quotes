@@ -8719,7 +8719,7 @@
     "year": "1991",
     "publication": "On Directing Film",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780670830336",
@@ -8792,7 +8792,8 @@
         "corpus_score": 0.39,
         "relevance": 0.35
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0115",
@@ -11039,12 +11040,12 @@
     "id": "quote_0144",
     "source_image": "erich-fromm-13.png",
     "filename_stem": "erich-fromm-13",
-    "quote": "At this point in history the capacity to doubt, to criticize and to disobey may be all that stands between a future for mankind and the end of civilization.",
+    "quote": "...the capacity to doubt, to criticize and to disobey may be all that stands between a future for mankind and the end of civilization.",
     "author": "Erich Fromm",
     "year": "1963",
     "publication": "On Disobedience",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780062035127",
@@ -11116,7 +11117,8 @@
         "corpus_score": 0.3359,
         "relevance": 0.34
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0145",
@@ -17069,7 +17071,7 @@
     "source_image": "hl-mencken-04.png",
     "filename_stem": "hl-mencken-04",
     "quote": "Puritanism: the haunting fear that someone, somewhere, may be happy.",
-    "author": "HL Mencken",
+    "author": "H.L. Mencken",
     "year": "1949",
     "publication": "A Mencken Chrestomathy",
     "notes": "",
@@ -19891,7 +19893,7 @@
       {
         "tag": "humanity",
         "weight": 0.525,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.525
       },
       {
@@ -20628,7 +20630,7 @@
         "tag": "ideas",
         "weight": 0.8831,
         "corpus_score": 0.7799,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "creativity",
@@ -20639,26 +20641,14 @@
       {
         "tag": "humanity",
         "weight": 0.5429,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5429
-      },
-      {
-        "tag": "humour",
-        "weight": 0.5384,
-        "corpus_score": 0.8877,
-        "relevance": 0.5714
       },
       {
         "tag": "mankind",
         "weight": 0.4101,
         "corpus_score": 0.6021,
         "relevance": 0.5286
-      },
-      {
-        "tag": "jackass",
-        "weight": 0.3923,
-        "corpus_score": 0.1679,
-        "relevance": 0.9571
       }
     ]
   },
@@ -26660,12 +26650,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "man",
-        "weight": 0.5754,
-        "corpus_score": 0.39,
-        "relevance": 0.9214
-      },
-      {
         "tag": "creativity",
         "weight": 0.5132,
         "corpus_score": 0.8938,
@@ -26684,34 +26668,16 @@
         "relevance": 0.5071
       },
       {
-        "tag": "utopia",
-        "weight": 0.4107,
-        "corpus_score": 0.5038,
-        "relevance": 0.5786
-      },
-      {
         "tag": "mankind",
         "weight": 0.3991,
         "corpus_score": 0.6021,
         "relevance": 0.5143
       },
       {
-        "tag": "creates",
-        "weight": 0.3923,
-        "corpus_score": 0.1679,
-        "relevance": 0.9571
-      },
-      {
         "tag": "dignity",
         "weight": 0.3805,
         "corpus_score": 0.1679,
         "relevance": 0.9286
-      },
-      {
-        "tag": "consumption",
-        "weight": 0.3312,
-        "corpus_score": 0.3359,
-        "relevance": 0.5714
       },
       {
         "tag": "creation",
@@ -26726,10 +26692,8 @@
         "relevance": 0.5929
       },
       {
-        "tag": "consumer",
-        "weight": 0.2313,
-        "corpus_score": 0.1679,
-        "relevance": 0.5643
+        "tag": "making",
+        "weight": 1
       }
     ]
   },
@@ -28448,22 +28412,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humanity",
-        "weight": 0.5667,
-        "corpus_score": 1.0,
-        "relevance": 0.5667
-      },
-      {
         "tag": "society",
         "weight": 0.5452,
         "corpus_score": 0.9479,
         "relevance": 0.56
-      },
-      {
-        "tag": "typographic",
-        "weight": 0.4016,
-        "corpus_score": 0.1679,
-        "relevance": 0.98
       },
       {
         "tag": "cinematic",
@@ -28478,12 +28430,6 @@
         "relevance": 0.5
       },
       {
-        "tag": "pictorial",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
         "tag": "the senses",
         "weight": 0.3648,
         "corpus_score": 0.5324,
@@ -28494,6 +28440,10 @@
         "weight": 0.2648,
         "corpus_score": 0.2662,
         "relevance": 0.5133
+      },
+      {
+        "tag": "media",
+        "weight": 1
       }
     ],
     "book_author": null
@@ -29331,12 +29281,6 @@
         "weight": 0.4573,
         "corpus_score": 0.581,
         "relevance": 0.6
-      },
-      {
-        "tag": "america",
-        "weight": 0.4419,
-        "corpus_score": 0.6865,
-        "relevance": 0.5333
       },
       {
         "tag": "the west",
@@ -31462,6 +31406,10 @@
         "weight": 0.2254,
         "corpus_score": 0.1679,
         "relevance": 0.55
+      },
+      {
+        "tag": "the west",
+        "weight": 1
       }
     ]
   },
@@ -43686,7 +43634,7 @@
       }
     ],
     "id": "quote_0589",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -44659,7 +44607,7 @@
       }
     ],
     "id": "quote_0616",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -45259,6 +45207,173 @@
     ],
     "id": "quote_0634",
     "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...life is so hectic that it takes something quite extraordinary to produce feelings that last.",
+    "author": "Honoré de Balzac",
+    "publication": "Pere Goriot",
+    "year": "1835",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/pere-goriot.jpg",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "feelings",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0635",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Our inventions... are but improved means to an unimproved end...",
+    "author": "Henry David Thoreau",
+    "publication": "Walden",
+    "year": "1854",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/walden.webp",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "invention",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0636",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We all know how cruel the truth often is, and we wonder whether delusion is not more consoling.",
+    "author": "Henri Poincare",
+    "publication": "The Demon-Haunted World",
+    "year": "1996",
+    "isbn": "9788416771486",
+    "book_author": null,
+    "cover_url": "covers/the-demon-haunted-world.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "honesty",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0637",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The two most common elements in the universe are hydrogen and stupidity.",
+    "author": "Harlan Ellison",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "David Walsh",
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "the universe",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0638",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "As long as there is wilderness there is hope.",
+    "author": "Paul Theroux",
+    "publication": "The Happy Isles of Oceania: Paddling the Pacific",
+    "year": "1992",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-happy-isles-of-oceania-paddling-the-pacific.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "wilderness",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      },
+      {
+        "tag": "the planet",
+        "weight": 1
+      },
+      {
+        "tag": "hope",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0639",
+    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   }

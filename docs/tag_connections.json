@@ -85,6 +85,18 @@
       {
         "tag": "spirit",
         "score": 5.0
+      },
+      {
+        "tag": "children",
+        "score": 4.5
+      },
+      {
+        "tag": "painting",
+        "score": 4.5
+      },
+      {
+        "tag": "error",
+        "score": 4.5
       }
     ],
     "quote_count": 38
@@ -154,6 +166,18 @@
       {
         "tag": "simplification",
         "score": 4.5
+      },
+      {
+        "tag": "architecture",
+        "score": 4.5
+      },
+      {
+        "tag": "clarity",
+        "score": 4.5
+      },
+      {
+        "tag": "painting",
+        "score": 4.5
       }
     ],
     "quote_count": 28
@@ -170,6 +194,10 @@
       },
       {
         "tag": "depth",
+        "score": 4.5
+      },
+      {
+        "tag": "clarity",
         "score": 4.5
       }
     ],
@@ -281,6 +309,10 @@
       {
         "tag": "creativity",
         "score": 1.7484
+      },
+      {
+        "tag": "narrative",
+        "score": 4.5
       }
     ],
     "quote_count": 21
@@ -346,6 +378,14 @@
       {
         "tag": "knowledge",
         "score": 1.9805
+      },
+      {
+        "tag": "doing",
+        "score": 4.5
+      },
+      {
+        "tag": "narrative",
+        "score": 4.5
       }
     ],
     "quote_count": 19
@@ -425,6 +465,18 @@
       {
         "tag": "humanity",
         "score": 2.8049
+      },
+      {
+        "tag": "doom",
+        "score": 4.5
+      },
+      {
+        "tag": "torture",
+        "score": 4.5
+      },
+      {
+        "tag": "garbage",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -494,6 +546,10 @@
       {
         "tag": "ownership",
         "score": 4.5
+      },
+      {
+        "tag": "consumption",
+        "score": 4.5
       }
     ],
     "quote_count": 49
@@ -559,6 +615,18 @@
       {
         "tag": "life",
         "score": 1.9737
+      },
+      {
+        "tag": "doom",
+        "score": 4.5
+      },
+      {
+        "tag": "garbage",
+        "score": 4.5
+      },
+      {
+        "tag": "fire",
+        "score": 4.5
       }
     ],
     "quote_count": 13
@@ -674,6 +742,18 @@
       {
         "tag": "life",
         "score": 1.7456
+      },
+      {
+        "tag": "attitude",
+        "score": 4.5
+      },
+      {
+        "tag": "aim",
+        "score": 4.5
+      },
+      {
+        "tag": "narrative",
+        "score": 4.5
       }
     ],
     "quote_count": 16
@@ -857,6 +937,14 @@
       {
         "tag": "design",
         "score": 2.1937
+      },
+      {
+        "tag": "architecture",
+        "score": 4.5
+      },
+      {
+        "tag": "painting",
+        "score": 4.5
       }
     ],
     "quote_count": 19
@@ -1001,6 +1089,14 @@
       {
         "tag": "action",
         "score": 5.2817
+      },
+      {
+        "tag": "words",
+        "score": 4.5
+      },
+      {
+        "tag": "making",
+        "score": 4.5
       }
     ],
     "quote_count": 4
@@ -1501,6 +1597,10 @@
       {
         "tag": "time",
         "score": 3.1788
+      },
+      {
+        "tag": "narrative",
+        "score": 4.5
       }
     ],
     "quote_count": 7
@@ -1545,6 +1645,10 @@
       },
       {
         "tag": "travel",
+        "score": 4.5
+      },
+      {
+        "tag": "architecture",
         "score": 4.5
       }
     ],
@@ -1693,6 +1797,18 @@
       {
         "tag": "humanity",
         "score": 1.7553
+      },
+      {
+        "tag": "satisfaction",
+        "score": 4.5
+      },
+      {
+        "tag": "pessimism",
+        "score": 4.5
+      },
+      {
+        "tag": "children",
+        "score": 4.5
       }
     ],
     "quote_count": 13
@@ -1752,6 +1868,10 @@
       {
         "tag": "uniqueness",
         "score": 5.0
+      },
+      {
+        "tag": "attitude",
+        "score": 4.5
       }
     ],
     "quote_count": 15
@@ -1773,6 +1893,14 @@
       },
       {
         "tag": "revolution",
+        "score": 4.5
+      },
+      {
+        "tag": "decay",
+        "score": 4.5
+      },
+      {
+        "tag": "earth",
         "score": 4.5
       }
     ],
@@ -1981,6 +2109,10 @@
       {
         "tag": "improvement",
         "score": 5.0
+      },
+      {
+        "tag": "patience",
+        "score": 4.5
       }
     ],
     "quote_count": 40
@@ -2317,6 +2449,10 @@
       {
         "tag": "time",
         "score": 2.787
+      },
+      {
+        "tag": "doom",
+        "score": 4.5
       }
     ],
     "quote_count": 10
@@ -2444,6 +2580,10 @@
       {
         "tag": "poetry",
         "score": 2.507
+      },
+      {
+        "tag": "consumption",
+        "score": 4.5
       }
     ],
     "quote_count": 16
@@ -2509,6 +2649,10 @@
       {
         "tag": "reading",
         "score": 2.1472
+      },
+      {
+        "tag": "children",
+        "score": 4.5
       }
     ],
     "quote_count": 37
@@ -2590,8 +2734,16 @@
   "clarity": {
     "related": [
       {
-        "tag": "banality",
-        "score": 5.9138
+        "tag": "simplification",
+        "score": 4.5
+      },
+      {
+        "tag": "simplicity",
+        "score": 4.5
+      },
+      {
+        "tag": "design",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -2849,6 +3001,10 @@
       {
         "tag": "society",
         "score": 1.7678
+      },
+      {
+        "tag": "torture",
+        "score": 4.5
       }
     ],
     "quote_count": 16
@@ -2858,6 +3014,10 @@
       {
         "tag": "society",
         "score": 4.7144
+      },
+      {
+        "tag": "architecture",
+        "score": 4.5
       }
     ],
     "quote_count": 4
@@ -3044,6 +3204,14 @@
       {
         "tag": "humanity",
         "score": 3.05
+      },
+      {
+        "tag": "torture",
+        "score": 4.5
+      },
+      {
+        "tag": "birth",
+        "score": 4.5
       }
     ],
     "quote_count": 4
@@ -3091,6 +3259,10 @@
       {
         "tag": "society",
         "score": 2.3998
+      },
+      {
+        "tag": "odds",
+        "score": 4.5
       }
     ],
     "quote_count": 9
@@ -3186,6 +3358,14 @@
       {
         "tag": "the world",
         "score": 2.6807
+      },
+      {
+        "tag": "birth",
+        "score": 4.5
+      },
+      {
+        "tag": "patience",
+        "score": 4.5
       }
     ],
     "quote_count": 50
@@ -3363,6 +3543,10 @@
       {
         "tag": "calmness",
         "score": 4.5
+      },
+      {
+        "tag": "birth",
+        "score": 4.5
       }
     ],
     "quote_count": 24
@@ -3474,6 +3658,14 @@
       {
         "tag": "ageing",
         "score": 2.8717
+      },
+      {
+        "tag": "satisfaction",
+        "score": 4.5
+      },
+      {
+        "tag": "pessimism",
+        "score": 4.5
       }
     ],
     "quote_count": 41
@@ -3544,8 +3736,20 @@
   "pessimism": {
     "related": [
       {
-        "tag": "humankind",
-        "score": 5.7444
+        "tag": "happiness",
+        "score": 4.5
+      },
+      {
+        "tag": "doom",
+        "score": 4.5
+      },
+      {
+        "tag": "the end",
+        "score": 4.5
+      },
+      {
+        "tag": "existence",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -4098,8 +4302,24 @@
   "doom": {
     "related": [
       {
-        "tag": "songs",
-        "score": 5.9138
+        "tag": "the end",
+        "score": 4.5
+      },
+      {
+        "tag": "ruin",
+        "score": 4.5
+      },
+      {
+        "tag": "destruction",
+        "score": 4.5
+      },
+      {
+        "tag": "decay",
+        "score": 4.5
+      },
+      {
+        "tag": "pessimism",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -4276,8 +4496,20 @@
   "birth": {
     "related": [
       {
+        "tag": "life",
+        "score": 4.5
+      },
+      {
+        "tag": "death",
+        "score": 4.5
+      },
+      {
         "tag": "existence",
         "score": 3.8025
+      },
+      {
+        "tag": "pain",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -4342,6 +4574,10 @@
       {
         "tag": "creativity",
         "score": 5.0668
+      },
+      {
+        "tag": "doing",
+        "score": 4.5
       }
     ],
     "quote_count": 4
@@ -4416,6 +4652,10 @@
       {
         "tag": "change",
         "score": 3.0682
+      },
+      {
+        "tag": "attitude",
+        "score": 4.5
       }
     ],
     "quote_count": 6
@@ -4480,6 +4720,22 @@
       {
         "tag": "perception",
         "score": 5.0
+      },
+      {
+        "tag": "perspective",
+        "score": 4.5
+      },
+      {
+        "tag": "individuality",
+        "score": 4.5
+      },
+      {
+        "tag": "views",
+        "score": 4.5
+      },
+      {
+        "tag": "aim",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -4605,6 +4861,14 @@
       {
         "tag": "evil",
         "score": 3.5136
+      },
+      {
+        "tag": "doom",
+        "score": 4.5
+      },
+      {
+        "tag": "pessimism",
+        "score": 4.5
       }
     ],
     "quote_count": 10
@@ -4743,6 +5007,10 @@
       {
         "tag": "property",
         "score": 4.5
+      },
+      {
+        "tag": "consumption",
+        "score": 4.5
       }
     ],
     "quote_count": 10
@@ -4833,6 +5101,10 @@
       {
         "tag": "design",
         "score": 4.5
+      },
+      {
+        "tag": "clarity",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -4914,6 +5186,22 @@
       {
         "tag": "storytelling",
         "score": 6.8499
+      },
+      {
+        "tag": "stories",
+        "score": 4.5
+      },
+      {
+        "tag": "perspective",
+        "score": 4.5
+      },
+      {
+        "tag": "words",
+        "score": 4.5
+      },
+      {
+        "tag": "language",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -4943,6 +5231,10 @@
       {
         "tag": "serendipity",
         "score": 3.5
+      },
+      {
+        "tag": "odds",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -5040,6 +5332,10 @@
       {
         "tag": "luck",
         "score": 3.5
+      },
+      {
+        "tag": "chance",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5047,8 +5343,20 @@
   "torture": {
     "related": [
       {
+        "tag": "evil",
+        "score": 4.5
+      },
+      {
+        "tag": "ruin",
+        "score": 4.5
+      },
+      {
         "tag": "humanity",
         "score": 3.366
+      },
+      {
+        "tag": "pain",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5389,6 +5697,10 @@
       {
         "tag": "failure",
         "score": 4.5
+      },
+      {
+        "tag": "creativity",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5471,6 +5783,14 @@
       {
         "tag": "life",
         "score": 3.5845
+      },
+      {
+        "tag": "happiness",
+        "score": 4.5
+      },
+      {
+        "tag": "existence",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5489,6 +5809,22 @@
       {
         "tag": "gambling",
         "score": 8.2772
+      },
+      {
+        "tag": "luck",
+        "score": 4.5
+      },
+      {
+        "tag": "randomness",
+        "score": 4.5
+      },
+      {
+        "tag": "money",
+        "score": 4.5
+      },
+      {
+        "tag": "chance",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5543,7 +5879,19 @@
   "children": {
     "related": [
       {
+        "tag": "happiness",
+        "score": 4.5
+      },
+      {
         "tag": "play",
+        "score": 4.5
+      },
+      {
+        "tag": "humour",
+        "score": 4.5
+      },
+      {
+        "tag": "creativity",
         "score": 4.5
       }
     ],
@@ -5558,6 +5906,14 @@
       {
         "tag": "purpose",
         "score": 4.7069
+      },
+      {
+        "tag": "attitude",
+        "score": 4.5
+      },
+      {
+        "tag": "perspective",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5581,6 +5937,14 @@
   },
   "garbage": {
     "related": [
+      {
+        "tag": "decay",
+        "score": 4.5
+      },
+      {
+        "tag": "ruin",
+        "score": 4.5
+      },
       {
         "tag": "society",
         "score": 3.6067
@@ -5657,6 +6021,10 @@
       {
         "tag": "death",
         "score": 3.8296
+      },
+      {
+        "tag": "fire",
+        "score": 4.5
       }
     ],
     "quote_count": 5
@@ -5664,8 +6032,20 @@
   "painting": {
     "related": [
       {
+        "tag": "art",
+        "score": 4.5
+      },
+      {
         "tag": "artists",
         "score": 5.4284
+      },
+      {
+        "tag": "design",
+        "score": 4.5
+      },
+      {
+        "tag": "creativity",
+        "score": 4.5
       }
     ],
     "quote_count": 4
@@ -5675,6 +6055,14 @@
       {
         "tag": "time",
         "score": 4.1096
+      },
+      {
+        "tag": "change",
+        "score": 4.5
+      },
+      {
+        "tag": "life",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5695,8 +6083,16 @@
   "consumption": {
     "related": [
       {
-        "tag": "creativity",
-        "score": 3.886
+        "tag": "capitalism",
+        "score": 4.5
+      },
+      {
+        "tag": "america",
+        "score": 4.5
+      },
+      {
+        "tag": "society",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5704,8 +6100,20 @@
   "architecture": {
     "related": [
       {
-        "tag": "humour",
-        "score": 3.9153
+        "tag": "cities",
+        "score": 4.5
+      },
+      {
+        "tag": "civilisation",
+        "score": 4.5
+      },
+      {
+        "tag": "art",
+        "score": 4.5
+      },
+      {
+        "tag": "design",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5745,6 +6153,14 @@
       {
         "tag": "luck",
         "score": 5.0
+      },
+      {
+        "tag": "serendipity",
+        "score": 4.5
+      },
+      {
+        "tag": "odds",
+        "score": 4.5
       }
     ],
     "quote_count": 3
@@ -5787,6 +6203,10 @@
       {
         "tag": "prediction",
         "score": 4.0
+      },
+      {
+        "tag": "odds",
+        "score": 4.5
       }
     ],
     "quote_count": 8
