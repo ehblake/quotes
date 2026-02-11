@@ -53,7 +53,7 @@ ALLOWED_PRIMARY_TAGS = {
     'problem solving', 'problems', 'process', 'progress', 'property',
     'psychology', 'purpose', 'quotes', 'reading', 'reality', 'religion',
     'revolution', 'ruin', 'rules', 'sadness', 'satisfaction', 'science',
-    'seeing', 'the self', 'the senses', 'serendipity', 'simplicity',
+    'seeing', 'the sea', 'the self', 'the senses', 'serendipity', 'simplicity',
     'simplification', 'society', 'songs', 'speaking', 'spirit', 'stories',
     'storytelling', 'stupidity', 'success', 'suffering', 'talking',
     'technology', 'thinking', 'thought', 'time', 'torture', 'travel', 'truth',

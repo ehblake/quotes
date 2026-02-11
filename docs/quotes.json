@@ -21745,70 +21745,16 @@
         "relevance": 0.95
       },
       {
-        "tag": "decay",
-        "weight": 0.4448,
-        "corpus_score": 0.6394,
-        "relevance": 0.5563
-      },
-      {
         "tag": "perspective",
         "weight": 0.4246,
         "corpus_score": 0.6865,
         "relevance": 0.5125
       },
       {
-        "tag": "ruin",
-        "weight": 0.3747,
-        "corpus_score": 0.4341,
-        "relevance": 0.5687
-      },
-      {
-        "tag": "collapse",
-        "weight": 0.3706,
-        "corpus_score": 0.4341,
-        "relevance": 0.5625
-      },
-      {
         "tag": "views",
         "weight": 0.3433,
         "corpus_score": 0.4715,
         "relevance": 0.5
-      },
-      {
-        "tag": "views",
-        "weight": 0.3433,
-        "corpus_score": 0.4715,
-        "relevance": 0.5
-      },
-      {
-        "tag": "opinion",
-        "weight": 0.3357,
-        "corpus_score": 0.39,
-        "relevance": 0.5375
-      },
-      {
-        "tag": "coming apart",
-        "weight": 0.3063,
-        "corpus_score": 0.2662,
-        "relevance": 0.5938
-      },
-      {
-        "tag": "charles murray",
-        "weight": 0.2999,
-        "corpus_score": 0.2662,
-        "relevance": 0.5813
-      },
-      {
-        "tag": "nation",
-        "weight": 0.2967,
-        "corpus_score": 0.2662,
-        "relevance": 0.575
-      },
-      {
-        "tag": "john maynard keynes",
-        "weight": 0.1451,
-        "corpus_score": 0.2662,
-        "relevance": 0.2812
       }
     ]
   },
@@ -24673,7 +24619,7 @@
     "year": "1973",
     "publication": "Breakfast of Champions",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9785552667604",
@@ -24709,36 +24655,21 @@
         "relevance": 0.5222
       },
       {
-        "tag": "breakfast of champions",
-        "weight": 0.2981,
-        "corpus_score": 0.2662,
-        "relevance": 0.5778
-      },
-      {
         "tag": "fascism",
         "weight": 0.2809,
         "corpus_score": 0.2662,
         "relevance": 0.5444
       },
       {
-        "tag": "kurt vonnegut",
-        "weight": 0.276,
-        "corpus_score": 0.7597,
-        "relevance": 0.3167
+        "tag": "the sea",
+        "weight": 1
       },
       {
-        "tag": "vonnegut",
-        "weight": 0.2409,
-        "corpus_score": 0.6215,
-        "relevance": 0.3056
-      },
-      {
-        "tag": "dictator",
-        "weight": 0.2186,
-        "corpus_score": 0.1679,
-        "relevance": 0.5333
+        "tag": "greed",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0345",
@@ -25689,27 +25620,15 @@
         "relevance": 0.9722
       },
       {
-        "tag": "earth",
-        "weight": 0.6479,
-        "corpus_score": 0.4341,
-        "relevance": 0.9833
-      },
-      {
         "tag": "ruin",
         "weight": 0.6443,
         "corpus_score": 0.4341,
         "relevance": 0.9778
       },
       {
-        "tag": "man",
-        "weight": 0.5967,
-        "corpus_score": 0.39,
-        "relevance": 0.9556
-      },
-      {
         "tag": "humanity",
         "weight": 0.55,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.55
       },
       {
@@ -25719,28 +25638,10 @@
         "relevance": 0.5333
       },
       {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
         "tag": "destruction",
         "weight": 0.4108,
         "corpus_score": 0.581,
         "relevance": 0.5389
-      },
-      {
-        "tag": "humans",
-        "weight": 0.4095,
-        "corpus_score": 0.6021,
-        "relevance": 0.5278
-      },
-      {
-        "tag": "shore",
-        "weight": 0.3962,
-        "corpus_score": 0.1679,
-        "relevance": 0.9667
       },
       {
         "tag": "the end",
@@ -25755,34 +25656,8 @@
         "relevance": 0.5056
       },
       {
-        "tag": "waters",
-        "weight": 0.23,
-        "corpus_score": 0.1679,
-        "relevance": 0.5611
-      },
-      {
-        "tag": "sea",
-        "weight": 0.214,
-        "corpus_score": 0.1679,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "water",
-        "weight": 0.2117,
-        "corpus_score": 0.1679,
-        "relevance": 0.5167
-      },
-      {
-        "tag": "ocean",
-        "weight": 0.2095,
-        "corpus_score": 0.1679,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "lord byron",
-        "weight": 0.1389,
-        "corpus_score": 0.1679,
-        "relevance": 0.3389
+        "tag": "the sea",
+        "weight": 1
       }
     ]
   },
@@ -45401,7 +45276,7 @@
       }
     ],
     "id": "quote_0692",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
