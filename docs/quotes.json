@@ -585,7 +585,6 @@
       "knowing",
       "feeling",
       "senses",
-      "do",
       "doing",
       "sense of place",
       "placemaking"
@@ -608,12 +607,6 @@
         "weight": 0.3923,
         "corpus_score": 0.1679,
         "relevance": 0.9571
-      },
-      {
-        "tag": "do",
-        "weight": 0.3805,
-        "corpus_score": 0.1679,
-        "relevance": 0.9286
       },
       {
         "tag": "sense of place",
@@ -3203,7 +3196,6 @@
       "battle",
       "death",
       "sacrifice",
-      "1953",
       "the crucible",
       "belief",
       "quote"
@@ -3250,12 +3242,6 @@
         "weight": 0.3678,
         "corpus_score": 0.5038,
         "relevance": 0.5182
-      },
-      {
-        "tag": "1953",
-        "weight": 0.2198,
-        "corpus_score": 0.1679,
-        "relevance": 0.5364
       },
       {
         "tag": "the crucible",
@@ -4543,7 +4529,7 @@
     "cover_url": "covers/the-autobiography-of-benjamin-franklin-and-other-w.jpg",
     "tags": [
       "corruption",
-      "goverment",
+      "government",
       "trump",
       "america",
       "vicious",
@@ -4585,7 +4571,7 @@
         "relevance": 0.6
       },
       {
-        "tag": "goverment",
+        "tag": "government",
         "weight": 0.2418,
         "corpus_score": 0.1679,
         "relevance": 0.59
@@ -4975,9 +4961,7 @@
       "errors",
       "enemy",
       "opponent",
-      "battle",
-      "thank you",
-      "take it"
+      "battle"
     ],
     "book_author": null,
     "weighted_tags": [
@@ -4992,18 +4976,6 @@
         "weight": 0.3916,
         "corpus_score": 0.1679,
         "relevance": 0.9556
-      },
-      {
-        "tag": "thank you",
-        "weight": 0.3779,
-        "corpus_score": 0.1679,
-        "relevance": 0.9222
-      },
-      {
-        "tag": "take it",
-        "weight": 0.3734,
-        "corpus_score": 0.1679,
-        "relevance": 0.9111
       },
       {
         "tag": "battle",
@@ -5862,7 +5834,7 @@
       "violence",
       "humanity",
       "society",
-      "exceptance",
+      "acceptance",
       "values"
     ],
     "weighted_tags": [
@@ -5909,7 +5881,7 @@
         "relevance": 0.5091
       },
       {
-        "tag": "exceptance",
+        "tag": "acceptance",
         "weight": 0.2124,
         "corpus_score": 0.1679,
         "relevance": 0.5182
@@ -5946,7 +5918,6 @@
       "book",
       "demon-haunted world",
       "carl sagan",
-      "1996",
       "science",
       "science as a candle in the dark",
       "mistrust",
@@ -5984,12 +5955,6 @@
         "weight": 0.3044,
         "corpus_score": 0.2662,
         "relevance": 0.59
-      },
-      {
-        "tag": "1996",
-        "weight": 0.2941,
-        "corpus_score": 0.2662,
-        "relevance": 0.57
       },
       {
         "tag": "irreverence",
@@ -9109,7 +9074,6 @@
       "creativity",
       "perfection",
       "reduction",
-      "done",
       "complete",
       "finished",
       "more",
@@ -9157,12 +9121,6 @@
         "weight": 0.2238,
         "corpus_score": 0.1679,
         "relevance": 0.5462
-      },
-      {
-        "tag": "done",
-        "weight": 0.2207,
-        "corpus_score": 0.1679,
-        "relevance": 0.5385
       },
       {
         "tag": "complete",
@@ -9326,7 +9284,6 @@
       "Dostoevsky",
       "Fyodor Dostoyevsky",
       "book",
-      "1868",
       "quote",
       "love",
       "fear"
@@ -9349,12 +9306,6 @@
         "weight": 0.4507,
         "corpus_score": 0.6394,
         "relevance": 0.5636
-      },
-      {
-        "tag": "1868",
-        "weight": 0.3109,
-        "corpus_score": 0.3359,
-        "relevance": 0.5364
       },
       {
         "tag": "partnership",
@@ -9381,7 +9332,7 @@
         "relevance": 0.5727
       },
       {
-        "tag": "fyodor dostoyevsky",
+        "tag": "fyodor dostoevsky",
         "weight": 0.1902,
         "corpus_score": 0.39,
         "relevance": 0.3045
@@ -9412,7 +9363,6 @@
       "Dostoevsky",
       "Fyodor Dostoyevsky",
       "book",
-      "1868",
       "quote",
       "humans",
       "humanity",
@@ -9453,19 +9403,13 @@
         "relevance": 0.5545
       },
       {
-        "tag": "1868",
-        "weight": 0.3319,
-        "corpus_score": 0.3359,
-        "relevance": 0.5727
-      },
-      {
         "tag": "torture",
         "weight": 0.3003,
         "corpus_score": 0.3359,
         "relevance": 0.5182
       },
       {
-        "tag": "fyodor dostoyevsky",
+        "tag": "fyodor dostoevsky",
         "weight": 0.2129,
         "corpus_score": 0.39,
         "relevance": 0.3409
@@ -9498,7 +9442,6 @@
       "Dostoevsky",
       "Fyodor Dostoyevsky",
       "book",
-      "1868",
       "quote",
       "lie",
       "nature",
@@ -10346,7 +10289,7 @@
       "criminal",
       "acceptance",
       "zuboff",
-      "capitalism\\",
+      "capitalism",
       "surveillance"
     ],
     "weighted_tags": [
@@ -10405,7 +10348,7 @@
         "relevance": 0.5273
       },
       {
-        "tag": "capitalism\\",
+        "tag": "capitalism",
         "weight": 0.2124,
         "corpus_score": 0.1679,
         "relevance": 0.5182
@@ -11203,8 +11146,7 @@
       "repetition",
       "repeat",
       "now",
-      "today",
-      "here"
+      "today"
     ],
     "weighted_tags": [
       {
@@ -11248,12 +11190,6 @@
         "weight": 0.4057,
         "corpus_score": 0.3359,
         "relevance": 0.7
-      },
-      {
-        "tag": "here",
-        "weight": 0.2896,
-        "corpus_score": 0.1679,
-        "relevance": 0.7067
       },
       {
         "tag": "today",
@@ -12494,12 +12430,6 @@
         "weight": 0.1925,
         "corpus_score": 0.39,
         "relevance": 0.3083
-      },
-      {
-        "tag": "friedrich",
-        "weight": 0.1298,
-        "corpus_score": 0.1679,
-        "relevance": 0.3167
       }
     ]
   },
@@ -12524,7 +12454,7 @@
       "Nassim Nicholas Taleb",
       "Friedrich nietzsche",
       "nietzsche",
-      "univeralism",
+      "universalism",
       "uniformity",
       "equality",
       "egalitarian",
@@ -12577,7 +12507,7 @@
         "relevance": 0.3269
       },
       {
-        "tag": "univeralism",
+        "tag": "universalism",
         "weight": 0.2301,
         "corpus_score": 0.1679,
         "relevance": 0.5615
@@ -12820,7 +12750,6 @@
       "time",
       "change",
       "evolving",
-      "aging",
       "ageing",
       "old",
       "habits"
@@ -12855,12 +12784,6 @@
         "weight": 0.3713,
         "corpus_score": 0.5038,
         "relevance": 0.5231
-      },
-      {
-        "tag": "aging",
-        "weight": 0.3645,
-        "corpus_score": 0.4715,
-        "relevance": 0.5308
       },
       {
         "tag": "old",
@@ -13412,11 +13335,10 @@
     "_flickr_id": "45001819394",
     "_match_score": 160,
     "tags": [
-      "fyodor dostoyevsky",
-      "dostoyevsky",
+      "fyodor dostoevsky",
+      "dostoevsky",
       "the gambler",
       "book",
-      "1866",
       "gambling",
       "truth",
       "unaware",
@@ -13483,25 +13405,19 @@
         "relevance": 0.5857
       },
       {
-        "tag": "1866",
-        "weight": 0.2342,
-        "corpus_score": 0.1679,
-        "relevance": 0.5714
-      },
-      {
         "tag": "conscious",
         "weight": 0.2195,
         "corpus_score": 0.1679,
         "relevance": 0.5357
       },
       {
-        "tag": "fyodor dostoyevsky",
+        "tag": "fyodor dostoevsky",
         "weight": 0.2186,
         "corpus_score": 0.39,
         "relevance": 0.35
       },
       {
-        "tag": "dostoyevsky",
+        "tag": "dostoevsky",
         "weight": 0.1405,
         "corpus_score": 0.1679,
         "relevance": 0.3429
@@ -14926,7 +14842,6 @@
       "incorrect",
       "perception",
       "knowing",
-      "what",
       "why"
     ],
     "weighted_tags": [
@@ -14947,12 +14862,6 @@
         "weight": 0.6648,
         "corpus_score": 0.5324,
         "relevance": 0.9111
-      },
-      {
-        "tag": "what",
-        "weight": 0.4758,
-        "corpus_score": 0.2662,
-        "relevance": 0.9222
       },
       {
         "tag": "perception",
@@ -16462,7 +16371,6 @@
       "protestant",
       "work",
       "labour",
-      "labor",
       "toil"
     ],
     "weighted_tags": [
@@ -16495,12 +16403,6 @@
         "weight": 0.358,
         "corpus_score": 0.4715,
         "relevance": 0.5214
-      },
-      {
-        "tag": "labor",
-        "weight": 0.2108,
-        "corpus_score": 0.1679,
-        "relevance": 0.5143
       }
     ]
   },
@@ -16537,7 +16439,7 @@
       "humans",
       "people",
       "design",
-      "problem-solving",
+      "problem solving",
       "thinking",
       "wrong",
       "incorrect"
@@ -16610,7 +16512,7 @@
         "relevance": 0.5687
       },
       {
-        "tag": "problem-solving",
+        "tag": "problem solving",
         "weight": 0.2152,
         "corpus_score": 0.1679,
         "relevance": 0.525
@@ -16880,7 +16782,7 @@
       "unrest",
       "society",
       "calm",
-      "upheavel"
+      "upheaval"
     ],
     "weighted_tags": [
       {
@@ -16908,7 +16810,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "upheavel",
+        "tag": "upheaval",
         "weight": 0.2131,
         "corpus_score": 0.1679,
         "relevance": 0.52
@@ -17497,7 +17399,6 @@
       "book",
       "the invisible committee",
       "invisible committee",
-      "2014",
       "disasters",
       "humour",
       "reality",
@@ -17538,12 +17439,6 @@
         "weight": 0.3952,
         "corpus_score": 0.1679,
         "relevance": 0.9643
-      },
-      {
-        "tag": "2014",
-        "weight": 0.2342,
-        "corpus_score": 0.1679,
-        "relevance": 0.5714
       }
     ]
   },
@@ -17659,7 +17554,6 @@
       "quote",
       "newton",
       "giants",
-      "akzidenz",
       "type",
       "Isaac newton",
       "seeing",
@@ -17742,12 +17636,6 @@
         "weight": 0.3203,
         "corpus_score": 0.3359,
         "relevance": 0.5526
-      },
-      {
-        "tag": "akzidenz",
-        "weight": 0.3014,
-        "corpus_score": 0.2662,
-        "relevance": 0.5842
       },
       {
         "tag": "giants",
@@ -18612,11 +18500,10 @@
       "russian",
       "book",
       "Fathers and sons",
-      "1862",
       "vulgarity",
       "relaxed",
       "relaxation",
-      "temperment",
+      "temperament",
       "attitude",
       "feelings",
       "emotion",
@@ -18650,12 +18537,6 @@
         "relevance": 0.575
       },
       {
-        "tag": "1862",
-        "weight": 0.2331,
-        "corpus_score": 0.1679,
-        "relevance": 0.5687
-      },
-      {
         "tag": "vulgarity",
         "weight": 0.2305,
         "corpus_score": 0.1679,
@@ -18674,7 +18555,7 @@
         "relevance": 0.55
       },
       {
-        "tag": "temperment",
+        "tag": "temperament",
         "weight": 0.2228,
         "corpus_score": 0.1679,
         "relevance": 0.5437
@@ -19685,7 +19566,7 @@
       "darkness",
       "horrible",
       "awful",
-      "existience",
+      "existence",
       "night",
       "nighttime"
     ],
@@ -19721,7 +19602,7 @@
         "relevance": 0.5667
       },
       {
-        "tag": "existience",
+        "tag": "existence",
         "weight": 0.2254,
         "corpus_score": 0.1679,
         "relevance": 0.55
@@ -20469,7 +20350,6 @@
     "tags": [
       "jean-paul sartre",
       "sartre",
-      "1938",
       "quote",
       "book",
       "nausea",
@@ -20526,12 +20406,6 @@
         "relevance": 0.5286
       },
       {
-        "tag": "1938",
-        "weight": 0.3022,
-        "corpus_score": 0.2662,
-        "relevance": 0.5857
-      },
-      {
         "tag": "nausea",
         "weight": 0.2911,
         "corpus_score": 0.2662,
@@ -20580,7 +20454,6 @@
       "self",
       "existence",
       "creation",
-      "creativty",
       "creativity",
       "individuality"
     ],
@@ -20614,12 +20487,6 @@
         "weight": 0.3284,
         "corpus_score": 0.3359,
         "relevance": 0.5667
-      },
-      {
-        "tag": "creativty",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
       }
     ]
   },
@@ -20646,7 +20513,6 @@
     "tags": [
       "jean-paul sartre",
       "sartre",
-      "1938",
       "quote",
       "book",
       "nausea",
@@ -20703,12 +20569,6 @@
         "weight": 0.4122,
         "corpus_score": 0.6021,
         "relevance": 0.5312
-      },
-      {
-        "tag": "1938",
-        "weight": 0.3031,
-        "corpus_score": 0.2662,
-        "relevance": 0.5875
       },
       {
         "tag": "simplification",
@@ -21579,9 +21439,8 @@
     "tags": [
       "John berger",
       "book",
-      "red tends of bologna",
+      "red tenda of bologna",
       "quote",
-      "aging",
       "ageing",
       "age",
       "time",
@@ -21624,12 +21483,6 @@
         "relevance": 0.5071
       },
       {
-        "tag": "aging",
-        "weight": 0.3924,
-        "corpus_score": 0.4715,
-        "relevance": 0.5714
-      },
-      {
         "tag": "belief",
         "weight": 0.3701,
         "corpus_score": 0.5038,
@@ -21648,7 +21501,7 @@
         "relevance": 0.5286
       },
       {
-        "tag": "red tends of bologna",
+        "tag": "red tenda of bologna",
         "weight": 0.24,
         "corpus_score": 0.1679,
         "relevance": 0.5857
@@ -22568,12 +22421,6 @@
         "weight": 0.2384,
         "corpus_score": 0.1679,
         "relevance": 0.5818
-      },
-      {
-        "tag": "wiscom",
-        "weight": 0.2049,
-        "corpus_score": 0.1679,
-        "relevance": 0.5
       },
       {
         "tag": "borges",
@@ -23937,10 +23784,8 @@
       "cat's cradle",
       "maturity",
       "ageing",
-      "aging",
       "old",
       "mature",
-      "up",
       "growing up",
       "people",
       "laughter",
@@ -23958,12 +23803,6 @@
         "weight": 0.3981,
         "corpus_score": 0.1679,
         "relevance": 0.9714
-      },
-      {
-        "tag": "aging",
-        "weight": 0.3826,
-        "corpus_score": 0.4715,
-        "relevance": 0.5571
       },
       {
         "tag": "laughter",
@@ -23994,12 +23833,6 @@
         "weight": 0.2225,
         "corpus_score": 0.1679,
         "relevance": 0.5429
-      },
-      {
-        "tag": "up",
-        "weight": 0.2195,
-        "corpus_score": 0.1679,
-        "relevance": 0.5357
       },
       {
         "tag": "growing up",
@@ -24119,7 +23952,6 @@
       "Vonnegut",
       "Palm Sunday",
       "quote",
-      "what",
       "why",
       "writing",
       "tip",
@@ -24129,12 +23961,6 @@
       "wisdom"
     ],
     "weighted_tags": [
-      {
-        "tag": "what",
-        "weight": 0.4961,
-        "corpus_score": 0.2662,
-        "relevance": 0.9615
-      },
       {
         "tag": "knowledge",
         "weight": 0.4764,
@@ -25275,7 +25101,6 @@
       "old",
       "age",
       "ageing",
-      "aging",
       "honesty",
       "hope",
       "existence",
@@ -25326,12 +25151,6 @@
         "weight": 0.3877,
         "corpus_score": 0.1679,
         "relevance": 0.9462
-      },
-      {
-        "tag": "aging",
-        "weight": 0.3856,
-        "corpus_score": 0.4715,
-        "relevance": 0.5615
       },
       {
         "tag": "honesty",
@@ -25704,7 +25523,6 @@
     "tags": [
       "cities",
       "quote",
-      "fedra",
       "type",
       "typography",
       "lewis mumford",
@@ -25758,12 +25576,6 @@
         "weight": 0.2937,
         "corpus_score": 0.2662,
         "relevance": 0.5692
-      },
-      {
-        "tag": "fedra",
-        "weight": 0.2396,
-        "corpus_score": 0.1679,
-        "relevance": 0.5846
       },
       {
         "tag": "the city in history",
@@ -26074,7 +25886,6 @@
     "tags": [
       "Louis-Ferdinand Céline",
       "Celine",
-      "1932",
       "journey to the end of the night",
       "book",
       "quote",
@@ -26120,12 +25931,6 @@
         "weight": 0.2422,
         "corpus_score": 0.1679,
         "relevance": 0.5909
-      },
-      {
-        "tag": "1932",
-        "weight": 0.2384,
-        "corpus_score": 0.1679,
-        "relevance": 0.5818
       },
       {
         "tag": "journey to the end of the night",
@@ -27466,7 +27271,6 @@
     "_match_score": 150,
     "tags": [
       "quote",
-      "akzidenz",
       "grotesque",
       "type",
       "typography",
@@ -27489,12 +27293,6 @@
         "weight": 0.3319,
         "corpus_score": 0.3359,
         "relevance": 0.5727
-      },
-      {
-        "tag": "akzidenz",
-        "weight": 0.3049,
-        "corpus_score": 0.2662,
-        "relevance": 0.5909
       },
       {
         "tag": "typography",
@@ -27651,7 +27449,6 @@
       "book",
       "demon-haunted world",
       "carl sagan",
-      "1996",
       "science",
       "science as a candle in the dark",
       "michael faraday",
@@ -27704,12 +27501,6 @@
         "weight": 0.3016,
         "corpus_score": 0.2662,
         "relevance": 0.5846
-      },
-      {
-        "tag": "1996",
-        "weight": 0.2977,
-        "corpus_score": 0.2662,
-        "relevance": 0.5769
       },
       {
         "tag": "science as a candle in the dark",
@@ -27992,7 +27783,7 @@
         "relevance": 0.5091
       },
       {
-        "tag": "michel du montaigne",
+        "tag": "michel de montaigne",
         "weight": 0.1712,
         "corpus_score": 0.2662,
         "relevance": 0.3318
@@ -28062,7 +27853,7 @@
         "relevance": 0.5556
       },
       {
-        "tag": "michel du montaigne",
+        "tag": "michel de montaigne",
         "weight": 0.1691,
         "corpus_score": 0.2662,
         "relevance": 0.3278
@@ -28423,7 +28214,6 @@
       "quote",
       "life",
       "age",
-      "aging",
       "ageing",
       "death",
       "existence",
@@ -28466,12 +28256,6 @@
         "weight": 0.3845,
         "corpus_score": 0.5038,
         "relevance": 0.5417
-      },
-      {
-        "tag": "aging",
-        "weight": 0.3777,
-        "corpus_score": 0.4715,
-        "relevance": 0.55
       },
       {
         "tag": "dying",
@@ -29266,12 +29050,6 @@
         "relevance": 0.7818
       },
       {
-        "tag": "nicholas",
-        "weight": 0.1431,
-        "corpus_score": 0.2662,
-        "relevance": 0.2773
-      },
-      {
         "tag": "taleb",
         "weight": 0.1384,
         "corpus_score": 0.2662,
@@ -29371,12 +29149,6 @@
         "relevance": 0.5357
       },
       {
-        "tag": "nicholas",
-        "weight": 0.1732,
-        "corpus_score": 0.2662,
-        "relevance": 0.3357
-      },
-      {
         "tag": "taleb",
         "weight": 0.1695,
         "corpus_score": 0.2662,
@@ -29413,7 +29185,6 @@
     "tags": [
       "quote",
       "Nassim taleb",
-      "nnt",
       "Nassim Nicholas taleb",
       "fooled by randomness",
       "book",
@@ -29451,12 +29222,6 @@
         "weight": 0.3497,
         "corpus_score": 0.39,
         "relevance": 0.56
-      },
-      {
-        "tag": "nnt",
-        "weight": 0.3027,
-        "corpus_score": 0.2662,
-        "relevance": 0.5867
       },
       {
         "tag": "narrative",
@@ -29680,7 +29445,6 @@
       "behaviour",
       "visitor",
       "experience",
-      "vx",
       "design",
       "heuristics",
       "knowledge",
@@ -29765,12 +29529,6 @@
         "weight": 0.2308,
         "corpus_score": 0.1679,
         "relevance": 0.5632
-      },
-      {
-        "tag": "vx",
-        "weight": 0.2178,
-        "corpus_score": 0.1679,
-        "relevance": 0.5316
       },
       {
         "tag": "heuristics",
@@ -31020,7 +30778,6 @@
     "tags": [
       "quote",
       "Nassim taleb",
-      "nnt",
       "Nassim Nicholas taleb",
       "fooled by randomness",
       "book",
@@ -31076,12 +30833,6 @@
         "weight": 0.3061,
         "corpus_score": 0.2662,
         "relevance": 0.5933
-      },
-      {
-        "tag": "nnt",
-        "weight": 0.3027,
-        "corpus_score": 0.2662,
-        "relevance": 0.5867
       },
       {
         "tag": "fooled by randomness",
@@ -32475,7 +32226,6 @@
       "ownership",
       "consumerism",
       "ageing",
-      "aging",
       "old",
       "change",
       "conformism",
@@ -32499,12 +32249,6 @@
         "weight": 0.4081,
         "corpus_score": 0.5038,
         "relevance": 0.575
-      },
-      {
-        "tag": "aging",
-        "weight": 0.3862,
-        "corpus_score": 0.4715,
-        "relevance": 0.5625
       },
       {
         "tag": "ownership",
@@ -32904,7 +32648,7 @@
       "cult",
       "faith",
       "science",
-      "doube",
+      "doubt",
       "uncertainty",
       "hypothesis",
       "feynman"
@@ -32953,7 +32697,7 @@
         "relevance": 0.5167
       },
       {
-        "tag": "doube",
+        "tag": "doubt",
         "weight": 0.2186,
         "corpus_score": 0.1679,
         "relevance": 0.5333
@@ -37357,7 +37101,6 @@
       "progress",
       "recapitulation",
       "restate",
-      "state again",
       "statement",
       "knowledge",
       "history",
@@ -37418,12 +37161,6 @@
         "weight": 0.2254,
         "corpus_score": 0.1679,
         "relevance": 0.55
-      },
-      {
-        "tag": "state again",
-        "weight": 0.222,
-        "corpus_score": 0.1679,
-        "relevance": 0.5417
       }
     ]
   },
@@ -41832,10 +41569,6 @@
       {
         "tag": "labour",
         "weight": 1
-      },
-      {
-        "tag": "labor",
-        "weight": 1
       }
     ],
     "id": "quote_0583",
@@ -43091,10 +42824,6 @@
         "weight": 1
       },
       {
-        "tag": "labor",
-        "weight": 1
-      },
-      {
         "tag": "ships",
         "weight": 1
       },
@@ -43146,7 +42875,7 @@
         "weight": 1
       },
       {
-        "tag": "openess",
+        "tag": "openness",
         "weight": 1
       },
       {
@@ -45070,6 +44799,146 @@
       }
     ],
     "id": "quote_0675",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Nearly all a poor bastard’s desires are punishable by jail.",
+    "author": "Louis-Ferdinand Céline",
+    "publication": "Journey to the End of the Night",
+    "year": "1932",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "wishes",
+        "weight": 1
+      },
+      {
+        "tag": "dreams",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0676",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "This thing can never stop. This enormous steel box is on a collision course; we, inside it, are whirling madly with the machines and the earth. All together.",
+    "author": "Louis-Ferdinand Céline",
+    "publication": "Journey to the End of the Night",
+    "year": "1932",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "madness",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "pessimism",
+        "weight": 1
+      },
+      {
+        "tag": "doom",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0677",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The bigger and taller the city, the less they care.",
+    "author": "Louis-Ferdinand Céline",
+    "publication": "Journey to the End of the Night",
+    "year": "1932",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "care",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0678",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Our molecules, the dears, want to get lost in the universe as fast as they can! It makes them miserable to be nothing but \"us,\" the jerks of infinity.",
+    "author": "Louis-Ferdinand Céline",
+    "publication": "Journey to the End of the Night",
+    "year": "1932",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "the universe",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "infinity",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0679",
     "confidence": 1,
     "needs_review": false,
     "notes": ""
