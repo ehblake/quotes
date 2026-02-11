@@ -2840,9 +2840,9 @@
     "quote": "Success brings asymmetry: you now have more to lose than to gain.",
     "author": "Nassim Nicholas Taleb",
     "year": "2012",
-    "publication": "Antifragile",
+    "publication": "Antifragile: Things That Gain from Disorder",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788449328640",
@@ -2900,7 +2900,8 @@
         "corpus_score": 0.1679,
         "relevance": 0.5625
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0042",
@@ -2909,7 +2910,7 @@
     "quote": "The learning of life is about what to avoid.",
     "author": "Nassim Nicholas Taleb",
     "year": "2012",
-    "publication": "Antifragile",
+    "publication": "Antifragile: Things That Gain from Disorder",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -28986,9 +28987,9 @@
     "quote": "Life is more, a lot more, labyrinthine than shown in our memory—our minds are in the business of turning history into something smooth and linear, which makes us underestimate randomness.",
     "author": "Nassim Nicholas Taleb",
     "year": "2012",
-    "publication": "Antifragile",
+    "publication": "Antifragile: Things That Gain from Disorder",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788449328640",
@@ -29061,7 +29062,8 @@
         "corpus_score": 0.2662,
         "relevance": 0.2591
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0400",
@@ -29070,9 +29072,9 @@
     "quote": "One should not expect laurels for bringing the truth.",
     "author": "Nassim Nicholas Taleb",
     "year": "2012",
-    "publication": "Antifragile",
+    "publication": "Antifragile: Things That Gain from Disorder",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788449328640",
@@ -29109,7 +29111,7 @@
       {
         "tag": "humanity",
         "weight": 0.5214,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5214
       },
       {
@@ -29160,7 +29162,8 @@
         "corpus_score": 0.2662,
         "relevance": 0.3214
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0401",
@@ -39363,6 +39366,14 @@
         "weight": 0.3852,
         "corpus_score": 0.1679,
         "relevance": 0.94
+      },
+      {
+        "tag": "honesty",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
       }
     ],
     "isbn": null,
@@ -45231,6 +45242,394 @@
       }
     ],
     "id": "quote_0687",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Time has sharp teeth that destroy everything.",
+    "author": "Simonides of Ceos",
+    "publication": "Antifragile: Things That Gain from Disorder",
+    "year": "2012",
+    "isbn": null,
+    "book_author": "Nassim Nicholas Taleb",
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0688",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Technology is only useful against a background of our needs and capacities.",
+    "author": "Alva Noë",
+    "publication": "Strange Tools",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/strange-tools.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "needs",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0689",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The purpose of art is to lay bare the questions that have been occluded by answers.",
+    "author": "James Baldwin",
+    "publication": "Strange Tools",
+    "year": "2015",
+    "isbn": null,
+    "book_author": "Alva Noë",
+    "cover_url": "covers/strange-tools.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "questions",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0690",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the purpose of prophecy is never to be right about the future, but to act upon the present.",
+    "author": "The Invisible Committee",
+    "publication": "To Our Friends",
+    "year": "2014",
+    "isbn": "9788415862307",
+    "book_author": null,
+    "cover_url": "covers/to-our-friends.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "the present",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0691",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The ocean is a wilderness reaching around the globe, wilder than a Bengal jungle...",
+    "author": "Henry David Thoreau",
+    "publication": "The Whale",
+    "year": "2010",
+    "isbn": null,
+    "book_author": "Philip Hoare",
+    "cover_url": "covers/the-whale.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "wilderness",
+        "weight": 1
+      },
+      {
+        "tag": "the sea",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      },
+      {
+        "tag": "the planet",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0692",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Let us go then, you and I, / When the evening is spread out against the sky",
+    "author": "T.S. Eliot",
+    "publication": "Collected Poems 1909-1962",
+    "year": "1965",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/collected-poems-1909-1962.jpg",
+    "weighted_tags": [
+      {
+        "tag": "connection",
+        "weight": 1
+      },
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "nighttime",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0693",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In the prison of his days / Teach the free man how to praise.",
+    "author": "W.H. Auden",
+    "publication": "Another Time",
+    "year": "1940",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/another-time.jpg",
+    "weighted_tags": [
+      {
+        "tag": "prison",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "boredom",
+        "weight": 1
+      },
+      {
+        "tag": "conformity",
+        "weight": 1
+      },
+      {
+        "tag": "behaviour",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0694",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I find in my mouth a bitter taste of money, a gaping syllable I can neither swallow nor spit out.",
+    "author": "Wendell Berry",
+    "publication": "The Peace of Wild Things",
+    "year": "2018",
+    "isbn": "9780141987125",
+    "book_author": null,
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
+    "weighted_tags": [
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "the senses",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0695",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What I stand for is what I stand on.",
+    "author": "Wendell Berry",
+    "publication": "The Peace of Wild Things",
+    "year": "2018",
+    "isbn": "9780141987125",
+    "book_author": null,
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
+    "weighted_tags": [
+      {
+        "tag": "values",
+        "weight": 1
+      },
+      {
+        "tag": "positions",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0696",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Civilization exists by geologic consent, subject to change without notice...",
+    "author": "William Durant",
+    "publication": "Krakatoa: The Day the World Exploded",
+    "year": "2003",
+    "isbn": null,
+    "book_author": "Simon Winchester",
+    "cover_url": "covers/krakatoa-the-day-the-world-exploded.jpg",
+    "weighted_tags": [
+      {
+        "tag": "civilisation",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "the earth",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0697",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The true method of knowledge is experiment.",
+    "author": "William Blake",
+    "publication": "The Complete Poetry and Prose",
+    "year": "1981",
+    "isbn": "0385152132",
+    "book_author": null,
+    "cover_url": "covers/the-complete-poetry-and-prose.jpg",
+    "weighted_tags": [
+      {
+        "tag": "prototyping",
+        "weight": 1
+      },
+      {
+        "tag": "experimentation",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0698",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Be reconciled, poet, with your world, it is the only truth!",
+    "author": "William Carlos Williams",
+    "publication": "Paterson",
+    "year": "1946",
+    "isbn": "0811212254",
+    "book_author": null,
+    "cover_url": "covers/paterson.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0699",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
