@@ -42732,6 +42732,10 @@
       {
         "tag": "ideas",
         "weight": 1
+      },
+      {
+        "tag": "the sea",
+        "weight": 1
       }
     ],
     "id": "quote_0618",
@@ -44681,6 +44685,10 @@
       },
       {
         "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "the sea",
         "weight": 1
       }
     ],
