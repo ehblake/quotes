@@ -44832,5 +44832,246 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "A proved fact can do nothing against crystallized opinion.",
+    "author": "Jacques Ellul",
+    "publication": "Propaganda",
+    "year": "1965",
+    "isbn": "9782717818482",
+    "book_author": null,
+    "cover_url": "covers/propaganda.jpg",
+    "weighted_tags": [
+      {
+        "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "opinion",
+        "weight": 1
+      },
+      {
+        "tag": "opinions",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0669",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Cities have the capability of providing something for everyone, only because, and only when, they are created for everybody.",
+    "author": "Jane Jacobs",
+    "publication": "The Death and Life of Great American Cities",
+    "year": "1961",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-death-and-life-of-great-american-cities.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "community",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0670",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "But now (we say) the sweetness of the night / Will hide our imperfections from our sight",
+    "author": "John Berryman",
+    "publication": "The Dream Songs",
+    "year": "1969",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-dream-songs.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nighttime",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "perfection",
+        "weight": 1
+      },
+      {
+        "tag": "sight",
+        "weight": 1
+      },
+      {
+        "tag": "hiding",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0671",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+    "author": "Carl Jung",
+    "publication": "Memories, Dreams, Reflections",
+    "year": "1962",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/memories-dreams-reflections.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0672",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Do a certain amount of skylarking, as befits people your age. \"Skylarking,\" incidentally, used to be a minor offense under Naval Regulations. What a charming crime. It means intolerable lack of seriousness.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "If This Isn't Nice, What Is?",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/if-this-isnt-nice-what-is.png",
+    "weighted_tags": [
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "crime",
+        "weight": 1
+      },
+      {
+        "tag": "fun",
+        "weight": 1
+      },
+      {
+        "tag": "joy",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0673",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the fruits of science so far, put into the hands of governments, have turned out to be cruelties and stupidities exceeding by far those of the Spanish Inquisition...",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "If This Isn't Nice, What Is?",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/if-this-isnt-nice-what-is.png",
+    "weighted_tags": [
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "government",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "cruelty",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0674",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "People who will not venture out into the open sea pay the penalty of never having looked into the bright eyes of danger; and at best they know but half of life.",
+    "author": "Lewis Mumford",
+    "publication": "The Story of Utopias",
+    "year": "1922",
+    "isbn": "9781514330906",
+    "book_author": null,
+    "cover_url": "covers/the-story-of-utopias.jpg",
+    "weighted_tags": [
+      {
+        "tag": "adventure",
+        "weight": 1
+      },
+      {
+        "tag": "risk",
+        "weight": 1
+      },
+      {
+        "tag": "looking",
+        "weight": 1
+      },
+      {
+        "tag": "danger",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0675",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]
