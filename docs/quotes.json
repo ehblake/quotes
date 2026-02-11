@@ -44369,5 +44369,468 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "Everyone’s got their own thing that they yell into a well.",
+    "author": "Bill Callahan",
+    "publication": "I Drive a Valence",
+    "year": "2017",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/i-drive-a-valence.jpg",
+    "weighted_tags": [
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0656",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Photography is all right if you don’t mind looking at the world from the point of view of a paralyzed Cyclops for a split second.",
+    "author": "David Hockney",
+    "publication": "Hockney on Photography",
+    "year": "1988",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/hockney-on-photography.jpg",
+    "weighted_tags": [
+      {
+        "tag": "photography",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "looking",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0657",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Ah, my country! In thee is the reasonable hope of mankind not fulfilled.",
+    "author": "Ralph Waldo Emerson",
+    "publication": "Essays: First and Second Series",
+    "year": "1983",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/essays-first-and-second-series.jpg",
+    "weighted_tags": [
+      {
+        "tag": "america",
+        "weight": 1
+      },
+      {
+        "tag": "mankind",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "hope",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0658",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The spectacle is nothing more than an image of happy unification surrounded by desolation and fear at the tranquil center of misery.",
+    "author": "Guy Debord",
+    "publication": "Society of the Spectacle",
+    "year": "1967",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/society-of-the-spectacle.jpg",
+    "weighted_tags": [
+      {
+        "tag": "spectacle",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "happiness",
+        "weight": 1
+      },
+      {
+        "tag": "fear",
+        "weight": 1
+      },
+      {
+        "tag": "misery",
+        "weight": 1
+      },
+      {
+        "tag": "pessimism",
+        "weight": 1
+      },
+      {
+        "tag": "desolation",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0659",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The more his life is now his product, the more he is separated from his life.",
+    "author": "Guy Debord",
+    "publication": "Society of the Spectacle",
+    "year": "1967",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/society-of-the-spectacle.jpg",
+    "weighted_tags": [
+      {
+        "tag": "consumerism",
+        "weight": 1
+      },
+      {
+        "tag": "america",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0660",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "when the arts and sciences come to perfection in any state, from that moment they naturally, or rather necessarily decline, and seldom or never revive in that nation...",
+    "author": "David Hume",
+    "publication": "The Bias of Communication",
+    "year": "1961",
+    "isbn": null,
+    "book_author": "Harold Innis",
+    "cover_url": "covers/the-bias-of-communication.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "decline",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "civilisation",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0661",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In the long run, utility, like everything else, is simply a figment of our imagination and may well be the fatal stupidity by which we shall one day perish...",
+    "author": "Friedrich Nietzsche",
+    "publication": "The Bias of Communication",
+    "year": "1961",
+    "isbn": null,
+    "book_author": "Harold Innis",
+    "cover_url": "covers/the-bias-of-communication.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "materialism",
+        "weight": 1
+      },
+      {
+        "tag": "consumerism",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "decline",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0662",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Mechanized communication divided reason and emotion and emphasized the latter.",
+    "author": "Harold Innis",
+    "publication": "The Bias of Communication",
+    "year": "1961",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-bias-of-communication.jpg",
+    "weighted_tags": [
+      {
+        "tag": "communication",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "emotions",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0663",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Keep true to the dreams of thy youth.",
+    "author": "Herman Melville",
+    "publication": "The Whale",
+    "year": "2011",
+    "isbn": null,
+    "book_author": "Philip Hoare",
+    "cover_url": "covers/the-whale.jpg",
+    "weighted_tags": [
+      {
+        "tag": "children",
+        "weight": 1
+      },
+      {
+        "tag": "youth",
+        "weight": 1
+      },
+      {
+        "tag": "dreams",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "ageing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0664",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents.",
+    "author": "H.P. Lovecraft",
+    "publication": "The New Dark Age",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "James Bridle",
+    "cover_url": "covers/the-new-dark-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the mind",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0665",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far.",
+    "author": "H.P. Lovecraft",
+    "publication": "The New Dark Age",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "James Bridle",
+    "cover_url": "covers/the-new-dark-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "journey",
+        "weight": 1
+      },
+      {
+        "tag": "voyage",
+        "weight": 1
+      },
+      {
+        "tag": "travel",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0666",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "They can print statistics and count the populations in hundreds of thousands, but to each man a city consists of no more than a few streets, a few houses, a few people.",
+    "author": "Graham Greene",
+    "publication": "Our Man in Havana",
+    "year": "1958",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/our-man-in-havana.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0667",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "You should dream more, Mr Wormold. Reality in our century is not something to be faced.",
+    "author": "Graham Greene",
+    "publication": "Our Man in Havana",
+    "year": "1958",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/our-man-in-havana.jpg",
+    "weighted_tags": [
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "dreams",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0668",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]

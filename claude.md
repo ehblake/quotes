@@ -127,7 +127,25 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Feb 9 2026) - Tag Index Modal, Weak Tag Fixes, New Quotes & Rebellion Tag
+### Last Session (Feb 11 2026) - New Quotes & Covers Push
+
+- **Added 13 new quotes** (quote_0656–quote_0668):
+  - Bill Callahan: *I Drive a Valence*
+  - David Hockney: *Hockney on Photography*
+  - Ralph Waldo Emerson: *Essays: First and Second Series*
+  - Guy Debord: *Society of the Spectacle* (×2)
+  - David Hume, Friedrich Nietzsche, Harold Innis: *The Bias of Communication*
+  - Herman Melville (via Philip Hoare): *The Whale*
+  - H.P. Lovecraft (via James Bridle): *The New Dark Age* (×2)
+  - Graham Greene: *Our Man in Havana* (×2)
+
+- **Added 7 new cover images**:
+  - essays-first-and-second-series, hockney-on-photography, i-drive-a-valence
+  - our-man-in-havana, society-of-the-spectacle, the-new-dark-age, the-whale
+
+- **Total quotes**: 622 (was 609 at last commit)
+
+### Previous Session (Feb 9 2026) - Tag Index Modal, Weak Tag Fixes, New Quotes & Rebellion Tag
 
 - **Added tag index modal** (press 'A'):
   - 3-column alphabetical list of all primary tags with quote counts
