@@ -4595,6 +4595,10 @@
       {
         "tag": "change",
         "score": 1.4938
+      },
+      {
+        "tag": "the sea",
+        "score": 3.0
       }
     ],
     "quote_count": 23
@@ -5381,6 +5385,10 @@
       {
         "tag": "walking",
         "score": 3.9316
+      },
+      {
+        "tag": "the sea",
+        "score": 3.0
       }
     ],
     "quote_count": 6
@@ -5582,6 +5590,10 @@
       {
         "tag": "death",
         "score": 3.2073
+      },
+      {
+        "tag": "the sea",
+        "score": 3.0
       }
     ],
     "quote_count": 8
@@ -5609,7 +5621,24 @@
     "quote_count": 3
   },
   "the sea": {
-    "related": [],
+    "related": [
+      {
+        "tag": "nature",
+        "score": 5.0
+      },
+      {
+        "tag": "earth",
+        "score": 4.0
+      },
+      {
+        "tag": "adventure",
+        "score": 3.0
+      },
+      {
+        "tag": "danger",
+        "score": 3.0
+      }
+    ],
     "quote_count": 3
   },
   "improvement": {
@@ -5634,7 +5663,12 @@
     "quote_count": 4
   },
   "danger": {
-    "related": [],
+    "related": [
+      {
+        "tag": "the sea",
+        "score": 3.0
+      }
+    ],
     "quote_count": 5
   },
   "consumption": {
