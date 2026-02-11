@@ -44942,5 +44942,297 @@
     "confidence": 1,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "...things that come with little help from luck are more resistant to randomness.",
+    "author": "Nassim Nicholas Taleb",
+    "publication": "Fooled By Randomness",
+    "year": "2001",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "luck",
+        "weight": 1
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
+      },
+      {
+        "tag": "mathematics",
+        "weight": 1
+      },
+      {
+        "tag": "odds",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0680",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Can a culture preserve humane values and create new ones by allowing modern technology the fullest possible authority to control its destiny?",
+    "author": "Neil Postman",
+    "publication": "The Disappearance of Childhood",
+    "year": "1982",
+    "isbn": "0440016916",
+    "book_author": null,
+    "cover_url": "covers/the-disappearance-of-childhood.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "destiny",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0681",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Language is an abstraction about experience, whereas pictures are concrete representations of experience.",
+    "author": "Neil Postman",
+    "publication": "The Disappearance of Childhood",
+    "year": "1982",
+    "isbn": "0440016916",
+    "book_author": null,
+    "cover_url": "covers/the-disappearance-of-childhood.jpg",
+    "weighted_tags": [
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "abstraction",
+        "weight": 1
+      },
+      {
+        "tag": "pictures",
+        "weight": 1
+      },
+      {
+        "tag": "imagery",
+        "weight": 1
+      },
+      {
+        "tag": "images",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0682",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...until people abandon all the things that make them snarl and devour each other in this world and until they start thinking about making their spiritual fortune, there will be no harmony in their earthly fortunes, either.",
+    "author": "Nikolai Gogol",
+    "publication": "Dead Souls",
+    "year": "1842",
+    "isbn": "9789723706819",
+    "book_author": null,
+    "cover_url": "covers/dead-souls.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "harmony",
+        "weight": 1
+      },
+      {
+        "tag": "fighting",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0683",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The danger that the computer poses is to human autonomy. The more that is known about a person, the easier it is to control him.",
+    "author": "Paul M. Schwartz",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
+    "weighted_tags": [
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "danger",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "computers",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0684",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Thus we never see the true State of our Condition, till it is illustrated to us by its Contraries; nor know how to value what we enjoy, but by the want of it.",
+    "author": "Daniel Defoe",
+    "publication": "Robinson Crusoe",
+    "year": "1719",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/robinson-crusoe.jpg",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "desire",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0685",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Forget the cliché that if it’s free, \"You are the product.\" You are not the product; you are the abandoned carcass. The \"product\" derives from the surplus that is ripped from your life.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
+    "weighted_tags": [
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "consumption",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0686",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Uncertainty is not chaos but rather the necessary habitat of the present tense.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
+    "weighted_tags": [
+      {
+        "tag": "uncertainty",
+        "weight": 1
+      },
+      {
+        "tag": "certainty",
+        "weight": 1
+      },
+      {
+        "tag": "knowing",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "the present",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0687",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
