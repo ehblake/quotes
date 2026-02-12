@@ -45516,5 +45516,203 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "It is dangerous to leave written that which is badly written. A chance word, upon paper, may destroy the world.",
+    "author": "William Carlos Williams",
+    "publication": "Paterson",
+    "year": "1946",
+    "isbn": "0811212254",
+    "book_author": null,
+    "cover_url": "covers/paterson.jpg",
+    "weighted_tags": [
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "danger",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      },
+      {
+        "tag": "writing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0700",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If the biota, in the course of aeons, has built something we like but do not understand, then who but a fool would discard seemingly useless parts?",
+    "author": "Aldo Leopold",
+    "publication": "Sand County Almanac",
+    "year": "1949",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sand-county-almanac.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0701",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It occurs to me that everything that can be said against the inconvenience of books can be said about the inconvenience of children.",
+    "author": "Anthony Esolen",
+    "publication": "Ten Ways to Destroy the Imagination of Your Child",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/ten-ways-to-destroy-the-imagination-of-your-child.jpg",
+    "weighted_tags": [
+      {
+        "tag": "children",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0702",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The imagination opens out not principally to what it knows and finds familiar, but to what it does not know, what it finds strange, half bidden, robed with inaccessible light.",
+    "author": "Anthony Esolen",
+    "publication": "Ten Ways to Destroy the Imagination of Your Child",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/ten-ways-to-destroy-the-imagination-of-your-child.jpg",
+    "weighted_tags": [
+      {
+        "tag": "imagination",
+        "weight": 1
+      },
+      {
+        "tag": "familiar",
+        "weight": 1
+      },
+      {
+        "tag": "the new",
+        "weight": 1
+      },
+      {
+        "tag": "experiences",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0703",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "[Our existence] resembles the course of a man running down a mountain who would fall over if he tried to stop and can stay on his feet only by running on...",
+    "author": "Arthur Schopenhauer",
+    "publication": "Essays & Aphorisms",
+    "year": "1970",
+    "isbn": "0140442278",
+    "book_author": null,
+    "cover_url": "covers/0140442278.jpg",
+    "weighted_tags": [
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "inertia",
+        "weight": 1
+      },
+      {
+        "tag": "doom",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0704",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Buying books would be a good thing if one could also buy the time to read them in...",
+    "author": "Arthur Schopenhauer",
+    "publication": "Essays & Aphorisms",
+    "year": "1970",
+    "isbn": "0140442278",
+    "book_author": null,
+    "cover_url": "covers/0140442278.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0705",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]

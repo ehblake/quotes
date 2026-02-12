@@ -127,9 +127,9 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Feb 11 2026) - New Quotes & Covers Push
+### Last Session (Feb 11 2026) - New Quotes, Covers, Tag Cleanup & Pushes
 
-- **Added 13 new quotes** (quote_0656–quote_0668):
+- **Added 40 new quotes** (quote_0656–quote_0699, minus quote_0688 Simonides which has no cover):
   - Bill Callahan: *I Drive a Valence*
   - David Hockney: *Hockney on Photography*
   - Ralph Waldo Emerson: *Essays: First and Second Series*
@@ -138,12 +138,51 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
   - Herman Melville (via Philip Hoare): *The Whale*
   - H.P. Lovecraft (via James Bridle): *The New Dark Age* (×2)
   - Graham Greene: *Our Man in Havana* (×2)
+  - Jacques Ellul: *Propaganda*
+  - Jane Jacobs: *The Death and Life of Great American Cities*
+  - John Berryman: *The Dream Songs*
+  - Carl Jung: *Memories, Dreams, Reflections*
+  - Kurt Vonnegut Jr.: *If This Isn't Nice, What Is?* (×3)
+  - Lewis Mumford: *The Story of Utopias*
+  - Louis-Ferdinand Celine: *Journey to the End of the Night* (×4)
+  - Nassim Nicholas Taleb: *Fooled By Randomness*
+  - Neil Postman: *The Disappearance of Childhood* (×2)
+  - Nikolai Gogol: *Dead Souls*
+  - Paul M. Schwartz (via Zuboff): *The Age of Surveillance Capitalism*
+  - Daniel Defoe: *Robinson Crusoe*
+  - Shoshana Zuboff: *The Age of Surveillance Capitalism*
+  - Simonides of Ceos (via Taleb): *Antifragile*
+  - Alva Noe, James Baldwin: *Strange Tools*
+  - The Invisible Committee: *To Our Friends*
+  - Henry David Thoreau (via Hoare): *The Whale*
+  - T.S. Eliot: *Collected Poems 1909-1962*
+  - W.H. Auden: *Another Time*
+  - Wendell Berry: *The Peace of Wild Things* (×2)
+  - William Durant (via Winchester): *Krakatoa*
+  - William Blake: *The Complete Poetry and Prose*
+  - William Carlos Williams: *Paterson*
 
-- **Added 7 new cover images**:
-  - essays-first-and-second-series, hockney-on-photography, i-drive-a-valence
-  - our-man-in-havana, society-of-the-spectacle, the-new-dark-age, the-whale
+- **Added 14 new cover images**:
+  - another-time, collected-poems-1909-1962, essays-first-and-second-series
+  - hockney-on-photography, i-drive-a-valence, krakatoa-the-day-the-world-exploded
+  - memories-dreams-reflections, our-man-in-havana, robinson-crusoe
+  - society-of-the-spectacle, strange-tools, the-dream-songs, the-new-dark-age, the-whale
 
-- **Total quotes**: 622 (was 609 at last commit)
+- **Updated cover**: the-story-of-utopias (higher resolution)
+
+- **Fixed misspelled tags** (10): creativty→creativity, doube→doubt, exceptance→acceptance, existience→existence, goverment→government, openess→openness, temperment→temperament, univeralism→universalism, wiscom→wisdom, upheavel→upheaval
+
+- **Fixed corrupted tag**: `capitalism\` → `capitalism` (trailing backslash)
+
+- **Standardized spelling variants**: aging→ageing, labor→labour, dostoyevsky→dostoevsky, michel du montaigne→michel de montaigne, problem-solving→problem solving, red tends→red tenda of bologna
+
+- **Removed 22 junk tags**: year numbers (1862, 1866, 1868, etc.), name fragments (nicholas, friedrich, nnt), nonsense (vx, state again, take it, thank you, what, do, up, done, here, akzidenz, fedra)
+
+- **Updated 4 Taleb quotes**: publication renamed to *Antifragile: Things That Gain from Disorder*
+
+- **Added tags** to Blake quote_0537: honesty, truth
+
+- **Total quotes**: 653 (was 609 at start of session)
 
 ### Previous Session (Feb 9 2026) - Tag Index Modal, Weak Tag Fixes, New Quotes & Rebellion Tag
 
