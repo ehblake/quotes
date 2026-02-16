@@ -21499,7 +21499,7 @@
     "year": "2016",
     "publication": "Confabulations",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780141984957",
@@ -21599,7 +21599,8 @@
         "corpus_score": 0.3359,
         "relevance": 0.3429
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0301",
@@ -41923,37 +41924,6 @@
     "notes": ""
   },
   {
-    "quote": "The more I love humanity in general, the less I love man in particular.",
-    "author": "Fyodor Dostoevsky",
-    "publication": "The Brothers Karamazov",
-    "year": "1880",
-    "isbn": "9798457106185",
-    "book_author": null,
-    "cover_url": "covers/the-brothers-karamazov.jpg",
-    "weighted_tags": [
-      {
-        "tag": "humanity",
-        "weight": 1
-      },
-      {
-        "tag": "love",
-        "weight": 1
-      },
-      {
-        "tag": "individuality",
-        "weight": 1
-      },
-      {
-        "tag": "society",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0597",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
     "quote": "I have seen people behave badly with great morality.",
     "author": "Albert Camus",
     "publication": "The Myth of Sisyphus",
@@ -42557,37 +42527,6 @@
     "notes": ""
   },
   {
-    "quote": "Bureaucracy is a construction by which a person is conveniently separated from the consequences of his or her actions.",
-    "author": "Nassim Nicholas Taleb",
-    "publication": "Skin in the Game",
-    "year": "2018",
-    "isbn": "9780425284643",
-    "book_author": null,
-    "cover_url": "covers/skin-in-the-game.jpg",
-    "weighted_tags": [
-      {
-        "tag": "bureaucracy",
-        "weight": 1
-      },
-      {
-        "tag": "consequences",
-        "weight": 1
-      },
-      {
-        "tag": "agency",
-        "weight": 1
-      },
-      {
-        "tag": "individuality",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0615",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
     "quote": "Why imagine limits when there is little proof there are any?",
     "author": "Errol Morris",
     "publication": "The Ashtray",
@@ -42884,41 +42823,6 @@
     "notes": ""
   },
   {
-    "quote": "History has never been gentle in its judgements on bedrock degenerates.",
-    "author": "Hunter S. Thompson",
-    "publication": "Kingdom of Fear",
-    "year": "2002",
-    "isbn": "0713997141",
-    "book_author": null,
-    "cover_url": "covers/0713997141.jpg",
-    "weighted_tags": [
-      {
-        "tag": "history",
-        "weight": 1
-      },
-      {
-        "tag": "leaders",
-        "weight": 1
-      },
-      {
-        "tag": "politics",
-        "weight": 1
-      },
-      {
-        "tag": "america",
-        "weight": 1
-      },
-      {
-        "tag": "judgement",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0624",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
     "quote": "Falsehood is the jockey of misfortune.",
     "author": "Jean Giraudoux",
     "publication": "Walsh Street",
@@ -43085,41 +42989,6 @@
       }
     ],
     "id": "quote_0629",
-    "confidence": 1,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
-    "quote": "Everything in the world exists to end in a book.",
-    "author": "Stéphane Mallarmé",
-    "publication": "Selected Poetry and Prose",
-    "year": "1982",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/selected-poetry-and-prose.jpg",
-    "weighted_tags": [
-      {
-        "tag": "books",
-        "weight": 1
-      },
-      {
-        "tag": "literature",
-        "weight": 1
-      },
-      {
-        "tag": "writing",
-        "weight": 1
-      },
-      {
-        "tag": "the world",
-        "weight": 1
-      },
-      {
-        "tag": "existence",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0630",
     "confidence": 1,
     "needs_review": false,
     "notes": ""
@@ -43315,41 +43184,6 @@
     ],
     "id": "quote_0637",
     "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
-    "quote": "The two most common elements in the universe are hydrogen and stupidity.",
-    "author": "Harlan Ellison",
-    "publication": "A Bone of Fact",
-    "year": "2014",
-    "isbn": null,
-    "book_author": "David Walsh",
-    "cover_url": "covers/a-bone-of-fact.jpg",
-    "weighted_tags": [
-      {
-        "tag": "stupidity",
-        "weight": 1
-      },
-      {
-        "tag": "humanity",
-        "weight": 1
-      },
-      {
-        "tag": "the universe",
-        "weight": 1
-      },
-      {
-        "tag": "ignorance",
-        "weight": 1
-      },
-      {
-        "tag": "intelligence",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0638",
-    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -45056,80 +44890,6 @@
     "notes": ""
   },
   {
-    "quote": "Uncertainty is not chaos but rather the necessary habitat of the present tense.",
-    "author": "Shoshana Zuboff",
-    "publication": "The Age of Surveillance Capitalism",
-    "year": "2018",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/the-age-of-surveillance-capitalism.jpg",
-    "weighted_tags": [
-      {
-        "tag": "uncertainty",
-        "weight": 1
-      },
-      {
-        "tag": "certainty",
-        "weight": 1
-      },
-      {
-        "tag": "knowing",
-        "weight": 1
-      },
-      {
-        "tag": "knowledge",
-        "weight": 1
-      },
-      {
-        "tag": "understanding",
-        "weight": 1
-      },
-      {
-        "tag": "the present",
-        "weight": 1
-      },
-      {
-        "tag": "chaos",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0687",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
-    "quote": "Time has sharp teeth that destroy everything.",
-    "author": "Simonides of Ceos",
-    "publication": "Antifragile: Things That Gain from Disorder",
-    "year": "2012",
-    "isbn": null,
-    "book_author": "Nassim Nicholas Taleb",
-    "cover_url": null,
-    "weighted_tags": [
-      {
-        "tag": "time",
-        "weight": 1
-      },
-      {
-        "tag": "decay",
-        "weight": 1
-      },
-      {
-        "tag": "destruction",
-        "weight": 1
-      },
-      {
-        "tag": "change",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0688",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
     "quote": "Technology is only useful against a background of our needs and capacities.",
     "author": "Alva Noë",
     "publication": "Strange Tools",
@@ -46030,6 +45790,103 @@
     ],
     "id": "quote_0716",
     "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To an American the whole purpose of living... is to cram as much sensual pleasure as possible into one’s mouth more or less continuously.",
+    "author": "Bill Bryson",
+    "publication": "Notes from a Small Island",
+    "year": "1995",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/notes-from-a-small-island.jpg",
+    "weighted_tags": [
+      {
+        "tag": "america",
+        "weight": 1
+      },
+      {
+        "tag": "gluttony",
+        "weight": 1
+      },
+      {
+        "tag": "excess",
+        "weight": 1
+      },
+      {
+        "tag": "food",
+        "weight": 1
+      },
+      {
+        "tag": "the senses",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0717",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "No matter; I have bared my brow / Fair in Death’s face—before—and now.",
+    "author": "Lord Byron",
+    "publication": "The Shape of a Pocket",
+    "year": "2001",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-shape-of-a-pocket.jpg",
+    "weighted_tags": [
+      {
+        "tag": "fear",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "the present",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0718",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Everybody knows that pestilences have a way of recurring in the world; yet somehow we find it hard to believe in ones that crash down on our heads from a blue sky.",
+    "author": "Albert Camus",
+    "publication": "Apollo's Arrow",
+    "year": "2021",
+    "isbn": null,
+    "book_author": "Nicholas A. Christakis",
+    "cover_url": "covers/apollos-arrow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "belief",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0719",
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   }
