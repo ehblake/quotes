@@ -14135,7 +14135,7 @@
     "year": "2003",
     "publication": "1984",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781408292464",
@@ -14170,42 +14170,11 @@
         "relevance": 0.9778
       },
       {
-        "tag": "humanity",
-        "weight": 0.5556,
-        "corpus_score": 1.0,
-        "relevance": 0.5556
-      },
-      {
-        "tag": "society",
-        "weight": 0.5301,
-        "corpus_score": 0.9479,
-        "relevance": 0.5444
-      },
-      {
-        "tag": "darkness",
-        "weight": 0.3966,
-        "corpus_score": 0.6021,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "dark",
-        "weight": 0.3441,
-        "corpus_score": 0.4341,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "sadness",
-        "weight": 0.3091,
-        "corpus_score": 0.3359,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "george orwell",
-        "weight": 0.1389,
-        "corpus_score": 0.1679,
-        "relevance": 0.3389
+        "tag": "existence",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0199",
@@ -45994,6 +45963,72 @@
       }
     ],
     "id": "quote_0714",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One of the symptoms of approaching a nervous breakdown is the belief that one’s work is terribly important, and that to take a holiday would bring all kinds of disaster.",
+    "author": "Bertrand Russell",
+    "publication": "The Conquest of Happiness",
+    "year": "1930",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-conquest-of-happiness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "disaster",
+        "weight": 1
+      },
+      {
+        "tag": "insanity",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0715",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There is an imperialism of culture which is harder to overcome than the imperialism of power.",
+    "author": "Bertrand Russell",
+    "publication": "The History of Western Philosophy",
+    "year": "1945",
+    "isbn": "004109008X",
+    "book_author": null,
+    "cover_url": "covers/the-history-of-western-philosophy.png",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "challenges",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0716",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
