@@ -736,6 +736,14 @@
         "weight": 0.1343,
         "corpus_score": 0.1679,
         "relevance": 0.3278
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
       }
     ],
     "isbn": null,
@@ -1236,18 +1244,6 @@
         "relevance": 0.9333
       },
       {
-        "tag": "the doors of perception",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "doors of perception",
-        "weight": 0.2866,
-        "corpus_score": 0.2662,
-        "relevance": 0.5556
-      },
-      {
         "tag": "trouble",
         "weight": 0.214,
         "corpus_score": 0.1679,
@@ -1309,18 +1305,6 @@
         "weight": 0.374,
         "corpus_score": 0.1679,
         "relevance": 0.9125
-      },
-      {
-        "tag": "the doors of perception",
-        "weight": 0.2902,
-        "corpus_score": 0.2662,
-        "relevance": 0.5625
-      },
-      {
-        "tag": "doors of perception",
-        "weight": 0.2838,
-        "corpus_score": 0.2662,
-        "relevance": 0.55
       },
       {
         "tag": "aldous huxley",
@@ -3457,7 +3441,7 @@
         "relevance": 0.5889
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.4397,
         "corpus_score": 0.6021,
         "relevance": 0.5667
@@ -4000,16 +3984,14 @@
         "relevance": 0.58
       },
       {
-        "tag": "the history of western philosophy",
-        "weight": 0.2941,
-        "corpus_score": 0.2662,
-        "relevance": 0.57
-      },
-      {
         "tag": "passion",
         "weight": 0.2631,
         "corpus_score": 0.2662,
         "relevance": 0.51
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
       }
     ]
   },
@@ -4121,12 +4103,6 @@
       "challenge"
     ],
     "weighted_tags": [
-      {
-        "tag": "difficult",
-        "weight": 0.6245,
-        "corpus_score": 0.39,
-        "relevance": 1.0
-      },
       {
         "tag": "design",
         "weight": 0.4942,
@@ -4649,12 +4625,6 @@
         "weight": 0.339,
         "corpus_score": 0.39,
         "relevance": 0.5429
-      },
-      {
-        "tag": "difficult",
-        "weight": 0.3301,
-        "corpus_score": 0.39,
-        "relevance": 0.5286
       }
     ]
   },
@@ -5049,12 +5019,6 @@
         "weight": 0.3648,
         "corpus_score": 0.5324,
         "relevance": 0.5
-      },
-      {
-        "tag": "insanity",
-        "weight": 0.3622,
-        "corpus_score": 0.39,
-        "relevance": 0.58
       }
     ]
   },
@@ -5662,7 +5626,7 @@
         "relevance": 0.55
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.419,
         "corpus_score": 0.6021,
         "relevance": 0.54
@@ -7016,12 +6980,6 @@
         "relevance": 0.53
       },
       {
-        "tag": "individual",
-        "weight": 0.3794,
-        "corpus_score": 0.5324,
-        "relevance": 0.52
-      },
-      {
         "tag": "uniqueness",
         "weight": 0.3122,
         "corpus_score": 0.39,
@@ -7079,12 +7037,6 @@
         "weight": 0.481,
         "corpus_score": 0.7377,
         "relevance": 0.56
-      },
-      {
-        "tag": "individual",
-        "weight": 0.4232,
-        "corpus_score": 0.5324,
-        "relevance": 0.58
       },
       {
         "tag": "the self",
@@ -7161,12 +7113,6 @@
         "relevance": 0.95
       },
       {
-        "tag": "labour",
-        "weight": 0.3891,
-        "corpus_score": 0.4715,
-        "relevance": 0.5667
-      },
-      {
         "tag": "capitalism",
         "weight": 0.3875,
         "corpus_score": 0.581,
@@ -7239,7 +7185,7 @@
         "relevance": 0.9455
       },
       {
-        "tag": "collection",
+        "tag": "collecting",
         "weight": 0.617,
         "corpus_score": 0.4341,
         "relevance": 0.9364
@@ -7255,12 +7201,6 @@
         "weight": 0.4784,
         "corpus_score": 0.2662,
         "relevance": 0.9273
-      },
-      {
-        "tag": "labour",
-        "weight": 0.387,
-        "corpus_score": 0.4715,
-        "relevance": 0.5636
       },
       {
         "tag": "jobs",
@@ -7346,12 +7286,6 @@
         "relevance": 0.57
       },
       {
-        "tag": "labour",
-        "weight": 0.3845,
-        "corpus_score": 0.4715,
-        "relevance": 0.56
-      },
-      {
         "tag": "jobs",
         "weight": 0.3435,
         "corpus_score": 0.39,
@@ -7430,18 +7364,6 @@
         "weight": 0.3226,
         "corpus_score": 0.39,
         "relevance": 0.5167
-      },
-      {
-        "tag": "history of debt",
-        "weight": 0.3053,
-        "corpus_score": 0.2662,
-        "relevance": 0.5917
-      },
-      {
-        "tag": "the history of debt",
-        "weight": 0.301,
-        "corpus_score": 0.2662,
-        "relevance": 0.5833
       },
       {
         "tag": "david graeber",
@@ -7535,18 +7457,6 @@
         "relevance": 0.5417
       },
       {
-        "tag": "history of debt",
-        "weight": 0.3053,
-        "corpus_score": 0.2662,
-        "relevance": 0.5917
-      },
-      {
-        "tag": "the history of debt",
-        "weight": 0.301,
-        "corpus_score": 0.2662,
-        "relevance": 0.5833
-      },
-      {
         "tag": "models",
         "weight": 0.2623,
         "corpus_score": 0.2662,
@@ -7616,12 +7526,6 @@
         "weight": 0.4423,
         "corpus_score": 0.6021,
         "relevance": 0.57
-      },
-      {
-        "tag": "labour",
-        "weight": 0.3845,
-        "corpus_score": 0.4715,
-        "relevance": 0.56
       },
       {
         "tag": "clocks",
@@ -8706,12 +8610,6 @@
         "weight": 0.3629,
         "corpus_score": 0.4715,
         "relevance": 0.5286
-      },
-      {
-        "tag": "collection",
-        "weight": 0.3577,
-        "corpus_score": 0.4341,
-        "relevance": 0.5429
       },
       {
         "tag": "collecting",
@@ -9815,6 +9713,10 @@
         "weight": 0.138,
         "corpus_score": 0.1679,
         "relevance": 0.3367
+      },
+      {
+        "tag": "uncertainty",
+        "weight": 1
       }
     ]
   },
@@ -9856,12 +9758,6 @@
         "weight": 0.5331,
         "corpus_score": 0.7894,
         "relevance": 0.6
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4854,
-        "corpus_score": 0.7003,
-        "relevance": 0.58
       },
       {
         "tag": "individuality",
@@ -10428,12 +10324,6 @@
         "relevance": 0.9778
       },
       {
-        "tag": "on disobedience",
-        "weight": 0.4128,
-        "corpus_score": 0.2662,
-        "relevance": 0.8
-      },
-      {
         "tag": "rules",
         "weight": 0.4094,
         "corpus_score": 0.5324,
@@ -10559,7 +10449,7 @@
         "relevance": 0.9
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.7061,
         "corpus_score": 0.6021,
         "relevance": 0.91
@@ -10581,12 +10471,6 @@
         "weight": 0.3867,
         "corpus_score": 0.5324,
         "relevance": 0.53
-      },
-      {
-        "tag": "on disobedience",
-        "weight": 0.3096,
-        "corpus_score": 0.2662,
-        "relevance": 0.6
       },
       {
         "tag": "disobedience",
@@ -11047,7 +10931,7 @@
         "relevance": 0.5071
       },
       {
-        "tag": "individual",
+        "tag": "individuality",
         "weight": 0.4117,
         "corpus_score": 0.5324,
         "relevance": 0.5643
@@ -11769,12 +11653,6 @@
         "weight": 0.3825,
         "corpus_score": 0.1679,
         "relevance": 0.9333
-      },
-      {
-        "tag": "labour",
-        "weight": 0.3777,
-        "corpus_score": 0.4715,
-        "relevance": 0.55
       },
       {
         "tag": "ethics",
@@ -12846,7 +12724,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "difficult",
+        "tag": "difficulty",
         "weight": 0.5683,
         "corpus_score": 0.39,
         "relevance": 0.91
@@ -13578,7 +13456,7 @@
         "relevance": 0.6
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.4074,
         "corpus_score": 0.6021,
         "relevance": 0.525
@@ -13632,7 +13510,7 @@
         "relevance": 0.58
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.419,
         "corpus_score": 0.6021,
         "relevance": 0.54
@@ -13929,12 +13807,6 @@
         "weight": 0.3683,
         "corpus_score": 0.4715,
         "relevance": 0.5364
-      },
-      {
-        "tag": "insanity",
-        "weight": 0.3179,
-        "corpus_score": 0.39,
-        "relevance": 0.5091
       }
     ]
   },
@@ -14401,12 +14273,6 @@
         "weight": 0.4717,
         "corpus_score": 0.2662,
         "relevance": 0.9143
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
       },
       {
         "tag": "content",
@@ -15482,7 +15348,7 @@
         "relevance": 0.9545
       },
       {
-        "tag": "poems",
+        "tag": "poetry",
         "weight": 0.4184,
         "corpus_score": 0.7003,
         "relevance": 0.5
@@ -15688,7 +15554,7 @@
         "relevance": 0.9167
       },
       {
-        "tag": "ignorant",
+        "tag": "ignorance",
         "weight": 0.4944,
         "corpus_score": 0.2662,
         "relevance": 0.9583
@@ -15704,12 +15570,6 @@
         "weight": 0.3695,
         "corpus_score": 0.39,
         "relevance": 0.5917
-      },
-      {
-        "tag": "history of western philosophy",
-        "weight": 0.301,
-        "corpus_score": 0.2662,
-        "relevance": 0.5833
       },
       {
         "tag": "dumb",
@@ -16069,10 +15929,14 @@
         "relevance": 0.525
       },
       {
-        "tag": "joy",
+        "tag": "happiness",
         "weight": 0.2644,
         "corpus_score": 0.2662,
         "relevance": 0.5125
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
       }
     ]
   },
@@ -16367,12 +16231,6 @@
         "weight": 0.401,
         "corpus_score": 0.1679,
         "relevance": 0.9786
-      },
-      {
-        "tag": "labour",
-        "weight": 0.358,
-        "corpus_score": 0.4715,
-        "relevance": 0.5214
       }
     ]
   },
@@ -16832,7 +16690,7 @@
         "relevance": 0.9333
       },
       {
-        "tag": "children",
+        "tag": "childhood",
         "weight": 0.5731,
         "corpus_score": 0.3359,
         "relevance": 0.9889
@@ -16872,6 +16730,10 @@
         "weight": 0.214,
         "corpus_score": 0.1679,
         "relevance": 0.5222
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
       }
     ]
   },
@@ -17013,7 +16875,7 @@
         "relevance": 0.9857
       },
       {
-        "tag": "joy",
+        "tag": "happiness",
         "weight": 0.2801,
         "corpus_score": 0.2662,
         "relevance": 0.5429
@@ -18691,12 +18553,6 @@
         "relevance": 0.5364
       },
       {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
         "tag": "rioting",
         "weight": 0.38,
         "corpus_score": 0.1679,
@@ -18963,7 +18819,7 @@
         "relevance": 0.9875
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.3977,
         "corpus_score": 0.6021,
         "relevance": 0.5125
@@ -19614,12 +19470,6 @@
         "relevance": 0.55
       },
       {
-        "tag": "individual",
-        "weight": 0.4256,
-        "corpus_score": 0.5324,
-        "relevance": 0.5833
-      },
-      {
         "tag": "individuality",
         "weight": 0.4235,
         "corpus_score": 0.6718,
@@ -19699,7 +19549,7 @@
         "relevance": 0.5429
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.4101,
         "corpus_score": 0.6021,
         "relevance": 0.5286
@@ -19959,6 +19809,10 @@
         "weight": 0.1308,
         "corpus_score": 0.1679,
         "relevance": 0.3192
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
       }
     ]
   },
@@ -21283,6 +21137,10 @@
         "weight": 0.1332,
         "corpus_score": 0.1679,
         "relevance": 0.325
+      },
+      {
+        "tag": "uncertainty",
+        "weight": 1
       }
     ]
   },
@@ -21946,16 +21804,14 @@
         "relevance": 0.53
       },
       {
-        "tag": "on liberty",
-        "weight": 0.2131,
-        "corpus_score": 0.1679,
-        "relevance": 0.52
-      },
-      {
         "tag": "john stuart mill",
         "weight": 0.1393,
         "corpus_score": 0.1679,
         "relevance": 0.34
+      },
+      {
+        "tag": "uncertainty",
+        "weight": 1
       }
     ]
   },
@@ -22668,7 +22524,7 @@
         "relevance": 0.9556
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.388,
         "corpus_score": 0.6021,
         "relevance": 0.5
@@ -23309,6 +23165,10 @@
       },
       {
         "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
         "weight": 1
       }
     ],
@@ -25373,7 +25233,7 @@
         "relevance": 0.5071
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.3991,
         "corpus_score": 0.6021,
         "relevance": 0.5143
@@ -26290,6 +26150,10 @@
         "weight": 0.1932,
         "corpus_score": 0.3359,
         "relevance": 0.3333
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
       }
     ]
   },
@@ -27071,7 +26935,7 @@
         "relevance": 0.9467
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.388,
         "corpus_score": 0.6021,
         "relevance": 0.5
@@ -27220,7 +27084,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "ignorant",
+        "tag": "ignorance",
         "weight": 0.4972,
         "corpus_score": 0.2662,
         "relevance": 0.9636
@@ -27272,6 +27136,10 @@
         "weight": 0.2347,
         "corpus_score": 0.1679,
         "relevance": 0.5727
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
       }
     ]
   },
@@ -27365,6 +27233,10 @@
         "weight": 0.1245,
         "corpus_score": 0.1679,
         "relevance": 0.3038
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
       }
     ]
   },
@@ -27471,6 +27343,10 @@
         "weight": 0.1161,
         "corpus_score": 0.1679,
         "relevance": 0.2833
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
       }
     ],
     "cover_url": "covers/mr-wilsons-cabinet-of-wonders.jpg"
@@ -28731,7 +28607,7 @@
         "relevance": 0.55
       },
       {
-        "tag": "individual",
+        "tag": "individuality",
         "weight": 0.3721,
         "corpus_score": 0.5324,
         "relevance": 0.51
@@ -29595,12 +29471,6 @@
       "message"
     ],
     "weighted_tags": [
-      {
-        "tag": "children",
-        "weight": 0.5506,
-        "corpus_score": 0.3359,
-        "relevance": 0.95
-      },
       {
         "tag": "the future",
         "weight": 0.4184,
@@ -31094,6 +30964,10 @@
         "weight": 0.2095,
         "corpus_score": 0.1679,
         "relevance": 0.5111
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
       }
     ]
   },
@@ -31224,12 +31098,6 @@
         "weight": 0.296,
         "corpus_score": 0.1679,
         "relevance": 0.7222
-      },
-      {
-        "tag": "the history of western philosophy",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
       },
       {
         "tag": "plato",
@@ -31536,12 +31404,6 @@
         "relevance": 0.5571
       },
       {
-        "tag": "difficult",
-        "weight": 0.3212,
-        "corpus_score": 0.39,
-        "relevance": 0.5143
-      },
-      {
         "tag": "torture",
         "weight": 0.3146,
         "corpus_score": 0.3359,
@@ -31589,7 +31451,7 @@
         "relevance": 0.775
       },
       {
-        "tag": "individual",
+        "tag": "individuality",
         "weight": 0.6932,
         "corpus_score": 0.5324,
         "relevance": 0.95
@@ -31954,12 +31816,6 @@
         "weight": 0.3893,
         "corpus_score": 0.1679,
         "relevance": 0.95
-      },
-      {
-        "tag": "individual",
-        "weight": 0.377,
-        "corpus_score": 0.5324,
-        "relevance": 0.5167
       }
     ]
   },
@@ -32029,12 +31885,6 @@
         "weight": 0.3357,
         "corpus_score": 0.39,
         "relevance": 0.5375
-      },
-      {
-        "tag": "insanity",
-        "weight": 0.3278,
-        "corpus_score": 0.39,
-        "relevance": 0.525
       },
       {
         "tag": "tame",
@@ -32202,12 +32052,6 @@
         "relevance": 0.9091
       },
       {
-        "tag": "the revolution of everyday life",
-        "weight": 0.2955,
-        "corpus_score": 0.2662,
-        "relevance": 0.5727
-      },
-      {
         "tag": "raoul vaneigem",
         "weight": 0.2028,
         "corpus_score": 0.3359,
@@ -32288,12 +32132,6 @@
         "weight": 0.3697,
         "corpus_score": 0.5324,
         "relevance": 0.5067
-      },
-      {
-        "tag": "the revolution of everyday life",
-        "weight": 0.2992,
-        "corpus_score": 0.2662,
-        "relevance": 0.58
       },
       {
         "tag": "fascism",
@@ -33555,6 +33393,10 @@
         "weight": 0.1332,
         "corpus_score": 0.1679,
         "relevance": 0.325
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
       }
     ]
   },
@@ -33907,7 +33749,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "children",
+        "tag": "childhood",
         "weight": 0.3381,
         "corpus_score": 0.3359,
         "relevance": 0.5833
@@ -34133,7 +33975,7 @@
         "relevance": 0.5917
       },
       {
-        "tag": "collection",
+        "tag": "collecting",
         "weight": 0.3459,
         "corpus_score": 0.4341,
         "relevance": 0.525
@@ -35220,7 +35062,7 @@
         "relevance": 0.95
       },
       {
-        "tag": "insanity",
+        "tag": "madness",
         "weight": 0.5995,
         "corpus_score": 0.39,
         "relevance": 0.96
@@ -35689,12 +35531,6 @@
         "relevance": 0.5667
       },
       {
-        "tag": "collection",
-        "weight": 0.3514,
-        "corpus_score": 0.4341,
-        "relevance": 0.5333
-      },
-      {
         "tag": "collecting",
         "weight": 0.2994,
         "corpus_score": 0.3359,
@@ -35935,7 +35771,7 @@
         "relevance": 0.5857
       },
       {
-        "tag": "collection",
+        "tag": "collecting",
         "weight": 0.3577,
         "corpus_score": 0.4341,
         "relevance": 0.5429
@@ -36186,12 +36022,6 @@
         "weight": 0.3805,
         "corpus_score": 0.1679,
         "relevance": 0.9286
-      },
-      {
-        "tag": "on tyranny",
-        "weight": 0.24,
-        "corpus_score": 0.1679,
-        "relevance": 0.5857
       },
       {
         "tag": "timothy snyder",
@@ -36872,7 +36702,7 @@
         "relevance": 0.9615
       },
       {
-        "tag": "individual",
+        "tag": "individuality",
         "weight": 0.6904,
         "corpus_score": 0.5324,
         "relevance": 0.9462
@@ -37905,12 +37735,6 @@
         "relevance": 0.5923
       },
       {
-        "tag": "revolution of everyday life",
-        "weight": 0.3279,
-        "corpus_score": 0.1679,
-        "relevance": 0.8
-      },
-      {
         "tag": "marriage",
         "weight": 0.2659,
         "corpus_score": 0.2662,
@@ -38066,12 +37890,6 @@
         "relevance": 0.5417
       },
       {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
-      },
-      {
         "tag": "lake",
         "weight": 0.3893,
         "corpus_score": 0.1679,
@@ -38150,12 +37968,6 @@
         "weight": 0.424,
         "corpus_score": 0.7003,
         "relevance": 0.5067
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
       },
       {
         "tag": "omega",
@@ -39129,12 +38941,6 @@
         "weight": 0.4591,
         "corpus_score": 0.7894,
         "relevance": 0.5167
-      },
-      {
-        "tag": "poems",
-        "weight": 0.4184,
-        "corpus_score": 0.7003,
-        "relevance": 0.5
       },
       {
         "tag": "poet",
@@ -40376,7 +40182,7 @@
         "relevance": 0.7
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 0.388,
         "corpus_score": 0.6021,
         "relevance": 0.5
@@ -40766,6 +40572,10 @@
       },
       {
         "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "doubt",
         "weight": 1
       }
     ],
@@ -41183,6 +40993,10 @@
       {
         "tag": "time",
         "weight": 1
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
       }
     ],
     "id": "quote_0577",
@@ -41423,7 +41237,7 @@
         "weight": 1
       },
       {
-        "tag": "labour",
+        "tag": "work",
         "weight": 1
       }
     ],
@@ -41478,10 +41292,6 @@
     "weighted_tags": [
       {
         "tag": "work",
-        "weight": 1
-      },
-      {
-        "tag": "labour",
         "weight": 1
       },
       {
@@ -41633,7 +41443,7 @@
         "weight": 1
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 1
       },
       {
@@ -42262,6 +42072,10 @@
       {
         "tag": "subtlety",
         "weight": 1
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
       }
     ],
     "id": "quote_0607",
@@ -42611,10 +42425,6 @@
     "weighted_tags": [
       {
         "tag": "work",
-        "weight": 1
-      },
-      {
-        "tag": "labour",
         "weight": 1
       },
       {
@@ -43407,10 +43217,6 @@
         "weight": 1
       },
       {
-        "tag": "labour",
-        "weight": 1
-      },
-      {
         "tag": "banality",
         "weight": 1
       },
@@ -43868,7 +43674,7 @@
         "weight": 1
       },
       {
-        "tag": "mankind",
+        "tag": "humankind",
         "weight": 1
       },
       {
@@ -44094,7 +43900,7 @@
     "cover_url": "covers/the-whale.jpg",
     "weighted_tags": [
       {
-        "tag": "children",
+        "tag": "childhood",
         "weight": 1
       },
       {
@@ -44413,7 +44219,7 @@
         "weight": 1
       },
       {
-        "tag": "joy",
+        "tag": "happiness",
         "weight": 1
       },
       {
@@ -45322,7 +45128,7 @@
     "cover_url": "covers/ten-ways-to-destroy-the-imagination-of-your-child.jpg",
     "weighted_tags": [
       {
-        "tag": "children",
+        "tag": "childhood",
         "weight": 1
       },
       {
@@ -45627,6 +45433,10 @@
       {
         "tag": "education",
         "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
       }
     ],
     "id": "quote_0711",
@@ -45741,15 +45551,11 @@
         "weight": 1
       },
       {
-        "tag": "labour",
-        "weight": 1
-      },
-      {
         "tag": "disaster",
         "weight": 1
       },
       {
-        "tag": "insanity",
+        "tag": "madness",
         "weight": 1
       },
       {
@@ -45887,6 +45693,134 @@
     ],
     "id": "quote_0719",
     "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "This is cumulative culture. Human beings endlessly contribute to the accumulated wealth of knowledge that belongs to humanity, and each generation is generally born into greater such wealth...",
+    "author": "Nicholas A. Christakis",
+    "publication": "Apollo's Arrow",
+    "year": "2021",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/apollos-arrow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0720",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In looking at things, we tend not to see them as they are but as we are.",
+    "author": "David Pilbeam",
+    "publication": "Making Museums Matter",
+    "year": "2002",
+    "isbn": null,
+    "book_author": "Stephen Weil",
+    "cover_url": "covers/making-museums-matter.jpg",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "looking",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0721",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s not that we need new ideas, but we need to stop having old ideas.",
+    "author": "Edwin Land",
+    "publication": "Insisting on the Impossible",
+    "year": "1998",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/insisting-on-the-impossible.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "the new",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0722",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "if every friend became his foe / he’d laugh and build a world with snow.",
+    "author": "E. E. Cummings",
+    "publication": "Complete Poems: 1904–1962",
+    "year": "2016",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/complete-poems-19041962.jpg",
+    "weighted_tags": [
+      {
+        "tag": "friends",
+        "weight": 1
+      },
+      {
+        "tag": "laughter",
+        "weight": 1
+      },
+      {
+        "tag": "snow",
+        "weight": 1
+      },
+      {
+        "tag": "enemies",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0723",
+    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   }
