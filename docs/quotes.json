@@ -45714,5 +45714,288 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "In the technical realm we repeatedly enter into a series of social contracts, the terms of which are only revealed after signing.",
+    "author": "Langdon Winner",
+    "publication": "Atlas of AI",
+    "year": "2021",
+    "isbn": null,
+    "book_author": "Kate Crawford",
+    "cover_url": "covers/atlas-of-ai.png",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "ai",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0706",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Power commands nothing without a demand. It never did and it never will.",
+    "author": "Frederick Douglass",
+    "publication": "Atlas of AI",
+    "year": "2021",
+    "isbn": null,
+    "book_author": "Kate Crawford",
+    "cover_url": "covers/atlas-of-ai.png",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "demands",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0707",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The viability of technology, like democracy, depends in the end on the practice of justice and on the enforcement of limits to power.",
+    "author": "Ursula Franklin",
+    "publication": "Atlas of AI",
+    "year": "2021",
+    "isbn": null,
+    "book_author": "Kate Crawford",
+    "cover_url": "covers/atlas-of-ai.png",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "justice",
+        "weight": 1
+      },
+      {
+        "tag": "limits",
+        "weight": 1
+      },
+      {
+        "tag": "limitations",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0708",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To see things as they really are, you must imagine them for what they might be.",
+    "author": "Derrick Bell",
+    "publication": "Atlas of AI",
+    "year": "2021",
+    "isbn": null,
+    "book_author": "Kate Crawford",
+    "cover_url": "covers/atlas-of-ai.png",
+    "weighted_tags": [
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0709",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "For the master’s tools will never dismantle the master’s house.",
+    "author": "Audre Lorde",
+    "publication": "Sister Outsider",
+    "year": "1984",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sister-outsider.png",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0710",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A free curiosity has greater power to learn these things than a frightened obligation.",
+    "author": "St. Augustine",
+    "publication": "Confessions",
+    "year": "1963",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/confessions.jpg",
+    "weighted_tags": [
+      {
+        "tag": "curiosity",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0711",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the tendency of every government towards tyranny cannot be kept in check unless governments have some fear of rebellion.",
+    "author": "Bertrand Russell",
+    "publication": "The History of Western Philosophy",
+    "year": "1945",
+    "isbn": "004109008X",
+    "book_author": null,
+    "cover_url": "covers/the-history-of-western-philosophy.png",
+    "weighted_tags": [
+      {
+        "tag": "government",
+        "weight": 1
+      },
+      {
+        "tag": "tyranny",
+        "weight": 1
+      },
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "rebellion",
+        "weight": 1
+      },
+      {
+        "tag": "rebels",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0712",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...we perceive qualities, not things... qualities are relative to the percipient.",
+    "author": "Bertrand Russell",
+    "publication": "The History of Western Philosophy",
+    "year": "1945",
+    "isbn": "004109008X",
+    "book_author": null,
+    "cover_url": "covers/the-history-of-western-philosophy.png",
+    "weighted_tags": [
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0713",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To ignore our opportunities for knowledge, imperfect as they are, is like going to the theatre and not listening to the play.",
+    "author": "Bertrand Russell",
+    "publication": "The Conquest of Happiness",
+    "year": "1930",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-conquest-of-happiness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0714",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
