@@ -120,6 +120,7 @@
       filter: blur(8px);
       color: #444;
       z-index: 1;
+      cursor: pointer;
     }
 
     .quote-panel.prev-panel .quote-panel-author {
@@ -137,6 +138,7 @@
       filter: blur(8px);
       color: #555;
       z-index: 1;
+      cursor: pointer;
     }
 
     .quote-panel.next-panel .quote-panel-author {
@@ -2802,6 +2804,31 @@
               showTagIndex();
             }
           }
+        }
+      });
+
+      // Click/tap navigation on left/right edges
+      const mainRow = document.querySelector('.main-row');
+      mainRow.addEventListener('click', (e) => {
+        if (document.getElementById('view-mode').style.display === 'none') return;
+        if (transitionActive) return;
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const width = rect.width;
+        if (x < width * 0.3) {
+          goToPrevInHistory();
+        } else if (x > width * 0.7) {
+          showNextViaTag();
+        }
+      });
+      mainRow.addEventListener('mousemove', (e) => {
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const width = rect.width;
+        if (x < width * 0.3 || x > width * 0.7) {
+          e.currentTarget.style.cursor = 'pointer';
+        } else {
+          e.currentTarget.style.cursor = '';
         }
       });
 
