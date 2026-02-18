@@ -45377,5 +45377,840 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "We are all born originals – why is it so many of us die copies?",
+    "author": "Edward Young",
+    "publication": "The Light That Failed",
+    "year": "2019",
+    "isbn": null,
+    "book_author": "Ivan Krastev & Stephen Holmes",
+    "cover_url": "covers/the-light-that-failed.jpg",
+    "weighted_tags": [
+      {
+        "tag": "originality",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0735",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I’ve found that a book I once held in my hands becomes another when assigned its position in my library. This is anarchy under the appearance of order.",
+    "author": "Alberto Manguel",
+    "publication": "Packing My Library",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/packing-my-library.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      },
+      {
+        "tag": "anarchy",
+        "weight": 1
+      },
+      {
+        "tag": "libraries",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0736",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I suspect that the human species... teeters at the verge of extinction, yet that the Library—enlightened, solitary, infinite, perfectly unmoving, armed with precious volumes, pointless, incorruptible, and secret—will endure.",
+    "author": "Jorge Luis Borges",
+    "publication": "Fictions",
+    "year": "1944",
+    "isbn": "9780713992694",
+    "book_author": null,
+    "cover_url": "covers/fictions.jpg",
+    "weighted_tags": [
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0737",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A visit to Mona is a ritual immersion that absolves you of the need to lie to yourself.",
+    "author": "David Walsh",
+    "publication": "Stories of O",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/stories-of-o.jpg",
+    "weighted_tags": [
+      {
+        "tag": "lies",
+        "weight": 1
+      },
+      {
+        "tag": "lying",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "rituals",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0738",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Books have a particular meaning to me; a book is a unit of social development, of quality of culture, just as a metre is a unit of distance.",
+    "author": "David Walsh",
+    "publication": "Stories of O",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/stories-of-o.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0739",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Life is a daring adventure or nothing.",
+    "author": "Helen Keller",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "David Walsh",
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "adventure",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0740",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I want you to be lost, to trust randomness and have faith in technology.",
+    "author": "David Walsh",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "chaos",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "faith",
+        "weight": 1
+      },
+      {
+        "tag": "belief",
+        "weight": 1
+      },
+      {
+        "tag": "trust",
+        "weight": 1
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0741",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Without books history is silent, literature dumb, science crippled, thought and speculation at a standstill.",
+    "author": "Barbara Tuchman",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "David Walsh",
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "science",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0742",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To enhance a society one needs to form a view of that society from multiple perspectives... A library card is cultural Lego.",
+    "author": "David Walsh",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0743",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Every library is autobiographical.",
+    "author": "Alberto Manguel",
+    "publication": "The Library at Night",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-library-at-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0744",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...leafing through a book or roaming through shelves is an intimate part of the craft of reading and cannot be entirely replaced  by scrolling down a screen...",
+    "author": "Alberto Manguel",
+    "publication": "The Library at Night",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-library-at-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0745",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What makes a library a reflection of its owner is not merely the choice of the titles themselves, but the mesh of associations implied in the choice.",
+    "author": "Alberto Manguel",
+    "publication": "The Library at Night",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-library-at-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0746",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Warburg’s library isn’t simply a collection of books but a catalogue of problems.",
+    "author": "Ernst Cassirer",
+    "publication": "The Library at Night",
+    "year": "2005",
+    "isbn": null,
+    "book_author": "Alberto Manguel",
+    "cover_url": "covers/the-library-at-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "problems",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "collecting",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0747",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Memory contains precisely details, not the whole picture; highlights, if you will, not the entire show.",
+    "author": "Alberto Manguel",
+    "publication": "Curiosity",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/curiosity.jpg",
+    "weighted_tags": [
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0748",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...memory resembles a library in alphabetical disorder, and with no collected works by anyone.",
+    "author": "Alberto Manguel",
+    "publication": "Curiosity",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/curiosity.jpg",
+    "weighted_tags": [
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0749",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To write history is to cite it...",
+    "author": "Walter Benjamin",
+    "publication": "Curiosity",
+    "year": "2015",
+    "isbn": null,
+    "book_author": "Alberto Manguel",
+    "cover_url": "covers/curiosity.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "libraries",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0750",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To quote is to make use of the Library of Babel; to quote is to reflect on what has been said before, and unless we do that, we speak in a vacuum...",
+    "author": "Alberto Manguel",
+    "publication": "Curiosity",
+    "year": "2015",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/curiosity.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "speaking",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0751",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Books are lighthouses erected in the great sea of time.",
+    "author": "Edwin Percy Whipple",
+    "publication": "The Madman's Library",
+    "year": "2020",
+    "isbn": null,
+    "book_author": "Edward Brooke-Hitching",
+    "cover_url": "covers/the-madmans-library.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0752",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "While I was doing it I decided why I was doing it.",
+    "author": "David Walsh",
+    "publication": "Monanisms",
+    "year": "2010",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/monanisms.jpg",
+    "weighted_tags": [
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "direction",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0753",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The pedagogy of a docile museum is conformist; the museum of enchantments seeks to seduce and bewitch.",
+    "author": "Jean-Hubert Martin",
+    "publication": "Theatre of the World",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/theatre-of-the-world.jpg",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "conformity",
+        "weight": 1
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
+      },
+      {
+        "tag": "delight",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0754",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...knowing where everything is located is what distinguishes the true collector from the hoarder.",
+    "author": "Nicholas A. Basbanes",
+    "publication": "A Gentle Madness",
+    "year": "1995",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-gentle-madness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "collecting",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "madness",
+        "weight": 1
+      },
+      {
+        "tag": "libraries",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0755",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Our written records carry us only a millionth of the way back to the origin of life... our time-depth is pathetically, disturbingly shallow.",
+    "author": "Carl Sagan",
+    "publication": "A Gentle Madness",
+    "year": "1995",
+    "isbn": null,
+    "book_author": "Nicholas A. Basbanes",
+    "cover_url": "covers/a-gentle-madness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0756",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The phenomenon of collecting loses its meaning as it loses its personal owner.",
+    "author": "Walter Benjamin",
+    "publication": "The Making of Mona",
+    "year": "2014",
+    "isbn": "9780132008037",
+    "book_author": "Adrian Franklin",
+    "cover_url": "covers/the-making-of-mona.jpg",
+    "weighted_tags": [
+      {
+        "tag": "collecting",
+        "weight": 1
+      },
+      {
+        "tag": "ownership",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0757",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...juxtaposition resonates more than order. Order is an end in itself while resonance hints at or suggests something new.",
+    "author": "Adrian Franklin",
+    "publication": "The Making of Mona",
+    "year": "2014",
+    "isbn": "9780132008037",
+    "book_author": null,
+    "cover_url": "covers/the-making-of-mona.jpg",
+    "weighted_tags": [
+      {
+        "tag": "order",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "the new",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "collecting",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0758",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Generate surprise and discovery by arousing curiosity and rewarding exploration – not just about individual items but about larger questions.",
+    "author": "David Walsh",
+    "publication": "The Making of Mona",
+    "year": "2014",
+    "isbn": "9780132008037",
+    "book_author": "Adrian Franklin",
+    "cover_url": "covers/the-making-of-mona.jpg",
+    "weighted_tags": [
+      {
+        "tag": "curiosity",
+        "weight": 1
+      },
+      {
+        "tag": "rewards",
+        "weight": 1
+      },
+      {
+        "tag": "surprise",
+        "weight": 1
+      },
+      {
+        "tag": "delight",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "questions",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0759",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
