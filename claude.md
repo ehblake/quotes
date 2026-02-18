@@ -83,8 +83,8 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 ### Key Features
 - **Landing canvas**: Grid of book covers that users click to enter quote view
-- **Tag navigation**: Spacebar/right arrow advances through quotes with same tag, auto-drifts to related tags
-- **Drift tags**: Arrow up goes to previous tag (shown above), arrow down goes to related tag (shown below)
+- **Tag navigation**: Spacebar/right arrow advances through quotes with same tag, auto-drifts to related tags. Click/tap right 30% of quote area also advances, left 30% goes back.
+- **Drift tags**: Arrow up goes to previous tag (shown above), arrow down goes to related tag (shown below). Click/tap on drift tag labels also works.
 - **Edit modal**: Localhost-only editing (quote, author, book, tags, cover upload/remove/keep-web-cover, delete)
 - **Add quote**: "+" button to add new quotes with all fields (localhost only)
 - **Go-to input**: Jump to specific quote by number (localhost only)
@@ -127,7 +127,48 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Feb 11 2026) - New Quotes, Covers, Tag Cleanup & Pushes
+### Last Session (Feb 18 2026) - Click/Tap Navigation, Tag Fixes, New Quotes & Covers
+
+- **Added click/tap navigation to quote view**:
+  - Click/tap left 30% of quote area → previous quote (same as ArrowLeft)
+  - Click/tap right 30% of quote area → next quote (same as ArrowRight)
+  - Pointer cursor on hover over clickable zones
+  - Drift tags above/below already had onclick handlers, no changes needed
+  - Makes site fully navigable on mobile
+
+- **Fixed corrupted tag_connections.json**:
+  - All 215 tags had data replaced with `["related", "quote_count"]` instead of actual connection objects
+  - This caused no drift tags (below) to appear on any quotes
+  - Rebuilt with `build_tag_connections.py`
+
+- **Retagged 37 quotes** with fewer than 3 primary tags:
+  - Exported quotes with 0-1 primary tags to CSV for manual review
+  - Applied updated tags from reviewed spreadsheet
+  - Added books/writing tags to Melville quote_0378
+
+- **Added 7 new primary tags to allowlist**: acceptance, ambition, authority, desire, humility, modernity, weakness
+  - 2 active now (3+ quotes): acceptance (4), desire (5)
+  - Others ready for when more quotes get tagged
+
+- **Added 11 new quotes** (quote_0724–quote_0734):
+  - Kurt Vonnegut Jr., Ernest Becker, F. Scott Fitzgerald, Franz Kafka
+  - Gene Kranz, William Shakespeare, Kai Strittmatter, Haruki Murakami
+  - Jeff Tweedy, Herbert Read, Michel Houellebecq, Wallace Stevens
+
+- **Added 7 new cover images**:
+  - after-dark, apollo-13, h-p-lovecraft-against-the-world-against-life
+  - lyrics-vol-2, now, the-grass-roots-of-art, the-most-beautiful-woman-in-town
+
+- **Updated 2 covers**: marcovaldo, mother-night
+
+- **Added 4 missing covers to GitHub Pages**: apollos-arrow, complete-poems-19041962, making-museums-matter, notes-from-a-small-island
+
+- **Standardized author name**: Kurt Vonnegut → Kurt Vonnegut Jr. (22 instances)
+
+- **Primary tag count**: 216 (was 215)
+- **Total quotes**: ~681
+
+### Previous Session (Feb 11 2026) - New Quotes, Covers, Tag Cleanup & Pushes
 
 - **Added 40 new quotes** (quote_0656–quote_0699, minus quote_0688 Simonides which has no cover):
   - Bill Callahan: *I Drive a Valence*
