@@ -6577,7 +6577,7 @@
       {
         "tag": "humanity",
         "weight": 0.5308,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5308
       },
       {
@@ -6593,52 +6593,24 @@
         "relevance": 0.9538
       },
       {
-        "tag": "measure",
-        "weight": 0.3751,
-        "corpus_score": 0.1679,
-        "relevance": 0.9154
-      },
-      {
-        "tag": "battle",
-        "weight": 0.3592,
-        "corpus_score": 0.4715,
-        "relevance": 0.5231
-      },
-      {
         "tag": "chaos",
         "weight": 0.3411,
         "corpus_score": 0.39,
         "relevance": 0.5462
       },
       {
-        "tag": "the gun",
-        "weight": 0.2459,
-        "corpus_score": 0.1679,
-        "relevance": 0.6
-      },
-      {
-        "tag": "cj shivers",
-        "weight": 0.2427,
-        "corpus_score": 0.1679,
-        "relevance": 0.5923
-      },
-      {
-        "tag": "ak 47",
-        "weight": 0.2396,
-        "corpus_score": 0.1679,
-        "relevance": 0.5846
-      },
-      {
-        "tag": "rifle",
-        "weight": 0.2364,
-        "corpus_score": 0.1679,
-        "relevance": 0.5769
-      },
-      {
         "tag": "weapons",
         "weight": 0.2081,
         "corpus_score": 0.1679,
         "relevance": 0.5077
+      },
+      {
+        "tag": "violence",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
       }
     ]
   },
@@ -15582,7 +15554,7 @@
     "source_image": "henry-petroski-09.png",
     "filename_stem": "henry-petroski-09",
     "quote": "Man builds no structure which outlives a book.",
-    "author": "Henry Petroski (citing Eugene Fitch Ware)",
+    "author": "Eugene Fitch Ware",
     "year": "2001",
     "publication": "The Book on the Bookshelf",
     "notes": "",
@@ -44351,7 +44323,7 @@
     "notes": ""
   },
   {
-    "quote": "The imagination opens out not principally to what it knows and finds familiar, but to what it does not know, what it finds strange, half bidden, robed with inaccessible light.",
+    "quote": "The imagination opens out... to what it does not know, what it finds strange, half hidden, robed with inaccessible light.",
     "author": "Anthony Esolen",
     "publication": "Ten Ways to Destroy the Imagination of Your Child",
     "year": "2013",
@@ -44381,7 +44353,7 @@
       }
     ],
     "id": "quote_0703",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
