@@ -17546,112 +17546,20 @@
     ],
     "weighted_tags": [
       {
-        "tag": "cities",
-        "weight": 0.4598,
-        "corpus_score": 0.6394,
-        "relevance": 0.575
+        "tag": "the present",
+        "weight": 1
       },
       {
-        "tag": "the unknown",
-        "weight": 0.3122,
-        "corpus_score": 0.39,
-        "relevance": 0.5
+        "tag": "perspective",
+        "weight": 1
       },
       {
-        "tag": "wall",
-        "weight": 0.2838,
-        "corpus_score": 0.2662,
-        "relevance": 0.55
+        "tag": "acceptance",
+        "weight": 1
       },
       {
-        "tag": "walls",
-        "weight": 0.2812,
-        "corpus_score": 0.2662,
-        "relevance": 0.545
-      },
-      {
-        "tag": "space",
-        "weight": 0.2709,
-        "corpus_score": 0.2662,
-        "relevance": 0.525
-      },
-      {
-        "tag": "italo calvino",
-        "weight": 0.2481,
-        "corpus_score": 0.5324,
-        "relevance": 0.34
-      },
-      {
-        "tag": "marcovaldo",
-        "weight": 0.2397,
-        "corpus_score": 0.1679,
-        "relevance": 0.585
-      },
-      {
-        "tag": "negative city",
-        "weight": 0.2377,
-        "corpus_score": 0.1679,
-        "relevance": 0.58
-      },
-      {
-        "tag": "skyscraper",
-        "weight": 0.2336,
-        "corpus_score": 0.1679,
-        "relevance": 0.57
-      },
-      {
-        "tag": "vertical city",
-        "weight": 0.2315,
-        "corpus_score": 0.1679,
-        "relevance": 0.565
-      },
-      {
-        "tag": "negative",
-        "weight": 0.2295,
-        "corpus_score": 0.1679,
-        "relevance": 0.56
-      },
-      {
-        "tag": "void",
-        "weight": 0.2274,
-        "corpus_score": 0.1679,
-        "relevance": 0.555
-      },
-      {
-        "tag": "streets",
-        "weight": 0.2213,
-        "corpus_score": 0.1679,
-        "relevance": 0.54
-      },
-      {
-        "tag": "in between",
-        "weight": 0.2193,
-        "corpus_score": 0.1679,
-        "relevance": 0.535
-      },
-      {
-        "tag": "spaces",
-        "weight": 0.2172,
-        "corpus_score": 0.1679,
-        "relevance": 0.53
-      },
-      {
-        "tag": "nooks",
-        "weight": 0.2131,
-        "corpus_score": 0.1679,
-        "relevance": 0.52
-      },
-      {
-        "tag": "crannies",
-        "weight": 0.2111,
-        "corpus_score": 0.1679,
-        "relevance": 0.515
-      },
-      {
-        "tag": "invisible",
-        "weight": 0.207,
-        "corpus_score": 0.1679,
-        "relevance": 0.505
+        "tag": "defiance",
+        "weight": 1
       }
     ]
   },
@@ -23803,7 +23711,7 @@
     "year": "1961",
     "publication": "Mother Night",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781784874544",
@@ -23868,7 +23776,8 @@
         "corpus_score": 0.1679,
         "relevance": 0.5222
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0335",
@@ -33861,13 +33770,13 @@
     "filename_stem": "shakespeare-hamlet",
     "quote": "When sorrows come, they come not in single spies. But in battalions...",
     "author": "William Shakespeare",
-    "year": "1735",
+    "year": "1601",
     "publication": "Hamlet",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9780344207730",
+    "isbn": "3150000319",
     "book_title": "Winter's Tale",
     "publisher": "Creative Media Partners, LLC",
     "open_library_key": "/works/OL362687W",
@@ -39828,7 +39737,7 @@
     "filename_stem": "william-shakespeare",
     "quote": "Therefore, since brevity is the soul of wit, and tediousness, the limbs and outward flourishes, I will be brief. Your noble son is mad:",
     "author": "William Shakespeare",
-    "year": "1603",
+    "year": "1601",
     "publication": "Hamlet",
     "notes": "The quote is from Hamlet, Act 2, Scene 2.",
     "confidence": 1,
@@ -39863,7 +39772,7 @@
         "tag": "brevity",
         "weight": 0.5159,
         "corpus_score": 0.2662,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "brief",
@@ -41355,8 +41264,8 @@
     "quote": "Purpose is but the slave to memory...",
     "author": "William Shakespeare",
     "publication": "Hamlet",
-    "year": "1735",
-    "isbn": "9780344207730",
+    "year": "1601",
+    "isbn": "3150000319",
     "book_author": null,
     "cover_url": "covers/hamlet.jpg",
     "weighted_tags": [
@@ -45820,6 +45729,332 @@
       }
     ],
     "id": "quote_0723",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What does it mean to be a self-conscious animal? The idea is ludicrous, if it is not monstrous. It means to know that one is food for worms.",
+    "author": "Ernest Becker",
+    "publication": "The Denial of Death",
+    "year": "1973",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/escape-from-evil.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "consciousness",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0724",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The room was a study in stupidity.",
+    "author": "F. Scott Fitzgerald",
+    "publication": "This Side of Paradise",
+    "year": "1920",
+    "isbn": "9782070299546",
+    "book_author": null,
+    "cover_url": "covers/this-side-of-paradise.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "crowds",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0725",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Everyday life is the greatest detective story ever written. Every second, without noticing we pass by thousands of corpses and crimes. That’s the routine of our lives.",
+    "author": "Franz Kafka",
+    "publication": "Now",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "The Invisible Committee",
+    "cover_url": "covers/now.jpg",
+    "weighted_tags": [
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "routine",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0726",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "From now on, what I want from every one of you is simple—options, and plenty of them.",
+    "author": "Gene Kranz",
+    "publication": "Apollo 13",
+    "year": "2006",
+    "isbn": null,
+    "book_author": "Jim Lovell & Jeffrey Kluger",
+    "cover_url": "covers/apollo-13.jpg",
+    "weighted_tags": [
+      {
+        "tag": "options",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0727",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Assume a virtue if you have it not. / That monster, custom, who all sense doth eat, / Of habits devil, is angel, yet in this...",
+    "author": "William Shakespeare",
+    "publication": "Hamlet",
+    "year": "1601",
+    "isbn": "9780344207730",
+    "book_author": null,
+    "cover_url": "covers/hamlet.jpg",
+    "weighted_tags": [
+      {
+        "tag": "virtue",
+        "weight": 1
+      },
+      {
+        "tag": "virtues",
+        "weight": 1
+      },
+      {
+        "tag": "vice",
+        "weight": 1
+      },
+      {
+        "tag": "the devil",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0728",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The all-seeing eye doesn’t have to be looking at you for the panopticon to function. All that matters is that you feel it...",
+    "author": "Kai Strittmatter",
+    "publication": "We Have Been Harmonized: Life in China's Surveillance State",
+    "year": "2020",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0729",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There’s a big difference between playing well and playing really creatively.",
+    "author": "Haruki Murakami",
+    "publication": "After Dark",
+    "year": "2008",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/after-dark.jpg",
+    "weighted_tags": [
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "talent",
+        "weight": 1
+      },
+      {
+        "tag": "skill",
+        "weight": 1
+      },
+      {
+        "tag": "music",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0730",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When the devil came / He was not red / He was chrome...",
+    "author": "Jeff Tweedy",
+    "publication": "Lyrics Vol. 2",
+    "year": "2025",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/lyrics-vol-2.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "the devil",
+        "weight": 1
+      },
+      {
+        "tag": "temptation",
+        "weight": 1
+      },
+      {
+        "tag": "appearances",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0731",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Only a people serving an apprenticeship to nature can be trusted with machines.",
+    "author": "Herbert Read",
+    "publication": "The Grass Roots of Art",
+    "year": "1955",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-grass-roots-of-art.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "machines",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0732",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "No matter what might be said, access to the artistic universe is more or less entirely the preserve of those who are a little fed up with the world.",
+    "author": "Michel Houellebecq",
+    "publication": "H. P. Lovecraft: Against the World, Against Life",
+    "year": "1991",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/h-p-lovecraft-against-the-world-against-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "artists",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "exhaustion",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "attitude",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0733",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
