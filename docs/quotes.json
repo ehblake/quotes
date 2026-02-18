@@ -1150,46 +1150,20 @@
     ],
     "weighted_tags": [
       {
-        "tag": "walls",
-        "weight": 0.493,
-        "corpus_score": 0.2662,
-        "relevance": 0.9556
+        "tag": "the other",
+        "weight": 1
       },
       {
-        "tag": "city of words",
-        "weight": 0.4926,
-        "corpus_score": 0.39,
-        "relevance": 0.7889
+        "tag": "the unknown",
+        "weight": 1
       },
       {
-        "tag": "cities",
-        "weight": 0.4087,
-        "corpus_score": 0.6394,
-        "relevance": 0.5111
+        "tag": "perception",
+        "weight": 1
       },
       {
-        "tag": "exotic",
-        "weight": 0.387,
-        "corpus_score": 0.1679,
-        "relevance": 0.9444
-      },
-      {
-        "tag": "outside",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "alberto manguel",
-        "weight": 0.2306,
-        "corpus_score": 0.4341,
-        "relevance": 0.35
-      },
-      {
-        "tag": "outsider",
-        "weight": 0.214,
-        "corpus_score": 0.1679,
-        "relevance": 0.5222
+        "tag": "the eye",
+        "weight": 1
       }
     ]
   },
@@ -1232,28 +1206,14 @@
         "relevance": 0.5111
       },
       {
-        "tag": "morality",
-        "weight": 0.387,
-        "corpus_score": 0.1679,
-        "relevance": 0.9444
-      },
-      {
-        "tag": "mischief",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
         "tag": "trouble",
         "weight": 0.214,
         "corpus_score": 0.1679,
         "relevance": 0.5222
       },
       {
-        "tag": "aldous huxley",
-        "weight": 0.19,
-        "corpus_score": 0.3359,
-        "relevance": 0.3278
+        "tag": "values",
+        "weight": 1
       }
     ]
   },
@@ -3741,46 +3701,18 @@
     ],
     "weighted_tags": [
       {
-        "tag": "rage",
-        "weight": 0.4815,
-        "corpus_score": 0.2662,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "symmetry",
-        "weight": 0.387,
-        "corpus_score": 0.1679,
-        "relevance": 0.9444
-      },
-      {
         "tag": "perfection",
         "weight": 0.3261,
         "corpus_score": 0.39,
         "relevance": 0.5222
       },
       {
-        "tag": "obsession",
-        "weight": 0.2637,
-        "corpus_score": 0.2662,
-        "relevance": 0.5111
+        "tag": "design",
+        "weight": 1
       },
       {
-        "tag": "immanuel kant",
-        "weight": 0.2322,
-        "corpus_score": 0.1679,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "kant",
-        "weight": 0.2277,
-        "corpus_score": 0.1679,
-        "relevance": 0.5556
-      },
-      {
-        "tag": "arthur schopenhauer",
-        "weight": 0.19,
-        "corpus_score": 0.3359,
-        "relevance": 0.3278
+        "tag": "creativity",
+        "weight": 1
       }
     ]
   },
@@ -4943,34 +4875,14 @@
         "relevance": 0.9778
       },
       {
-        "tag": "enemy",
-        "weight": 0.3916,
-        "corpus_score": 0.1679,
-        "relevance": 0.9556
-      },
-      {
-        "tag": "battle",
-        "weight": 0.3662,
-        "corpus_score": 0.4715,
-        "relevance": 0.5333
-      },
-      {
         "tag": "errors",
         "weight": 0.2322,
         "corpus_score": 0.1679,
         "relevance": 0.5667
       },
       {
-        "tag": "opponent",
-        "weight": 0.2231,
-        "corpus_score": 0.1679,
-        "relevance": 0.5444
-      },
-      {
-        "tag": "billy beane",
-        "weight": 0.1389,
-        "corpus_score": 0.1679,
-        "relevance": 0.3389
+        "tag": "enemies",
+        "weight": 1
       }
     ]
   },
@@ -5898,40 +5810,14 @@
         "relevance": 0.96
       },
       {
+        "tag": "order",
+        "weight": 1
+      },
+      {
         "tag": "authority",
         "weight": 0.4798,
         "corpus_score": 0.2662,
         "relevance": 0.93
-      },
-      {
-        "tag": "science as a candle in the dark",
-        "weight": 0.387,
-        "corpus_score": 0.2662,
-        "relevance": 0.75
-      },
-      {
-        "tag": "mistrust",
-        "weight": 0.3852,
-        "corpus_score": 0.1679,
-        "relevance": 0.94
-      },
-      {
-        "tag": "demon-haunted world",
-        "weight": 0.3044,
-        "corpus_score": 0.2662,
-        "relevance": 0.59
-      },
-      {
-        "tag": "irreverence",
-        "weight": 0.2131,
-        "corpus_score": 0.1679,
-        "relevance": 0.52
-      },
-      {
-        "tag": "carl sagan",
-        "weight": 0.1703,
-        "corpus_score": 0.2662,
-        "relevance": 0.33
       }
     ]
   },
@@ -6114,22 +6000,12 @@
         "relevance": 0.95
       },
       {
-        "tag": "plural",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
+        "tag": "order",
+        "weight": 1
       },
       {
-        "tag": "the death of artemio cruz",
-        "weight": 0.301,
-        "corpus_score": 0.2662,
-        "relevance": 0.5833
-      },
-      {
-        "tag": "carlos fuentes",
-        "weight": 0.1835,
-        "corpus_score": 0.3359,
-        "relevance": 0.3167
+        "tag": "words",
+        "weight": 1
       }
     ]
   },
@@ -11366,10 +11242,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "intent",
-        "weight": 0.4865,
-        "corpus_score": 0.2662,
-        "relevance": 0.9429
+        "tag": "failure",
+        "weight": 0.3483,
+        "corpus_score": 0.4341,
+        "relevance": 0.5286
       },
       {
         "tag": "ambition",
@@ -11378,34 +11254,8 @@
         "relevance": 0.9714
       },
       {
-        "tag": "failure",
-        "weight": 0.3483,
-        "corpus_score": 0.4341,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "tragedy",
-        "weight": 0.2875,
-        "corpus_score": 0.2662,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "shakespeare",
-        "weight": 0.2835,
-        "corpus_score": 0.6562,
-        "relevance": 0.35
-      },
-      {
-        "tag": "hubris",
-        "weight": 0.2653,
-        "corpus_score": 0.2662,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "macbeth",
-        "weight": 0.24,
-        "corpus_score": 0.1679,
-        "relevance": 0.5857
+        "tag": "drive",
+        "weight": 1
       }
     ]
   },
@@ -11879,28 +11729,12 @@
         "relevance": 0.95
       },
       {
-        "tag": "seriousness",
-        "weight": 0.3791,
-        "corpus_score": 0.1679,
-        "relevance": 0.925
+        "tag": "frivolity",
+        "weight": 1
       },
       {
-        "tag": "humility",
-        "weight": 0.2773,
-        "corpus_score": 0.2662,
-        "relevance": 0.5375
-      },
-      {
-        "tag": "escape",
-        "weight": 0.2644,
-        "corpus_score": 0.2662,
-        "relevance": 0.5125
-      },
-      {
-        "tag": "friedrich nietzsche",
-        "weight": 0.2573,
-        "corpus_score": 0.581,
-        "relevance": 0.3375
+        "tag": "literature",
+        "weight": 1
       }
     ]
   },
@@ -12730,46 +12564,12 @@
         "relevance": 0.91
       },
       {
-        "tag": "error",
-        "weight": 0.3014,
-        "corpus_score": 0.3359,
-        "relevance": 0.52
+        "tag": "values",
+        "weight": 1
       },
       {
-        "tag": "assumptions",
-        "weight": 0.2734,
-        "corpus_score": 0.2662,
-        "relevance": 0.53
-      },
-      {
-        "tag": "dostoevsky",
-        "weight": 0.2639,
-        "corpus_score": 0.6394,
-        "relevance": 0.33
-      },
-      {
-        "tag": "fyodor dostoevsky",
-        "weight": 0.2483,
-        "corpus_score": 0.6021,
-        "relevance": 0.32
-      },
-      {
-        "tag": "the meek one",
-        "weight": 0.2295,
-        "corpus_score": 0.1679,
-        "relevance": 0.56
-      },
-      {
-        "tag": "justification",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "excuses",
-        "weight": 0.2213,
-        "corpus_score": 0.1679,
-        "relevance": 0.54
+        "tag": "perspective",
+        "weight": 1
       }
     ]
   },
@@ -15724,34 +15524,14 @@
         "relevance": 0.5875
       },
       {
-        "tag": "morning",
-        "weight": 0.3996,
-        "corpus_score": 0.1679,
-        "relevance": 0.975
+        "tag": "love",
+        "weight": 1
       },
       {
         "tag": "health",
         "weight": 0.3944,
         "corpus_score": 0.1679,
         "relevance": 0.9625
-      },
-      {
-        "tag": "day",
-        "weight": 0.2838,
-        "corpus_score": 0.2662,
-        "relevance": 0.55
-      },
-      {
-        "tag": "early",
-        "weight": 0.2203,
-        "corpus_score": 0.1679,
-        "relevance": 0.5375
-      },
-      {
-        "tag": "henry david thoreau",
-        "weight": 0.1717,
-        "corpus_score": 0.39,
-        "relevance": 0.275
       }
     ]
   },
@@ -22504,10 +22284,8 @@
         "relevance": 0.94
       },
       {
-        "tag": "tolerance",
-        "weight": 0.4016,
-        "corpus_score": 0.1679,
-        "relevance": 0.98
+        "tag": "values",
+        "weight": 1
       }
     ]
   },
@@ -22588,46 +22366,18 @@
     ],
     "weighted_tags": [
       {
-        "tag": "upsetting",
-        "weight": 0.4098,
-        "corpus_score": 0.1679,
-        "relevance": 1.0
-      },
-      {
-        "tag": "university",
-        "weight": 0.3864,
-        "corpus_score": 0.1679,
-        "relevance": 0.9429
-      },
-      {
         "tag": "education",
         "weight": 0.3826,
         "corpus_score": 0.4715,
         "relevance": 0.5571
       },
       {
-        "tag": "socrates",
-        "weight": 0.3805,
-        "corpus_score": 0.1679,
-        "relevance": 0.9286
+        "tag": "learning",
+        "weight": 1
       },
       {
-        "tag": "challenge",
-        "weight": 0.2948,
-        "corpus_score": 0.2662,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "challenging",
-        "weight": 0.24,
-        "corpus_score": 0.1679,
-        "relevance": 0.5857
-      },
-      {
-        "tag": "report",
-        "weight": 0.1083,
-        "corpus_score": 0.1679,
-        "relevance": 0.2643
+        "tag": "challenges",
+        "weight": 1
       }
     ]
   },
@@ -22999,31 +22749,17 @@
     ],
     "weighted_tags": [
       {
-        "tag": "internet",
-        "weight": 0.4815,
-        "corpus_score": 0.2662,
-        "relevance": 0.9333
-      },
-      {
         "tag": "technology",
         "weight": 0.4541,
         "corpus_score": 0.7894,
         "relevance": 0.5111
       },
       {
-        "tag": "synthesisers",
-        "weight": 0.387,
-        "corpus_score": 0.1679,
-        "relevance": 0.9444
+        "tag": "media",
+        "weight": 1
       },
       {
-        "tag": "social media",
-        "weight": 0.214,
-        "corpus_score": 0.1679,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "secrets",
+        "tag": "music",
         "weight": 1
       }
     ]
@@ -23316,46 +23052,16 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humour",
-        "weight": 0.513,
-        "corpus_score": 0.8877,
-        "relevance": 0.5444
+        "tag": "names",
+        "weight": 1
       },
       {
-        "tag": "shrapnel",
-        "weight": 0.3916,
-        "corpus_score": 0.1679,
-        "relevance": 0.9556
+        "tag": "words",
+        "weight": 1
       },
       {
-        "tag": "name",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.3051,
-        "corpus_score": 0.7597,
-        "relevance": 0.35
-      },
-      {
-        "tag": "a man without a country",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "naming",
-        "weight": 0.214,
-        "corpus_score": 0.1679,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "title",
-        "weight": 0.2095,
-        "corpus_score": 0.1679,
-        "relevance": 0.5111
+        "tag": "the self",
+        "weight": 1
       }
     ]
   },
@@ -23484,46 +23190,14 @@
         "relevance": 0.5643
       },
       {
-        "tag": "maturity",
-        "weight": 0.3981,
-        "corpus_score": 0.1679,
-        "relevance": 0.9714
-      },
-      {
         "tag": "laughter",
         "weight": 0.3747,
         "corpus_score": 0.1679,
         "relevance": 0.9143
       },
       {
-        "tag": "old",
-        "weight": 0.3624,
-        "corpus_score": 0.4341,
-        "relevance": 0.55
-      },
-      {
-        "tag": "cat's cradle",
-        "weight": 0.3353,
-        "corpus_score": 0.3359,
-        "relevance": 0.5786
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.2926,
-        "corpus_score": 0.7597,
-        "relevance": 0.3357
-      },
-      {
-        "tag": "mature",
-        "weight": 0.2225,
-        "corpus_score": 0.1679,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "growing up",
-        "weight": 0.2166,
-        "corpus_score": 0.1679,
-        "relevance": 0.5286
+        "tag": "disappointment",
+        "weight": 1
       }
     ]
   },
@@ -23741,40 +23415,12 @@
         "relevance": 0.5444
       },
       {
-        "tag": "pretend",
-        "weight": 0.3916,
-        "corpus_score": 0.1679,
-        "relevance": 0.9556
+        "tag": "the self",
+        "weight": 1
       },
       {
-        "tag": "mother night",
-        "weight": 0.3539,
-        "corpus_score": 0.39,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "imagine",
-        "weight": 0.2962,
-        "corpus_score": 0.3359,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.2857,
-        "corpus_score": 0.7597,
-        "relevance": 0.3278
-      },
-      {
-        "tag": "performance",
-        "weight": 0.2186,
-        "corpus_score": 0.1679,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "personality",
-        "weight": 0.214,
-        "corpus_score": 0.1679,
-        "relevance": 0.5222
+        "tag": "existence",
+        "weight": 1
       }
     ],
     "book_author": null
@@ -23819,34 +23465,12 @@
         "relevance": 0.9222
       },
       {
-        "tag": "concentration",
-        "weight": 0.387,
-        "corpus_score": 0.1679,
-        "relevance": 0.9444
+        "tag": "design",
+        "weight": 1
       },
       {
-        "tag": "athlete",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.2954,
-        "corpus_score": 0.7597,
-        "relevance": 0.3389
-      },
-      {
-        "tag": "focus",
-        "weight": 0.2637,
-        "corpus_score": 0.2662,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "vonnegut",
-        "weight": 0.2584,
-        "corpus_score": 0.6215,
-        "relevance": 0.3278
+        "tag": "talent",
+        "weight": 1
       }
     ]
   },
@@ -24068,40 +23692,12 @@
         "relevance": 0.5222
       },
       {
-        "tag": "gibberish",
-        "weight": 0.387,
-        "corpus_score": 0.1679,
-        "relevance": 0.9444
+        "tag": "madness",
+        "weight": 1
       },
       {
-        "tag": "sense",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "mother night",
-        "weight": 0.3539,
-        "corpus_score": 0.39,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "nonsense",
-        "weight": 0.2866,
-        "corpus_score": 0.2662,
-        "relevance": 0.5556
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.2857,
-        "corpus_score": 0.7597,
-        "relevance": 0.3278
-      },
-      {
-        "tag": "absurd",
-        "weight": 0.2095,
-        "corpus_score": 0.1679,
-        "relevance": 0.5111
+        "tag": "society",
+        "weight": 1
       }
     ]
   },
@@ -26260,28 +25856,12 @@
         "relevance": 0.96
       },
       {
-        "tag": "dead",
-        "weight": 0.5448,
-        "corpus_score": 0.3359,
-        "relevance": 0.94
+        "tag": "death",
+        "weight": 1
       },
       {
-        "tag": "pity",
-        "weight": 0.5159,
-        "corpus_score": 0.2662,
-        "relevance": 1.0
-      },
-      {
-        "tag": "envy",
-        "weight": 0.4016,
-        "corpus_score": 0.1679,
-        "relevance": 0.98
-      },
-      {
-        "tag": "twain",
-        "weight": 0.1393,
-        "corpus_score": 0.2662,
-        "relevance": 0.27
+        "tag": "the end",
+        "weight": 1
       }
     ]
   },
@@ -26903,57 +26483,15 @@
     "weighted_tags": [
       {
         "tag": "living",
-        "weight": 0.4144,
-        "corpus_score": 0.6394,
-        "relevance": 0.5182
+        "weight": 1
       },
       {
-        "tag": "type",
-        "weight": 0.3319,
-        "corpus_score": 0.3359,
-        "relevance": 0.5727
+        "tag": "books",
+        "weight": 1
       },
       {
-        "tag": "typography",
-        "weight": 0.2908,
-        "corpus_score": 0.2662,
-        "relevance": 0.5636
-      },
-      {
-        "tag": "moby dick",
-        "weight": 0.2861,
-        "corpus_score": 0.2662,
-        "relevance": 0.5545
-      },
-      {
-        "tag": "working",
-        "weight": 0.2627,
-        "corpus_score": 0.2662,
-        "relevance": 0.5091
-      },
-      {
-        "tag": "grotesque",
-        "weight": 0.2384,
-        "corpus_score": 0.1679,
-        "relevance": 0.5818
-      },
-      {
-        "tag": "profundity",
-        "weight": 0.2198,
-        "corpus_score": 0.1679,
-        "relevance": 0.5364
-      },
-      {
-        "tag": "profound",
-        "weight": 0.2161,
-        "corpus_score": 0.1679,
-        "relevance": 0.5273
-      },
-      {
-        "tag": "herman melville",
-        "weight": 0.1524,
-        "corpus_score": 0.2662,
-        "relevance": 0.2955
+        "tag": "writing",
+        "weight": 1
       }
     ],
     "book_author": null
@@ -27366,58 +26904,16 @@
     ],
     "weighted_tags": [
       {
-        "tag": "bottom",
-        "weight": 0.3949,
-        "corpus_score": 0.1679,
-        "relevance": 0.9636
+        "tag": "the self",
+        "weight": 1
       },
       {
-        "tag": "throne",
-        "weight": 0.38,
-        "corpus_score": 0.1679,
-        "relevance": 0.9273
+        "tag": "humility",
+        "weight": 1
       },
       {
-        "tag": "kings",
-        "weight": 0.3122,
-        "corpus_score": 0.39,
-        "relevance": 0.5
-      },
-      {
-        "tag": "the complete essays",
-        "weight": 0.2955,
-        "corpus_score": 0.2662,
-        "relevance": 0.5727
-      },
-      {
-        "tag": "elite",
-        "weight": 0.2814,
-        "corpus_score": 0.2662,
-        "relevance": 0.5455
-      },
-      {
-        "tag": "hubris",
-        "weight": 0.2767,
-        "corpus_score": 0.2662,
-        "relevance": 0.5364
-      },
-      {
-        "tag": "top",
-        "weight": 0.2273,
-        "corpus_score": 0.1679,
-        "relevance": 0.5545
-      },
-      {
-        "tag": "master",
-        "weight": 0.2086,
-        "corpus_score": 0.1679,
-        "relevance": 0.5091
-      },
-      {
-        "tag": "michel de montaigne",
-        "weight": 0.1712,
-        "corpus_score": 0.2662,
-        "relevance": 0.3318
+        "tag": "power",
+        "weight": 1
       }
     ]
   },
@@ -28942,22 +28438,14 @@
         "relevance": 0.9333
       },
       {
+        "tag": "government",
+        "weight": 1
+      },
+      {
         "tag": "actions",
         "weight": 0.4901,
         "corpus_score": 0.2662,
         "relevance": 0.95
-      },
-      {
-        "tag": "nassim nicholas taleb",
-        "weight": 0.2311,
-        "corpus_score": 0.5324,
-        "relevance": 0.3167
-      },
-      {
-        "tag": "inertia",
-        "weight": 0.2117,
-        "corpus_score": 0.1679,
-        "relevance": 0.5167
       }
     ]
   },
@@ -31462,28 +30950,14 @@
         "relevance": 0.5333
       },
       {
-        "tag": "crowd",
-        "weight": 0.4098,
-        "corpus_score": 0.1679,
-        "relevance": 1.0
-      },
-      {
-        "tag": "malaise",
-        "weight": 0.3757,
-        "corpus_score": 0.1679,
-        "relevance": 0.9167
-      },
-      {
-        "tag": "groups",
-        "weight": 0.2322,
-        "corpus_score": 0.1679,
-        "relevance": 0.5667
-      },
-      {
         "tag": "crowds",
         "weight": 0.2254,
         "corpus_score": 0.1679,
         "relevance": 0.55
+      },
+      {
+        "tag": "humankind",
+        "weight": 1
       }
     ]
   },
@@ -33339,46 +32813,18 @@
     ],
     "weighted_tags": [
       {
-        "tag": "fire",
-        "weight": 0.563,
-        "corpus_score": 0.3359,
-        "relevance": 0.9714
+        "tag": "nighttime",
+        "weight": 1
       },
       {
-        "tag": "thief",
-        "weight": 0.4865,
-        "corpus_score": 0.2662,
-        "relevance": 0.9429
-      },
-      {
-        "tag": "sun",
-        "weight": 0.4098,
-        "corpus_score": 0.1679,
-        "relevance": 1
-      },
-      {
-        "tag": "pale",
-        "weight": 0.404,
-        "corpus_score": 0.1679,
-        "relevance": 0.9857
-      },
-      {
-        "tag": "moon",
-        "weight": 0.3923,
-        "corpus_score": 0.1679,
-        "relevance": 0.9571
+        "tag": "darkness",
+        "weight": 1
       },
       {
         "tag": "thievery",
         "weight": 0.2727,
         "corpus_score": 0.2662,
         "relevance": 0.5286
-      },
-      {
-        "tag": "stealing",
-        "weight": 0.2653,
-        "corpus_score": 0.2662,
-        "relevance": 0.5143
       }
     ]
   },
@@ -33974,34 +33420,12 @@
         "relevance": 0.5833
       },
       {
-        "tag": "fool",
-        "weight": 0.3226,
-        "corpus_score": 0.39,
-        "relevance": 0.5167
+        "tag": "words",
+        "weight": 1
       },
       {
-        "tag": "shakespeare",
-        "weight": 0.2835,
-        "corpus_score": 0.6562,
-        "relevance": 0.35
-      },
-      {
-        "tag": "advice",
-        "weight": 0.2322,
-        "corpus_score": 0.1679,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "restraint",
-        "weight": 0.2254,
-        "corpus_score": 0.1679,
-        "relevance": 0.55
-      },
-      {
-        "tag": "prudence",
-        "weight": 0.2186,
-        "corpus_score": 0.1679,
-        "relevance": 0.5333
+        "tag": "money",
+        "weight": 1
       }
     ]
   },
@@ -34171,34 +33595,12 @@
         "relevance": 0.55
       },
       {
-        "tag": "trust",
-        "weight": 0.321,
-        "corpus_score": 0.1679,
-        "relevance": 0.7833
+        "tag": "health",
+        "weight": 1
       },
       {
-        "tag": "folly",
-        "weight": 0.2924,
-        "corpus_score": 0.2662,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "shakespeare",
-        "weight": 0.2835,
-        "corpus_score": 0.6562,
-        "relevance": 0.35
-      },
-      {
-        "tag": "cynicism",
-        "weight": 0.2186,
-        "corpus_score": 0.1679,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "fool",
-        "weight": 0.1665,
-        "corpus_score": 0.39,
-        "relevance": 0.2667
+        "tag": "values",
+        "weight": 1
       }
     ]
   },
@@ -34297,34 +33699,22 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "wrath",
-        "weight": 0.3962,
-        "corpus_score": 0.1679,
-        "relevance": 0.9667
-      },
-      {
         "tag": "power",
         "weight": 0.3904,
         "corpus_score": 0.5038,
         "relevance": 0.55
       },
       {
-        "tag": "warning",
-        "weight": 0.3091,
-        "corpus_score": 0.3359,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "shakespeare",
-        "weight": 0.2835,
-        "corpus_score": 0.6562,
-        "relevance": 0.35
-      },
-      {
         "tag": "anger",
         "weight": 0.2391,
         "corpus_score": 0.1679,
         "relevance": 0.5833
+      },
+      {
+        "tag": "wrath",
+        "weight": 0.3962,
+        "corpus_score": 0.1679,
+        "relevance": 0.9667
       }
     ]
   },
@@ -36304,17 +35694,15 @@
         "relevance": 0.5571
       },
       {
-        "tag": "virtue",
-        "weight": 0.3893,
-        "corpus_score": 0.1679,
-        "relevance": 0.95
-      },
-      {
         "tag": "weakness",
         "weight": 1
       },
       {
-        "tag": "challenges",
+        "tag": "humankind",
+        "weight": 1
+      },
+      {
+        "tag": "fire",
         "weight": 1
       }
     ],
@@ -38508,34 +37896,14 @@
         "relevance": 0.5429
       },
       {
+        "tag": "love",
+        "weight": 1
+      },
+      {
         "tag": "desire",
         "weight": 0.398,
         "corpus_score": 0.2662,
         "relevance": 0.7714
-      },
-      {
-        "tag": "heart",
-        "weight": 0.3923,
-        "corpus_score": 0.1679,
-        "relevance": 0.9571
-      },
-      {
-        "tag": "psychology",
-        "weight": 0.3063,
-        "corpus_score": 0.3359,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "auden",
-        "weight": 0.1806,
-        "corpus_score": 0.2662,
-        "relevance": 0.35
-      },
-      {
-        "tag": "w.h. auden",
-        "weight": 0.1732,
-        "corpus_score": 0.2662,
-        "relevance": 0.3357
       }
     ],
     "isbn": null,
@@ -39366,34 +38734,16 @@
     "book_author": null,
     "weighted_tags": [
       {
-        "tag": "technology",
-        "weight": 0.4936,
-        "corpus_score": 0.7894,
-        "relevance": 0.5556
+        "tag": "perspective",
+        "weight": 1
       },
       {
-        "tag": "curator",
-        "weight": 0.3841,
-        "corpus_score": 0.2662,
-        "relevance": 0.7444
+        "tag": "individuality",
+        "weight": 1
       },
       {
-        "tag": "curators",
-        "weight": 0.3825,
-        "corpus_score": 0.1679,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "postmodern",
-        "weight": 0.3734,
-        "corpus_score": 0.1679,
-        "relevance": 0.9111
-      },
-      {
-        "tag": "william gibson",
-        "weight": 0.2186,
-        "corpus_score": 0.39,
-        "relevance": 0.35
+        "tag": "modernity",
+        "weight": 1
       }
     ]
   },
@@ -39436,40 +38786,14 @@
         "relevance": 0.57
       },
       {
-        "tag": "big",
-        "weight": 0.3893,
-        "corpus_score": 0.1679,
-        "relevance": 0.95
-      },
-      {
-        "tag": "cool",
-        "weight": 0.377,
-        "corpus_score": 0.1679,
-        "relevance": 0.92
-      },
-      {
         "tag": "scale",
         "weight": 0.2213,
         "corpus_score": 0.1679,
         "relevance": 0.54
       },
       {
-        "tag": "huge",
-        "weight": 0.2172,
-        "corpus_score": 0.1679,
-        "relevance": 0.53
-      },
-      {
-        "tag": "size",
-        "weight": 0.209,
-        "corpus_score": 0.1679,
-        "relevance": 0.51
-      },
-      {
-        "tag": "william gibson",
-        "weight": 0.1936,
-        "corpus_score": 0.39,
-        "relevance": 0.31
+        "tag": "design",
+        "weight": 1
       }
     ],
     "book_author": null
@@ -42158,19 +41482,11 @@
         "weight": 1
       },
       {
-        "tag": "disappearance",
+        "tag": "progress",
         "weight": 1
       },
       {
-        "tag": "invisibility",
-        "weight": 1
-      },
-      {
-        "tag": "hiding",
-        "weight": 1
-      },
-      {
-        "tag": "surveillance",
+        "tag": "design",
         "weight": 1
       }
     ],
@@ -42691,7 +42007,7 @@
     "cover_url": "covers/within-a-budding-grove.jpg",
     "weighted_tags": [
       {
-        "tag": "desire",
+        "tag": "ownership",
         "weight": 1
       },
       {
@@ -42699,11 +42015,7 @@
         "weight": 1
       },
       {
-        "tag": "ownership",
-        "weight": 1
-      },
-      {
-        "tag": "things",
+        "tag": "need",
         "weight": 1
       }
     ],
@@ -42753,23 +42065,15 @@
     "cover_url": "covers/the-name-of-the-rose.jpg",
     "weighted_tags": [
       {
-        "tag": "normality",
-        "weight": 1
-      },
-      {
-        "tag": "people",
-        "weight": 1
-      },
-      {
         "tag": "humankind",
         "weight": 1
       },
       {
-        "tag": "pettiness",
+        "tag": "normality",
         "weight": 1
       },
       {
-        "tag": "personality",
+        "tag": "individuality",
         "weight": 1
       }
     ],
@@ -44769,23 +44073,15 @@
     "cover_url": "covers/another-time.jpg",
     "weighted_tags": [
       {
-        "tag": "prison",
-        "weight": 1
-      },
-      {
         "tag": "time",
         "weight": 1
       },
       {
-        "tag": "boredom",
+        "tag": "power",
         "weight": 1
       },
       {
-        "tag": "conformity",
-        "weight": 1
-      },
-      {
-        "tag": "behaviour",
+        "tag": "prison",
         "weight": 1
       }
     ],
@@ -45712,19 +45008,15 @@
     "cover_url": "covers/complete-poems-19041962.jpg",
     "weighted_tags": [
       {
-        "tag": "friends",
-        "weight": 1
-      },
-      {
-        "tag": "laughter",
-        "weight": 1
-      },
-      {
-        "tag": "snow",
-        "weight": 1
-      },
-      {
         "tag": "enemies",
+        "weight": 1
+      },
+      {
+        "tag": "frivolity",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
         "weight": 1
       }
     ],
@@ -46055,6 +45347,33 @@
       }
     ],
     "id": "quote_0733",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Success as a result of industry is a peasant ideal.",
+    "author": "Wallace Stevens",
+    "publication": "The Most Beautiful Woman in Town",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Charles Bukowski",
+    "cover_url": "covers/the-most-beautiful-woman-in-town.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "success",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0734",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""

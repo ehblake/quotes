@@ -1,862 +1,5825 @@
 {
-  "perfection": [
-    "related",
-    "quote_count"
-  ],
-  "creativity": [
-    "related",
-    "quote_count"
-  ],
-  "design": [
-    "related",
-    "quote_count"
-  ],
-  "simplicity": [
-    "related",
-    "quote_count"
-  ],
-  "vision": [
-    "related",
-    "quote_count"
-  ],
-  "language": [
-    "related",
-    "quote_count"
-  ],
-  "words": [
-    "related",
-    "quote_count"
-  ],
-  "looking": [
-    "related",
-    "quote_count"
-  ],
-  "media": [
-    "related",
-    "quote_count"
-  ],
-  "ruin": [
-    "related",
-    "quote_count"
-  ],
-  "society": [
-    "related",
-    "quote_count"
-  ],
-  "decay": [
-    "related",
-    "quote_count"
-  ],
-  "culture": [
-    "related",
-    "quote_count"
-  ],
-  "collapse": [
-    "related",
-    "quote_count"
-  ],
-  "perspective": [
-    "related",
-    "quote_count"
-  ],
-  "interpretation": [
-    "related",
-    "quote_count"
-  ],
-  "music": [
-    "related",
-    "quote_count"
-  ],
-  "emotion": [
-    "related",
-    "quote_count"
-  ],
-  "purpose": [
-    "related",
-    "quote_count"
-  ],
-  "expression": [
-    "related",
-    "quote_count"
-  ],
-  "art": [
-    "related",
-    "quote_count"
-  ],
-  "ideas": [
-    "related",
-    "quote_count"
-  ],
-  "thinking": [
-    "related",
-    "quote_count"
-  ],
-  "perception": [
-    "related",
-    "quote_count"
-  ],
-  "the senses": [
-    "related",
-    "quote_count"
-  ],
-  "doing": [
-    "related",
-    "quote_count"
-  ],
-  "science": [
-    "related",
-    "quote_count"
-  ],
-  "uncertainty": [
-    "related",
-    "quote_count"
-  ],
-  "curiosity": [
-    "related",
-    "quote_count"
-  ],
-  "the unknown": [
-    "related",
-    "quote_count"
-  ],
-  "beauty": [
-    "related",
-    "quote_count"
-  ],
-  "writing": [
-    "related",
-    "quote_count"
-  ],
-  "knowledge": [
-    "related",
-    "quote_count"
-  ],
-  "the world": [
-    "related",
-    "quote_count"
-  ],
-  "books": [
-    "related",
-    "quote_count"
-  ],
-  "anarchy": [
-    "related",
-    "quote_count"
-  ],
-  "libraries": [
-    "related",
-    "quote_count"
-  ],
-  "collecting": [
-    "related",
-    "quote_count"
-  ],
-  "reading": [
-    "related",
-    "quote_count"
-  ],
-  "memory": [
-    "related",
-    "quote_count"
-  ],
-  "the past": [
-    "related",
-    "quote_count"
-  ],
-  "stories": [
-    "related",
-    "quote_count"
-  ],
-  "cities": [
-    "related",
-    "quote_count"
-  ],
-  "reality": [
-    "related",
-    "quote_count"
-  ],
-  "truth": [
-    "related",
-    "quote_count"
-  ],
-  "happiness": [
-    "related",
-    "quote_count"
-  ],
-  "australia": [
-    "related",
-    "quote_count"
-  ],
-  "comfort": [
-    "related",
-    "quote_count"
-  ],
-  "individuality": [
-    "related",
-    "quote_count"
-  ],
-  "god": [
-    "related",
-    "quote_count"
-  ],
-  "property": [
-    "related",
-    "quote_count"
-  ],
-  "revolution": [
-    "related",
-    "quote_count"
-  ],
-  "fear": [
-    "related",
-    "quote_count"
-  ],
-  "rules": [
-    "related",
-    "quote_count"
-  ],
-  "order": [
-    "related",
-    "quote_count"
-  ],
-  "living": [
-    "related",
-    "quote_count"
-  ],
-  "change": [
-    "related",
-    "quote_count"
-  ],
-  "time": [
-    "related",
-    "quote_count"
-  ],
-  "history": [
-    "related",
-    "quote_count"
-  ],
-  "direction": [
-    "related",
-    "quote_count"
-  ],
-  "paths": [
-    "related",
-    "quote_count"
-  ],
-  "falsehood": [
-    "related",
-    "quote_count"
-  ],
-  "progress": [
-    "related",
-    "quote_count"
-  ],
-  "technology": [
-    "related",
-    "quote_count"
-  ],
-  "destruction": [
-    "related",
-    "quote_count"
-  ],
-  "war": [
-    "related",
-    "quote_count"
-  ],
-  "america": [
-    "related",
-    "quote_count"
-  ],
-  "control": [
-    "related",
-    "quote_count"
-  ],
-  "intelligence": [
-    "related",
-    "quote_count"
-  ],
-  "clarity": [
-    "related",
-    "quote_count"
-  ],
-  "understanding": [
-    "related",
-    "quote_count"
-  ],
-  "the brain": [
-    "related",
-    "quote_count"
-  ],
-  "the mind": [
-    "related",
-    "quote_count"
-  ],
-  "definition": [
-    "related",
-    "quote_count"
-  ],
-  "logic": [
-    "related",
-    "quote_count"
-  ],
-  "seeing": [
-    "related",
-    "quote_count"
-  ],
-  "love": [
-    "related",
-    "quote_count"
-  ],
-  "depth": [
-    "related",
-    "quote_count"
-  ],
-  "evil": [
-    "related",
-    "quote_count"
-  ],
-  "civilisation": [
-    "related",
-    "quote_count"
-  ],
-  "good": [
-    "related",
-    "quote_count"
-  ],
-  "humanity": [
-    "related",
-    "quote_count"
-  ],
-  "storytelling": [
-    "related",
-    "quote_count"
-  ],
-  "suffering": [
-    "related",
-    "quote_count"
-  ],
-  "pain": [
-    "related",
-    "quote_count"
-  ],
-  "uniqueness": [
-    "related",
-    "quote_count"
-  ],
-  "laws": [
-    "related",
-    "quote_count"
-  ],
-  "success": [
-    "related",
-    "quote_count"
-  ],
-  "money": [
-    "related",
-    "quote_count"
-  ],
-  "difficulty": [
-    "related",
-    "quote_count"
-  ],
-  "problems": [
-    "related",
-    "quote_count"
-  ],
-  "life": [
-    "related",
-    "quote_count"
-  ],
-  "learning": [
-    "related",
-    "quote_count"
-  ],
-  "problem solving": [
-    "related",
-    "quote_count"
-  ],
-  "artists": [
-    "related",
-    "quote_count"
-  ],
-  "faith": [
-    "related",
-    "quote_count"
-  ],
-  "death": [
-    "related",
-    "quote_count"
-  ],
-  "belief": [
-    "related",
-    "quote_count"
-  ],
-  "walking": [
-    "related",
-    "quote_count"
-  ],
-  "poetry": [
-    "related",
-    "quote_count"
-  ],
-  "existence": [
-    "related",
-    "quote_count"
-  ],
-  "hell": [
-    "related",
-    "quote_count"
-  ],
-  "the devil": [
-    "related",
-    "quote_count"
-  ],
-  "pessimism": [
-    "related",
-    "quote_count"
-  ],
-  "stupidity": [
-    "related",
-    "quote_count"
-  ],
-  "humankind": [
-    "related",
-    "quote_count"
-  ],
-  "action": [
-    "related",
-    "quote_count"
-  ],
-  "imagination": [
-    "related",
-    "quote_count"
-  ],
-  "humans": [
-    "related",
-    "quote_count"
-  ],
-  "darkness": [
-    "related",
-    "quote_count"
-  ],
-  "violence": [
-    "related",
-    "quote_count"
-  ],
-  "education": [
-    "related",
-    "quote_count"
-  ],
-  "pleasure": [
-    "related",
-    "quote_count"
-  ],
-  "wisdom": [
-    "related",
-    "quote_count"
-  ],
-  "philosophy": [
-    "related",
-    "quote_count"
-  ],
-  "eyes": [
-    "related",
-    "quote_count"
-  ],
-  "monsters": [
-    "related",
-    "quote_count"
-  ],
-  "experience": [
-    "related",
-    "quote_count"
-  ],
-  "facts": [
-    "related",
-    "quote_count"
-  ],
-  "kings": [
-    "related",
-    "quote_count"
-  ],
-  "government": [
-    "related",
-    "quote_count"
-  ],
-  "the self": [
-    "related",
-    "quote_count"
-  ],
-  "the future": [
-    "related",
-    "quote_count"
-  ],
-  "songs": [
-    "related",
-    "quote_count"
-  ],
-  "doom": [
-    "related",
-    "quote_count"
-  ],
-  "sadness": [
-    "related",
-    "quote_count"
-  ],
-  "ignorance": [
-    "related",
-    "quote_count"
-  ],
-  "dreams": [
-    "related",
-    "quote_count"
-  ],
-  "complexity": [
-    "related",
-    "quote_count"
-  ],
-  "mistakes": [
-    "related",
-    "quote_count"
-  ],
-  "madness": [
-    "related",
-    "quote_count"
-  ],
-  "movement": [
-    "related",
-    "quote_count"
-  ],
-  "calmness": [
-    "related",
-    "quote_count"
-  ],
-  "humour": [
-    "related",
-    "quote_count"
-  ],
-  "the new": [
-    "related",
-    "quote_count"
-  ],
-  "making": [
-    "related",
-    "quote_count"
-  ],
-  "religion": [
-    "related",
-    "quote_count"
-  ],
-  "views": [
-    "related",
-    "quote_count"
-  ],
-  "power": [
-    "related",
-    "quote_count"
-  ],
-  "values": [
-    "related",
-    "quote_count"
-  ],
-  "chaos": [
-    "related",
-    "quote_count"
-  ],
-  "attitude": [
-    "related",
-    "quote_count"
-  ],
-  "opinion": [
-    "related",
-    "quote_count"
-  ],
-  "originality": [
-    "related",
-    "quote_count"
-  ],
-  "wandering": [
-    "related",
-    "quote_count"
-  ],
-  "nature": [
-    "related",
-    "quote_count"
-  ],
-  "the end": [
-    "related",
-    "quote_count"
-  ],
-  "eschatology": [
-    "related",
-    "quote_count"
-  ],
-  "entropy": [
-    "related",
-    "quote_count"
-  ],
-  "end times": [
-    "related",
-    "quote_count"
-  ],
-  "work": [
-    "related",
-    "quote_count"
-  ],
-  "capitalism": [
-    "related",
-    "quote_count"
-  ],
-  "jobs": [
-    "related",
-    "quote_count"
-  ],
-  "collaboration": [
-    "related",
-    "quote_count"
-  ],
-  "mathematics": [
-    "related",
-    "quote_count"
-  ],
-  "discovery": [
-    "related",
-    "quote_count"
-  ],
-  "simplification": [
-    "related",
-    "quote_count"
-  ],
-  "bureaucracy": [
-    "related",
-    "quote_count"
-  ],
-  "utopia": [
-    "related",
-    "quote_count"
-  ],
-  "economics": [
-    "related",
-    "quote_count"
-  ],
-  "information": [
-    "related",
-    "quote_count"
-  ],
-  "narrative": [
-    "related",
-    "quote_count"
-  ],
-  "luck": [
-    "related",
-    "quote_count"
-  ],
-  "literature": [
-    "related",
-    "quote_count"
-  ],
-  "evolution": [
-    "related",
-    "quote_count"
-  ],
-  "why": [
-    "related",
-    "quote_count"
-  ],
-  "expectations": [
-    "related",
-    "quote_count"
-  ],
-  "serendipity": [
-    "related",
-    "quote_count"
-  ],
-  "torture": [
-    "related",
-    "quote_count"
-  ],
-  "liars": [
-    "related",
-    "quote_count"
-  ],
-  "lying": [
-    "related",
-    "quote_count"
-  ],
-  "doubt": [
-    "related",
-    "quote_count"
-  ],
-  "disaster": [
-    "related",
-    "quote_count"
-  ],
-  "politics": [
-    "related",
-    "quote_count"
-  ],
-  "wit": [
-    "related",
-    "quote_count"
-  ],
-  "play": [
-    "related",
-    "quote_count"
-  ],
-  "the present": [
-    "related",
-    "quote_count"
-  ],
-  "banality": [
-    "related",
-    "quote_count"
-  ],
-  "honesty": [
-    "related",
-    "quote_count"
-  ],
-  "speaking": [
-    "related",
-    "quote_count"
-  ],
-  "failure": [
-    "related",
-    "quote_count"
-  ],
-  "freedom": [
-    "related",
-    "quote_count"
-  ],
-  "ethics": [
-    "related",
-    "quote_count"
-  ],
-  "travel": [
-    "related",
-    "quote_count"
-  ],
-  "age": [
-    "related",
-    "quote_count"
-  ],
-  "childhood": [
-    "related",
-    "quote_count"
-  ],
-  "meaning": [
-    "related",
-    "quote_count"
-  ],
-  "ageing": [
-    "related",
-    "quote_count"
-  ],
-  "gratitude": [
-    "related",
-    "quote_count"
-  ],
-  "consciousness": [
-    "related",
-    "quote_count"
-  ],
-  "gambling": [
-    "related",
-    "quote_count"
-  ],
-  "adventure": [
-    "related",
-    "quote_count"
-  ],
-  "heaven": [
-    "related",
-    "quote_count"
-  ],
-  "satisfaction": [
-    "related",
-    "quote_count"
-  ],
-  "talking": [
-    "related",
-    "quote_count"
-  ],
-  "odds": [
-    "related",
-    "quote_count"
-  ],
-  "spirit": [
-    "related",
-    "quote_count"
-  ],
-  "wonder": [
-    "related",
-    "quote_count"
-  ],
-  "invention": [
-    "related",
-    "quote_count"
-  ],
-  "machines": [
-    "related",
-    "quote_count"
-  ],
-  "nighttime": [
-    "related",
-    "quote_count"
-  ],
-  "garbage": [
-    "related",
-    "quote_count"
-  ],
-  "ownership": [
-    "related",
-    "quote_count"
-  ],
-  "connections": [
-    "related",
-    "quote_count"
-  ],
-  "process": [
-    "related",
-    "quote_count"
-  ],
-  "certainty": [
-    "related",
-    "quote_count"
-  ],
-  "earth": [
-    "related",
-    "quote_count"
-  ],
-  "painting": [
-    "related",
-    "quote_count"
-  ],
-  "patience": [
-    "related",
-    "quote_count"
-  ],
-  "the sea": [
-    "related",
-    "quote_count"
-  ],
-  "improvement": [
-    "related",
-    "quote_count"
-  ],
-  "dying": [
-    "related",
-    "quote_count"
-  ],
-  "danger": [
-    "related",
-    "quote_count"
-  ],
-  "consumption": [
-    "related",
-    "quote_count"
-  ],
-  "prediction": [
-    "related",
-    "quote_count"
-  ]
+  "perfection": {
+    "related": [
+      {
+        "tag": "design",
+        "score": 4.6514
+      },
+      {
+        "tag": "creativity",
+        "score": 4.2759
+      }
+    ],
+    "quote_count": 5
+  },
+  "creativity": {
+    "related": [
+      {
+        "tag": "ideas",
+        "score": 10.0916
+      },
+      {
+        "tag": "design",
+        "score": 8.1875
+      },
+      {
+        "tag": "making",
+        "score": 6.7344
+      },
+      {
+        "tag": "thinking",
+        "score": 6.5251
+      },
+      {
+        "tag": "art",
+        "score": 4.9141
+      },
+      {
+        "tag": "imagination",
+        "score": 4.7299
+      },
+      {
+        "tag": "perfection",
+        "score": 4.2759
+      },
+      {
+        "tag": "problem solving",
+        "score": 4.2759
+      },
+      {
+        "tag": "work",
+        "score": 4.05
+      },
+      {
+        "tag": "invention",
+        "score": 4.0232
+      },
+      {
+        "tag": "the new",
+        "score": 3.6244
+      },
+      {
+        "tag": "childhood",
+        "score": 3.6244
+      },
+      {
+        "tag": "originality",
+        "score": 3.5043
+      },
+      {
+        "tag": "doing",
+        "score": 3.1883
+      },
+      {
+        "tag": "humankind",
+        "score": 2.9713
+      }
+    ],
+    "quote_count": 59
+  },
+  "design": {
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 8.1875
+      },
+      {
+        "tag": "ideas",
+        "score": 6.2667
+      },
+      {
+        "tag": "problem solving",
+        "score": 5.8631
+      },
+      {
+        "tag": "simplicity",
+        "score": 5.5697
+      },
+      {
+        "tag": "perfection",
+        "score": 4.6514
+      },
+      {
+        "tag": "difficulty",
+        "score": 3.8366
+      },
+      {
+        "tag": "originality",
+        "score": 3.8019
+      },
+      {
+        "tag": "work",
+        "score": 3.7147
+      },
+      {
+        "tag": "humans",
+        "score": 3.6906
+      },
+      {
+        "tag": "making",
+        "score": 3.6906
+      },
+      {
+        "tag": "experience",
+        "score": 3.3269
+      },
+      {
+        "tag": "the senses",
+        "score": 3.3269
+      },
+      {
+        "tag": "storytelling",
+        "score": 3.1285
+      },
+      {
+        "tag": "thinking",
+        "score": 3.0342
+      },
+      {
+        "tag": "the new",
+        "score": 2.7244
+      }
+    ],
+    "quote_count": 45
+  },
+  "simplicity": {
+    "related": [
+      {
+        "tag": "design",
+        "score": 5.5697
+      },
+      {
+        "tag": "difficulty",
+        "score": 4.8086
+      },
+      {
+        "tag": "creativity",
+        "score": 2.7429
+      }
+    ],
+    "quote_count": 6
+  },
+  "vision": {
+    "related": [
+      {
+        "tag": "seeing",
+        "score": 10.561
+      },
+      {
+        "tag": "looking",
+        "score": 6.6681
+      },
+      {
+        "tag": "perception",
+        "score": 5.3586
+      },
+      {
+        "tag": "artists",
+        "score": 3.6153
+      },
+      {
+        "tag": "understanding",
+        "score": 3.5621
+      },
+      {
+        "tag": "connections",
+        "score": 3.4859
+      },
+      {
+        "tag": "media",
+        "score": 3.1699
+      },
+      {
+        "tag": "darkness",
+        "score": 3.0005
+      },
+      {
+        "tag": "cities",
+        "score": 2.665
+      },
+      {
+        "tag": "change",
+        "score": 2.6117
+      },
+      {
+        "tag": "art",
+        "score": 2.4084
+      },
+      {
+        "tag": "perspective",
+        "score": 2.279
+      },
+      {
+        "tag": "time",
+        "score": 1.7426
+      }
+    ],
+    "quote_count": 20
+  },
+  "language": {
+    "related": [
+      {
+        "tag": "words",
+        "score": 11.8049
+      },
+      {
+        "tag": "writing",
+        "score": 5.893
+      },
+      {
+        "tag": "clarity",
+        "score": 4.4046
+      },
+      {
+        "tag": "definition",
+        "score": 4.0885
+      },
+      {
+        "tag": "understanding",
+        "score": 3.8954
+      },
+      {
+        "tag": "banality",
+        "score": 3.6431
+      },
+      {
+        "tag": "cities",
+        "score": 3.5613
+      },
+      {
+        "tag": "media",
+        "score": 2.8816
+      },
+      {
+        "tag": "experience",
+        "score": 2.7937
+      },
+      {
+        "tag": "intelligence",
+        "score": 2.3768
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.3357
+      },
+      {
+        "tag": "reality",
+        "score": 2.2158
+      },
+      {
+        "tag": "art",
+        "score": 2.1202
+      },
+      {
+        "tag": "learning",
+        "score": 1.9908
+      },
+      {
+        "tag": "truth",
+        "score": 1.5055
+      }
+    ],
+    "quote_count": 26
+  },
+  "words": {
+    "related": [
+      {
+        "tag": "language",
+        "score": 11.8049
+      },
+      {
+        "tag": "writing",
+        "score": 5.8196
+      },
+      {
+        "tag": "clarity",
+        "score": 4.3631
+      },
+      {
+        "tag": "definition",
+        "score": 4.0471
+      },
+      {
+        "tag": "banality",
+        "score": 3.6016
+      },
+      {
+        "tag": "action",
+        "score": 3.1562
+      },
+      {
+        "tag": "understanding",
+        "score": 3.0792
+      },
+      {
+        "tag": "wisdom",
+        "score": 2.6708
+      },
+      {
+        "tag": "truth",
+        "score": 2.4094
+      },
+      {
+        "tag": "intelligence",
+        "score": 2.3354
+      },
+      {
+        "tag": "cities",
+        "score": 2.3354
+      },
+      {
+        "tag": "design",
+        "score": 2.3138
+      },
+      {
+        "tag": "reality",
+        "score": 2.1743
+      },
+      {
+        "tag": "art",
+        "score": 2.0788
+      },
+      {
+        "tag": "ideas",
+        "score": 1.6643
+      }
+    ],
+    "quote_count": 27
+  },
+  "looking": {
+    "related": [
+      {
+        "tag": "seeing",
+        "score": 8.3369
+      },
+      {
+        "tag": "vision",
+        "score": 6.6681
+      },
+      {
+        "tag": "perspective",
+        "score": 5.1475
+      },
+      {
+        "tag": "the self",
+        "score": 4.2573
+      },
+      {
+        "tag": "discovery",
+        "score": 3.9591
+      },
+      {
+        "tag": "cities",
+        "score": 3.1383
+      },
+      {
+        "tag": "perception",
+        "score": 2.7522
+      },
+      {
+        "tag": "life",
+        "score": 1.7216
+      }
+    ],
+    "quote_count": 13
+  },
+  "media": {
+    "related": [
+      {
+        "tag": "culture",
+        "score": 4.708
+      },
+      {
+        "tag": "technology",
+        "score": 4.5652
+      },
+      {
+        "tag": "society",
+        "score": 4.4918
+      },
+      {
+        "tag": "the senses",
+        "score": 3.6431
+      },
+      {
+        "tag": "vision",
+        "score": 3.1699
+      },
+      {
+        "tag": "progress",
+        "score": 3.0651
+      },
+      {
+        "tag": "language",
+        "score": 2.8816
+      },
+      {
+        "tag": "truth",
+        "score": 2.3548
+      },
+      {
+        "tag": "change",
+        "score": 2.1855
+      }
+    ],
+    "quote_count": 12
+  },
+  "ruin": {
+    "related": [
+      {
+        "tag": "collapse",
+        "score": 6.4609
+      },
+      {
+        "tag": "the end",
+        "score": 4.6928
+      },
+      {
+        "tag": "decay",
+        "score": 4.4925
+      },
+      {
+        "tag": "evil",
+        "score": 4.4925
+      },
+      {
+        "tag": "society",
+        "score": 2.9544
+      },
+      {
+        "tag": "humanity",
+        "score": 2.9247
+      }
+    ],
+    "quote_count": 4
+  },
+  "society": {
+    "related": [
+      {
+        "tag": "culture",
+        "score": 8.0674
+      },
+      {
+        "tag": "progress",
+        "score": 5.7301
+      },
+      {
+        "tag": "civilisation",
+        "score": 5.4575
+      },
+      {
+        "tag": "technology",
+        "score": 4.6696
+      },
+      {
+        "tag": "madness",
+        "score": 4.6477
+      },
+      {
+        "tag": "humanity",
+        "score": 4.6147
+      },
+      {
+        "tag": "pessimism",
+        "score": 4.543
+      },
+      {
+        "tag": "media",
+        "score": 4.4918
+      },
+      {
+        "tag": "america",
+        "score": 4.3388
+      },
+      {
+        "tag": "power",
+        "score": 4.092
+      },
+      {
+        "tag": "stupidity",
+        "score": 3.9671
+      },
+      {
+        "tag": "happiness",
+        "score": 3.7654
+      },
+      {
+        "tag": "destruction",
+        "score": 3.4275
+      },
+      {
+        "tag": "collapse",
+        "score": 3.2704
+      },
+      {
+        "tag": "garbage",
+        "score": 3.2704
+      }
+    ],
+    "quote_count": 73
+  },
+  "decay": {
+    "related": [
+      {
+        "tag": "destruction",
+        "score": 5.6808
+      },
+      {
+        "tag": "the end",
+        "score": 5.5697
+      },
+      {
+        "tag": "death",
+        "score": 5.2429
+      },
+      {
+        "tag": "collapse",
+        "score": 4.8086
+      },
+      {
+        "tag": "end times",
+        "score": 4.8086
+      },
+      {
+        "tag": "ruin",
+        "score": 4.4925
+      },
+      {
+        "tag": "entropy",
+        "score": 4.4925
+      },
+      {
+        "tag": "civilisation",
+        "score": 3.8777
+      },
+      {
+        "tag": "time",
+        "score": 3.8378
+      },
+      {
+        "tag": "life",
+        "score": 3.1138
+      },
+      {
+        "tag": "society",
+        "score": 3.0231
+      },
+      {
+        "tag": "cities",
+        "score": 2.7808
+      },
+      {
+        "tag": "nature",
+        "score": 2.4793
+      },
+      {
+        "tag": "humanity",
+        "score": 1.2726
+      }
+    ],
+    "quote_count": 18
+  },
+  "culture": {
+    "related": [
+      {
+        "tag": "society",
+        "score": 8.0674
+      },
+      {
+        "tag": "media",
+        "score": 4.708
+      },
+      {
+        "tag": "evolution",
+        "score": 4.0471
+      },
+      {
+        "tag": "progress",
+        "score": 3.8678
+      },
+      {
+        "tag": "america",
+        "score": 2.7808
+      },
+      {
+        "tag": "change",
+        "score": 2.7578
+      },
+      {
+        "tag": "art",
+        "score": 2.5241
+      },
+      {
+        "tag": "individuality",
+        "score": 2.5241
+      },
+      {
+        "tag": "learning",
+        "score": 2.3948
+      },
+      {
+        "tag": "truth",
+        "score": 1.9094
+      },
+      {
+        "tag": "technology",
+        "score": 1.9094
+      },
+      {
+        "tag": "humanity",
+        "score": 1.2726
+      }
+    ],
+    "quote_count": 18
+  },
+  "collapse": {
+    "related": [
+      {
+        "tag": "ruin",
+        "score": 6.4609
+      },
+      {
+        "tag": "decay",
+        "score": 4.8086
+      },
+      {
+        "tag": "society",
+        "score": 3.2704
+      }
+    ],
+    "quote_count": 3
+  },
+  "perspective": {
+    "related": [
+      {
+        "tag": "views",
+        "score": 6.6853
+      },
+      {
+        "tag": "looking",
+        "score": 5.1475
+      },
+      {
+        "tag": "seeing",
+        "score": 4.3757
+      },
+      {
+        "tag": "doubt",
+        "score": 4.2666
+      },
+      {
+        "tag": "uncertainty",
+        "score": 4.2666
+      },
+      {
+        "tag": "opinion",
+        "score": 3.8019
+      },
+      {
+        "tag": "stories",
+        "score": 3.4323
+      },
+      {
+        "tag": "artists",
+        "score": 3.2856
+      },
+      {
+        "tag": "values",
+        "score": 3.1562
+      },
+      {
+        "tag": "facts",
+        "score": 3.1562
+      },
+      {
+        "tag": "storytelling",
+        "score": 2.595
+      },
+      {
+        "tag": "memory",
+        "score": 2.5241
+      },
+      {
+        "tag": "vision",
+        "score": 2.279
+      },
+      {
+        "tag": "change",
+        "score": 2.1958
+      },
+      {
+        "tag": "purpose",
+        "score": 2.0788
+      }
+    ],
+    "quote_count": 27
+  },
+  "interpretation": {
+    "related": [
+      {
+        "tag": "storytelling",
+        "score": 4.6928
+      }
+    ],
+    "quote_count": 4
+  },
+  "music": {
+    "related": [
+      {
+        "tag": "songs",
+        "score": 5.2849
+      },
+      {
+        "tag": "creativity",
+        "score": 2.5736
+      }
+    ],
+    "quote_count": 7
+  },
+  "emotion": {
+    "related": [
+      {
+        "tag": "wisdom",
+        "score": 4.5235
+      },
+      {
+        "tag": "understanding",
+        "score": 3.193
+      }
+    ],
+    "quote_count": 5
+  },
+  "purpose": {
+    "related": [
+      {
+        "tag": "direction",
+        "score": 5.6059
+      },
+      {
+        "tag": "why",
+        "score": 5.6059
+      },
+      {
+        "tag": "meaning",
+        "score": 4.8713
+      },
+      {
+        "tag": "values",
+        "score": 4.708
+      },
+      {
+        "tag": "existence",
+        "score": 4.171
+      },
+      {
+        "tag": "literature",
+        "score": 3.5617
+      },
+      {
+        "tag": "storytelling",
+        "score": 2.7244
+      },
+      {
+        "tag": "living",
+        "score": 2.7244
+      },
+      {
+        "tag": "life",
+        "score": 2.6509
+      },
+      {
+        "tag": "america",
+        "score": 2.4648
+      },
+      {
+        "tag": "art",
+        "score": 2.2081
+      },
+      {
+        "tag": "perspective",
+        "score": 2.0788
+      },
+      {
+        "tag": "humanity",
+        "score": 1.7691
+      },
+      {
+        "tag": "understanding",
+        "score": 1.4699
+      },
+      {
+        "tag": "creativity",
+        "score": 1.2202
+      }
+    ],
+    "quote_count": 24
+  },
+  "expression": {
+    "related": [
+      {
+        "tag": "writing",
+        "score": 4.4925
+      },
+      {
+        "tag": "ideas",
+        "score": 4.078
+      }
+    ],
+    "quote_count": 3
+  },
+  "art": {
+    "related": [
+      {
+        "tag": "artists",
+        "score": 7.2113
+      },
+      {
+        "tag": "painting",
+        "score": 5.2701
+      },
+      {
+        "tag": "creativity",
+        "score": 4.9141
+      },
+      {
+        "tag": "the unknown",
+        "score": 3.9313
+      },
+      {
+        "tag": "beauty",
+        "score": 3.9313
+      },
+      {
+        "tag": "humour",
+        "score": 2.7244
+      },
+      {
+        "tag": "happiness",
+        "score": 2.5241
+      },
+      {
+        "tag": "culture",
+        "score": 2.5241
+      },
+      {
+        "tag": "design",
+        "score": 2.4771
+      },
+      {
+        "tag": "vision",
+        "score": 2.4084
+      },
+      {
+        "tag": "writing",
+        "score": 2.2081
+      },
+      {
+        "tag": "purpose",
+        "score": 2.2081
+      },
+      {
+        "tag": "language",
+        "score": 2.1202
+      },
+      {
+        "tag": "words",
+        "score": 2.0788
+      },
+      {
+        "tag": "ideas",
+        "score": 1.7937
+      }
+    ],
+    "quote_count": 24
+  },
+  "ideas": {
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 10.0916
+      },
+      {
+        "tag": "thinking",
+        "score": 9.1781
+      },
+      {
+        "tag": "design",
+        "score": 6.2667
+      },
+      {
+        "tag": "walking",
+        "score": 5.6694
+      },
+      {
+        "tag": "the mind",
+        "score": 5.1521
+      },
+      {
+        "tag": "invention",
+        "score": 4.7471
+      },
+      {
+        "tag": "imagination",
+        "score": 4.7298
+      },
+      {
+        "tag": "expression",
+        "score": 4.078
+      },
+      {
+        "tag": "making",
+        "score": 4.039
+      },
+      {
+        "tag": "the new",
+        "score": 3.0005
+      },
+      {
+        "tag": "connections",
+        "score": 2.8711
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.6962
+      },
+      {
+        "tag": "poetry",
+        "score": 2.5551
+      },
+      {
+        "tag": "memory",
+        "score": 2.2391
+      },
+      {
+        "tag": "truth",
+        "score": 2.0497
+      }
+    ],
+    "quote_count": 35
+  },
+  "thinking": {
+    "related": [
+      {
+        "tag": "ideas",
+        "score": 9.1781
+      },
+      {
+        "tag": "creativity",
+        "score": 6.5251
+      },
+      {
+        "tag": "the mind",
+        "score": 6.4724
+      },
+      {
+        "tag": "problem solving",
+        "score": 5.2605
+      },
+      {
+        "tag": "walking",
+        "score": 5.2305
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.7383
+      },
+      {
+        "tag": "machines",
+        "score": 3.7234
+      },
+      {
+        "tag": "understanding",
+        "score": 3.6998
+      },
+      {
+        "tag": "consciousness",
+        "score": 3.3538
+      },
+      {
+        "tag": "design",
+        "score": 3.0342
+      },
+      {
+        "tag": "making",
+        "score": 2.962
+      },
+      {
+        "tag": "the brain",
+        "score": 2.962
+      },
+      {
+        "tag": "imagination",
+        "score": 2.6737
+      },
+      {
+        "tag": "the self",
+        "score": 2.047
+      },
+      {
+        "tag": "learning",
+        "score": 1.8709
+      }
+    ],
+    "quote_count": 29
+  },
+  "perception": {
+    "related": [
+      {
+        "tag": "seeing",
+        "score": 8.1273
+      },
+      {
+        "tag": "vision",
+        "score": 5.3586
+      },
+      {
+        "tag": "the self",
+        "score": 5.1082
+      },
+      {
+        "tag": "eyes",
+        "score": 4.0471
+      },
+      {
+        "tag": "movement",
+        "score": 3.8019
+      },
+      {
+        "tag": "expectations",
+        "score": 3.8019
+      },
+      {
+        "tag": "consciousness",
+        "score": 3.4323
+      },
+      {
+        "tag": "existence",
+        "score": 3.3029
+      },
+      {
+        "tag": "the brain",
+        "score": 3.0405
+      },
+      {
+        "tag": "looking",
+        "score": 2.7522
+      },
+      {
+        "tag": "suffering",
+        "score": 2.6708
+      },
+      {
+        "tag": "society",
+        "score": 2.3707
+      },
+      {
+        "tag": "intelligence",
+        "score": 2.3354
+      },
+      {
+        "tag": "understanding",
+        "score": 2.2535
+      },
+      {
+        "tag": "reality",
+        "score": 2.1743
+      }
+    ],
+    "quote_count": 27
+  },
+  "the senses": {
+    "related": [
+      {
+        "tag": "media",
+        "score": 3.6431
+      },
+      {
+        "tag": "the senses",
+        "score": 3.5552
+      },
+      {
+        "tag": "design",
+        "score": 3.3269
+      },
+      {
+        "tag": "books",
+        "score": 2.6005
+      }
+    ],
+    "quote_count": 13
+  },
+  "doing": {
+    "related": [
+      {
+        "tag": "action",
+        "score": 5.254
+      },
+      {
+        "tag": "creativity",
+        "score": 3.1883
+      }
+    ],
+    "quote_count": 4
+  },
+  "science": {
+    "related": [
+      {
+        "tag": "curiosity",
+        "score": 5.3092
+      },
+      {
+        "tag": "wonder",
+        "score": 5.3092
+      },
+      {
+        "tag": "uncertainty",
+        "score": 5.177
+      },
+      {
+        "tag": "doubt",
+        "score": 5.177
+      },
+      {
+        "tag": "technology",
+        "score": 4.3171
+      },
+      {
+        "tag": "facts",
+        "score": 3.8777
+      },
+      {
+        "tag": "religion",
+        "score": 3.5617
+      },
+      {
+        "tag": "truth",
+        "score": 3.3198
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.1937
+      },
+      {
+        "tag": "progress",
+        "score": 2.8958
+      },
+      {
+        "tag": "learning",
+        "score": 2.6708
+      },
+      {
+        "tag": "society",
+        "score": 1.5783
+      }
+    ],
+    "quote_count": 14
+  },
+  "uncertainty": {
+    "related": [
+      {
+        "tag": "doubt",
+        "score": 13.1076
+      },
+      {
+        "tag": "certainty",
+        "score": 6.6044
+      },
+      {
+        "tag": "science",
+        "score": 5.177
+      },
+      {
+        "tag": "the unknown",
+        "score": 4.7884
+      },
+      {
+        "tag": "views",
+        "score": 4.7884
+      },
+      {
+        "tag": "perspective",
+        "score": 4.2666
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.528
+      },
+      {
+        "tag": "time",
+        "score": 2.3993
+      }
+    ],
+    "quote_count": 11
+  },
+  "curiosity": {
+    "related": [
+      {
+        "tag": "wonder",
+        "score": 12.8771
+      },
+      {
+        "tag": "science",
+        "score": 5.3092
+      },
+      {
+        "tag": "learning",
+        "score": 4.3987
+      },
+      {
+        "tag": "education",
+        "score": 4.2474
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.6601
+      },
+      {
+        "tag": "truth",
+        "score": 2.5551
+      },
+      {
+        "tag": "understanding",
+        "score": 2.4315
+      }
+    ],
+    "quote_count": 10
+  },
+  "the unknown": {
+    "related": [
+      {
+        "tag": "uncertainty",
+        "score": 4.7884
+      },
+      {
+        "tag": "doubt",
+        "score": 4.7884
+      },
+      {
+        "tag": "art",
+        "score": 3.9313
+      }
+    ],
+    "quote_count": 5
+  },
+  "beauty": {
+    "related": [
+      {
+        "tag": "art",
+        "score": 3.9313
+      }
+    ],
+    "quote_count": 5
+  },
+  "wonder": {
+    "related": [
+      {
+        "tag": "curiosity",
+        "score": 12.8771
+      },
+      {
+        "tag": "science",
+        "score": 5.3092
+      },
+      {
+        "tag": "learning",
+        "score": 4.3987
+      },
+      {
+        "tag": "education",
+        "score": 4.2474
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.6601
+      },
+      {
+        "tag": "truth",
+        "score": 2.5551
+      },
+      {
+        "tag": "understanding",
+        "score": 2.4315
+      }
+    ],
+    "quote_count": 10
+  },
+  "doubt": {
+    "related": [
+      {
+        "tag": "uncertainty",
+        "score": 13.1076
+      },
+      {
+        "tag": "certainty",
+        "score": 6.6044
+      },
+      {
+        "tag": "science",
+        "score": 5.177
+      },
+      {
+        "tag": "the unknown",
+        "score": 4.7884
+      },
+      {
+        "tag": "views",
+        "score": 4.7884
+      },
+      {
+        "tag": "perspective",
+        "score": 4.2666
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.528
+      },
+      {
+        "tag": "time",
+        "score": 2.3993
+      }
+    ],
+    "quote_count": 11
+  },
+  "writing": {
+    "related": [
+      {
+        "tag": "language",
+        "score": 5.893
+      },
+      {
+        "tag": "words",
+        "score": 5.8196
+      },
+      {
+        "tag": "literature",
+        "score": 5.0564
+      },
+      {
+        "tag": "expression",
+        "score": 4.4925
+      },
+      {
+        "tag": "wit",
+        "score": 4.1765
+      },
+      {
+        "tag": "storytelling",
+        "score": 3.9999
+      },
+      {
+        "tag": "books",
+        "score": 3.9385
+      },
+      {
+        "tag": "banality",
+        "score": 3.731
+      },
+      {
+        "tag": "meaning",
+        "score": 3.415
+      },
+      {
+        "tag": "art",
+        "score": 2.2081
+      },
+      {
+        "tag": "creativity",
+        "score": 2.1016
+      },
+      {
+        "tag": "death",
+        "score": 1.8921
+      },
+      {
+        "tag": "knowledge",
+        "score": 1.4935
+      },
+      {
+        "tag": "life",
+        "score": 1.0482
+      }
+    ],
+    "quote_count": 24
+  },
+  "knowledge": {
+    "related": [
+      {
+        "tag": "learning",
+        "score": 8.2161
+      },
+      {
+        "tag": "understanding",
+        "score": 7.4918
+      },
+      {
+        "tag": "wisdom",
+        "score": 5.043
+      },
+      {
+        "tag": "education",
+        "score": 4.8818
+      },
+      {
+        "tag": "intelligence",
+        "score": 4.4959
+      },
+      {
+        "tag": "thinking",
+        "score": 3.7383
+      },
+      {
+        "tag": "curiosity",
+        "score": 3.6601
+      },
+      {
+        "tag": "wonder",
+        "score": 3.6601
+      },
+      {
+        "tag": "books",
+        "score": 3.6188
+      },
+      {
+        "tag": "why",
+        "score": 3.528
+      },
+      {
+        "tag": "uncertainty",
+        "score": 3.528
+      },
+      {
+        "tag": "doubt",
+        "score": 3.528
+      },
+      {
+        "tag": "ignorance",
+        "score": 3.4074
+      },
+      {
+        "tag": "science",
+        "score": 3.1937
+      },
+      {
+        "tag": "truth",
+        "score": 3.0748
+      }
+    ],
+    "quote_count": 46
+  },
+  "the world": {
+    "related": [
+      {
+        "tag": "existence",
+        "score": 4.7777
+      },
+      {
+        "tag": "understanding",
+        "score": 4.0388
+      },
+      {
+        "tag": "change",
+        "score": 3.9641
+      },
+      {
+        "tag": "life",
+        "score": 3.3509
+      },
+      {
+        "tag": "madness",
+        "score": 3.0651
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.4466
+      },
+      {
+        "tag": "reality",
+        "score": 2.3037
+      },
+      {
+        "tag": "individuality",
+        "score": 2.2081
+      },
+      {
+        "tag": "perspective",
+        "score": 2.0788
+      },
+      {
+        "tag": "books",
+        "score": 1.927
+      },
+      {
+        "tag": "time",
+        "score": 1.5423
+      },
+      {
+        "tag": "society",
+        "score": 0.9863
+      }
+    ],
+    "quote_count": 24
+  },
+  "books": {
+    "related": [
+      {
+        "tag": "reading",
+        "score": 10.1344
+      },
+      {
+        "tag": "libraries",
+        "score": 9.5176
+      },
+      {
+        "tag": "collecting",
+        "score": 5.9214
+      },
+      {
+        "tag": "literature",
+        "score": 4.7016
+      },
+      {
+        "tag": "connections",
+        "score": 4.3532
+      },
+      {
+        "tag": "writing",
+        "score": 3.9385
+      },
+      {
+        "tag": "serendipity",
+        "score": 3.8953
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.6188
+      },
+      {
+        "tag": "discovery",
+        "score": 3.0044
+      },
+      {
+        "tag": "poetry",
+        "score": 2.6884
+      },
+      {
+        "tag": "experience",
+        "score": 2.6005
+      },
+      {
+        "tag": "the senses",
+        "score": 2.6005
+      },
+      {
+        "tag": "humour",
+        "score": 2.4433
+      },
+      {
+        "tag": "the world",
+        "score": 1.927
+      },
+      {
+        "tag": "learning",
+        "score": 1.7976
+      }
+    ],
+    "quote_count": 31
+  },
+  "anarchy": {
+    "related": [
+      {
+        "tag": "bureaucracy",
+        "score": 5.5301
+      },
+      {
+        "tag": "government",
+        "score": 5.3834
+      }
+    ],
+    "quote_count": 4
+  },
+  "libraries": {
+    "related": [
+      {
+        "tag": "books",
+        "score": 9.5176
+      },
+      {
+        "tag": "reading",
+        "score": 6.4118
+      },
+      {
+        "tag": "collecting",
+        "score": 6.2701
+      },
+      {
+        "tag": "serendipity",
+        "score": 5.1382
+      },
+      {
+        "tag": "connections",
+        "score": 4.2474
+      }
+    ],
+    "quote_count": 10
+  },
+  "collecting": {
+    "related": [
+      {
+        "tag": "libraries",
+        "score": 6.2701
+      },
+      {
+        "tag": "books",
+        "score": 5.9214
+      },
+      {
+        "tag": "reading",
+        "score": 4.0071
+      }
+    ],
+    "quote_count": 7
+  },
+  "reading": {
+    "related": [
+      {
+        "tag": "books",
+        "score": 10.1344
+      },
+      {
+        "tag": "libraries",
+        "score": 6.4118
+      },
+      {
+        "tag": "literature",
+        "score": 4.0071
+      },
+      {
+        "tag": "collecting",
+        "score": 4.0071
+      },
+      {
+        "tag": "humour",
+        "score": 3.1699
+      },
+      {
+        "tag": "time",
+        "score": 1.9877
+      },
+      {
+        "tag": "knowledge",
+        "score": 1.9389
+      },
+      {
+        "tag": "change",
+        "score": 1.8695
+      }
+    ],
+    "quote_count": 16
+  },
+  "memory": {
+    "related": [
+      {
+        "tag": "history",
+        "score": 6.0457
+      },
+      {
+        "tag": "the past",
+        "score": 5.8703
+      },
+      {
+        "tag": "time",
+        "score": 4.8834
+      },
+      {
+        "tag": "meaning",
+        "score": 3.8604
+      },
+      {
+        "tag": "change",
+        "score": 3.8542
+      },
+      {
+        "tag": "the future",
+        "score": 2.9102
+      },
+      {
+        "tag": "existence",
+        "score": 2.5727
+      },
+      {
+        "tag": "perspective",
+        "score": 2.5241
+      },
+      {
+        "tag": "death",
+        "score": 2.3375
+      },
+      {
+        "tag": "ideas",
+        "score": 2.2391
+      },
+      {
+        "tag": "life",
+        "score": 1.4935
+      }
+    ],
+    "quote_count": 16
+  },
+  "the past": {
+    "related": [
+      {
+        "tag": "the future",
+        "score": 7.5522
+      },
+      {
+        "tag": "time",
+        "score": 7.3145
+      },
+      {
+        "tag": "the present",
+        "score": 7.2008
+      },
+      {
+        "tag": "change",
+        "score": 6.421
+      },
+      {
+        "tag": "history",
+        "score": 6.2849
+      },
+      {
+        "tag": "memory",
+        "score": 5.8703
+      },
+      {
+        "tag": "fear",
+        "score": 3.5617
+      },
+      {
+        "tag": "death",
+        "score": 2.4842
+      }
+    ],
+    "quote_count": 14
+  },
+  "stories": {
+    "related": [
+      {
+        "tag": "storytelling",
+        "score": 5.708
+      },
+      {
+        "tag": "songs",
+        "score": 5.2849
+      },
+      {
+        "tag": "perspective",
+        "score": 3.4323
+      },
+      {
+        "tag": "time",
+        "score": 2.8958
+      }
+    ],
+    "quote_count": 7
+  },
+  "values": {
+    "related": [
+      {
+        "tag": "acceptance",
+        "score": 5.254
+      },
+      {
+        "tag": "purpose",
+        "score": 4.708
+      },
+      {
+        "tag": "wisdom",
+        "score": 3.8777
+      },
+      {
+        "tag": "society",
+        "score": 3.166
+      },
+      {
+        "tag": "perspective",
+        "score": 3.1562
+      }
+    ],
+    "quote_count": 9
+  },
+  "reality": {
+    "related": [
+      {
+        "tag": "dreams",
+        "score": 6.4733
+      },
+      {
+        "tag": "life",
+        "score": 4.1632
+      },
+      {
+        "tag": "living",
+        "score": 4.1205
+      },
+      {
+        "tag": "utopia",
+        "score": 4.0269
+      },
+      {
+        "tag": "existence",
+        "score": 3.6698
+      },
+      {
+        "tag": "truth",
+        "score": 3.5898
+      },
+      {
+        "tag": "falsehood",
+        "score": 3.2654
+      },
+      {
+        "tag": "imagination",
+        "score": 2.9772
+      },
+      {
+        "tag": "cities",
+        "score": 2.5603
+      },
+      {
+        "tag": "the world",
+        "score": 2.3037
+      },
+      {
+        "tag": "language",
+        "score": 2.2158
+      },
+      {
+        "tag": "perception",
+        "score": 2.1743
+      },
+      {
+        "tag": "words",
+        "score": 2.1743
+      },
+      {
+        "tag": "ideas",
+        "score": 1.8893
+      },
+      {
+        "tag": "creativity",
+        "score": 1.3157
+      }
+    ],
+    "quote_count": 22
+  },
+  "truth": {
+    "related": [
+      {
+        "tag": "facts",
+        "score": 8.3875
+      },
+      {
+        "tag": "honesty",
+        "score": 8.156
+      },
+      {
+        "tag": "falsehood",
+        "score": 7.4412
+      },
+      {
+        "tag": "speaking",
+        "score": 5.4552
+      },
+      {
+        "tag": "liars",
+        "score": 5.0564
+      },
+      {
+        "tag": "lying",
+        "score": 5.0564
+      },
+      {
+        "tag": "fear",
+        "score": 4.5652
+      },
+      {
+        "tag": "reality",
+        "score": 3.5898
+      },
+      {
+        "tag": "individuality",
+        "score": 3.4497
+      },
+      {
+        "tag": "wisdom",
+        "score": 3.3198
+      },
+      {
+        "tag": "science",
+        "score": 3.3198
+      },
+      {
+        "tag": "expectations",
+        "score": 3.3165
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.0748
+      },
+      {
+        "tag": "consciousness",
+        "score": 2.9469
+      },
+      {
+        "tag": "history",
+        "score": 2.6317
+      }
+    ],
+    "quote_count": 42
+  },
+  "happiness": {
+    "related": [
+      {
+        "tag": "comfort",
+        "score": 6.231
+      },
+      {
+        "tag": "pain",
+        "score": 4.2474
+      },
+      {
+        "tag": "society",
+        "score": 3.7654
+      },
+      {
+        "tag": "suffering",
+        "score": 3.1163
+      },
+      {
+        "tag": "life",
+        "score": 3.1138
+      },
+      {
+        "tag": "art",
+        "score": 2.5241
+      },
+      {
+        "tag": "humanity",
+        "score": 1.2726
+      }
+    ],
+    "quote_count": 18
+  },
+  "australia": {
+    "related": [],
+    "quote_count": 5
+  },
+  "comfort": {
+    "related": [
+      {
+        "tag": "happiness",
+        "score": 6.231
+      },
+      {
+        "tag": "society",
+        "score": 2.9544
+      }
+    ],
+    "quote_count": 4
+  },
+  "individuality": {
+    "related": [
+      {
+        "tag": "the self",
+        "score": 4.4188
+      },
+      {
+        "tag": "philosophy",
+        "score": 3.5617
+      },
+      {
+        "tag": "truth",
+        "score": 3.4497
+      },
+      {
+        "tag": "creativity",
+        "score": 2.9028
+      },
+      {
+        "tag": "culture",
+        "score": 2.5241
+      },
+      {
+        "tag": "intelligence",
+        "score": 2.4648
+      },
+      {
+        "tag": "humankind",
+        "score": 2.2549
+      },
+      {
+        "tag": "the world",
+        "score": 2.2081
+      },
+      {
+        "tag": "perception",
+        "score": 2.0788
+      },
+      {
+        "tag": "perspective",
+        "score": 2.0788
+      },
+      {
+        "tag": "humanity",
+        "score": 1.7691
+      },
+      {
+        "tag": "design",
+        "score": 1.5177
+      },
+      {
+        "tag": "change",
+        "score": 1.4241
+      },
+      {
+        "tag": "existence",
+        "score": 1.1481
+      },
+      {
+        "tag": "society",
+        "score": 0.9863
+      }
+    ],
+    "quote_count": 24
+  },
+  "god": {
+    "related": [
+      {
+        "tag": "religion",
+        "score": 5.6689
+      },
+      {
+        "tag": "belief",
+        "score": 4.2474
+      },
+      {
+        "tag": "humankind",
+        "score": 3.3323
+      },
+      {
+        "tag": "humanity",
+        "score": 2.0339
+      }
+    ],
+    "quote_count": 9
+  },
+  "property": {
+    "related": [],
+    "quote_count": 3
+  },
+  "revolution": {
+    "related": [
+      {
+        "tag": "change",
+        "score": 3.1472
+      }
+    ],
+    "quote_count": 5
+  },
+  "fear": {
+    "related": [
+      {
+        "tag": "truth",
+        "score": 4.5652
+      },
+      {
+        "tag": "the past",
+        "score": 3.5617
+      },
+      {
+        "tag": "learning",
+        "score": 2.8402
+      },
+      {
+        "tag": "society",
+        "score": 2.7672
+      },
+      {
+        "tag": "death",
+        "score": 2.6535
+      }
+    ],
+    "quote_count": 12
+  },
+  "rules": {
+    "related": [
+      {
+        "tag": "control",
+        "score": 5.6185
+      },
+      {
+        "tag": "bureaucracy",
+        "score": 4.7686
+      },
+      {
+        "tag": "order",
+        "score": 4.3768
+      },
+      {
+        "tag": "society",
+        "score": 2.193
+      }
+    ],
+    "quote_count": 8
+  },
+  "order": {
+    "related": [
+      {
+        "tag": "control",
+        "score": 5.3092
+      },
+      {
+        "tag": "chaos",
+        "score": 4.8931
+      },
+      {
+        "tag": "bureaucracy",
+        "score": 4.5235
+      },
+      {
+        "tag": "rules",
+        "score": 4.3768
+      },
+      {
+        "tag": "society",
+        "score": 3.02
+      },
+      {
+        "tag": "understanding",
+        "score": 2.4315
+      }
+    ],
+    "quote_count": 10
+  },
+  "living": {
+    "related": [
+      {
+        "tag": "life",
+        "score": 6.7417
+      },
+      {
+        "tag": "existence",
+        "score": 4.3559
+      },
+      {
+        "tag": "reality",
+        "score": 4.1205
+      },
+      {
+        "tag": "ageing",
+        "score": 3.8019
+      },
+      {
+        "tag": "death",
+        "score": 3.6011
+      },
+      {
+        "tag": "time",
+        "score": 3.1597
+      },
+      {
+        "tag": "purpose",
+        "score": 2.7244
+      },
+      {
+        "tag": "design",
+        "score": 2.0339
+      },
+      {
+        "tag": "change",
+        "score": 1.9404
+      },
+      {
+        "tag": "humanity",
+        "score": 1.4728
+      }
+    ],
+    "quote_count": 15
+  },
+  "change": {
+    "related": [
+      {
+        "tag": "time",
+        "score": 9.1108
+      },
+      {
+        "tag": "the past",
+        "score": 6.421
+      },
+      {
+        "tag": "progress",
+        "score": 5.4812
+      },
+      {
+        "tag": "history",
+        "score": 4.7427
+      },
+      {
+        "tag": "technology",
+        "score": 4.6643
+      },
+      {
+        "tag": "the future",
+        "score": 4.3827
+      },
+      {
+        "tag": "the world",
+        "score": 3.9641
+      },
+      {
+        "tag": "memory",
+        "score": 3.8542
+      },
+      {
+        "tag": "revolution",
+        "score": 3.1472
+      },
+      {
+        "tag": "destruction",
+        "score": 3.1061
+      },
+      {
+        "tag": "evolution",
+        "score": 2.9469
+      },
+      {
+        "tag": "the present",
+        "score": 2.7776
+      },
+      {
+        "tag": "culture",
+        "score": 2.7578
+      },
+      {
+        "tag": "the new",
+        "score": 2.6309
+      },
+      {
+        "tag": "vision",
+        "score": 2.6117
+      }
+    ],
+    "quote_count": 49
+  },
+  "time": {
+    "related": [
+      {
+        "tag": "change",
+        "score": 9.1108
+      },
+      {
+        "tag": "the past",
+        "score": 7.3145
+      },
+      {
+        "tag": "the future",
+        "score": 6.0098
+      },
+      {
+        "tag": "the present",
+        "score": 5.3578
+      },
+      {
+        "tag": "memory",
+        "score": 4.8834
+      },
+      {
+        "tag": "history",
+        "score": 4.2332
+      },
+      {
+        "tag": "ageing",
+        "score": 3.8678
+      },
+      {
+        "tag": "decay",
+        "score": 3.8378
+      },
+      {
+        "tag": "patience",
+        "score": 3.8266
+      },
+      {
+        "tag": "jobs",
+        "score": 3.5106
+      },
+      {
+        "tag": "songs",
+        "score": 3.2654
+      },
+      {
+        "tag": "living",
+        "score": 3.1597
+      },
+      {
+        "tag": "evolution",
+        "score": 3.0651
+      },
+      {
+        "tag": "stories",
+        "score": 2.8958
+      },
+      {
+        "tag": "work",
+        "score": 2.832
+      }
+    ],
+    "quote_count": 44
+  },
+  "history": {
+    "related": [
+      {
+        "tag": "the past",
+        "score": 6.2849
+      },
+      {
+        "tag": "memory",
+        "score": 6.0457
+      },
+      {
+        "tag": "change",
+        "score": 4.7427
+      },
+      {
+        "tag": "time",
+        "score": 4.2332
+      },
+      {
+        "tag": "facts",
+        "score": 3.3323
+      },
+      {
+        "tag": "death",
+        "score": 3.0086
+      },
+      {
+        "tag": "truth",
+        "score": 2.6317
+      },
+      {
+        "tag": "the future",
+        "score": 2.5115
+      },
+      {
+        "tag": "progress",
+        "score": 2.3505
+      },
+      {
+        "tag": "humanity",
+        "score": 1.828
+      },
+      {
+        "tag": "knowledge",
+        "score": 1.5403
+      },
+      {
+        "tag": "society",
+        "score": 1.0331
+      }
+    ],
+    "quote_count": 23
+  },
+  "direction": {
+    "related": [
+      {
+        "tag": "paths",
+        "score": 6.3516
+      },
+      {
+        "tag": "purpose",
+        "score": 5.6059
+      },
+      {
+        "tag": "the future",
+        "score": 3.3218
+      },
+      {
+        "tag": "design",
+        "score": 2.3746
+      }
+    ],
+    "quote_count": 11
+  },
+  "paths": {
+    "related": [
+      {
+        "tag": "direction",
+        "score": 6.3516
+      },
+      {
+        "tag": "wandering",
+        "score": 5.6994
+      },
+      {
+        "tag": "the future",
+        "score": 3.9877
+      },
+      {
+        "tag": "life",
+        "score": 2.5709
+      }
+    ],
+    "quote_count": 6
+  },
+  "falsehood": {
+    "related": [
+      {
+        "tag": "truth",
+        "score": 7.4412
+      },
+      {
+        "tag": "liars",
+        "score": 7.0458
+      },
+      {
+        "tag": "lying",
+        "score": 7.0458
+      },
+      {
+        "tag": "honesty",
+        "score": 4.1316
+      },
+      {
+        "tag": "reality",
+        "score": 3.2654
+      }
+    ],
+    "quote_count": 10
+  },
+  "progress": {
+    "related": [
+      {
+        "tag": "technology",
+        "score": 9.8486
+      },
+      {
+        "tag": "society",
+        "score": 5.7301
+      },
+      {
+        "tag": "change",
+        "score": 5.4812
+      },
+      {
+        "tag": "machines",
+        "score": 4.0269
+      },
+      {
+        "tag": "culture",
+        "score": 3.8678
+      },
+      {
+        "tag": "media",
+        "score": 3.0651
+      },
+      {
+        "tag": "existence",
+        "score": 2.9373
+      },
+      {
+        "tag": "destruction",
+        "score": 2.8958
+      },
+      {
+        "tag": "science",
+        "score": 2.8958
+      },
+      {
+        "tag": "history",
+        "score": 2.3505
+      },
+      {
+        "tag": "knowledge",
+        "score": 1.5891
+      },
+      {
+        "tag": "life",
+        "score": 1.1438
+      },
+      {
+        "tag": "humanity",
+        "score": 1.0522
+      }
+    ],
+    "quote_count": 22
+  },
+  "technology": {
+    "related": [
+      {
+        "tag": "progress",
+        "score": 9.8486
+      },
+      {
+        "tag": "machines",
+        "score": 7.0508
+      },
+      {
+        "tag": "the future",
+        "score": 5.4144
+      },
+      {
+        "tag": "the new",
+        "score": 5.2178
+      },
+      {
+        "tag": "society",
+        "score": 4.6696
+      },
+      {
+        "tag": "change",
+        "score": 4.6643
+      },
+      {
+        "tag": "media",
+        "score": 4.5652
+      },
+      {
+        "tag": "science",
+        "score": 4.3171
+      },
+      {
+        "tag": "humanity",
+        "score": 3.7292
+      },
+      {
+        "tag": "destruction",
+        "score": 3.3198
+      },
+      {
+        "tag": "control",
+        "score": 3.3198
+      },
+      {
+        "tag": "invention",
+        "score": 3.1163
+      },
+      {
+        "tag": "humans",
+        "score": 2.5551
+      },
+      {
+        "tag": "madness",
+        "score": 2.4504
+      },
+      {
+        "tag": "power",
+        "score": 2.1097
+      }
+    ],
+    "quote_count": 42
+  },
+  "destruction": {
+    "related": [
+      {
+        "tag": "decay",
+        "score": 5.6808
+      },
+      {
+        "tag": "humans",
+        "score": 3.762
+      },
+      {
+        "tag": "society",
+        "score": 3.4275
+      },
+      {
+        "tag": "control",
+        "score": 3.3923
+      },
+      {
+        "tag": "humanity",
+        "score": 3.3841
+      },
+      {
+        "tag": "technology",
+        "score": 3.3198
+      },
+      {
+        "tag": "the end",
+        "score": 3.3165
+      },
+      {
+        "tag": "evil",
+        "score": 3.1163
+      },
+      {
+        "tag": "change",
+        "score": 3.1061
+      },
+      {
+        "tag": "progress",
+        "score": 2.8958
+      },
+      {
+        "tag": "nature",
+        "score": 2.7554
+      },
+      {
+        "tag": "time",
+        "score": 2.1344
+      }
+    ],
+    "quote_count": 14
+  },
+  "war": {
+    "related": [
+      {
+        "tag": "america",
+        "score": 4.7537
+      },
+      {
+        "tag": "humanity",
+        "score": 3.7721
+      },
+      {
+        "tag": "society",
+        "score": 1.8432
+      }
+    ],
+    "quote_count": 11
+  },
+  "america": {
+    "related": [
+      {
+        "tag": "stupidity",
+        "score": 4.7948
+      },
+      {
+        "tag": "war",
+        "score": 4.7537
+      },
+      {
+        "tag": "violence",
+        "score": 4.4331
+      },
+      {
+        "tag": "society",
+        "score": 4.3388
+      },
+      {
+        "tag": "capitalism",
+        "score": 3.925
+      },
+      {
+        "tag": "culture",
+        "score": 2.7808
+      },
+      {
+        "tag": "purpose",
+        "score": 2.4648
+      },
+      {
+        "tag": "existence",
+        "score": 1.4047
+      },
+      {
+        "tag": "humanity",
+        "score": 1.2132
+      }
+    ],
+    "quote_count": 19
+  },
+  "control": {
+    "related": [
+      {
+        "tag": "power",
+        "score": 5.9742
+      },
+      {
+        "tag": "bureaucracy",
+        "score": 5.8036
+      },
+      {
+        "tag": "rules",
+        "score": 5.6185
+      },
+      {
+        "tag": "order",
+        "score": 5.3092
+      },
+      {
+        "tag": "government",
+        "score": 4.0071
+      },
+      {
+        "tag": "destruction",
+        "score": 3.3923
+      },
+      {
+        "tag": "technology",
+        "score": 3.3198
+      },
+      {
+        "tag": "capitalism",
+        "score": 3.0005
+      },
+      {
+        "tag": "society",
+        "score": 2.5536
+      }
+    ],
+    "quote_count": 14
+  },
+  "intelligence": {
+    "related": [
+      {
+        "tag": "the brain",
+        "score": 6.1353
+      },
+      {
+        "tag": "stupidity",
+        "score": 4.7948
+      },
+      {
+        "tag": "knowledge",
+        "score": 4.4959
+      },
+      {
+        "tag": "information",
+        "score": 4.4331
+      },
+      {
+        "tag": "the mind",
+        "score": 3.4265
+      },
+      {
+        "tag": "experience",
+        "score": 3.1383
+      },
+      {
+        "tag": "wisdom",
+        "score": 3.0569
+      },
+      {
+        "tag": "understanding",
+        "score": 2.7406
+      },
+      {
+        "tag": "individuality",
+        "score": 2.4648
+      },
+      {
+        "tag": "language",
+        "score": 2.3768
+      },
+      {
+        "tag": "words",
+        "score": 2.3354
+      },
+      {
+        "tag": "perception",
+        "score": 2.3354
+      }
+    ],
+    "quote_count": 19
+  },
+  "clarity": {
+    "related": [
+      {
+        "tag": "language",
+        "score": 4.4046
+      },
+      {
+        "tag": "words",
+        "score": 4.3631
+      },
+      {
+        "tag": "understanding",
+        "score": 3.7542
+      }
+    ],
+    "quote_count": 3
+  },
+  "understanding": {
+    "related": [
+      {
+        "tag": "knowledge",
+        "score": 7.4918
+      },
+      {
+        "tag": "why",
+        "score": 4.5242
+      },
+      {
+        "tag": "philosophy",
+        "score": 4.1247
+      },
+      {
+        "tag": "the world",
+        "score": 4.0388
+      },
+      {
+        "tag": "language",
+        "score": 3.8954
+      },
+      {
+        "tag": "discovery",
+        "score": 3.7764
+      },
+      {
+        "tag": "clarity",
+        "score": 3.7542
+      },
+      {
+        "tag": "thinking",
+        "score": 3.6998
+      },
+      {
+        "tag": "vision",
+        "score": 3.5621
+      },
+      {
+        "tag": "seeing",
+        "score": 3.4836
+      },
+      {
+        "tag": "definition",
+        "score": 3.4381
+      },
+      {
+        "tag": "ignorance",
+        "score": 3.3776
+      },
+      {
+        "tag": "the self",
+        "score": 3.3372
+      },
+      {
+        "tag": "stupidity",
+        "score": 3.3372
+      },
+      {
+        "tag": "emotion",
+        "score": 3.193
+      }
+    ],
+    "quote_count": 47
+  },
+  "the brain": {
+    "related": [
+      {
+        "tag": "intelligence",
+        "score": 6.1353
+      },
+      {
+        "tag": "the mind",
+        "score": 5.7756
+      },
+      {
+        "tag": "connections",
+        "score": 4.2474
+      },
+      {
+        "tag": "learning",
+        "score": 3.0405
+      },
+      {
+        "tag": "perception",
+        "score": 3.0405
+      },
+      {
+        "tag": "thinking",
+        "score": 2.962
+      }
+    ],
+    "quote_count": 10
+  },
+  "the mind": {
+    "related": [
+      {
+        "tag": "thinking",
+        "score": 6.4724
+      },
+      {
+        "tag": "the brain",
+        "score": 5.7756
+      },
+      {
+        "tag": "ideas",
+        "score": 5.1521
+      },
+      {
+        "tag": "money",
+        "score": 3.9313
+      },
+      {
+        "tag": "intelligence",
+        "score": 3.4265
+      },
+      {
+        "tag": "creativity",
+        "score": 2.1818
+      }
+    ],
+    "quote_count": 10
+  },
+  "definition": {
+    "related": [
+      {
+        "tag": "language",
+        "score": 4.0885
+      },
+      {
+        "tag": "words",
+        "score": 4.0471
+      },
+      {
+        "tag": "understanding",
+        "score": 3.4381
+      }
+    ],
+    "quote_count": 4
+  },
+  "logic": {
+    "related": [],
+    "quote_count": 4
+  },
+  "seeing": {
+    "related": [
+      {
+        "tag": "vision",
+        "score": 10.561
+      },
+      {
+        "tag": "looking",
+        "score": 8.3369
+      },
+      {
+        "tag": "perception",
+        "score": 8.1273
+      },
+      {
+        "tag": "perspective",
+        "score": 4.3757
+      },
+      {
+        "tag": "eyes",
+        "score": 4.3232
+      },
+      {
+        "tag": "understanding",
+        "score": 3.4836
+      },
+      {
+        "tag": "connections",
+        "score": 3.4323
+      },
+      {
+        "tag": "imagination",
+        "score": 3.0283
+      },
+      {
+        "tag": "cities",
+        "score": 2.6114
+      },
+      {
+        "tag": "the future",
+        "score": 2.6114
+      },
+      {
+        "tag": "the self",
+        "score": 2.4016
+      },
+      {
+        "tag": "humanity",
+        "score": 1.9541
+      }
+    ],
+    "quote_count": 21
+  },
+  "love": {
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 3.9255
+      },
+      {
+        "tag": "power",
+        "score": 3.6862
+      },
+      {
+        "tag": "society",
+        "score": 1.9479
+      }
+    ],
+    "quote_count": 10
+  },
+  "depth": {
+    "related": [],
+    "quote_count": 3
+  },
+  "evil": {
+    "related": [
+      {
+        "tag": "good",
+        "score": 5.9217
+      },
+      {
+        "tag": "humanity",
+        "score": 5.5907
+      },
+      {
+        "tag": "monsters",
+        "score": 4.8086
+      },
+      {
+        "tag": "ruin",
+        "score": 4.4925
+      },
+      {
+        "tag": "the devil",
+        "score": 3.8777
+      },
+      {
+        "tag": "destruction",
+        "score": 3.1163
+      },
+      {
+        "tag": "darkness",
+        "score": 3.1163
+      },
+      {
+        "tag": "the end",
+        "score": 3.0405
+      },
+      {
+        "tag": "humankind",
+        "score": 2.5709
+      },
+      {
+        "tag": "society",
+        "score": 1.3023
+      }
+    ],
+    "quote_count": 18
+  },
+  "civilisation": {
+    "related": [
+      {
+        "tag": "society",
+        "score": 5.4575
+      },
+      {
+        "tag": "decay",
+        "score": 3.8777
+      }
+    ],
+    "quote_count": 7
+  },
+  "good": {
+    "related": [
+      {
+        "tag": "evil",
+        "score": 5.9217
+      }
+    ],
+    "quote_count": 5
+  },
+  "humanity": {
+    "related": [
+      {
+        "tag": "humankind",
+        "score": 6.5048
+      },
+      {
+        "tag": "evil",
+        "score": 5.5907
+      },
+      {
+        "tag": "humans",
+        "score": 5.5351
+      },
+      {
+        "tag": "stupidity",
+        "score": 5.0521
+      },
+      {
+        "tag": "eschatology",
+        "score": 4.6514
+      },
+      {
+        "tag": "end times",
+        "score": 4.6514
+      },
+      {
+        "tag": "society",
+        "score": 4.6147
+      },
+      {
+        "tag": "nature",
+        "score": 4.3303
+      },
+      {
+        "tag": "earth",
+        "score": 4.2846
+      },
+      {
+        "tag": "the end",
+        "score": 4.0436
+      },
+      {
+        "tag": "disaster",
+        "score": 3.9433
+      },
+      {
+        "tag": "love",
+        "score": 3.9255
+      },
+      {
+        "tag": "war",
+        "score": 3.7721
+      },
+      {
+        "tag": "technology",
+        "score": 3.7292
+      },
+      {
+        "tag": "religion",
+        "score": 3.6321
+      }
+    ],
+    "quote_count": 75
+  },
+  "storytelling": {
+    "related": [
+      {
+        "tag": "narrative",
+        "score": 6.8826
+      },
+      {
+        "tag": "stories",
+        "score": 5.708
+      },
+      {
+        "tag": "interpretation",
+        "score": 4.6928
+      },
+      {
+        "tag": "writing",
+        "score": 3.9999
+      },
+      {
+        "tag": "design",
+        "score": 3.1285
+      },
+      {
+        "tag": "purpose",
+        "score": 2.7244
+      },
+      {
+        "tag": "perspective",
+        "score": 2.595
+      }
+    ],
+    "quote_count": 15
+  },
+  "suffering": {
+    "related": [
+      {
+        "tag": "existence",
+        "score": 6.5259
+      },
+      {
+        "tag": "pain",
+        "score": 4.5235
+      },
+      {
+        "tag": "life",
+        "score": 4.3166
+      },
+      {
+        "tag": "hell",
+        "score": 4.1538
+      },
+      {
+        "tag": "happiness",
+        "score": 3.1163
+      },
+      {
+        "tag": "the self",
+        "score": 2.847
+      },
+      {
+        "tag": "perception",
+        "score": 2.6708
+      },
+      {
+        "tag": "humanity",
+        "score": 2.5161
+      }
+    ],
+    "quote_count": 14
+  },
+  "pain": {
+    "related": [
+      {
+        "tag": "suffering",
+        "score": 4.5235
+      },
+      {
+        "tag": "happiness",
+        "score": 4.2474
+      }
+    ],
+    "quote_count": 5
+  },
+  "uniqueness": {
+    "related": [],
+    "quote_count": 3
+  },
+  "laws": {
+    "related": [],
+    "quote_count": 5
+  },
+  "success": {
+    "related": [],
+    "quote_count": 4
+  },
+  "money": {
+    "related": [
+      {
+        "tag": "capitalism",
+        "score": 9.3856
+      },
+      {
+        "tag": "the mind",
+        "score": 3.9313
+      },
+      {
+        "tag": "society",
+        "score": 1.7476
+      }
+    ],
+    "quote_count": 12
+  },
+  "difficulty": {
+    "related": [
+      {
+        "tag": "simplicity",
+        "score": 4.8086
+      },
+      {
+        "tag": "design",
+        "score": 3.8366
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.5709
+      },
+      {
+        "tag": "understanding",
+        "score": 2.5473
+      }
+    ],
+    "quote_count": 9
+  },
+  "problems": {
+    "related": [],
+    "quote_count": 3
+  },
+  "life": {
+    "related": [
+      {
+        "tag": "existence",
+        "score": 9.655
+      },
+      {
+        "tag": "living",
+        "score": 6.7417
+      },
+      {
+        "tag": "death",
+        "score": 5.4567
+      },
+      {
+        "tag": "suffering",
+        "score": 4.3166
+      },
+      {
+        "tag": "ageing",
+        "score": 4.2293
+      },
+      {
+        "tag": "reality",
+        "score": 4.1632
+      },
+      {
+        "tag": "songs",
+        "score": 4.0589
+      },
+      {
+        "tag": "humour",
+        "score": 3.4072
+      },
+      {
+        "tag": "the world",
+        "score": 3.3509
+      },
+      {
+        "tag": "satisfaction",
+        "score": 3.3323
+      },
+      {
+        "tag": "decay",
+        "score": 3.1138
+      },
+      {
+        "tag": "happiness",
+        "score": 3.1138
+      },
+      {
+        "tag": "eyes",
+        "score": 3.0163
+      },
+      {
+        "tag": "wandering",
+        "score": 3.0163
+      },
+      {
+        "tag": "dying",
+        "score": 3.0163
+      }
+    ],
+    "quote_count": 69
+  },
+  "learning": {
+    "related": [
+      {
+        "tag": "education",
+        "score": 8.579
+      },
+      {
+        "tag": "knowledge",
+        "score": 8.2161
+      },
+      {
+        "tag": "curiosity",
+        "score": 4.3987
+      },
+      {
+        "tag": "wonder",
+        "score": 4.3987
+      },
+      {
+        "tag": "experience",
+        "score": 4.035
+      },
+      {
+        "tag": "the new",
+        "score": 3.2856
+      },
+      {
+        "tag": "the brain",
+        "score": 3.0405
+      },
+      {
+        "tag": "fear",
+        "score": 2.8402
+      },
+      {
+        "tag": "ignorance",
+        "score": 2.8402
+      },
+      {
+        "tag": "science",
+        "score": 2.6708
+      },
+      {
+        "tag": "truth",
+        "score": 2.4094
+      },
+      {
+        "tag": "culture",
+        "score": 2.3948
+      },
+      {
+        "tag": "language",
+        "score": 1.9908
+      },
+      {
+        "tag": "thinking",
+        "score": 1.8709
+      },
+      {
+        "tag": "books",
+        "score": 1.7976
+      }
+    ],
+    "quote_count": 27
+  },
+  "problem solving": {
+    "related": [
+      {
+        "tag": "design",
+        "score": 5.8631
+      },
+      {
+        "tag": "thinking",
+        "score": 5.2605
+      },
+      {
+        "tag": "creativity",
+        "score": 4.2759
+      }
+    ],
+    "quote_count": 5
+  },
+  "artists": {
+    "related": [
+      {
+        "tag": "art",
+        "score": 7.2113
+      },
+      {
+        "tag": "painting",
+        "score": 4.9379
+      },
+      {
+        "tag": "vision",
+        "score": 3.6153
+      },
+      {
+        "tag": "perspective",
+        "score": 3.2856
+      },
+      {
+        "tag": "creativity",
+        "score": 2.4269
+      }
+    ],
+    "quote_count": 8
+  },
+  "faith": {
+    "related": [
+      {
+        "tag": "belief",
+        "score": 7.0458
+      },
+      {
+        "tag": "religion",
+        "score": 6.7931
+      },
+      {
+        "tag": "humanity",
+        "score": 2.9247
+      }
+    ],
+    "quote_count": 4
+  },
+  "death": {
+    "related": [
+      {
+        "tag": "the end",
+        "score": 8.5109
+      },
+      {
+        "tag": "dying",
+        "score": 6.771
+      },
+      {
+        "tag": "life",
+        "score": 5.4567
+      },
+      {
+        "tag": "decay",
+        "score": 5.2429
+      },
+      {
+        "tag": "ageing",
+        "score": 4.3092
+      },
+      {
+        "tag": "existence",
+        "score": 3.6112
+      },
+      {
+        "tag": "living",
+        "score": 3.6011
+      },
+      {
+        "tag": "earth",
+        "score": 3.099
+      },
+      {
+        "tag": "history",
+        "score": 3.0086
+      },
+      {
+        "tag": "fear",
+        "score": 2.6535
+      },
+      {
+        "tag": "the past",
+        "score": 2.4842
+      },
+      {
+        "tag": "humour",
+        "score": 2.4084
+      },
+      {
+        "tag": "memory",
+        "score": 2.3375
+      },
+      {
+        "tag": "time",
+        "score": 2.1095
+      },
+      {
+        "tag": "humanity",
+        "score": 2.0538
+      }
+    ],
+    "quote_count": 32
+  },
+  "belief": {
+    "related": [
+      {
+        "tag": "faith",
+        "score": 7.0458
+      },
+      {
+        "tag": "religion",
+        "score": 6.8748
+      },
+      {
+        "tag": "god",
+        "score": 4.2474
+      },
+      {
+        "tag": "humanity",
+        "score": 1.9182
+      }
+    ],
+    "quote_count": 10
+  },
+  "walking": {
+    "related": [
+      {
+        "tag": "wandering",
+        "score": 6.0849
+      },
+      {
+        "tag": "ideas",
+        "score": 5.6694
+      },
+      {
+        "tag": "thinking",
+        "score": 5.2305
+      },
+      {
+        "tag": "cities",
+        "score": 5.0197
+      },
+      {
+        "tag": "adventure",
+        "score": 3.9313
+      },
+      {
+        "tag": "discovery",
+        "score": 3.4859
+      },
+      {
+        "tag": "poetry",
+        "score": 3.1699
+      },
+      {
+        "tag": "truth",
+        "score": 1.7937
+      },
+      {
+        "tag": "creativity",
+        "score": 1.4204
+      }
+    ],
+    "quote_count": 20
+  },
+  "poetry": {
+    "related": [
+      {
+        "tag": "walking",
+        "score": 3.1699
+      },
+      {
+        "tag": "books",
+        "score": 2.6884
+      },
+      {
+        "tag": "ideas",
+        "score": 2.5551
+      },
+      {
+        "tag": "truth",
+        "score": 2.3548
+      },
+      {
+        "tag": "time",
+        "score": 2.3037
+      }
+    ],
+    "quote_count": 12
+  },
+  "existence": {
+    "related": [
+      {
+        "tag": "life",
+        "score": 9.655
+      },
+      {
+        "tag": "suffering",
+        "score": 6.5259
+      },
+      {
+        "tag": "the world",
+        "score": 4.7777
+      },
+      {
+        "tag": "darkness",
+        "score": 4.4796
+      },
+      {
+        "tag": "living",
+        "score": 4.3559
+      },
+      {
+        "tag": "purpose",
+        "score": 4.171
+      },
+      {
+        "tag": "hell",
+        "score": 3.7186
+      },
+      {
+        "tag": "dreams",
+        "score": 3.7186
+      },
+      {
+        "tag": "reality",
+        "score": 3.6698
+      },
+      {
+        "tag": "death",
+        "score": 3.6112
+      },
+      {
+        "tag": "the self",
+        "score": 3.5902
+      },
+      {
+        "tag": "ageing",
+        "score": 3.3702
+      },
+      {
+        "tag": "perception",
+        "score": 3.3029
+      },
+      {
+        "tag": "age",
+        "score": 3.1163
+      },
+      {
+        "tag": "madness",
+        "score": 3.0921
+      }
+    ],
+    "quote_count": 63
+  },
+  "hell": {
+    "related": [
+      {
+        "tag": "suffering",
+        "score": 4.1538
+      },
+      {
+        "tag": "darkness",
+        "score": 4.1538
+      },
+      {
+        "tag": "existence",
+        "score": 3.7186
+      },
+      {
+        "tag": "life",
+        "score": 2.4016
+      }
+    ],
+    "quote_count": 7
+  },
+  "the devil": {
+    "related": [
+      {
+        "tag": "evil",
+        "score": 3.8777
+      },
+      {
+        "tag": "humankind",
+        "score": 3.6084
+      },
+      {
+        "tag": "humanity",
+        "score": 2.31
+      }
+    ],
+    "quote_count": 7
+  },
+  "humankind": {
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 6.5048
+      },
+      {
+        "tag": "stupidity",
+        "score": 5.3954
+      },
+      {
+        "tag": "pessimism",
+        "score": 5.1154
+      },
+      {
+        "tag": "the devil",
+        "score": 3.6084
+      },
+      {
+        "tag": "god",
+        "score": 3.3323
+      },
+      {
+        "tag": "religion",
+        "score": 3.0163
+      },
+      {
+        "tag": "creativity",
+        "score": 2.9713
+      },
+      {
+        "tag": "society",
+        "score": 2.6287
+      },
+      {
+        "tag": "evil",
+        "score": 2.5709
+      },
+      {
+        "tag": "individuality",
+        "score": 2.2549
+      },
+      {
+        "tag": "change",
+        "score": 1.4709
+      }
+    ],
+    "quote_count": 23
+  },
+  "pessimism": {
+    "related": [
+      {
+        "tag": "humankind",
+        "score": 5.1154
+      },
+      {
+        "tag": "society",
+        "score": 4.543
+      },
+      {
+        "tag": "existence",
+        "score": 2.5015
+      }
+    ],
+    "quote_count": 7
+  },
+  "stupidity": {
+    "related": [
+      {
+        "tag": "humankind",
+        "score": 5.3954
+      },
+      {
+        "tag": "humanity",
+        "score": 5.0521
+      },
+      {
+        "tag": "america",
+        "score": 4.7948
+      },
+      {
+        "tag": "intelligence",
+        "score": 4.7948
+      },
+      {
+        "tag": "opinion",
+        "score": 3.9781
+      },
+      {
+        "tag": "society",
+        "score": 3.9671
+      },
+      {
+        "tag": "understanding",
+        "score": 3.3372
+      },
+      {
+        "tag": "ignorance",
+        "score": 3.0163
+      },
+      {
+        "tag": "the self",
+        "score": 2.3016
+      },
+      {
+        "tag": "knowledge",
+        "score": 1.5403
+      }
+    ],
+    "quote_count": 23
+  },
+  "action": {
+    "related": [
+      {
+        "tag": "doing",
+        "score": 5.254
+      },
+      {
+        "tag": "words",
+        "score": 3.1562
+      },
+      {
+        "tag": "creativity",
+        "score": 2.2975
+      },
+      {
+        "tag": "existence",
+        "score": 2.2254
+      }
+    ],
+    "quote_count": 9
+  },
+  "imagination": {
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 4.7299
+      },
+      {
+        "tag": "ideas",
+        "score": 4.7298
+      },
+      {
+        "tag": "the new",
+        "score": 4.0885
+      },
+      {
+        "tag": "childhood",
+        "score": 4.0885
+      },
+      {
+        "tag": "seeing",
+        "score": 3.0283
+      },
+      {
+        "tag": "reality",
+        "score": 2.9772
+      },
+      {
+        "tag": "thinking",
+        "score": 2.6737
+      },
+      {
+        "tag": "life",
+        "score": 1.7216
+      },
+      {
+        "tag": "humanity",
+        "score": 1.63
+      }
+    ],
+    "quote_count": 13
+  },
+  "humans": {
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 5.5351
+      },
+      {
+        "tag": "destruction",
+        "score": 3.762
+      },
+      {
+        "tag": "design",
+        "score": 3.6906
+      },
+      {
+        "tag": "society",
+        "score": 3.02
+      },
+      {
+        "tag": "technology",
+        "score": 2.5551
+      }
+    ],
+    "quote_count": 10
+  },
+  "darkness": {
+    "related": [
+      {
+        "tag": "nighttime",
+        "score": 7.7423
+      },
+      {
+        "tag": "monsters",
+        "score": 5.0846
+      },
+      {
+        "tag": "songs",
+        "score": 4.5235
+      },
+      {
+        "tag": "existence",
+        "score": 4.4796
+      },
+      {
+        "tag": "hell",
+        "score": 4.1538
+      },
+      {
+        "tag": "evil",
+        "score": 3.1163
+      },
+      {
+        "tag": "vision",
+        "score": 3.0005
+      },
+      {
+        "tag": "life",
+        "score": 1.6402
+      }
+    ],
+    "quote_count": 14
+  },
+  "violence": {
+    "related": [
+      {
+        "tag": "power",
+        "score": 4.6928
+      },
+      {
+        "tag": "america",
+        "score": 4.4331
+      }
+    ],
+    "quote_count": 4
+  },
+  "education": {
+    "related": [
+      {
+        "tag": "learning",
+        "score": 8.579
+      },
+      {
+        "tag": "ignorance",
+        "score": 5.6689
+      },
+      {
+        "tag": "knowledge",
+        "score": 4.8818
+      },
+      {
+        "tag": "curiosity",
+        "score": 4.2474
+      },
+      {
+        "tag": "wonder",
+        "score": 4.2474
+      }
+    ],
+    "quote_count": 9
+  },
+  "pleasure": {
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 2.7429
+      }
+    ],
+    "quote_count": 6
+  },
+  "wisdom": {
+    "related": [
+      {
+        "tag": "knowledge",
+        "score": 5.043
+      },
+      {
+        "tag": "emotion",
+        "score": 4.5235
+      },
+      {
+        "tag": "values",
+        "score": 3.8777
+      },
+      {
+        "tag": "truth",
+        "score": 3.3198
+      },
+      {
+        "tag": "intelligence",
+        "score": 3.0569
+      },
+      {
+        "tag": "words",
+        "score": 2.6708
+      },
+      {
+        "tag": "society",
+        "score": 2.5536
+      },
+      {
+        "tag": "understanding",
+        "score": 2.0619
+      }
+    ],
+    "quote_count": 14
+  },
+  "philosophy": {
+    "related": [
+      {
+        "tag": "understanding",
+        "score": 4.1247
+      },
+      {
+        "tag": "individuality",
+        "score": 3.5617
+      },
+      {
+        "tag": "life",
+        "score": 2.4016
+      }
+    ],
+    "quote_count": 7
+  },
+  "eyes": {
+    "related": [
+      {
+        "tag": "seeing",
+        "score": 4.3232
+      },
+      {
+        "tag": "perception",
+        "score": 4.0471
+      },
+      {
+        "tag": "life",
+        "score": 3.0163
+      }
+    ],
+    "quote_count": 4
+  },
+  "monsters": {
+    "related": [
+      {
+        "tag": "darkness",
+        "score": 5.0846
+      },
+      {
+        "tag": "evil",
+        "score": 4.8086
+      }
+    ],
+    "quote_count": 3
+  },
+  "cities": {
+    "related": [
+      {
+        "tag": "walking",
+        "score": 5.0197
+      },
+      {
+        "tag": "wandering",
+        "score": 4.4331
+      },
+      {
+        "tag": "language",
+        "score": 3.5613
+      },
+      {
+        "tag": "looking",
+        "score": 3.1383
+      },
+      {
+        "tag": "decay",
+        "score": 2.7808
+      },
+      {
+        "tag": "vision",
+        "score": 2.665
+      },
+      {
+        "tag": "seeing",
+        "score": 2.6114
+      },
+      {
+        "tag": "reality",
+        "score": 2.5603
+      },
+      {
+        "tag": "words",
+        "score": 2.3354
+      },
+      {
+        "tag": "time",
+        "score": 1.7989
+      },
+      {
+        "tag": "knowledge",
+        "score": 1.7501
+      },
+      {
+        "tag": "change",
+        "score": 1.6807
+      },
+      {
+        "tag": "life",
+        "score": 1.3048
+      },
+      {
+        "tag": "humanity",
+        "score": 1.2132
+      }
+    ],
+    "quote_count": 19
+  },
+  "experience": {
+    "related": [
+      {
+        "tag": "learning",
+        "score": 4.035
+      },
+      {
+        "tag": "design",
+        "score": 3.3269
+      },
+      {
+        "tag": "intelligence",
+        "score": 3.1383
+      },
+      {
+        "tag": "language",
+        "score": 2.7937
+      },
+      {
+        "tag": "books",
+        "score": 2.6005
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.167
+      },
+      {
+        "tag": "life",
+        "score": 1.7216
+      }
+    ],
+    "quote_count": 13
+  },
+  "facts": {
+    "related": [
+      {
+        "tag": "truth",
+        "score": 8.3875
+      },
+      {
+        "tag": "consciousness",
+        "score": 4.6392
+      },
+      {
+        "tag": "science",
+        "score": 3.8777
+      },
+      {
+        "tag": "history",
+        "score": 3.3323
+      },
+      {
+        "tag": "perspective",
+        "score": 3.1562
+      }
+    ],
+    "quote_count": 9
+  },
+  "government": {
+    "related": [
+      {
+        "tag": "bureaucracy",
+        "score": 8.1014
+      },
+      {
+        "tag": "anarchy",
+        "score": 5.3834
+      },
+      {
+        "tag": "control",
+        "score": 4.0071
+      },
+      {
+        "tag": "power",
+        "score": 3.9313
+      },
+      {
+        "tag": "society",
+        "score": 2.193
+      }
+    ],
+    "quote_count": 8
+  },
+  "the self": {
+    "related": [
+      {
+        "tag": "perception",
+        "score": 5.1082
+      },
+      {
+        "tag": "discovery",
+        "score": 4.767
+      },
+      {
+        "tag": "individuality",
+        "score": 4.4188
+      },
+      {
+        "tag": "looking",
+        "score": 4.2573
+      },
+      {
+        "tag": "existence",
+        "score": 3.5902
+      },
+      {
+        "tag": "understanding",
+        "score": 3.3372
+      },
+      {
+        "tag": "suffering",
+        "score": 2.847
+      },
+      {
+        "tag": "power",
+        "score": 2.7712
+      },
+      {
+        "tag": "humanity",
+        "score": 2.5852
+      },
+      {
+        "tag": "seeing",
+        "score": 2.4016
+      },
+      {
+        "tag": "stupidity",
+        "score": 2.3016
+      },
+      {
+        "tag": "creativity",
+        "score": 2.1606
+      },
+      {
+        "tag": "thinking",
+        "score": 2.047
+      },
+      {
+        "tag": "society",
+        "score": 1.8655
+      }
+    ],
+    "quote_count": 23
+  },
+  "the future": {
+    "related": [
+      {
+        "tag": "the past",
+        "score": 7.5522
+      },
+      {
+        "tag": "the present",
+        "score": 6.7093
+      },
+      {
+        "tag": "time",
+        "score": 6.0098
+      },
+      {
+        "tag": "technology",
+        "score": 5.4144
+      },
+      {
+        "tag": "change",
+        "score": 4.3827
+      },
+      {
+        "tag": "songs",
+        "score": 4.188
+      },
+      {
+        "tag": "paths",
+        "score": 3.9877
+      },
+      {
+        "tag": "direction",
+        "score": 3.3218
+      },
+      {
+        "tag": "memory",
+        "score": 2.9102
+      },
+      {
+        "tag": "seeing",
+        "score": 2.6114
+      },
+      {
+        "tag": "history",
+        "score": 2.5115
+      },
+      {
+        "tag": "society",
+        "score": 2.1303
+      },
+      {
+        "tag": "existence",
+        "score": 1.4047
+      },
+      {
+        "tag": "humanity",
+        "score": 1.2132
+      }
+    ],
+    "quote_count": 19
+  },
+  "songs": {
+    "related": [
+      {
+        "tag": "songs",
+        "score": 9.3994
+      },
+      {
+        "tag": "sadness",
+        "score": 5.8997
+      },
+      {
+        "tag": "doom",
+        "score": 5.6546
+      },
+      {
+        "tag": "stories",
+        "score": 5.2849
+      },
+      {
+        "tag": "music",
+        "score": 5.2849
+      },
+      {
+        "tag": "mistakes",
+        "score": 5.2849
+      },
+      {
+        "tag": "darkness",
+        "score": 4.5235
+      },
+      {
+        "tag": "the future",
+        "score": 4.188
+      },
+      {
+        "tag": "life",
+        "score": 4.0589
+      },
+      {
+        "tag": "time",
+        "score": 3.2654
+      },
+      {
+        "tag": "existence",
+        "score": 2.8711
+      }
+    ],
+    "quote_count": 5
+  },
+  "doom": {
+    "related": [
+      {
+        "tag": "songs",
+        "score": 5.6546
+      },
+      {
+        "tag": "existence",
+        "score": 2.8711
+      },
+      {
+        "tag": "life",
+        "score": 2.7712
+      }
+    ],
+    "quote_count": 5
+  },
+  "sadness": {
+    "related": [
+      {
+        "tag": "songs",
+        "score": 5.8997
+      },
+      {
+        "tag": "life",
+        "score": 3.0163
+      }
+    ],
+    "quote_count": 4
+  },
+  "ignorance": {
+    "related": [
+      {
+        "tag": "education",
+        "score": 5.6689
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.4074
+      },
+      {
+        "tag": "understanding",
+        "score": 3.3776
+      },
+      {
+        "tag": "stupidity",
+        "score": 3.0163
+      },
+      {
+        "tag": "learning",
+        "score": 2.8402
+      }
+    ],
+    "quote_count": 12
+  },
+  "dreams": {
+    "related": [
+      {
+        "tag": "reality",
+        "score": 6.4733
+      },
+      {
+        "tag": "existence",
+        "score": 3.7186
+      }
+    ],
+    "quote_count": 7
+  },
+  "complexity": {
+    "related": [],
+    "quote_count": 5
+  },
+  "mistakes": {
+    "related": [
+      {
+        "tag": "failure",
+        "score": 6.9782
+      },
+      {
+        "tag": "songs",
+        "score": 5.2849
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.847
+      },
+      {
+        "tag": "life",
+        "score": 2.4016
+      }
+    ],
+    "quote_count": 7
+  },
+  "madness": {
+    "related": [
+      {
+        "tag": "society",
+        "score": 4.6477
+      },
+      {
+        "tag": "existence",
+        "score": 3.0921
+      },
+      {
+        "tag": "the world",
+        "score": 3.0651
+      },
+      {
+        "tag": "technology",
+        "score": 2.4504
+      }
+    ],
+    "quote_count": 11
+  },
+  "movement": {
+    "related": [
+      {
+        "tag": "perception",
+        "score": 3.8019
+      }
+    ],
+    "quote_count": 5
+  },
+  "calmness": {
+    "related": [],
+    "quote_count": 3
+  },
+  "humour": {
+    "related": [
+      {
+        "tag": "life",
+        "score": 3.4072
+      },
+      {
+        "tag": "reading",
+        "score": 3.1699
+      },
+      {
+        "tag": "art",
+        "score": 2.7244
+      },
+      {
+        "tag": "books",
+        "score": 2.4433
+      },
+      {
+        "tag": "humanity",
+        "score": 2.4205
+      },
+      {
+        "tag": "death",
+        "score": 2.4084
+      },
+      {
+        "tag": "existence",
+        "score": 1.6643
+      }
+    ],
+    "quote_count": 15
+  },
+  "the new": {
+    "related": [
+      {
+        "tag": "technology",
+        "score": 5.2178
+      },
+      {
+        "tag": "imagination",
+        "score": 4.0885
+      },
+      {
+        "tag": "creativity",
+        "score": 3.6244
+      },
+      {
+        "tag": "learning",
+        "score": 3.2856
+      },
+      {
+        "tag": "ideas",
+        "score": 3.0005
+      },
+      {
+        "tag": "design",
+        "score": 2.7244
+      },
+      {
+        "tag": "change",
+        "score": 2.6309
+      }
+    ],
+    "quote_count": 8
+  },
+  "making": {
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 6.7344
+      },
+      {
+        "tag": "ideas",
+        "score": 4.039
+      },
+      {
+        "tag": "design",
+        "score": 3.6906
+      },
+      {
+        "tag": "thinking",
+        "score": 2.962
+      }
+    ],
+    "quote_count": 10
+  },
+  "religion": {
+    "related": [
+      {
+        "tag": "belief",
+        "score": 6.8748
+      },
+      {
+        "tag": "faith",
+        "score": 6.7931
+      },
+      {
+        "tag": "god",
+        "score": 5.6689
+      },
+      {
+        "tag": "humanity",
+        "score": 3.6321
+      },
+      {
+        "tag": "science",
+        "score": 3.5617
+      },
+      {
+        "tag": "humankind",
+        "score": 3.0163
+      }
+    ],
+    "quote_count": 12
+  },
+  "views": {
+    "related": [
+      {
+        "tag": "perspective",
+        "score": 6.6853
+      },
+      {
+        "tag": "doubt",
+        "score": 4.7884
+      },
+      {
+        "tag": "uncertainty",
+        "score": 4.7884
+      }
+    ],
+    "quote_count": 5
+  },
+  "power": {
+    "related": [
+      {
+        "tag": "control",
+        "score": 5.9742
+      },
+      {
+        "tag": "violence",
+        "score": 4.6928
+      },
+      {
+        "tag": "society",
+        "score": 4.092
+      },
+      {
+        "tag": "government",
+        "score": 3.9313
+      },
+      {
+        "tag": "love",
+        "score": 3.6862
+      },
+      {
+        "tag": "humanity",
+        "score": 3.273
+      },
+      {
+        "tag": "the self",
+        "score": 2.7712
+      },
+      {
+        "tag": "technology",
+        "score": 2.1097
+      }
+    ],
+    "quote_count": 15
+  },
+  "acceptance": {
+    "related": [
+      {
+        "tag": "values",
+        "score": 5.254
+      }
+    ],
+    "quote_count": 4
+  },
+  "chaos": {
+    "related": [
+      {
+        "tag": "order",
+        "score": 4.8931
+      },
+      {
+        "tag": "humanity",
+        "score": 2.6796
+      }
+    ],
+    "quote_count": 5
+  },
+  "attitude": {
+    "related": [],
+    "quote_count": 4
+  },
+  "opinion": {
+    "related": [
+      {
+        "tag": "stupidity",
+        "score": 3.9781
+      },
+      {
+        "tag": "perspective",
+        "score": 3.8019
+      },
+      {
+        "tag": "understanding",
+        "score": 3.193
+      },
+      {
+        "tag": "humanity",
+        "score": 2.6796
+      }
+    ],
+    "quote_count": 5
+  },
+  "originality": {
+    "related": [
+      {
+        "tag": "design",
+        "score": 3.8019
+      },
+      {
+        "tag": "creativity",
+        "score": 3.5043
+      }
+    ],
+    "quote_count": 3
+  },
+  "wandering": {
+    "related": [
+      {
+        "tag": "walking",
+        "score": 6.0849
+      },
+      {
+        "tag": "paths",
+        "score": 5.6994
+      },
+      {
+        "tag": "discovery",
+        "score": 5.254
+      },
+      {
+        "tag": "cities",
+        "score": 4.4331
+      },
+      {
+        "tag": "life",
+        "score": 3.0163
+      }
+    ],
+    "quote_count": 4
+  },
+  "nature": {
+    "related": [
+      {
+        "tag": "earth",
+        "score": 6.0527
+      },
+      {
+        "tag": "humanity",
+        "score": 4.3303
+      },
+      {
+        "tag": "evolution",
+        "score": 3.6862
+      },
+      {
+        "tag": "destruction",
+        "score": 2.7554
+      },
+      {
+        "tag": "decay",
+        "score": 2.4793
+      },
+      {
+        "tag": "understanding",
+        "score": 2.3602
+      },
+      {
+        "tag": "perception",
+        "score": 2.0339
+      },
+      {
+        "tag": "truth",
+        "score": 1.5486
+      },
+      {
+        "tag": "time",
+        "score": 1.4975
+      },
+      {
+        "tag": "change",
+        "score": 1.3793
+      }
+    ],
+    "quote_count": 25
+  },
+  "the end": {
+    "related": [
+      {
+        "tag": "death",
+        "score": 8.5109
+      },
+      {
+        "tag": "eschatology",
+        "score": 6.8826
+      },
+      {
+        "tag": "end times",
+        "score": 6.8826
+      },
+      {
+        "tag": "decay",
+        "score": 5.5697
+      },
+      {
+        "tag": "entropy",
+        "score": 4.6928
+      },
+      {
+        "tag": "ruin",
+        "score": 4.6928
+      },
+      {
+        "tag": "dying",
+        "score": 4.6928
+      },
+      {
+        "tag": "humanity",
+        "score": 4.0436
+      },
+      {
+        "tag": "destruction",
+        "score": 3.3165
+      },
+      {
+        "tag": "evil",
+        "score": 3.0405
+      }
+    ],
+    "quote_count": 15
+  },
+  "eschatology": {
+    "related": [
+      {
+        "tag": "the end",
+        "score": 6.8826
+      },
+      {
+        "tag": "end times",
+        "score": 6.777
+      },
+      {
+        "tag": "humanity",
+        "score": 4.6514
+      }
+    ],
+    "quote_count": 3
+  },
+  "entropy": {
+    "related": [
+      {
+        "tag": "the end",
+        "score": 4.6928
+      },
+      {
+        "tag": "decay",
+        "score": 4.4925
+      }
+    ],
+    "quote_count": 4
+  },
+  "end times": {
+    "related": [
+      {
+        "tag": "the end",
+        "score": 6.8826
+      },
+      {
+        "tag": "eschatology",
+        "score": 6.777
+      },
+      {
+        "tag": "decay",
+        "score": 4.8086
+      },
+      {
+        "tag": "humanity",
+        "score": 4.6514
+      }
+    ],
+    "quote_count": 3
+  },
+  "work": {
+    "related": [
+      {
+        "tag": "jobs",
+        "score": 7.6099
+      },
+      {
+        "tag": "capitalism",
+        "score": 5.0197
+      },
+      {
+        "tag": "collaboration",
+        "score": 4.188
+      },
+      {
+        "tag": "creativity",
+        "score": 4.05
+      },
+      {
+        "tag": "design",
+        "score": 3.7147
+      },
+      {
+        "tag": "time",
+        "score": 2.832
+      }
+    ],
+    "quote_count": 19
+  },
+  "capitalism": {
+    "related": [
+      {
+        "tag": "money",
+        "score": 9.3856
+      },
+      {
+        "tag": "economics",
+        "score": 6.0849
+      },
+      {
+        "tag": "work",
+        "score": 5.0197
+      },
+      {
+        "tag": "utopia",
+        "score": 4.1316
+      },
+      {
+        "tag": "america",
+        "score": 3.925
+      },
+      {
+        "tag": "control",
+        "score": 3.0005
+      },
+      {
+        "tag": "society",
+        "score": 2.0592
+      },
+      {
+        "tag": "technology",
+        "score": 1.7937
+      },
+      {
+        "tag": "existence",
+        "score": 1.3484
+      },
+      {
+        "tag": "life",
+        "score": 1.2484
+      },
+      {
+        "tag": "humanity",
+        "score": 1.1569
+      }
+    ],
+    "quote_count": 20
+  },
+  "jobs": {
+    "related": [
+      {
+        "tag": "work",
+        "score": 7.6099
+      },
+      {
+        "tag": "time",
+        "score": 3.5106
+      }
+    ],
+    "quote_count": 4
+  },
+  "collaboration": {
+    "related": [
+      {
+        "tag": "work",
+        "score": 4.188
+      },
+      {
+        "tag": "creativity",
+        "score": 2.9432
+      }
+    ],
+    "quote_count": 5
+  },
+  "mathematics": {
+    "related": [
+      {
+        "tag": "odds",
+        "score": 6.1449
+      }
+    ],
+    "quote_count": 4
+  },
+  "discovery": {
+    "related": [
+      {
+        "tag": "serendipity",
+        "score": 7.1919
+      },
+      {
+        "tag": "wandering",
+        "score": 5.254
+      },
+      {
+        "tag": "the self",
+        "score": 4.767
+      },
+      {
+        "tag": "looking",
+        "score": 3.9591
+      },
+      {
+        "tag": "understanding",
+        "score": 3.7764
+      },
+      {
+        "tag": "walking",
+        "score": 3.4859
+      },
+      {
+        "tag": "books",
+        "score": 3.0044
+      }
+    ],
+    "quote_count": 9
+  },
+  "simplification": {
+    "related": [],
+    "quote_count": 3
+  },
+  "bureaucracy": {
+    "related": [
+      {
+        "tag": "government",
+        "score": 8.1014
+      },
+      {
+        "tag": "control",
+        "score": 5.8036
+      },
+      {
+        "tag": "anarchy",
+        "score": 5.5301
+      },
+      {
+        "tag": "rules",
+        "score": 4.7686
+      },
+      {
+        "tag": "order",
+        "score": 4.5235
+      },
+      {
+        "tag": "society",
+        "score": 2.3397
+      }
+    ],
+    "quote_count": 7
+  },
+  "utopia": {
+    "related": [
+      {
+        "tag": "capitalism",
+        "score": 4.1316
+      },
+      {
+        "tag": "reality",
+        "score": 4.0269
+      }
+    ],
+    "quote_count": 5
+  },
+  "economics": {
+    "related": [
+      {
+        "tag": "capitalism",
+        "score": 6.0849
+      }
+    ],
+    "quote_count": 4
+  },
+  "information": {
+    "related": [
+      {
+        "tag": "intelligence",
+        "score": 4.4331
+      }
+    ],
+    "quote_count": 4
+  },
+  "narrative": {
+    "related": [
+      {
+        "tag": "storytelling",
+        "score": 6.8826
+      }
+    ],
+    "quote_count": 3
+  },
+  "luck": {
+    "related": [],
+    "quote_count": 5
+  },
+  "literature": {
+    "related": [
+      {
+        "tag": "writing",
+        "score": 5.0564
+      },
+      {
+        "tag": "books",
+        "score": 4.7016
+      },
+      {
+        "tag": "reading",
+        "score": 4.0071
+      },
+      {
+        "tag": "purpose",
+        "score": 3.5617
+      }
+    ],
+    "quote_count": 7
+  },
+  "evolution": {
+    "related": [
+      {
+        "tag": "culture",
+        "score": 4.0471
+      },
+      {
+        "tag": "nature",
+        "score": 3.6862
+      },
+      {
+        "tag": "time",
+        "score": 3.0651
+      },
+      {
+        "tag": "change",
+        "score": 2.9469
+      },
+      {
+        "tag": "humanity",
+        "score": 2.4793
+      }
+    ],
+    "quote_count": 6
+  },
+  "why": {
+    "related": [
+      {
+        "tag": "purpose",
+        "score": 5.6059
+      },
+      {
+        "tag": "understanding",
+        "score": 4.5242
+      },
+      {
+        "tag": "knowledge",
+        "score": 3.528
+      }
+    ],
+    "quote_count": 11
+  },
+  "expectations": {
+    "related": [
+      {
+        "tag": "consciousness",
+        "score": 5.2849
+      },
+      {
+        "tag": "perception",
+        "score": 3.8019
+      },
+      {
+        "tag": "truth",
+        "score": 3.3165
+      }
+    ],
+    "quote_count": 5
+  },
+  "serendipity": {
+    "related": [
+      {
+        "tag": "discovery",
+        "score": 7.1919
+      },
+      {
+        "tag": "libraries",
+        "score": 5.1382
+      },
+      {
+        "tag": "books",
+        "score": 3.8953
+      }
+    ],
+    "quote_count": 4
+  },
+  "torture": {
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 3.2407
+      }
+    ],
+    "quote_count": 3
+  },
+  "liars": {
+    "related": [
+      {
+        "tag": "lying",
+        "score": 10.1177
+      },
+      {
+        "tag": "falsehood",
+        "score": 7.0458
+      },
+      {
+        "tag": "truth",
+        "score": 5.0564
+      }
+    ],
+    "quote_count": 4
+  },
+  "lying": {
+    "related": [
+      {
+        "tag": "liars",
+        "score": 10.1177
+      },
+      {
+        "tag": "falsehood",
+        "score": 7.0458
+      },
+      {
+        "tag": "truth",
+        "score": 5.0564
+      }
+    ],
+    "quote_count": 4
+  },
+  "disaster": {
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 3.9433
+      },
+      {
+        "tag": "society",
+        "score": 2.7093
+      }
+    ],
+    "quote_count": 5
+  },
+  "politics": {
+    "related": [],
+    "quote_count": 3
+  },
+  "wit": {
+    "related": [
+      {
+        "tag": "writing",
+        "score": 4.1765
+      }
+    ],
+    "quote_count": 4
+  },
+  "play": {
+    "related": [],
+    "quote_count": 3
+  },
+  "the present": {
+    "related": [
+      {
+        "tag": "the past",
+        "score": 7.2008
+      },
+      {
+        "tag": "the future",
+        "score": 6.7093
+      },
+      {
+        "tag": "time",
+        "score": 5.3578
+      },
+      {
+        "tag": "change",
+        "score": 2.7776
+      }
+    ],
+    "quote_count": 7
+  },
+  "banality": {
+    "related": [
+      {
+        "tag": "banality",
+        "score": 5.254
+      },
+      {
+        "tag": "writing",
+        "score": 3.731
+      },
+      {
+        "tag": "language",
+        "score": 3.6431
+      },
+      {
+        "tag": "words",
+        "score": 3.6016
+      }
+    ],
+    "quote_count": 6
+  },
+  "honesty": {
+    "related": [
+      {
+        "tag": "truth",
+        "score": 8.156
+      },
+      {
+        "tag": "speaking",
+        "score": 5.4543
+      },
+      {
+        "tag": "falsehood",
+        "score": 4.1316
+      },
+      {
+        "tag": "existence",
+        "score": 2.1097
+      },
+      {
+        "tag": "humanity",
+        "score": 1.9182
+      }
+    ],
+    "quote_count": 10
+  },
+  "speaking": {
+    "related": [
+      {
+        "tag": "truth",
+        "score": 5.4552
+      },
+      {
+        "tag": "honesty",
+        "score": 5.4543
+      }
+    ],
+    "quote_count": 3
+  },
+  "failure": {
+    "related": [
+      {
+        "tag": "mistakes",
+        "score": 6.9782
+      }
+    ],
+    "quote_count": 6
+  },
+  "freedom": {
+    "related": [],
+    "quote_count": 5
+  },
+  "ethics": {
+    "related": [],
+    "quote_count": 4
+  },
+  "travel": {
+    "related": [
+      {
+        "tag": "life",
+        "score": 2.7712
+      }
+    ],
+    "quote_count": 5
+  },
+  "age": {
+    "related": [
+      {
+        "tag": "ageing",
+        "score": 7.1919
+      },
+      {
+        "tag": "existence",
+        "score": 3.1163
+      }
+    ],
+    "quote_count": 4
+  },
+  "childhood": {
+    "related": [
+      {
+        "tag": "imagination",
+        "score": 4.0885
+      },
+      {
+        "tag": "creativity",
+        "score": 3.6244
+      }
+    ],
+    "quote_count": 8
+  },
+  "meaning": {
+    "related": [
+      {
+        "tag": "purpose",
+        "score": 4.8713
+      },
+      {
+        "tag": "memory",
+        "score": 3.8604
+      },
+      {
+        "tag": "writing",
+        "score": 3.415
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.7003
+      },
+      {
+        "tag": "existence",
+        "score": 2.3548
+      }
+    ],
+    "quote_count": 8
+  },
+  "ageing": {
+    "related": [
+      {
+        "tag": "age",
+        "score": 7.1919
+      },
+      {
+        "tag": "death",
+        "score": 4.3092
+      },
+      {
+        "tag": "life",
+        "score": 4.2293
+      },
+      {
+        "tag": "time",
+        "score": 3.8678
+      },
+      {
+        "tag": "living",
+        "score": 3.8019
+      },
+      {
+        "tag": "existence",
+        "score": 3.3702
+      },
+      {
+        "tag": "change",
+        "score": 2.5015
+      }
+    ],
+    "quote_count": 9
+  },
+  "gratitude": {
+    "related": [],
+    "quote_count": 3
+  },
+  "consciousness": {
+    "related": [
+      {
+        "tag": "expectations",
+        "score": 5.2849
+      },
+      {
+        "tag": "facts",
+        "score": 4.6392
+      },
+      {
+        "tag": "perception",
+        "score": 3.4323
+      },
+      {
+        "tag": "thinking",
+        "score": 3.3538
+      },
+      {
+        "tag": "truth",
+        "score": 2.9469
+      }
+    ],
+    "quote_count": 7
+  },
+  "gambling": {
+    "related": [
+      {
+        "tag": "odds",
+        "score": 8.0067
+      }
+    ],
+    "quote_count": 5
+  },
+  "adventure": {
+    "related": [
+      {
+        "tag": "walking",
+        "score": 3.9313
+      }
+    ],
+    "quote_count": 6
+  },
+  "heaven": {
+    "related": [],
+    "quote_count": 3
+  },
+  "satisfaction": {
+    "related": [
+      {
+        "tag": "life",
+        "score": 3.3323
+      }
+    ],
+    "quote_count": 3
+  },
+  "talking": {
+    "related": [
+      {
+        "tag": "humanity",
+        "score": 2.9247
+      }
+    ],
+    "quote_count": 4
+  },
+  "odds": {
+    "related": [
+      {
+        "tag": "gambling",
+        "score": 8.0067
+      },
+      {
+        "tag": "mathematics",
+        "score": 6.1449
+      }
+    ],
+    "quote_count": 4
+  },
+  "spirit": {
+    "related": [],
+    "quote_count": 3
+  },
+  "invention": {
+    "related": [
+      {
+        "tag": "ideas",
+        "score": 4.7471
+      },
+      {
+        "tag": "creativity",
+        "score": 4.0232
+      },
+      {
+        "tag": "technology",
+        "score": 3.1163
+      }
+    ],
+    "quote_count": 6
+  },
+  "machines": {
+    "related": [
+      {
+        "tag": "technology",
+        "score": 7.0508
+      },
+      {
+        "tag": "progress",
+        "score": 4.0269
+      },
+      {
+        "tag": "thinking",
+        "score": 3.7234
+      },
+      {
+        "tag": "humanity",
+        "score": 2.6796
+      }
+    ],
+    "quote_count": 5
+  },
+  "nighttime": {
+    "related": [
+      {
+        "tag": "darkness",
+        "score": 7.7423
+      },
+      {
+        "tag": "existence",
+        "score": 2.8711
+      }
+    ],
+    "quote_count": 5
+  },
+  "garbage": {
+    "related": [
+      {
+        "tag": "society",
+        "score": 3.2704
+      }
+    ],
+    "quote_count": 3
+  },
+  "ownership": {
+    "related": [
+      {
+        "tag": "society",
+        "score": 2.7093
+      }
+    ],
+    "quote_count": 5
+  },
+  "connections": {
+    "related": [
+      {
+        "tag": "books",
+        "score": 4.3532
+      },
+      {
+        "tag": "the brain",
+        "score": 4.2474
+      },
+      {
+        "tag": "libraries",
+        "score": 4.2474
+      },
+      {
+        "tag": "vision",
+        "score": 3.4859
+      },
+      {
+        "tag": "seeing",
+        "score": 3.4323
+      },
+      {
+        "tag": "ideas",
+        "score": 2.8711
+      },
+      {
+        "tag": "knowledge",
+        "score": 2.5709
+      }
+    ],
+    "quote_count": 9
+  },
+  "process": {
+    "related": [
+      {
+        "tag": "creativity",
+        "score": 2.9432
+      }
+    ],
+    "quote_count": 5
+  },
+  "certainty": {
+    "related": [
+      {
+        "tag": "doubt",
+        "score": 6.6044
+      },
+      {
+        "tag": "uncertainty",
+        "score": 6.6044
+      }
+    ],
+    "quote_count": 5
+  },
+  "earth": {
+    "related": [
+      {
+        "tag": "nature",
+        "score": 6.0527
+      },
+      {
+        "tag": "humanity",
+        "score": 4.2846
+      },
+      {
+        "tag": "death",
+        "score": 3.099
+      }
+    ],
+    "quote_count": 8
+  },
+  "painting": {
+    "related": [
+      {
+        "tag": "art",
+        "score": 5.2701
+      },
+      {
+        "tag": "artists",
+        "score": 4.9379
+      }
+    ],
+    "quote_count": 6
+  },
+  "patience": {
+    "related": [
+      {
+        "tag": "time",
+        "score": 3.8266
+      }
+    ],
+    "quote_count": 3
+  },
+  "the sea": {
+    "related": [],
+    "quote_count": 5
+  },
+  "improvement": {
+    "related": [],
+    "quote_count": 3
+  },
+  "dying": {
+    "related": [
+      {
+        "tag": "death",
+        "score": 6.771
+      },
+      {
+        "tag": "the end",
+        "score": 4.6928
+      },
+      {
+        "tag": "life",
+        "score": 3.0163
+      }
+    ],
+    "quote_count": 4
+  },
+  "danger": {
+    "related": [],
+    "quote_count": 6
+  },
+  "consumption": {
+    "related": [],
+    "quote_count": 3
+  },
+  "desire": {
+    "related": [
+      {
+        "tag": "existence",
+        "score": 2.8711
+      },
+      {
+        "tag": "life",
+        "score": 2.7712
+      },
+      {
+        "tag": "humanity",
+        "score": 2.6796
+      }
+    ],
+    "quote_count": 5
+  },
+  "prediction": {
+    "related": [],
+    "quote_count": 3
+  }
 }

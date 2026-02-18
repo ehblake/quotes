@@ -22,15 +22,16 @@ EXCLUDED_TAGS = {'book', 'pithy', 'quote', 'people', 'trump', 'word'}
 # Curated list of approved primary tags (navigable themes)
 # Only these tags will appear in tag_connections.json
 ALLOWED_PRIMARY_TAGS = {
-    'action', 'adventure', 'age', 'ageing', 'aim', 'america', 'anarchy',
-    'architecture', 'art', 'artists', 'attitude', 'australia', 'banality',
-    'beauty', 'belief', 'birth', 'books', 'the brain', 'bureaucracy',
+    'acceptance', 'action', 'adventure', 'age', 'ageing', 'aim', 'ambition',
+    'america', 'anarchy',
+    'architecture', 'art', 'artists', 'attitude', 'authority', 'australia',
+    'banality', 'beauty', 'belief', 'birth', 'books', 'the brain', 'bureaucracy',
     'calmness', 'capitalism', 'certainty', 'chance', 'change', 'chaos',
     'childhood', 'children', 'cities', 'civilisation', 'clarity',
     'collaboration', 'collapse', 'collecting', 'comfort', 'complexity',
     'connections', 'consciousness', 'consumption', 'control', 'creativity',
     'culture', 'curiosity', 'danger', 'darkness', 'death', 'decay',
-    'definition', 'depth', 'design', 'destruction', 'the devil', 'devils',
+    'definition', 'depth', 'design', 'desire', 'destruction', 'the devil', 'devils',
     'difficulty', 'direction', 'disaster', 'discovery', 'doing', 'doom',
     'doubt', 'dreams', 'dying', 'earth', 'economics', 'education', 'emotion',
     'the end', 'end times', 'entropy', 'error', 'eschatology', 'ethics',
@@ -38,13 +39,14 @@ ALLOWED_PRIMARY_TAGS = {
     'expression', 'eyes', 'facts', 'failure', 'faith', 'falsehood', 'fear',
     'fire', 'freedom', 'the future', 'gambling', 'garbage', 'god', 'good',
     'government', 'gratitude', 'happiness', 'heaven', 'hell', 'history',
-    'honesty', 'humanity', 'humankind', 'humans', 'humour', 'ideas',
+    'honesty', 'humanity', 'humankind', 'humans', 'humility', 'humour', 'ideas',
     'ignorance', 'imagination', 'improvement', 'individuality', 'information',
     'insanity', 'intelligence', 'interpretation', 'invention', 'jobs',
     'kings', 'knowledge', 'labour', 'language', 'laws', 'learning', 'liars',
     'libraries', 'life', 'literature', 'living', 'logic', 'looking', 'love',
     'luck', 'lying', 'machines', 'madness', 'making', 'mankind', 'mathematics',
-    'meaning', 'media', 'memory', 'the mind', 'mistakes', 'money', 'monsters',
+    'meaning', 'media', 'memory', 'the mind', 'mistakes', 'modernity', 'money',
+    'monsters',
     'movement', 'museums', 'music', 'narrative', 'nature', 'the new',
     'nighttime', 'odds', 'opinion', 'order', 'originality', 'ownership',
     'pain', 'painting', 'the past', 'paths', 'patience', 'perception',
@@ -59,7 +61,8 @@ ALLOWED_PRIMARY_TAGS = {
     'technology', 'thinking', 'thought', 'time', 'torture', 'travel', 'truth',
     'uncertainty', 'understanding', 'uniqueness', 'the unknown', 'utopia',
     'values', 'views', 'violence', 'vision', 'walking', 'wandering', 'war',
-    'why', 'wisdom', 'wit', 'wonder', 'words', 'work', 'the world', 'writing',
+    'weakness', 'why', 'wisdom', 'wit', 'wonder', 'words', 'work', 'the world',
+    'writing',
 }
 
 
