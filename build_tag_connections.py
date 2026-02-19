@@ -53,7 +53,7 @@ ALLOWED_PRIMARY_TAGS = {
     'perfection', 'perspective', 'pessimism', 'philosophy', 'play', 'pleasure',
     'poems', 'poetry', 'politics', 'power', 'prediction', 'the present',
     'problem solving', 'problems', 'process', 'progress', 'property',
-    'psychology', 'purpose', 'quotes', 'reading', 'reality', 'religion',
+    'psychology', 'purpose', 'quotes', 'reading', 'reality', 'rebellion', 'religion',
     'revolution', 'ruin', 'rules', 'sadness', 'satisfaction', 'science',
     'seeing', 'the sea', 'the self', 'the senses', 'serendipity', 'simplicity',
     'simplification', 'society', 'songs', 'speaking', 'spirit', 'stories',
