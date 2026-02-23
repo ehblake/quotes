@@ -2796,13 +2796,11 @@
         } else if (e.key === "r") {
           showRandom();
         } else if (e.key === "a") {
-          if (isLocalhost) {
-            e.preventDefault();
-            if (isTagIndexVisible) {
-              hideTagIndex();
-            } else {
-              showTagIndex();
-            }
+          e.preventDefault();
+          if (isTagIndexVisible) {
+            hideTagIndex();
+          } else {
+            showTagIndex();
           }
         }
       });
