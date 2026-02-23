@@ -3305,7 +3305,7 @@
     "filename_stem": "arthur-schopenhauer-04",
     "quote": "Want and boredom are the twin poles of human life.",
     "author": "Arthur Schopenhauer",
-    "year": "1970",
+    "year": "1851",
     "publication": "Essays & Aphorisms",
     "notes": "",
     "confidence": 1,
@@ -3342,7 +3342,7 @@
       {
         "tag": "humanity",
         "weight": 0.5167,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5167
       },
       {
@@ -3371,7 +3371,7 @@
     "filename_stem": "arthur-schopenhauer-05",
     "quote": "For the world is Hell, and men are on the one hand the tormented souls and on the other the devils in it.",
     "author": "Arthur Schopenhauer",
-    "year": "1970",
+    "year": "1851",
     "publication": "Essays & Aphorisms",
     "notes": "",
     "confidence": 1,
@@ -3400,7 +3400,7 @@
         "tag": "hell",
         "weight": 0.6919,
         "corpus_score": 0.4787,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "existence",
@@ -3458,7 +3458,7 @@
     "filename_stem": "arthur-schopenhauer-16",
     "quote": "All genuine thought and art is to a certain extent an attempt to put big heads on small people.",
     "author": "Arthur Schopenhauer",
-    "year": "1970",
+    "year": "1851",
     "publication": "Essays & Aphorisms",
     "notes": "",
     "confidence": 1,
@@ -3483,7 +3483,7 @@
       {
         "tag": "humanity",
         "weight": 0.5667,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5667
       },
       {
@@ -3524,7 +3524,7 @@
     "filename_stem": "arthur-schopenhauer-19",
     "quote": "Poetry is the art of setting the imagination into action by means of words.",
     "author": "Arthur Schopenhauer",
-    "year": "1970",
+    "year": "1851",
     "publication": "Essays & Aphorisms",
     "notes": "Text was in all caps and has been converted to sentence case.",
     "confidence": 1,
@@ -3555,7 +3555,7 @@
         "tag": "poetry",
         "weight": 0.7684,
         "corpus_score": 0.5905,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "imagination",
@@ -3583,7 +3583,7 @@
     "filename_stem": "arthur-schopenhauer-20",
     "quote": "The task of the novelist is not to narrate great events but to make small ones interesting.",
     "author": "Arthur Schopenhauer",
-    "year": "1970",
+    "year": "1851",
     "publication": "Essays & Aphorisms",
     "notes": "",
     "confidence": 1,
@@ -3642,7 +3642,7 @@
     "filename_stem": "arthur-schopenhauer-23",
     "quote": "Men are the devils of the earth, and the animals are the tormented souls.",
     "author": "Arthur Schopenhauer",
-    "year": "1970",
+    "year": "1851",
     "publication": "Essays & Aphorisms",
     "notes": "",
     "confidence": 1,
@@ -3676,7 +3676,7 @@
         "tag": "animals",
         "weight": 0.5029,
         "corpus_score": 0.2529,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "humankind",
@@ -10472,7 +10472,7 @@
     "filename_stem": "ernest-becker-16",
     "quote": "Hubris means forgetting where the real source of power lies and imagining that it is in oneself.",
     "author": "Ernest Becker",
-    "year": null,
+    "year": "1973",
     "publication": "The Denial of Death",
     "notes": "",
     "confidence": 1,
@@ -19689,7 +19689,7 @@
     "source_image": "jean-jacques-rousseau-01.png",
     "filename_stem": "jean-jacques-rousseau-01",
     "quote": "The first person who, having fenced off a plot of ground, took it into his head to say this is mine and found people simple enough to believe him, was the true founder of civil society.",
-    "author": "Jean Jacques Rousseau",
+    "author": "Jean-Jacques Rousseau",
     "year": "1975",
     "publication": "Escape From Evil",
     "notes": "",
@@ -25631,7 +25631,7 @@
     "filename_stem": "mark-rothko",
     "quote": "A street of buildings in good repair is unendurable.",
     "author": "Mark Rothko",
-    "year": null,
+    "year": "1993",
     "publication": "Mark Rothko: A Biography",
     "notes": "",
     "confidence": 1,
@@ -25710,18 +25710,6 @@
         "weight": 0.2028,
         "corpus_score": 0.1596,
         "relevance": 0.5077
-      },
-      {
-        "tag": "rothko",
-        "weight": 0.1337,
-        "corpus_score": 0.1596,
-        "relevance": 0.3346
-      },
-      {
-        "tag": "mark rothko",
-        "weight": 0.1306,
-        "corpus_score": 0.1596,
-        "relevance": 0.3269
       }
     ]
   },
@@ -32774,7 +32762,7 @@
     "source_image": "rousseau-04.png",
     "filename_stem": "rousseau-04",
     "quote": "...in the name of improvement, great evils are often introduced in the endeavour to correct lesser ones.",
-    "author": "Jean Jacques Rousseau",
+    "author": "Jean-Jacques Rousseau",
     "year": "1755",
     "publication": "Discourse on the Origin and Foundations of Inequality Among Men",
     "notes": "Quote appears shortened, start with ellipsis.",
@@ -43123,7 +43111,7 @@
     "year": "1984",
     "isbn": null,
     "book_author": null,
-    "cover_url": "covers/collected-poems.jpg",
+    "cover_url": "covers/collected-poems-wallace-stevens.jpg",
     "weighted_tags": [
       {
         "tag": "truth",
@@ -49156,6 +49144,740 @@
       }
     ],
     "id": "quote_0778",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One must never ask of Fortune more than she can grant.",
+    "author": "Napoleon Bonaparte",
+    "publication": "Napoleon the Great",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Andrew Roberts",
+    "cover_url": "covers/napoleon-the-great.jpg",
+    "weighted_tags": [
+      {
+        "tag": "fortune",
+        "weight": 1
+      },
+      {
+        "tag": "luck",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0779",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s better to have an open enemy than a doubtful ally.",
+    "author": "Napoleon Bonaparte",
+    "publication": "Napoleon the Great",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Andrew Roberts",
+    "cover_url": "covers/napoleon-the-great.jpg",
+    "weighted_tags": [
+      {
+        "tag": "enemies",
+        "weight": 1
+      },
+      {
+        "tag": "friends",
+        "weight": 1
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
+      },
+      {
+        "tag": "uncertainty",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0780",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Trivial people suffer trivially, great men suffer greatly, and great sufferings are not to be regretted, because they are noble.",
+    "author": "Friedrich Nietzsche",
+    "publication": "The History of Western Philosophy",
+    "year": "1945",
+    "isbn": "004109008X",
+    "book_author": "Bertrand Russell",
+    "cover_url": "covers/the-history-of-western-philosophy.png",
+    "weighted_tags": [
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "nobility",
+        "weight": 1
+      },
+      {
+        "tag": "honor",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0781",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Doors to dullness are quickly forgotten.",
+    "author": "Nina Simon",
+    "publication": "The Art of Relevance",
+    "year": "2016",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-art-of-relevance.jpg",
+    "weighted_tags": [
+      {
+        "tag": "banality",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "attention",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0782",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "but wide sea, O death!, you don’t come in waves / but rather like clear twilight galloping / or like the infinite host of the night.",
+    "author": "Pablo Neruda",
+    "publication": "The Heights of Macchu Picchu",
+    "year": "2014",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-heights-of-macchu-picchu.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "the sea",
+        "weight": 1
+      },
+      {
+        "tag": "nighttime",
+        "weight": 1
+      },
+      {
+        "tag": "infinity",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0783",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "So much of the conversation about design centers on beauty, but the more fascinating stories of the built world are about problem-solving, historical constraints, and human drama.",
+    "author": "Roman Mars",
+    "publication": "The 99% Invisible City",
+    "year": "2020",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-99-invisible-city.jpg",
+    "weighted_tags": [
+      {
+        "tag": "banality",
+        "weight": 1
+      },
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "problems",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0784",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is iron and wheat which first civilized men and ruined the human race.",
+    "author": "Jean-Jacques Rousseau",
+    "publication": "A Discourse on Inequality",
+    "year": "1755",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-discourse-on-inequality.jpg",
+    "weighted_tags": [
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "civilisation",
+        "weight": 1
+      },
+      {
+        "tag": "ruin",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0785",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...progress (from man as savage) has been so many steps in appearance towards the individual, but so many steps in reality towards the decrepitude of the species.",
+    "author": "Jean-Jacques Rousseau",
+    "publication": "A Discourse on Inequality",
+    "year": "1755",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-discourse-on-inequality.jpg",
+    "weighted_tags": [
+      {
+        "tag": "progess",
+        "weight": 1
+      },
+      {
+        "tag": "humankind",
+        "weight": 1
+      },
+      {
+        "tag": "appearances",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "ruin",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0786",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Rumour doth double, like the voice and echo / The numbers of the feared",
+    "author": "William Shakespeare",
+    "publication": "Henry IV, Part II",
+    "year": "1599",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/henry-iv-part-ii.jpg",
+    "weighted_tags": [
+      {
+        "tag": "rumours",
+        "weight": 1
+      },
+      {
+        "tag": "speaking",
+        "weight": 1
+      },
+      {
+        "tag": "echoes",
+        "weight": 1
+      },
+      {
+        "tag": "fear",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0787",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Love all, trust a few, / Do wrong to none...",
+    "author": "William Shakespeare",
+    "publication": "All's Well That Ends Well",
+    "year": "1607",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/alls-well-that-ends-well.jpg",
+    "weighted_tags": [
+      {
+        "tag": "love",
+        "weight": 1
+      },
+      {
+        "tag": "trust",
+        "weight": 1
+      },
+      {
+        "tag": "actions",
+        "weight": 1
+      },
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "behaviour",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0788",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Honour and money don’t belong in the same purse.",
+    "author": "Spanish Proverb",
+    "publication": "Essays & Aphorisms",
+    "year": "1851",
+    "isbn": "0140442278",
+    "book_author": "Arthur Schopenhauer",
+    "cover_url": "covers/0140442278.jpg",
+    "weighted_tags": [
+      {
+        "tag": "honour",
+        "weight": 1
+      },
+      {
+        "tag": "honor",
+        "weight": 1
+      },
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "respect",
+        "weight": 1
+      },
+      {
+        "tag": "goodness",
+        "weight": 1
+      },
+      {
+        "tag": "nobility",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0789",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Not to laugh, not to lament, not to curse, but to understand.",
+    "author": "Baruch Spinoza",
+    "publication": "The Denial of Death",
+    "year": "1973",
+    "isbn": null,
+    "book_author": "Ernest Becker",
+    "cover_url": "covers/escape-from-evil.jpg",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "seeking",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0790",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Efficiency is a measure of cost. Effectiveness is a measure of outcome.",
+    "author": "Stephen Weil",
+    "publication": "Making Museums Matter",
+    "year": "1995",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/making-museums-matter.jpg",
+    "weighted_tags": [
+      {
+        "tag": "efficiency",
+        "weight": 1
+      },
+      {
+        "tag": "cost",
+        "weight": 1
+      },
+      {
+        "tag": "value",
+        "weight": 1
+      },
+      {
+        "tag": "measures",
+        "weight": 1
+      },
+      {
+        "tag": "museums",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0791",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If a way to the better there be, it lies in taking a full look at the worst.",
+    "author": "Thomas Hardy",
+    "publication": "Escape From Evil",
+    "year": "1975",
+    "isbn": "9780029024508",
+    "book_author": "Ernest Becker",
+    "cover_url": "covers/escape-from-evil.png",
+    "weighted_tags": [
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "improvement",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "looking",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0792",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "For ever reading, never to be read.",
+    "author": "Thomas Pope",
+    "publication": "Essays & Aphorisms",
+    "year": "1851",
+    "isbn": "0140442278",
+    "book_author": "Arthur Schopenhauer",
+    "cover_url": "covers/0140442278.jpg",
+    "weighted_tags": [
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0793",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What will come of my whole life... Is there any meaning in my life that the inevitable death awaiting me does not destroy?",
+    "author": "Leo Tolstoy",
+    "publication": "Escape From Evil",
+    "year": "1975",
+    "isbn": "9780029024508",
+    "book_author": "Ernest Becker",
+    "cover_url": "covers/escape-from-evil.png",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "meaning",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0794",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We squint at existence through thick veils of personal and societal ignorance... The difference between us and Helen Keller is that she knew she was deaf and blind.",
+    "author": "Tom Robbins",
+    "publication": "Archaic Revival",
+    "year": "1992",
+    "isbn": null,
+    "book_author": "Terence McKenna",
+    "cover_url": "covers/archaic-revival.jpg",
+    "weighted_tags": [
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0795",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A revolution without firing squads is meaningless.",
+    "author": "Vladimir Lenin",
+    "publication": "Stalin: The Court of the Red Tsar",
+    "year": "2010",
+    "isbn": null,
+    "book_author": "Simon Sebag Montefiore",
+    "cover_url": "covers/stalin-the-court-of-the-red-tsar.jpg",
+    "weighted_tags": [
+      {
+        "tag": "revolution",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "violence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0796",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A man is not old until regrets take the place of dreams.",
+    "author": "John Barrymore",
+    "publication": "We Own This City",
+    "year": "2021",
+    "isbn": null,
+    "book_author": "Justin Fenton",
+    "cover_url": "covers/we-own-this-city.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ageing",
+        "weight": 1
+      },
+      {
+        "tag": "regret",
+        "weight": 1
+      },
+      {
+        "tag": "dreams",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0797",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The acquisition of knowledge always involves the revelation of ignorance... Our knowledge of the world instructs us first of all that the world is greater than our knowledge of it.",
+    "author": "Wendell Berry",
+    "publication": "Thinking in Systems",
+    "year": "2008",
+    "isbn": null,
+    "book_author": "Dana Meadows",
+    "cover_url": "covers/thinking-in-systems.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0798",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Failure, then failure! so the world stamps us at every turn.",
+    "author": "William James",
+    "publication": "Escape From Evil",
+    "year": "1975",
+    "isbn": "9780029024508",
+    "book_author": "Ernest Becker",
+    "cover_url": "covers/escape-from-evil.png",
+    "weighted_tags": [
+      {
+        "tag": "failure",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0799",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Things fall apart; the centre cannot hold; / Mere anarchy is loosed upon the world...",
+    "author": "William Butler Yeats",
+    "publication": "Collected Poems",
+    "year": "1919",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/collected-poems-william-butler-yeats.jpg",
+    "weighted_tags": [
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "anarchy",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "doom",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0800",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
