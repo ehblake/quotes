@@ -2937,14 +2937,21 @@
       }
 
       const results = quotes
-        .map((q, idx) => ({ quote: q, index: idx }))
-        .filter(({ quote }) => {
-          const text = (quote.quote || '').toLowerCase();
-          const author = (quote.author || '').toLowerCase();
-          const publication = (quote.publication || '').toLowerCase();
-          return text.includes(query) || author.includes(query) || publication.includes(query);
+        .map((q, idx) => {
+          const text = (q.quote || '').toLowerCase();
+          const author = (q.author || '').toLowerCase();
+          const publication = (q.publication || '').toLowerCase();
+          const authorMatch = author.includes(query);
+          const pubMatch = publication.includes(query);
+          const textMatch = text.includes(query);
+          const matches = authorMatch || pubMatch || textMatch;
+          // Rank: author/pub match = 2, text-only match = 1
+          const rank = (authorMatch || pubMatch) ? 2 : (textMatch ? 1 : 0);
+          return { quote: q, index: idx, matches, rank };
         })
-        .slice(0, 10);
+        .filter(({ matches }) => matches)
+        .sort((a, b) => b.rank - a.rank)
+        .slice(0, 20);
 
       if (results.length === 0) {
         resultsDiv.innerHTML = '<div class="search-no-results">No quotes found</div>';
