@@ -49881,5 +49881,36 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "If you challenge conventional wisdom, you will find ways to do things much better than they are currently done.",
+    "author": "Bill James",
+    "publication": "Moneyball",
+    "year": "2003",
+    "isbn": "9781525237010",
+    "book_author": "Michael Lewis",
+    "cover_url": "covers/moneyball.jpg",
+    "weighted_tags": [
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "improvement",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0801",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]

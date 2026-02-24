@@ -365,15 +365,22 @@
       color: #aaa;
     }
 
-    /* Go to input - below count, only on localhost */
-    .goto-container {
+    /* Top bar - always visible, contains search (and localhost controls) */
+    #top-bar {
       position: fixed;
       top: 40px;
       left: 20px;
-      display: none;
+      display: flex;
       align-items: center;
       gap: 6px;
       z-index: 50;
+    }
+
+    /* Go to input - only shown on localhost */
+    .goto-container {
+      display: none;
+      align-items: center;
+      gap: 6px;
     }
 
     .goto-container input {
@@ -410,7 +417,6 @@
     /* Search input and results */
     .search-container {
       position: relative;
-      margin-left: 12px;
     }
 
     .search-container input {
@@ -1231,11 +1237,13 @@
 
     <div id="count" class="count"></div>
 
-    <!-- Go to input - only shown on localhost -->
-    <div id="goto-container" class="goto-container">
-      <input type="number" id="goto-input" placeholder="#" min="1" onkeydown="if(event.key==='Enter'){goToQuote(); event.preventDefault();}">
-      <button onclick="goToQuote()">Go</button>
-      <button id="add-quote-btn" onclick="openAddModal()" title="Add new quote">+</button>
+    <!-- Top bar: search always visible; goto controls only on localhost -->
+    <div id="top-bar">
+      <div id="goto-container" class="goto-container">
+        <input type="number" id="goto-input" placeholder="#" min="1" onkeydown="if(event.key==='Enter'){goToQuote(); event.preventDefault();}">
+        <button onclick="goToQuote()">Go</button>
+        <button id="add-quote-btn" onclick="openAddModal()" title="Add new quote">+</button>
+      </div>
       <div class="search-container">
         <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
         <div id="search-results" class="search-results"></div>
