@@ -191,11 +191,11 @@
     <script>
         // Tag categories for coloring
         const tagCategories = {
-            philosophy: ['philosophy', 'the mind', 'consciousness', 'thought', 'thinking', 'existence', 'meaning', 'reality', 'truth', 'wisdom', 'knowledge', 'understanding', 'learning', 'intelligence', 'logic', 'reason', 'belief', 'doubt', 'certainty', 'uncertainty', 'the self', 'psychology', 'perception', 'the senses', 'dreams', 'imagination', 'memory', 'the brain'],
-            art: ['art', 'artists', 'creativity', 'design', 'beauty', 'music', 'poetry', 'poems', 'literature', 'writing', 'reading', 'books', 'stories', 'storytelling', 'narrative', 'painting', 'architecture', 'museums', 'expression', 'originality', 'making', 'play', 'songs', 'libraries'],
-            nature: ['nature', 'science', 'earth', 'evolution', 'mathematics', 'discovery', 'invention', 'technology', 'machines', 'complexity', 'chaos', 'order', 'entropy', 'fire', 'darkness', 'nighttime', 'walking', 'wandering', 'adventure', 'travel'],
-            society: ['society', 'politics', 'government', 'power', 'freedom', 'revolution', 'war', 'violence', 'capitalism', 'economics', 'money', 'property', 'ownership', 'labour', 'jobs', 'work', 'laws', 'rules', 'ethics', 'good', 'evil', 'humanity', 'humankind', 'mankind', 'humans', 'civilisation', 'culture', 'religion', 'god', 'faith', 'bureaucracy', 'control', 'anarchy'],
-            time: ['time', 'change', 'the future', 'the past', 'the present', 'history', 'progress', 'the end', 'end times', 'death', 'dying', 'birth', 'age', 'ageing', 'childhood', 'children', 'life', 'living', 'doom', 'eschatology', 'decay', 'ruin', 'destruction', 'collapse'],
+            philosophy: ['philosophy', 'the mind', 'consciousness', 'thought', 'thinking', 'existence', 'meaning', 'reality', 'truth', 'wisdom', 'knowledge', 'understanding', 'learning', 'intelligence', 'logic', 'reason', 'belief', 'doubt', 'certainty', 'uncertainty', 'the self', 'psychology', 'dreams', 'memory', 'the brain', 'fear', 'love', 'happiness', 'sadness', 'pessimism', 'emotion', 'pain', 'suffering', 'desire', 'comfort', 'calmness', 'patience', 'gratitude', 'acceptance', 'pleasure', 'satisfaction', 'madness', 'hell', 'heaven', 'the devil', 'spirit', 'the unknown', 'individuality', 'purpose', 'expectations', 'experience', 'perspective', 'depth', 'why', 'views', 'opinion', 'attitude'],
+            art: ['art', 'artists', 'creativity', 'design', 'beauty', 'music', 'poetry', 'poems', 'literature', 'writing', 'reading', 'books', 'stories', 'storytelling', 'narrative', 'painting', 'architecture', 'museums', 'expression', 'originality', 'making', 'play', 'songs', 'libraries', 'looking', 'seeing', 'vision', 'wonder', 'eyes', 'the senses', 'perception', 'imagination', 'ideas', 'curiosity', 'process', 'collaboration', 'connections', 'doing', 'failure', 'perfection', 'problem solving', 'simplicity', 'simplification', 'the new'],
+            nature: ['nature', 'science', 'earth', 'evolution', 'mathematics', 'discovery', 'invention', 'technology', 'machines', 'complexity', 'chaos', 'order', 'entropy', 'fire', 'darkness', 'nighttime', 'walking', 'wandering', 'adventure', 'travel', 'the sea', 'the world', 'prediction', 'serendipity'],
+            society: ['society', 'politics', 'government', 'power', 'freedom', 'revolution', 'war', 'violence', 'capitalism', 'economics', 'money', 'property', 'ownership', 'labour', 'jobs', 'work', 'laws', 'rules', 'ethics', 'good', 'evil', 'humanity', 'humankind', 'mankind', 'humans', 'civilisation', 'culture', 'religion', 'god', 'faith', 'bureaucracy', 'control', 'anarchy', 'america', 'cities', 'rebellion', 'stupidity', 'utopia', 'values', 'facts', 'ignorance', 'consumption', 'torture'],
+            time: ['time', 'change', 'the future', 'the past', 'the present', 'history', 'progress', 'the end', 'end times', 'death', 'dying', 'birth', 'age', 'ageing', 'childhood', 'children', 'life', 'living', 'doom', 'eschatology', 'decay', 'ruin', 'destruction', 'collapse', 'action', 'direction', 'improvement', 'movement', 'paths'],
             language: ['language', 'words', 'speaking', 'talking', 'clarity', 'definition', 'interpretation', 'meaning', 'communication', 'media', 'information', 'lies', 'lying', 'liars', 'truth', 'falsehood', 'honesty', 'quotes', 'wit', 'humour']
         };
 
@@ -239,7 +239,7 @@
             // Create links (only include if both nodes exist)
             const linkSet = new Set();
             for (const [tag, data] of Object.entries(tagConnections)) {
-                for (const rel of data.related.slice(0, 8)) { // Top 8 connections per tag
+                for (const rel of data.related.slice(0, 12)) { // Top 12 connections per tag
                     if (nodeMap[rel.tag]) {
                         const linkId = [tag, rel.tag].sort().join('--');
                         if (!linkSet.has(linkId)) {
@@ -275,15 +275,15 @@
             const simulation = d3.forceSimulation(nodes)
                 .force('link', d3.forceLink(links)
                     .id(d => d.id)
-                    .distance(d => 180 - d.score * 15)  // Longer base distance
-                    .strength(d => Math.min(d.score / 3, 0.7)))  // Stronger pull for related tags
+                    .distance(d => 260 - d.score * 22)  // +40% total spacing
+                    .strength(d => Math.min(d.score / 3, 0.7)))
                 .force('charge', d3.forceManyBody()
-                    .strength(-400)  // Much stronger repulsion to spread out
-                    .distanceMax(500))  // Limit repulsion range
+                    .strength(-576)  // +40% total repulsion
+                    .distanceMax(720))
                 .force('center', d3.forceCenter(width / 2, height / 2))
                 .force('collision', d3.forceCollide()
-                    .radius(d => Math.sqrt(d.quoteCount) * 4 + 25))  // Larger collision radius
-                .alphaDecay(0.02);  // Slower decay for better settling
+                    .radius(d => Math.pow(d.quoteCount, 0.6) * 3.6 + 30))
+                .alphaDecay(0.02);
 
             // Draw links
             const link = g.append('g')
@@ -305,12 +305,12 @@
                     .on('end', dragended));
 
             node.append('circle')
-                .attr('r', d => Math.sqrt(d.quoteCount) * 2 + 5)
+                .attr('r', d => Math.pow(d.quoteCount, 0.6) * 2.5 + 3)
                 .attr('fill', d => getTagColor(d.id));
 
             node.append('text')
                 .text(d => d.id)
-                .attr('x', d => Math.sqrt(d.quoteCount) * 2 + 8)
+                .attr('x', d => Math.pow(d.quoteCount, 0.6) * 2.5 + 6)
                 .attr('y', 4);
 
             // Interaction
@@ -331,6 +331,11 @@
 
                     const connectedIds = new Set([d.id]);
                     d.related.forEach(r => connectedIds.add(r.tag));
+                    // Also include tags connected by visible lines (bidirectional)
+                    links.forEach(l => {
+                        if (l.source.id === d.id) connectedIds.add(l.target.id);
+                        if (l.target.id === d.id) connectedIds.add(l.source.id);
+                    });
 
                     node.classed('dimmed', n => !connectedIds.has(n.id));
 
