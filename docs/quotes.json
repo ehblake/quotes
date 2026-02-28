@@ -49912,5 +49912,458 @@
     "confidence": 1,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "Data says nothing without analysis, and analysis is always guided by narratives. Always.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Right Story, Wrong Story",
+    "year": "2023",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/right-story-wrong-story.jpg",
+    "weighted_tags": [
+      {
+        "tag": "data",
+        "weight": 1
+      },
+      {
+        "tag": "research",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0802",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Your belongings are not your property, but your connections.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Right Story, Wrong Story",
+    "year": "2023",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/right-story-wrong-story.jpg",
+    "weighted_tags": [
+      {
+        "tag": "belongings",
+        "weight": 1
+      },
+      {
+        "tag": "ownership",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "connectivity",
+        "weight": 1
+      },
+      {
+        "tag": "collecting",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0803",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "So much noise, so little story.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Right Story, Wrong Story",
+    "year": "2023",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/right-story-wrong-story.jpg",
+    "weighted_tags": [
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0804",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The truth is a corrosive thing... What I’m learning is the world laughs through its ass every day, then just lies double-time when shit goes down.",
+    "author": "DBC Pierre",
+    "publication": "Vernon God Little",
+    "year": "2003",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/vernon-god-little.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "liars",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0805",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I sense a learning: that much dumber people than you end up in charge. Look at the way things are.",
+    "author": "DBC Pierre",
+    "publication": "Vernon God Little",
+    "year": "2003",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/vernon-god-little.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0806",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...everything hinges on the words you use. Doesn’t matter what you do in life, you just have to wrap the thing in the right kind of words.",
+    "author": "DBC Pierre",
+    "publication": "Vernon God Little",
+    "year": "2003",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/vernon-god-little.jpg",
+    "weighted_tags": [
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0807",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The right to be let alone is indeed the beginning of all freedom.",
+    "author": "William O. Douglas",
+    "publication": "The Known Citizen",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Sarah Igo",
+    "cover_url": "covers/the-known-citizen.jpg",
+    "weighted_tags": [
+      {
+        "tag": "privacy",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "freedom",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0808",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...all the forces of a technological age—industrialization, urbanization, and organization—operate to narrow the area of privacy and facilitate intrusions into it.",
+    "author": "Thomas Emerson",
+    "publication": "The Known Citizen",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Sarah Igo",
+    "cover_url": "covers/the-known-citizen.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "privacy",
+        "weight": 1
+      },
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "government",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0809",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Progress is impossible without change; and those who cannot change their minds cannot change anything.",
+    "author": "George Bernard Shaw",
+    "publication": "Everybody's Political What's What",
+    "year": "1944",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/everybodys-political-whats-what.jpg",
+    "weighted_tags": [
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "the mind",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0810",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s better to break stones on the road than for a woman to get control of even the tip of your finger.",
+    "author": "Ivan Turgenev",
+    "publication": "Fathers & Sons",
+    "year": "1862",
+    "isbn": "9788171674985",
+    "book_author": null,
+    "cover_url": "covers/fathers-sons.jpg",
+    "weighted_tags": [
+      {
+        "tag": "women",
+        "weight": 1
+      },
+      {
+        "tag": "marriage",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "freedom",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0811",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The ability to think without claiming, or even seeking, to fully understand is key to survival in a new dark age because... it is often impossible to understand.",
+    "author": "James Bridle",
+    "publication": "New Dark Age",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/new-dark-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0812",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Like all of life’s rich emotional experiences, the full flavor of losing important money cannot be conveyed by literature.",
+    "author": "Fred Schwed",
+    "publication": "Fortune's Formula",
+    "year": "2006",
+    "isbn": null,
+    "book_author": "William Poundstone",
+    "cover_url": "covers/fortunes-formula.avif",
+    "weighted_tags": [
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "loss",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0813",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We made the wrong mistake.",
+    "author": "Yogi Berra",
+    "publication": "Antifragile: Things That Gain from Disorder",
+    "year": "2012",
+    "isbn": "9788449328640",
+    "book_author": "Nassim Nicholas Taleb",
+    "cover_url": "covers/antifragile.jpg",
+    "weighted_tags": [
+      {
+        "tag": "mistakes",
+        "weight": 1
+      },
+      {
+        "tag": "errors",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0814",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s tough to make predictions, especially about the future.",
+    "author": "Yogi Berra",
+    "publication": "The Invisible Gorilla",
+    "year": "2010",
+    "isbn": "9788934947202",
+    "book_author": "Christopher Chabris & Daniel Simons",
+    "cover_url": "covers/the-invisible-gorilla.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "predictions",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0815",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In theory there is no difference between theory and practice; in practice there is.",
+    "author": "Yogi Berra",
+    "publication": "Antifragile: Things That Gain from Disorder",
+    "year": "2012",
+    "isbn": "9788449328640",
+    "book_author": "Nassim Nicholas Taleb",
+    "cover_url": "covers/antifragile.jpg",
+    "weighted_tags": [
+      {
+        "tag": "practice",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0816",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
