@@ -1081,6 +1081,55 @@
       border-color: #944;
       color: #faa;
     }
+
+    /* ── Mobile overrides (must come after all base styles) ── */
+    @media (max-width: 768px) {
+      /* Hide edit and goto controls on mobile, keep search + tally */
+      .edit-link {
+        display: none !important;
+      }
+
+      .goto-container {
+        display: none !important;
+      }
+
+      /* Move search input to top-right */
+      #top-bar {
+        left: unset;
+        right: 20px;
+        top: 20px;
+      }
+
+      /* Lower the primary tag so it clears the top bar */
+      .quote-tags {
+        top: clamp(90px, 13vh, 130px);
+      }
+
+      /* Move back-to-canvas icon to top-left, below the tally */
+      .back-to-canvas {
+        bottom: unset;
+        top: 50px;
+        left: 20px;
+      }
+
+      /* Raise book block to clear iOS URL bar */
+      .book-block {
+        margin-bottom: 50px;
+      }
+
+      /* Anchor search results to the right edge */
+      .search-results {
+        left: auto;
+        right: 0;
+        width: min(350px, 90vw);
+      }
+
+      /* Tag index overlay: 2 columns on mobile */
+      .tag-index-grid {
+        column-count: 2;
+        column-gap: 24px;
+      }
+    }
   </style>
 </head>
 <body>
