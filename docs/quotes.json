@@ -4126,71 +4126,6 @@
     ]
   },
   {
-    "id": "quote_0059",
-    "source_image": "baruch-spinoza-03.png",
-    "filename_stem": "baruch-spinoza-03",
-    "quote": "Not to laugh, not to lament, not to curse, but to understand.",
-    "author": "Baruch Spinoza",
-    "year": null,
-    "publication": null,
-    "notes": "Author given as 'Spinoza', presumed to be Baruch Spinoza from filename.",
-    "confidence": 0.95,
-    "needs_review": false,
-    "tags": [
-      "spinoza",
-      "baruch spinoza",
-      "understanding",
-      "philosophy",
-      "reason",
-      "wisdom",
-      "emotion"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "understanding",
-        "weight": 0.5423,
-        "corpus_score": 0.9006,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "wisdom",
-        "weight": 0.4223,
-        "corpus_score": 0.6383,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "philosophy",
-        "weight": 0.3855,
-        "corpus_score": 0.4787,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "emotion",
-        "weight": 0.3303,
-        "corpus_score": 0.4125,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "reason",
-        "weight": 0.273,
-        "corpus_score": 0.2529,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "spinoza",
-        "weight": 0.176,
-        "corpus_score": 0.2529,
-        "relevance": 0.35
-      },
-      {
-        "tag": "baruch spinoza",
-        "weight": 0.1341,
-        "corpus_score": 0.1596,
-        "relevance": 0.3357
-      }
-    ]
-  },
-  {
     "id": "quote_0060",
     "source_image": "baudelaire.jpg",
     "filename_stem": "baudelaire",
@@ -48437,45 +48372,6 @@
     "notes": ""
   },
   {
-    "quote": "We have forgotten our collective ends, and we possess great means: we set huge machines in motion in order to arrive nowhere.",
-    "author": "Jacques Ellul",
-    "publication": "The Presence of the Kingdom",
-    "year": "1951",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/the-presence-of-the-kingdom.jpg",
-    "weighted_tags": [
-      {
-        "tag": "machines",
-        "weight": 0.6024,
-        "corpus_score": 0.448,
-        "relevance": 0.9
-      },
-      {
-        "tag": "existence",
-        "weight": 0.4936,
-        "corpus_score": 0.9747,
-        "relevance": 0.5
-      },
-      {
-        "tag": "technology",
-        "weight": 0.4707,
-        "corpus_score": 0.8864,
-        "relevance": 0.5
-      },
-      {
-        "tag": "progress",
-        "weight": 0.4355,
-        "corpus_score": 0.7587,
-        "relevance": 0.5
-      }
-    ],
-    "id": "quote_0765",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
     "quote": "The strength of a tree... comes not from growing thicker in good years when there is water, but from staying alive in the bad, dry times.",
     "author": "Joseph M. Marshall III",
     "publication": "The Journey of Crazy Horse",
@@ -50240,41 +50136,6 @@
     "notes": ""
   },
   {
-    "quote": "In the long run, utility, like everything else, is simply a figment of our imagination and may well be the fatal stupidity by which we shall one day perish.",
-    "author": "Friedrich Nietzsche",
-    "publication": "The Bias of Communication",
-    "year": "1961",
-    "isbn": null,
-    "book_author": "Harold Innis",
-    "cover_url": "covers/the-bias-of-communication.jpg",
-    "weighted_tags": [
-      {
-        "tag": "stupidity",
-        "weight": 1
-      },
-      {
-        "tag": "utility",
-        "weight": 1
-      },
-      {
-        "tag": "progress",
-        "weight": 1
-      },
-      {
-        "tag": "the end",
-        "weight": 1
-      },
-      {
-        "tag": "decay",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0818",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
     "quote": "The most important service rendered by the press and the magazines is that of educating people to approach printed matter with distrust.",
     "author": "Samuel Butler",
     "publication": "The Bias of Communication",
@@ -50922,41 +50783,6 @@
       }
     ],
     "id": "quote_0838",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": ""
-  },
-  {
-    "quote": "But now (we say) the sweetness of the night / Will hide our imperfections from our sight",
-    "author": "John Berryman",
-    "publication": "The Dream Songs",
-    "year": "1968",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/the-dream-songs.jpg",
-    "weighted_tags": [
-      {
-        "tag": "nighttime",
-        "weight": 1
-      },
-      {
-        "tag": "darkness",
-        "weight": 1
-      },
-      {
-        "tag": "hiding",
-        "weight": 1
-      },
-      {
-        "tag": "perfection",
-        "weight": 1
-      },
-      {
-        "tag": "seeing",
-        "weight": 1
-      }
-    ],
-    "id": "quote_0839",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
