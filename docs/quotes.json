@@ -23344,7 +23344,7 @@
     "year": "1981",
     "publication": "Palm Sunday",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780440571636",
@@ -23392,32 +23392,9 @@
         "weight": 0.385,
         "corpus_score": 0.5721,
         "relevance": 0.5091
-      },
-      {
-        "tag": "great depression",
-        "weight": 0.374,
-        "corpus_score": 0.1596,
-        "relevance": 0.9364
-      },
-      {
-        "tag": "misery",
-        "weight": 0.3376,
-        "corpus_score": 0.3705,
-        "relevance": 0.5545
-      },
-      {
-        "tag": "kurt vonnegut",
-        "weight": 0.262,
-        "corpus_score": 0.5905,
-        "relevance": 0.3409
-      },
-      {
-        "tag": "vonnegut",
-        "weight": 0.236,
-        "corpus_score": 0.5058,
-        "relevance": 0.3318
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0333",
@@ -50362,6 +50339,635 @@
       }
     ],
     "id": "quote_0816",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...it may not be too bad being dead but while you’re living it might be best to live from the source stuck inside of you...",
+    "author": "Charles Bukowski",
+    "publication": "On Writing",
+    "year": "2000",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/on-writing.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0817",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In the long run, utility, like everything else, is simply a figment of our imagination and may well be the fatal stupidity by which we shall one day perish.",
+    "author": "Friedrich Nietzsche",
+    "publication": "The Bias of Communication",
+    "year": "1961",
+    "isbn": null,
+    "book_author": "Harold Innis",
+    "cover_url": "covers/the-bias-of-communication.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "utility",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0818",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The most important service rendered by the press and the magazines is that of educating people to approach printed matter with distrust.",
+    "author": "Samuel Butler",
+    "publication": "The Bias of Communication",
+    "year": "1961",
+    "isbn": null,
+    "book_author": "Harold Innis",
+    "cover_url": "covers/the-bias-of-communication.jpg",
+    "weighted_tags": [
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "trust",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0819",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Perhaps the obsession of each culture with its uniqueness is the ultimate basis of its decline.",
+    "author": "Harold Innis",
+    "publication": "The Bias of Communication",
+    "year": "1961",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-bias-of-communication.jpg",
+    "weighted_tags": [
+      {
+        "tag": "decline",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "the end",
+        "weight": 1
+      },
+      {
+        "tag": "uniqueness",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "collapse",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0820",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We are the reproductive organs of the computer.",
+    "author": "Robert Jastrow",
+    "publication": "What is Life?",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Blaise Agüera y Arcas",
+    "cover_url": "covers/what-is-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "computers",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "creation",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0821",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Matter subject to random forces is supposed to become more random, not less. Yet by growing, reproducing, evolving, and indeed by existing at all, life seems to violate this principle.",
+    "author": "Blaise Agüera y Arcas",
+    "publication": "What is Life?",
+    "year": "2025",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/what-is-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "randomness",
+        "weight": 1
+      },
+      {
+        "tag": "rules",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "complexity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0822",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Our growing understanding of life as a self-reinforcing dynamical process boils down not to things, but to networks of mutually beneficial relationships.",
+    "author": "Blaise Agüera y Arcas",
+    "publication": "What is Life?",
+    "year": "2025",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/what-is-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "connectivity",
+        "weight": 1
+      },
+      {
+        "tag": "relationships",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0823",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Man is a gaming animal.",
+    "author": "Charles Lamb",
+    "publication": "Mrs Battle's Opinions on Whist",
+    "year": "1930",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/mrs-battles-opinions-on-whist.jpg",
+    "weighted_tags": [
+      {
+        "tag": "gaming",
+        "weight": 1
+      },
+      {
+        "tag": "gambling",
+        "weight": 1
+      },
+      {
+        "tag": "animals",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0824",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The emergence of technology, and the mutually beneficial—if sometimes fraught—relationship between people and tech is nothing more or less than our own most recent major evolutionary transition.",
+    "author": "Blaise Agüera y Arcas",
+    "publication": "What is Life?",
+    "year": "2025",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/what-is-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "evolution",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0825",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A page of neat and tidy typed text in long paragraphs is the least memorable format known.",
+    "author": "Lynne Kelly",
+    "publication": "Memory Craft : Improve Your Memory with the Most Powerful Methods in History",
+    "year": "2020",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/memory-craft-improve-your-memory-with-the-most-pow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0826",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Like an ancient parchment overwritten by generations of scribes, our planet is a palimpsest, its many-layered past still discernible in the present.",
+    "author": "Blaise Agüera y Arcas",
+    "publication": "What is Life?",
+    "year": "2025",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/what-is-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      },
+      {
+        "tag": "the present",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0827",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It really is a very odd business that all of us, to varying degrees, have music in our heads.",
+    "author": "Oliver Sacks",
+    "publication": "Musicophilia: Tales of Music and the Brain",
+    "year": "2007",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/musicophilia-tales-of-music-and-the-brain.jpg",
+    "weighted_tags": [
+      {
+        "tag": "music",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0828",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Do your work and you shall reinforce yourself.",
+    "author": "Ralph Waldo Emerson",
+    "publication": "Second Act",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Henry Oliver",
+    "cover_url": "covers/second-act.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0829",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Sometimes it is the body which is the first to surrender to old age, sometimes the soul.",
+    "author": "Michel de Montaigne",
+    "publication": "Second Act",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Henry Oliver",
+    "cover_url": "covers/second-act.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ageing",
+        "weight": 1
+      },
+      {
+        "tag": "age",
+        "weight": 1
+      },
+      {
+        "tag": "the soul",
+        "weight": 1
+      },
+      {
+        "tag": "the body",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0830",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "All rising to great places is by a winding stair.",
+    "author": "Francis Bacon",
+    "publication": "Second Act",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Henry Oliver",
+    "cover_url": "covers/second-act.jpg",
+    "weighted_tags": [
+      {
+        "tag": "direction",
+        "weight": 1
+      },
+      {
+        "tag": "paths",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0831",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Those sciences are vain and full of error, which are not born of experience.",
+    "author": "Leonard da Vinci",
+    "publication": "Second Act",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Henry Oliver",
+    "cover_url": "covers/second-act.jpg",
+    "weighted_tags": [
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "mistakes",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0832",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A mistake is an event, the full benefit of which has not yet been turned to your advantage.",
+    "author": "Edwin Land",
+    "publication": "Second Act",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Henry Oliver",
+    "cover_url": "covers/second-act.jpg",
+    "weighted_tags": [
+      {
+        "tag": "mistakes",
+        "weight": 1
+      },
+      {
+        "tag": "errors",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0833",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "He that runs against Time, has an antagonist not subject to casualties.",
+    "author": "Samuel Johnson",
+    "publication": "Second Act",
+    "year": "2025",
+    "isbn": null,
+    "book_author": "Henry Oliver",
+    "cover_url": "covers/second-act.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "ageing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0834",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Any man will learn as much from his enemies as from his friends. They keep him in fighting trim.",
+    "author": "Lewis Mumford",
+    "publication": "Frank Lloyd Wright & Lewis Mumford: Thirty Years of Correspondence",
+    "year": "2001",
+    "isbn": null,
+    "book_author": "Frank Lloyd Wright & Lewis Mumford",
+    "cover_url": "covers/frank-lloyd-wright-lewis-mumford-thirty-years-of-c.jpg",
+    "weighted_tags": [
+      {
+        "tag": "enemies",
+        "weight": 1
+      },
+      {
+        "tag": "learnings",
+        "weight": 1
+      },
+      {
+        "tag": "friends",
+        "weight": 1
+      },
+      {
+        "tag": "fighting",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0835",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""

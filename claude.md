@@ -96,6 +96,11 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - `docs/index.html` - GitHub Pages (same code, edit features hidden)
 - `site/server.py` - Python server with API endpoints for editing
 
+### Tag Data Model
+- **`weighted_tags`** — The active tag field used by the site for all navigation, display, and editing. Each entry is `{ tag, weight }` (or `{ tag, weight, corpus_score, relevance }` for older quotes that went through `weight_tags.py`). This is the only tag field that matters.
+- **`tags`** — Legacy field from the original GPT-4o extraction pipeline. Contains raw extracted terms (author names, publication keywords, etc.). **Not used by the site.** Many newer quotes (0551+) have this as an empty array, which is fine.
+- **`primary_tags`** — Currently unused/empty on all quotes. Primary tag logic is handled by the `ALLOWED_PRIMARY_TAGS` allowlist in `build_tag_connections.py`.
+
 ### Important Files
 - `site/quotes.json` and `docs/quotes.json` - Quote data (keep in sync)
 - `site/tag_connections.json` and `docs/tag_connections.json` - Tag relationships
@@ -127,7 +132,28 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Feb 18 2026) - Click/Tap Navigation, Tag Fixes, New Quotes & Covers
+### Last Session (Feb 25 2026) - Tag Connection Overhaul & Force Graph Improvements
+
+- **Connected 72 straggler tags** (had 0-2 connections, now all 219 tags have 3+):
+  - Added `MANUAL_CONNECTIONS` dict (~85 entries) to `build_tag_connections.py`
+  - Bidirectional expansion with varied scores (2.8-4.2 range)
+  - Organized into sections: 0-connection, 1-connection, 2-connection tags, plus thematic bridges
+  - Connections merge into organic PMI-based co-occurrence data during build
+
+- **Force graph visualization improvements** (`site/tag_viz.html`, `docs/tag_viz.html`):
+  - Increased bubble spacing by 40% (two rounds of 20%)
+  - Changed bubble sizing from `sqrt` to `pow(0.6)` for more variance between hub and leaf tags
+  - Bumped visible link count from 8 to 12 per tag
+  - Fixed click highlight to include bidirectionally-connected tags (was only checking clicked node's own `related` list)
+
+- **Reassigned 63 grey tags into themed color categories** (16 remain grey):
+  - Philosophy/Mind: fear, love, happiness, sadness, pessimism, emotion, pain, suffering, desire, comfort, calmness, patience, gratitude, acceptance, pleasure, satisfaction, madness, hell, heaven, the devil, spirit, the unknown, individuality, purpose, expectations, experience, perspective, depth, why, views, opinion, attitude
+  - Art/Creativity: looking, seeing, vision, wonder, eyes, the senses, perception, imagination, ideas, curiosity, process, collaboration, connections, doing, failure, perfection, problem solving, simplicity, simplification, the new
+  - Moved perception tags (looking, seeing, vision, wonder, eyes, the senses, perception, imagination) from Philosophy to Art
+
+- **Pushed to GitHub Pages**
+
+### Previous Session (Feb 18 2026) - Click/Tap Navigation, Tag Fixes, New Quotes & Covers
 
 - **Added click/tap navigation to quote view**:
   - Click/tap left 30% of quote area → previous quote (same as ArrowLeft)
