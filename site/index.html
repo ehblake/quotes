@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
   <title>Quotes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 
   <style>
     * {
@@ -156,8 +159,9 @@
     }
 
     .quote-panel-text {
+      font-family: "DM Serif Display", serif;
       font-size: clamp(1.5rem, 4vw, 3rem);
-      font-weight: 600;
+      font-weight: 400;
       line-height: 1.2;
       margin-bottom: clamp(1rem, 3vw, 2.25rem);
     }
@@ -2231,6 +2235,9 @@
       const textEl = panel.querySelector('.quote-panel-text');
       textEl.textContent = '\u2018' + q.quote + '\u2019';
       textEl.style.fontSize = getQuoteFontSize(q.quote);
+      textEl.style.fontFamily = q.quote.length <= 64
+        ? '"DM Serif Display", serif'
+        : '"DM Serif Text", serif';
       panel.querySelector('.quote-panel-author').textContent = smartUppercase(q.author);
     }
 

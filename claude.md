@@ -132,7 +132,33 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Feb 25 2026) - Tag Connection Overhaul & Force Graph Improvements
+### Last Session (Mar 2 2026) - Mobile Layout Overhaul, New Quotes & Serif Font
+
+- **Added 19 new quotes** (quote_0817–0835) with 7 new covers and 1 updated cover (palm-sunday)
+
+- **Mobile layout improvements** (`@media max-width: 768px`, at end of `<style>`):
+  - Search input moved to top-right, tally stays top-left
+  - Edit link and goto controls hidden on mobile
+  - Back-to-canvas grid icon moved to top-left below tally
+  - Primary tag lowered to clear top bar
+  - Book block raised with `margin-bottom: 30px` for iOS Safari URL bar
+  - Book block `height: auto` / `overflow: visible` to prevent cover clipping in column layout
+  - Tag index overlay uses 2 columns (3 on desktop)
+  - Search results dropdown anchored to right edge
+
+- **Serif font for quote text**:
+  - Loaded DM Serif Display + DM Serif Text from Google Fonts
+  - `.quote-panel-text` base: `font-family: "DM Serif Display", serif; font-weight: 400`
+  - JS in `renderPanel()`: quotes ≤64 chars use DM Serif Display, >64 chars use DM Serif Text
+  - **Note**: The actual quote text class is `.quote-panel-text` (NOT `.quote-text` which is a dead/unused rule)
+
+- **Added Tag Data Model section to claude.md**: documents `weighted_tags` (active) vs `tags` (legacy) vs `primary_tags` (unused)
+
+- **Fix**: Edit modal backdrop close changed from `onclick` to `onmousedown`
+
+- **Total quotes**: 782
+
+### Previous Session (Feb 25 2026) - Tag Connection Overhaul & Force Graph Improvements
 
 - **Connected 72 straggler tags** (had 0-2 connections, now all 219 tags have 3+):
   - Added `MANUAL_CONNECTIONS` dict (~85 entries) to `build_tag_connections.py`
