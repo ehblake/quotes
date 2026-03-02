@@ -269,7 +269,7 @@
       border: none;
       border-top: 1px solid #333;
       width: 100%;
-      max-width: 320px;
+      max-width: 280px;
       margin: 0 auto;
       height: clamp(100px, 15vh, 168px);
       transition: opacity 0.3s ease;
@@ -325,8 +325,9 @@
     }
 
     .book-title {
-      font-size: clamp(11px, 1.2vw, 14px);
+      font-size: clamp(9.4px, 1.1vw, 12.4px);
       font-weight: bold;
+      line-height: 1.25;
       margin-bottom: clamp(3px, 0.5vw, 6px);
     }
 
@@ -1134,6 +1135,11 @@
         left: auto;
         right: 0;
         width: min(350px, 90vw);
+      }
+
+      /* Bump book title up slightly on mobile */
+      .book-title {
+        font-size: clamp(12.6px, 1.3vw, 15.6px);
       }
 
       /* Tag index overlay: 2 columns on mobile */
