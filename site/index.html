@@ -278,7 +278,7 @@
 
     .book-block.fade-out {
       opacity: 0;
-      transition: opacity 0.15s ease-out;
+      transition: opacity 0.3s ease-out;
     }
 
     /* Inner content fades in */
@@ -532,12 +532,17 @@
       }
 
       .book-block {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        text-align: left;
       }
 
       .book-info {
-        text-align: center;
+        text-align: left;
+      }
+
+      .book-cover,
+      .book-cover-placeholder {
+        flex-shrink: 0;
       }
     }
 
