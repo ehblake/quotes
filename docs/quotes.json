@@ -4340,7 +4340,7 @@
     "year": "1732",
     "publication": "Poor Richard's Almanack",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "0517308061",
@@ -4377,28 +4377,10 @@
         "relevance": 0.9529
       },
       {
-        "tag": "fools",
-        "weight": 0.5251,
-        "corpus_score": 0.3191,
-        "relevance": 0.9294
-      },
-      {
         "tag": "learning",
         "weight": 0.4864,
         "corpus_score": 0.7905,
         "relevance": 0.5471
-      },
-      {
-        "tag": "school",
-        "weight": 0.4822,
-        "corpus_score": 0.2529,
-        "relevance": 0.9588
-      },
-      {
-        "tag": "learn",
-        "weight": 0.4733,
-        "corpus_score": 0.2529,
-        "relevance": 0.9412
       },
       {
         "tag": "truth",
@@ -4407,60 +4389,11 @@
         "relevance": 0.5059
       },
       {
-        "tag": "fear",
-        "weight": 0.4475,
-        "corpus_score": 0.5905,
-        "relevance": 0.5824
-      },
-      {
-        "tag": "facts",
-        "weight": 0.3726,
-        "corpus_score": 0.5301,
-        "relevance": 0.5118
-      },
-      {
-        "tag": "the brain",
-        "weight": 0.3715,
-        "corpus_score": 0.552,
-        "relevance": 0.5
-      },
-      {
-        "tag": "wrong",
-        "weight": 0.3582,
-        "corpus_score": 0.4787,
-        "relevance": 0.5176
-      },
-      {
-        "tag": "stupid",
-        "weight": 0.3504,
-        "corpus_score": 0.448,
-        "relevance": 0.5235
-      },
-      {
-        "tag": "dan gardner",
-        "weight": 0.2988,
-        "corpus_score": 0.2529,
-        "relevance": 0.5941
-      },
-      {
-        "tag": "science of fear",
-        "weight": 0.2958,
-        "corpus_score": 0.2529,
-        "relevance": 0.5882
-      },
-      {
-        "tag": "ben franklin",
-        "weight": 0.2256,
-        "corpus_score": 0.1596,
-        "relevance": 0.5647
-      },
-      {
-        "tag": "benjamin franklin",
-        "weight": 0.1281,
-        "corpus_score": 0.1596,
-        "relevance": 0.3206
+        "tag": "stupidity",
+        "weight": 1
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0062",
@@ -5537,7 +5470,7 @@
     "year": "1957",
     "publication": "The Undiscovered Self",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780451626509",
@@ -5561,12 +5494,6 @@
       "faith"
     ],
     "weighted_tags": [
-      {
-        "tag": "humanity",
-        "weight": 0.53,
-        "corpus_score": 1.0,
-        "relevance": 0.53
-      },
       {
         "tag": "gods",
         "weight": 0.4828,
@@ -5602,14 +5529,9 @@
         "weight": 0.3275,
         "corpus_score": 0.4125,
         "relevance": 0.51
-      },
-      {
-        "tag": "carl jung",
-        "weight": 0.1864,
-        "corpus_score": 0.3191,
-        "relevance": 0.33
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0079",
@@ -8659,46 +8581,16 @@
     ],
     "weighted_tags": [
       {
-        "tag": "art",
-        "weight": 0.5255,
-        "corpus_score": 0.7671,
-        "relevance": 0.6
+        "tag": "science",
+        "weight": 1
       },
       {
-        "tag": "culture",
-        "weight": 0.4651,
-        "corpus_score": 0.7009,
-        "relevance": 0.5556
+        "tag": "learning",
+        "weight": 1
       },
       {
-        "tag": "why",
-        "weight": 0.395,
-        "corpus_score": 0.5721,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "evolution",
-        "weight": 0.357,
-        "corpus_score": 0.448,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "on the origin of art",
-        "weight": 0.2308,
-        "corpus_score": 0.1596,
-        "relevance": 0.5778
-      },
-      {
-        "tag": "david walsh",
-        "weight": 0.2268,
-        "corpus_score": 0.448,
-        "relevance": 0.3389
-      },
-      {
-        "tag": "curator",
-        "weight": 0.2175,
-        "corpus_score": 0.1596,
-        "relevance": 0.5444
+        "tag": "knowledge",
+        "weight": 1
       }
     ]
   },
@@ -16035,14 +15927,14 @@
     "filename_stem": "hl-mencken-04",
     "quote": "Puritanism: the haunting fear that someone, somewhere, may be happy.",
     "author": "H.L. Mencken",
-    "year": "1949",
-    "publication": "A Mencken Chrestomathy",
+    "year": "2018",
+    "publication": "Bullshit Jobs",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "book_author": null,
-    "isbn": null,
-    "cover_url": "covers/a-mencken-chrestomathy.jpg",
+    "book_author": "David Graeber",
+    "isbn": "9791020907363",
+    "cover_url": "covers/bullshit-jobs.jpg",
     "_flickr_id": "54324653064",
     "tags": [
       "quote",
@@ -17826,7 +17718,7 @@
     "year": "1972",
     "publication": "Invisible Cities",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781446414279",
@@ -17905,7 +17797,8 @@
         "corpus_score": 0.448,
         "relevance": 0.3409
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0259",
@@ -26648,7 +26541,7 @@
     "year": "2023",
     "publication": "Thinking in Pictures",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781838957469",
@@ -26686,12 +26579,6 @@
         "relevance": 0.5091
       },
       {
-        "tag": "knowing",
-        "weight": 0.4491,
-        "corpus_score": 0.6778,
-        "relevance": 0.5455
-      },
-      {
         "tag": "uncertainty",
         "weight": 0.4194,
         "corpus_score": 0.5721,
@@ -26708,32 +26595,9 @@
         "weight": 0.3782,
         "corpus_score": 0.5721,
         "relevance": 0.5
-      },
-      {
-        "tag": "recalibrate",
-        "weight": 0.3704,
-        "corpus_score": 0.1596,
-        "relevance": 0.9273
-      },
-      {
-        "tag": "the unknown",
-        "weight": 0.3347,
-        "corpus_score": 0.448,
-        "relevance": 0.5
-      },
-      {
-        "tag": "michael blast land",
-        "weight": 0.2324,
-        "corpus_score": 0.1596,
-        "relevance": 0.5818
-      },
-      {
-        "tag": "thinking in pictures",
-        "weight": 0.2288,
-        "corpus_score": 0.1596,
-        "relevance": 0.5727
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0380",
@@ -28455,11 +28319,11 @@
     "source_image": "nassim-taleb-24.png",
     "filename_stem": "nassim-taleb-24",
     "quote": "The more data we have, the more likely we are to drown in it.",
-    "author": "Nassim Taleb",
+    "author": "Nassim Nicholas Taleb",
     "year": "2001",
     "publication": "Fooled by Randomness",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9787508633749",
@@ -28559,7 +28423,8 @@
         "corpus_score": 0.2529,
         "relevance": 0.3429
       }
-    ]
+    ],
+    "book_author": null
   },
   {
     "id": "quote_0402",
@@ -50968,6 +50833,463 @@
       }
     ],
     "id": "quote_0835",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s not we who lord it over things, it seems, but things which lord it over us.",
+    "author": "Bertolt Brecht",
+    "publication": "Fashionable Nonsense",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Jean Bricmont & Alan Sokal",
+    "cover_url": "covers/fashionable-nonsense.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ownership",
+        "weight": 1
+      },
+      {
+        "tag": "possessions",
+        "weight": 1
+      },
+      {
+        "tag": "property",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0836",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When war is declared, Truth is the first casualty... Falsehood is the most useful weapon in case of war.",
+    "author": "Arthur Ponsonby",
+    "publication": "Propaganda",
+    "year": "1965",
+    "isbn": "9782717818482",
+    "book_author": "Jacques Ellul",
+    "cover_url": "covers/propaganda.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "lies",
+        "weight": 1
+      },
+      {
+        "tag": "war",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0837",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There is no other world. There’s just another way to live.",
+    "author": "Jacques Mesrine",
+    "publication": "To Our Friends",
+    "year": "2014",
+    "isbn": "9788415862307",
+    "book_author": "The Invisible Committee",
+    "cover_url": "covers/to-our-friends.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "paths",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0838",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "But now (we say) the sweetness of the night / Will hide our imperfections from our sight",
+    "author": "John Berryman",
+    "publication": "The Dream Songs",
+    "year": "1968",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-dream-songs.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nighttime",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "hiding",
+        "weight": 1
+      },
+      {
+        "tag": "perfection",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0839",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Ingratitude is the necessary curse of making things new...",
+    "author": "John Berryman",
+    "publication": "The Dream Songs",
+    "year": "1968",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-dream-songs.jpg",
+    "weighted_tags": [
+      {
+        "tag": "gratitude",
+        "weight": 1
+      },
+      {
+        "tag": "the new",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0840",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Our dead frisk us, & later they get better at it.",
+    "author": "John Berryman",
+    "publication": "The Dream Songs",
+    "year": "1968",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-dream-songs.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "thieving",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0841",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I hope you know that television and computers are no more your friends, and no more increasers of your brainpower, than slot machines.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "If This Isn't Nice, What Is?",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/if-this-isnt-nice-what-is.png",
+    "weighted_tags": [
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "friends",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0842",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "\"The purpose of museums... is to persuade the common people that they are unworthy of holding power or making big money...",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "If This Isn't Nice, What Is?",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/if-this-isnt-nice-what-is.png",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "people",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0843",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A body always tells the truth, that’s why it’s usually depressing and disgusting to look at.",
+    "author": "Louis-Ferdinand Céline",
+    "publication": "Journey to the End of the Night",
+    "year": "1932",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "depression",
+        "weight": 1
+      },
+      {
+        "tag": "disgust",
+        "weight": 1
+      },
+      {
+        "tag": "the body",
+        "weight": 1
+      },
+      {
+        "tag": "looking",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0844",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Our life is a journey / Through winter and night, / We look for our way / In a sky without light.",
+    "author": "Song of the Swiss Guards",
+    "publication": "Journey to the End of the Night",
+    "year": "1932",
+    "isbn": null,
+    "book_author": "Louis-Ferdinand Céline",
+    "cover_url": "covers/journey-to-the-end-of-the-night.jpg",
+    "weighted_tags": [
+      {
+        "tag": "paths",
+        "weight": 1
+      },
+      {
+        "tag": "winter",
+        "weight": 1
+      },
+      {
+        "tag": "nighttime",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "direction",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0845",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Once our heart has harvested its grapes / To live is torment...",
+    "author": "Charles Baudelaire",
+    "publication": "Serotonin",
+    "year": "2019",
+    "isbn": "9781473570535",
+    "book_author": "Michel Houellebecq",
+    "cover_url": "covers/serotonin.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ageing",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0846",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If you do not take risks for your opinion, you are nothing.",
+    "author": "Nassim Nicholas Taleb",
+    "publication": "Skin in the Game",
+    "year": "2018",
+    "isbn": "9780425284643",
+    "book_author": null,
+    "cover_url": "covers/skin-in-the-game.jpg",
+    "weighted_tags": [
+      {
+        "tag": "risk",
+        "weight": 1
+      },
+      {
+        "tag": "opinions",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0847",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "As our understanding of the history of technology increases, it becomes clear that a new device merely opens a door; it does not compel one to enter.",
+    "author": "Lynn White Jr.",
+    "publication": "The Disappearance of Childhood",
+    "year": "1982",
+    "isbn": "0440016916",
+    "book_author": "Neil Postman",
+    "cover_url": "covers/the-disappearance-of-childhood.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0848",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I don’t believe in pain as a pusher of art. Pain is too often. We can breathe without it. If it will let us.",
+    "author": "Charles Bukowski",
+    "publication": "On Writing",
+    "year": "2000",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/on-writing.jpg",
+    "weighted_tags": [
+      {
+        "tag": "pain",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0849",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To weep is to make less the depth of grief.",
+    "author": "William Shakespeare",
+    "publication": "Henry VI",
+    "year": "1592",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/henry-vi.jpg",
+    "weighted_tags": [
+      {
+        "tag": "sadness",
+        "weight": 1
+      },
+      {
+        "tag": "grief",
+        "weight": 1
+      },
+      {
+        "tag": "emotion",
+        "weight": 1
+      },
+      {
+        "tag": "despair",
+        "weight": 1
+      }
+    ],
+    "id": "quote_0850",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""

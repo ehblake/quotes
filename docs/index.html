@@ -1183,7 +1183,7 @@
         <div class="edit-field-row-3">
           <div class="edit-field">
             <label>Publication / Book Title</label>
-            <input type="text" id="edit-publication">
+            <input type="text" id="edit-publication" onblur="autoFillBookInfo()">
           </div>
           <div class="edit-field">
             <label>Year</label>
@@ -3207,6 +3207,16 @@
 
       // Show modal
       document.getElementById('edit-modal').classList.add('open');
+    }
+
+    function autoFillBookInfo() {
+      const pub = document.getElementById('edit-publication').value.trim();
+      const yearField = document.getElementById('edit-year');
+      if (!pub || yearField.value.trim()) return;
+      const match = quotes.find(q => q.publication && q.publication === pub);
+      if (match && match.year) {
+        yearField.value = match.year;
+      }
     }
 
     function closeEditModal() {
