@@ -366,7 +366,7 @@
     "filename_stem": "agnes-martin",
     "quote": "From music people expect pure emotion but from art they demand explanation.",
     "author": "Agnes Martin",
-    "year": "2015",
+    "year": "2005",
     "publication": "Agnes Martin: Writings, Interviews, Photographs",
     "notes": "",
     "confidence": 1,
@@ -423,27 +423,9 @@
         "weight": 0.4642,
         "corpus_score": 0.7671,
         "relevance": 0.53
-      },
-      {
-        "tag": "explain",
-        "weight": 0.2077,
-        "corpus_score": 0.1596,
-        "relevance": 0.52
-      },
-      {
-        "tag": "contemporary art",
-        "weight": 0.2037,
-        "corpus_score": 0.1596,
-        "relevance": 0.51
-      },
-      {
-        "tag": "agnes martin",
-        "weight": 0.1278,
-        "corpus_score": 0.1596,
-        "relevance": 0.32
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/951422.Writings"
+    "goodreads_url": "https://www.goodreads.com/book/show/282489.Agnes_Martin"
   },
   {
     "id": "quote_0008",
@@ -2161,46 +2143,16 @@
         "weight": 0.4061,
         "corpus_score": 0.6383,
         "relevance": 0.5083
-      },
-      {
-        "tag": "following",
-        "weight": 0.3695,
-        "corpus_score": 0.1596,
-        "relevance": 0.925
-      },
-      {
-        "tag": "presence",
-        "weight": 0.3107,
-        "corpus_score": 0.3191,
-        "relevance": 0.55
-      },
-      {
-        "tag": "varieties of presence",
-        "weight": 0.233,
-        "corpus_score": 0.1596,
-        "relevance": 0.5833
-      },
-      {
-        "tag": "alva noë",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
-      },
-      {
-        "tag": "wittgenstein",
-        "weight": 0.1232,
-        "corpus_score": 0.1596,
-        "relevance": 0.3083
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/13591107-varieties-of-presence"
+    "goodreads_url": "https://www.goodreads.com/book/show/13157955-varieties-of-presence"
   },
   {
     "id": "quote_0033",
     "source_image": "an-whitehead-01.png",
     "filename_stem": "an-whitehead-01",
     "quote": "Insistence on clarity at all costs is based on sheer superstition... Our reasonings grasp at straws for premises and float on gossamers for deductions.",
-    "author": "A.N. Whitehead",
+    "author": "Alfred North Whitehead",
     "year": "1967",
     "publication": "The Medium is the Massage",
     "notes": "",
@@ -2844,7 +2796,7 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/2187327.Australia"
+    "goodreads_url": "https://www.goodreads.com/book/show/15472075-australia"
   },
   {
     "id": "quote_0041",
@@ -2915,7 +2867,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/18371727"
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile"
   },
   {
     "id": "quote_0042",
@@ -2988,7 +2940,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/18371727"
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile"
   },
   {
     "id": "quote_0043",
@@ -3092,7 +3044,8 @@
         "relevance": 0.3083
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/31497039"
+    "goodreads_url": "https://www.goodreads.com/book/show/53487237-a-swim-in-a-pond-in-the-rain",
+    "book_author": null
   },
   {
     "id": "quote_0044",
@@ -5806,7 +5759,7 @@
     "year": "1962",
     "publication": "The Death of Artemio Cruz",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
@@ -5840,7 +5793,7 @@
       {
         "tag": "humanity",
         "weight": 0.5273,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5273
       },
       {
@@ -5880,7 +5833,8 @@
         "relevance": 0.3318
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/33817.The_Death_of_Artemio_Cruz"
+    "goodreads_url": "https://www.goodreads.com/book/show/12764.The_Death_of_Artemio_Cruz",
+    "book_author": null
   },
   {
     "id": "quote_0083",
@@ -5940,7 +5894,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/33817.The_Death_of_Artemio_Cruz"
+    "goodreads_url": "https://www.goodreads.com/book/show/12764.The_Death_of_Artemio_Cruz"
   },
   {
     "id": "quote_0084",
@@ -5951,7 +5905,7 @@
     "year": "1962",
     "publication": "The Death of Artemio Cruz",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": null,
@@ -5990,7 +5944,8 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/33817.The_Death_of_Artemio_Cruz"
+    "goodreads_url": "https://www.goodreads.com/book/show/12764.The_Death_of_Artemio_Cruz",
+    "book_author": null
   },
   {
     "id": "quote_0085",
@@ -6031,43 +5986,15 @@
         "relevance": 0.5889
       },
       {
-        "tag": "weary",
-        "weight": 0.4806,
-        "corpus_score": 0.2529,
-        "relevance": 0.9556
+        "tag": "depression",
+        "weight": 1
       },
       {
-        "tag": "humour",
-        "weight": 0.4261,
-        "corpus_score": 0.6383,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "tired",
-        "weight": 0.2308,
-        "corpus_score": 0.1596,
-        "relevance": 0.5778
-      },
-      {
-        "tag": "depressed",
-        "weight": 0.2264,
-        "corpus_score": 0.1596,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "charles d'orleans",
-        "weight": 0.2086,
-        "corpus_score": 0.1596,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "exhausted",
-        "weight": 0.2042,
-        "corpus_score": 0.1596,
-        "relevance": 0.5111
+        "tag": "exhaustion",
+        "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/13597504-the-map-and-the-territory"
+    "goodreads_url": "https://www.goodreads.com/book/show/10099407-the-map-and-the-territory"
   },
   {
     "id": "quote_0086",
@@ -6355,7 +6282,7 @@
     "year": "2024",
     "publication": "A Natural History of Empty Lots",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9783786125631",
@@ -6398,37 +6325,12 @@
         "relevance": 0.52
       },
       {
-        "tag": "dead zones",
-        "weight": 0.3835,
-        "corpus_score": 0.1596,
-        "relevance": 0.96
-      },
-      {
         "tag": "wandering",
-        "weight": 0.3226,
-        "corpus_score": 0.3705,
-        "relevance": 0.53
-      },
-      {
-        "tag": "a natural history of empty lots",
-        "weight": 0.2917,
-        "corpus_score": 0.2529,
-        "relevance": 0.58
-      },
-      {
-        "tag": "underbelly",
-        "weight": 0.2037,
-        "corpus_score": 0.1596,
-        "relevance": 0.51
-      },
-      {
-        "tag": "christopher brown",
-        "weight": 0.1609,
-        "corpus_score": 0.2529,
-        "relevance": 0.32
+        "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/58064180-a-natural-history-of-empty-lots"
+    "goodreads_url": "https://www.goodreads.com/book/show/207573383-a-natural-history-of-empty-lots",
+    "book_author": null
   },
   {
     "id": "quote_0090",
@@ -6439,7 +6341,7 @@
     "year": "2024",
     "publication": "A Natural History of Empty Lots",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9783786125631",
@@ -6474,7 +6376,7 @@
       {
         "tag": "humanity",
         "weight": 0.5667,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5667
       },
       {
@@ -6506,27 +6408,10 @@
         "weight": 0.2966,
         "corpus_score": 0.3191,
         "relevance": 0.525
-      },
-      {
-        "tag": "a natural history of empty lots",
-        "weight": 0.2934,
-        "corpus_score": 0.2529,
-        "relevance": 0.5833
-      },
-      {
-        "tag": "survival",
-        "weight": 0.2766,
-        "corpus_score": 0.2529,
-        "relevance": 0.55
-      },
-      {
-        "tag": "christopher brown",
-        "weight": 0.1634,
-        "corpus_score": 0.2529,
-        "relevance": 0.325
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/58064180-a-natural-history-of-empty-lots"
+    "goodreads_url": "https://www.goodreads.com/book/show/207573383-a-natural-history-of-empty-lots",
+    "book_author": null
   },
   {
     "id": "quote_0091",
@@ -11397,20 +11282,20 @@
     "id": "quote_0160",
     "source_image": "franz-kafka-08.png",
     "filename_stem": "franz-kafka-08",
-    "quote": "To believe in progress does not mean believing that progress has already taken place. This would not be belief.",
+    "quote": "Believing in progress does not mean believing that any progress has yet been made. That is not the sort of belief that indicates real faith.",
     "author": "Franz Kafka",
-    "year": "1915",
-    "publication": "Meditations on Sin, Suffering, and Hope",
+    "year": "1931",
+    "publication": "The Zurau Aphorisms of Franz Kafka",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9798518395817",
+    "isbn": null,
     "book_title": "Die Verwandlung",
     "publisher": "Independently Published",
     "open_library_key": "/works/OL498556W",
     "catalog_notes": "Found ISBN: 9798518395817; Year from Open Library: 1915",
-    "cover_url": "covers/meditations-on-sin-suffering-and-hope.jpg",
+    "cover_url": "covers/the-zurau-aphorisms-of-franz-kafka.jpg",
     "_flickr_id": "53819022276",
     "tags": [
       "Alberto Manguel",
@@ -11436,31 +11321,12 @@
         "relevance": 0.925
       },
       {
-        "tag": "alberto manguel",
-        "weight": 0.3652,
-        "corpus_score": 0.3705,
-        "relevance": 0.6
-      },
-      {
-        "tag": "city of words",
-        "weight": 0.3319,
-        "corpus_score": 0.3191,
-        "relevance": 0.5875
-      },
-      {
-        "tag": "real",
-        "weight": 0.3292,
-        "corpus_score": 0.4125,
-        "relevance": 0.5125
-      },
-      {
-        "tag": "franz kafka",
-        "weight": 0.1509,
-        "corpus_score": 0.2529,
-        "relevance": 0.3
+        "tag": "faith",
+        "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/22911086-meditations"
+    "goodreads_url": "https://en.wikipedia.org/wiki/The_Z%C3%BCrau_Aphorisms",
+    "book_author": null
   },
   {
     "id": "quote_0161",
@@ -28459,16 +28325,10 @@
         "weight": 0.1349,
         "corpus_score": 0.2529,
         "relevance": 0.2682
-      },
-      {
-        "tag": "nassim",
-        "weight": 0.1303,
-        "corpus_score": 0.2529,
-        "relevance": 0.2591
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/18371727"
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile"
   },
   {
     "id": "quote_0400",
@@ -28516,7 +28376,7 @@
       {
         "tag": "humanity",
         "weight": 0.5214,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5214
       },
       {
@@ -28542,34 +28402,10 @@
         "weight": 0.2905,
         "corpus_score": 0.3191,
         "relevance": 0.5143
-      },
-      {
-        "tag": "nice",
-        "weight": 0.2169,
-        "corpus_score": 0.1596,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "liked",
-        "weight": 0.214,
-        "corpus_score": 0.1596,
-        "relevance": 0.5357
-      },
-      {
-        "tag": "taleb",
-        "weight": 0.1652,
-        "corpus_score": 0.2529,
-        "relevance": 0.3286
-      },
-      {
-        "tag": "nassim",
-        "weight": 0.1616,
-        "corpus_score": 0.2529,
-        "relevance": 0.3214
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/18371727"
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile"
   },
   {
     "id": "quote_0401",
@@ -44000,10 +43836,10 @@
       }
     ],
     "id": "quote_0648",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/13591107-varieties-of-presence"
+    "goodreads_url": "https://www.goodreads.com/book/show/13157955-varieties-of-presence"
   },
   {
     "quote": "The presence of another person is the most powerful force there is.",
@@ -44023,7 +43859,7 @@
       {
         "tag": "humanity",
         "weight": 0.5,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5
       },
       {
@@ -44058,10 +43894,10 @@
       }
     ],
     "id": "quote_0649",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/13591107-varieties-of-presence"
+    "goodreads_url": "https://www.goodreads.com/book/show/13157955-varieties-of-presence"
   },
   {
     "quote": "We live in a world of arcs, not points.",
@@ -44104,10 +43940,10 @@
       }
     ],
     "id": "quote_0650",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/13591107-varieties-of-presence"
+    "goodreads_url": "https://www.goodreads.com/book/show/13157955-varieties-of-presence"
   },
   {
     "quote": "Again and again there comes a time in history when the man who dares to say that two and two make four is punished with death.",
@@ -49655,20 +49491,20 @@
         "weight": 1
       },
       {
-        "tag": "purpose",
-        "weight": 1
-      },
-      {
         "tag": "storytelling",
         "weight": 1
       },
       {
         "tag": "attention",
         "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
       }
     ],
     "id": "quote_0782",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "goodreads_url": "https://www.goodreads.com/book/show/30688264-the-art-of-relevance"
@@ -50740,10 +50576,10 @@
       }
     ],
     "id": "quote_0814",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/18371727"
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile"
   },
   {
     "quote": "It’s tough to make predictions, especially about the future.",
@@ -50800,10 +50636,10 @@
       }
     ],
     "id": "quote_0816",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/18371727"
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile"
   },
   {
     "quote": "...it may not be too bad being dead but while you’re living it might be best to live from the source stuck inside of you...",
