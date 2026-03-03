@@ -1046,7 +1046,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/3100661"
+    "goodreads_url": "https://www.goodreads.com/book/show/1742577.The_City_of_Words"
   },
   {
     "id": "quote_0018",
@@ -1057,7 +1057,7 @@
     "year": "2007",
     "publication": "The City of Words",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780660197296",
@@ -1118,7 +1118,8 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/3100661"
+    "goodreads_url": "https://www.goodreads.com/book/show/1742577.The_City_of_Words",
+    "book_author": null
   },
   {
     "id": "quote_0019",
@@ -1129,7 +1130,7 @@
     "year": "2007",
     "publication": "City of Words",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780660197296",
@@ -1177,7 +1178,8 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/3100661"
+    "goodreads_url": "https://www.goodreads.com/book/show/1742577.The_City_of_Words",
+    "book_author": null
   },
   {
     "id": "quote_0020",
@@ -10015,7 +10017,7 @@
     "year": "1963",
     "publication": "On Disobedience",
     "notes": "Quote starts with ellipsis; context may precede.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780062035127",
@@ -10076,75 +10078,10 @@
         "weight": 0.3948,
         "corpus_score": 0.6234,
         "relevance": 0.5
-      },
-      {
-        "tag": "goethe",
-        "weight": 0.328,
-        "corpus_score": 0.3705,
-        "relevance": 0.5389
-      },
-      {
-        "tag": "obey",
-        "weight": 0.2878,
-        "corpus_score": 0.2529,
-        "relevance": 0.5722
-      },
-      {
-        "tag": "disobey",
-        "weight": 0.285,
-        "corpus_score": 0.2529,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "disbelief",
-        "weight": 0.2197,
-        "corpus_score": 0.1596,
-        "relevance": 0.55
-      },
-      {
-        "tag": "epochs",
-        "weight": 0.2175,
-        "corpus_score": 0.1596,
-        "relevance": 0.5444
-      },
-      {
-        "tag": "eras",
-        "weight": 0.213,
-        "corpus_score": 0.1596,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "historical",
-        "weight": 0.2086,
-        "corpus_score": 0.1596,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "fruitful",
-        "weight": 0.2064,
-        "corpus_score": 0.1596,
-        "relevance": 0.5167
-      },
-      {
-        "tag": "uplifting",
-        "weight": 0.2042,
-        "corpus_score": 0.1596,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "exciting",
-        "weight": 0.202,
-        "corpus_score": 0.1596,
-        "relevance": 0.5056
-      },
-      {
-        "tag": "erich fromm",
-        "weight": 0.1946,
-        "corpus_score": 0.3191,
-        "relevance": 0.3444
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/8709586"
+    "goodreads_url": "https://www.goodreads.com/book/show/8709586",
+    "book_author": null
   },
   {
     "id": "quote_0144",
@@ -10186,12 +10123,6 @@
         "relevance": 0.9
       },
       {
-        "tag": "disobey",
-        "weight": 0.4727,
-        "corpus_score": 0.2529,
-        "relevance": 0.94
-      },
-      {
         "tag": "humankind",
         "weight": 0.4277,
         "corpus_score": 0.7316,
@@ -10210,22 +10141,10 @@
         "relevance": 0.53
       },
       {
-        "tag": "obey",
-        "weight": 0.3772,
-        "corpus_score": 0.2529,
-        "relevance": 0.75
-      },
-      {
         "tag": "disobedience",
         "weight": 0.2816,
         "corpus_score": 0.2529,
         "relevance": 0.56
-      },
-      {
-        "tag": "erich fromm",
-        "weight": 0.1921,
-        "corpus_score": 0.3191,
-        "relevance": 0.34
       }
     ],
     "book_author": null,
@@ -11736,18 +11655,18 @@
     "filename_stem": "friedrich-nietzsche-19",
     "quote": "If we possess our why of life we can put up with almost any how.",
     "author": "Friedrich Nietzsche",
-    "year": "1888",
-    "publication": "Maxims and Arrows",
+    "year": "1889",
+    "publication": "Twilight of Idols and Anti-Christ",
     "notes": "The quote is complete and legible.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9788525417916",
+    "isbn": null,
     "book_title": "Der Antichrist",
     "publisher": "L&PM",
     "open_library_key": "/works/OL15692719W",
     "catalog_notes": "Found ISBN: 9788525417916",
-    "cover_url": "covers/9788525417916.jpg",
+    "cover_url": "covers/twilight-of-idols-and-anti-christ.jpg",
     "tags": [
       "nietzsche",
       "friedrich nietzsche",
@@ -11787,21 +11706,10 @@
         "weight": 0.4056,
         "corpus_score": 0.5301,
         "relevance": 0.5571
-      },
-      {
-        "tag": "friedrich nietzsche",
-        "weight": 0.2323,
-        "corpus_score": 0.4787,
-        "relevance": 0.3357
-      },
-      {
-        "tag": "nietzsche",
-        "weight": 0.1977,
-        "corpus_score": 0.3191,
-        "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/851994.Twilight_of_the_Idols"
+    "goodreads_url": "https://www.goodreads.com/book/show/43150.Twilight_of_the_Idols_The_Anti_Christ",
+    "book_author": null
   },
   {
     "id": "quote_0169",
@@ -12397,7 +12305,7 @@
     "year": "1876",
     "publication": "The Meek One",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788588808850",
@@ -12440,7 +12348,8 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/246707919-the-meek-one"
+    "goodreads_url": "https://www.goodreads.com/book/show/24874310-the-meek-one",
+    "book_author": null
   },
   {
     "id": "quote_0177",
@@ -13789,7 +13698,7 @@
         "relevance": 0.5333
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/86535020-the-life-of-reason-or-the-phases-of-human-progress-by-george-santayan"
+    "goodreads_url": "https://www.goodreads.com/book/show/403278.The_Life_of_Reason"
   },
   {
     "id": "quote_0202",
@@ -14057,13 +13966,13 @@
     "filename_stem": "goethe-02",
     "quote": "See how nature is a living book, misunderstood but not beyond understanding.",
     "author": "Johann Wolfgang von Goethe",
-    "year": null,
-    "publication": "The Maxims and Reflections of Goethe",
+    "year": "1998",
+    "publication": "Maxims and Reflections",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "book_author": null,
-    "isbn": "9780486201463",
+    "isbn": null,
     "cover_url": "covers/the-maxims-and-reflections-of-goethe.jpg",
     "_flickr_id": "53379233798",
     "tags": [
@@ -14089,25 +13998,11 @@
         "relevance": 0.9714
       },
       {
-        "tag": "living book",
-        "weight": 0.3766,
-        "corpus_score": 0.1596,
-        "relevance": 0.9429
-      },
-      {
-        "tag": "goethe",
-        "weight": 0.213,
-        "corpus_score": 0.3705,
-        "relevance": 0.35
-      },
-      {
-        "tag": "misunderstanding",
-        "weight": 0.2054,
-        "corpus_score": 0.1596,
-        "relevance": 0.5143
+        "tag": "life",
+        "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/238529087-the-maxims-and-reflections-of-goethe-classic-reprint-by-johann-wolfgan"
+    "goodreads_url": "https://www.goodreads.com/book/show/18226.Maxims_and_Reflections"
   },
   {
     "id": "quote_0206",
@@ -14375,7 +14270,7 @@
         "tag": "knowledge",
         "weight": 0.9514,
         "corpus_score": 0.9052,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "understanding",
@@ -14420,7 +14315,7 @@
         "relevance": 0.55
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/11297401"
+    "goodreads_url": "https://www.goodreads.com/book/show/7783191-the-invisible-gorilla"
   },
   {
     "id": "quote_0209",
@@ -14501,7 +14396,7 @@
         "relevance": 0.55
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/11297401"
+    "goodreads_url": "https://www.goodreads.com/book/show/7783191-the-invisible-gorilla"
   },
   {
     "id": "quote_0210",
@@ -15552,7 +15447,7 @@
         "relevance": 0.52
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/122881158-the-book-on-the-bookshelf-vintage-by-henry-petroski"
+    "goodreads_url": "https://www.goodreads.com/book/show/95979.The_Book_on_the_Bookshelf"
   },
   {
     "id": "quote_0225",
@@ -20744,7 +20639,7 @@
     "source_image": "jmw-turner.png",
     "filename_stem": "jmw-turner",
     "quote": "My business is to paint what I see, not what I know is there.",
-    "author": "JMW Turner",
+    "author": "J.M.W. Turner",
     "year": "2012",
     "publication": "The Life and Masterworks of J.M.W. Turner",
     "notes": "",
@@ -20794,46 +20689,12 @@
         "relevance": 0.5583
       },
       {
-        "tag": "artists",
-        "weight": 0.3556,
-        "corpus_score": 0.5058,
-        "relevance": 0.5
+        "tag": "art",
+        "weight": 1
       },
       {
-        "tag": "banality",
-        "weight": 0.3347,
-        "corpus_score": 0.448,
-        "relevance": 0.5
-      },
-      {
-        "tag": "views",
-        "weight": 0.3211,
-        "corpus_score": 0.4125,
-        "relevance": 0.5
-      },
-      {
-        "tag": "common",
-        "weight": 0.2766,
-        "corpus_score": 0.2529,
-        "relevance": 0.55
-      },
-      {
-        "tag": "rembrandt",
-        "weight": 0.213,
-        "corpus_score": 0.1596,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "jmw turner",
-        "weight": 0.1332,
-        "corpus_score": 0.1596,
-        "relevance": 0.3333
-      },
-      {
-        "tag": "turner",
-        "weight": 0.1298,
-        "corpus_score": 0.1596,
-        "relevance": 0.325
+        "tag": "seeing",
+        "weight": 1
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/142461804-the-life-and-masterworks-of-j-m-w-turner-by-shanes-eric-author-har"
@@ -28937,7 +28798,7 @@
     "year": "1982",
     "publication": "The Disappearance of Childhood",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "0440016916",
@@ -28990,7 +28851,8 @@
         "relevance": 0.5375
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/3528785"
+    "goodreads_url": "https://www.goodreads.com/book/show/79679.The_Disappearance_of_Childhood",
+    "book_author": null
   },
   {
     "id": "quote_0408",
@@ -29001,7 +28863,7 @@
     "year": "1982",
     "publication": "The Disappearance of Childhood",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "0440016916",
@@ -29074,7 +28936,8 @@
         "relevance": 0.51
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/3528785"
+    "goodreads_url": "https://www.goodreads.com/book/show/79679.The_Disappearance_of_Childhood",
+    "book_author": null
   },
   {
     "id": "quote_0409",
@@ -29085,7 +28948,7 @@
     "year": "1982",
     "publication": "The Disappearance of Childhood",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "0440016916",
@@ -29165,7 +29028,8 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/3528785"
+    "goodreads_url": "https://www.goodreads.com/book/show/79679.The_Disappearance_of_Childhood",
+    "book_author": null
   },
   {
     "id": "quote_0410",
@@ -29761,18 +29625,18 @@
     "filename_stem": "nietzsche-32",
     "quote": "Without music life would be a mistake.",
     "author": "Friedrich Nietzsche",
-    "year": "1888",
-    "publication": "Nietzsche’s Maxims and Arrows",
+    "year": "1889",
+    "publication": "Twilight of Idols and Anti-Christ",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9788525417916",
+    "isbn": null,
     "book_title": "Der Antichrist",
     "publisher": "L&PM",
     "open_library_key": "/works/OL15692719W",
     "catalog_notes": "Found ISBN: 9788525417916",
-    "cover_url": "covers/9788525417916.jpg",
+    "cover_url": "covers/twilight-of-idols-and-anti-christ.jpg",
     "_flickr_id": "53682168004",
     "tags": [
       "Friedrich nietzsche",
@@ -29820,39 +29684,9 @@
         "weight": 0.3458,
         "corpus_score": 0.4125,
         "relevance": 0.5385
-      },
-      {
-        "tag": "songs",
-        "weight": 0.3458,
-        "corpus_score": 0.4125,
-        "relevance": 0.5385
-      },
-      {
-        "tag": "singing",
-        "weight": 0.2747,
-        "corpus_score": 0.2529,
-        "relevance": 0.5462
-      },
-      {
-        "tag": "friedrich nietzsche",
-        "weight": 0.2422,
-        "corpus_score": 0.4787,
-        "relevance": 0.35
-      },
-      {
-        "tag": "maxim",
-        "weight": 0.2305,
-        "corpus_score": 0.1596,
-        "relevance": 0.5769
-      },
-      {
-        "tag": "german",
-        "weight": 0.2212,
-        "corpus_score": 0.1596,
-        "relevance": 0.5538
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/851994.Twilight_of_the_Idols"
+    "goodreads_url": "https://www.goodreads.com/book/show/43150.Twilight_of_the_Idols_The_Anti_Christ"
   },
   {
     "id": "quote_0419",
@@ -35139,7 +34973,7 @@
         "relevance": 0.3286
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/1176075.Critical_Essays_on_The_Tempest_by_William_Shakespeare"
+    "goodreads_url": "https://www.goodreads.com/book/show/12985.The_Tempest"
   },
   {
     "id": "quote_0494",
@@ -38882,7 +38716,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/179954393-distrust-that-particular-flavor-by-william-gibson"
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor"
   },
   {
     "id": "quote_0542",
@@ -38967,7 +38801,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/179954393-distrust-that-particular-flavor-by-william-gibson"
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor"
   },
   {
     "id": "quote_0543",
@@ -39020,7 +38854,7 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/179954393-distrust-that-particular-flavor-by-william-gibson"
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor"
   },
   {
     "id": "quote_0544",
@@ -39074,7 +38908,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/179954393-distrust-that-particular-flavor-by-william-gibson"
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor"
   },
   {
     "id": "quote_0545",
@@ -40498,7 +40332,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/229712.The_Waves_By_Virginia_Woolf"
+    "goodreads_url": "https://www.goodreads.com/book/show/46114.The_Waves"
   },
   {
     "quote": "I am out with lanterns, looking for myself.",
@@ -40630,7 +40464,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/143146676-correspondence-between-goethe-and-schiller-1794-1805-studies-in-modern"
+    "goodreads_url": "https://www.goodreads.com/book/show/1440467.Correspondence_between_Goethe_and_Schiller_1794_1805"
   },
   {
     "quote": "Over the city lies the sweet, rotting odor of yesterday’s unrecollected sins.",
@@ -40933,7 +40767,7 @@
     "year": "2016",
     "isbn": null,
     "book_author": null,
-    "cover_url": "covers/jokerman-the-lyrics-1962-2012.webp",
+    "cover_url": "covers/the-lyrics-1962-2012.jpg",
     "weighted_tags": [
       {
         "tag": "life",
@@ -43287,10 +43121,10 @@
       }
     ],
     "id": "quote_0635",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/914759.Le_P_re_Goriot_of_Honor_de_Balzac"
+    "goodreads_url": "https://www.goodreads.com/book/show/59145.P_re_Goriot"
   },
   {
     "quote": "Our inventions... are but improved means to an unimproved end...",
@@ -45334,7 +45168,7 @@
       {
         "tag": "humanity",
         "weight": 0.5,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5
       },
       {
@@ -45363,10 +45197,10 @@
       }
     ],
     "id": "quote_0681",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/3528785"
+    "goodreads_url": "https://www.goodreads.com/book/show/79679.The_Disappearance_of_Childhood"
   },
   {
     "quote": "Language is an abstraction about experience, whereas pictures are concrete representations of experience.",
@@ -45421,10 +45255,10 @@
       }
     ],
     "id": "quote_0682",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/3528785"
+    "goodreads_url": "https://www.goodreads.com/book/show/79679.The_Disappearance_of_Childhood"
   },
   {
     "quote": "...until people abandon all the things that make them snarl and devour each other in this world and until they start thinking about making their spiritual fortune, there will be no harmony in their earthly fortunes, either.",
@@ -45559,10 +45393,10 @@
       }
     ],
     "id": "quote_0685",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/60702023-robinson-crusoe"
+    "goodreads_url": "https://www.goodreads.com/book/show/2932.Robinson_Crusoe"
   },
   {
     "quote": "Forget the cliché that if it’s free, “You are the product.” You are not the product; you are the abandoned carcass. The “product” derives from the surplus that is ripped from your life.",
@@ -48285,10 +48119,10 @@
       }
     ],
     "id": "quote_0752",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/245014843-the-madman-s-library---edward-brooke-hitching"
+    "goodreads_url": "https://www.goodreads.com/book/show/55278284-the-madman-s-library"
   },
   {
     "quote": "While I was doing it I decided why I was doing it.",
@@ -50571,10 +50405,10 @@
       }
     ],
     "id": "quote_0815",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/11297401"
+    "goodreads_url": "https://www.goodreads.com/book/show/7783191-the-invisible-gorilla"
   },
   {
     "quote": "In theory there is no difference between theory and practice; in practice there is.",
@@ -51591,10 +51425,10 @@
       }
     ],
     "id": "quote_0848",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/3528785"
+    "goodreads_url": "https://www.goodreads.com/book/show/79679.The_Disappearance_of_Childhood"
   },
   {
     "quote": "I don’t believe in pain as a pusher of art. Pain is too often. We can breathe without it. If it will let us.",
@@ -51716,6 +51550,270 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
     "id": "quote_0852",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To be an artist is not a matter of making paintings or objects at all. What we are really dealing with is our state of consciousness and the shape of our perception.",
+    "author": "Robert Irwin",
+    "publication": "Strange Tools",
+    "year": "2015",
+    "isbn": null,
+    "book_author": "Alva Noë",
+    "cover_url": "covers/strange-tools.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "artwork",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23847921-strange-tools",
+    "id": "quote_0853",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s generally when they reach their maximum degree of sophistication that civilizations fall apart.",
+    "author": "The Invisible Committee",
+    "publication": "To Our Friends",
+    "year": "2014",
+    "isbn": "9788415862307",
+    "book_author": null,
+    "cover_url": "covers/to-our-friends.jpg",
+    "weighted_tags": [
+      {
+        "tag": "civilisation",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "complexity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24783898-to-our-friends",
+    "id": "quote_0854",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Technology can help us to overcome the limits of our abilities, but only if we recognize that any technological aid will have limits too.",
+    "author": "Christopher Chabris & Daniel Simons",
+    "publication": "The Invisible Gorilla",
+    "year": "2010",
+    "isbn": "9788934947202",
+    "book_author": null,
+    "cover_url": "covers/the-invisible-gorilla.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "limitations",
+        "weight": 1
+      },
+      {
+        "tag": "ability",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/7783191-the-invisible-gorilla",
+    "id": "quote_0855",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We rarely need to explain why something works. Rather, we just need to understand how it works.",
+    "author": "Christopher Chabris & Daniel Simons",
+    "publication": "The Invisible Gorilla",
+    "year": "2010",
+    "isbn": "9788934947202",
+    "book_author": null,
+    "cover_url": "covers/the-invisible-gorilla.jpg",
+    "weighted_tags": [
+      {
+        "tag": "complexity",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/7783191-the-invisible-gorilla",
+    "id": "quote_0856",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Shun electric wire. Communicate slowly. Live a three-dimensional life; stay away from screens.",
+    "author": "Wendell Berry",
+    "publication": "The Peace of Wild Things",
+    "year": "2018",
+    "isbn": "9780141987125",
+    "book_author": null,
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "peace",
+        "weight": 1
+      },
+      {
+        "tag": "screens",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/36200598",
+    "id": "quote_0857",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There are no unsacred places; there are only sacred places and desecrated places.",
+    "author": "Wendell Berry",
+    "publication": "The Peace of Wild Things",
+    "year": "2018",
+    "isbn": "9780141987125",
+    "book_author": null,
+    "cover_url": "covers/the-peace-of-wild-things.jpg",
+    "weighted_tags": [
+      {
+        "tag": "place",
+        "weight": 1
+      },
+      {
+        "tag": "sacred",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/36200598",
+    "id": "quote_0858",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If the content is sufficiently engrossing... you don’t need wraparound deep-immersion goggles to shut out the world. You grow your own.",
+    "author": "William Gibson",
+    "publication": "Distrust That Particular Flavor",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/distrust-that-particular-flavour.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "story",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "narrative",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor",
+    "id": "quote_0859",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Time moves in one direction, memory in another. We are that strange species that constructs artifacts intended to counter the natural flow of forgetting.",
+    "author": "William Gibson",
+    "publication": "Distrust That Particular Flavor",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/distrust-that-particular-flavour.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "collecting",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor",
+    "id": "quote_0860",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
