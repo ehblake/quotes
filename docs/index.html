@@ -7,7 +7,7 @@
   <title>Quotes</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 
   <style>
     * {
@@ -47,6 +47,7 @@
       text-align: center;
       padding: clamp(10px, 2vh, 20px) 0;
       color: #444;
+      font-family: "DM Mono", monospace;
       font-size: clamp(0.75rem, 1vw, 1rem);
       text-transform: uppercase;
       letter-spacing: 0.15em;
@@ -167,6 +168,7 @@
     }
 
     .quote-panel-author {
+      font-family: "DM Mono", monospace;
       font-size: clamp(0.9rem, 1.5vw, 1.6rem);
       font-weight: 400;
       color: #FF0064;
@@ -191,6 +193,7 @@
     .drift-tag {
       display: block;
       color: #444;
+      font-family: "DM Mono", monospace;
       font-size: clamp(0.75rem, 1vw, 1rem);
       text-transform: uppercase;
       letter-spacing: 0.15em;
@@ -234,6 +237,7 @@
     }
 
     .quote-author {
+      font-family: "DM Mono", monospace;
       font-size: 1.6rem;
 	  font-weight: 400;
       color: #FF0064;
@@ -251,6 +255,7 @@
     }
 
     .quote-tag {
+      font-family: "DM Mono", monospace;
       font-size: clamp(0.9rem, 1.3vw, 1.5rem);
       color: #888;
       text-transform: uppercase;
@@ -260,9 +265,11 @@
 
     /* Block 2: Book */
     .book-block {
+      font-family: "DM Sans", sans-serif;
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      cursor: pointer;
       gap: clamp(12px, 2vw, 22px);
       padding: clamp(8px, 1.5vw, 12px);
       background: transparent;
@@ -325,7 +332,7 @@
     }
 
     .book-title {
-      font-size: clamp(9.4px, 1.1vw, 12.4px);
+      font-size: clamp(11px, 1.2vw, 14px);
       font-weight: bold;
       line-height: 1.25;
       margin-bottom: clamp(3px, 0.5vw, 6px);
@@ -333,13 +340,13 @@
 
     .book-author {
       font-size: clamp(10px, 1vw, 12px);
-      opacity: 0.8;
+      opacity: 0.7;
       margin-bottom: clamp(3px, 0.5vw, 6px);
     }
 
     .book-year {
       font-size: clamp(9px, 0.9vw, 11px);
-      opacity: 0.6;
+      opacity: 0.7;
       margin-bottom: clamp(3px, 0.5vw, 6px);
     }
 
@@ -362,23 +369,21 @@
       padding: 20px;
     }
 
-    .count {
+    /* Top bar - count + search */
+    #top-bar {
       position: fixed;
       top: 20px;
       left: 20px;
-      font-size: 12px;
-      color: #aaa;
-    }
-
-    /* Top bar - always visible, contains search (and localhost controls) */
-    #top-bar {
-      position: fixed;
-      top: 40px;
-      left: 20px;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 12px;
       z-index: 50;
+      font-family: "DM Mono", monospace;
+    }
+
+    .count {
+      font-size: 0.85rem;
+      color: #aaa;
     }
 
     /* Go to input - only shown on localhost */
@@ -431,8 +436,8 @@
       border: 1px solid #444;
       border-radius: 4px;
       color: #fafafa;
-      font-size: 12px;
-      font-family: inherit;
+      font-size: 0.85rem;
+      font-family: "DM Mono", monospace;
     }
 
     .search-container input:focus {
@@ -767,23 +772,29 @@
       stroke-width: 1.5;
     }
 
-    /* Edit link - top right, only shown on localhost */
-    .edit-link {
+    /* Edit/Add links - top right, only shown on localhost */
+    .edit-links {
       position: fixed;
       top: 20px;
       right: 20px;
-      color: #555;
-      font-size: 12px;
+      display: none;
+      align-items: center;
+      gap: 50px;
+      z-index: 50;
+    }
+
+    .edit-link {
+      color: #FF0064;
+      font-family: "DM Mono", monospace;
+      font-size: 0.85rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       cursor: pointer;
-      z-index: 50;
-      display: none;
-      transition: color 0.2s;
+      transition: opacity 0.2s;
     }
 
     .edit-link:hover {
-      color: #FF0064;
+      opacity: 0.7;
     }
 
     /* Edit Modal */
@@ -1094,19 +1105,14 @@
 
     /* ── Mobile overrides (must come after all base styles) ── */
     @media (max-width: 768px) {
-      /* Hide edit and goto controls on mobile, keep search + tally */
-      .edit-link {
+      /* Hide edit/add links on mobile, keep search + tally */
+      .edit-links {
         display: none !important;
       }
 
-      .goto-container {
-        display: none !important;
-      }
-
-      /* Move search input to top-right */
+      /* Keep top-bar top-left on mobile */
       #top-bar {
-        left: unset;
-        right: 20px;
+        left: 20px;
         top: 20px;
       }
 
@@ -1153,8 +1159,11 @@
 <body>
   <div id="status-message" class="status-message"></div>
 
-  <!-- Edit link - only shown on localhost -->
-  <div id="edit-link" class="edit-link" onclick="openEditModal()">Edit</div>
+  <!-- Edit/Add links - only shown on localhost -->
+  <div id="edit-links" class="edit-links">
+    <span class="edit-link" onclick="openAddModal()">Add</span>
+    <span id="edit-link" class="edit-link" onclick="openEditModal()">Edit</span>
+  </div>
 
   <!-- Edit Modal -->
   <div id="edit-modal" class="edit-modal" onmousedown="if(event.target === this) closeEditModal()">
@@ -1197,6 +1206,10 @@
         <div class="edit-field">
           <label>Book Author (if different from quote author)</label>
           <input type="text" id="edit-book-author">
+        </div>
+        <div class="edit-field">
+          <label>Goodreads URL</label>
+          <input type="text" id="edit-goodreads-url" placeholder="https://www.goodreads.com/book/show/...">
         </div>
       </div>
 
@@ -1302,15 +1315,9 @@
       <div class="book-cover-placeholder">Loading...</div>
     </div>
 
-    <div id="count" class="count"></div>
-
-    <!-- Top bar: search always visible; goto controls only on localhost -->
+    <!-- Top bar: count + search -->
     <div id="top-bar">
-      <div id="goto-container" class="goto-container">
-        <input type="number" id="goto-input" placeholder="#" min="1" onkeydown="if(event.key==='Enter'){goToQuote(); event.preventDefault();}">
-        <button onclick="goToQuote()">Go</button>
-        <button id="add-quote-btn" onclick="openAddModal()" title="Add new quote">+</button>
-      </div>
+      <div id="count" class="count"></div>
       <div class="search-container">
         <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
         <div id="search-results" class="search-results"></div>
@@ -2099,8 +2106,7 @@
               tagsEl.innerHTML = '';
             }
           }
-          const quoteNum = quotes[newIndex]?.id?.replace('quote_', '').replace(/^0+/, '') || (newIndex + 1);
-          document.getElementById("count").textContent = `${quoteNum} / ${quotes.length}`;
+          document.getElementById("count").textContent = `${String(newIndex + 1).padStart(3, '0')} / ${quotes.length}`;
           renderRelatedTags();
 
           // Update book block
@@ -2131,10 +2137,25 @@
     }
 
     // Update book block without full re-render
+    function getGoodreadsUrl(q) {
+      // Use stored URL if available, otherwise fall back to search
+      if (q.goodreads_url) return q.goodreads_url;
+      if (q.isbn) return `https://www.goodreads.com/search?q=${encodeURIComponent(q.isbn)}`;
+      const title = q.publication || q.book_title;
+      const author = q.book_author || q.author;
+      if (title) return `https://www.goodreads.com/search?q=${encodeURIComponent(title + ' ' + author)}`;
+      return null;
+    }
+
     function updateBookBlock(q) {
       const bookBlock = document.getElementById("book-block");
       bookBlock.innerHTML = '<div class="book-block-inner"></div>';
       const innerBlock = bookBlock.querySelector('.book-block-inner');
+
+      // Set up Goodreads click handler
+      const grUrl = getGoodreadsUrl(q);
+      bookBlock.onclick = grUrl ? () => window.open(grUrl, '_blank') : null;
+      bookBlock.style.cursor = grUrl ? 'pointer' : 'default';
 
       setTimeout(async () => {
         const bookTitle = q.publication || q.book_title;
@@ -2291,6 +2312,11 @@
       bookBlock.innerHTML = '<div class="book-block-inner"></div>';
       const innerBlock = bookBlock.querySelector('.book-block-inner');
 
+      // Set up Goodreads click handler
+      const grUrl = getGoodreadsUrl(q);
+      bookBlock.onclick = grUrl ? () => window.open(grUrl, '_blank') : null;
+      bookBlock.style.cursor = grUrl ? 'pointer' : 'default';
+
       const bookTitle = q.publication || q.book_title;
       const hasBook = bookTitle || q.isbn || q.cover_url;
       const bookAuthor = q.book_author || q.author;
@@ -2386,7 +2412,7 @@
       }
 
       // Count - show array position (1-indexed) and total quotes
-      document.getElementById("count").textContent = `${index + 1} / ${quotes.length}`;
+      document.getElementById("count").textContent = `${String(index + 1).padStart(3, '0')} / ${quotes.length}`;
       currentIndex = index;
 
       // Render related tags
@@ -2979,11 +3005,10 @@
     let pendingCoverData = null;
     let isAddingQuote = false;
 
-    // Show edit link and goto input only on localhost
+    // Show edit/add links only on localhost
     function initEditMode() {
       if (isLocalhost) {
-        document.getElementById('edit-link').style.display = 'block';
-        document.getElementById('goto-container').style.display = 'flex';
+        document.getElementById('edit-links').style.display = 'flex';
       }
     }
 
@@ -3139,6 +3164,7 @@
       document.getElementById('edit-year').value = editingQuote.year || '';
       document.getElementById('edit-isbn').value = editingQuote.isbn || '';
       document.getElementById('edit-book-author').value = editingQuote.book_author || '';
+      document.getElementById('edit-goodreads-url').value = editingQuote.goodreads_url || '';
 
       // Update cover preview and check for web cover
       const keepBtn = document.getElementById('keep-web-cover-btn');
@@ -3198,6 +3224,7 @@
       document.getElementById('edit-year').value = '';
       document.getElementById('edit-isbn').value = '';
       document.getElementById('edit-book-author').value = '';
+      document.getElementById('edit-goodreads-url').value = '';
 
       // Clear cover preview
       updateCoverPreview(null);
@@ -3211,11 +3238,13 @@
 
     function autoFillBookInfo() {
       const pub = document.getElementById('edit-publication').value.trim();
-      const yearField = document.getElementById('edit-year');
-      if (!pub || yearField.value.trim()) return;
+      if (!pub) return;
       const match = quotes.find(q => q.publication && q.publication === pub);
-      if (match && match.year) {
-        yearField.value = match.year;
+      if (match) {
+        const yearField = document.getElementById('edit-year');
+        const grField = document.getElementById('edit-goodreads-url');
+        if (!yearField.value.trim() && match.year) yearField.value = match.year;
+        if (!grField.value.trim() && match.goodreads_url) grField.value = match.goodreads_url;
       }
     }
 
@@ -3344,6 +3373,7 @@
       editingQuote.year = document.getElementById('edit-year').value.trim() || null;
       editingQuote.isbn = document.getElementById('edit-isbn').value.trim() || null;
       editingQuote.book_author = document.getElementById('edit-book-author').value.trim() || null;
+      editingQuote.goodreads_url = document.getElementById('edit-goodreads-url').value.trim() || null;
 
       // Validate required fields
       if (!editingQuote.quote) {
