@@ -1230,7 +1230,7 @@
         "relevance": 0.5222
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/6270251"
+    "goodreads_url": "https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
   },
   {
     "id": "quote_0021",
@@ -1288,7 +1288,7 @@
         "relevance": 0.325
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/6270251"
+    "goodreads_url": "https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
   },
   {
     "id": "quote_0022",
@@ -4987,7 +4987,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/39339279"
+    "goodreads_url": "https://www.goodreads.com/book/show/76844.The_Songlines"
   },
   {
     "id": "quote_0073",
@@ -5748,7 +5748,7 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/34013916"
+    "goodreads_url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World"
   },
   {
     "id": "quote_0082",
@@ -7126,7 +7126,7 @@
         "relevance": 0.5083
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/29558426"
+    "goodreads_url": "https://www.goodreads.com/book/show/6617037-debt"
   },
   {
     "id": "quote_0101",
@@ -7212,7 +7212,7 @@
         "relevance": 0.525
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/29558426"
+    "goodreads_url": "https://www.goodreads.com/book/show/6617037-debt"
   },
   {
     "id": "quote_0102",
@@ -7359,7 +7359,7 @@
         "relevance": 0.5857
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/61943184"
+    "goodreads_url": "https://www.goodreads.com/book/show/56269264-the-dawn-of-everything"
   },
   {
     "id": "quote_0105",
@@ -7420,7 +7420,7 @@
         "relevance": 0.54
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/30258094"
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules"
   },
   {
     "id": "quote_0106",
@@ -7488,7 +7488,7 @@
         "relevance": 0.5833
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/30258094"
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules"
   },
   {
     "id": "quote_0107",
@@ -7560,7 +7560,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/30258094"
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules"
   },
   {
     "id": "quote_0108",
@@ -7624,7 +7624,7 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/30258094"
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules"
   },
   {
     "id": "quote_0109",
@@ -7708,7 +7708,7 @@
         "relevance": 0.51
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/30258094"
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules"
   },
   {
     "id": "quote_0110",
@@ -7791,12 +7791,12 @@
     "quote": "All human beings are projects of mutual creation. Most of the work we do is on each other.",
     "author": "David Graeber",
     "year": "2024",
-    "publication": "Ultimate Hidden Truth",
+    "publication": "The Ultimate Hidden Truth of the World",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9780241611555",
+    "isbn": "9781802061604",
     "book_title": "Ultimate Hidden Truth of the World ...",
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL37868377W",
@@ -7844,31 +7844,21 @@
         "relevance": 0.5182
       },
       {
-        "tag": "connection",
-        "weight": 0.3529,
-        "corpus_score": 0.448,
-        "relevance": 0.5273
-      },
-      {
         "tag": "collaboration",
         "weight": 0.3445,
         "corpus_score": 0.4125,
         "relevance": 0.5364
       },
       {
-        "tag": "ultimate hidden truth",
-        "weight": 0.236,
-        "corpus_score": 0.1596,
-        "relevance": 0.5909
+        "tag": "connectivity",
+        "weight": 1
       },
       {
-        "tag": "david graeber",
-        "weight": 0.2295,
-        "corpus_score": 0.5058,
-        "relevance": 0.3227
+        "tag": "society",
+        "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/220833266"
+    "goodreads_url": "https://www.goodreads.com/book/show/205363978-the-ultimate-hidden-truth-of-the-world"
   },
   {
     "id": "quote_0113",
@@ -10947,7 +10937,7 @@
         "relevance": 0.5417
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/1602174"
+    "goodreads_url": "https://www.goodreads.com/book/show/46165.This_Side_of_Paradise"
   },
   {
     "id": "quote_0152",
@@ -11007,7 +10997,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/1602174"
+    "goodreads_url": "https://www.goodreads.com/book/show/46165.This_Side_of_Paradise"
   },
   {
     "id": "quote_0154",
@@ -14214,7 +14204,7 @@
         "relevance": 0.3045
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/6270251"
+    "goodreads_url": "https://www.goodreads.com/book/show/5128.The_Doors_of_Perception_Heaven_and_Hell"
   },
   {
     "id": "quote_0207",
@@ -17007,7 +16997,7 @@
         "relevance": 0.9692
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/25505188"
+    "goodreads_url": "https://www.goodreads.com/book/show/24783898-to-our-friends"
   },
   {
     "id": "quote_0250",
@@ -20747,7 +20737,7 @@
         "relevance": 0.5214
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/39339279"
+    "goodreads_url": "https://www.goodreads.com/book/show/76844.The_Songlines"
   },
   {
     "id": "quote_0297",
@@ -21452,7 +21442,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/28094109"
+    "goodreads_url": "https://www.goodreads.com/book/show/4796.The_Winter_of_Our_Discontent"
   },
   {
     "id": "quote_0308",
@@ -26775,7 +26765,7 @@
         "relevance": 0.3083
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/34013916"
+    "goodreads_url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World"
   },
   {
     "id": "quote_0381",
@@ -28494,7 +28484,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/29117887"
+    "goodreads_url": "https://www.goodreads.com/book/show/38315.Fooled_by_Randomness"
   },
   {
     "id": "quote_0402",
@@ -29961,7 +29951,7 @@
         "relevance": 0.3417
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/10228213"
+    "goodreads_url": "https://www.goodreads.com/book/show/200096652-dead-souls-by-nikolai-vasilievich-gogol"
   },
   {
     "id": "quote_0420",
@@ -30073,7 +30063,7 @@
         "relevance": 0.5071
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/29117887"
+    "goodreads_url": "https://www.goodreads.com/book/show/38315.Fooled_by_Randomness"
   },
   {
     "id": "quote_0421",
@@ -31758,7 +31748,7 @@
     "year": "2000",
     "publication": "Wanderlust",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788418197253",
@@ -31818,7 +31808,8 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/57922324"
+    "goodreads_url": "https://www.goodreads.com/book/show/78287.Wanderlust",
+    "book_author": null
   },
   {
     "id": "quote_0446",
@@ -36690,7 +36681,7 @@
         "relevance": 0.5077
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/59116749"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
   },
   {
     "id": "quote_0514",
@@ -36767,7 +36758,7 @@
         "relevance": 0.3278
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/59116749"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
   },
   {
     "id": "quote_0515",
@@ -36858,7 +36849,7 @@
         "relevance": 0.5182
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/59116749"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
   },
   {
     "id": "quote_0516",
@@ -36956,7 +36947,7 @@
         "relevance": 0.525
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/59116749"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
   },
   {
     "id": "quote_0517",
@@ -38293,7 +38284,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/72174877"
+    "goodreads_url": "https://www.goodreads.com/book/show/174713.The_Lessons_of_History"
   },
   {
     "id": "quote_0534",
@@ -38367,7 +38358,7 @@
         "relevance": 0.3375
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/72174877"
+    "goodreads_url": "https://www.goodreads.com/book/show/174713.The_Lessons_of_History"
   },
   {
     "id": "quote_0535",
@@ -38810,7 +38801,7 @@
         "relevance": 0.3167
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/18103385"
+    "goodreads_url": "https://www.goodreads.com/book/show/10979.Light_in_August"
   },
   {
     "id": "quote_0541",
@@ -41499,7 +41490,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/34013916"
+    "goodreads_url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World"
   },
   {
     "quote": "Certainty is the great enemy of unity. Certainty is the deadly enemy of tolerance. Even Christ was not certain at the end.",
@@ -42207,7 +42198,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/34013916"
+    "goodreads_url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World"
   },
   {
     "quote": "One recognizes one’s course by discovering the paths that stray from it.",
@@ -43379,7 +43370,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/34013916"
+    "goodreads_url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World"
   },
   {
     "quote": "As long as there is wilderness there is hope.",
@@ -45479,7 +45470,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/10228213"
+    "goodreads_url": "https://www.goodreads.com/book/show/200096652-dead-souls-by-nikolai-vasilievich-gogol"
   },
   {
     "quote": "The danger that the computer poses is to human autonomy. The more that is known about a person, the easier it is to control him.",
@@ -45731,7 +45722,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/25505188"
+    "goodreads_url": "https://www.goodreads.com/book/show/24783898-to-our-friends"
   },
   {
     "quote": "The ocean is a wilderness reaching around the globe, wilder than a Bengal jungle...",
@@ -47139,7 +47130,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/1602174"
+    "goodreads_url": "https://www.goodreads.com/book/show/46165.This_Side_of_Paradise"
   },
   {
     "quote": "Everyday life is the greatest detective story ever written. Every second, without noticing we pass by thousands of corpses and crimes. That’s the routine of our lives.",
@@ -51319,7 +51310,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/25505188"
+    "goodreads_url": "https://www.goodreads.com/book/show/24783898-to-our-friends"
   },
   {
     "quote": "Ingratitude is the necessary curse of making things new...",
@@ -51664,5 +51655,69 @@
     "needs_review": false,
     "notes": "",
     "goodreads_url": "https://www.goodreads.com/book/show/424919.King_Henry_VI_Part_2"
+  },
+  {
+    "quote": "Only those who decline to scramble up the career ladder are interesting as human beings. Nothing is more boring than a man with a career.",
+    "author": "Aleksandr Solzhenitsyn",
+    "publication": "The Gulag Archipelago",
+    "year": "1973",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-gulag-archipelago.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "career",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "ambition",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
+    "id": "quote_0851",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Wherever the law is, crime can be found.",
+    "author": "Aleksandr Solzhenitsyn",
+    "publication": "The Gulag Archipelago",
+    "year": "1979",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-gulag-archipelago.jpg",
+    "weighted_tags": [
+      {
+        "tag": "law",
+        "weight": 1
+      },
+      {
+        "tag": "crime",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
+    "id": "quote_0852",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
