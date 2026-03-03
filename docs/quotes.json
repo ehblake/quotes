@@ -14038,7 +14038,7 @@
         "relevance": 0.5154
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/33963598-gunman-s-reckoning"
+    "goodreads_url": "https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday"
   },
   {
     "id": "quote_0203",
@@ -14144,7 +14144,7 @@
         "relevance": 0.5214
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/33963598-gunman-s-reckoning"
+    "goodreads_url": "https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday"
   },
   {
     "id": "quote_0204",
@@ -21186,7 +21186,7 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/2067599"
+    "goodreads_url": "https://www.goodreads.com/book/show/36436069-the-red-tenda-of-bologna"
   },
   {
     "id": "quote_0300",
@@ -33126,19 +33126,19 @@
     "filename_stem": "shakespeare-01",
     "quote": "The moon’s an arrant thief, and her pale fire she snatches from the sun.",
     "author": "William Shakespeare",
-    "year": "1734",
-    "publication": "Timon of Athens",
+    "year": "1962",
+    "publication": "Pale Fire",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9781517567064",
-    "book_title": "Timon of Athens",
+    "isbn": "9780141197241",
+    "book_title": "Pale Fire",
     "publisher": "CreateSpace Independent Publishing Platform",
     "open_library_key": "/works/OL362223W",
     "catalog_notes": "Found ISBN: 9781517567064; Year from Open Library: 1734",
-    "cover_url": "covers/timon-of-athens.jpg",
-    "book_author": null,
+    "cover_url": "covers/pale-fire.jpg",
+    "book_author": "Vladimir Nabokov",
     "tags": [
       "sun",
       "pale",
@@ -33168,7 +33168,7 @@
         "relevance": 0.5286
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/27129418"
+    "goodreads_url": "https://www.goodreads.com/book/show/21527802-pale-fire"
   },
   {
     "id": "quote_0464",
