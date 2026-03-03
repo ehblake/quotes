@@ -51817,5 +51817,65 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "Our hardware is likely to turn into something like us a lot faster than we are likely to turn into something like our hardware.",
+    "author": "William Gibson",
+    "publication": "Distrust That Particular Flavor",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/distrust-that-particular-flavour.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor",
+    "id": "quote_0861",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Genuinely ubiquitous computing spreads like warm Vaseline. Genuinely evolved interfaces are transparent, so transparent as to be invisible.",
+    "author": "William Gibson",
+    "publication": "Distrust That Particular Flavor",
+    "year": "2012",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/distrust-that-particular-flavour.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "computers",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor",
+    "id": "quote_0862",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]
