@@ -41879,10 +41879,10 @@
       }
     ],
     "id": "quote_0604",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/17185950-thinking-fast-and-slow-by-daniel-kahneman"
+    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
   },
   {
     "quote": "Big breakthroughs often come not from a single isolated technology but from imaginative juxtapositions or combinations of several.",
@@ -43557,10 +43557,10 @@
       }
     ],
     "id": "quote_0646",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/17185950-thinking-fast-and-slow-by-daniel-kahneman"
+    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
   },
   {
     "quote": "He was an embittered atheist (the sort of atheist who does not so much disbelieve in God as personally dislike Him).",
@@ -51875,6 +51875,530 @@
     "goodreads_url": "https://www.goodreads.com/book/show/11890817-distrust-that-particular-flavor",
     "id": "quote_0862",
     "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The greatest shortcoming of the human race is our inability to understand the exponential function.",
+    "author": "Albert A. Bartlett",
+    "publication": "The Second Machine Age",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Erik Brynjolfsson & Andrew McAfee",
+    "cover_url": "covers/the-second-machine-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "mathematics",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "math",
+        "weight": 1
+      },
+      {
+        "tag": "failure",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23316526-the-second-machine-age",
+    "id": "quote_0863",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The habit of despair is worse than despair itself.",
+    "author": "Albert Camus",
+    "publication": "The Plague",
+    "year": "1948",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-plague.jpg",
+    "weighted_tags": [
+      {
+        "tag": "despair",
+        "weight": 1
+      },
+      {
+        "tag": "doom",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11989.The_Plague",
+    "id": "quote_0864",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Where some saw abstraction others saw truth.",
+    "author": "Albert Camus",
+    "publication": "The Plague",
+    "year": "1948",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-plague.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "abstraction",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11989.The_Plague",
+    "id": "quote_0865",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s not what you see that is art, art is the gap.",
+    "author": "Marcel Duchamp",
+    "publication": "Dialogues With Marcel Duchamp",
+    "year": "1967",
+    "isbn": null,
+    "book_author": "Pierre Cabanne",
+    "cover_url": "covers/dialogues-with-marcel-duchamp.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "connectivity",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/152556.Dialogues_With_Marcel_Duchamp",
+    "id": "quote_0866",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Time flows in the same way for all human beings; every human being flows through time in a different way.",
+    "author": "Yasunari Kawabata",
+    "publication": "Beauty and Sadness",
+    "year": "1963",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/beauty-and-sadness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/14029.Beauty_and_Sadness?from_search=true&from_srp=true&qid=6wnFYHyqbC&rank=1",
+    "id": "quote_0867",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...to discover the various uses of things is the work of history.",
+    "author": "Karl Marx",
+    "publication": "Capital",
+    "year": "1867",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/capital.jpg",
+    "weighted_tags": [
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/325785.Capital?ref=nav_sb_ss_3_7",
+    "id": "quote_0868",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Everything wants to float. And yet we move about like weights, attaching ourselves to everything, in thrall to gravity...",
+    "author": "Rainer Maria Rilke",
+    "publication": "Sonnets to Orpheus",
+    "year": "1922",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sonnets-to-orpheus.jpg",
+    "weighted_tags": [
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "dreams",
+        "weight": 1
+      },
+      {
+        "tag": "freedom",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/205134.Sonnets_to_Orpheus?ac=1&from_search=true&qid=24Z5N422PD&rank=1",
+    "id": "quote_0869",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Safe upon the solid rock the ugly houses stand: / Come and see my shining palace built upon the sand!",
+    "author": "Edna St. Vincent Millay",
+    "publication": "A Few Figs from Thistles",
+    "year": "1920",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-few-figs-from-thistles.jpg",
+    "weighted_tags": [
+      {
+        "tag": "architecture",
+        "weight": 1
+      },
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "houses",
+        "weight": 1
+      },
+      {
+        "tag": "cities",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/60321.A_Few_Figs_from_Thistles?ref=nav_sb_ss_1_24",
+    "id": "quote_0870",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If a writer... knows enough about what he is writing about, he may omit things he knows... The dignity of movement of an ice-berg is due to only one-eighth of it being above water.",
+    "author": "Ernest Hemingway",
+    "publication": "A Bone of Fact",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "David Walsh",
+    "cover_url": "covers/a-bone-of-fact.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "brevity",
+        "weight": 1
+      },
+      {
+        "tag": "movement",
+        "weight": 1
+      },
+      {
+        "tag": "editing",
+        "weight": 1
+      },
+      {
+        "tag": "style",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23296955-a-bone-of-fact",
+    "id": "quote_0871",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Do not teach by words anything which you can teach by actual experience.",
+    "author": "Johann Heinrich Pestalozzi",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": "Neil Postman",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "teaching",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0872",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A reliable way to make people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth.",
+    "author": "Daniel Kahneman",
+    "publication": "Thinking Fast and Slow",
+    "year": "2011",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/thinking-fast-and-slow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "repetition",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "id": "quote_0873",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "For a writer, that society is best which is most burdensome.",
+    "author": "Neil Postman",
+    "publication": "Conscientious Objections",
+    "year": "1998",
+    "isbn": "0434593028",
+    "book_author": null,
+    "cover_url": "covers/0434593028.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "trouble",
+        "weight": 1
+      },
+      {
+        "tag": "difficulty",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/1300042",
+    "id": "quote_0874",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There arises from a bad and unapt formation of words a wonderful obstruction to the mind.",
+    "author": "Francis Bacon",
+    "publication": "Conscientious Objections",
+    "year": "1998",
+    "isbn": "0434593028",
+    "book_author": "Neil Postman",
+    "cover_url": "covers/0434593028.jpg",
+    "weighted_tags": [
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "the mind",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/1300042",
+    "id": "quote_0875",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is a form of stupidity to accept without reflection someone else’s definition of a word...",
+    "author": "Neil Postman",
+    "publication": "Conscientious Objections",
+    "year": "1998",
+    "isbn": "0434593028",
+    "book_author": null,
+    "cover_url": "covers/0434593028.jpg",
+    "weighted_tags": [
+      {
+        "tag": "definitions",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/1300042",
+    "id": "quote_0876",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Stupidity is a form of behavior. It is not something we have; it is something we do.",
+    "author": "Neil Postman",
+    "publication": "Conscientious Objections",
+    "year": "1998",
+    "isbn": "0434593028",
+    "book_author": null,
+    "cover_url": "covers/0434593028.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "actions",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/1300042",
+    "id": "quote_0877",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The less you talk, the more you’ll hear.",
+    "author": "Alexander Solzhenitsyn",
+    "publication": "The Gulag Archipelago",
+    "year": "1973",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-gulag-archipelago.jpg",
+    "weighted_tags": [
+      {
+        "tag": "talking",
+        "weight": 1
+      },
+      {
+        "tag": "listening",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
+    "id": "quote_0878",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The imagination and the spiritual strength of Shakespeare’s evildoers stopped short at a dozen corpses. Because they had no ideology.",
+    "author": "Alexander Solzhenitsyn",
+    "publication": "The Gulag Archipelago",
+    "year": "1973",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-gulag-archipelago.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ideology",
+        "weight": 1
+      },
+      {
+        "tag": "belief",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
+    "id": "quote_0879",
+    "confidence": 1.0,
     "needs_review": false,
     "notes": ""
   }
