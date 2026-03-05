@@ -1952,7 +1952,7 @@
     ],
     "isbn": null,
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/132110285-adventure-of-ideas-by-alfred-north-whitehead"
+    "goodreads_url": "https://www.goodreads.com/book/show/440366.Adventures_of_Ideas?ref=nav_sb_ss_1_19"
   },
   {
     "id": "quote_0030",
@@ -2607,7 +2607,7 @@
         "relevance": 0.5143
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/85822150-robert-frost"
+    "goodreads_url": "https://www.goodreads.com/book/show/12210.Collected_Poems_Prose_and_Plays?ref=nav_sb_ss_2_45"
   },
   {
     "id": "quote_0039",
@@ -6194,7 +6194,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/234645448-the-letters-of-anton-chekhov-author"
+    "goodreads_url": "https://www.goodreads.com/book/show/114607.The_Letters_of_Anton_Chekhov?ac=1&from_search=true&qid=nEuK9MpZoJ&rank=1"
   },
   {
     "id": "quote_0088",
@@ -13958,7 +13958,7 @@
         "relevance": 0.54
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/134282994-what-s-wrong-with-the-world-by-gilbert-k-chesterton-1918-leather-b"
+    "goodreads_url": "https://www.goodreads.com/book/show/184565.What_s_Wrong_with_the_World?ref=nav_sb_ss_1_27"
   },
   {
     "id": "quote_0205",
@@ -16901,7 +16901,7 @@
     "quote": "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
     "author": "Isaac Asimov",
     "year": "2017",
-    "publication": "LIfe 3.0",
+    "publication": "Life 3.0",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -17121,7 +17121,7 @@
         "relevance": 0.3278
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/233566247-never-at-rest-a-biography-of-isaac-newton"
+    "goodreads_url": "https://www.goodreads.com/book/show/812173.Never_at_Rest?ref=nav_sb_ss_1_13"
   },
   {
     "id": "quote_0253",
@@ -18219,7 +18219,7 @@
         "relevance": 0.3333
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/220701877-the-presence-of-the-kingdom-author"
+    "goodreads_url": "https://www.goodreads.com/book/show/274833.Presence_of_the_Kingdom?ref=nav_sb_ss_3_27"
   },
   {
     "id": "quote_0266",
@@ -20697,7 +20697,7 @@
         "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/142461804-the-life-and-masterworks-of-j-m-w-turner-by-shanes-eric-author-har"
+    "goodreads_url": "https://www.goodreads.com/book/show/27878003-the-life-and-masterworks-of-j-m-w-turner?ref=nav_sb_ss_4_22"
   },
   {
     "id": "quote_0298",
@@ -21017,74 +21017,6 @@
     ],
     "book_author": null,
     "goodreads_url": "https://www.goodreads.com/book/show/30291141"
-  },
-  {
-    "id": "quote_0301",
-    "source_image": "john-maynard-keynes-01.png",
-    "filename_stem": "john-maynard-keynes-01",
-    "quote": "Capitalism rests on the astounding assumption that the most wickedest of men will do the most wickedest of deeds for the greatest good.",
-    "author": "John Maynard Keynes",
-    "year": "1951",
-    "publication": "Christianity and Human Relations in Industry",
-    "notes": "",
-    "confidence": 1,
-    "needs_review": false,
-    "book_author": "George Schuster",
-    "isbn": null,
-    "cover_url": "covers/christianity-and-human-relations-in-industry.png",
-    "_flickr_id": "54349689346",
-    "tags": [
-      "quote",
-      "capitalism",
-      "John Maynard keynes",
-      "economics",
-      "trump",
-      "wickedness",
-      "good",
-      "evil",
-      "humanity",
-      "humour",
-      "musk"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "capitalism",
-        "weight": 0.8296,
-        "corpus_score": 0.7009,
-        "relevance": 0.9909
-      },
-      {
-        "tag": "humanity",
-        "weight": 0.5273,
-        "corpus_score": 1.0,
-        "relevance": 0.5273
-      },
-      {
-        "tag": "evil",
-        "weight": 0.4416,
-        "corpus_score": 0.6778,
-        "relevance": 0.5364
-      },
-      {
-        "tag": "economics",
-        "weight": 0.3486,
-        "corpus_score": 0.3705,
-        "relevance": 0.5727
-      },
-      {
-        "tag": "goodness",
-        "weight": 0.3043,
-        "corpus_score": 0.3705,
-        "relevance": 0.5
-      },
-      {
-        "tag": "wickedness",
-        "weight": 0.2215,
-        "corpus_score": 0.1596,
-        "relevance": 0.5545
-      }
-    ],
-    "goodreads_url": "https://www.goodreads.com/book/show/123558881-christianity-and-human-relations-in-industry-by-george-schuster"
   },
   {
     "id": "quote_0302",
@@ -38971,7 +38903,7 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/232715043-the-fight-and-other-writings-by"
+    "goodreads_url": "https://www.goodreads.com/book/show/1547505.The_Fight_and_Other_Writings?ref=nav_sb_ss_1_28"
   },
   {
     "id": "quote_0546",
@@ -39556,7 +39488,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/6382271-the-collected-essays-journalism-and-letters-of-george-orwell-1903-1950"
+    "goodreads_url": "https://www.goodreads.com/book/show/2419285.The_Collected_Essays_Journalism_And_Letters_Of_George_Orwell_Volume_3_As_I_Please_1943_1945?ref=nav_sb_ss_2_61"
   },
   {
     "quote": "...once a specific crime has appeared for the first time, its reappearance is more likely than its initial emergence could ever have been.",
@@ -41214,7 +41146,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/20347147-albert-einstein-the-human-side"
+    "goodreads_url": "https://www.goodreads.com/book/show/231615.Albert_Einstein?ref=nav_sb_ss_1_31"
   },
   {
     "quote": "If it were not for the impractical characters, all the practical people would remain at the same dull stage of perpetual repetition.",
@@ -42463,11 +42395,11 @@
   {
     "quote": "If you want to build a ship, don’t drum up people to collect wood and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.",
     "author": "Antoine de Saint-Exupéry",
-    "publication": "Citadelle",
+    "publication": "The Wisdom of the Sands",
     "year": "1948",
     "isbn": null,
     "book_author": null,
-    "cover_url": "covers/citadelle.jpg",
+    "cover_url": "covers/the-wisdom-of-the-sands.jpg",
     "weighted_tags": [
       {
         "tag": "work",
@@ -42522,7 +42454,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/225640.Citadelle"
+    "goodreads_url": "https://www.goodreads.com/book/show/3815022-the-wisdom-of-the-sands"
   },
   {
     "quote": "Politeness is the poison of collaboration.",
@@ -42574,7 +42506,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/131230838-insisting-on-the-impossible"
+    "goodreads_url": "https://www.goodreads.com/book/show/1350090.Insisting_On_the_Impossible_?ref=nav_sb_ss_1_47"
   },
   {
     "quote": "Always the beautiful answer who asks a more beautiful question.",
@@ -44072,7 +44004,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/6112452-on-photography"
+    "goodreads_url": "https://www.goodreads.com/book/show/2429989.Hockney_on_Photography?ref=nav_sb_ss_1_53"
   },
   {
     "quote": "Ah, my country! In thee is the reasonable hope of mankind not fulfilled.",
@@ -44112,7 +44044,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/144380187-emerson-s-essays"
+    "goodreads_url": "https://www.goodreads.com/book/show/8973940-ralph-waldo-emerson?ref=nav_sb_ss_1_34"
   },
   {
     "quote": "The spectacle is nothing more than an image of happy unification surrounded by desolation and fear at the tranquil center of misery.",
@@ -45636,7 +45568,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/236612390-collected-poems-1909-1962-by-t-s-eliot-the-franklin-library-leather-b"
+    "goodreads_url": "https://www.goodreads.com/book/show/142080.Collected_Poems_1909_1962?ref=nav_sb_ss_1_25"
   },
   {
     "quote": "In the prison of his days / Teach the free man how to praise.",
@@ -46850,7 +46782,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/131230838-insisting-on-the-impossible"
+    "goodreads_url": "https://www.goodreads.com/book/show/1350090.Insisting_On_the_Impossible_?ref=nav_sb_ss_1_47"
   },
   {
     "quote": "if every friend became his foe / he’d laugh and build a world with snow.",
@@ -47221,11 +47153,11 @@
   {
     "quote": "Only a people serving an apprenticeship to nature can be trusted with machines.",
     "author": "Herbert Read",
-    "publication": "The Grass Roots of Art",
-    "year": "1955",
+    "publication": "Rebels Against the Future",
+    "year": "1996",
     "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/the-grass-roots-of-art.jpg",
+    "book_author": "Kirkpatrick Sale",
+    "cover_url": "covers/rebels-against-the-future.jpg",
     "weighted_tags": [
       {
         "tag": "nature",
@@ -47253,10 +47185,10 @@
       }
     ],
     "id": "quote_0732",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/10490080-problems-of-contemporary-art---herbert-read"
+    "goodreads_url": "https://www.goodreads.com/book/show/864008.Rebels_Against_the_Future?ref=nav_sb_ss_1_25"
   },
   {
     "quote": "No matter what might be said, access to the artistic universe is more or less entirely the preserve of those who are a little fed up with the world.",
@@ -48576,7 +48508,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/220701877-the-presence-of-the-kingdom-author"
+    "goodreads_url": "https://www.goodreads.com/book/show/274833.Presence_of_the_Kingdom?ref=nav_sb_ss_3_27"
   },
   {
     "quote": "...the more progress we make, the more do we confess that we are incapable of dominating and directing the world which we have made.",
@@ -48622,7 +48554,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/220701877-the-presence-of-the-kingdom-author"
+    "goodreads_url": "https://www.goodreads.com/book/show/274833.Presence_of_the_Kingdom?ref=nav_sb_ss_3_27"
   },
   {
     "quote": "...at every period in history men have believed that their epoch was exceptional, dramatic, and final.",
@@ -48656,7 +48588,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/220701877-the-presence-of-the-kingdom-author"
+    "goodreads_url": "https://www.goodreads.com/book/show/274833.Presence_of_the_Kingdom?ref=nav_sb_ss_3_27"
   },
   {
     "quote": "The strength of a tree... comes not from growing thicker in good years when there is water, but from staying alive in the bad, dry times.",
@@ -49004,7 +48936,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/217746826-rebels-against-the-future-by-kirkpatrick-sale"
+    "goodreads_url": "https://www.goodreads.com/book/show/864008.Rebels_Against_the_Future?ref=nav_sb_ss_1_25"
   },
   {
     "quote": "Everything human is pathetic. The secret source of Humor itself is not joy but sorrow. There is no humor in heaven.",
@@ -50856,7 +50788,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/213896210-second-act-by-henry-oliver-reinventing-your-life-by-jeffrey-e-young"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
   },
   {
     "quote": "Sometimes it is the body which is the first to surrender to old age, sometimes the soul.",
@@ -50892,7 +50824,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/213896210-second-act-by-henry-oliver-reinventing-your-life-by-jeffrey-e-young"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
   },
   {
     "quote": "All rising to great places is by a winding stair.",
@@ -50916,7 +50848,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/213896210-second-act-by-henry-oliver-reinventing-your-life-by-jeffrey-e-young"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
   },
   {
     "quote": "Those sciences are vain and full of error, which are not born of experience.",
@@ -50952,7 +50884,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/213896210-second-act-by-henry-oliver-reinventing-your-life-by-jeffrey-e-young"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
   },
   {
     "quote": "A mistake is an event, the full benefit of which has not yet been turned to your advantage.",
@@ -50988,7 +50920,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/213896210-second-act-by-henry-oliver-reinventing-your-life-by-jeffrey-e-young"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
   },
   {
     "quote": "He that runs against Time, has an antagonist not subject to casualties.",
@@ -51020,7 +50952,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/213896210-second-act-by-henry-oliver-reinventing-your-life-by-jeffrey-e-young"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
   },
   {
     "quote": "Any man will learn as much from his enemies as from his friends. They keep him in fighting trim.",
