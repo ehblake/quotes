@@ -577,7 +577,7 @@
       "knowing",
       "feeling",
       "senses",
-      "doing",
+      "making",
       "sense of place",
       "placemaking"
     ],
@@ -613,7 +613,7 @@
         "relevance": 0.9154
       },
       {
-        "tag": "doing",
+        "tag": "making",
         "weight": 0.3184,
         "corpus_score": 0.3705,
         "relevance": 0.5231
@@ -997,7 +997,7 @@
       "book",
       "reading",
       "past",
-      "stories",
+      "storytelling",
       "perspective",
       "memory"
     ],
@@ -1021,7 +1021,7 @@
         "relevance": 0.9
       },
       {
-        "tag": "stories",
+        "tag": "storytelling",
         "weight": 0.6458,
         "corpus_score": 0.4787,
         "relevance": 0.9333
@@ -1691,7 +1691,7 @@
       "Alexander herzen",
       "my past and thoughts",
       "russian",
-      "living",
+      "life",
       "monument",
       "change",
       "time",
@@ -1699,7 +1699,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.7672,
         "corpus_score": 0.6522,
         "relevance": 0.95
@@ -2482,7 +2482,7 @@
       "quote",
       "Anthony burgess",
       "Mozart and the wolf gang",
-      "good",
+      "goodness",
       "evil",
       "gun",
       "guns",
@@ -2538,7 +2538,7 @@
         "relevance": 0.94
       },
       {
-        "tag": "good",
+        "tag": "goodness",
         "weight": 0.3682,
         "corpus_score": 0.4125,
         "relevance": 0.5733
@@ -3077,7 +3077,7 @@
       "time",
       "river",
       "temporal",
-      "stories",
+      "storytelling",
       "plurality",
       "book",
       "quote"
@@ -3102,7 +3102,7 @@
         "relevance": 0.9545
       },
       {
-        "tag": "stories",
+        "tag": "storytelling",
         "weight": 0.3711,
         "corpus_score": 0.4787,
         "relevance": 0.5364
@@ -3661,9 +3661,8 @@
     "tags": [
       "animals",
       "souls",
-      "humans",
-      "people",
       "humankind",
+      "people",
       "evil",
       "pessimism",
       "darkness"
@@ -3686,12 +3685,6 @@
         "weight": 0.4704,
         "corpus_score": 0.7316,
         "relevance": 0.55
-      },
-      {
-        "tag": "humans",
-        "weight": 0.4272,
-        "corpus_score": 0.552,
-        "relevance": 0.575
       },
       {
         "tag": "darkness",
@@ -3782,7 +3775,7 @@
       "eating",
       "animals",
       "hardship",
-      "good",
+      "goodness",
       "evil"
     ],
     "weighted_tags": [
@@ -3799,7 +3792,7 @@
         "relevance": 0.5083
       },
       {
-        "tag": "good",
+        "tag": "goodness",
         "weight": 0.3318,
         "corpus_score": 0.4125,
         "relevance": 0.5167
@@ -4503,7 +4496,7 @@
       "time",
       "singing",
       "song",
-      "stories",
+      "storytelling",
       "songs",
       "future",
       "doom",
@@ -4558,16 +4551,10 @@
         "relevance": 0.9778
       },
       {
-        "tag": "stories",
+        "tag": "storytelling",
         "weight": 0.3844,
         "corpus_score": 0.4787,
         "relevance": 0.5556
-      },
-      {
-        "tag": "songs",
-        "weight": 0.3532,
-        "corpus_score": 0.4125,
-        "relevance": 0.55
       },
       {
         "tag": "songs",
@@ -4963,7 +4950,7 @@
       "words",
       "language",
       "intelligence",
-      "speaking",
+      "talking",
       "smart",
       "sharp",
       "intelligent"
@@ -5074,7 +5061,7 @@
     "tags": [
       "quote",
       "buckminster fuller",
-      "humans",
+      "humankind",
       "ideas",
       "stupid",
       "humour",
@@ -5084,7 +5071,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.7265,
         "corpus_score": 0.552,
         "relevance": 0.9778
@@ -5228,7 +5215,6 @@
       "new",
       "thinking",
       "use",
-      "doing",
       "using",
       "teach",
       "new tools"
@@ -5287,12 +5273,6 @@
         "weight": 0.3645,
         "corpus_score": 0.1596,
         "relevance": 0.9125
-      },
-      {
-        "tag": "doing",
-        "weight": 0.3196,
-        "corpus_score": 0.3705,
-        "relevance": 0.525
       },
       {
         "tag": "learn",
@@ -6362,9 +6342,8 @@
       "humanity",
       "nature",
       "survival",
-      "eschatology",
+      "doom",
       "end",
-      "end times",
       "decay",
       "entropy"
     ],
@@ -6388,7 +6367,7 @@
         "relevance": 0.5167
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -6400,16 +6379,10 @@
         "relevance": 0.5083
       },
       {
-        "tag": "eschatology",
+        "tag": "doom",
         "weight": 0.306,
         "corpus_score": 0.3191,
         "relevance": 0.5417
-      },
-      {
-        "tag": "end times",
-        "weight": 0.2966,
-        "corpus_score": 0.3191,
-        "relevance": 0.525
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/207573383-a-natural-history-of-empty-lots",
@@ -7887,7 +7860,6 @@
       "book",
       "quote",
       "storytelling",
-      "narrative",
       "audience",
       "visitor",
       "drama",
@@ -7931,12 +7903,6 @@
         "weight": 0.374,
         "corpus_score": 0.1596,
         "relevance": 0.9364
-      },
-      {
-        "tag": "narrative",
-        "weight": 0.3431,
-        "corpus_score": 0.3705,
-        "relevance": 0.5636
       },
       {
         "tag": "visitor",
@@ -8845,7 +8811,7 @@
       "human",
       "existence",
       "why",
-      "living",
+      "life",
       "humanity"
     ],
     "weighted_tags": [
@@ -8868,7 +8834,7 @@
         "relevance": 0.5545
       },
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.4185,
         "corpus_score": 0.6522,
         "relevance": 0.5182
@@ -8986,7 +8952,7 @@
       "Fyodor Dostoyevsky",
       "book",
       "quote",
-      "humans",
+      "humankind",
       "humanity",
       "society",
       "people",
@@ -9019,7 +8985,7 @@
         "relevance": 0.6
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.4161,
         "corpus_score": 0.552,
         "relevance": 0.56
@@ -9258,7 +9224,7 @@
       "patriot",
       "dangerous",
       "love",
-      "humans",
+      "humankind",
       "patriotism"
     ],
     "weighted_tags": [
@@ -9305,7 +9271,7 @@
         "relevance": 0.9364
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.385,
         "corpus_score": 0.552,
         "relevance": 0.5182
@@ -10246,7 +10212,6 @@
       "book",
       "quote",
       "life",
-      "living",
       "illusions",
       "existence",
       "reality",
@@ -10270,12 +10235,6 @@
         "weight": 0.4448,
         "corpus_score": 0.7316,
         "relevance": 0.52
-      },
-      {
-        "tag": "living",
-        "weight": 0.4442,
-        "corpus_score": 0.6522,
-        "relevance": 0.55
       },
       {
         "tag": "denial of death",
@@ -10476,17 +10435,16 @@
       "book",
       "David Mamet",
       "storytelling",
-      "narrative",
       "ernest hemingway",
       "edit",
       "editing",
-      "good",
+      "goodness",
       "quality",
       "effect"
     ],
     "weighted_tags": [
       {
-        "tag": "good",
+        "tag": "goodness",
         "weight": 0.5955,
         "corpus_score": 0.4125,
         "relevance": 0.9273
@@ -10502,12 +10460,6 @@
         "weight": 0.3542,
         "corpus_score": 0.3705,
         "relevance": 0.5818
-      },
-      {
-        "tag": "narrative",
-        "weight": 0.3431,
-        "corpus_score": 0.3705,
-        "relevance": 0.5636
       },
       {
         "tag": "quality",
@@ -10848,12 +10800,6 @@
         "weight": 0.3625,
         "corpus_score": 0.448,
         "relevance": 0.5417
-      },
-      {
-        "tag": "banality",
-        "weight": 0.3625,
-        "corpus_score": 0.448,
-        "relevance": 0.5417
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/46165.This_Side_of_Paradise"
@@ -10946,7 +10892,7 @@
       "expectations",
       "truth",
       "words",
-      "speaking"
+      "talking"
     ],
     "weighted_tags": [
       {
@@ -10980,7 +10926,7 @@
         "relevance": 0.5444
       },
       {
-        "tag": "speaking",
+        "tag": "talking",
         "weight": 0.3111,
         "corpus_score": 0.3705,
         "relevance": 0.5111
@@ -12131,18 +12077,16 @@
       "Fyodor Dostoevsky",
       "Dostoevsky",
       "pithy",
-      "good",
+      "goodness",
       "evil",
       "end",
-      "eschatology",
-      "end times",
+      "doom",
       "ruin",
-      "goodness",
       "humanity"
     ],
     "weighted_tags": [
       {
-        "tag": "good",
+        "tag": "goodness",
         "weight": 0.6175,
         "corpus_score": 0.4125,
         "relevance": 0.9615
@@ -12160,7 +12104,7 @@
         "relevance": 0.5538
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -12172,22 +12116,10 @@
         "relevance": 0.5231
       },
       {
-        "tag": "goodness",
-        "weight": 0.3137,
-        "corpus_score": 0.3705,
-        "relevance": 0.5154
-      },
-      {
-        "tag": "eschatology",
+        "tag": "doom",
         "weight": 0.3042,
         "corpus_score": 0.3191,
         "relevance": 0.5385
-      },
-      {
-        "tag": "end times",
-        "weight": 0.2998,
-        "corpus_score": 0.3191,
-        "relevance": 0.5308
       },
       {
         "tag": "fyodor dostoevsky",
@@ -12815,7 +12747,7 @@
       "conscious",
       "ideas",
       "thinking",
-      "speaking",
+      "talking",
       "facts"
     ],
     "weighted_tags": [
@@ -12868,7 +12800,7 @@
         "relevance": 0.5692
       },
       {
-        "tag": "speaking",
+        "tag": "talking",
         "weight": 0.3137,
         "corpus_score": 0.3705,
         "relevance": 0.5154
@@ -13836,7 +13768,7 @@
       "heaven",
       "contentment",
       "content",
-      "satisfaction",
+      "pleasure",
       "satisfied",
       "revolt",
       "revolution"
@@ -13879,7 +13811,7 @@
         "relevance": 0.5071
       },
       {
-        "tag": "satisfaction",
+        "tag": "pleasure",
         "weight": 0.2986,
         "corpus_score": 0.3191,
         "relevance": 0.5286
@@ -13928,13 +13860,13 @@
     "tags": [
       "humour",
       "poorly",
-      "doing",
+      "making",
       "wrong",
       "action"
     ],
     "weighted_tags": [
       {
-        "tag": "doing",
+        "tag": "making",
         "weight": 0.5844,
         "corpus_score": 0.3705,
         "relevance": 0.96
@@ -14841,10 +14773,10 @@
       "numbers",
       "statistics",
       "lives",
-      "humans",
+      "humankind",
       "human-centered",
       "design",
-      "living",
+      "life",
       "people"
     ],
     "weighted_tags": [
@@ -14855,13 +14787,13 @@
         "relevance": 0.5231
       },
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.4162,
         "corpus_score": 0.6522,
         "relevance": 0.5154
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.4001,
         "corpus_score": 0.552,
         "relevance": 0.5385
@@ -15041,12 +14973,6 @@
         "weight": 0.5427,
         "corpus_score": 0.8959,
         "relevance": 0.5733
-      },
-      {
-        "tag": "the senses",
-        "weight": 0.4573,
-        "corpus_score": 0.6075,
-        "relevance": 0.5867
       },
       {
         "tag": "the senses",
@@ -15703,12 +15629,10 @@
       "catastrophe",
       "history",
       "humanity",
-      "humans",
+      "humankind",
       "end",
-      "eschatology",
-      "end times",
-      "ending",
-      "doom"
+      "doom",
+      "ending"
     ],
     "weighted_tags": [
       {
@@ -15730,7 +15654,7 @@
         "relevance": 0.5467
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -15758,12 +15682,6 @@
         "weight": 0.3254,
         "corpus_score": 0.4125,
         "relevance": 0.5067
-      },
-      {
-        "tag": "eschatology",
-        "weight": 0.2975,
-        "corpus_score": 0.3191,
-        "relevance": 0.5267
       },
       {
         "tag": "ending",
@@ -15864,7 +15782,7 @@
       "mencken",
       "explanation",
       "truth",
-      "humans",
+      "humankind",
       "people",
       "design",
       "problem solving",
@@ -15910,7 +15828,7 @@
         "relevance": 0.5813
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.404,
         "corpus_score": 0.552,
         "relevance": 0.5437
@@ -16857,8 +16775,7 @@
       "daily",
       "world",
       "life",
-      "shit",
-      "living"
+      "shit"
     ],
     "weighted_tags": [
       {
@@ -16878,12 +16795,6 @@
         "weight": 0.433,
         "corpus_score": 0.7501,
         "relevance": 0.5
-      },
-      {
-        "tag": "living",
-        "weight": 0.41,
-        "corpus_score": 0.6522,
-        "relevance": 0.5077
       },
       {
         "tag": "disasters",
@@ -17508,7 +17419,6 @@
       "cities",
       "storytelling",
       "interpretation",
-      "stories",
       "ear",
       "listening",
       "visitor experience",
@@ -17528,12 +17438,6 @@
         "weight": 0.4548,
         "corpus_score": 0.6383,
         "relevance": 0.5692
-      },
-      {
-        "tag": "stories",
-        "weight": 0.3832,
-        "corpus_score": 0.4787,
-        "relevance": 0.5538
       },
       {
         "tag": "ear",
@@ -17627,16 +17531,10 @@
         "relevance": 0.9727
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.741,
         "corpus_score": 0.6778,
         "relevance": 0.9
-      },
-      {
-        "tag": "death",
-        "weight": 0.477,
-        "corpus_score": 0.8185,
-        "relevance": 0.5273
       },
       {
         "tag": "decay",
@@ -18005,8 +17903,7 @@
       "death valley",
       "short cut",
       "path",
-      "life",
-      "living"
+      "life"
     ],
     "weighted_tags": [
       {
@@ -18020,12 +17917,6 @@
         "weight": 0.5122,
         "corpus_score": 0.9877,
         "relevance": 0.5154
-      },
-      {
-        "tag": "living",
-        "weight": 0.41,
-        "corpus_score": 0.6522,
-        "relevance": 0.5077
       },
       {
         "tag": "ageing",
@@ -18245,7 +18136,7 @@
       "propaganda",
       "words",
       "action",
-      "doing",
+      "making",
       "saying",
       "control",
       "abyss",
@@ -18277,7 +18168,7 @@
         "relevance": 0.575
       },
       {
-        "tag": "doing",
+        "tag": "making",
         "weight": 0.3424,
         "corpus_score": 0.3705,
         "relevance": 0.5625
@@ -18589,7 +18480,7 @@
       "life",
       "existence",
       "energy",
-      "good",
+      "goodness",
       "collaboration",
       "connection",
       "action"
@@ -18627,7 +18518,7 @@
         "relevance": 0.5143
       },
       {
-        "tag": "good",
+        "tag": "goodness",
         "weight": 0.3395,
         "corpus_score": 0.4125,
         "relevance": 0.5286
@@ -19143,7 +19034,7 @@
       "future",
       "time",
       "change",
-      "living"
+      "life"
     ],
     "weighted_tags": [
       {
@@ -19153,7 +19044,7 @@
         "relevance": 0.9
       },
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.7403,
         "corpus_score": 0.6522,
         "relevance": 0.9167
@@ -19756,9 +19647,8 @@
       "real",
       "reality",
       "life",
-      "stories",
+      "storytelling",
       "fiction",
-      "living",
       "experience"
     ],
     "weighted_tags": [
@@ -19787,19 +19677,13 @@
         "relevance": 0.5462
       },
       {
-        "tag": "living",
-        "weight": 0.4162,
-        "corpus_score": 0.6522,
-        "relevance": 0.5154
-      },
-      {
         "tag": "experience",
         "weight": 0.4009,
         "corpus_score": 0.6234,
         "relevance": 0.5077
       },
       {
-        "tag": "stories",
+        "tag": "storytelling",
         "weight": 0.3672,
         "corpus_score": 0.4787,
         "relevance": 0.5308
@@ -20420,7 +20304,6 @@
       "unforgiving places",
       "tools",
       "life",
-      "living",
       "existence",
       "intelligence",
       "wrong",
@@ -20446,12 +20329,6 @@
         "weight": 0.4874,
         "corpus_score": 0.2529,
         "relevance": 0.9692
-      },
-      {
-        "tag": "living",
-        "weight": 0.4473,
-        "corpus_score": 0.6522,
-        "relevance": 0.5538
       },
       {
         "tag": "intelligence",
@@ -21789,9 +21666,9 @@
       "decay",
       "destruction",
       "end",
-      "end times",
+      "doom",
       "humanity",
-      "humans"
+      "humankind"
     ],
     "weighted_tags": [
       {
@@ -21819,19 +21696,19 @@
         "relevance": 0.5333
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.3764,
         "corpus_score": 0.552,
         "relevance": 0.5067
       },
       {
-        "tag": "end times",
+        "tag": "doom",
         "weight": 0.2938,
         "corpus_score": 0.3191,
         "relevance": 0.52
@@ -22116,7 +21993,6 @@
     "book_author": null,
     "tags": [
       "perspective",
-      "stories",
       "storytelling",
       "depth"
     ],
@@ -22138,12 +22014,6 @@
         "weight": 0.4394,
         "corpus_score": 0.6383,
         "relevance": 0.55
-      },
-      {
-        "tag": "stories",
-        "weight": 0.3978,
-        "corpus_score": 0.4787,
-        "relevance": 0.575
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/5051287"
@@ -22384,7 +22254,6 @@
       "arrows",
       "shooting",
       "storytelling",
-      "stories",
       "nick thompson",
       "places",
       "place",
@@ -22392,7 +22261,7 @@
     ],
     "weighted_tags": [
       {
-        "tag": "stories",
+        "tag": "storytelling",
         "weight": 0.6458,
         "corpus_score": 0.4787,
         "relevance": 0.9333
@@ -22402,12 +22271,6 @@
         "weight": 0.4438,
         "corpus_score": 0.7671,
         "relevance": 0.5067
-      },
-      {
-        "tag": "storytelling",
-        "weight": 0.4314,
-        "corpus_score": 0.6383,
-        "relevance": 0.54
       },
       {
         "tag": "wisdom sits in places",
@@ -22614,7 +22477,6 @@
       "cat's cradle",
       "talking",
       "voice box",
-      "speaking",
       "meaning",
       "people",
       "talk",
@@ -24006,12 +23868,6 @@
         "relevance": 0.9067
       },
       {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
-      },
-      {
         "tag": "hell",
         "weight": 0.369,
         "corpus_score": 0.4787,
@@ -24813,7 +24669,7 @@
       "end",
       "destruction",
       "evil",
-      "humans",
+      "humankind",
       "sea",
       "water",
       "ocean",
@@ -24851,7 +24707,7 @@
         "relevance": 0.5389
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -25719,13 +25575,13 @@
     "tags": [
       "pity",
       "envy",
-      "living",
+      "life",
       "dead",
       "twain"
     ],
     "weighted_tags": [
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.7753,
         "corpus_score": 0.6522,
         "relevance": 0.96
@@ -25734,12 +25590,6 @@
         "tag": "death",
         "weight": 0.4524,
         "corpus_score": 0.8185,
-        "relevance": 0.5
-      },
-      {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
         "relevance": 0.5
       }
     ],
@@ -25932,7 +25782,7 @@
       "criticism",
       "technology",
       "questioning",
-      "humans",
+      "humankind",
       "humanity",
       "future"
     ],
@@ -25956,7 +25806,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.3918,
         "corpus_score": 0.552,
         "relevance": 0.5273
@@ -26366,7 +26216,7 @@
       "herman melville",
       "profundity",
       "profound",
-      "living",
+      "life",
       "working"
     ],
     "weighted_tags": [
@@ -26383,7 +26233,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.42,
         "corpus_score": 0.6522,
         "relevance": 0.52
@@ -27124,7 +26974,6 @@
       "michel Houellebecq",
       "houellebecq",
       "annihilation",
-      "living",
       "life",
       "humanity",
       "existence",
@@ -27135,16 +26984,10 @@
     ],
     "weighted_tags": [
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.7766,
         "corpus_score": 0.6522,
         "relevance": 0.9615
-      },
-      {
-        "tag": "life",
-        "weight": 0.5504,
-        "corpus_score": 0.9877,
-        "relevance": 0.5538
       },
       {
         "tag": "humanity",
@@ -27260,12 +27103,6 @@
         "weight": 0.4852,
         "corpus_score": 0.8185,
         "relevance": 0.5364
-      },
-      {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
       },
       {
         "tag": "ageing",
@@ -27846,12 +27683,6 @@
         "relevance": 0.525
       },
       {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
-      },
-      {
         "tag": "falsehood",
         "weight": 0.3782,
         "corpus_score": 0.5721,
@@ -27989,12 +27820,6 @@
         "relevance": 0.9286
       },
       {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
-      },
-      {
         "tag": "dying",
         "weight": 0.3304,
         "corpus_score": 0.3705,
@@ -28123,7 +27948,7 @@
       "people",
       "humanity",
       "true",
-      "speaking"
+      "talking"
     ],
     "weighted_tags": [
       {
@@ -28151,7 +27976,7 @@
         "relevance": 0.95
       },
       {
-        "tag": "speaking",
+        "tag": "talking",
         "weight": 0.3087,
         "corpus_score": 0.3705,
         "relevance": 0.5071
@@ -28198,7 +28023,6 @@
       "detail",
       "visible",
       "narration",
-      "narrative",
       "storytelling",
       "personal"
     ],
@@ -28226,12 +28050,6 @@
         "weight": 0.3188,
         "corpus_score": 0.3191,
         "relevance": 0.5643
-      },
-      {
-        "tag": "narrative",
-        "weight": 0.3174,
-        "corpus_score": 0.3705,
-        "relevance": 0.5214
       },
       {
         "tag": "fooled by randomness",
@@ -30524,7 +30342,7 @@
       "now",
       "yellow",
       "gold",
-      "satisfaction",
+      "pleasure",
       "life",
       "perspective"
     ],
@@ -30584,7 +30402,7 @@
         "relevance": 0.5462
       },
       {
-        "tag": "satisfaction",
+        "tag": "pleasure",
         "weight": 0.2955,
         "corpus_score": 0.3191,
         "relevance": 0.5231
@@ -32079,12 +31897,6 @@
         "weight": 0.4261,
         "corpus_score": 0.6383,
         "relevance": 0.5333
-      },
-      {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
       },
       {
         "tag": "lassitude",
@@ -34676,7 +34488,7 @@
       "technology",
       "human",
       "humanity",
-      "humans",
+      "humankind",
       "tech",
       "skin"
     ],
@@ -34694,7 +34506,7 @@
         "relevance": 0.96
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.3938,
         "corpus_score": 0.552,
         "relevance": 0.53
@@ -34873,7 +34685,7 @@
       "nighttime",
       "darkness",
       "end",
-      "eschatology",
+      "doom",
       "the tempest",
       "prospero"
     ],
@@ -35383,7 +35195,6 @@
       "quote",
       "Townes van zandt",
       "life",
-      "living",
       "direction",
       "design",
       "perfection",
@@ -35392,7 +35203,7 @@
       "messy",
       "messiness",
       "laugh",
-      "satisfaction",
+      "pleasure",
       "contentment",
       "content",
       "striving"
@@ -35400,16 +35211,10 @@
     "book_author": "Robert Earl Hardy",
     "weighted_tags": [
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.7852,
         "corpus_score": 0.6522,
         "relevance": 0.9722
-      },
-      {
-        "tag": "life",
-        "weight": 0.5742,
-        "corpus_score": 0.9877,
-        "relevance": 0.5778
       },
       {
         "tag": "design",
@@ -35418,7 +35223,7 @@
         "relevance": 0.5611
       },
       {
-        "tag": "satisfaction",
+        "tag": "pleasure",
         "weight": 0.521,
         "corpus_score": 0.3191,
         "relevance": 0.9222
@@ -36890,7 +36695,7 @@
       "earth",
       "calamities",
       "planet",
-      "humans",
+      "humankind",
       "humanity",
       "society",
       "destruction",
@@ -36929,7 +36734,7 @@
         "relevance": 0.5273
       },
       {
-        "tag": "humans",
+        "tag": "humankind",
         "weight": 0.412,
         "corpus_score": 0.552,
         "relevance": 0.5545
@@ -39718,12 +39523,6 @@
         "relevance": 0.5
       },
       {
-        "tag": "living",
-        "weight": 0.4038,
-        "corpus_score": 0.6522,
-        "relevance": 0.5
-      },
-      {
         "tag": "comfort",
         "weight": 0.3043,
         "corpus_score": 0.3705,
@@ -40723,12 +40522,6 @@
         "tag": "death",
         "weight": 0.4524,
         "corpus_score": 0.8185,
-        "relevance": 0.5
-      },
-      {
-        "tag": "living",
-        "weight": 0.4038,
-        "corpus_score": 0.6522,
         "relevance": 0.5
       },
       {
@@ -41896,7 +41689,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -44233,12 +44026,6 @@
         "tag": "decay",
         "weight": 0.4152,
         "corpus_score": 0.6897,
-        "relevance": 0.5
-      },
-      {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
         "relevance": 0.5
       },
       {
@@ -46594,12 +46381,6 @@
         "relevance": 0.9
       },
       {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
-      },
-      {
         "tag": "the past",
         "weight": 0.3948,
         "corpus_score": 0.6234,
@@ -47304,12 +47085,6 @@
         "relevance": 0.5
       },
       {
-        "tag": "the end",
-        "weight": 0.4117,
-        "corpus_score": 0.6778,
-        "relevance": 0.5
-      },
-      {
         "tag": "originality",
         "weight": 0.3043,
         "corpus_score": 0.3705,
@@ -47402,7 +47177,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -47998,7 +47773,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "speaking",
+        "tag": "talking",
         "weight": 0.3043,
         "corpus_score": 0.3705,
         "relevance": 0.5
@@ -48578,7 +48353,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 0.4117,
         "corpus_score": 0.6778,
         "relevance": 0.5
@@ -48664,7 +48439,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "living",
+        "tag": "life",
         "weight": 0.4038,
         "corpus_score": 0.6522,
         "relevance": 0.5
@@ -48716,7 +48491,7 @@
         "relevance": 0.5
       },
       {
-        "tag": "narrative",
+        "tag": "storytelling",
         "weight": 0.4261,
         "corpus_score": 0.3705,
         "relevance": 0.7
@@ -49268,10 +49043,6 @@
         "weight": 1
       },
       {
-        "tag": "the end",
-        "weight": 1
-      },
-      {
         "tag": "darkness",
         "weight": 1
       }
@@ -49400,7 +49171,7 @@
         "weight": 1
       },
       {
-        "tag": "speaking",
+        "tag": "talking",
         "weight": 1
       },
       {
@@ -50456,7 +50227,7 @@
         "weight": 1
       },
       {
-        "tag": "the end",
+        "tag": "death",
         "weight": 1
       },
       {
@@ -51705,10 +51476,6 @@
       },
       {
         "tag": "storytelling",
-        "weight": 1
-      },
-      {
-        "tag": "narrative",
         "weight": 1
       }
     ],
