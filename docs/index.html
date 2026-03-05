@@ -3993,7 +3993,7 @@
 
     // --- Wikipedia Description Cache (localStorage-backed) ---
     const WIKI_CACHE_KEY = 'wikiDescriptions';
-    const WIKI_CACHE_VERSION = 1;
+    const WIKI_CACHE_VERSION = 2;
     let wikiCache = {};
 
     function loadWikiCache() {
@@ -4014,17 +4014,39 @@
 
     loadWikiCache();
 
+    // --- Manual descriptions for books without Wikipedia articles ---
+    const MANUAL_DESCRIPTIONS = {
+      'A Bone of Fact': 'David Walsh \u2014 the creator of Mona in Hobart \u2014 is both a giant and an enigma in the Australian art world. A multi-millionaire who made his money gambling, David has turned a wild vision into a unique reality.',
+      'Theatre of the World': 'Theatre of the World engages, and rejects, the widely held notion that ancient and contemporary works of art are inherently different. Theatre of the World is a kaleidoscope: here the viewer sees the object, and that is enough.',
+      'On The Origin of Art': 'A big, beautiful book full of original ideas, and some pillaged ones, too. Published on the occasion of Mona\u2019s biggest exhibition yet.',
+      'Monanisms': 'A collection of writings and reflections by David Walsh, the founder of the Museum of Old and New Art (Mona) in Hobart, Tasmania.',
+      'Stories of O': 'A collection of essays and stories by David Walsh, the mathematician, gambler and founder of the Museum of Old and New Art (Mona) in Hobart.',
+      'The Making of Mona': 'Adrian Franklin\u2019s The Making of MONA collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius.',
+    };
+
     // --- Wikipedia API ---
     async function fetchWikiDescription(title, author) {
       if (!title) return null;
       const cacheKey = `${title}__${author || ''}`;
       if (wikiCache[cacheKey] !== undefined) return wikiCache[cacheKey];
 
+      // Check manual descriptions first
+      if (MANUAL_DESCRIPTIONS[title]) {
+        wikiCache[cacheKey] = MANUAL_DESCRIPTIONS[title];
+        saveWikiCache();
+        return MANUAL_DESCRIPTIONS[title];
+      }
+
       // Try multiple query variations to find the right article
+      // Extract author surname for disambiguation queries
+      const surname = author ? author.split(' ').pop() : '';
       const queries = [
         `${title} (novel)`,
         `${title} (book)`,
-        title
+        title,
+        ...(surname ? [`${title} (${surname} novel)`, `${title} (${surname})`] : []),
+        ...(author ? [`${title} (${author})`] : []),
+        `${title} (play)`,
       ];
 
       for (const query of queries) {
