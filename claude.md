@@ -67,6 +67,8 @@ Each processed quote contains:
 - `notes` - Extraction observations
 - `confidence` - Extraction confidence score (0.0-1.0)
 - `needs_review` - Flag for manual review
+- `goodreads_url` - Direct Goodreads book page URL (if resolved)
+- `cover_url` - Path to local cover image (e.g. `covers/pale-fire.jpg`)
 
 ## Legacy Scripts
 
@@ -85,10 +87,10 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - **Landing canvas**: Grid of book covers that users click to enter quote view
 - **Tag navigation**: Spacebar/right arrow advances through quotes with same tag, auto-drifts to related tags. Click/tap right 30% of quote area also advances, left 30% goes back.
 - **Drift tags**: Arrow up goes to previous tag (shown above), arrow down goes to related tag (shown below). Click/tap on drift tag labels also works.
-- **Edit modal**: Localhost-only editing (quote, author, book, tags, cover upload/remove/keep-web-cover, delete)
-- **Add quote**: "+" button to add new quotes with all fields (localhost only)
-- **Go-to input**: Jump to specific quote by number (localhost only)
-- **Search**: Search quotes by text, author, or publication (press 'S' to toggle)
+- **Edit modal**: Localhost-only editing (quote, author, book, tags, Goodreads URL, cover upload/remove/keep-web-cover, delete)
+- **Add quote**: ADD link (top-right, next to EDIT) to add new quotes with all fields (localhost only). Auto-fills year and Goodreads URL when publication matches existing book.
+- **Search**: Search quotes by text, author, or publication (top-left bar next to count)
+- **Goodreads links**: Click book block to open book's Goodreads page in new tab. URLs stored as `goodreads_url` field in quotes.json.
 - **Tag index**: Press 'A' to view all tags alphabetically in a 3-column modal, click any tag to navigate to quotes with that tag
 
 ### Two Deployments
@@ -108,7 +110,7 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 ---
 
-## Current Issues (Updated: Jan 2026)
+## Current Issues (Updated: Mar 2026)
 
 ### Arrow Up (driftUp) Intermittent Bug
 - **Problem**: Pressing arrow up to navigate to the tag shown above works sometimes but not always
@@ -132,7 +134,116 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Mar 2 2026) - Mobile Layout Overhaul, New Quotes & Serif Font
+### Last Session (Mar 5 2026) - Book Detail Modal, Book Bag Feature, Wikipedia Descriptions & Bug Fixes
+
+- **Branch strategy**: Created `book-modal` branch from main, implemented all features, then fast-forward merged to main. Pre-book-bag rollback point: commit `fff8dcb` on main.
+
+- **Added 17 new quotes** (quote_0863–0879) with 6 new cover images. Fixed 2 Goodreads URLs for Thinking Fast and Slow.
+
+- **Book detail modal** (replaces direct Goodreads link):
+  - Clicking book-block now opens a modal with: cover image, title, author, year, Wikipedia description, "Add to Book Bag" button, "View on Goodreads" link
+  - Click handlers updated in TWO locations: `updateBookBlock()` (~line 2577) and `render()` (~line 2743)
+  - Close via × button, Escape key, or backdrop click
+  - Keyboard navigation (Space, arrows) blocked while modal is open
+
+- **Wikipedia API integration** (`fetchWikiDescription`):
+  - Uses Wikipedia REST API: `https://en.wikipedia.org/api/rest_v1/page/summary/{title}`
+  - Tries `{title} (novel)`, `{title} (book)`, then `{title}` to find the right article
+  - Skips disambiguation pages
+  - Truncates to 2 sentences for brevity
+  - **localStorage-backed cache** with versioning (`wikiDescriptions` key, `_v: 1`)
+  - **Background prefetch**: `prefetchWikiDescriptions()` runs 5s after page load, iterates all unique books at 150ms intervals to warm the cache
+
+- **Book bag feature** (session-based, no login):
+  - `sessionStorage`-backed — persists within browser session, cleared on tab close
+  - Functions: `getBookBag()`, `saveBookBag()`, `addToBookBag()`, `removeFromBookBag()`, `exportBookBag()`
+  - Duplicate detection by title+author
+  - Badge: fixed position bottom-right, SVG books icon (from noun-books-8291069.svg), count display, pop animation on add (`@keyframes badgePop`)
+  - Badge z-index: 250 (above book modal's z-index 200 — fixed bug where badge was hidden behind modal)
+  - SVG icon: 42px desktop, 33px mobile
+  - Overlay: full list with remove × per item, "Copy List to Clipboard" export
+  - Export format: `Title — Author (Year)` per line, copied via `navigator.clipboard.writeText()`
+
+- **Design iterations**:
+  - Moved badge from top-right to bottom-right (was conflicting with admin ADD/EDIT buttons)
+  - Badge made ~3x bigger (padding 6→14px, font 0.8→1.1rem, border-radius 20→28px)
+  - Replaced emoji 📖 with custom SVG icon for aesthetic consistency
+  - SVG icon enlarged 50% (28→42px desktop, 22→33px mobile)
+  - `.quote-panel-author` font changed from DM Mono to DM Sans
+  - Book Bag overlay: DM Sans throughout (title, item-meta), title enlarged to 1.6rem with SVG icon
+  - `.status-message` z-index bumped to 300 (was hidden behind overlays at 100)
+  - `showStatus()` fixed with `void el.offsetWidth` reflow trick for reliable opacity transitions
+
+- **Localhost cover images fix**:
+  - Problem: server.py serves from `PROJECT_ROOT/covers/` but many covers only exist in `docs/covers/`
+  - Added fallback path in `server.py._serve_cover()` but server didn't pick up code changes
+  - **Final fix**: Created symlink `site/covers → ../docs/covers` so static file handler serves them directly
+
+- **Key z-index layering**: status messages (300) > book bag badge (250) > modals/overlays (200)
+
+- **Files modified**: `docs/index.html` (CSS + HTML + JS), `site/index.html` (mirror copy), `site/server.py` (covers fallback), `site/covers` (symlink)
+- **Total quotes**: 792
+- **Commits**: `2388979` (main feature), plus bug fix commit (pending)
+
+### Previous Session (Mar 3 2026) - UI Overhaul, Goodreads Integration, Mona Matching & Goodreads URL Validation
+
+- **Removed 4 duplicate quotes** (IDs 0059, 0765, 0839, 0818): 797→793 quotes
+
+- **UI layout overhaul**:
+  - Removed goto input box, Go button, and "+" button from top-left
+  - Added ADD link next to EDIT (top-right, both pink `#FF0064`, 50px gap)
+  - Merged count and search into one top-left bar (`#top-bar`) in DM Mono
+  - DM Sans font for `.book-block`
+  - DM Mono font for tags (`.drift-tag-above`, `.drift-tag`, `.quote-tag`), `.quote-panel-author`, count, search, edit/add links
+  - Bumped all header text from 12px to 0.85rem
+  - Bumped `.book-title` font from `clamp(9.4px, 1.1vw, 12.4px)` to `clamp(11px, 1.2vw, 14px)`
+  - Zero-padded count display: `001 / 793` (prevents layout shift)
+  - Google Fonts now loads DM Sans and DM Mono in addition to DM Serif Display/Text
+
+- **Fixed tally bug**: Count was showing quote ID number instead of array position. Changed to `newIndex + 1` consistently.
+
+- **Curly quotes fix**: Wrote Python script to fix all 6 quotes with straight double quotes → curly quotes across both JSON files.
+
+- **Goodreads integration**:
+  - Click book block → opens Goodreads page in new tab
+  - `getGoodreadsUrl()` function: uses `goodreads_url` field first, falls back to ISBN search, then title+author search
+  - Resolved actual Goodreads book page URLs for ~370 books (not search results)
+  - Multi-pass process: automated scraping → manual lookups for 48 well-known books → fixed 32 study guide/summary links → synced inconsistent URLs across same-book quotes
+  - Added `goodreads_url` field to edit modal (and add modal)
+  - `autoFillBookInfo()` now also auto-fills Goodreads URL from existing books
+  - `server.py` auto-links `goodreads_url` (along with year, isbn, cover_url) when publication matches
+  - Fixed specific bad links: The Red Tenda of Bologna (was linking to Ways of Seeing), The Man Who Was Thursday (was linking to Gunman's Reckoning)
+
+- **Goodreads URL validation & cleanup** (`validate_goodreads.py`, `fix_goodreads.py`):
+  - Built validation script that fetches all 367 unique Goodreads URLs and compares page `<title>` against expected publication
+  - Goodreads URL format: `book/show/{id}.{slug}` — slug is cosmetic, only numeric ID determines the page. Many wrong IDs had plausible slugs.
+  - **~61 total URL fixes across 3 batches**:
+    - Batch 1: 25 automated fixes from search script (filtered out study guides/analyses)
+    - Batch 2: 14 manual lookups (10 where script found study guides + 4 not found)
+    - Batch 3: 9 more wrong links found in full validation sweep (e.g. Conquest of Happiness → "Elfquest", The Light That Failed → "Overwatch Memes")
+  - Replaced 15 foreign language edition URLs with English editions (Italian, Spanish, Turkish, Portuguese, French, Polish, Chinese, Catalan)
+  - Fixed corrupted URL: Revolution of Everyday Life had `381erta` instead of `381416`
+  - Fixed Distrust That Particular Flavor: all quotes → correct ID `11890817`
+  - Scripts saved: `validate_goodreads.py`, `fix_goodreads.py`, `apply_goodreads_fixes.py` through `apply_goodreads_fixes4.py`
+  - Validation results: `goodreads_validation.json`, fix proposals: `goodreads_fixes.json`
+
+- **Mona API book matching** (`match_mona.py`, `filter_mona.py`):
+  - Compared quotes collection (379 unique books) against Mona's Vernon O Content library (~30,000 books)
+  - API: `pulse.mona.artpro.co/api/vernon-o-content/books/search?q=...` with `X-API-Key` header
+  - Raw API matches: 170, but many false positives from loose text search
+  - After rigorous filtering (require BOTH author surname AND title match): **73 confirmed matches (19%)**
+  - Results saved in `mona_confirmed.json`
+  - Notable overlaps: 6 Vonnegut titles, 3 Taleb, 2 Dostoyevsky, 2 David Walsh, classics (Moby Dick, Ulysses, Divine Comedy, etc.)
+
+- **Fixed Pale Fire cover**: Shakespeare "moon's an arrant thief" quote changed from Timon of Athens to Pale Fire — updated `cover_url` and `book_title` to match.
+
+- **Author name standardized**: "A.N. Whitehead" → "Alfred North Whitehead"
+
+- **New quotes**: 2 William Gibson quotes added (quote_0861, 0862) from Distrust That Particular Flavor
+
+- **New/updated covers**: 2 new (the-lyrics-1962-2012, twilight-of-idols-and-anti-christ), 2 updated higher-res (on-disobedience, the-life-and-masterworks-of-jmw-turner)
+
+### Previous Session (Mar 2 2026) - Mobile Layout Overhaul, New Quotes & Serif Font
 
 - **Added 19 new quotes** (quote_0817–0835) with 7 new covers and 1 updated cover (palm-sunday)
 
