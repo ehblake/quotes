@@ -14749,7 +14749,7 @@
     "filename_stem": "hans-roling",
     "quote": "The world cannot be understood without numbers. But the world cannot be understood by numbers alone.",
     "author": "Hans Roling",
-    "year": null,
+    "year": "2018",
     "publication": "Factfulness",
     "notes": "",
     "confidence": 1,
@@ -14773,31 +14773,13 @@
       "numbers",
       "statistics",
       "lives",
-      "humankind",
+      "humans",
       "human-centered",
       "design",
-      "life",
+      "living",
       "people"
     ],
     "weighted_tags": [
-      {
-        "tag": "design",
-        "weight": 0.4951,
-        "corpus_score": 0.8959,
-        "relevance": 0.5231
-      },
-      {
-        "tag": "life",
-        "weight": 0.4162,
-        "corpus_score": 0.6522,
-        "relevance": 0.5154
-      },
-      {
-        "tag": "humankind",
-        "weight": 0.4001,
-        "corpus_score": 0.552,
-        "relevance": 0.5385
-      },
       {
         "tag": "numbers",
         "weight": 0.3841,
@@ -14811,34 +14793,14 @@
         "relevance": 0.5923
       },
       {
-        "tag": "factfulness",
-        "weight": 0.2335,
-        "corpus_score": 0.1596,
-        "relevance": 0.5846
-      },
-      {
-        "tag": "statistics",
-        "weight": 0.2212,
-        "corpus_score": 0.1596,
-        "relevance": 0.5538
-      },
-      {
         "tag": "lives",
         "weight": 0.2182,
         "corpus_score": 0.1596,
         "relevance": 0.5462
       },
       {
-        "tag": "human-centered",
-        "weight": 0.212,
-        "corpus_score": 0.1596,
-        "relevance": 0.5308
-      },
-      {
-        "tag": "hans roling",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
+        "tag": "the world",
+        "weight": 1
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/34890015-factfulness"
@@ -41829,7 +41791,7 @@
     "publication": "In The Absence of the Sacred",
     "year": "1991",
     "isbn": "0871567393",
-    "book_author": null,
+    "book_author": "Jerry Mander",
     "cover_url": "covers/in-the-absence-of-the-sacred.jpg",
     "weighted_tags": [
       {
@@ -41858,7 +41820,7 @@
       }
     ],
     "id": "quote_0609",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "goodreads_url": "https://www.goodreads.com/book/show/2131837"
@@ -52097,6 +52059,782 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
     "id": "quote_0879",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s not the numbers that are interesting. It’s what they tell us about the lives behind the numbers.",
+    "author": "Hans Roling",
+    "publication": "Factfulness",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/factfulness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "data",
+        "weight": 1
+      },
+      {
+        "tag": "numbers",
+        "weight": 1
+      },
+      {
+        "tag": "mathematics",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34890015-factfulness",
+    "id": "quote_0880",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...drunks love companions and hate sober witnesses.",
+    "author": "Paul Theroux",
+    "publication": "The Happy Isles of Oceania: Paddling the Pacific",
+    "year": "1992",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-happy-isles-of-oceania-paddling-the-pacific.jpg",
+    "weighted_tags": [
+      {
+        "tag": "consumption",
+        "weight": 1
+      },
+      {
+        "tag": "drunks",
+        "weight": 1
+      },
+      {
+        "tag": "drinking",
+        "weight": 1
+      },
+      {
+        "tag": "alcohol",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/130514.The_Happy_Isles_of_Oceania",
+    "id": "quote_0881",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Paris is a veritable ocean; take as many soundings as you like, you will never know how deep it is.",
+    "author": "Honoré de Balzac",
+    "publication": "Pere Goriot",
+    "year": "1835",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/pere-goriot.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "exploration",
+        "weight": 1
+      },
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "depths",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/914759.Le_P_re_Goriot_of_Honor_de_Balzac",
+    "id": "quote_0882",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Nothing in life is as important as you think it is when you are thinking about it.",
+    "author": "Daniel Kahneman",
+    "publication": "Thinking Fast and Slow",
+    "year": "2011",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/thinking-fast-and-slow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "importance",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "id": "quote_0883",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What a strange illusion it is to suppose that beauty is goodness.",
+    "author": "Leo Tolstoy",
+    "publication": "The Kreutzer Sonata",
+    "year": "1889",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-kreutzer-sonata.jpg",
+    "weighted_tags": [
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "goodness",
+        "weight": 1
+      },
+      {
+        "tag": "illusions",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/141077.The_Kreutzer_Sonata",
+    "id": "quote_0884",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...there is a huge difference between story and plot. Story is honorable and trustworthy; plot is shifty, and best kept under house arrest.",
+    "author": "Stephen King",
+    "publication": "On Writing: A Memoir of the Craft",
+    "year": "2000",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/on-writing-a-memoir-of-the-craft.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "plot",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/10569.On_Writing?ref=nav_sb_ss_1_23",
+    "id": "quote_0885",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There is no more pressing or torturous task for man, having found himself free, than to seek out someone to bow down to as soon as he can…",
+    "author": "Svetlana Alexievich",
+    "publication": "Secondhand Time: The Last of the Soviets",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/secondhand-time-the-last-of-the-soviets.jpg",
+    "weighted_tags": [
+      {
+        "tag": "freedom",
+        "weight": 1
+      },
+      {
+        "tag": "direction",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30200112-secondhand-time",
+    "id": "quote_0886",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The most important thing is spiritual labor... Books... You can wear the same suit for twenty years, two coats are enough for a lifetime, but you can’t live without Pushkin or the complete works of Gorky.",
+    "author": "Svetlana Alexievich",
+    "publication": "Secondhand Time: The Last of the Soviets",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/secondhand-time-the-last-of-the-soviets.jpg",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "spirit",
+        "weight": 1
+      },
+      {
+        "tag": "consumerism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30200112-secondhand-time",
+    "id": "quote_0887",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Mankind is good, but the people are mean.",
+    "author": "Svetlana Alexievich",
+    "publication": "Secondhand Time: The Last of the Soviets",
+    "year": "2013",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/secondhand-time-the-last-of-the-soviets.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "attitude",
+        "weight": 1
+      },
+      {
+        "tag": "goodness",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30200112-secondhand-time",
+    "id": "quote_0888",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A city built around wheels becomes inappropriate for feet.",
+    "author": "Ivan Illich",
+    "publication": "Disabling Professions",
+    "year": "1977",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/disabling-professions.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "cars",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/253077.Disabling_Professions",
+    "id": "quote_0889",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...it’s often the most insignificant that produce the greatest impression on people, rather than the most important ones.",
+    "author": "Ivan Turgenev",
+    "publication": "Sketches From a Hunter's Album",
+    "year": "1851",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sketches-from-a-hunters-album.jpg",
+    "weighted_tags": [
+      {
+        "tag": "impressions",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/28458.Sketches_from_a_Hunter_s_Album",
+    "id": "quote_0890",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I can no longer explain what I see. To anybody. There it is: I am gently slipping into the water’s depths, towards fear.",
+    "author": "Jean-Paul Sartre",
+    "publication": "Nausea",
+    "year": "1938",
+    "isbn": "9781511971249",
+    "book_author": null,
+    "cover_url": "covers/nausea.jpg",
+    "weighted_tags": [
+      {
+        "tag": "fear",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/298275.Nausea",
+    "id": "quote_0891",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What passes for leisure in our society is actually time-filling: watching television or buying things.",
+    "author": "Jerry Mander",
+    "publication": "In The Absence of the Sacred",
+    "year": "1991",
+    "isbn": "0871567393",
+    "book_author": null,
+    "cover_url": "covers/in-the-absence-of-the-sacred.jpg",
+    "weighted_tags": [
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "consumerism",
+        "weight": 1
+      },
+      {
+        "tag": "television",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/2131837",
+    "id": "quote_0892",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Never judge a technology by the way it benefits you personally... who benefits most? And to what end?",
+    "author": "Jerry Mander",
+    "publication": "In The Absence of the Sacred",
+    "year": "1991",
+    "isbn": "0871567393",
+    "book_author": null,
+    "cover_url": "covers/in-the-absence-of-the-sacred.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/2131837",
+    "id": "quote_0893",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Progress is our most important product.",
+    "author": "Ronald Reagan",
+    "publication": "In The Absence of the Sacred",
+    "year": "1991",
+    "isbn": "0871567393",
+    "book_author": null,
+    "cover_url": "covers/in-the-absence-of-the-sacred.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/2131837",
+    "id": "quote_0894",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Unrealizable aims possess many men – all artists, for example.",
+    "author": "John Berger",
+    "publication": "A Fortunate Man: The Story of a Country Doctor",
+    "year": "1967",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-fortunate-man-the-story-of-a-country-doctor.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ambition",
+        "weight": 1
+      },
+      {
+        "tag": "artists",
+        "weight": 1
+      },
+      {
+        "tag": "aims",
+        "weight": 1
+      },
+      {
+        "tag": "attitude",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/52943.A_Fortunate_Man",
+    "id": "quote_0895",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A man’s death makes everything certain about him.",
+    "author": "John Berger",
+    "publication": "A Fortunate Man: The Story of a Country Doctor",
+    "year": "1967",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-fortunate-man-the-story-of-a-country-doctor.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "certainty",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/52943.A_Fortunate_Man",
+    "id": "quote_0896",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is the nature of this world that good wishes and noble protests seldom mitigate between the blow and the pain.",
+    "author": "John Berger",
+    "publication": "A Fortunate Man: The Story of a Country Doctor",
+    "year": "1967",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-fortunate-man-the-story-of-a-country-doctor.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "doom",
+        "weight": 1
+      },
+      {
+        "tag": "pain",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/52943.A_Fortunate_Man",
+    "id": "quote_0897",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the true place of God begins at any spot a thousand miles from the nearest land...",
+    "author": "Joseph Conrad",
+    "publication": "A Fortunate Man: The Story of a Country Doctor",
+    "year": "1967",
+    "isbn": null,
+    "book_author": "John Berger",
+    "cover_url": "covers/a-fortunate-man-the-story-of-a-country-doctor.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the sea",
+        "weight": 1
+      },
+      {
+        "tag": "god",
+        "weight": 1
+      },
+      {
+        "tag": "distance",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/52943.A_Fortunate_Man",
+    "id": "quote_0898",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "His contempt for humanity grew fiercer, and at last he came to realize that the word is made up mostly of fools and scoundrels.",
+    "author": "Joris-Karl Huysmans",
+    "publication": "Against Nature",
+    "year": "1884",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/against-nature.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/210255.Against_Nature",
+    "id": "quote_0899",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Like an eremite, he was ripe for solitude, exhausted by life and expecting nothing more of it...",
+    "author": "Joris-Karl Huysmans",
+    "publication": "Against Nature",
+    "year": "1884",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/against-nature.jpg",
+    "weighted_tags": [
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "solitude",
+        "weight": 1
+      },
+      {
+        "tag": "pessimism",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/210255.Against_Nature",
+    "id": "quote_0900",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The rules only take us so far, even good rules.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "A Man Without A Country",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "rules",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/4979.A_Man_Without_a_Country",
+    "id": "quote_0901",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The truth is, we know so little about life, we don’t really know what the good news is and what the bad news is.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "A Man Without A Country",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "the unknown",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/4979.A_Man_Without_a_Country",
+    "id": "quote_0902",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I am one of America’s Great Lakes people, her freshwater people, not an oceanic but a continental people.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "A Man Without A Country",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "the midwest",
+        "weight": 1
+      },
+      {
+        "tag": "home",
+        "weight": 1
+      },
+      {
+        "tag": "america",
+        "weight": 1
+      },
+      {
+        "tag": "place",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/4979.A_Man_Without_a_Country",
+    "id": "quote_0903",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s a poor sort of memory that only works backward.",
+    "author": "Lewis Carroll",
+    "publication": "Alice’s Adventures in Wonderland / Through the Looking-Glass",
+    "year": "1871",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/alices-adventures-in-wonderland-through-the-lookin.jpg",
+    "weighted_tags": [
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "remembering",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass",
+    "id": "quote_0904",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
