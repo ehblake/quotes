@@ -168,7 +168,7 @@
     }
 
     .quote-panel-author {
-      font-family: "DM Mono", monospace;
+      font-family: "DM Sans", sans-serif;
       font-size: clamp(0.9rem, 1.5vw, 1.6rem);
       font-weight: 400;
       color: #FF0064;
@@ -521,7 +521,7 @@
       border-radius: 4px;
       opacity: 0;
       transition: opacity 0.3s;
-      z-index: 100;
+      z-index: 300;
     }
 
     .status-message.show {
@@ -1103,6 +1103,366 @@
       color: #faa;
     }
 
+    /* ── Book Detail Modal ── */
+    .book-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.92);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      overflow-y: auto;
+    }
+
+    .book-modal.open {
+      display: flex;
+    }
+
+    .book-modal-content {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 32px;
+      width: 100%;
+      max-width: 420px;
+      position: relative;
+      text-align: center;
+    }
+
+    .book-modal-close {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      background: none;
+      border: none;
+      color: #666;
+      font-size: 28px;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+      z-index: 1;
+    }
+
+    .book-modal-close:hover {
+      color: #fafafa;
+    }
+
+    .book-modal-cover-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .book-modal-cover-wrap img {
+      max-height: 260px;
+      max-width: 100%;
+      border-radius: 4px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .book-modal-cover-placeholder {
+      width: 160px;
+      height: 220px;
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #555;
+      font-family: "DM Mono", monospace;
+      font-size: 12px;
+    }
+
+    .book-modal-info {
+      margin-bottom: 24px;
+    }
+
+    .book-modal-title {
+      font-family: "DM Serif Display", serif;
+      font-size: 1.3rem;
+      color: #fafafa;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .book-modal-author {
+      font-family: "DM Mono", monospace;
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 4px;
+    }
+
+    .book-modal-year {
+      font-family: "DM Mono", monospace;
+      font-size: 0.8rem;
+      color: #666;
+      margin-bottom: 16px;
+    }
+
+    .book-modal-description {
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.88rem;
+      color: #aaa;
+      line-height: 1.6;
+      text-align: left;
+      padding: 0 4px;
+    }
+
+    .book-modal-description .wiki-loading {
+      color: #555;
+      font-style: italic;
+    }
+
+    .book-modal-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+    }
+
+    .book-modal-btn {
+      background: #FF0064;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 24px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      width: 100%;
+    }
+
+    .book-modal-btn:hover {
+      background: #e6005a;
+    }
+
+    .book-modal-btn:active {
+      transform: scale(0.98);
+    }
+
+    .book-modal-btn.added {
+      background: #333;
+      color: #888;
+      cursor: default;
+    }
+
+    .book-modal-link {
+      font-family: "DM Mono", monospace;
+      font-size: 0.8rem;
+      color: #666;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .book-modal-link:hover {
+      color: #aaa;
+    }
+
+    /* ── Book Bag Badge ── */
+    .book-bag-badge {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 50;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 28px;
+      padding: 14px 22px;
+      font-family: "DM Mono", monospace;
+      font-size: 1.1rem;
+      color: #aaa;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s, transform 0.2s;
+    }
+
+    .book-bag-badge:hover {
+      border-color: #555;
+      color: #fafafa;
+    }
+
+    .book-bag-badge:hover .book-bag-icon svg path {
+      fill: #fafafa;
+    }
+
+    .book-bag-badge.pop {
+      animation: badgePop 0.4s ease;
+    }
+
+    @keyframes badgePop {
+      0% { transform: scale(1); }
+      40% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    .book-bag-icon {
+      display: flex;
+      align-items: center;
+    }
+
+    .book-bag-icon svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .book-bag-icon svg path {
+      fill: #aaa;
+      transition: fill 0.2s;
+    }
+
+    /* ── Book Bag Overlay ── */
+    .book-bag-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.92);
+      z-index: 200;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 60px 20px;
+      overflow-y: auto;
+    }
+
+    .book-bag-overlay.open {
+      display: flex;
+    }
+
+    .book-bag-content {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 28px;
+      width: 100%;
+      max-width: 540px;
+    }
+
+    .book-bag-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #333;
+    }
+
+    .book-bag-title {
+      font-family: "DM Sans", sans-serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #fafafa;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .book-bag-title svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .book-bag-title svg path {
+      fill: #aaa;
+    }
+
+    .book-bag-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .book-bag-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      border-bottom: 1px solid #222;
+    }
+
+    .book-bag-item:last-child {
+      border-bottom: none;
+    }
+
+    .book-bag-item-info {
+      flex: 1;
+    }
+
+    .book-bag-item-title {
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.95rem;
+      color: #fafafa;
+      margin-bottom: 2px;
+    }
+
+    .book-bag-item-meta {
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.75rem;
+      color: #666;
+    }
+
+    .book-bag-item-remove {
+      background: none;
+      border: none;
+      color: #555;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 4px 8px;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+
+    .book-bag-item-remove:hover {
+      color: #c00;
+    }
+
+    .book-bag-empty {
+      text-align: center;
+      padding: 40px 0;
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .book-bag-actions {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid #333;
+      display: flex;
+      gap: 12px;
+    }
+
+    .book-bag-export-btn {
+      background: #222;
+      color: #aaa;
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 10px 20px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      flex: 1;
+    }
+
+    .book-bag-export-btn:hover {
+      background: #333;
+      color: #fafafa;
+    }
+
     /* ── Mobile overrides (must come after all base styles) ── */
     @media (max-width: 768px) {
       /* Hide edit/add links on mobile, keep search + tally */
@@ -1153,11 +1513,39 @@
         column-count: 2;
         column-gap: 24px;
       }
+
+      /* Book modal: tighter padding on mobile */
+      .book-modal-content {
+        padding: 24px 20px;
+      }
+
+      .book-modal-cover-wrap img {
+        max-height: 200px;
+      }
+
+      /* Book bag badge: slightly smaller on mobile */
+      .book-bag-badge {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 16px;
+        font-size: 0.95rem;
+      }
+
+      .book-bag-icon svg {
+        width: 22px;
+        height: 22px;
+      }
     }
   </style>
 </head>
 <body>
   <div id="status-message" class="status-message"></div>
+
+  <!-- Book Bag Badge - persistent bottom-right indicator -->
+  <div id="book-bag-badge" class="book-bag-badge" onclick="openBookBag()" style="display:none">
+    <span class="book-bag-icon"><svg viewBox="0 0 110 135" xmlns="http://www.w3.org/2000/svg"><path d="M94.3,67l.7-.3c.7-.3,1.2-.8,1.4-1.5l.2-.6c.3-.9,0-1.9-.6-2.6-.7-.6-1.6-.8-2.5-.5v-10l1.7-.7c.7-.3,1.2-1.1,1.1-1.9s-.7-1.4-1.5-1.5h-1.4c0-.1.3-.3.3-.3.7-.3,1.2-.8,1.4-1.5l.3-.8c.3-.9,0-1.9-.6-2.5s-1.6-.9-2.5-.5l-2.9,1v-6.3l3.7-1.2c.8-.3,1.2-1,1.2-1.8,0-.8-.6-1.4-1.4-1.6l-42.4-7.7c-.7-.1-1.4,0-2,.2l-27.2,10.4c-1.5.6-2.7,1.4-3.7,2.3-2,2.1-2.9,4.9-2.4,7.6.7,4,4,5.9,4.7,6.3,0,0,.2,0,.3.1,0,0,0,0,.1,0-.3,0-.7.2-1,.2-3.4.8-6,3.4-6.7,6.5-.1.6-.2,1.3-.2,1.9,0,3.3,1.8,6.3,4.7,7.9,0,0,.2,0,.2,0l.6.2-4,1.3c-.7.2-1.2.9-1.2,1.7,0,.8.5,1.4,1.3,1.7l1.2.3v9.9h-.3c-1.2-.4-2.4.2-2.9,1.3-.2.3-.3.7-.3,1.1,0,1.2.8,2.2,1.9,2.5l37.6,9.1c.3,0,.6.1.9.1s.8,0,1.2-.2l39.5-13.6c0,0,.2,0,.2-.1.4-.3,4.3-2.8,4.6-7.7.2-3.1-1-6.2-3.4-8.3h0ZM91.5,62.4c-6.7,2.7-19.4,7.7-28.3,10.1-.7.2-1.3,0-1.7-.5-.6-.7-1.1-1.6-1.2-2.5-.3-1.7.2-3.1.7-4,.2-.3.5-.6.8-.7l29.7-12.3v9.9h0ZM87.3,43.7l-24.7,8.9c-.5.2-1,.1-1.5-.1-.4-.2-.7-.6-.8-1.1,0-.4-.1-.8-.1-1.1,0-1.2.4-2.3,1.1-3.4.5-.7,1.3-1.3,2.2-1.6l23.7-7.9v6.3ZM21.9,36.9l27.2-10.4c.3-.1.6-.1.9,0l41.1,7.5-28.2,9.4c-1,.3-1.9.9-2.7,1.7l-39.4-7.6c.3-.2.7-.3,1-.5h0ZM17.1,44.5c-.3-1.9.3-3.9,1.6-5.5l40.2,7.8c-.5,1.1-.8,2.2-.8,3.4,0,.5,0,1.1.2,1.6.2,1,.9,1.9,1.8,2.5,1,.6,2.2.7,3.2.3l29.6-10.7c.2,0,.3,0,.4,0,0,0,.1.2,0,.4l-.3.8c0,0-.1.2-.2.2l-4.6,1.7s0,0,0,0l-26.5,10c-.8.3-1.8.4-2.6.2-10.6-2.6-25.8-5.5-33.6-7,0,0,0,0,0,0-2.6-.5-4.4-.8-4.9-.9-.7-.4-3-1.9-3.5-4.7h0ZM19.7,53.6c1.4-.3,3.4-.8,5.7-1.3,7.9,1.5,22.8,4.4,33.3,6.9.5.1,1,.2,1.5.2.8,0,1.6-.1,2.3-.4l26.4-9.9,4.3.4-32.2,13.4c-.7.3-1.2.7-1.6,1.3l-41.2-10c.5-.3,1.1-.5,1.6-.6h0ZM14.4,60c0-.5,0-1,.2-1.5.2-1,.7-1.9,1.4-2.7l42.4,10.3c-.3,1.1-.5,2.4-.2,3.8.3,1.3.8,2.4,1.7,3.4.9,1.1,2.4,1.5,3.9,1.1,9.3-2.5,22.6-7.8,29.2-10.4,0,0,0,0,0,0,.5-.2.9-.4,1.3-.5.2,0,.3,0,.4,0,0,0,.2.2,0,.4l-.2.7c0,0-.1.2-.2.2l-2.8,1.1s0,0,0,0l-27.3,10.2s0,0,0,0l-1.3.5c-.7.2-1.5.2-2.3,0l-42.6-10.7c-2.2-1.2-3.5-3.5-3.5-6h0ZM21.7,69.1l36.5,9.1-7.3,2.6-35.4-9.7,6.1-2ZM17.2,73.6l33.5,9.2c.5.1,1,.5,1.2,1.1.5,1.2.7,2.5.7,3.8s-.1,1.9-.4,2.8c-.2.9-1.2,1.4-2.1,1.2-9.8-2.5-19.6-4.9-29.5-7.4l-3.5-.9v-9.9h0ZM95.6,75.2c-.3,3.6-3,5.7-3.6,6.1l-39.4,13.6c-.3.1-.7.1-1,0l-37.6-9.1c-.2,0-.3-.3-.3-.5s0-.1,0-.2c.1-.2.3-.3.5-.2l5.9,1.5c9.8,2.5,19.6,4.9,29.5,7.4,2,.5,4.1-.7,4.6-2.7.3-1.1.4-2.2.4-3.3,0-1.6-.3-3.1-.8-4.5-.1-.4-.4-.7-.6-1.1l10.2-3.6h.3c0-.1.2-.1.2-.2l28-10.5h.1c2.4,1.7,3.7,4.5,3.5,7.3h0Z"/></svg></span>
+    <span id="book-bag-count">0</span>
+  </div>
 
   <!-- Edit/Add links - only shown on localhost -->
   <div id="edit-links" class="edit-links">
@@ -1244,6 +1632,38 @@
         <button class="btn-save" id="save-btn" onclick="saveQuote()">Save Changes</button>
         <button class="btn-cancel" onclick="closeEditModal()">Cancel</button>
         <button class="btn-delete" id="delete-btn" onclick="deleteQuote()">Delete Quote</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Book Detail Modal -->
+  <div id="book-modal" class="book-modal" onmousedown="if(event.target===this) closeBookModal()">
+    <div class="book-modal-content">
+      <button class="book-modal-close" onclick="closeBookModal()">&times;</button>
+      <div id="book-modal-cover-wrap" class="book-modal-cover-wrap"></div>
+      <div class="book-modal-info">
+        <div id="book-modal-title" class="book-modal-title"></div>
+        <div id="book-modal-author" class="book-modal-author"></div>
+        <div id="book-modal-year" class="book-modal-year"></div>
+        <div id="book-modal-description" class="book-modal-description"></div>
+      </div>
+      <div class="book-modal-actions">
+        <button id="book-modal-bag-btn" class="book-modal-btn" onclick="addToBookBag()">Add to Book Bag</button>
+        <a id="book-modal-goodreads" class="book-modal-link" target="_blank" rel="noopener">View on Goodreads &#8594;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Book Bag Overlay -->
+  <div id="book-bag-overlay" class="book-bag-overlay" onmousedown="if(event.target===this) closeBookBag()">
+    <div class="book-bag-content">
+      <div class="book-bag-header">
+        <div class="book-bag-title"><svg viewBox="0 0 110 135" xmlns="http://www.w3.org/2000/svg"><path d="M94.3,67l.7-.3c.7-.3,1.2-.8,1.4-1.5l.2-.6c.3-.9,0-1.9-.6-2.6-.7-.6-1.6-.8-2.5-.5v-10l1.7-.7c.7-.3,1.2-1.1,1.1-1.9s-.7-1.4-1.5-1.5h-1.4c0-.1.3-.3.3-.3.7-.3,1.2-.8,1.4-1.5l.3-.8c.3-.9,0-1.9-.6-2.5s-1.6-.9-2.5-.5l-2.9,1v-6.3l3.7-1.2c.8-.3,1.2-1,1.2-1.8,0-.8-.6-1.4-1.4-1.6l-42.4-7.7c-.7-.1-1.4,0-2,.2l-27.2,10.4c-1.5.6-2.7,1.4-3.7,2.3-2,2.1-2.9,4.9-2.4,7.6.7,4,4,5.9,4.7,6.3,0,0,.2,0,.3.1,0,0,0,0,.1,0-.3,0-.7.2-1,.2-3.4.8-6,3.4-6.7,6.5-.1.6-.2,1.3-.2,1.9,0,3.3,1.8,6.3,4.7,7.9,0,0,.2,0,.2,0l.6.2-4,1.3c-.7.2-1.2.9-1.2,1.7,0,.8.5,1.4,1.3,1.7l1.2.3v9.9h-.3c-1.2-.4-2.4.2-2.9,1.3-.2.3-.3.7-.3,1.1,0,1.2.8,2.2,1.9,2.5l37.6,9.1c.3,0,.6.1.9.1s.8,0,1.2-.2l39.5-13.6c0,0,.2,0,.2-.1.4-.3,4.3-2.8,4.6-7.7.2-3.1-1-6.2-3.4-8.3h0ZM91.5,62.4c-6.7,2.7-19.4,7.7-28.3,10.1-.7.2-1.3,0-1.7-.5-.6-.7-1.1-1.6-1.2-2.5-.3-1.7.2-3.1.7-4,.2-.3.5-.6.8-.7l29.7-12.3v9.9h0ZM87.3,43.7l-24.7,8.9c-.5.2-1,.1-1.5-.1-.4-.2-.7-.6-.8-1.1,0-.4-.1-.8-.1-1.1,0-1.2.4-2.3,1.1-3.4.5-.7,1.3-1.3,2.2-1.6l23.7-7.9v6.3ZM21.9,36.9l27.2-10.4c.3-.1.6-.1.9,0l41.1,7.5-28.2,9.4c-1,.3-1.9.9-2.7,1.7l-39.4-7.6c.3-.2.7-.3,1-.5h0ZM17.1,44.5c-.3-1.9.3-3.9,1.6-5.5l40.2,7.8c-.5,1.1-.8,2.2-.8,3.4,0,.5,0,1.1.2,1.6.2,1,.9,1.9,1.8,2.5,1,.6,2.2.7,3.2.3l29.6-10.7c.2,0,.3,0,.4,0,0,0,.1.2,0,.4l-.3.8c0,0-.1.2-.2.2l-4.6,1.7s0,0,0,0l-26.5,10c-.8.3-1.8.4-2.6.2-10.6-2.6-25.8-5.5-33.6-7,0,0,0,0,0,0-2.6-.5-4.4-.8-4.9-.9-.7-.4-3-1.9-3.5-4.7h0ZM19.7,53.6c1.4-.3,3.4-.8,5.7-1.3,7.9,1.5,22.8,4.4,33.3,6.9.5.1,1,.2,1.5.2.8,0,1.6-.1,2.3-.4l26.4-9.9,4.3.4-32.2,13.4c-.7.3-1.2.7-1.6,1.3l-41.2-10c.5-.3,1.1-.5,1.6-.6h0ZM14.4,60c0-.5,0-1,.2-1.5.2-1,.7-1.9,1.4-2.7l42.4,10.3c-.3,1.1-.5,2.4-.2,3.8.3,1.3.8,2.4,1.7,3.4.9,1.1,2.4,1.5,3.9,1.1,9.3-2.5,22.6-7.8,29.2-10.4,0,0,0,0,0,0,.5-.2.9-.4,1.3-.5.2,0,.3,0,.4,0,0,0,.2.2,0,.4l-.2.7c0,0-.1.2-.2.2l-2.8,1.1s0,0,0,0l-27.3,10.2s0,0,0,0l-1.3.5c-.7.2-1.5.2-2.3,0l-42.6-10.7c-2.2-1.2-3.5-3.5-3.5-6h0ZM21.7,69.1l36.5,9.1-7.3,2.6-35.4-9.7,6.1-2ZM17.2,73.6l33.5,9.2c.5.1,1,.5,1.2,1.1.5,1.2.7,2.5.7,3.8s-.1,1.9-.4,2.8c-.2.9-1.2,1.4-2.1,1.2-9.8-2.5-19.6-4.9-29.5-7.4l-3.5-.9v-9.9h0ZM95.6,75.2c-.3,3.6-3,5.7-3.6,6.1l-39.4,13.6c-.3.1-.7.1-1,0l-37.6-9.1c-.2,0-.3-.3-.3-.5s0-.1,0-.2c.1-.2.3-.3.5-.2l5.9,1.5c9.8,2.5,19.6,4.9,29.5,7.4,2,.5,4.1-.7,4.6-2.7.3-1.1.4-2.2.4-3.3,0-1.6-.3-3.1-.8-4.5-.1-.4-.4-.7-.6-1.1l10.2-3.6h.3c0-.1.2-.1.2-.2l28-10.5h.1c2.4,1.7,3.7,4.5,3.5,7.3h0Z"/></svg>Book Bag</div>
+        <button class="book-modal-close" onclick="closeBookBag()">&times;</button>
+      </div>
+      <div id="book-bag-list" class="book-bag-list"></div>
+      <div id="book-bag-actions" class="book-bag-actions" style="display:none">
+        <button class="book-bag-export-btn" onclick="exportBookBag()">Copy List to Clipboard</button>
       </div>
     </div>
   </div>
@@ -2152,10 +2572,10 @@
       bookBlock.innerHTML = '<div class="book-block-inner"></div>';
       const innerBlock = bookBlock.querySelector('.book-block-inner');
 
-      // Set up Goodreads click handler
-      const grUrl = getGoodreadsUrl(q);
-      bookBlock.onclick = grUrl ? () => window.open(grUrl, '_blank') : null;
-      bookBlock.style.cursor = grUrl ? 'pointer' : 'default';
+      // Set up book modal click handler (replaces direct Goodreads link)
+      const hasBookInfo = q.publication || q.book_title || q.isbn || q.cover_url;
+      bookBlock.onclick = hasBookInfo ? () => openBookModal(q) : null;
+      bookBlock.style.cursor = hasBookInfo ? 'pointer' : 'default';
 
       setTimeout(async () => {
         const bookTitle = q.publication || q.book_title;
@@ -2226,8 +2646,12 @@
     function showStatus(message, isError = false) {
       const el = document.getElementById("status-message");
       el.textContent = message;
-      el.className = "status-message show" + (isError ? " error" : "");
-      setTimeout(() => {
+      // Reset to base state, force reflow, then add .show for reliable transition
+      el.className = "status-message" + (isError ? " error" : "");
+      void el.offsetWidth;
+      el.classList.add("show");
+      clearTimeout(el._hideTimer);
+      el._hideTimer = setTimeout(() => {
         el.className = "status-message";
       }, 3000);
     }
@@ -2312,14 +2736,12 @@
       bookBlock.innerHTML = '<div class="book-block-inner"></div>';
       const innerBlock = bookBlock.querySelector('.book-block-inner');
 
-      // Set up Goodreads click handler
-      const grUrl = getGoodreadsUrl(q);
-      bookBlock.onclick = grUrl ? () => window.open(grUrl, '_blank') : null;
-      bookBlock.style.cursor = grUrl ? 'pointer' : 'default';
-
+      // Set up book modal click handler (replaces direct Goodreads link)
       const bookTitle = q.publication || q.book_title;
       const hasBook = bookTitle || q.isbn || q.cover_url;
       const bookAuthor = q.book_author || q.author;
+      bookBlock.onclick = hasBook ? () => openBookModal(q) : null;
+      bookBlock.style.cursor = hasBook ? 'pointer' : 'default';
 
       // Build book info HTML (without cover initially if we have flying cover)
       const buildBookInfo = () => `
@@ -2878,6 +3300,16 @@
       document.addEventListener("keydown", (e) => {
         // Ignore keyboard shortcuts when typing in input fields
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+          return;
+        }
+        // Block navigation when book modal or book bag is open
+        const bookModalOpen = document.getElementById('book-modal') && document.getElementById('book-modal').classList.contains('open');
+        const bookBagOpen = document.getElementById('book-bag-overlay') && document.getElementById('book-bag-overlay').classList.contains('open');
+        if (bookModalOpen || bookBagOpen) {
+          if (e.key === 'Escape') {
+            if (bookBagOpen) closeBookBag();
+            else closeBookModal();
+          }
           return;
         }
 
@@ -3537,14 +3969,301 @@
         hideTagIndex();
         return;
       }
-      // Close modal on Escape
+      // Close book bag on Escape
+      if (e.key === 'Escape' && document.getElementById('book-bag-overlay').classList.contains('open')) {
+        closeBookBag();
+        return;
+      }
+      // Close book modal on Escape
+      if (e.key === 'Escape' && document.getElementById('book-modal').classList.contains('open')) {
+        closeBookModal();
+        return;
+      }
+      // Close edit modal on Escape
       if (e.key === 'Escape') {
         closeEditModal();
       }
     });
 
+    // ============================================
+    // BOOK DETAIL MODAL & BOOK BAG
+    // ============================================
+
+    let currentBookModalQuote = null;
+
+    // --- Wikipedia Description Cache (localStorage-backed) ---
+    const WIKI_CACHE_KEY = 'wikiDescriptions';
+    const WIKI_CACHE_VERSION = 1;
+    let wikiCache = {};
+
+    function loadWikiCache() {
+      try {
+        const stored = JSON.parse(localStorage.getItem(WIKI_CACHE_KEY) || '{}');
+        if (stored._v === WIKI_CACHE_VERSION) {
+          wikiCache = stored;
+        }
+      } catch (e) { /* ignore corrupt cache */ }
+    }
+
+    function saveWikiCache() {
+      try {
+        wikiCache._v = WIKI_CACHE_VERSION;
+        localStorage.setItem(WIKI_CACHE_KEY, JSON.stringify(wikiCache));
+      } catch (e) { /* storage full, ignore */ }
+    }
+
+    loadWikiCache();
+
+    // --- Wikipedia API ---
+    async function fetchWikiDescription(title, author) {
+      if (!title) return null;
+      const cacheKey = `${title}__${author || ''}`;
+      if (wikiCache[cacheKey] !== undefined) return wikiCache[cacheKey];
+
+      // Try multiple query variations to find the right article
+      const queries = [
+        `${title} (novel)`,
+        `${title} (book)`,
+        title
+      ];
+
+      for (const query of queries) {
+        try {
+          const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`;
+          const res = await fetch(url);
+          if (!res.ok) continue;
+          const data = await res.json();
+          if (data.type === 'disambiguation') continue;
+          if (data.extract) {
+            // Limit to first 2 sentences for brevity
+            const sentences = data.extract.match(/[^.!?]+[.!?]+/g);
+            const desc = sentences ? sentences.slice(0, 2).join(' ').trim() : data.extract;
+            wikiCache[cacheKey] = desc;
+            saveWikiCache();
+            return desc;
+          }
+        } catch (e) { continue; }
+      }
+
+      wikiCache[cacheKey] = null;
+      saveWikiCache();
+      return null;
+    }
+
+    // --- Background Prefetch ---
+    // After quotes load, prefetch descriptions for all unique books
+    // Runs slowly in the background to avoid hammering the API
+    async function prefetchWikiDescriptions() {
+      if (typeof quotes === 'undefined' || !quotes.length) return;
+
+      // Get unique books (by publication + author)
+      const seen = new Set();
+      const books = [];
+      for (const q of quotes) {
+        const title = q.publication || q.book_title;
+        const author = q.book_author || q.author || '';
+        if (!title) continue;
+        const key = `${title}__${author}`;
+        if (seen.has(key) || wikiCache[key] !== undefined) continue;
+        seen.add(key);
+        books.push({ title, author });
+      }
+
+      if (books.length === 0) return;
+      console.log(`[Wiki] Prefetching descriptions for ${books.length} uncached books...`);
+
+      for (let i = 0; i < books.length; i++) {
+        await fetchWikiDescription(books[i].title, books[i].author);
+        // Throttle: ~150ms between requests to be polite
+        if (i < books.length - 1) {
+          await new Promise(r => setTimeout(r, 150));
+        }
+      }
+      console.log(`[Wiki] Prefetch complete. ${Object.keys(wikiCache).length - 1} descriptions cached.`);
+    }
+
+    // --- Book Modal ---
+    function openBookModal(q) {
+      currentBookModalQuote = q;
+      const modal = document.getElementById('book-modal');
+      const bookTitle = q.publication || q.book_title || 'Unknown title';
+      const bookAuthor = q.book_author || q.author || '';
+      const coverUrl = getCoverUrl(q);
+
+      // Cover
+      const coverWrap = document.getElementById('book-modal-cover-wrap');
+      if (coverUrl) {
+        coverWrap.innerHTML = `<img src="${coverUrl}" alt="${bookTitle}" onerror="this.outerHTML='<div class=\\'book-modal-cover-placeholder\\'>No cover</div>'">`;
+      } else {
+        coverWrap.innerHTML = '<div class="book-modal-cover-placeholder">No cover</div>';
+      }
+
+      // Info
+      document.getElementById('book-modal-title').textContent = bookTitle;
+      document.getElementById('book-modal-author').textContent = bookAuthor;
+      document.getElementById('book-modal-year').textContent = q.year || '';
+
+      // Description - loading state
+      const descEl = document.getElementById('book-modal-description');
+      descEl.innerHTML = '<span class="wiki-loading">Loading description...</span>';
+
+      // Goodreads link
+      const grUrl = getGoodreadsUrl(q);
+      const grLink = document.getElementById('book-modal-goodreads');
+      if (grUrl) {
+        grLink.href = grUrl;
+        grLink.style.display = '';
+      } else {
+        grLink.style.display = 'none';
+      }
+
+      // Book bag button state
+      const bagBtn = document.getElementById('book-modal-bag-btn');
+      const bag = getBookBag();
+      const alreadyInBag = bag.some(b => b.title === bookTitle && b.author === bookAuthor);
+      if (alreadyInBag) {
+        bagBtn.textContent = 'Already in Book Bag';
+        bagBtn.classList.add('added');
+      } else {
+        bagBtn.textContent = 'Add to Book Bag';
+        bagBtn.classList.remove('added');
+      }
+
+      // Show modal
+      modal.classList.add('open');
+
+      // Fetch Wikipedia description async
+      fetchWikiDescription(bookTitle, bookAuthor).then(desc => {
+        if (desc) {
+          descEl.textContent = desc;
+        } else {
+          descEl.innerHTML = '';
+        }
+      });
+    }
+
+    function closeBookModal() {
+      document.getElementById('book-modal').classList.remove('open');
+      currentBookModalQuote = null;
+    }
+
+    // --- Book Bag (sessionStorage) ---
+    function getBookBag() {
+      try {
+        return JSON.parse(sessionStorage.getItem('bookBag') || '[]');
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function saveBookBag(bag) {
+      sessionStorage.setItem('bookBag', JSON.stringify(bag));
+    }
+
+    function addToBookBag() {
+      if (!currentBookModalQuote) return;
+      const q = currentBookModalQuote;
+      const bookTitle = q.publication || q.book_title || 'Unknown title';
+      const bookAuthor = q.book_author || q.author || '';
+      const bag = getBookBag();
+
+      // Check for duplicate
+      if (bag.some(b => b.title === bookTitle && b.author === bookAuthor)) return;
+
+      bag.push({
+        title: bookTitle,
+        author: bookAuthor,
+        year: q.year || ''
+      });
+      saveBookBag(bag);
+
+      // Update button
+      const bagBtn = document.getElementById('book-modal-bag-btn');
+      bagBtn.textContent = 'Added \u2713';
+      bagBtn.classList.add('added');
+
+      // Update badge
+      updateBookBagBadge();
+
+      // Pop animation
+      const badge = document.getElementById('book-bag-badge');
+      badge.classList.remove('pop');
+      void badge.offsetWidth; // force reflow
+      badge.classList.add('pop');
+    }
+
+    function updateBookBagBadge() {
+      const bag = getBookBag();
+      const badge = document.getElementById('book-bag-badge');
+      const countEl = document.getElementById('book-bag-count');
+      if (bag.length > 0) {
+        badge.style.display = 'flex';
+        countEl.textContent = bag.length;
+      } else {
+        badge.style.display = 'none';
+      }
+    }
+
+    // --- Book Bag Overlay ---
+    function openBookBag() {
+      const overlay = document.getElementById('book-bag-overlay');
+      const listEl = document.getElementById('book-bag-list');
+      const actionsEl = document.getElementById('book-bag-actions');
+      const bag = getBookBag();
+
+      if (bag.length === 0) {
+        listEl.innerHTML = '<div class="book-bag-empty">No books saved yet. Click a book to add it to your bag.</div>';
+        actionsEl.style.display = 'none';
+      } else {
+        listEl.innerHTML = bag.map((b, i) => `
+          <div class="book-bag-item">
+            <div class="book-bag-item-info">
+              <div class="book-bag-item-title">${b.title}</div>
+              <div class="book-bag-item-meta">${b.author}${b.year ? ' \u00B7 ' + b.year : ''}</div>
+            </div>
+            <button class="book-bag-item-remove" onclick="removeFromBookBag(${i})" title="Remove">&times;</button>
+          </div>
+        `).join('');
+        actionsEl.style.display = 'flex';
+      }
+
+      overlay.classList.add('open');
+    }
+
+    function closeBookBag() {
+      document.getElementById('book-bag-overlay').classList.remove('open');
+    }
+
+    function removeFromBookBag(index) {
+      const bag = getBookBag();
+      bag.splice(index, 1);
+      saveBookBag(bag);
+      updateBookBagBadge();
+      // Re-render the list
+      openBookBag();
+    }
+
+    function exportBookBag() {
+      const bag = getBookBag();
+      if (bag.length === 0) return;
+      const text = bag.map(b => `${b.title} \u2014 ${b.author}${b.year ? ' (' + b.year + ')' : ''}`).join('\n');
+      navigator.clipboard.writeText(text).then(() => {
+        showStatus('Book list copied to clipboard!');
+      }).catch(() => {
+        // Fallback: select text
+        showStatus('Could not copy to clipboard', true);
+      });
+    }
+
+    // Restore badge on page load
+    updateBookBagBadge();
+
     // Initialize edit mode after main init
     setTimeout(initEditMode, 100);
+
+    // Start background wiki prefetch after a short delay
+    // (waits for quotes.json to load, then fetches in the background)
+    setTimeout(prefetchWikiDescriptions, 5000);
 
     init();
   </script>
