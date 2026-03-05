@@ -24698,10 +24698,10 @@
     "year": "1967",
     "publication": "The Revolution of Everyday Life",
     "notes": "Author quoted by Raoul Vaneigem",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": null,
+    "isbn": "9781604867848",
     "book_title": "Rapport sur les factions de l'étranger",
     "publisher": null,
     "open_library_key": "/works/OL5153574W",
@@ -24746,27 +24746,10 @@
         "weight": 0.3147,
         "corpus_score": 0.3191,
         "relevance": 0.5571
-      },
-      {
-        "tag": "commitment",
-        "weight": 0.2283,
-        "corpus_score": 0.1596,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "radicalism",
-        "weight": 0.2169,
-        "corpus_score": 0.1596,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "saint-just",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/381416.The_Revolution_of_Everyday_Life"
+    "goodreads_url": "https://www.goodreads.com/book/show/381416.The_Revolution_of_Everyday_Life",
+    "book_author": "Raoul Vaneigem"
   },
   {
     "id": "quote_0360",
