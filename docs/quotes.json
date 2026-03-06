@@ -9531,24 +9531,6 @@
         "weight": 0.4151,
         "corpus_score": 0.4787,
         "relevance": 0.6
-      },
-      {
-        "tag": "miracle",
-        "weight": 0.3728,
-        "corpus_score": 0.1596,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "logic",
-        "weight": 0.3179,
-        "corpus_score": 0.3705,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "dose",
-        "weight": 0.2042,
-        "corpus_score": 0.1596,
-        "relevance": 0.5111
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/245727268-a-short-history-of-decay-e-m-cioran"
@@ -12758,30 +12740,6 @@
         "relevance": 0.9615
       },
       {
-        "tag": "ideas",
-        "weight": 0.4923,
-        "corpus_score": 0.8605,
-        "relevance": 0.5308
-      },
-      {
-        "tag": "thinking",
-        "weight": 0.4629,
-        "corpus_score": 0.783,
-        "relevance": 0.5231
-      },
-      {
-        "tag": "fyodor dostoevsky",
-        "weight": 0.4368,
-        "corpus_score": 0.5301,
-        "relevance": 0.6
-      },
-      {
-        "tag": "dostoevsky",
-        "weight": 0.4312,
-        "corpus_score": 0.5301,
-        "relevance": 0.5923
-      },
-      {
         "tag": "consciousness",
         "weight": 0.3884,
         "corpus_score": 0.5058,
@@ -12794,34 +12752,14 @@
         "relevance": 0.5077
       },
       {
-        "tag": "gambling",
-        "weight": 0.3656,
-        "corpus_score": 0.4125,
-        "relevance": 0.5692
-      },
-      {
         "tag": "talking",
         "weight": 0.3137,
         "corpus_score": 0.3705,
         "relevance": 0.5154
       },
       {
-        "tag": "unaware",
-        "weight": 0.3011,
-        "corpus_score": 0.1596,
-        "relevance": 0.7538
-      },
-      {
-        "tag": "the gambler",
-        "weight": 0.2335,
-        "corpus_score": 0.1596,
-        "relevance": 0.5846
-      },
-      {
-        "tag": "conscious",
-        "weight": 0.2151,
-        "corpus_score": 0.1596,
-        "relevance": 0.5385
+        "tag": "speaking",
+        "weight": 1
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/12857.The_Gambler"
@@ -38664,7 +38602,7 @@
     "year": "2005",
     "publication": "Fortune's Formula",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780374707088",
@@ -38690,18 +38628,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "circus",
-        "weight": 0.374,
-        "corpus_score": 0.1596,
-        "relevance": 0.9364
-      },
-      {
-        "tag": "gambling",
-        "weight": 0.3737,
-        "corpus_score": 0.4125,
-        "relevance": 0.5818
-      },
-      {
         "tag": "randomness",
         "weight": 0.3715,
         "corpus_score": 0.552,
@@ -38720,37 +38646,14 @@
         "relevance": 0.5636
       },
       {
-        "tag": "gamble",
-        "weight": 0.3235,
-        "corpus_score": 0.3191,
-        "relevance": 0.5727
-      },
-      {
         "tag": "chance",
         "weight": 0.256,
         "corpus_score": 0.2529,
         "relevance": 0.5091
-      },
-      {
-        "tag": "black swan",
-        "weight": 0.2106,
-        "corpus_score": 0.1596,
-        "relevance": 0.5273
-      },
-      {
-        "tag": "likelihood",
-        "weight": 0.207,
-        "corpus_score": 0.1596,
-        "relevance": 0.5182
-      },
-      {
-        "tag": "william poundstone",
-        "weight": 0.1669,
-        "corpus_score": 0.3191,
-        "relevance": 0.2955
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/186124.Fortune_s_Formula"
+    "goodreads_url": "https://www.goodreads.com/book/show/186124.Fortune_s_Formula",
+    "book_author": null
   },
   {
     "id": "quote_0547",
@@ -50887,7 +50790,7 @@
     "goodreads_url": "https://www.goodreads.com/book/show/17894477-if-this-isn-t-nice-what-is"
   },
   {
-    "quote": "“The purpose of museums... is to persuade the common people that they are unworthy of holding power or making big money...",
+    "quote": "The purpose of museums... is to persuade the common people that they are unworthy of holding power or making big money...",
     "author": "Kurt Vonnegut Jr.",
     "publication": "If This Isn't Nice, What Is?",
     "year": "2013",
@@ -50913,7 +50816,7 @@
       }
     ],
     "id": "quote_0843",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "goodreads_url": "https://www.goodreads.com/book/show/17894477-if-this-isn-t-nice-what-is"
@@ -52818,6 +52721,950 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass",
     "id": "quote_0904",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "High creativity is responding to situations without critical thought.",
+    "author": "John Cleese",
+    "publication": "It's Not How Good You Are, It's How Good You Want to Be",
+    "year": "2003",
+    "isbn": null,
+    "book_author": "Paul Arden",
+    "cover_url": "covers/its-not-how-good-you-are-its-how-good-you-want-to-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/114737.It_s_Not_How_Good_You_Are_It_s_How_Good_You_Want_To_Be",
+    "id": "quote_0905",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Awards are merely badges of mediocrity.",
+    "author": "Charles Ives",
+    "publication": "It's Not How Good You Are, It's How Good You Want to Be",
+    "year": "2003",
+    "isbn": null,
+    "book_author": "Paul Arden",
+    "cover_url": "covers/its-not-how-good-you-are-its-how-good-you-want-to-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "awards",
+        "weight": 1
+      },
+      {
+        "tag": "recognition",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "skill",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/114737.It_s_Not_How_Good_You_Are_It_s_How_Good_You_Want_To_Be",
+    "id": "quote_0906",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Those who lack courage will always find a philosophy to justify it.",
+    "author": "Albert Camus",
+    "publication": "It's Not How Good You Are, It's How Good You Want to Be",
+    "year": "2003",
+    "isbn": null,
+    "book_author": "Paul Arden",
+    "cover_url": "covers/its-not-how-good-you-are-its-how-good-you-want-to-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "courage",
+        "weight": 1
+      },
+      {
+        "tag": "cowardice",
+        "weight": 1
+      },
+      {
+        "tag": "rationale",
+        "weight": 1
+      },
+      {
+        "tag": "bravery",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/114737.It_s_Not_How_Good_You_Are_It_s_How_Good_You_Want_To_Be",
+    "id": "quote_0907",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If everything seems under control you’re not going fast enough.",
+    "author": "Mario Andretti",
+    "publication": "It's Not How Good You Are, It's How Good You Want to Be",
+    "year": "2003",
+    "isbn": null,
+    "book_author": "Paul Arden",
+    "cover_url": "covers/its-not-how-good-you-are-its-how-good-you-want-to-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "action",
+        "weight": 1
+      },
+      {
+        "tag": "difficulty",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/114737.It_s_Not_How_Good_You_Are_It_s_How_Good_You_Want_To_Be",
+    "id": "quote_0908",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Every viewpoint is useful and it takes a wide diversity of views for any group to navigate this universe, let alone to act as custodians for it.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Sand Talk",
+    "year": "2019",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sand-talk.jpg",
+    "weighted_tags": [
+      {
+        "tag": "collaboration",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "diversity",
+        "weight": 1
+      },
+      {
+        "tag": "the universe",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/51938817-sand-talk",
+    "id": "quote_0909",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s no accident that the ruins of the world’s oldest civilisations are mostly in deserts now. It wasn’t desert before that.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Sand Talk",
+    "year": "2019",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sand-talk.jpg",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "civilisation",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "doom",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/51938817-sand-talk",
+    "id": "quote_0910",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If people are laughing, they are learning. True learning is a joy because it is an act of creation.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Sand Talk",
+    "year": "2019",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sand-talk.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humour",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "laughter",
+        "weight": 1
+      },
+      {
+        "tag": "joy",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/51938817-sand-talk",
+    "id": "quote_0911",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The assistance people need is not in learning about Aboriginal Knowledge but in remembering their own.",
+    "author": "Tyson Yunkaporta",
+    "publication": "Sand Talk",
+    "year": "2019",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/sand-talk.jpg",
+    "weighted_tags": [
+      {
+        "tag": "first nations",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/51938817-sand-talk",
+    "id": "quote_0912",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If you want to have good ideas you must have many ideas.",
+    "author": "Linus Pauling",
+    "publication": "The Second Machine Age",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Erik Brynjolfsson & Andrew McAfee",
+    "cover_url": "covers/the-second-machine-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "invention",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23316526-the-second-machine-age",
+    "id": "quote_0913",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One can have a great deal of knowledge about the world but entirely lack wisdom.",
+    "author": "Neil Postman",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      },
+      {
+        "tag": "information",
+        "weight": 1
+      },
+      {
+        "tag": "problem solving",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0914",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The arts are not a way to make a living. They are a very human way of making life more bearable.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "A Man Without A Country",
+    "year": "2005",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "making",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/4979.A_Man_Without_a_Country",
+    "id": "quote_0915",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Knowing that everything comes to an end is a gift of experience, a consolation gift for knowing that we ourselves are coming to an end.",
+    "author": "Tobias Wolff",
+    "publication": "This Boy's Life",
+    "year": "1989",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/this-boys-life.jpg",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11466.This_Boy_s_Life",
+    "id": "quote_0916",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Power tends to corrupt, and absolute power corrupts absolutely.",
+    "author": "Lord Acton",
+    "publication": "The Road to Serfdom",
+    "year": "1944",
+    "isbn": null,
+    "book_author": "F. A. Hayek",
+    "cover_url": "covers/the-road-to-serfdom.jpg",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "corruption",
+        "weight": 1
+      },
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "politics",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom",
+    "id": "quote_0917",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The machine does not isolate man from the great problems of nature but plunges him more deeply into them.",
+    "author": "Antoine de Saint-Exupéry",
+    "publication": "The Second Machine Age",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Erik Brynjolfsson & Andrew McAfee",
+    "cover_url": "covers/the-second-machine-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "machines",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "problems",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23316526-the-second-machine-age",
+    "id": "quote_0918",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The strategy is the strategy, the returns are the returns.",
+    "author": "Bernie Madoff",
+    "publication": "Bendable Learnings",
+    "year": "2009",
+    "isbn": null,
+    "book_author": "Don Watson",
+    "cover_url": "covers/bendable-learnings.jpg",
+    "weighted_tags": [
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "liars",
+        "weight": 1
+      },
+      {
+        "tag": "lies",
+        "weight": 1
+      },
+      {
+        "tag": "lying",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/7059092-bendable-learnings",
+    "id": "quote_0919",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We look at the present through a rear-view mirror. We march backwards into the future.",
+    "author": "Marshall McLuhan",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": "Neil Postman",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0920",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In armies, navies, cities, or families—in nature herself—nothing more relaxes good order than misery.",
+    "author": "Herman Melville",
+    "publication": "Benito Cereno",
+    "year": "1855",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/benito-cereno.jpg",
+    "weighted_tags": [
+      {
+        "tag": "misery",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/178629.Benito_Cereno",
+    "id": "quote_0921",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We are entering the age of the infinite examination and of compulsory objectification.",
+    "author": "Michel Foucault",
+    "publication": "Discipline and Punish: The Birth of the Prison",
+    "year": "1975",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/discipline-and-punish-the-birth-of-the-prison.jpg",
+    "weighted_tags": [
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/80369.Discipline_and_Punish",
+    "id": "quote_0922",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...despair and time eat away the bonds of iron and steel, but they are powerless against the habitual union of ideas...",
+    "author": "Michel Foucault",
+    "publication": "Discipline and Punish: The Birth of the Prison",
+    "year": "1975",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/discipline-and-punish-the-birth-of-the-prison.jpg",
+    "weighted_tags": [
+      {
+        "tag": "despair",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/80369.Discipline_and_Punish",
+    "id": "quote_0923",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Hitherto it is questionable if all the mechanical inventions yet made have lightened the day’s toil of any human being.",
+    "author": "John Stuart Mill",
+    "publication": "Principles of Political Economy",
+    "year": "1848",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/principles-of-political-economy.jpg",
+    "weighted_tags": [
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "machines",
+        "weight": 1
+      },
+      {
+        "tag": "work",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/841158.Principles_of_Political_Economy",
+    "id": "quote_0924",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The instinct to perpetuate useless work is, at bottom, simply fear of the mob.",
+    "author": "George Orwell",
+    "publication": "Down and Out in Paris and London",
+    "year": "1933",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/down-and-out-in-paris-and-london.jpg",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/7802296-homage-to-catalonia-down-and-out-in-paris-and-london",
+    "id": "quote_0925",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I regard it as stupid to be anti-technology. That would be something like being anti-food. We need technology to live, as we need food to live...",
+    "author": "Neil Postman",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "ideology",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0926",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When science and technology claim to provide ethical imperatives, we are led into moral catastrophe.",
+    "author": "Neil Postman",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "morality",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "ideology",
+        "weight": 1
+      },
+      {
+        "tag": "ethics",
+        "weight": 1
+      },
+      {
+        "tag": "catastrophe",
+        "weight": 1
+      },
+      {
+        "tag": "disaster",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0927",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "An old radical adage states that the will to command is not as corrupting as the will to obey.",
+    "author": "Christopher Hitchens",
+    "publication": "Why Orwell Matters",
+    "year": "2002",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/why-orwell-matters.jpg",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "rules",
+        "weight": 1
+      },
+      {
+        "tag": "corruption",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30551.Why_Orwell_Matters",
+    "id": "quote_0928",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Political language... is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.",
+    "author": "George Orwell",
+    "publication": "Why Orwell Matters",
+    "year": "2002",
+    "isbn": null,
+    "book_author": "Christopher Hitchens",
+    "cover_url": "covers/why-orwell-matters.jpg",
+    "weighted_tags": [
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "politics",
+        "weight": 1
+      },
+      {
+        "tag": "corruption",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "respect",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30551.Why_Orwell_Matters",
+    "id": "quote_0929",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The first duty in life is to be as artificial as possible. What the second duty is no one has as yet discovered.",
+    "author": "Oscar Wilde",
+    "publication": "Shorter Prose Pieces",
+    "year": "1999",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/short-prose-pieces.jpg",
+    "weighted_tags": [
+      {
+        "tag": "duty",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11492588-shorter-prose-pieces",
+    "id": "quote_0930",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Pleasure is the only thing one should live for. Nothing ages like happiness.",
+    "author": "Oscar Wilde",
+    "publication": "Shorter Prose Pieces",
+    "year": "1999",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/short-prose-pieces.jpg",
+    "weighted_tags": [
+      {
+        "tag": "pleasure",
+        "weight": 1
+      },
+      {
+        "tag": "happiness",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "ageing",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11492588-shorter-prose-pieces",
+    "id": "quote_0931",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Ambition is the last refuge of the failure.",
+    "author": "Oscar Wilde",
+    "publication": "Shorter Prose Pieces",
+    "year": "1999",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/short-prose-pieces.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ambition",
+        "weight": 1
+      },
+      {
+        "tag": "failure",
+        "weight": 1
+      },
+      {
+        "tag": "work",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11492588-shorter-prose-pieces",
+    "id": "quote_0932",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One should either be a work of art, or wear a work of art.",
+    "author": "Oscar Wilde",
+    "publication": "Shorter Prose Pieces",
+    "year": "1999",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/short-prose-pieces.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "fashion",
+        "weight": 1
+      },
+      {
+        "tag": "style",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11492588-shorter-prose-pieces",
+    "id": "quote_0933",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
