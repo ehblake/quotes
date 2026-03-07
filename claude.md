@@ -89,9 +89,9 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - **Drift tags**: Arrow up goes to previous tag (shown above), arrow down goes to related tag (shown below). Click/tap on drift tag labels also works.
 - **Edit modal**: Localhost-only editing (quote, author, book, tags, Goodreads URL, cover upload/remove/keep-web-cover, delete)
 - **Add quote**: ADD link (top-right, next to EDIT) to add new quotes with all fields (localhost only). Auto-fills year and Goodreads URL when publication matches existing book.
-- **Search**: Search quotes by text, author, or publication (top-left bar next to count)
+- **Search**: Search quotes by text, author, or publication (top-left bar next to TOPICS link)
 - **Goodreads links**: Click book block to open book's Goodreads page in new tab. URLs stored as `goodreads_url` field in quotes.json.
-- **Tag index**: Press 'A' to view all tags alphabetically in a 3-column modal, click any tag to navigate to quotes with that tag
+- **Tag index**: Pink "TOPICS" link (top-left) or press 'A' to view all topics alphabetically in a 3-column modal, click any tag to navigate to quotes with that tag
 
 ### Two Deployments
 - `site/index.html` - Local development (has edit features via `isLocalhost` check)
@@ -134,7 +134,64 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Mar 5 2026) - Book Detail Modal, Book Bag Feature, Wikipedia Descriptions & Bug Fixes
+### Last Session (Mar 6 2026) - Favicon, New Quotes, Double Quotes Display
+
+- **Added favicon** (quote mark logo):
+  - SVG source from user's design: two stylized quote marks (pink `#FF0064` left, black right) — also read as mirrored "e" letters
+  - Generated `favicon.svg`, `favicon.ico` (16/32/48px multi-size), `favicon-16x16.png`, `favicon-32x32.png`, `favicon-512.png`, `apple-touch-icon.png` (180px)
+  - Added `<link>` tags to both `site/index.html` and `docs/index.html`
+  - PNG generation via Python Pillow (rasterized SVG bezier paths manually)
+
+- **Changed quote display to double curly quotes**:
+  - `\u2018`/`\u2019` (single) → `\u201C`/`\u201D` (double) in `renderPanel()` line ~2706
+  - Applied to both `site/index.html` and `docs/index.html`
+
+- **Added 29 new quotes** (quote_0905–0933):
+  - Paul Arden's *It's Not How Good You Are...* (Cleese, Ives, Camus, Andretti + others)
+  - Foucault's *Discipline and Punish* (×2)
+  - Neil Postman's *Building a Bridge to the 18th Century* (McLuhan, Postman ×2)
+  - Hitchens' *Why Orwell Matters* (Hitchens, Orwell)
+  - Oscar Wilde's *Shorter Prose Pieces* (×4)
+  - Melville *Benito Cereno*, Mill *Principles of Political Economy*, Orwell *Down and Out*, Watson *Bendable Learnings* (Madoff), *The Second Machine Age*
+
+- **10 new cover images**: bendable-learnings, benito-cereno, discipline-and-punish-the-birth-of-the-prison, its-not-how-good-you-are-its-how-good-you-want-to-, principles-of-political-economy, sand-talk, short-prose-pieces, the-road-to-serfdom, this-boys-life, why-orwell-matters
+
+- **Tag cleanup** on existing quotes: removed low-relevance tags from Cioran (*A Short History of Decay*), Dostoevsky (*The Gambler*), Poundstone (*Fortune's Formula*). Added "speaking" tag to Dostoevsky.
+
+- **Fixed stray opening `"` in Vonnegut quote** about museums (*If This Isn't Nice, What Is?*)
+
+- **Total quotes**: ~875
+- **Primary tags**: 209
+
+### Previous Session (Mar 5 2026) - TOPICS Link, Tag Cleanup & New Quotes
+
+- **Replaced counter with TOPICS link**:
+  - Removed `001 / 846` counter from top-left
+  - Added pink "TOPICS" link in its place, styled to match ADD/EDIT admin links (`#FF0064`, uppercase, `0.1em` letter-spacing, opacity hover)
+  - Clicking TOPICS toggles the tag index overlay (same as pressing 'A')
+  - Renamed tag index title from "All Tags" to "All Topics"
+
+- **Tag cleanup — 11 tags merged/renamed** (219 → 209 primary tags):
+  - Renamed: good → goodness
+  - Merged into existing: stories → storytelling, narrative → storytelling, the end → death, doing → making, living → life, humans → humankind, end times → doom, eschatology → doom, speaking → talking, satisfaction → pleasure
+  - Updated `ALLOWED_PRIMARY_TAGS` and `MANUAL_CONNECTIONS` in `build_tag_connections.py`
+  - Rebuilt `tag_connections.json`
+
+- **Added 25 new quotes** (quote_0880–0904):
+  - Roling, Theroux, Balzac, Kahneman, Tolstoy, King, Alexievich ×3, Illich, Turgenev, Sartre, Mander ×2, Reagan, Berger ×3, Conrad, Huysmans ×2, Vonnegut ×3, Carroll
+  - 8 new cover images: a-fortunate-man, against-nature, alice's-adventures, disabling-professions, on-writing, secondhand-time, sketches-from-a-hunters-album, the-kreutzer-sonata
+  - 3 Vonnegut quotes have no covers
+
+- **Fixed 3 typos**: "behinds" → "behind" (Roling), "vertiable" → "veritable" (Balzac), pipe char → "I" (Sartre)
+
+- **Mobile spacing**: Bumped back-to-canvas icon down 10px (`top: 50px` → `60px`) for more room below TOPICS link
+
+- **Fixed book author** for Vaneigem's Revolution of Everyday Life (added `book_author` field)
+
+- **Total quotes**: 846
+- **Primary tags**: 209
+
+### Previous Session (Mar 5 2026) - Book Detail Modal, Book Bag Feature, Wikipedia Descriptions & Bug Fixes
 
 - **Branch strategy**: Created `book-modal` branch from main, implemented all features, then fast-forward merged to main. Pre-book-bag rollback point: commit `fff8dcb` on main.
 
@@ -182,7 +239,7 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - **Key z-index layering**: status messages (300) > book bag badge (250) > modals/overlays (200)
 
 - **Files modified**: `docs/index.html` (CSS + HTML + JS), `site/index.html` (mirror copy), `site/server.py` (covers fallback), `site/covers` (symlink)
-- **Total quotes**: 792
+- **Total quotes**: 846
 - **Commits**: `2388979` (main feature), plus bug fix commit (pending)
 
 ### Previous Session (Mar 3 2026) - UI Overhaul, Goodreads Integration, Mona Matching & Goodreads URL Validation

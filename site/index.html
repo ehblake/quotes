@@ -3687,8 +3687,10 @@
       if (match) {
         const yearField = document.getElementById('edit-year');
         const grField = document.getElementById('edit-goodreads-url');
+        const bookAuthorField = document.getElementById('edit-book-author');
         if (!yearField.value.trim() && match.year) yearField.value = match.year;
         if (!grField.value.trim() && match.goodreads_url) grField.value = match.goodreads_url;
+        if (!bookAuthorField.value.trim() && (match.book_author || match.author)) bookAuthorField.value = match.book_author || match.author;
       }
     }
 
@@ -4160,7 +4162,7 @@
       'The Story of Utopias': 'Leather Binding on Spine and Corners with Golden leaf printing on spine.  This book is printed in black & white, Sewing binding for longer life, where the book block is actually sewn (smythe sewn/section sewn) with thread before binding which results in a more durable type of binding.',
       'The Summer of Our Discontent': 'An incisive, culturally observant analysis of the evolving mores, manners and taboos of social justice (“anti-racist”) orthodoxy, which has profoundly influenced how we think about diversity and freedom of expression, often with complex or paradoxical consequences.   In this provocative book, Thomas Chatterton Williams, one of the most revered and reviled social commentators of our time, paints a clear and detailed picture of the ideas and events that have paved the way for the dramatic paradigm shift in social justice that has taken place over the past few years.',
       'The Undiscovered Self': 'Together for the first time in one paperback volume are two of Jung\'s major late works, in the version published in The Collected Works of C. G.',
-      'The World As I See It': 'A captivating collection of essays that offers a glimpse into the mind of one of the greatest scientific geniuses in history.  In this thought-provoking book, Einstein shares his perspectives on various topics, ranging from science and philosophy to politics and ethics, providing readers with valuable insights into his worldview.',
+      'Ideas and Opinions': 'A collection of essays, speeches, and letters by Albert Einstein on subjects ranging from atomic energy, relativity, and religion to human rights, government, and economics. Previously published articles, speeches, and letters are gathered here to create a fascinating collection of meditations by one of the world\'s greatest minds.',
       'The Zurau Aphorisms of Franz Kafka': 'The Zürau Aphorisms (German: Die Zürauer Aphorismen) are 109 aphorisms of Franz Kafka, written from September 1917 to April 1918 and published by his friend Max Brod in 1931, after his death, in the 1931 collection The Great Wall of China.',
       'Theatre of the World': 'Theatre of the World engages, and rejects, the widely held notion that ancient and contemporary works of art are inherently different. Theatre of the World is a kaleidoscope: here the viewer sees the object, and that is enough.',
       'Think Little': 'First published in 1972, “Think Little” is cultural critic and agrarian Wendell Berry at his prescient about the dire environmental consequences of our mentality of greed and exploitation, yet hopeful that we will recognize war and oppression and pollution not as separate issues, but aspects of the same.  “Think Little” is presented here alongside one of Berry’s most popular and personal essays, “A Native Hill.',
@@ -4171,6 +4173,7 @@
       'Utzon and the Sydney Opera House': 'Jørn Utzon designed the Sydney Opera House so that every element would be in harmony.  But its construction, while it began in just that way, ended in complete discord.',
       'Varieties of Presence': 'The world shows up for us--it is present in our thought and perception.  But, as Alva Noë contends in his latest exploration of the problem of consciousness, it doesn\'t show up for free.',
       'Very Best of Nina Simone, Vol 2': 'The second volume of lyrics by Nina Simone.',
+      'Wanderlust': 'This volume provides a history of walking, exploring the relationship between thinking and walking and between walking and culture. The author argues for the preservation of the time and space in which to walk in an ever more car-dependent and accelerated world.',
       'Walsh Street': 'Examination of the facts surrounding the murders of two young policemen in Walsh Street, South Yarra, Melbourne in October 1988.  Written by the ex-chief crime reporter with the \'The Age\', it provides details of the two-and-a-half-year investigation, trial and subsequent acquittal of the four men charged.',
       'We Have Been Harmonized: Life in China\'s Surveillance State': 'One of the world’s most respected investigative reporters reveals how George Orwell’s chilling vision of authoritarianism in 1984 has come true in modern China’s high-tech surveillance state.   They are always watching.',
       'What\'s Wrong with the World': 'In the aptly titled treatise What\'s Wrong With the World , one of the twentieth century\'s most memorable and prolific writers takes on education, government, big business, feminism, and a host of other topics. A steadfast champion of the working man, family, and faith, Chesterton eloquently opposed materialism, snobbery, hypocrisy, and any adversary of freedom and simplicity in modern society.',

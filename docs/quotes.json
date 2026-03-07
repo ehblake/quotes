@@ -655,14 +655,14 @@
     "id": "quote_0013",
     "source_image": "albert-einstein-04.png",
     "filename_stem": "albert-einstein-04",
-    "quote": "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science.",
+    "quote": "The most beautiful experience we can have is the mysterious. It is the fundamental emotion which stands at the cradle of true art and true science.",
     "author": "Albert Einstein",
-    "year": "1931",
-    "publication": "The World As I See It",
+    "year": "1922",
+    "publication": "Ideas and Opinions",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "cover_url": "covers/the-world-as-i-see-it.jpg",
+    "cover_url": "covers/ideas-and-opinions.jpg",
     "_flickr_id": "54771008239",
     "tags": [
       "quote",
@@ -695,57 +695,23 @@
         "relevance": 0.5333
       },
       {
-        "tag": "uncertainty",
-        "weight": 0.3866,
-        "corpus_score": 0.5721,
-        "relevance": 0.5111
-      },
-      {
         "tag": "wonder",
         "weight": 0.3842,
         "corpus_score": 0.5905,
         "relevance": 0.5
       },
       {
-        "tag": "doubt",
-        "weight": 0.3782,
-        "corpus_score": 0.5721,
-        "relevance": 0.5
-      },
-      {
-        "tag": "mysterious",
-        "weight": 0.3773,
-        "corpus_score": 0.1596,
-        "relevance": 0.9444
+        "tag": "mystery",
+        "weight": 1
       },
       {
         "tag": "the unknown",
-        "weight": 0.3347,
-        "corpus_score": 0.448,
-        "relevance": 0.5
-      },
-      {
-        "tag": "beauty",
-        "weight": 0.3211,
-        "corpus_score": 0.4125,
-        "relevance": 0.5
-      },
-      {
-        "tag": "mystery",
-        "weight": 0.2825,
-        "corpus_score": 0.3191,
-        "relevance": 0.5
-      },
-      {
-        "tag": "albert einstein",
-        "weight": 0.1309,
-        "corpus_score": 0.1596,
-        "relevance": 0.3278
+        "weight": 1
       }
     ],
     "isbn": null,
-    "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/52383760-the-world-as-i-see-it"
+    "book_author": "Albert Einstein",
+    "goodreads_url": "https://www.goodreads.com/book/show/497195.Ideas_and_Opinions"
   },
   {
     "id": "quote_0014",
@@ -31261,18 +31227,6 @@
         "weight": 0.2352,
         "corpus_score": 0.1596,
         "relevance": 0.5889
-      },
-      {
-        "tag": "safety",
-        "weight": 0.2042,
-        "corpus_score": 0.1596,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "rebecca solnit",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/78287.Wanderlust",
@@ -41280,7 +41234,7 @@
     "goodreads_url": "https://www.goodreads.com/book/show/217215449"
   },
   {
-    "quote": "Children of the future Age\nReading this indignant page, \nKnow that in a former time\nLove! sweet Love! was thought a crime.",
+    "quote": "Children of the future Age / Reading this indignant page, / Know that in a former time / Love! sweet Love! was thought a crime.",
     "author": "William Blake",
     "publication": "Songs of Innocence and of Experience",
     "year": "1794",
@@ -41314,7 +41268,7 @@
       }
     ],
     "id": "quote_0601",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "goodreads_url": "https://www.goodreads.com/book/show/272104.York_Notes_on_Songs_Of_Innocence_And_Of_Experience"
@@ -53665,6 +53619,826 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/11492588-shorter-prose-pieces",
     "id": "quote_0933",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "An imbalance between rich and poor is the oldest and most fatal ailment of all republics.",
+    "author": "Plutarch",
+    "publication": "The Second Machine Age",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Erik Brynjolfsson & Andrew McAfee",
+    "cover_url": "covers/the-second-machine-age.jpg",
+    "weighted_tags": [
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "collapse",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23316526-the-second-machine-age",
+    "id": "quote_0934",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Question-asking is the most significant intellectual tool human beings have. Is it not curious it is not taught in schools?",
+    "author": "Neil Postman",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": "Neil Postman",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "questions",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0935",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...how alien, alas, are the streets of the city of grief.",
+    "author": "Rainer Maria Rilke",
+    "publication": "The Demon-Haunted World",
+    "year": "1996",
+    "isbn": "9788416771486",
+    "book_author": "Carl Sagan",
+    "cover_url": "covers/the-demon-haunted-world.jpg",
+    "weighted_tags": [
+      {
+        "tag": "grief",
+        "weight": 1
+      },
+      {
+        "tag": "sadness",
+        "weight": 1
+      },
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "streets",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/17349.The_Demon_Haunted_World",
+    "id": "quote_0936",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s the unpredictable incidents between official events that add up to a life, the incalculable that gives it value.",
+    "author": "Rebecca Solnit",
+    "publication": "Wanderlust",
+    "year": "2000",
+    "isbn": "9788418197253",
+    "book_author": "Rebecca Solnit",
+    "cover_url": "covers/wanderlust.jpg",
+    "weighted_tags": [
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "serendipity",
+        "weight": 1
+      },
+      {
+        "tag": "events",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/78287.Wanderlust",
+    "id": "quote_0937",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The past is set in daylight, and it can become a torch we can carry into the night that is the future.",
+    "author": "Rebecca Solnit",
+    "publication": "Hope in the Dark",
+    "year": "2004",
+    "isbn": null,
+    "book_author": "Rebecca Solnit",
+    "cover_url": "covers/hope-in-the-dark.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/28048.Hope_in_the_Dark",
+    "id": "quote_0938",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.",
+    "author": "Sir Arthur Conan Doyle",
+    "publication": "The Adventures of Sherlock Holmes",
+    "year": "1891",
+    "isbn": null,
+    "book_author": "Sir Arthur Conan Doyle",
+    "cover_url": "covers/the-adventures-of-sherlock-holmes.jpg",
+    "weighted_tags": [
+      {
+        "tag": "data",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "assumptions",
+        "weight": 1
+      },
+      {
+        "tag": "facts",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes",
+    "id": "quote_0939",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If you can’t solve a problem, then there is an easier problem you can solve: find it.",
+    "author": "George Pólya",
+    "publication": "How to Solve It",
+    "year": "1945",
+    "isbn": null,
+    "book_author": "George Pólya",
+    "cover_url": "covers/how-to-solve-it.jpg",
+    "weighted_tags": [
+      {
+        "tag": "problem solving",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "solutions",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/192221.How_to_Solve_It",
+    "id": "quote_0940",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Life is no white ship with snow-white sails. It’s all a pile of chocolate-covered shit.",
+    "author": "Svetlana Alexievich",
+    "publication": "Secondhand Time: The Last of the Soviets",
+    "year": "2013",
+    "isbn": null,
+    "book_author": "Svetlana Alexievich",
+    "cover_url": "covers/secondhand-time-the-last-of-the-soviets.jpg",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "pain",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30200112-secondhand-time",
+    "id": "quote_0941",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The first condition of freedom is its limitation; make it absolute and it dies in chaos.",
+    "author": "Will & Ariel Durant",
+    "publication": "The Lessons of History",
+    "year": "1968",
+    "isbn": "9788418741524",
+    "book_author": "Will & Ariel Durant",
+    "cover_url": "covers/the-lessons-of-history.jpg",
+    "weighted_tags": [
+      {
+        "tag": "freedom",
+        "weight": 1
+      },
+      {
+        "tag": "limitations",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      },
+      {
+        "tag": "limits",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/174713.The_Lessons_of_History",
+    "id": "quote_0942",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Violent revolutions do not so much redistribute wealth as destroy it.",
+    "author": "Will & Ariel Durant",
+    "publication": "The Lessons of History",
+    "year": "1968",
+    "isbn": "9788418741524",
+    "book_author": "Will & Ariel Durant",
+    "cover_url": "covers/the-lessons-of-history.jpg",
+    "weighted_tags": [
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/174713.The_Lessons_of_History",
+    "id": "quote_0943",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...science is neutral: it will kill for us as readily as it will heal, and will destroy for us more readily than it can build.",
+    "author": "Will & Ariel Durant",
+    "publication": "The Lessons of History",
+    "year": "1968",
+    "isbn": "9788418741524",
+    "book_author": "Will & Ariel Durant",
+    "cover_url": "covers/the-lessons-of-history.jpg",
+    "weighted_tags": [
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "destruction",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/174713.The_Lessons_of_History",
+    "id": "quote_0944",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Out of every hundred new ideas ninety-nine or more will probably be inferior to the traditional responses which they propose to replace.",
+    "author": "Will & Ariel Durant",
+    "publication": "The Lessons of History",
+    "year": "1968",
+    "isbn": "9788418741524",
+    "book_author": "Will & Ariel Durant",
+    "cover_url": "covers/the-lessons-of-history.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "invention",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "the new",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/174713.The_Lessons_of_History",
+    "id": "quote_0945",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...far more, and far more hideous, crimes have been committed in the name of obedience than have ever been committed in the name of rebellion.",
+    "author": "C. P. Snow",
+    "publication": "The Third Wave",
+    "year": "1980",
+    "isbn": null,
+    "book_author": "Alvin Toffler",
+    "cover_url": "covers/the-third-wave.jpg",
+    "weighted_tags": [
+      {
+        "tag": "rebellion",
+        "weight": 1
+      },
+      {
+        "tag": "conformity",
+        "weight": 1
+      },
+      {
+        "tag": "rules",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "order",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/139508663-the-third-wave-by-alvin-toffler",
+    "id": "quote_0946",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To ask larger questions is to risk getting things wrong. Not to ask them at all is to constrain the life of understanding.",
+    "author": "George Steiner",
+    "publication": "The Third Wave",
+    "year": "1980",
+    "isbn": null,
+    "book_author": "Alvin Toffler",
+    "cover_url": "covers/the-third-wave.jpg",
+    "weighted_tags": [
+      {
+        "tag": "questions",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "risk",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/139508663-the-third-wave-by-alvin-toffler",
+    "id": "quote_0947",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "One way to cut through the murk is to look beyond the individual technologies and policies to the principles underlying them.",
+    "author": "Alvin Toffler",
+    "publication": "The Third Wave",
+    "year": "1980",
+    "isbn": null,
+    "book_author": "Alvin Toffler",
+    "cover_url": "covers/the-third-wave.jpg",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "principles",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/139508663-the-third-wave-by-alvin-toffler",
+    "id": "quote_0948",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We cannot transform all our media of communication and expect to remain unchanged as a people.",
+    "author": "Alvin Toffler",
+    "publication": "The Third Wave",
+    "year": "1980",
+    "isbn": null,
+    "book_author": "Alvin Toffler",
+    "cover_url": "covers/the-third-wave.jpg",
+    "weighted_tags": [
+      {
+        "tag": "revolution",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/139508663-the-third-wave-by-alvin-toffler",
+    "id": "quote_0949",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Intuition is nothing more and nothing less than recognition.",
+    "author": "Herbert Simon",
+    "publication": "Thinking Fast and Slow",
+    "year": "2011",
+    "isbn": null,
+    "book_author": "Daniel Kahneman",
+    "cover_url": "covers/thinking-fast-and-slow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "intuition",
+        "weight": 1
+      },
+      {
+        "tag": "recognition",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "id": "quote_0950",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.",
+    "author": "Daniel Kahneman",
+    "publication": "Thinking Fast and Slow",
+    "year": "2011",
+    "isbn": null,
+    "book_author": "Daniel Kahneman",
+    "cover_url": "covers/thinking-fast-and-slow.jpg",
+    "weighted_tags": [
+      {
+        "tag": "questions",
+        "weight": 1
+      },
+      {
+        "tag": "problem solving",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "id": "quote_0951",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Fear of things invisible is the natural seed of that which every one in himself calleth religion.",
+    "author": "Thomas Hobbes",
+    "publication": "Leviathan",
+    "year": "1651",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/leviathan.jpg",
+    "weighted_tags": [
+      {
+        "tag": "religion",
+        "weight": 1
+      },
+      {
+        "tag": "fear",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/91953.Leviathan",
+    "id": "quote_0952",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "By its nature, the Internet can have no interest in distinguishing between the true from the false. It is not a ’truth’ medium; it is an information medium.",
+    "author": "Neil Postman",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": "Neil Postman",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "information",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0953",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "My mother groan’d! my father wept. / Into the dangerous world I leapt: / Helpless, naked, piping loud, / Like a fiend hid in a cloud.",
+    "author": "William Blake",
+    "publication": "Songs of Innocence and of Experience",
+    "year": "1803",
+    "isbn": null,
+    "book_author": "William Blake",
+    "cover_url": "covers/songs-of-innocence-and-of-experience.jpg",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "birth",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "danger",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/272104.York_Notes_on_Songs_Of_Innocence_And_Of_Experience",
+    "id": "quote_0954",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Knowledge cannot judge itself. Knowledge must be judged by other knowledge, and therein lies the essence of wisdom.",
+    "author": "Neil Postman",
+    "publication": "Building a Bridge to the 18th century",
+    "year": "2000",
+    "isbn": null,
+    "book_author": "Neil Postman",
+    "cover_url": "covers/building-a-bridge-to-the-18th-century.png",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      },
+      {
+        "tag": "judgement",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/248240378-building-a-bridge-to-the-18th-century-by-postman-neil",
+    "id": "quote_0955",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...history does not turn back; life is rich in materials, and never needs old clothes.",
+    "author": "Alexander Herzen",
+    "publication": "My Past and Thoughts",
+    "year": "1870",
+    "isbn": "0394483081",
+    "book_author": "Alexander Herzen",
+    "cover_url": "covers/0394483081.jpg",
+    "weighted_tags": [
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/6655957",
+    "id": "quote_0956",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I’m a pedestrian, nothing more.",
+    "author": "Arthur Rimbaud",
+    "publication": "A Philosophy of Walking",
+    "year": "2014",
+    "isbn": "9781781682708",
+    "book_author": "Frederic Gros",
+    "cover_url": "covers/a-philosophy-of-walking.jpg",
+    "weighted_tags": [
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "simplicity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/18339944",
+    "id": "quote_0957",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The unconscious speaks to us in images rather than words, and it is simple when compared with the productions of the intellect.",
+    "author": "Bruno Bettelheim",
+    "publication": "The Uses of Enchantment",
+    "year": "1975",
+    "isbn": null,
+    "book_author": "Bruno Bettelheim",
+    "cover_url": "covers/the-uses-of-enchantment.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the unconscious",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "images",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      },
+      {
+        "tag": "the mind",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/444388.The_Uses_of_Enchantment",
+    "id": "quote_0958",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "You can throw out Nature with a pitchfork, but she’ll always turn up again.",
+    "author": "Carl Jung",
+    "publication": "The Undiscovered Self",
+    "year": "1957",
+    "isbn": "9780451626509",
+    "book_author": "Carl Jung",
+    "cover_url": "covers/the-undiscovered-self.jpg",
+    "weighted_tags": [
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "earth",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/123635",
+    "id": "quote_0959",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
