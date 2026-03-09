@@ -919,6 +919,55 @@
       border-color: #FF0064;
     }
 
+    .autocomplete-wrapper {
+      position: relative;
+    }
+
+    .autocomplete-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #222;
+      border: 1px solid #444;
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+      max-height: 240px;
+      overflow-y: auto;
+      z-index: 210;
+      display: none;
+    }
+
+    .autocomplete-list.open {
+      display: block;
+    }
+
+    .autocomplete-item {
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 13px;
+      color: #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .autocomplete-item:hover,
+    .autocomplete-item.active {
+      background: #333;
+      color: #fafafa;
+    }
+
+    .autocomplete-item .ac-count {
+      font-size: 11px;
+      color: #666;
+      font-family: 'DM Mono', monospace;
+    }
+
+    .autocomplete-item.active .ac-count {
+      color: #888;
+    }
+
     .edit-field-row {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1584,7 +1633,10 @@
         </div>
         <div class="edit-field">
           <label>Quote Author</label>
-          <input type="text" id="edit-author">
+          <div class="autocomplete-wrapper">
+            <input type="text" id="edit-author" autocomplete="off">
+            <div class="autocomplete-list" id="ac-author"></div>
+          </div>
         </div>
       </div>
 
@@ -1594,7 +1646,10 @@
         <div class="edit-field-row-3">
           <div class="edit-field">
             <label>Publication / Book Title</label>
-            <input type="text" id="edit-publication" onblur="autoFillBookInfo()">
+            <div class="autocomplete-wrapper">
+              <input type="text" id="edit-publication" autocomplete="off">
+              <div class="autocomplete-list" id="ac-publication"></div>
+            </div>
           </div>
           <div class="edit-field">
             <label>Year</label>
@@ -2846,7 +2901,7 @@
         }, 500);
       }
 
-      // Count - show array position (1-indexed) and total quotes
+      // Count removed - replaced with TOPICS link
       currentIndex = index;
 
       // Render related tags
@@ -3271,6 +3326,7 @@
         // Build publication index and render landing canvas
         buildPublicationIndex();
         console.log(`Built index with ${Object.keys(publicationIndex).length} unique publications with covers`);
+        setupAutocomplete();
         renderLandingCanvas();
         initLandingCanvas();
 
@@ -3678,6 +3734,116 @@
 
       // Show modal
       document.getElementById('edit-modal').classList.add('open');
+    }
+
+    // ── Autocomplete for Author & Publication ──
+
+    function getUniqueAuthors() {
+      const counts = {};
+      quotes.forEach(q => {
+        if (q.author) counts[q.author] = (counts[q.author] || 0) + 1;
+      });
+      return Object.entries(counts).sort((a, b) => b[1] - a[1]); // [name, count] sorted by frequency
+    }
+
+    function getUniquePublications() {
+      const counts = {};
+      quotes.forEach(q => {
+        if (q.publication) counts[q.publication] = (counts[q.publication] || 0) + 1;
+      });
+      return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    }
+
+    function initAutocomplete(inputId, listId, getDataFn, onSelect) {
+      const input = document.getElementById(inputId);
+      const list = document.getElementById(listId);
+      let activeIdx = -1;
+
+      input.addEventListener('input', () => {
+        const val = input.value.trim().toLowerCase();
+        if (val.length < 1) { hideAutocomplete(list); return; }
+        const data = getDataFn();
+        const filtered = data.filter(([name]) => name.toLowerCase().includes(val)).slice(0, 8);
+        if (filtered.length === 0 || (filtered.length === 1 && filtered[0][0].toLowerCase() === val)) {
+          hideAutocomplete(list);
+          return;
+        }
+        activeIdx = -1;
+        showAutocomplete(list, filtered, input, onSelect);
+      });
+
+      input.addEventListener('keydown', (e) => {
+        if (!list.classList.contains('open')) return;
+        const items = list.querySelectorAll('.autocomplete-item');
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          activeIdx = Math.min(activeIdx + 1, items.length - 1);
+          updateActiveItem(items, activeIdx);
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          activeIdx = Math.max(activeIdx - 1, 0);
+          updateActiveItem(items, activeIdx);
+        } else if (e.key === 'Enter' && activeIdx >= 0) {
+          e.preventDefault();
+          const name = items[activeIdx].dataset.value;
+          input.value = name;
+          hideAutocomplete(list);
+          if (onSelect) onSelect(name);
+        } else if (e.key === 'Escape') {
+          hideAutocomplete(list);
+        }
+      });
+
+      // Close on click outside (with delay so item clicks register)
+      input.addEventListener('blur', () => {
+        setTimeout(() => hideAutocomplete(list), 150);
+      });
+    }
+
+    function showAutocomplete(list, items, input, onSelect) {
+      list.innerHTML = items.map(([name, count]) =>
+        `<div class="autocomplete-item" data-value="${name.replace(/"/g, '&quot;')}">
+          <span>${highlightMatch(name, input.value)}</span>
+          <span class="ac-count">${count}</span>
+        </div>`
+      ).join('');
+      list.classList.add('open');
+
+      list.querySelectorAll('.autocomplete-item').forEach(item => {
+        item.addEventListener('mousedown', (e) => {
+          e.preventDefault();
+          input.value = item.dataset.value;
+          hideAutocomplete(list);
+          if (onSelect) onSelect(item.dataset.value);
+        });
+      });
+    }
+
+    function hideAutocomplete(list) {
+      list.classList.remove('open');
+      list.innerHTML = '';
+    }
+
+    function highlightMatch(text, query) {
+      const idx = text.toLowerCase().indexOf(query.trim().toLowerCase());
+      if (idx === -1) return text;
+      const before = text.slice(0, idx);
+      const match = text.slice(idx, idx + query.trim().length);
+      const after = text.slice(idx + query.trim().length);
+      return `${before}<strong style="color:#fafafa">${match}</strong>${after}`;
+    }
+
+    function updateActiveItem(items, idx) {
+      items.forEach((item, i) => item.classList.toggle('active', i === idx));
+      if (items[idx]) items[idx].scrollIntoView({ block: 'nearest' });
+    }
+
+    // Initialize autocompletes after quotes load
+    function setupAutocomplete() {
+      initAutocomplete('edit-author', 'ac-author', getUniqueAuthors);
+      initAutocomplete('edit-publication', 'ac-publication', getUniquePublications, () => {
+        autoFillBookInfo();
+      });
     }
 
     function autoFillBookInfo() {
