@@ -18946,7 +18946,7 @@
     "id": "quote_0279",
     "source_image": "jared-diamond-collapse-04.png",
     "filename_stem": "jared-diamond-collapse-04",
-    "quote": "As one Dominican said to me, “The apocalypse here will not take the form of an earthquake or hurricane, but of a world buried in garbage”.",
+    "quote": "As one Dominican said to me, ‘The apocalypse here will not take the form of an earthquake or hurricane, but of a world buried in garbage’.",
     "author": "Jared Diamond",
     "year": "2004",
     "publication": "Collapse",
@@ -19012,24 +19012,6 @@
         "weight": 0.3265,
         "corpus_score": 0.3705,
         "relevance": 0.5364
-      },
-      {
-        "tag": "rundown",
-        "weight": 0.2606,
-        "corpus_score": 0.2529,
-        "relevance": 0.5182
-      },
-      {
-        "tag": "societal collapse",
-        "weight": 0.2034,
-        "corpus_score": 0.1596,
-        "relevance": 0.5091
-      },
-      {
-        "tag": "jared diamond",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/65034546"
@@ -54439,6 +54421,274 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/123635",
     "id": "quote_0959",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...he had never wanted to take a wife, to be freer, this was positive, to do whatever went on in his head.",
+    "author": "Carlo Emilio Gadda",
+    "publication": "The Experience of Pain",
+    "year": "1963",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-experience-of-pain.jpg",
+    "weighted_tags": [
+      {
+        "tag": "marriage",
+        "weight": 1
+      },
+      {
+        "tag": "freedom",
+        "weight": 1
+      },
+      {
+        "tag": "the brain",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/35783553-the-experience-of-pain?from_search=true&from_srp=true&qid=SwGDsR1jld&rank=2",
+    "id": "quote_0960",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...even a drowning man, if he really wishes it, can be fished from the waves, from the howling night: the social fabric then comes to his rescue...",
+    "author": "Carlo Emilio Gadda",
+    "publication": "The Experience of Pain",
+    "year": "1963",
+    "isbn": null,
+    "book_author": "Carlo Emilio Gadda",
+    "cover_url": "covers/the-experience-of-pain.jpg",
+    "weighted_tags": [
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "nighttime",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/35783553-the-experience-of-pain?from_search=true&from_srp=true&qid=SwGDsR1jld&rank=2",
+    "id": "quote_0961",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...he’s what’s nowadays called crazy, meaning only that he tends to do the opposite of what most people do...",
+    "author": "Christopher Isherwood",
+    "publication": "A Single Man",
+    "year": "1964",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/a-single-man.jpg",
+    "weighted_tags": [
+      {
+        "tag": "crazy",
+        "weight": 1
+      },
+      {
+        "tag": "madness",
+        "weight": 1
+      },
+      {
+        "tag": "conformity",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/16842.A_Single_Man?ref=nav_sb_ss_1_12",
+    "id": "quote_0962",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If everyone were cast in the same mould, there would be no such thing as beauty.",
+    "author": "Charles Darwin",
+    "publication": "The Descent of Man, and Selection in Relation to Sex",
+    "year": "1871",
+    "isbn": null,
+    "book_author": "Charles Darwin",
+    "cover_url": "covers/the-descent-of-man-and-selection-in-relation-to-se.jpg",
+    "weighted_tags": [
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "conformity",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/43667918-the-descent-of-man-and-selection-in-relation-to-sex-by-charles-darwin",
+    "id": "quote_0963",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Great is the power of steady misrepresentation.",
+    "author": "Charles Darwin",
+    "publication": "The Origin of Species",
+    "year": "1872",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-origin-of-species.jpg",
+    "weighted_tags": [
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/22463.The_Origin_of_Species?ref=nav_sb_ss_1_21",
+    "id": "quote_0964",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A culture more and more about seeing eventually perverts the relation of seer and seen.",
+    "author": "David Foster Wallace",
+    "publication": "Both Flesh and Not",
+    "year": "2012",
+    "isbn": null,
+    "book_author": "David Foster Wallace",
+    "cover_url": "covers/both-flesh-and-not.jpg",
+    "weighted_tags": [
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "relationships",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/13528351-both-flesh-and-not",
+    "id": "quote_0965",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...to really try to be informed and literate today is to feel stupid nearly all the time...",
+    "author": "David Foster Wallace",
+    "publication": "Both Flesh and Not",
+    "year": "2012",
+    "isbn": null,
+    "book_author": "David Foster Wallace",
+    "cover_url": "covers/both-flesh-and-not.jpg",
+    "weighted_tags": [
+      {
+        "tag": "information",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/13528351-both-flesh-and-not",
+    "id": "quote_0966",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...whatever our founders and framers thought of as a literate, informed citizenry can no longer exist...",
+    "author": "David Foster Wallace",
+    "publication": "Both Flesh and Not",
+    "year": "2012",
+    "isbn": null,
+    "book_author": "David Foster Wallace",
+    "cover_url": "covers/both-flesh-and-not.jpg",
+    "weighted_tags": [
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "information",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/13528351-both-flesh-and-not",
+    "id": "quote_0967",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
