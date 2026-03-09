@@ -1094,7 +1094,7 @@
     "quote": "The word exotic comes from the Greek, exotikos, meaning “outside,” that is to say, that which is not contained within the city’s walls.",
     "author": "Alberto Manguel",
     "year": "2007",
-    "publication": "City of Words",
+    "publication": "The City of Words",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -7510,7 +7510,7 @@
     "quote": "Contemporary reality is the beta-version of a science fiction dream.",
     "author": "Richard Barbrook",
     "year": "2015",
-    "publication": "Utopia of Rules",
+    "publication": "The Utopia of Rules",
     "notes": "The author is Richard Barbrook despite the filename hinting David Graeber.",
     "confidence": 0.95,
     "needs_review": false,
@@ -7574,7 +7574,7 @@
     "quote": "...the very weight of the apparatus created to ensure the ideological victory of capitalism will itself ultimately sink it.",
     "author": "David Graeber",
     "year": "2015",
-    "publication": "Utopia of Rules",
+    "publication": "The Utopia of Rules",
     "notes": "Quote begins mid-sentence, possibly obscured context.",
     "confidence": 0.9,
     "needs_review": false,
@@ -7649,7 +7649,8 @@
         "relevance": 0.51
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules"
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules",
+    "book_author": "David Graeber"
   },
   {
     "id": "quote_0110",
@@ -11377,7 +11378,7 @@
     "quote": "It is precisely reading which helps me to recover from my seriousness.",
     "author": "Friedrich Nietzsche",
     "year": "1888",
-    "publication": "Why I am so Wise",
+    "publication": "Why I am so wise",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -44616,7 +44617,7 @@
   {
     "quote": "...things that come with little help from luck are more resistant to randomness.",
     "author": "Nassim Nicholas Taleb",
-    "publication": "Fooled By Randomness",
+    "publication": "Fooled by Randomness",
     "year": "2001",
     "isbn": null,
     "book_author": null,
@@ -49776,7 +49777,7 @@
   {
     "quote": "The ability to think without claiming, or even seeking, to fully understand is key to survival in a new dark age because... it is often impossible to understand.",
     "author": "James Bridle",
-    "publication": "New Dark Age",
+    "publication": "The New Dark Age",
     "year": "2018",
     "isbn": null,
     "book_author": null,
@@ -52540,7 +52541,7 @@
   {
     "quote": "The rules only take us so far, even good rules.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
@@ -52568,7 +52569,7 @@
   {
     "quote": "The truth is, we know so little about life, we don’t really know what the good news is and what the bad news is.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
@@ -52600,7 +52601,7 @@
   {
     "quote": "I am one of America’s Great Lakes people, her freshwater people, not an oceanic but a continental people.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
@@ -52996,7 +52997,7 @@
   {
     "quote": "The arts are not a way to make a living. They are a very human way of making life more bearable.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
@@ -54491,7 +54492,7 @@
   },
   {
     "quote": "...he’s what’s nowadays called crazy, meaning only that he tends to do the opposite of what most people do...",
-    "author": "Christopher Isherwood",
+    "author": "Christopher Ishwerwood",
     "publication": "A Single Man",
     "year": "1964",
     "isbn": null,
@@ -54690,6 +54691,34 @@
     "goodreads_url": "https://www.goodreads.com/book/show/13528351-both-flesh-and-not",
     "id": "quote_0967",
     "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Change, revolutionary change, is going on constantly and everywhere and everyone plays a part in it, consciously or not.",
+    "author": "David Graeber",
+    "publication": "The Utopia of Rules",
+    "year": "2015",
+    "isbn": "9786051850078",
+    "book_author": "David Graeber",
+    "cover_url": "covers/9786051850078.jpg",
+    "weighted_tags": [
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/22245334-the-utopia-of-rules",
+    "id": "quote_0968",
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   }
