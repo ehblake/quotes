@@ -54809,5 +54809,169 @@
         "confidence": 1.0,
         "needs_review": false,
         "notes": ""
+    },
+    {
+        "quote": "Above all, don’t lie to yourself. The man who lies to himself... cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others.",
+        "author": "Fyodor Dostoevsky",
+        "publication": "The Brothers Karamazov",
+        "year": "1880",
+        "isbn": "9798457106185",
+        "book_author": "Fyodor Dostoyevsky",
+        "cover_url": "covers/the-brothers-karamazov.jpg",
+        "weighted_tags": [
+            {
+                "tag": "lies",
+                "weight": 1
+            },
+            {
+                "tag": "liars",
+                "weight": 1
+            },
+            {
+                "tag": "respect",
+                "weight": 1
+            },
+            {
+                "tag": "truth",
+                "weight": 1
+            },
+            {
+                "tag": "falsehood",
+                "weight": 1
+            }
+        ],
+        "goodreads_url": "https://www.goodreads.com/book/show/4934.The_Brothers_Karamazov",
+        "id": "quote_0972",
+        "confidence": 1.0,
+        "needs_review": false,
+        "notes": ""
+    },
+    {
+        "quote": "...we do think in language. And so the quality of our thoughts and ideas can only be as good as the quality of our language.",
+        "author": "George Carlin",
+        "publication": "Doin' It Again",
+        "year": "1990",
+        "isbn": null,
+        "book_author": null,
+        "cover_url": "covers/doin-it-again.jpg",
+        "weighted_tags": [
+            {
+                "tag": "words",
+                "weight": 1
+            },
+            {
+                "tag": "language",
+                "weight": 1
+            },
+            {
+                "tag": "ideas",
+                "weight": 1
+            },
+            {
+                "tag": "understanding",
+                "weight": 1
+            }
+        ],
+        "goodreads_url": "https://www.imdb.com/title/tt0246642",
+        "id": "quote_0973",
+        "confidence": 1.0,
+        "needs_review": false,
+        "notes": ""
+    },
+    {
+        "quote": "Americans have trouble facing the truth. So they invent a soft language to protect themselves from it. And it gets worse with every generation.",
+        "author": "George Carlin",
+        "publication": "Doin' It Again",
+        "year": "1990",
+        "isbn": null,
+        "book_author": "George Carlin",
+        "cover_url": "covers/doin-it-again.jpg",
+        "weighted_tags": [
+            {
+                "tag": "language",
+                "weight": 1
+            },
+            {
+                "tag": "reality",
+                "weight": 1
+            },
+            {
+                "tag": "truth",
+                "weight": 1
+            },
+            {
+                "tag": "words",
+                "weight": 1
+            }
+        ],
+        "goodreads_url": "https://www.imdb.com/title/tt0246642",
+        "id": "quote_0974",
+        "confidence": 1,
+        "needs_review": false,
+        "notes": ""
+    },
+    {
+        "quote": "...a director may fall into one of the deepest pits by rushing immediately to visual or pictorial solutions.",
+        "author": "Georgy Tovstonogov",
+        "publication": "On Directing Film",
+        "year": "1991",
+        "isbn": "9780670830336",
+        "book_author": "David Mamet",
+        "cover_url": "covers/9780670830336.jpg",
+        "weighted_tags": [
+            {
+                "tag": "design",
+                "weight": 1
+            },
+            {
+                "tag": "images",
+                "weight": 1
+            },
+            {
+                "tag": "creativity",
+                "weight": 1
+            },
+            {
+                "tag": "problem solving",
+                "weight": 1
+            }
+        ],
+        "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+        "id": "quote_0975",
+        "confidence": 1.0,
+        "needs_review": false,
+        "notes": ""
+    },
+    {
+        "quote": "In this world everything is so much a stage-set that even the coarsest ignorance has achieved an appearance of education.",
+        "author": "Alexander Herzen",
+        "publication": "My Past and Thoughts",
+        "year": "1870",
+        "isbn": "0394483081",
+        "book_author": null,
+        "cover_url": "covers/0394483081.jpg",
+        "weighted_tags": [
+            {
+                "tag": "ignorance",
+                "weight": 1
+            },
+            {
+                "tag": "education",
+                "weight": 1
+            },
+            {
+                "tag": "appearances",
+                "weight": 1
+            },
+            {
+                "tag": "society",
+                "weight": 1
+            }
+        ],
+        "goodreads_url": "https://www.goodreads.com/book/show/6655957",
+        "id": "quote_0976",
+        "confidence": 1.0,
+        "needs_review": false,
+        "notes": ""
     }
 ]
