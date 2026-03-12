@@ -10082,7 +10082,7 @@
         "publisher": "Free Press",
         "open_library_key": "/works/OL154567W",
         "catalog_notes": "Found ISBN: 9780029024508",
-        "cover_url": "covers/escape-from-evil.png",
+        "cover_url": "covers/escape-from-evil.jpg",
         "_flickr_id": "52398800800",
         "_match_score": 180,
         "tags": [
@@ -19227,7 +19227,7 @@
         "notes": "",
         "confidence": 1,
         "needs_review": false,
-        "cover_url": "covers/escape-from-evil.png",
+        "cover_url": "covers/escape-from-evil.jpg",
         "_flickr_id": "52398800860",
         "tags": [
             "quote",
@@ -49133,7 +49133,7 @@
         "year": "1975",
         "isbn": "9780029024508",
         "book_author": "Ernest Becker",
-        "cover_url": "covers/escape-from-evil.png",
+        "cover_url": "covers/escape-from-evil.jpg",
         "weighted_tags": [
             {
                 "tag": "learning",
@@ -49193,7 +49193,7 @@
         "year": "1975",
         "isbn": "9780029024508",
         "book_author": "Ernest Becker",
-        "cover_url": "covers/escape-from-evil.png",
+        "cover_url": "covers/escape-from-evil.jpg",
         "weighted_tags": [
             {
                 "tag": "death",
@@ -49365,7 +49365,7 @@
         "year": "1975",
         "isbn": "9780029024508",
         "book_author": "Ernest Becker",
-        "cover_url": "covers/escape-from-evil.png",
+        "cover_url": "covers/escape-from-evil.jpg",
         "weighted_tags": [
             {
                 "tag": "failure",
