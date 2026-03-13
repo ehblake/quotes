@@ -134,7 +134,30 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Mar 6 2026) - Favicon, New Quotes, Double Quotes Display
+### Last Session (Mar 12 2026) - New Machine Migration & Cover Fixes
+
+- **Migrated project from iCloud to local machine**:
+  - Copied `site/` files (index.html, server.py, quotes.json, favicons, tag files)
+  - Copied `docs/` files (index.html, quotes.json, CNAME, tag_connections.json, 565 covers)
+  - Recreated `site/covers → ../docs/covers` symlink
+  - Reinitialized git from GitHub remote (iCloud rsync of .git objects was too slow)
+
+- **Fixed 4 missing covers on live site** (never committed):
+  - `a-single-man.jpg`, `the-origin-of-species.jpg`, `doin-it-again.jpg`, `the-experience-of-pain.jpg`
+
+- **Fixed duplicate Escape From Evil cover on landing canvas**:
+  - Had both `escape-from-evil.png` (11KB, lower quality) and `escape-from-evil.jpg` (25KB, clearer)
+  - Consolidated all 5 Escape From Evil quotes to use the `.jpg`, deleted the `.png`
+
+- **Added correct cover for The Denial of Death**:
+  - Was incorrectly using the Escape From Evil cover (same author, different book)
+  - Downloaded proper cover from Open Library (ISBN 0684832402)
+  - Updated 4 Denial of Death quotes to use `covers/the-denial-of-death.jpg`
+
+- **Site now live at everyepigram.com** (GitHub Pages)
+- **Total quotes**: ~875
+
+### Previous Session (Mar 6 2026) - Favicon, New Quotes, Double Quotes Display
 
 - **Added favicon** (quote mark logo):
   - SVG source from user's design: two stylized quote marks (pink `#FF0064` left, black right) — also read as mirrored "e" letters
