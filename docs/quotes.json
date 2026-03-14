@@ -7782,7 +7782,7 @@
     "year": "1991",
     "publication": "On Directing Film",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780670830336",
@@ -7855,7 +7855,8 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film"
+    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+    "book_description": "From a Pulitzer Prize-winning playwright comes invaluable insights and practical instructions on the art of film directing. Mamet looks at every aspect of directing—from script to cutting room—and draws from a wide variety of sources to make his points."
   },
   {
     "id": "quote_0114",
@@ -7941,7 +7942,8 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film"
+    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+    "book_description": "From a Pulitzer Prize-winning playwright comes invaluable insights and practical instructions on the art of film directing. Mamet looks at every aspect of directing—from script to cutting room—and draws from a wide variety of sources to make his points."
   },
   {
     "id": "quote_0115",
@@ -40910,10 +40912,11 @@
       }
     ],
     "id": "quote_0594",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film"
+    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+    "book_description": "From a Pulitzer Prize-winning playwright comes invaluable insights and practical instructions on the art of film directing. Mamet looks at every aspect of directing—from script to cutting room—and draws from a wide variety of sources to make his points."
   },
   {
     "quote": "Only the mind that has been taken off itself and put on a task is allowed true creativity.",
@@ -40950,10 +40953,11 @@
       }
     ],
     "id": "quote_0595",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film"
+    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+    "book_description": "From a Pulitzer Prize-winning playwright comes invaluable insights and practical instructions on the art of film directing. Mamet looks at every aspect of directing—from script to cutting room—and draws from a wide variety of sources to make his points."
   },
   {
     "quote": "...the essential tools in any worthwhile endeavour are incredibly simple. And very difficult to master.",
@@ -41002,10 +41006,11 @@
       }
     ],
     "id": "quote_0596",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film"
+    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+    "book_description": "From a Pulitzer Prize-winning playwright comes invaluable insights and practical instructions on the art of film directing. Mamet looks at every aspect of directing—from script to cutting room—and draws from a wide variety of sources to make his points."
   },
   {
     "quote": "I have seen people behave badly with great morality.",
@@ -51465,9 +51470,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/325785.Capital?ref=nav_sb_ss_3_7",
     "id": "quote_0868",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "*Capital: A Critique of Political Economy* is a foundational theoretical text in Marxist philosophy, economics, and politics by Karl Marx. His magnum opus, the work is a critical analysis of political economy, meant to reveal the economic patterns underpinning the capitalist mode of production."
   },
   {
     "quote": "Everything wants to float. And yet we move about like weights, attaching ourselves to everything, in thrall to gravity...",
@@ -54861,9 +54867,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
     "id": "quote_0975",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "From a Pulitzer Prize-winning playwright comes invaluable insights and practical instructions on the art of film directing. Mamet looks at every aspect of directing—from script to cutting room—and draws from a wide variety of sources to make his points."
   },
   {
     "quote": "In this world everything is so much a stage-set that even the coarsest ignorance has achieved an appearance of education.",

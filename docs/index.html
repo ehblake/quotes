@@ -1282,6 +1282,45 @@
       font-style: italic;
     }
 
+    .book-modal-description-edit {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .book-modal-description-edit .desc-edit-btn {
+      background: none;
+      border: none;
+      color: #FF0064;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      padding: 0;
+      opacity: 0.7;
+    }
+
+    .book-modal-description-edit .desc-edit-btn:hover {
+      opacity: 1;
+    }
+
+    .book-modal-desc-textarea {
+      width: 100%;
+      min-height: 80px;
+      background: #1a1a1a;
+      color: #ccc;
+      border: 1px solid #333;
+      border-radius: 4px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      padding: 8px;
+      resize: vertical;
+      margin-top: 6px;
+    }
+
     .book-modal-actions {
       display: flex;
       flex-direction: column;
@@ -1631,6 +1670,16 @@
           <label>Quote Text</label>
           <textarea id="edit-quote"></textarea>
         </div>
+        <!-- Tags Section (inline, below quote text) -->
+        <div class="edit-section" style="margin-top: 0; padding-top: 0; border-top: none;">
+          <div class="edit-section-title">Tags</div>
+          <div class="tags-container" id="tags-container"></div>
+          <div class="tag-input-row">
+            <input type="text" id="new-tag-input" placeholder="Add a tag..." onkeydown="if(event.key==='Enter'){addTag(); event.preventDefault();}">
+            <button onclick="addTag()">Add</button>
+          </div>
+        </div>
+
         <div class="edit-field">
           <label>Quote Author</label>
           <div class="autocomplete-wrapper">
@@ -1686,16 +1735,6 @@
         </div>
       </div>
 
-      <!-- Tags Section -->
-      <div class="edit-section">
-        <div class="edit-section-title">Tags</div>
-        <div class="tags-container" id="tags-container"></div>
-        <div class="tag-input-row">
-          <input type="text" id="new-tag-input" placeholder="Add a tag..." onkeydown="if(event.key==='Enter'){addTag(); event.preventDefault();}">
-          <button onclick="addTag()">Add</button>
-        </div>
-      </div>
-
       <!-- Actions -->
       <div class="edit-modal-actions">
         <button class="btn-save" id="save-btn" onclick="saveQuote()">Save Changes</button>
@@ -1715,6 +1754,7 @@
         <div id="book-modal-author" class="book-modal-author"></div>
         <div id="book-modal-year" class="book-modal-year"></div>
         <div id="book-modal-description" class="book-modal-description"></div>
+        <div id="book-modal-desc-edit-wrap" class="book-modal-description-edit" style="display:none"></div>
       </div>
       <div class="book-modal-actions">
         <button id="book-modal-bag-btn" class="book-modal-btn" onclick="addToBookBag()">Add to Book Bag</button>
@@ -2428,6 +2468,15 @@
     }
 
     // Smart uppercase that preserves Mc/Mac patterns (e.g., McLuhan -> McLUHAN)
+    function formatMarkdown(text) {
+      // Escape HTML first to prevent XSS
+      const escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      // Bold (**text**) must be processed before italic (*text*)
+      return escaped
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>');
+    }
+
     function smartUppercase(name) {
       return name.replace(/\b(\w+)/g, (word) => {
         // Check for Mc or Mac prefix
@@ -2753,12 +2802,12 @@
     // Render a quote into a panel element
     function renderPanel(panel, q) {
       if (!q) {
-        panel.querySelector('.quote-panel-text').textContent = '';
+        panel.querySelector('.quote-panel-text').innerHTML = '';
         panel.querySelector('.quote-panel-author').textContent = '';
         return;
       }
       const textEl = panel.querySelector('.quote-panel-text');
-      textEl.textContent = '\u201C' + q.quote + '\u201D';
+      textEl.innerHTML = '\u201C' + formatMarkdown(q.quote) + '\u201D';
       textEl.style.fontSize = getQuoteFontSize(q.quote);
       textEl.style.fontFamily = q.quote.length <= 64
         ? '"DM Serif Display", serif'
@@ -4437,14 +4486,21 @@
       const modal = document.getElementById('book-modal');
       const bookTitle = q.publication || q.book_title || 'Unknown title';
       const bookAuthor = q.book_author || q.author || '';
-      const coverUrl = getCoverUrl(q);
+      let coverUrl = getCoverUrl(q);
 
       // Cover
       const coverWrap = document.getElementById('book-modal-cover-wrap');
       if (coverUrl) {
         coverWrap.innerHTML = `<img src="${coverUrl}" alt="${bookTitle}" onerror="this.outerHTML='<div class=\\'book-modal-cover-placeholder\\'>No cover</div>'">`;
       } else {
-        coverWrap.innerHTML = '<div class="book-modal-cover-placeholder">No cover</div>';
+        coverWrap.innerHTML = '<div class="book-modal-cover-placeholder">Loading cover...</div>';
+        fetchGoodreadsCover(q).then(webCover => {
+          if (webCover) {
+            coverWrap.innerHTML = `<img src="${webCover}" alt="${bookTitle}" onerror="this.outerHTML='<div class=\\'book-modal-cover-placeholder\\'>No cover</div>'">`;
+          } else {
+            coverWrap.innerHTML = '<div class="book-modal-cover-placeholder">No cover</div>';
+          }
+        });
       }
 
       // Info
@@ -4452,9 +4508,40 @@
       document.getElementById('book-modal-author').textContent = bookAuthor;
       document.getElementById('book-modal-year').textContent = q.year || '';
 
-      // Description - loading state
+      // Description
       const descEl = document.getElementById('book-modal-description');
-      descEl.innerHTML = '<span class="wiki-loading">Loading description...</span>';
+      const descEditWrap = document.getElementById('book-modal-desc-edit-wrap');
+
+      // Check if any quote for this book has a book_description
+      const bookDesc = quotes.find(bq => (bq.publication || bq.book_title) === bookTitle && bq.book_description)?.book_description;
+
+      if (bookDesc) {
+        descEl.innerHTML = formatMarkdown(bookDesc);
+        descEditWrap.innerHTML = '';
+        if (isLocalhost) {
+          descEditWrap.style.display = 'flex';
+          descEditWrap.innerHTML = '<button class="desc-edit-btn" onclick="editBookDescription()">EDIT</button>';
+        } else {
+          descEditWrap.style.display = 'none';
+        }
+      } else {
+        descEl.innerHTML = '<span class="wiki-loading">Loading description...</span>';
+        descEditWrap.innerHTML = '';
+        if (isLocalhost) {
+          descEditWrap.style.display = 'flex';
+          descEditWrap.innerHTML = '<button class="desc-edit-btn" onclick="editBookDescription()">EDIT</button>';
+        } else {
+          descEditWrap.style.display = 'none';
+        }
+        // Fetch Wikipedia description async as fallback
+        fetchWikiDescription(bookTitle, bookAuthor).then(desc => {
+          if (desc) {
+            descEl.textContent = desc;
+          } else {
+            descEl.innerHTML = '<span style="color:#555;font-style:italic">No description available</span>';
+          }
+        });
+      }
 
       // Goodreads link
       const grUrl = getGoodreadsUrl(q);
@@ -4480,20 +4567,61 @@
 
       // Show modal
       modal.classList.add('open');
-
-      // Fetch Wikipedia description async
-      fetchWikiDescription(bookTitle, bookAuthor).then(desc => {
-        if (desc) {
-          descEl.textContent = desc;
-        } else {
-          descEl.innerHTML = '';
-        }
-      });
     }
 
     function closeBookModal() {
       document.getElementById('book-modal').classList.remove('open');
       currentBookModalQuote = null;
+    }
+
+    function editBookDescription() {
+      if (!currentBookModalQuote) return;
+      const descEl = document.getElementById('book-modal-description');
+      const editWrap = document.getElementById('book-modal-desc-edit-wrap');
+      const currentText = descEl.textContent || '';
+      const isLoading = descEl.querySelector('.wiki-loading');
+
+      descEl.innerHTML = `<textarea class="book-modal-desc-textarea" id="desc-edit-textarea">${isLoading ? '' : currentText.replace(/</g, '&lt;')}</textarea>`;
+      editWrap.innerHTML = '<button class="desc-edit-btn" onclick="saveBookDescription()">SAVE</button> <button class="desc-edit-btn" onclick="cancelDescEdit()">CANCEL</button>';
+
+      const ta = document.getElementById('desc-edit-textarea');
+      ta.focus();
+      ta.setSelectionRange(ta.value.length, ta.value.length);
+    }
+
+    function cancelDescEdit() {
+      if (!currentBookModalQuote) return;
+      openBookModal(currentBookModalQuote);
+    }
+
+    async function saveBookDescription() {
+      if (!currentBookModalQuote) return;
+      const ta = document.getElementById('desc-edit-textarea');
+      const newDesc = ta.value.trim();
+      const bookTitle = currentBookModalQuote.publication || currentBookModalQuote.book_title;
+
+      // Update all quotes with this book
+      const matchingQuotes = quotes.filter(q => (q.publication || q.book_title) === bookTitle);
+      for (const q of matchingQuotes) {
+        if (newDesc) {
+          q.book_description = newDesc;
+        } else {
+          delete q.book_description;
+        }
+        // Save each via API
+        try {
+          await fetch('/api/save-quote', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(q)
+          });
+        } catch (e) {
+          console.error('Failed to save quote', q.id, e);
+        }
+      }
+
+      showStatus(`Description ${newDesc ? 'saved' : 'removed'} for ${matchingQuotes.length} quote(s)`);
+      openBookModal(currentBookModalQuote);
     }
 
     // --- Book Bag (sessionStorage) ---
