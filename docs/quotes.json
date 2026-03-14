@@ -54903,5 +54903,437 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "The friends who met here and embraced are gone, / Each to his own mistake;",
+    "author": "W.H. Auden",
+    "publication": "Amsterdam",
+    "year": "1998",
+    "isbn": null,
+    "book_author": "Ian McEwan",
+    "cover_url": "covers/amsterdam.jpg",
+    "weighted_tags": [
+      {
+        "tag": "friends",
+        "weight": 1
+      },
+      {
+        "tag": "mistakes",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/6862.Amsterdam",
+    "id": "quote_0977",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...somewhere in between action and reaction there is an interaction, and that’s where all the magic and fun lies. See?",
+    "author": "Tyson Yunkaporta",
+    "publication": "Sand Talk",
+    "year": "2019",
+    "isbn": null,
+    "book_author": "Tyson Yunkaporta",
+    "cover_url": "covers/sand-talk.jpg",
+    "weighted_tags": [
+      {
+        "tag": "action",
+        "weight": 1
+      },
+      {
+        "tag": "interaction",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "joy",
+        "weight": 1
+      },
+      {
+        "tag": "fun",
+        "weight": 1
+      },
+      {
+        "tag": "magic",
+        "weight": 1
+      },
+      {
+        "tag": "connection",
+        "weight": 1
+      },
+      {
+        "tag": "connectivity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/51938817-sand-talk",
+    "id": "quote_0978",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A man’s memory is not a summation; it is a chaos of vague possibilities.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "chaos",
+        "weight": 1
+      },
+      {
+        "tag": "possibility",
+        "weight": 1
+      },
+      {
+        "tag": "chance",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0979",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When a man reaches a certain age, there are many things he can feign; happiness is not one of them.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ageing",
+        "weight": 1
+      },
+      {
+        "tag": "age",
+        "weight": 1
+      },
+      {
+        "tag": "happiness",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0980",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "He who gives not all has given nothing.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "effort",
+        "weight": 1
+      },
+      {
+        "tag": "action",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "commitment",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0981",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "…every journey is a journey through space... When you stepped into this room, you were engaging in space travel.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "travel",
+        "weight": 1
+      },
+      {
+        "tag": "space",
+        "weight": 1
+      },
+      {
+        "tag": "movement",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0982",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "There is nothing but quotations left for us. Our language is a system of quotations.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "originality",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0983",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...let us not talk of facts. No one cares about facts anymore. They are mere points of departure for speculation and exercises in creativity.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0984",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "In order truly to see a thing, one must first understand it... the passenger does not see the same ship’s rigging as the crew.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0985",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Words are symbols that posit a shared memory.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "symbols",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0986",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Every few centuries the Library at Alexandria must be burned.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "libraries",
+        "weight": 1
+      },
+      {
+        "tag": "fire",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0987",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I do not mind solitude: after all, it is hard enough to live with oneself and one’s own peculiarities.",
+    "author": "Jorge Luis Borges",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "solitude",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0988",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...as the world turns and a man gains experience, what he learns is that what counts is the essence, that which lies at the irreducible heart of things.",
+    "author": "Andrew Hurley (Introduction)",
+    "publication": "The Book of Sand and Shakespeare's Memory",
+    "year": "1983",
+    "isbn": null,
+    "book_author": "Jorge Luis Borges",
+    "cover_url": "covers/the-book-of-sand-and-shakespeares-memory.jpg",
+    "weighted_tags": [
+      {
+        "tag": "essence",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
+    "id": "quote_0989",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
