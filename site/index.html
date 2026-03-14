@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -381,23 +381,28 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      z-index: 50;
+      z-index: 150;
       font-family: "DM Mono", monospace;
     }
 
     .topics-link {
       color: #FF0064;
       font-family: "DM Mono", monospace;
-      font-size: 0.85rem;
+      font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       cursor: pointer;
       text-decoration: none;
-      transition: opacity 0.2s;
+      transition: all 0.2s ease;
+      border: 1px solid #333;
+      border-radius: 16px;
+      padding: 9px 12px;
+      line-height: 1;
     }
 
     .topics-link:hover {
-      opacity: 0.7;
+      border-color: #FF0064;
+      background: rgba(255, 0, 100, 0.1);
     }
 
     /* Go to input - only shown on localhost */
@@ -450,7 +455,7 @@
       border: 1px solid #444;
       border-radius: 4px;
       color: #fafafa;
-      font-size: 16px;
+      font-size: 0.75rem;
       font-family: "DM Mono", monospace;
     }
 
@@ -753,23 +758,19 @@
 
     /* Back to canvas button */
     .back-to-canvas {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      width: 44px;
-      height: 44px;
+      width: 32px;
+      height: 32px;
       background: transparent;
       border: 1px solid #333;
       border-radius: 50%;
       color: #FF0064;
-      font-size: 24px;
       cursor: pointer;
-      z-index: 50;
-      display: none;
+      display: flex;
       align-items: center;
       justify-content: center;
       transition: all 0.2s ease;
       font-family: inherit;
+      padding: 0;
     }
 
     .back-to-canvas:hover {
@@ -778,12 +779,17 @@
       background: rgba(255, 0, 100, 0.1);
     }
 
-    .back-to-canvas svg {
-      width: 20px;
-      height: 20px;
+    .back-to-canvas .icon-grid {
+      width: 16px;
+      height: 16px;
       stroke: currentColor;
       fill: none;
       stroke-width: 1.5;
+    }
+
+    .back-to-canvas .icon-logo {
+      width: 18px;
+      height: 18px;
     }
 
     /* Edit/Add links - top right, only shown on localhost */
@@ -1583,11 +1589,10 @@
         top: clamp(90px, 13vh, 130px);
       }
 
-      /* Move back-to-canvas icon to top-left, below TOPICS link */
+      /* Back-to-canvas stays in top-bar flow on mobile */
       .back-to-canvas {
-        bottom: unset;
-        top: 60px;
-        left: 20px;
+        width: 28px;
+        height: 28px;
       }
 
       /* Raise book block to clear iOS URL bar, nudge down 20px */
@@ -1596,6 +1601,11 @@
         height: auto;
         min-height: clamp(100px, 15vh, 168px);
         overflow: visible;
+      }
+
+      /* Keep search input at 16px on mobile to prevent iOS zoom */
+      .search-container input {
+        font-size: 16px;
       }
 
       /* Anchor search results to the right edge */
@@ -1793,11 +1803,6 @@
     </div>
   </div>
 
-  <!-- Back to canvas button -->
-  <button id="back-to-canvas" class="back-to-canvas" title="Back to books">
-    <svg viewBox="0 0 24 24"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
-  </button>
-
   <div id="view-mode" class="container" style="display: none;">
     <!-- Drift tag above (press up arrow) -->
     <div id="drift-tag-above" class="drift-tag-above"></div>
@@ -1844,13 +1849,18 @@
       <div class="book-cover-placeholder">Loading...</div>
     </div>
 
-    <!-- Top bar: count + search -->
-    <div id="top-bar">
-      <a id="topics-link" class="topics-link" onclick="if(isTagIndexVisible){hideTagIndex()}else{showTagIndex()}">TOPICS</a>
-      <div class="search-container">
-        <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
-        <div id="search-results" class="search-results"></div>
-      </div>
+  </div>
+
+  <!-- Top bar: back button + topics + search (always visible) -->
+  <div id="top-bar">
+    <button id="back-to-canvas" class="back-to-canvas" title="Back to books">
+      <svg class="icon-grid" viewBox="0 0 24 24" style="display:none;"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
+      <svg class="icon-logo" viewBox="0 0 512 512" fill="none"><path d="M499.853 228.667C499.853 166.631 464.267 107 370.491 107C285.853 107 263.251 197.89 263.251 259.926L370.491 283.009L291.624 321L311.341 363.8C410.887 363.8 499.853 328.694 499.853 228.667Z" fill="currentColor"/><path d="M12 228.667C12 166.631 47.5865 107 141.362 107C226 107 248.602 197.89 248.602 259.926L141.362 283.009L220.229 321L200.512 363.8C100.966 363.8 12 328.694 12 228.667Z" fill="#FF0064"/></svg>
+    </button>
+    <a id="topics-link" class="topics-link" onclick="if(isTagIndexVisible){hideTagIndex()}else{showTagIndex()}">TOPICS</a>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search quotes..." oninput="handleSearch()" onkeydown="handleSearchKeydown(event)">
+      <div id="search-results" class="search-results"></div>
     </div>
   </div>
 
@@ -2316,7 +2326,8 @@
         landingCanvas.style.display = 'none';
         landingCanvas.classList.remove('shrinking');
         viewMode.style.display = 'flex';
-        backBtn.style.display = 'flex';
+        backBtn.querySelector('.icon-logo').style.display = 'none';
+        backBtn.querySelector('.icon-grid').style.display = 'block';
 
         isLandingVisible = false;
         currentIndex = quoteIndex;
@@ -2330,6 +2341,7 @@
 
     // Transition back to landing canvas
     function transitionToCanvas() {
+      if (isLandingVisible) return;
       const landingCanvas = document.getElementById('landing-canvas');
       const viewMode = document.getElementById('view-mode');
       const backBtn = document.getElementById('back-to-canvas');
@@ -2345,7 +2357,8 @@
         viewMode.style.display = 'none';
         viewMode.style.opacity = '';
         viewMode.style.transition = '';
-        backBtn.style.display = 'none';
+        backBtn.querySelector('.icon-grid').style.display = 'none';
+        backBtn.querySelector('.icon-logo').style.display = 'block';
 
         // Show landing canvas
         landingCanvas.style.display = 'block';
@@ -2453,7 +2466,8 @@
         landingCanvas.style.display = 'none';
         isLandingVisible = false;
         viewMode.style.display = 'flex';
-        backBtn.style.display = 'flex';
+        backBtn.querySelector('.icon-logo').style.display = 'none';
+        backBtn.querySelector('.icon-grid').style.display = 'block';
       }
 
       activeTag = tag;
@@ -3430,31 +3444,37 @@
           return;
         }
 
-        if (e.key === "ArrowRight") {
-          e.preventDefault();
-          showNextViaTag();  // Right arrow = next quote with same tag
-        } else if (e.key === " ") {
-          e.preventDefault();
-          showNextViaTag();  // Spacebar = next quote with same tag
-        } else if (e.key === "ArrowLeft") {
-          e.preventDefault();
-          goToPrevInHistory();  // Left arrow = go back in history
-        } else if (e.key === "ArrowUp") {
-          console.log('ArrowUp pressed, calling driftUp');
-          e.preventDefault();
-          driftUp();  // Up arrow = switch to drift tag above
-        } else if (e.key === "ArrowDown") {
-          e.preventDefault();
-          driftDown();  // Down arrow = switch to drift tag below
-        } else if (e.key === "r") {
-          showRandom();
-        } else if (e.key === "a") {
+        // Allow 'a' (tag index) from any view
+        if (e.key === "a") {
           e.preventDefault();
           if (isTagIndexVisible) {
             hideTagIndex();
           } else {
             showTagIndex();
           }
+          return;
+        }
+
+        // Block navigation keys on canvas view
+        if (isLandingVisible) return;
+
+        if (e.key === "ArrowRight") {
+          e.preventDefault();
+          showNextViaTag();
+        } else if (e.key === " ") {
+          e.preventDefault();
+          showNextViaTag();
+        } else if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          goToPrevInHistory();
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          driftUp();
+        } else if (e.key === "ArrowDown") {
+          e.preventDefault();
+          driftDown();
+        } else if (e.key === "r") {
+          showRandom();
         }
       });
 
@@ -3666,7 +3686,24 @@
     }
 
     function selectSearchResult(index) {
-      transitionTo(index);
+      if (isLandingVisible) {
+        // Transition from canvas to quote view
+        const landingCanvas = document.getElementById('landing-canvas');
+        const viewMode = document.getElementById('view-mode');
+        const backBtn = document.getElementById('back-to-canvas');
+        landingCanvas.style.display = 'none';
+        landingCanvas.classList.remove('shrinking');
+        viewMode.style.display = 'flex';
+        backBtn.querySelector('.icon-logo').style.display = 'none';
+        backBtn.querySelector('.icon-grid').style.display = 'block';
+        isLandingVisible = false;
+        currentIndex = index;
+        startTagJourney(quotes[index]);
+        addToRecentQuotes(quotes[index].id);
+        render(quotes[index], index);
+      } else {
+        transitionTo(index);
+      }
       closeSearchResults();
     }
 

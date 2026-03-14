@@ -134,7 +134,40 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Mar 12 2026) - New Machine Migration & Cover Fixes
+### Last Session (Mar 14 2026) - Book Description Editing, Markdown Support & Bug Fixes
+
+- **Editable book descriptions in book modal** (localhost only):
+  - EDIT button below description text, click to replace with textarea
+  - SAVE/CANCEL buttons, saves `book_description` field to all quotes for that book
+  - Uses `/api/save-quote` endpoint (per-quote update, not full array overwrite)
+  - Custom descriptions override Wikipedia API blurbs
+  - Live site shows descriptions read-only (edit hidden via `isLocalhost` check)
+
+- **Markdown formatting support** (`formatMarkdown()` helper):
+  - `*italic*` → `<em>`, `**bold**` → `<strong>`
+  - Works in both quote text display and book descriptions
+  - HTML-escaped first to prevent XSS, then markdown patterns applied
+  - `renderPanel()` now uses `innerHTML` instead of `textContent`
+
+- **Book modal cover fallback**:
+  - Book modal now falls back to `fetchGoodreadsCover()` (bookcover.longitood.com API) when no local `cover_url` exists
+  - Previously only the book block in quote view did this; modal showed "No cover"
+
+- **Fixed data corruption bug**:
+  - `saveBookDescription()` was calling `/api/save` (expects full quotes array) with a single quote object
+  - This overwrote `quotes.json` with one quote, breaking the site
+  - Fixed to use `/api/save-quote` (updates single quote by ID)
+  - Also fixed `allQuotes` reference — was scoped inside init function, changed to global `quotes`
+
+- **Edit form reordering**: Tags input moved above Quote Author (below quote text)
+
+- **iOS Safari zoom fix**: Search input font-size set to 16px to prevent auto-zoom on focus
+
+- **New covers**: amsterdam.jpg, the-book-of-sand-and-shakespeares-memory.jpg (via Keep Web Cover)
+
+- **Total quotes**: ~875
+
+### Previous Session (Mar 12 2026) - New Machine Migration & Cover Fixes
 
 - **Migrated project from iCloud to local machine**:
   - Copied `site/` files (index.html, server.py, quotes.json, favicons, tag files)
