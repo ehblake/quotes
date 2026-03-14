@@ -134,7 +134,17 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Mar 14 2026) - Book Description Editing, Markdown Support & Bug Fixes
+### Last Session (Mar 14 2026) - Top Bar Redesign, Book Descriptions, Markdown & Bug Fixes
+
+- **Top bar redesign** (visible on both canvas and quote views):
+  - Moved back-to-canvas button from fixed bottom-left into top-bar flex row
+  - Favicon logo (quote marks) shows on canvas view, swaps to grid icon on quote view
+  - TOPICS restyled as pill button (border, border-radius, hover state) matching icon style
+  - Search field works from canvas view — selecting a result transitions to quote view
+  - Top bar z-index bumped to 150 (above canvas at 100)
+  - Added `lang="en"` to `<html>` to prevent Chrome translate prompt
+
+- **Keyboard navigation guard**: Arrow keys, spacebar, 'r' now blocked on canvas view (were silently modifying hidden quote state). 'A' key (tag index) still works from both views.
 
 - **Editable book descriptions in book modal** (localhost only):
   - EDIT button below description text, click to replace with textarea
@@ -161,11 +171,15 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 - **Edit form reordering**: Tags input moved above Quote Author (below quote text)
 
-- **iOS Safari zoom fix**: Search input font-size set to 16px to prevent auto-zoom on focus
+- **iOS Safari zoom fix**: Search input font-size set to 16px on mobile to prevent auto-zoom on focus
+
+- **Page title**: Changed from "Quotes" to "Every Epigram"
 
 - **New covers**: amsterdam.jpg, the-book-of-sand-and-shakespeares-memory.jpg (via Keep Web Cover)
 
-- **Total quotes**: ~875
+- **New quotes**: 13 added (10 Borges from The Book of Sand, plus Auden, Yunkaporta, Hurley)
+
+- **Total quotes**: ~931
 
 ### Previous Session (Mar 12 2026) - New Machine Migration & Cover Fixes
 

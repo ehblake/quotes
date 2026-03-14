@@ -12793,22 +12793,12 @@
         "relevance": 0.6
       },
       {
-        "tag": "surprise",
-        "weight": 0.4067,
-        "corpus_score": 0.3191,
-        "relevance": 0.72
+        "tag": "exploration",
+        "weight": 1
       },
       {
-        "tag": "surprises",
-        "weight": 0.3755,
-        "corpus_score": 0.1596,
-        "relevance": 0.94
-      },
-      {
-        "tag": "hidden",
-        "weight": 0.2317,
-        "corpus_score": 0.1596,
-        "relevance": 0.58
+        "tag": "serendipity",
+        "weight": 1
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/4934.The_Brothers_Karamazov"
@@ -55334,6 +55324,358 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/146422.The_Book_of_Sand_and_Shakespeare_s_Memory",
     "id": "quote_0989",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Literature... is the Promised Land in which language becomes what it really ought to be.",
+    "author": "Italo Calvino",
+    "publication": "Six Memos for the Next Millennium",
+    "year": "1986",
+    "isbn": "9780141189697",
+    "book_author": "Italo Calvino",
+    "cover_url": "covers/six-memos.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/6314113",
+    "id": "quote_0990",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Will the literature of the fantastic be possible in the twenty-first century, with the growing inflation of prefabricated images?",
+    "author": "Italo Calvino",
+    "publication": "Six Memos for the Next Millennium",
+    "year": "1986",
+    "isbn": "9780141189697",
+    "book_author": "Italo Calvino",
+    "cover_url": "covers/six-memos.jpg",
+    "weighted_tags": [
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "media",
+        "weight": 1
+      },
+      {
+        "tag": "artifical intelligence",
+        "weight": 1
+      },
+      {
+        "tag": "machines",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/6314113",
+    "id": "quote_0991",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "How solid our ignorance – how empty our substance...",
+    "author": "Jack Kerouac",
+    "publication": "Mexico City Blues",
+    "year": "1959",
+    "isbn": "9780877736806",
+    "book_author": "Jack Kerouac",
+    "cover_url": "covers/mexico-city-blues.jpg",
+    "weighted_tags": [
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "substance",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/577428",
+    "id": "quote_0992",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A wandering life is what I want. To walk through a beautiful country in fine weather, without being obliged to hurry, and with a pleasant prospect at the end...",
+    "author": "Jean-Jacques Rousseau",
+    "publication": "Reveries of the Solitary Walker",
+    "year": "1782",
+    "isbn": null,
+    "book_author": "Jean-Jacques Rousseau",
+    "cover_url": "covers/reveries-of-the-solitary-walker.jpg",
+    "weighted_tags": [
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "wandering",
+        "weight": 1
+      },
+      {
+        "tag": "peace",
+        "weight": 1
+      },
+      {
+        "tag": "patience",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/134156592-reveries-of-the-solitary-walker-by-jean-jacques-rousseau",
+    "id": "quote_0993",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What has prompted me to write over the years is the hunch that something needs to be told that, if I don’t try to tell it, it risks not being told.",
+    "author": "John Berger",
+    "publication": "Confabulations",
+    "year": "2016",
+    "isbn": "9780141984957",
+    "book_author": "John Berger",
+    "cover_url": "covers/confabulations.jpg",
+    "weighted_tags": [
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "id": "quote_0994",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Any step taken is likely to be a mistake, so take it with style and distract from the probable shit.",
+    "author": "John Berger",
+    "publication": "Confabulations",
+    "year": "2016",
+    "isbn": "9780141984957",
+    "book_author": "John Berger",
+    "cover_url": "covers/confabulations.jpg",
+    "weighted_tags": [
+      {
+        "tag": "style",
+        "weight": 1
+      },
+      {
+        "tag": "mistakes",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "id": "quote_0995",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Flamenco performers often talk about *duende*. Duende is a quality, a resonance which makes a performance unforgettable.",
+    "author": "John Berger",
+    "publication": "Confabulations",
+    "year": "2016",
+    "isbn": "9780141984957",
+    "book_author": "John Berger",
+    "cover_url": "covers/confabulations.jpg",
+    "weighted_tags": [
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "talent",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "excellence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "id": "quote_0996",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To enter most buildings money—or evidence of money—is required.",
+    "author": "John Berger",
+    "publication": "Confabulations",
+    "year": "2016",
+    "isbn": "9780141984957",
+    "book_author": "John Berger",
+    "cover_url": "covers/confabulations.jpg",
+    "weighted_tags": [
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "architecture",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "id": "quote_0997",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Freedom is always the freedom of the one who thinks differently.",
+    "author": "John Berger",
+    "publication": "Confabulations",
+    "year": "2016",
+    "isbn": "9780141984957",
+    "book_author": "John Berger",
+    "cover_url": "covers/confabulations.jpg",
+    "weighted_tags": [
+      {
+        "tag": "freedom",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "id": "quote_0998",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...time is not linear but circular. Our lives are not points in a line... We are not points on a line; rather, we are the centres of circles.",
+    "author": "John Berger",
+    "publication": "Confabulations",
+    "year": "2016",
+    "isbn": "9780141984957",
+    "book_author": "John Berger",
+    "cover_url": "covers/confabulations.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "id": "quote_0999",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "For progress there is no cure",
+    "author": "John van Neumann",
+    "publication": "The Brothers Vonnegut",
+    "year": "2015",
+    "isbn": null,
+    "book_author": "Ginger Strand",
+    "cover_url": null,
+    "weighted_tags": [
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/23848017-the-brothers-vonnegut",
+    "id": "quote_1000",
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
