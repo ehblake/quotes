@@ -55706,5 +55706,66 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "*solvitur ambulando*: it is solved by walking",
+    "author": "Leigh Fermor",
+    "publication": "The Songlines",
+    "year": "1987",
+    "isbn": "8483072688",
+    "book_author": "Bruce Chatwin",
+    "cover_url": "covers/the-songlines.jpg",
+    "weighted_tags": [
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "problem solving",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/76844.The_Songlines",
+    "id": "quote_1001",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The idea we have of the world would be overturned if we could succeed in seeing the intervals between things... as... things themselves.",
+    "author": "Maurice Merleau-Ponty",
+    "publication": "Blind Spot",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Teju Cole",
+    "cover_url": "covers/blind-spot.jpg",
+    "weighted_tags": [
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/32937914-blind-spot",
+    "id": "quote_1002",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": "",
+    "book_description": "When it comes to Teju Cole, the unexpected is not unfamiliar: He’s an acclaimed novelist, an influential essayist, and an internationally exhibited photographer. In *Blind Spot*, readers follow Cole’s inimitable artistic vision into the visual realm as he continues to refine the voice, eye, and intellectual obsessions that earned him such acclaim for Open City."
   }
 ]
