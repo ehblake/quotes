@@ -35902,7 +35902,7 @@
     "source_image": "ursula-le-guin-01.png",
     "filename_stem": "ursula-le-guin-01",
     "quote": "Prediction is the business of prophets, clairvoyants, and futurologists. It is not the business of novelists. A novelist’s business is lying.",
-    "author": "Ursula Le Guin",
+    "author": "Ursula K. Le Guin",
     "year": "1969",
     "publication": "The Left Hand of Darkness",
     "notes": "The quote is from the author's note to 'The Left Hand of Darkness'.",
@@ -36001,18 +36001,19 @@
         "relevance": 0.5077
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
+    "book_description": "A groundbreaking work of science fiction, *The Left Hand of Darkness* tells the story of a lone human emissary to Winter, an alien world whose inhabitants spend most of their time without a gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters."
   },
   {
     "id": "quote_0514",
     "source_image": "ursula-le-guin-04.png",
     "filename_stem": "ursula-le-guin-04",
     "quote": "The artist deals with what cannot be said in words.",
-    "author": "Ursula Le Guin",
+    "author": "Ursula K. Le Guin",
     "year": "1969",
     "publication": "The Left Hand of Darkness",
     "notes": "The publication is specified as 'The Left Hand of Darkness.'",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788804732051",
@@ -36078,18 +36079,20 @@
         "relevance": 0.3278
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
+    "book_description": "A groundbreaking work of science fiction, *The Left Hand of Darkness* tells the story of a lone human emissary to Winter, an alien world whose inhabitants spend most of their time without a gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters.",
+    "book_author": null
   },
   {
     "id": "quote_0515",
     "source_image": "ursula-le-guin-05.png",
     "filename_stem": "ursula-le-guin-05",
     "quote": "The soundest fact may fail or prevail in the style of its telling...",
-    "author": "Ursula Le Guin",
+    "author": "Ursula K. Le Guin",
     "year": "1969",
     "publication": "The Left Hand of Darkness",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9788804732051",
@@ -36169,14 +36172,16 @@
         "relevance": 0.5182
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
+    "book_description": "A groundbreaking work of science fiction, *The Left Hand of Darkness* tells the story of a lone human emissary to Winter, an alien world whose inhabitants spend most of their time without a gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters.",
+    "book_author": null
   },
   {
     "id": "quote_0516",
     "source_image": "ursula-le-guin-08.png",
     "filename_stem": "ursula-le-guin-08",
     "quote": "To learn which questions are unanswerable, and not to answer them: this skill is most needful in times of stress and darkness.",
-    "author": "Ursula Le Guin",
+    "author": "Ursula K. Le Guin",
     "year": "1969",
     "publication": "The Left Hand of Darkness",
     "notes": "",
@@ -36267,7 +36272,9 @@
         "relevance": 0.525
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
+    "book_description": "A groundbreaking work of science fiction, *The Left Hand of Darkness* tells the story of a lone human emissary to Winter, an alien world whose inhabitants spend most of their time without a gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters.",
+    "book_author": null
   },
   {
     "id": "quote_0517",
@@ -55767,5 +55774,160 @@
     "needs_review": false,
     "notes": "",
     "book_description": "When it comes to Teju Cole, the unexpected is not unfamiliar: He’s an acclaimed novelist, an influential essayist, and an internationally exhibited photographer. In *Blind Spot*, readers follow Cole’s inimitable artistic vision into the visual realm as he continues to refine the voice, eye, and intellectual obsessions that earned him such acclaim for Open City."
+  },
+  {
+    "quote": "What I am trying to reach is a far-off point, at the source of creation, where I suspect a single explanatory principle applies...",
+    "author": "Paul Klee",
+    "publication": "The Revolution of Everyday Life",
+    "year": "1967",
+    "isbn": "9781604867848",
+    "book_author": "Raoul Vaneigem",
+    "cover_url": "covers/9781604867848.jpg",
+    "weighted_tags": [
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/381416.The_Revolution_of_Everyday_Life",
+    "id": "quote_1003",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The people who live in a golden age usually go around complaining how yellow everything looks.",
+    "author": "Randall Jarrell",
+    "publication": "Amsterdam: A History of the World's Most Liberal City",
+    "year": "2014",
+    "isbn": null,
+    "book_author": "Russell Shorto",
+    "cover_url": "covers/amsterdam-a-history-of-the-worlds-most-liberal-cit.jpg",
+    "weighted_tags": [
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "paradise",
+        "weight": 1
+      },
+      {
+        "tag": "heaven",
+        "weight": 1
+      },
+      {
+        "tag": "perfection",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/17288660-amsterdam",
+    "id": "quote_1004",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": "",
+    "book_description": "Amsterdam is not just any city. Despite its relative size it has stood alongside its larger cousins - Paris, London, Berlin - and has influenced the modern world to a degree that few other cities have. Sweeping across the city's colourful thousand year history, *Amsterdam* will bring the place to life: its sights and smells; its politics and people."
+  },
+  {
+    "quote": "The expression of wonder stands for all that cannot be understood, that can scarcely be believed. It calls attention to the problem of credibility and at the same time insists upon the undeniability, the exigency of experience.",
+    "author": "Stephen Greenblatt",
+    "publication": "Marvelous Possessions: The Wonder of the New World",
+    "year": "1991",
+    "isbn": null,
+    "book_author": "Stephen Greenblatt",
+    "cover_url": "covers/marvelous-possessions-the-wonder-of-the-new-world.jpg",
+    "weighted_tags": [
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/67090.Marvelous_Possessions",
+    "id": "quote_1005",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": "",
+    "book_description": "Marvelous Possessions is a study of the ways in which Europeans of the late Middle Ages and the early modern period represented non-European peoples and took possession of their lands, in particular the New World."
+  },
+  {
+    "quote": "To look is to see only a fraction of what one is looking at. Even in the most vigilant eye, there is a blind spot. What is missing?",
+    "author": "Teju Cole",
+    "publication": "Blind Spot",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Teju Cole",
+    "cover_url": "covers/blind-spot.jpg",
+    "weighted_tags": [
+      {
+        "tag": "looking",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/32937914-blind-spot",
+    "id": "quote_1006",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The unknown, the unforetold, the unproven, that is what life is based on. Ignorance is the ground of thought. Unproof is the ground of action.",
+    "author": "Ursula K. Le Guin",
+    "publication": "The Left Hand of Darkness",
+    "year": "1969",
+    "isbn": "9788804732051",
+    "book_author": "Ursula Le Guin",
+    "cover_url": "covers/the-left-hand-of-darkness.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the unknown",
+        "weight": 1
+      },
+      {
+        "tag": "mystery",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
+    "id": "quote_1007",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": "",
+    "book_description": "A groundbreaking work of science fiction, *The Left Hand of Darkness* tells the story of a lone human emissary to Winter, an alien world whose inhabitants spend most of their time without a gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters."
   }
 ]
