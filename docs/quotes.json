@@ -10543,10 +10543,10 @@
     "year": "1947",
     "publication": "A Moon for the Misbegotten",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9780394712369",
+    "isbn": null,
     "book_title": "A moon for the misbegotten",
     "publisher": "Vintage Books",
     "open_library_key": "/works/OL474426W",
@@ -10605,51 +10605,10 @@
         "weight": 0.4843,
         "corpus_score": 0.4787,
         "relevance": 0.7
-      },
-      {
-        "tag": "australia",
-        "weight": 0.367,
-        "corpus_score": 0.4125,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "today",
-        "weight": 0.255,
-        "corpus_score": 0.2529,
-        "relevance": 0.5071
-      },
-      {
-        "tag": "stan grant",
-        "weight": 0.234,
-        "corpus_score": 0.1596,
-        "relevance": 0.5857
-      },
-      {
-        "tag": "talking to my country",
-        "weight": 0.2311,
-        "corpus_score": 0.1596,
-        "relevance": 0.5786
-      },
-      {
-        "tag": "repetition",
-        "weight": 0.2111,
-        "corpus_score": 0.1596,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "repeat",
-        "weight": 0.2083,
-        "corpus_score": 0.1596,
-        "relevance": 0.5214
-      },
-      {
-        "tag": "eugene o'neill",
-        "weight": 0.137,
-        "corpus_score": 0.1596,
-        "relevance": 0.3429
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/1736128"
+    "goodreads_url": "https://www.goodreads.com/book/show/1736128",
+    "book_author": null
   },
   {
     "id": "quote_0151",
