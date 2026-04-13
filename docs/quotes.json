@@ -358,7 +358,8 @@
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
-    "book_author": null
+    "book_author": null,
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "id": "quote_0007",
@@ -1795,7 +1796,7 @@
         "tag": "falsehood",
         "weight": 0.7563,
         "corpus_score": 0.5721,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "truth",
@@ -1828,7 +1829,8 @@
         "relevance": 0.55
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/245396479-the-captain-s-daughter-and-other-stories---alexander-pushkin"
+    "goodreads_url": "https://www.goodreads.com/book/show/245396479-the-captain-s-daughter-and-other-stories---alexander-pushkin",
+    "book_description": "Step into the heart of 18th-century Russia with Alexander Pushkin's compelling novel, *The Captain's Daughter*. This timeless tale weaves together romance, loyalty, and rebellion as young nobleman Pyotr Grinyov is sent to serve at a remote fortress, where he falls in love with Masha, the captain's daughter. As a peasant uprising led by the formidable Pugachev threatens to unravel the fabric of society, Pyotr must navigate the turbulent waters of love and duty."
   },
   {
     "id": "quote_0029",
@@ -2274,7 +2276,8 @@
         "relevance": 0.5167
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/46064.The_Diary_of_Ana_s_Nin_Vol_1"
+    "goodreads_url": "https://www.goodreads.com/book/show/46064.The_Diary_of_Ana_s_Nin_Vol_1",
+    "book_description": "This celebrated volume begins when Nin is about to publish her first book and ends when she leaves Paris for New York."
   },
   {
     "id": "quote_0035",
@@ -3856,7 +3859,8 @@
         "relevance": 0.5091
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/29579.Foundation"
+    "goodreads_url": "https://www.goodreads.com/book/show/29579.Foundation",
+    "book_description": "A science fiction novel by American writer Isaac Asimov.  It is the first book in the Foundation Trilogy."
   },
   {
     "id": "quote_0056",
@@ -4092,7 +4096,8 @@
         "relevance": 0.3278
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/205218.Ethics"
+    "goodreads_url": "https://www.goodreads.com/book/show/205218.Ethics",
+    "book_description": "*Ethics* is the philosophical study of moral phenomena.  Also called moral philosophy, it investigates normative questions about what people ought to do or which behavior is morally right."
   },
   {
     "id": "quote_0060",
@@ -4371,7 +4376,8 @@
         "relevance": 0.52
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/457651.The_Autobiography_of_Benjamin_Franklin_Selections_from_His_Other_Writings"
+    "goodreads_url": "https://www.goodreads.com/book/show/457651.The_Autobiography_of_Benjamin_Franklin_Selections_from_His_Other_Writings",
+    "book_description": "Franklin’s autobiography is one of the most famous works in American literature.  He started it as a private collection of anecdotes for his son, but soon it was transformed into a work of history, both personal and national, revealing Franklin as the man who, as Herman Melville said, possessed “deep worldly wisdom and polished Italian tact, gleaming under an air of Arcadian unaffectedness.\""
   },
   {
     "id": "quote_0063",
@@ -4568,7 +4574,8 @@
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-collected-poems-of-bertolt-brecht.jpg",
-    "goodreads_url": "https://www.goodreads.com/book/show/38212131-the-collected-poems-of-bertolt-brecht"
+    "goodreads_url": "https://www.goodreads.com/book/show/38212131-the-collected-poems-of-bertolt-brecht",
+    "book_description": "The most generous available English collection of Brecht’s poetry. A landmark literary event, *The Collected Poems of Bertolt Brecht* is the most extensive English translation of Brecht’s poetry to date."
   },
   {
     "id": "quote_0065",
@@ -6111,7 +6118,7 @@
       {
         "tag": "humanity",
         "weight": 0.52,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.52
       },
       {
@@ -6140,7 +6147,8 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/114607.The_Letters_of_Anton_Chekhov?ac=1&from_search=true&qid=nEuK9MpZoJ&rank=1"
+    "goodreads_url": "https://www.goodreads.com/book/show/114607.The_Letters_of_Anton_Chekhov?ac=1&from_search=true&qid=nEuK9MpZoJ&rank=1",
+    "book_description": "A collection of letters from Anton Chekhov, to his family and friends."
   },
   {
     "id": "quote_0088",
@@ -6400,7 +6408,7 @@
       {
         "tag": "humanity",
         "weight": 0.5308,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5308
       },
       {
@@ -6434,7 +6442,8 @@
         "relevance": 0.5077
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/7775851"
+    "goodreads_url": "https://www.goodreads.com/book/show/7775851",
+    "book_description": "C. J. Chivers's extraordinary new book tells an alternative history of the world as seen through these terrible weapons. He traces them back to their origins in the early experiments of Gatling and Maxim, and examines the first appearance of the machine-gun."
   },
   {
     "id": "quote_0092",
@@ -7262,7 +7271,7 @@
         "tag": "simplify",
         "weight": 0.3995,
         "corpus_score": 0.1596,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "simplification",
@@ -7271,7 +7280,8 @@
         "relevance": 0.5857
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/56269264-the-dawn-of-everything"
+    "goodreads_url": "https://www.goodreads.com/book/show/56269264-the-dawn-of-everything",
+    "book_description": "A dramatically new understanding of human history, challenging our most fundamental assumptions about social evolution—from the development of agriculture and cities to the origins of the state, democracy, and inequality—and revealing new possibilities for human emancipation."
   },
   {
     "id": "quote_0105",
@@ -8500,7 +8510,8 @@
         "relevance": 0.31
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "id": "quote_0122",
@@ -8567,7 +8578,8 @@
         "relevance": 0.5333
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "id": "quote_0123",
@@ -10183,7 +10195,8 @@
         "relevance": 0.51
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011"
+    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011",
+    "book_description": "*The Denial of Death* is a 1973 book by American cultural anthropologist Ernest Becker which discusses the psychological and philosophical implications of how people and cultures have reacted to the concept of death.  The author argues most human action is taken to ignore or avoid the inevitability of death."
   },
   {
     "id": "quote_0147",
@@ -10608,7 +10621,8 @@
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/1736128",
-    "book_author": null
+    "book_author": null,
+    "book_description": "A play in four acts by Eugene O'Neill.  The play is a sequel to O'Neill's *Long Day's Journey into Night*, with the Jim Tyrone character as an older version of Jamie Tyrone."
   },
   {
     "id": "quote_0151",
@@ -11857,7 +11871,7 @@
     "year": "1872",
     "publication": "Demons",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781985793736",
@@ -11931,7 +11945,8 @@
         "relevance": 0.5273
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0174",
@@ -11942,7 +11957,7 @@
     "year": "1872",
     "publication": "Demons",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781985793736",
@@ -11976,7 +11991,7 @@
       {
         "tag": "humanity",
         "weight": 0.5077,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5077
       },
       {
@@ -12016,7 +12031,8 @@
         "relevance": 0.3269
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0175",
@@ -12027,7 +12043,7 @@
     "year": "1872",
     "publication": "Demons",
     "notes": "Quote begins with an ellipsis indicating it may be part of a larger passage.",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781985793736",
@@ -12108,7 +12124,8 @@
         "relevance": 0.5333
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0176",
@@ -12230,7 +12247,8 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0178",
@@ -12291,7 +12309,8 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0179",
@@ -12302,7 +12321,7 @@
     "year": "1872",
     "publication": "Demons",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9781985793736",
@@ -12362,7 +12381,8 @@
         "relevance": 0.3167
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0180",
@@ -12406,7 +12426,7 @@
       {
         "tag": "humanity",
         "weight": 0.51,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.51
       },
       {
@@ -12434,7 +12454,8 @@
         "relevance": 0.32
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/41108162"
+    "goodreads_url": "https://www.goodreads.com/book/show/41108162",
+    "book_description": "Inspired by the true story of a political murder that horrified Russians in 1869, Fyodor Dostoevsky conceived of *Demons* as a \"novel-pamphlet\" in which he would say everything about the plague of materialist ideology that he saw infecting his native land."
   },
   {
     "id": "quote_0181",
@@ -14306,13 +14327,13 @@
     "filename_stem": "gustav-flaubert-01",
     "quote": "Exuberance is better than taste.",
     "author": "Gustav Flaubert",
-    "year": null,
+    "year": "2007",
     "publication": "The Making of Mona",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "book_author": "Adrian Franklin",
-    "isbn": null,
+    "isbn": "9780132008037",
     "cover_url": "covers/the-making-of-mona.jpg",
     "_flickr_id": "53561234039",
     "_match_score": 70,
@@ -14390,7 +14411,8 @@
         "relevance": 0.31
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "id": "quote_0213",
@@ -14447,7 +14469,8 @@
         "relevance": 0.5636
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "id": "quote_0214",
@@ -14831,7 +14854,8 @@
         "relevance": 0.2767
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/36382468-the-senses"
+    "goodreads_url": "https://www.goodreads.com/book/show/36382468-the-senses",
+    "book_description": "A powerful reminder to anyone who thinks design is primarily a visual pursuit, *The Senses* accompanies a major exhibition at the Cooper-Hewitt Smithsonian Design Museum that explores how space, materials, sound, and light affect the mind and body.  Learn how contemporary designers, including Petra Blaisse, Bruce Mau, Malin+Goetz and many others, engage sensory experience."
   },
   {
     "id": "quote_0220",
@@ -16895,7 +16919,8 @@
         "relevance": 0.5
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/41020533"
+    "goodreads_url": "https://www.goodreads.com/book/show/41020533",
+    "book_description": "A collection of 20 short stories written by Italo Calvino.  It was initially published, in 1963, as *Marcovaldo ovvero Le stagioni in città*."
   },
   {
     "id": "quote_0254",
@@ -18151,7 +18176,8 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/38461.Tell_Me_How_Long_the_Train_s_Been_Gone"
+    "goodreads_url": "https://www.goodreads.com/book/show/38461.Tell_Me_How_Long_the_Train_s_Been_Gone",
+    "book_description": "At the height of his theatrical career, the actor Leo Proudhammer is nearly felled by a heart attack. As he hovers between life and death, Baldwin shows the choices that have made him enviably famous and terrifyingly vulnerable."
   },
   {
     "id": "quote_0269",
@@ -18198,7 +18224,7 @@
       {
         "tag": "humanity",
         "weight": 0.5385,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5385
       },
       {
@@ -18239,7 +18265,8 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/38461.Tell_Me_How_Long_the_Train_s_Been_Gone"
+    "goodreads_url": "https://www.goodreads.com/book/show/38461.Tell_Me_How_Long_the_Train_s_Been_Gone",
+    "book_description": "At the height of his theatrical career, the actor Leo Proudhammer is nearly felled by a heart attack. As he hovers between life and death, Baldwin shows the choices that have made him enviably famous and terrifyingly vulnerable."
   },
   {
     "id": "quote_0270",
@@ -20291,14 +20318,14 @@
     "filename_stem": "jmw-turner",
     "quote": "My business is to paint what I see, not what I know is there.",
     "author": "J.M.W. Turner",
-    "year": "2012",
-    "publication": "The Life and Masterworks of J.M.W. Turner",
+    "year": "1997",
+    "publication": "Steps Towards a Small Theory of the Visible",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
-    "book_author": "Eric Shanes",
+    "book_author": "John Berger",
     "isbn": null,
-    "cover_url": "covers/the-life-and-masterworks-of-jmw-turner.jpg",
+    "cover_url": "covers/steps-towards-a-small-theory-of-the-visible.jpg",
     "_flickr_id": "52629971773",
     "tags": [
       "book",
@@ -20334,12 +20361,6 @@
         "relevance": 0.5
       },
       {
-        "tag": "painting",
-        "weight": 0.3737,
-        "corpus_score": 0.448,
-        "relevance": 0.5583
-      },
-      {
         "tag": "art",
         "weight": 1
       },
@@ -20348,7 +20369,8 @@
         "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/27878003-the-life-and-masterworks-of-j-m-w-turner?ref=nav_sb_ss_4_22"
+    "goodreads_url": "In this series of remarkable pieces from across his career, John Berger celebrates and dissects the close links between art and society and the individual. Few writers give a more vivid and moving sense of how we make art and how art makes us.",
+    "book_description": "In this series of remarkable pieces from across his career, John Berger celebrates and dissects the close links between art and society and the individual. Few writers give a more vivid and moving sense of how we make art and how art makes us."
   },
   {
     "id": "quote_0298",
@@ -20449,7 +20471,8 @@
         "relevance": 0.3346
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket"
+    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket",
+    "book_description": "From Booker Prize-winning author John Berger, a collection of essays that explores the relationship of art and artists and includes examinations of the work of Brancusi, Degas, Michelangelo, and Frida Kahlo, among others. The pocket in question is a small pocket of resistance."
   },
   {
     "id": "quote_0299",
@@ -20667,7 +20690,8 @@
       }
     ],
     "book_author": null,
-    "goodreads_url": "https://www.goodreads.com/book/show/30291141"
+    "goodreads_url": "https://www.goodreads.com/book/show/30291141",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "id": "quote_0302",
@@ -29087,7 +29111,7 @@
         "tag": "monsters",
         "weight": 0.5649,
         "corpus_score": 0.3191,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "monster",
@@ -29126,7 +29150,8 @@
         "relevance": 0.9286
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/33651446-beyond-good-and-evil"
+    "goodreads_url": "https://www.goodreads.com/book/show/33651446-beyond-good-and-evil",
+    "book_description": "A book by philosopher Friedrich Nietzsche that covers ideas in his previous work *Thus Spoke Zarathustra* but with a more polemical approach.  It was first published in 1886."
   },
   {
     "id": "quote_0418",
@@ -31371,13 +31396,13 @@
     "filename_stem": "rimbaud-03",
     "quote": "Science, the new nobility! Progress. The world marches on! Why shouldn’t it turn?",
     "author": "Arthur Rimbaud",
-    "year": "1991",
-    "publication": "A Season in Hell",
+    "year": "1872",
+    "publication": "A Season in Hell and The Drunken Boat",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
-    "isbn": "9780679643272",
+    "isbn": null,
     "book_title": "A Season in Hell & Illuminations",
     "publisher": "Modern Library",
     "open_library_key": "/works/OL15399819W",
@@ -31403,7 +31428,7 @@
         "tag": "science",
         "weight": 0.7989,
         "corpus_score": 0.6383,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "the world",
@@ -31422,15 +31447,10 @@
         "weight": 0.5178,
         "corpus_score": 0.8864,
         "relevance": 0.55
-      },
-      {
-        "tag": "nobility",
-        "weight": 0.3728,
-        "corpus_score": 0.1596,
-        "relevance": 0.9333
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/168496"
+    "goodreads_url": "https://www.goodreads.com/book/show/128461.A_Season_in_Hell_and_The_Drunken_Boat?ref=nav_sb_ss_1_16",
+    "book_description": "Although Arthur Rimbaud stopped writing at the age of 19, he possessed the most revolutionary talent of the century. His poetry & prose have increasingly influenced major writers."
   },
   {
     "id": "quote_0450",
@@ -32247,7 +32267,8 @@
         "relevance": 0.325
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/1848905.Preface_to_Shakespeare"
+    "goodreads_url": "https://www.goodreads.com/book/show/1848905.Preface_to_Shakespeare",
+    "book_description": "A critical analysis and commentary on the works of William Shakespeare, written in the mid-18th century. Johnson delves into Shakespeare's literary merit, his understanding of human nature, and the nuances of his storytelling, while also promoting an appreciation for the playwright's timeless relevance in both literature and society."
   },
   {
     "id": "quote_0463",
@@ -33178,7 +33199,7 @@
     "filename_stem": "shitao",
     "quote": "The brush is for saving things from chaos.",
     "author": "Shitao",
-    "year": null,
+    "year": "2001",
     "publication": "The Shape of a Pocket",
     "notes": "Text converted from all caps to sentence case.",
     "confidence": 1,
@@ -33249,7 +33270,8 @@
       }
     ],
     "cover_url": "covers/the-shape-of-a-pocket.jpg",
-    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket"
+    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket",
+    "book_description": "From Booker Prize-winning author John Berger, a collection of essays that explores the relationship of art and artists and includes examinations of the work of Brancusi, Degas, Michelangelo, and Frida Kahlo, among others. The pocket in question is a small pocket of resistance."
   },
   {
     "id": "quote_0479",
@@ -40779,10 +40801,11 @@
       }
     ],
     "id": "quote_0592",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/29397486-conclave"
+    "goodreads_url": "https://www.goodreads.com/book/show/29397486-conclave",
+    "book_description": "*Conclave* is a 2016 novel by British writer Robert Harris.  The book is set in the context of the death of a pope and the subsequent papal conclave to elect his successor."
   },
   {
     "quote": "Nothing from nature is good or bad. Natural things just are; the only good and bad things are people’s various choices in the face of what is.",
@@ -42152,10 +42175,11 @@
       }
     ],
     "id": "quote_0623",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011"
+    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011",
+    "book_description": "*The Denial of Death* is a 1973 book by American cultural anthropologist Ernest Becker which discusses the psychological and philosophical implications of how people and cultures have reacted to the concept of death.  The author argues most human action is taken to ignore or avoid the inevitability of death."
   },
   {
     "quote": "Falsehood is the jockey of misfortune.",
@@ -42373,7 +42397,8 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/9484.Within_a_Budding_Grove?ref=nav_sb_ss_2_22"
+    "goodreads_url": "https://www.goodreads.com/book/show/9484.Within_a_Budding_Grove?ref=nav_sb_ss_2_22",
+    "book_description": "A novel in seven volumes by French author Marcel Proust.  This early twentieth-century work is his most prominent, known for both its length and its theme of involuntary memory."
   },
   {
     "quote": "The hand is the visible part of the brain.",
@@ -43007,10 +43032,11 @@
       }
     ],
     "id": "quote_0647",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/7802296-homage-to-catalonia-down-and-out-in-paris-and-london"
+    "goodreads_url": "https://www.goodreads.com/book/show/7802296-homage-to-catalonia-down-and-out-in-paris-and-london",
+    "book_description": "The first full-length work by the English author George Orwell, published in 1933.  It is a memoir in two parts on the theme of poverty in the two cities."
   },
   {
     "quote": "Presence does not come for free. We achieve presence. We act it out.",
@@ -46086,10 +46112,11 @@
       }
     ],
     "id": "quote_0718",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket"
+    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket",
+    "book_description": "From Booker Prize-winning author John Berger, a collection of essays that explores the relationship of art and artists and includes examinations of the work of Brancusi, Degas, Michelangelo, and Frida Kahlo, among others. The pocket in question is a small pocket of resistance."
   },
   {
     "quote": "Everybody knows that pestilences have a way of recurring in the world; yet somehow we find it hard to believe in ones that crash down on our heads from a blue sky.",
@@ -46326,10 +46353,11 @@
       }
     ],
     "id": "quote_0724",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011"
+    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011",
+    "book_description": "*The Denial of Death* is a 1973 book by American cultural anthropologist Ernest Becker which discusses the psychological and philosophical implications of how people and cultures have reacted to the concept of death.  The author argues most human action is taken to ignore or avoid the inevitability of death."
   },
   {
     "quote": "The room was a study in stupidity.",
@@ -46615,7 +46643,8 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://wilcostore.com/products/lyrics-vol-2-book"
+    "goodreads_url": "https://wilcostore.com/products/lyrics-vol-2-book",
+    "book_description": "Jeff Tweedy's groundbreaking lyrics are beautifully bound in a hardcover book, featuring 83 songs written from 1991 to 2025."
   },
   {
     "quote": "Only a people serving an apprenticeship to nature can be trusted with machines.",
@@ -47718,10 +47747,11 @@
       }
     ],
     "id": "quote_0757",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "quote": "...juxtaposition resonates more than order. Order is an end in itself while resonance hints at or suggests something new.",
@@ -47764,10 +47794,11 @@
       }
     ],
     "id": "quote_0758",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "quote": "Generate surprise and discovery by arousing curiosity and rewarding exploration – not just about individual items but about larger questions.",
@@ -47822,10 +47853,11 @@
       }
     ],
     "id": "quote_0759",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona"
+    "goodreads_url": "https://www.goodreads.com/book/show/23515515-the-making-of-mona",
+    "book_description": "*The Making of MONA* collects anecdotes and images about the making of the Museum of Old and New Art. It dismantles the dismissive view of David Walsh as an eccentric millionaire-genius."
   },
   {
     "quote": "I know not whether Laws be right, / Or whether Laws be wrong; /\nAll that we know who lie in jail / Is that the wall is strong;",
@@ -48198,10 +48230,11 @@
       }
     ],
     "id": "quote_0768",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket"
+    "goodreads_url": "https://www.goodreads.com/book/show/52941.The_Shape_of_a_Pocket",
+    "book_description": "From Booker Prize-winning author John Berger, a collection of essays that explores the relationship of art and artists and includes examinations of the work of Brancusi, Degas, Michelangelo, and Frida Kahlo, among others. The pocket in question is a small pocket of resistance."
   },
   {
     "quote": "I like to live on the edge of the possible.",
@@ -48772,10 +48805,11 @@
       }
     ],
     "id": "quote_0784",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/50416393-the-99-invisible-city"
+    "goodreads_url": "https://www.goodreads.com/book/show/50416393-the-99-invisible-city",
+    "book_description": "Details the origins, engineering, and design of common urban elements, including utility infrastructure, signage, and buildings."
   },
   {
     "quote": "It is iron and wheat which first civilized men and ruined the human race.",
@@ -48988,10 +49022,11 @@
       }
     ],
     "id": "quote_0790",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011"
+    "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011",
+    "book_description": "*The Denial of Death* is a 1973 book by American cultural anthropologist Ernest Becker which discusses the psychological and philosophical implications of how people and cultures have reacted to the concept of death.  The author argues most human action is taken to ignore or avoid the inevitability of death."
   },
   {
     "quote": "Efficiency is a measure of cost. Effectiveness is a measure of outcome.",
@@ -49156,10 +49191,11 @@
       }
     ],
     "id": "quote_0795",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/209929008-the-archaic-revival-by-terence-mckenna"
+    "goodreads_url": "https://www.goodreads.com/book/show/209929008-the-archaic-revival-by-terence-mckenna",
+    "book_description": "A student of Tibetan shamanism, virtual reality, and the botany of the Amazon, McKenna is a legendary raconteur, adventurer, and proponent of the use of the psilocybin mushroom who claims that hallucinogenic plants are a key to our evolution as a language-using species."
   },
   {
     "quote": "A revolution without firing squads is meaningless.",
@@ -49972,10 +50008,11 @@
       }
     ],
     "id": "quote_0821",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life"
+    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life",
+    "book_description": "This small book, richly illustrated and written for a general audience, offers a deep and surprising answer, drawing on decades of theory and existing literature as well as recent experiments in artificial life. Beginning with ideas developed by Alan Turing and John von Neumann in the mid-twentieth century, Agüera y Arcas shows how self-reproduction, hence life, is inherently computational."
   },
   {
     "quote": "Matter subject to random forces is supposed to become more random, not less. Yet by growing, reproducing, evolving, and indeed by existing at all, life seems to violate this principle.",
@@ -50011,7 +50048,8 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life"
+    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life",
+    "book_description": "This small book, richly illustrated and written for a general audience, offers a deep and surprising answer, drawing on decades of theory and existing literature as well as recent experiments in artificial life. Beginning with ideas developed by Alan Turing and John von Neumann in the mid-twentieth century, Agüera y Arcas shows how self-reproduction, hence life, is inherently computational."
   },
   {
     "quote": "Our growing understanding of life as a self-reinforcing dynamical process boils down not to things, but to networks of mutually beneficial relationships.",
@@ -50052,10 +50090,11 @@
       }
     ],
     "id": "quote_0823",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life"
+    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life",
+    "book_description": "This small book, richly illustrated and written for a general audience, offers a deep and surprising answer, drawing on decades of theory and existing literature as well as recent experiments in artificial life. Beginning with ideas developed by Alan Turing and John von Neumann in the mid-twentieth century, Agüera y Arcas shows how self-reproduction, hence life, is inherently computational."
   },
   {
     "quote": "Man is a gaming animal.",
@@ -50120,10 +50159,11 @@
       }
     ],
     "id": "quote_0825",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life"
+    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life",
+    "book_description": "This small book, richly illustrated and written for a general audience, offers a deep and surprising answer, drawing on decades of theory and existing literature as well as recent experiments in artificial life. Beginning with ideas developed by Alan Turing and John von Neumann in the mid-twentieth century, Agüera y Arcas shows how self-reproduction, hence life, is inherently computational."
   },
   {
     "quote": "A page of neat and tidy typed text in long paragraphs is the least memorable format known.",
@@ -50188,10 +50228,11 @@
       }
     ],
     "id": "quote_0827",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life"
+    "goodreads_url": "https://www.goodreads.com/book/show/222531818-what-is-life",
+    "book_description": "This small book, richly illustrated and written for a general audience, offers a deep and surprising answer, drawing on decades of theory and existing literature as well as recent experiments in artificial life. Beginning with ideas developed by Alan Turing and John von Neumann in the mid-twentieth century, Agüera y Arcas shows how self-reproduction, hence life, is inherently computational."
   },
   {
     "quote": "It really is a very odd business that all of us, to varying degrees, have music in our heads.",
@@ -50244,10 +50285,11 @@
       }
     ],
     "id": "quote_0829",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16",
+    "book_description": "Henry Oliver is a rare smart, funny and insightful. *Second Act* showcases his wide reading, deep understanding and playful prose style. Read this book to discover why it's never too late for a second act in your own life."
   },
   {
     "quote": "Sometimes it is the body which is the first to surrender to old age, sometimes the soul.",
@@ -50280,10 +50322,11 @@
       }
     ],
     "id": "quote_0830",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16",
+    "book_description": "Henry Oliver is a rare smart, funny and insightful. *Second Act* showcases his wide reading, deep understanding and playful prose style. Read this book to discover why it's never too late for a second act in your own life."
   },
   {
     "quote": "All rising to great places is by a winding stair.",
@@ -50304,10 +50347,11 @@
       }
     ],
     "id": "quote_0831",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16",
+    "book_description": "Henry Oliver is a rare smart, funny and insightful. *Second Act* showcases his wide reading, deep understanding and playful prose style. Read this book to discover why it's never too late for a second act in your own life."
   },
   {
     "quote": "Those sciences are vain and full of error, which are not born of experience.",
@@ -50340,10 +50384,11 @@
       }
     ],
     "id": "quote_0832",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16",
+    "book_description": "Henry Oliver is a rare smart, funny and insightful. *Second Act* showcases his wide reading, deep understanding and playful prose style. Read this book to discover why it's never too late for a second act in your own life."
   },
   {
     "quote": "A mistake is an event, the full benefit of which has not yet been turned to your advantage.",
@@ -50376,10 +50421,11 @@
       }
     ],
     "id": "quote_0833",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16",
+    "book_description": "Henry Oliver is a rare smart, funny and insightful. *Second Act* showcases his wide reading, deep understanding and playful prose style. Read this book to discover why it's never too late for a second act in your own life."
   },
   {
     "quote": "He that runs against Time, has an antagonist not subject to casualties.",
@@ -50408,10 +50454,11 @@
       }
     ],
     "id": "quote_0834",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16"
+    "goodreads_url": "https://www.goodreads.com/book/show/201064797-second-act?ref=nav_sb_ss_2_16",
+    "book_description": "Henry Oliver is a rare smart, funny and insightful. *Second Act* showcases his wide reading, deep understanding and playful prose style. Read this book to discover why it's never too late for a second act in your own life."
   },
   {
     "quote": "Any man will learn as much from his enemies as from his friends. They keep him in fighting trim.",
@@ -52107,9 +52154,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/253077.Disabling_Professions",
     "id": "quote_0889",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "This fascinating and controversial collection of essays challenges the power and the mystique of the modern professions."
   },
   {
     "quote": "...it’s often the most insignificant that produce the greatest impression on people, rather than the most important ones.",
@@ -53257,7 +53305,8 @@
     "id": "quote_0925",
     "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "The first full-length work by the English author George Orwell, published in 1933.  It is a memoir in two parts on the theme of poverty in the two cities."
   },
   {
     "quote": "I regard it as stupid to be anti-technology. That would be something like being anti-food. We need technology to live, as we need food to live...",
@@ -54890,7 +54939,7 @@
     "notes": ""
   },
   {
-    "quote": "The friends who met here and embraced are gone, / Each to his own mistake;",
+    "quote": "The friends who met here and embraced are gone, / Each to his own mistake",
     "author": "W.H. Auden",
     "publication": "Amsterdam",
     "year": "1998",
@@ -54917,7 +54966,7 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/6862.Amsterdam",
     "id": "quote_0977",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": ""
   },
@@ -55481,9 +55530,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/30291141",
     "id": "quote_0994",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "quote": "Any step taken is likely to be a mistake, so take it with style and distract from the probable shit.",
@@ -55513,9 +55563,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/30291141",
     "id": "quote_0995",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "quote": "Flamenco performers often talk about *duende*. Duende is a quality, a resonance which makes a performance unforgettable.",
@@ -55545,9 +55596,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/30291141",
     "id": "quote_0996",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "quote": "To enter most buildings money—or evidence of money—is required.",
@@ -55577,9 +55629,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/30291141",
     "id": "quote_0997",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "quote": "Freedom is always the freedom of the one who thinks differently.",
@@ -55609,9 +55662,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/30291141",
     "id": "quote_0998",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "quote": "...time is not linear but circular. Our lives are not points in a line... We are not points on a line; rather, we are the centres of circles.",
@@ -55641,9 +55695,10 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/30291141",
     "id": "quote_0999",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
-    "notes": ""
+    "notes": "",
+    "book_description": "John Berger's work has revolutionized the way we understand visual language. In *Confabulations* he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today."
   },
   {
     "quote": "For progress there is no cure",
