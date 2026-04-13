@@ -56380,5 +56380,125 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "The facts of life do not penetrate to the sphere in which our beliefs are cherished...",
+    "author": "Marcel Proust",
+    "publication": "In Search of Lost Time: Swann's Way",
+    "year": "1913",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/in-search-of-lost-time-swanns-way.jpg",
+    "weighted_tags": [
+      {
+        "tag": "belief",
+        "weight": 1
+      },
+      {
+        "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/12749.Swann_s_Way",
+    "id": "quote_1024",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the memory of a particular image is but regret for a particular moment; and houses, roads, avenues are as fugitive, alas, as the years.",
+    "author": "Marcel Proust",
+    "publication": "In Search of Lost Time: Swann's Way",
+    "year": "1913",
+    "isbn": null,
+    "book_author": "Marcel Proust",
+    "cover_url": "covers/in-search-of-lost-time-swanns-way.jpg",
+    "weighted_tags": [
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/12749.Swann_s_Way",
+    "id": "quote_1025",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "…the courage of one’s opinions is always a form of calculating cowardice in the eyes of the other side...",
+    "author": "Marcel Proust",
+    "publication": "In Search of Lost Time: Swann's Way",
+    "year": "1913",
+    "isbn": null,
+    "book_author": "Marcel Proust",
+    "cover_url": "covers/in-search-of-lost-time-swanns-way.jpg",
+    "weighted_tags": [
+      {
+        "tag": "opinion",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "cowardice",
+        "weight": 1
+      },
+      {
+        "tag": "the other",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/12749.Swann_s_Way",
+    "id": "quote_1026",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It’s so calming to be able to form a clear picture of things in one’s mind. What is really terrible is what one can’t imagine.",
+    "author": "Marcel Proust",
+    "publication": "In Search of Lost Time: Swann's Way",
+    "year": "1913",
+    "isbn": null,
+    "book_author": "Marcel Proust",
+    "cover_url": "covers/in-search-of-lost-time-swanns-way.jpg",
+    "weighted_tags": [
+      {
+        "tag": "imagination",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "the mind",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/12749.Swann_s_Way",
+    "id": "quote_1027",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
