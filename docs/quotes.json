@@ -55888,5 +55888,497 @@
     "needs_review": false,
     "notes": "",
     "book_description": "A groundbreaking work of science fiction, *The Left Hand of Darkness* tells the story of a lone human emissary to Winter, an alien world whose inhabitants spend most of their time without a gender. His goal is to facilitate Winter's inclusion in a growing intergalactic civilization. But to do so he must bridge the gulf between his own views and those of the completely dissimilar culture that he encounters."
+  },
+  {
+    "quote": "Unk, the big trouble with dumb bastards is that they are too dumb to believe there is such a thing as being smart.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "The Sirens of Titan",
+    "year": "1959",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-sirens-of-titan.jpg",
+    "weighted_tags": [
+      {
+        "tag": "stupidity",
+        "weight": 1
+      },
+      {
+        "tag": "belief",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/4982.The_Sirens_of_Titan",
+    "id": "quote_1008",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I can think of no more stirring symbol of man’s humanity to man than a fire engine.",
+    "author": "Kurt Vonnegut Jr.",
+    "publication": "The Sirens of Titan",
+    "year": "1959",
+    "isbn": null,
+    "book_author": "Kurt Vonnegut Jr.",
+    "cover_url": "covers/the-sirens-of-titan.jpg",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "humankind",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/4982.The_Sirens_of_Titan",
+    "id": "quote_1009",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is sometimes said that every person dies twice: the first time when he dies, and the second when he is forgotten by the last survivor from his own time...",
+    "author": "Geert Mak",
+    "publication": "Amsterdam: A Brief Life of the City",
+    "year": "1994",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/amsterdam-a-brief-life-of-the-city.jpg",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/579113.Amsterdam",
+    "id": "quote_1010",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...art should be concerned with discovery: that is to say with interpreting aspects of reality which up to the present had been ignored, excluded or inadequately treated.",
+    "author": "John Berger",
+    "publication": "Art and Revolution: Ernst Neizvestny, Endurance, and...",
+    "year": "1969",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/art-and-revolution-ernst-neizvestny-endurance-and-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "discovery",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/304870.Art_and_Revolution",
+    "id": "quote_1011",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We will trample the fence of time beneath our feet. / \nWe will make a musical scale of the rainbow.",
+    "author": "Vladimir Mayakovsky",
+    "publication": "Art and Revolution: Ernst Neizvestny, Endurance, and...",
+    "year": "1969",
+    "isbn": null,
+    "book_author": "John Berger",
+    "cover_url": "covers/art-and-revolution-ernst-neizvestny-endurance-and-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/304870.Art_and_Revolution",
+    "id": "quote_1012",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The thousand-paged book of time / says nothing about the days of revolution. /\nFuturists, dreamers, poets, / come out into the street.",
+    "author": "Vladimir Mayakovsky",
+    "publication": "Art and Revolution: Ernst Neizvestny, Endurance, and...",
+    "year": "1969",
+    "isbn": null,
+    "book_author": "John Berger",
+    "cover_url": "covers/art-and-revolution-ernst-neizvestny-endurance-and-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/304870.Art_and_Revolution",
+    "id": "quote_1013",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...if the artist thinks of the people, they must think of the artist: great art is always the result of such reciprocal identification.",
+    "author": "Jacques Lipchitz",
+    "publication": "Art and Revolution: Ernst Neizvestny, Endurance, and...",
+    "year": "1969",
+    "isbn": null,
+    "book_author": "John Berger",
+    "cover_url": "covers/art-and-revolution-ernst-neizvestny-endurance-and-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "artists",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/304870.Art_and_Revolution",
+    "id": "quote_1014",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...the artist... is no longer valued as the producer of his work, but for the quality of his vision and imagination as expressed in his work.",
+    "author": "John Berger",
+    "publication": "Art and Revolution: Ernst Neizvestny, Endurance, and...",
+    "year": "1969",
+    "isbn": null,
+    "book_author": "John Berger",
+    "cover_url": "covers/art-and-revolution-ernst-neizvestny-endurance-and-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "artist",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/304870.Art_and_Revolution",
+    "id": "quote_1015",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Truths are not constantly evident in the circumstances to which they refer. They are born—sometimes late.",
+    "author": "John Berger",
+    "publication": "Art and Revolution: Ernst Neizvestny, Endurance, and...",
+    "year": "1969",
+    "isbn": null,
+    "book_author": "John Berger",
+    "cover_url": "covers/art-and-revolution-ernst-neizvestny-endurance-and-.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/304870.Art_and_Revolution",
+    "id": "quote_1016",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Truth is the daughter of time.",
+    "author": "Leonard da Vinci",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "falsehood",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1017",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...you need stylization, invention, poetry, and imagination to locate a deeper layer of truth, one that can access a distant echo of something that can illuminate us, far beyond the reach of fact.",
+    "author": "Werner Herzog",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      },
+      {
+        "tag": "interpretation",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1018",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I alter the facts so that they resemble truth more than reality.",
+    "author": "André Gide",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1019",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The collapse of the stellar universe will occur—like creation—in grandiose splendor.",
+    "author": "Blaise Pascal",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "collapse",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1020",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When young directors come to me, I tell them: Read, read, read, read, read... If you don’t read, you’ll never make anything great.",
+    "author": "Werner Herzog",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "advice",
+        "weight": 1
+      },
+      {
+        "tag": "direction",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1021",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "I have had my deepest experiences of reality, of the world, on foot. In a single sentence: The world reveals itself to those who travel on foot.",
+    "author": "Werner Herzog",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "the world",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "wandering",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1022",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Truth has no future, but truth has no past either. But we will not, must not, cannot, give up the search for it.",
+    "author": "Werner Herzog",
+    "publication": "The Future of Truth",
+    "year": "2024",
+    "isbn": null,
+    "book_author": "Wernor Herzog",
+    "cover_url": "covers/the-future-of-truth.jpg",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "searching",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/221443624-the-future-of-truth",
+    "id": "quote_1023",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]
