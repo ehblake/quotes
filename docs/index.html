@@ -3519,11 +3519,17 @@
           const textarea = e.target;
           const start = textarea.selectionStart;
           const end = textarea.selectionEnd;
-          // Replace straight apostrophes with curly (using Unicode escape for safety)
-          if (textarea.value.includes("'")) {
-            textarea.value = textarea.value.replace(/'/g, '\u2019');
-            // Restore cursor position
-            textarea.setSelectionRange(start, end);
+          // Convert straight apostrophes/quotes to curly, picking opening vs closing by context
+          const val = textarea.value;
+          if (val.includes("'") || val.includes('"')) {
+            const isOpeningContext = (prev) => !prev || /[\s(\[{<—–\-]/.test(prev);
+            const converted = val
+              .replace(/'/g, (m, offset, s) => isOpeningContext(s[offset - 1]) ? '\u2018' : '\u2019')
+              .replace(/"/g, (m, offset, s) => isOpeningContext(s[offset - 1]) ? '\u201C' : '\u201D');
+            if (converted !== val) {
+              textarea.value = converted;
+              textarea.setSelectionRange(start, end);
+            }
           }
         });
       }
