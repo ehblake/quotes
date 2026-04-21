@@ -2099,7 +2099,7 @@
       "society",
       "control"
     ],
-    "book_author": null,
+    "book_author": "Alva Noë",
     "weighted_tags": [
       {
         "tag": "rules",
@@ -9160,7 +9160,7 @@
     "open_library_key": null,
     "catalog_notes": "No results found in Open Library",
     "cover_url": "covers/war-and-peace-in-the-global-village.webp",
-    "book_author": null,
+    "book_author": "Marshall McLuhan",
     "tags": [
       "society",
       "civilisation",
@@ -9173,7 +9173,7 @@
         "tag": "society",
         "weight": 0.9985,
         "corpus_score": 0.997,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "stupidity",
@@ -17537,34 +17537,16 @@
     ],
     "weighted_tags": [
       {
-        "tag": "technology",
-        "weight": 0.5084,
-        "corpus_score": 0.8864,
-        "relevance": 0.54
+        "tag": "humanity",
+        "weight": 1
       },
       {
-        "tag": "thinking",
-        "weight": 0.5044,
-        "corpus_score": 0.783,
-        "relevance": 0.57
+        "tag": "language",
+        "weight": 1
       },
       {
-        "tag": "literature",
-        "weight": 0.4125,
-        "corpus_score": 0.5058,
-        "relevance": 0.58
-      },
-      {
-        "tag": "machines",
-        "weight": 0.3648,
-        "corpus_score": 0.448,
-        "relevance": 0.545
-      },
-      {
-        "tag": "speed",
-        "weight": 0.2297,
-        "corpus_score": 0.1596,
-        "relevance": 0.575
+        "tag": "words",
+        "weight": 1
       }
     ],
     "book_author": null,
@@ -17580,7 +17562,7 @@
     "year": "1986",
     "publication": "Six Memos for the Next Millennium",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780141189697",
@@ -17629,46 +17611,11 @@
         "weight": 0.3861,
         "corpus_score": 0.1596,
         "relevance": 0.9667
-      },
-      {
-        "tag": "immeasurable",
-        "weight": 0.3762,
-        "corpus_score": 0.1596,
-        "relevance": 0.9417
-      },
-      {
-        "tag": "goal",
-        "weight": 0.2929,
-        "corpus_score": 0.1596,
-        "relevance": 0.7333
-      },
-      {
-        "tag": "six memos",
-        "weight": 0.2297,
-        "corpus_score": 0.1596,
-        "relevance": 0.575
-      },
-      {
-        "tag": "italo calvino",
-        "weight": 0.2231,
-        "corpus_score": 0.448,
-        "relevance": 0.3333
-      },
-      {
-        "tag": "plan",
-        "weight": 0.2097,
-        "corpus_score": 0.1596,
-        "relevance": 0.525
-      },
-      {
-        "tag": "function",
-        "weight": 0.2064,
-        "corpus_score": 0.1596,
-        "relevance": 0.5167
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/6314113",
-    "book_description": "*Six Memos for the Next Millennium* is a collection of five lectures by Italo Calvino, crafted for the Charles Eliot Norton Lectures at Harvard but left undelivered due to his untimely death. Each lecture explores a vital literary quality—lightness, quickness, exactitude, visibility, and multiplicity—offering a timeless defense of literature's enduring value."
+    "book_description": "*Six Memos for the Next Millennium* is a collection of five lectures by Italo Calvino, crafted for the Charles Eliot Norton Lectures at Harvard but left undelivered due to his untimely death. Each lecture explores a vital literary quality—lightness, quickness, exactitude, visibility, and multiplicity—offering a timeless defense of literature's enduring value.",
+    "book_author": null
   },
   {
     "id": "quote_0261",
@@ -27308,7 +27255,7 @@
         "relevance": 0.2808
       }
     ],
-    "book_author": null,
+    "book_author": "Neil Postman",
     "goodreads_url": "https://www.goodreads.com/book/show/195736640",
     "book_description": "*Amusing Ourselves to Death* is a 1985 book by sociologist Neil Postman that explores the detrimental effects of television and entertainment on public discourse. Postman argues that as politics, journalism, education, and religion become influenced by entertainment, society risks losing depth and meaningful communication."
   },
@@ -38844,7 +38791,7 @@
     "id": "quote_0548",
     "source_image": "william-shakespeare.jpg",
     "filename_stem": "william-shakespeare",
-    "quote": "Therefore, since brevity is the soul of wit, and tediousness, the limbs and outward flourishes, I will be brief. Your noble son is mad:",
+    "quote": "Therefore, since brevity is the soul of wit, and tediousness, the limbs and outward flourishes, I will be brief. Your noble son is mad",
     "author": "William Shakespeare",
     "year": "1601",
     "publication": "Hamlet",
@@ -38881,7 +38828,7 @@
         "tag": "brevity",
         "weight": 0.5029,
         "corpus_score": 0.2529,
-        "relevance": 1.0
+        "relevance": 1
       },
       {
         "tag": "madness",
@@ -55884,7 +55831,7 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/6314113",
     "id": "quote_0991",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "book_description": "*Six Memos for the Next Millennium* is a collection of five lectures by Italo Calvino, crafted for the Charles Eliot Norton Lectures at Harvard but left undelivered due to his untimely death. Each lecture explores a vital literary quality—lightness, quickness, exactitude, visibility, and multiplicity—offering a timeless defense of literature's enduring value."
