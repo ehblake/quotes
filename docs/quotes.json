@@ -7180,7 +7180,7 @@
     "year": "2018",
     "publication": "Bullshit Jobs",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9791020907363",
@@ -7217,38 +7217,13 @@
         "relevance": 0.94
       },
       {
-        "tag": "work",
-        "weight": 0.4734,
-        "corpus_score": 0.6897,
-        "relevance": 0.57
-      },
-      {
-        "tag": "clocks",
-        "weight": 0.3675,
-        "corpus_score": 0.1596,
-        "relevance": 0.92
-      },
-      {
-        "tag": "jobs",
-        "weight": 0.3348,
-        "corpus_score": 0.3705,
-        "relevance": 0.55
-      },
-      {
-        "tag": "david graeber",
-        "weight": 0.2347,
-        "corpus_score": 0.5058,
-        "relevance": 0.33
-      },
-      {
-        "tag": "estimation",
-        "weight": 0.2037,
-        "corpus_score": 0.1596,
-        "relevance": 0.51
+        "tag": "making",
+        "weight": 1
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/50812391",
-    "book_description": "*Bullshit Jobs* by David Graeber is a 2018 book that explores the prevalence and psychological impact of meaningless jobs in modern society. Graeber categorizes these roles into five types—flunkies, goons, duct tapers, box tickers, and taskmasters—and advocates for universal basic income as a solution to liberate individuals from pointless work."
+    "book_description": "*Bullshit Jobs* by David Graeber is a 2018 book that explores the prevalence and psychological impact of meaningless jobs in modern society. Graeber categorizes these roles into five types—flunkies, goons, duct tapers, box tickers, and taskmasters—and advocates for universal basic income as a solution to liberate individuals from pointless work.",
+    "book_author": null
   },
   {
     "id": "quote_0103",
@@ -10116,7 +10091,7 @@
     "year": "1975",
     "publication": "Escape From Evil",
     "notes": "",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "catalog_searched": true,
     "isbn": "9780029024508",
@@ -10161,22 +10136,11 @@
         "weight": 0.3645,
         "corpus_score": 0.1596,
         "relevance": 0.9125
-      },
-      {
-        "tag": "magical",
-        "weight": 0.2197,
-        "corpus_score": 0.1596,
-        "relevance": 0.55
-      },
-      {
-        "tag": "ernest becker",
-        "weight": 0.1978,
-        "corpus_score": 0.3705,
-        "relevance": 0.325
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/162757",
-    "book_description": "*Escape From Evil* by Ernest Becker delves into the anthropological and psychological roots of human violence and the concept of evil. It examines how cultural and societal structures are built to mitigate the existential fear of death, often resulting in destructive behaviors."
+    "book_description": "*Escape From Evil* by Ernest Becker delves into the anthropological and psychological roots of human violence and the concept of evil. It examines how cultural and societal structures are built to mitigate the existential fear of death, often resulting in destructive behaviors.",
+    "book_author": null
   },
   {
     "id": "quote_0146",
@@ -10211,12 +10175,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "life",
-        "weight": 0.5566,
-        "corpus_score": 0.9877,
-        "relevance": 0.56
-      },
-      {
         "tag": "existence",
         "weight": 0.5233,
         "corpus_score": 0.9747,
@@ -10229,28 +10187,12 @@
         "relevance": 0.52
       },
       {
-        "tag": "denial of death",
-        "weight": 0.2357,
-        "corpus_score": 0.1596,
-        "relevance": 0.59
+        "tag": "power",
+        "weight": 1
       },
       {
-        "tag": "illusions",
-        "weight": 0.2157,
-        "corpus_score": 0.1596,
-        "relevance": 0.54
-      },
-      {
-        "tag": "ernest becker",
-        "weight": 0.213,
-        "corpus_score": 0.3705,
-        "relevance": 0.35
-      },
-      {
-        "tag": "coping",
-        "weight": 0.2037,
-        "corpus_score": 0.1596,
-        "relevance": 0.51
+        "tag": "the self",
+        "weight": 1
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/132780478-the-denial-of-death-by-ernest-becker-04-april-2011",
@@ -11678,7 +11620,7 @@
     "id": "quote_0170",
     "source_image": "friedrich-nietzsche-24.png",
     "filename_stem": "friedrich-nietzsche-24",
-    "quote": "We invented the concept of ’purpose’: in reality purpose is lacking.",
+    "quote": "We invented the concept of ‘purpose’: in reality purpose is lacking.",
     "author": "Friedrich Nietzsche",
     "year": "1888",
     "publication": "The Four Great Errors",
@@ -15628,12 +15570,6 @@
         "relevance": 0.5538
       },
       {
-        "tag": "work",
-        "weight": 0.4344,
-        "corpus_score": 0.6897,
-        "relevance": 0.5231
-      },
-      {
         "tag": "religion",
         "weight": 0.4138,
         "corpus_score": 0.5905,
@@ -15689,12 +15625,6 @@
     ],
     "weighted_tags": [
       {
-        "tag": "wrong",
-        "weight": 0.6314,
-        "corpus_score": 0.4787,
-        "relevance": 0.9125
-      },
-      {
         "tag": "truth",
         "weight": 0.5134,
         "corpus_score": 0.8712,
@@ -15729,42 +15659,6 @@
         "weight": 0.404,
         "corpus_score": 0.552,
         "relevance": 0.5437
-      },
-      {
-        "tag": "explanation",
-        "weight": 0.3803,
-        "corpus_score": 0.2529,
-        "relevance": 0.7562
-      },
-      {
-        "tag": "incorrect",
-        "weight": 0.3082,
-        "corpus_score": 0.3705,
-        "relevance": 0.5062
-      },
-      {
-        "tag": "dan gardner",
-        "weight": 0.2986,
-        "corpus_score": 0.2529,
-        "relevance": 0.5938
-      },
-      {
-        "tag": "science of fear",
-        "weight": 0.2955,
-        "corpus_score": 0.2529,
-        "relevance": 0.5875
-      },
-      {
-        "tag": "hl mencken",
-        "weight": 0.2272,
-        "corpus_score": 0.1596,
-        "relevance": 0.5687
-      },
-      {
-        "tag": "mencken",
-        "weight": 0.1248,
-        "corpus_score": 0.1596,
-        "relevance": 0.3125
       }
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/3242100-the-science-of-fear"
@@ -56973,5 +56867,462 @@
     "needs_review": false,
     "notes": "",
     "book_description": "*In Search of Lost Time: Swann's Way* by Marcel Proust is a seminal novel that explores themes of memory, time, and art through the narrator's recollections of his childhood and his experiences with the aristocratic society of Combray. Published in 1913, this work introduces readers to the intricate inner world of its protagonist, profoundly capturing the essence of involuntary memory through the taste of a madeleine."
+  },
+  {
+    "quote": "If I can’t picture it, I can’t understand it.",
+    "author": "Albert Einstein",
+    "publication": "Thinking in Pictures",
+    "year": "2023",
+    "isbn": "9781838957469",
+    "book_author": "Michael Blastland",
+    "cover_url": "covers/thinking-in-pictures.webp",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/103408.Thinking_In_Pictures",
+    "id": "quote_1028",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...every book has been engendered by long successions of other books... whose authors you may never know but which echo in the one you now hold in your hand.",
+    "author": "Alberto Manguel",
+    "publication": "A History of Reading",
+    "year": "1996",
+    "isbn": null,
+    "book_author": "Alberto Manguel",
+    "cover_url": "covers/a-history-of-reading.webp",
+    "weighted_tags": [
+      {
+        "tag": "books",
+        "weight": 1
+      },
+      {
+        "tag": "connections",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "reading",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/53085.A_History_of_Reading",
+    "id": "quote_1029",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The cross of Christ has saved us from the circular labyrinth of the Stoics... but I still prefer that circular labyrinth.",
+    "author": "Jorge Luis Borges",
+    "publication": "With Borges",
+    "year": "2004",
+    "isbn": "9781846590054",
+    "book_author": "Alberto Manguel",
+    "cover_url": "covers/on-borges.webp",
+    "weighted_tags": [
+      {
+        "tag": "religion",
+        "weight": 1
+      },
+      {
+        "tag": "clarity",
+        "weight": 1
+      },
+      {
+        "tag": "mystery",
+        "weight": 1
+      },
+      {
+        "tag": "stoicism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/44038",
+    "id": "quote_1030",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...a good hope is better than a bad holding.",
+    "author": "Miguel de Cervantes",
+    "publication": "Don Quixote",
+    "year": "1615",
+    "isbn": "9798458501644",
+    "book_author": "Miguel de Cervantes",
+    "cover_url": "covers/don-quixote.webp",
+    "weighted_tags": [
+      {
+        "tag": "hope",
+        "weight": 1
+      },
+      {
+        "tag": "acceptance",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/3836.Don_Quixote",
+    "id": "quote_1031",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...if well considered, great and unexpected are the things perceived by those who are knights errant.",
+    "author": "Miguel de Cervantes",
+    "publication": "Don Quixote",
+    "year": "1615",
+    "isbn": "9798458501644",
+    "book_author": "Miguel de Cervantes",
+    "cover_url": "covers/don-quixote.webp",
+    "weighted_tags": [
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "direction",
+        "weight": 1
+      },
+      {
+        "tag": "fools",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/3836.Don_Quixote",
+    "id": "quote_1032",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "By exhibiting common things in an uncommon light, its flame makes manifest the living mystery and inexplicable marvel of mere existence.",
+    "author": "Aldous Huxley",
+    "publication": "Heaven & Hell",
+    "year": "1956",
+    "isbn": null,
+    "book_author": "Aldous Huxley",
+    "cover_url": "covers/heaven-hell.webp",
+    "weighted_tags": [
+      {
+        "tag": "presentation",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "meaning",
+        "weight": 1
+      },
+      {
+        "tag": "museums",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/64284.Heaven_and_Hell",
+    "id": "quote_1033",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": "",
+    "book_description": "A philosophical essay by Aldous Huxley published in 1956. Huxley derived the title from William Blake's book *The Marriage of Heaven and Hell*. The essay discusses the relationship between bright, colorful objects, geometric designs, psychoactives, art, and profound experience."
+  },
+  {
+    "quote": "A perspective is by nature limited. It offers us one single vision of a landscape. Only when complementary views of the same reality combine are we capable of achieving fuller access to the knowledge of things.",
+    "author": "Alexandre Grothendieck",
+    "publication": "Reaping and Sowing",
+    "year": "1986",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/reaping-and-sowing.webp",
+    "weighted_tags": [
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "learning",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/48573989-reaping-and-sowing-r-coltes-et-semailles-the-life-of-a-mathematician",
+    "id": "quote_1034",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...joy and wonder are curbed by memories of the past and fear of the future.",
+    "author": "Alexander Herzen",
+    "publication": "My Past and Thoughts",
+    "year": "1870",
+    "isbn": "0394483081",
+    "book_author": "Alexander Herzen",
+    "cover_url": "covers/0394483081.webp",
+    "weighted_tags": [
+      {
+        "tag": "joy",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/6655957",
+    "id": "quote_1035",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Well, while I’m here I’II do the work — and what’s the Work?\nTo ease the pain of living. Everything else, drunken dumbshow.",
+    "author": "Allen Ginsberg",
+    "publication": "The Fall of America",
+    "year": "1972",
+    "isbn": "0872860639",
+    "book_author": "Allen Ginsberg",
+    "cover_url": "covers/0872860639.webp",
+    "weighted_tags": [
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "pain",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/53031",
+    "id": "quote_1036",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Only twice before in history have we humans invented a wholly new way of creating wealth. Each time we invented new forms of government to go with it.",
+    "author": "Alvin Toffler",
+    "publication": "Powershift",
+    "year": "1990",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/powershift.webp",
+    "weighted_tags": [
+      {
+        "tag": "invention",
+        "weight": 1
+      },
+      {
+        "tag": "capitalism",
+        "weight": 1
+      },
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "government",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/en/book/show/67490.Powershift",
+    "id": "quote_1037",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Out of general dreams come beneficial realities. Utopia is the principle of all progress, and the essay into a better future.",
+    "author": "Anatole France",
+    "publication": "The Story of Utopias",
+    "year": "1922",
+    "isbn": "9781514330906",
+    "book_author": "Lewis Mumford",
+    "cover_url": "covers/the-story-of-utopias.webp",
+    "weighted_tags": [
+      {
+        "tag": "utopia",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/236646003-the-story-of-utopias-lewis-mumford-with-an-introduction-by-hendrik-w",
+    "id": "quote_1038",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Collaboration has explosive upside, what is mathematically called a superadditive function... one plus one plus one equals much, much more than three.",
+    "author": "Nassim Nicholas Taleb",
+    "publication": "Antifragile: Things That Gain from Disorder",
+    "year": "2012",
+    "isbn": "9788449328640",
+    "book_author": "Nassim Nicholas Taleb",
+    "cover_url": "covers/antifragile.webp",
+    "weighted_tags": [
+      {
+        "tag": "collaboration",
+        "weight": 1
+      },
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile",
+    "id": "quote_1039",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...take away from the future, reduce from it, simply, things that do not belong to the coming times. Via negativa.",
+    "author": "Nassim Nicholas Taleb",
+    "publication": "Antifragile: Things That Gain from Disorder",
+    "year": "2012",
+    "isbn": "9788449328640",
+    "book_author": "Nassim Nicholas Taleb",
+    "cover_url": "covers/antifragile.webp",
+    "weighted_tags": [
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "simplification",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile",
+    "id": "quote_1040",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "If you want a safe compass to guide you through life... you cannot do better than accustom yourself to regard this world as... a sort of penal colony.",
+    "author": "Arthur Schopenhauer",
+    "publication": "The Corrections",
+    "year": "20001",
+    "isbn": null,
+    "book_author": "Johnathan Franzen",
+    "cover_url": "covers/the-corrections.webp",
+    "weighted_tags": [
+      {
+        "tag": "prison",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "pessimism",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/3805.The_Corrections",
+    "id": "quote_1041",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
   }
 ]

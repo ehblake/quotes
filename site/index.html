@@ -670,6 +670,10 @@
         rgba(17, 17, 17, 0.7) 80%,
         rgba(17, 17, 17, 0.95) 100%
       );
+      /* Promote to own compositor layer so chunk loads under it don't trigger repaint flicker on iOS Safari */
+      will-change: transform;
+      transform: translateZ(0);
+      backface-visibility: hidden;
     }
 
     .canvas-grid {
@@ -677,6 +681,8 @@
       gap: 20px;
       position: absolute;
       user-select: none;
+      will-change: transform;
+      backface-visibility: hidden;
     }
 
     .canvas-cover {
@@ -3519,11 +3525,17 @@
           const textarea = e.target;
           const start = textarea.selectionStart;
           const end = textarea.selectionEnd;
-          // Replace straight apostrophes with curly (using Unicode escape for safety)
-          if (textarea.value.includes("'")) {
-            textarea.value = textarea.value.replace(/'/g, '\u2019');
-            // Restore cursor position
-            textarea.setSelectionRange(start, end);
+          const val = textarea.value;
+          if (val.includes("'") || val.includes('"')) {
+            // Pick opening quote after whitespace/start/opening punctuation; closing otherwise
+            const isOpeningContext = (prev) => !prev || /[\s(\[{<—–\-]/.test(prev);
+            const converted = val
+              .replace(/'/g, (m, offset, s) => isOpeningContext(s[offset - 1]) ? '\u2018' : '\u2019')
+              .replace(/"/g, (m, offset, s) => isOpeningContext(s[offset - 1]) ? '\u201C' : '\u201D');
+            if (converted !== val) {
+              textarea.value = converted;
+              textarea.setSelectionRange(start, end);
+            }
           }
         });
       }
