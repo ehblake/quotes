@@ -3218,72 +3218,6 @@
     "goodreads_url": "https://www.goodreads.com/book/show/17250.The_Crucible"
   },
   {
-    "id": "quote_0046",
-    "source_image": "arthur-rimbaud.png",
-    "filename_stem": "arthur-rimbaud",
-    "quote": "I’m a pedestrian, nothing more.",
-    "author": "Arthur Rimbaud",
-    "year": null,
-    "publication": null,
-    "notes": "The author's full name is not provided, just 'Rimbaud'.",
-    "confidence": 0.95,
-    "needs_review": false,
-    "tags": [
-      "arthur rimbaud",
-      "rimbaud",
-      "walking",
-      "humility",
-      "simplicity",
-      "identity",
-      "poetry"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "walking",
-        "weight": 0.4784,
-        "corpus_score": 0.7009,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "poetry",
-        "weight": 0.3952,
-        "corpus_score": 0.5905,
-        "relevance": 0.5143
-      },
-      {
-        "tag": "simplicity",
-        "weight": 0.3633,
-        "corpus_score": 0.448,
-        "relevance": 0.5429
-      },
-      {
-        "tag": "humility",
-        "weight": 0.2802,
-        "corpus_score": 0.2529,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "identity",
-        "weight": 0.2111,
-        "corpus_score": 0.1596,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "arthur rimbaud",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
-      },
-      {
-        "tag": "rimbaud",
-        "weight": 0.1341,
-        "corpus_score": 0.1596,
-        "relevance": 0.3357
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
     "id": "quote_0047",
     "source_image": "arthur-schopenhauer-04.png",
     "filename_stem": "arthur-schopenhauer-04",
@@ -30126,109 +30060,6 @@
     "goodreads_url": null
   },
   {
-    "id": "quote_0431",
-    "source_image": "randall-jarrell.png",
-    "filename_stem": "randall-jarrell",
-    "quote": "The people who live in a golden age usually go around complaining how yellow everything looks.",
-    "author": "Randall Jarrell",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "54987034773",
-    "tags": [
-      "quote",
-      "humour",
-      "amsterdam",
-      "golden age",
-      "Russell shorto",
-      "humanity",
-      "happiness",
-      "now",
-      "yellow",
-      "gold",
-      "pleasure",
-      "life",
-      "perspective"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "humanity",
-        "weight": 0.5615,
-        "corpus_score": 1.0,
-        "relevance": 0.5615
-      },
-      {
-        "tag": "life",
-        "weight": 0.5122,
-        "corpus_score": 0.9877,
-        "relevance": 0.5154
-      },
-      {
-        "tag": "golden age",
-        "weight": 0.4913,
-        "corpus_score": 0.2529,
-        "relevance": 0.9769
-      },
-      {
-        "tag": "humour",
-        "weight": 0.4732,
-        "corpus_score": 0.6383,
-        "relevance": 0.5923
-      },
-      {
-        "tag": "happiness",
-        "weight": 0.456,
-        "corpus_score": 0.6778,
-        "relevance": 0.5538
-      },
-      {
-        "tag": "perspective",
-        "weight": 0.4555,
-        "corpus_score": 0.8049,
-        "relevance": 0.5077
-      },
-      {
-        "tag": "yellow",
-        "weight": 0.3749,
-        "corpus_score": 0.1596,
-        "relevance": 0.9385
-      },
-      {
-        "tag": "gold",
-        "weight": 0.3675,
-        "corpus_score": 0.2529,
-        "relevance": 0.7308
-      },
-      {
-        "tag": "now",
-        "weight": 0.3324,
-        "corpus_score": 0.3705,
-        "relevance": 0.5462
-      },
-      {
-        "tag": "pleasure",
-        "weight": 0.2955,
-        "corpus_score": 0.3191,
-        "relevance": 0.5231
-      },
-      {
-        "tag": "amsterdam",
-        "weight": 0.294,
-        "corpus_score": 0.2529,
-        "relevance": 0.5846
-      },
-      {
-        "tag": "russell shorto",
-        "weight": 0.2274,
-        "corpus_score": 0.1596,
-        "relevance": 0.5692
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
     "id": "quote_0432",
     "source_image": "raoul-vaneigem-04.png",
     "filename_stem": "raoul-vaneigem-04",
@@ -36651,157 +36482,6 @@
     "book_description": "*The Revolution of Everyday Life* is a 1967 book by Raoul Vaneigem that presents a lyrical critique of modern consumer society through the lens of individual experience. As a key text of the Situationist International, it complements Guy Debord's *The Society of the Spectacle* by inspiring personal and collective revolt against societal alienation."
   },
   {
-    "id": "quote_0521",
-    "source_image": "w-h-auden.png",
-    "filename_stem": "w-h-auden",
-    "quote": "In the prison of his days, teach the free man how to praise.",
-    "author": "W. H. Auden",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "tags": [
-      "auden",
-      "w.h. auden",
-      "freedom",
-      "praise",
-      "poetry",
-      "gratitude",
-      "time",
-      "prison"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "prison",
-        "weight": 0.5155,
-        "corpus_score": 0.3191,
-        "relevance": 0.9125
-      },
-      {
-        "tag": "time",
-        "weight": 0.4982,
-        "corpus_score": 0.9006,
-        "relevance": 0.525
-      },
-      {
-        "tag": "poetry",
-        "weight": 0.4226,
-        "corpus_score": 0.5905,
-        "relevance": 0.55
-      },
-      {
-        "tag": "freedom",
-        "weight": 0.3849,
-        "corpus_score": 0.448,
-        "relevance": 0.575
-      },
-      {
-        "tag": "praise",
-        "weight": 0.3845,
-        "corpus_score": 0.1596,
-        "relevance": 0.9625
-      },
-      {
-        "tag": "gratitude",
-        "weight": 0.3036,
-        "corpus_score": 0.3191,
-        "relevance": 0.5375
-      },
-      {
-        "tag": "w.h. auden",
-        "weight": 0.2347,
-        "corpus_score": 0.1596,
-        "relevance": 0.5875
-      },
-      {
-        "tag": "auden",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
-    "id": "quote_0522",
-    "source_image": "wallace-stevens-09.png",
-    "filename_stem": "wallace-stevens-09",
-    "quote": "Perhaps the truth depends on a walk around a lake",
-    "author": "Wallace Stevens",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "53562902545",
-    "tags": [
-      "quote",
-      "Wallace stevens",
-      "book",
-      "selected poems",
-      "poem",
-      "poetry",
-      "lake",
-      "walking",
-      "truth",
-      "pithy",
-      "creativity",
-      "ideas"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "truth",
-        "weight": 0.8711,
-        "corpus_score": 0.8712,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "creativity",
-        "weight": 0.5046,
-        "corpus_score": 0.9538,
-        "relevance": 0.5167
-      },
-      {
-        "tag": "lake",
-        "weight": 0.4778,
-        "corpus_score": 0.2529,
-        "relevance": 0.95
-      },
-      {
-        "tag": "ideas",
-        "weight": 0.4715,
-        "corpus_score": 0.8605,
-        "relevance": 0.5083
-      },
-      {
-        "tag": "walking",
-        "weight": 0.4535,
-        "corpus_score": 0.7009,
-        "relevance": 0.5417
-      },
-      {
-        "tag": "poetry",
-        "weight": 0.429,
-        "corpus_score": 0.5905,
-        "relevance": 0.5583
-      },
-      {
-        "tag": "selected poems",
-        "weight": 0.2892,
-        "corpus_score": 0.2529,
-        "relevance": 0.575
-      },
-      {
-        "tag": "wallace stevens",
-        "weight": 0.1718,
-        "corpus_score": 0.2529,
-        "relevance": 0.3417
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
     "id": "quote_0523",
     "source_image": "wallace-stevens-11.jpg",
     "filename_stem": "wallace-stevens-11",
@@ -41759,7 +41439,7 @@
     "book_description": "*Pere Goriot* is an 1835 novel by Honoré de Balzac that explores the complex social dynamics of Paris in 1819 through the lives of three central characters: the devoted father Goriot, the enigmatic criminal Vautrin, and the ambitious law student Eugène de Rastignac. As their stories intertwine, the novel delves into themes of ambition, betrayal, and the pursuit of power within the hierarchical structure of society."
   },
   {
-    "quote": "The most profound technologies are those that disappear.",
+    "quote": "The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.",
     "author": "Mark Weiser",
     "publication": "The Age of Surveillance Capitalism",
     "year": "2018",
@@ -44952,7 +44632,7 @@
     "goodreads_url": "https://www.goodreads.com/book/show/2932.Robinson_Crusoe"
   },
   {
-    "quote": "Forget the cliché that if it’s free, “You are the product.” You are not the product; you are the abandoned carcass. The “product” derives from the surplus that is ripped from your life.",
+    "quote": "Forget the cliché that if it’s free, ‘You are the product.’ You are not the product; you are the abandoned carcass. The ‘product’ derives from the surplus that is ripped from your life.",
     "author": "Shoshana Zuboff",
     "publication": "The Age of Surveillance Capitalism",
     "year": "2018",
@@ -44963,7 +44643,7 @@
       {
         "tag": "humanity",
         "weight": 0.5,
-        "corpus_score": 1.0,
+        "corpus_score": 1,
         "relevance": 0.5
       },
       {
@@ -44986,7 +44666,7 @@
       }
     ],
     "id": "quote_0686",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
@@ -54376,39 +54056,6 @@
     "book_description": "*Thinking, Fast and Slow* is a 2011 book by Israeli-American psychologist Daniel Kahneman that explores the dual systems of thought: the fast, instinctive \"System 1\" and the slower, more logical \"System 2.\" Kahneman delves into how these systems shape our judgments and decisions, influencing everything from personal choices to economic behavior."
   },
   {
-    "quote": "When faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.",
-    "author": "Daniel Kahneman",
-    "publication": "Thinking Fast and Slow",
-    "year": "2011",
-    "isbn": null,
-    "book_author": "Daniel Kahneman",
-    "cover_url": "covers/thinking-fast-and-slow.webp",
-    "weighted_tags": [
-      {
-        "tag": "questions",
-        "weight": 1
-      },
-      {
-        "tag": "problem solving",
-        "weight": 1
-      },
-      {
-        "tag": "thinking",
-        "weight": 1
-      },
-      {
-        "tag": "the brain",
-        "weight": 1
-      }
-    ],
-    "goodreads_url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
-    "id": "quote_0951",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": "",
-    "book_description": "*Thinking, Fast and Slow* is a 2011 book by Israeli-American psychologist Daniel Kahneman that explores the dual systems of thought: the fast, instinctive \"System 1\" and the slower, more logical \"System 2.\" Kahneman delves into how these systems shape our judgments and decisions, influencing everything from personal choices to economic behavior."
-  },
-  {
     "quote": "Fear of things invisible is the natural seed of that which every one in himself calleth religion.",
     "author": "Thomas Hobbes",
     "publication": "Leviathan",
@@ -57324,5 +56971,2077 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": ""
+  },
+  {
+    "quote": "Forbede us thyng, and that desiren we.",
+    "author": "Geoffrey Chaucer",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "rules",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1042",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-01.jpg"
+  },
+  {
+    "quote": "…to this brief waking-time that still is left unto your senses, you must not deny experience of that which lies beyond the sun, and of the world that is unpeopled.",
+    "author": "Dante Alighieri",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      },
+      {
+        "tag": "adventure",
+        "weight": 1
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1043",
+    "confidence": 0.92,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-02.jpg"
+  },
+  {
+    "quote": "Yet all experience is an arch wherethro’ Gleams that untravelled world, whose margin fades Forever and forever when I move.",
+    "author": "Alfred Lord Tennyson",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      },
+      {
+        "tag": "adventure",
+        "weight": 1
+      },
+      {
+        "tag": "discovery",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1044",
+    "confidence": 0.95,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-03.jpg"
+  },
+  {
+    "quote": "Oh what a sweet soft pillow ignorance and incuriousness provide for a well-made head.",
+    "author": "Michel de Montaigne",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "curiosity",
+        "weight": 1
+      },
+      {
+        "tag": "comfort",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1045",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-04.png"
+  },
+  {
+    "quote": "My theology is a simple muddle; I cannot look at the universe as the result of blind chance, yet I can see no evidence of beneficent design, or indeed of design of any kind, in the details.",
+    "author": "Charles Darwin",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "doubt",
+        "weight": 1
+      },
+      {
+        "tag": "god",
+        "weight": 1
+      },
+      {
+        "tag": "chance",
+        "weight": 1
+      },
+      {
+        "tag": "uncertainty",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1047",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-06.png"
+  },
+  {
+    "quote": "We are discontent with our lot, whatever it is, just because it is ours. We covet what is not ours because it represents otherness.",
+    "author": "Roger Shattuck",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "psychology",
+        "weight": 1
+      },
+      {
+        "tag": "envy",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1049",
+    "confidence": 0.92,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-08.png"
+  },
+  {
+    "quote": "Carl Sandburg used to utter with banjo accompaniment what he called the shortest poem ever written: ‘Born. Troubled. Died.’",
+    "author": "Roger Shattuck",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "birth",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1051",
+    "confidence": 0.93,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-10.png"
+  },
+  {
+    "quote": "Reach for the fullness of a human life! We all live it, but few live knowingly; if you but touch it, it will fascinate.",
+    "author": "Johann Wolfgang von Goethe",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "consciousness",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1052",
+    "confidence": 0.88,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-11.jpg"
+  },
+  {
+    "quote": "I completely abandoned the study of literature. Deciding to seek only that knowledge I could find in myself or in the great book of the world, I devoted the rest of my youth to travel.",
+    "author": "René Descartes",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "travel",
+        "weight": 1
+      },
+      {
+        "tag": "the self",
+        "weight": 1
+      },
+      {
+        "tag": "literature",
+        "weight": 1
+      },
+      {
+        "tag": "adventure",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1053",
+    "confidence": 0.5,
+    "needs_review": false,
+    "notes": "Card byline mislabeled this as 'Goethe, Faust'; corrected to René Descartes (opening of Discourse on Method).",
+    "source_image": "roger-shattuck-12.png"
+  },
+  {
+    "quote": "…our earthly joys are almost without exception the creatures of a moment; I doubt whether any of us knows the meaning of lasting happiness.",
+    "author": "Jean-Jacques Rousseau",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "happiness",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
+      },
+      {
+        "tag": "pleasure",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1054",
+    "confidence": 0.85,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-13.png"
+  },
+  {
+    "quote": "No culture has been discovered without its storytellers to record and recapitulate the life of the tribe.",
+    "author": "Roger Shattuck",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "culture",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1055",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-14.png"
+  },
+  {
+    "quote": "Experience is the only route to human knowledge; yet any experience, when reflected upon, incurs guilt.",
+    "author": "Roger Shattuck (paraphrasing Goethe)",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "thought",
+        "weight": 1
+      },
+      {
+        "tag": "ethics",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1056",
+    "confidence": 0.83,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-15.png"
+  },
+  {
+    "quote": "We cannot just think as we go: we must stop to think.",
+    "author": "Roger Shattuck (paraphrasing Nietzsche)",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "thought",
+        "weight": 1
+      },
+      {
+        "tag": "philosophy",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1057",
+    "confidence": 0.83,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-16.png"
+  },
+  {
+    "quote": "Pleonexia: An ancient Greek philosophical concept defined as the insatiable desire to possess wealth or material things that rightfully belong to others",
+    "author": "Roger Shattuck",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "property",
+        "weight": 1
+      },
+      {
+        "tag": "ownership",
+        "weight": 1
+      },
+      {
+        "tag": "money",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1058",
+    "confidence": 0.9,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-17.png"
+  },
+  {
+    "quote": "To see a thing truly is to forget its name.",
+    "author": "Paul Valéry",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "seeing",
+        "weight": 1
+      },
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "words",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1059",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-18.png"
+  },
+  {
+    "quote": "Heard melodies are sweet, but those unheard Are sweeter…",
+    "author": "John Keats",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "music",
+        "weight": 1
+      },
+      {
+        "tag": "imagination",
+        "weight": 1
+      },
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "perfection",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1060",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-19.png"
+  },
+  {
+    "quote": "I almost dare to affirm that the state of reflection is a state contrary to nature and that the man who meditates is a depraved animal.",
+    "author": "Jean-Jacques Rousseau",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "thinking",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "thought",
+        "weight": 1
+      },
+      {
+        "tag": "philosophy",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1061",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-20.png"
+  },
+  {
+    "quote": "If a great man could make us understand him, we should hang him.",
+    "author": "George Bernard Shaw",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "authority",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1062",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-21.png"
+  },
+  {
+    "quote": "The closer one approaches to an event or to a person, the less securely one seems to know it. The trees obscure the forest.",
+    "author": "Roger Shattuck",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "uncertainty",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1063",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-22.png"
+  },
+  {
+    "quote": "To understand all is to see that nothing could be otherwise than as it is.",
+    "author": "Isaiah Berlin",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "certainty",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "philosophy",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1064",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-23.png"
+  },
+  {
+    "quote": "The strong man with the dagger is followed by the weak man with the sponge.",
+    "author": "Lord Acton",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "violence",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "weakness",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1065",
+    "confidence": 0.92,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-24.jpg"
+  },
+  {
+    "quote": "The pleasure of reading something guarantees its truth.",
+    "author": "Roland Barthes",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "reading",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "pleasure",
+        "weight": 1
+      },
+      {
+        "tag": "belief",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1066",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-25.png"
+  },
+  {
+    "quote": "One learns to scrutinize carefully any sentence containing the words in fact.",
+    "author": "Roger Shattuck",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "doubt",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1067",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-26.png"
+  },
+  {
+    "quote": "I know only that I do not know.",
+    "author": "Socrates",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      },
+      {
+        "tag": "humility",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1068",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-27.png"
+  },
+  {
+    "quote": "The most incomprehensible thing about the universe is that it is comprehensible.",
+    "author": "Albert Einstein",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1069",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-28.png"
+  },
+  {
+    "quote": "Anything useful is ugly.",
+    "author": "Théophile Gautier",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "design",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1070",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-29.png"
+  },
+  {
+    "quote": "Not the fruit of experience, but experience itself, is the end. A counted number of pulses only is given to us of a variegated, dramatic life. How may we see in them all that is to be seen in them by the finest senses? How can we pass most swiftly from point to point, and be present always at the focus where the greatest number of vital forces unite in their purest energy? To burn always with this hard, gemlike flame, to maintain this ecstasy, is success in life. Failure is to form habits.",
+    "author": "Walter Pater",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "experience",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "success",
+        "weight": 1
+      },
+      {
+        "tag": "failure",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1071",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-30.jpg"
+  },
+  {
+    "quote": "The road of excess leads to the palace of wisdom.",
+    "author": "William Blake",
+    "publication": "Forbidden Knowledge",
+    "year": "1997",
+    "isbn": null,
+    "book_author": "Roger Shattuck",
+    "cover_url": "covers/forbidden-knowledge.webp",
+    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
+    "weighted_tags": [
+      {
+        "tag": "wisdom",
+        "weight": 1
+      },
+      {
+        "tag": "desire",
+        "weight": 1
+      },
+      {
+        "tag": "pleasure",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
+    "id": "quote_1072",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "roger-shattuck-31.png"
+  },
+  {
+    "quote": "The real psychological truth is this: If you’ve got nothing to hide, you are nothing.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "psychology",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1073",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-11.png"
+  },
+  {
+    "quote": "All grew so fast his life was overgrown, Till he forgot what all had once been made for: He gathered into crowds but was alone…",
+    "author": "W.H. Auden",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "modernity",
+        "weight": 1
+      },
+      {
+        "tag": "poems",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1074",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-12.png"
+  },
+  {
+    "quote": "…the true problems of our time cannot be understood, let alone solved, without acknowledgement that totalitarianism became this century’s curse only because it so terrifyingly took care of its problems.",
+    "author": "Hannah Arendt",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "government",
+        "weight": 1
+      },
+      {
+        "tag": "politics",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1075",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-13.png"
+  },
+  {
+    "quote": "Machine processes replace human relationships so that certainty can replace trust.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "machines",
+        "weight": 1
+      },
+      {
+        "tag": "certainty",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1076",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-14.png"
+  },
+  {
+    "quote": "The word autonomy derives from the Greek and literally means “regulation by the self.” It stands in contrast to heteronomy, which means “regulation by others.”",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "freedom",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "definition",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1077",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-16.png"
+  },
+  {
+    "quote": "Data tell what happened but not why it happened.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "information",
+        "weight": 1
+      },
+      {
+        "tag": "data",
+        "weight": 1
+      },
+      {
+        "tag": "why",
+        "weight": 1
+      },
+      {
+        "tag": "facts",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1078",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-17.png"
+  },
+  {
+    "quote": "The changes and disruptions that an evolving technology repeatedly caused in modern life were accepted as given or inevitable simply because no one bothered to ask whether there were other possibilities.",
+    "author": "Langdon Winner",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "acceptance",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "modernity",
+        "weight": 1
+      },
+      {
+        "tag": "progress",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1079",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-18.png"
+  },
+  {
+    "quote": "“Maps created empire.”",
+    "author": "John B. Harley",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "maps",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1080",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-21.png"
+  },
+  {
+    "quote": "The cartographer is the instrument of power as the author of that order, reducing reality to only two conditions: the map and oblivion.",
+    "author": "Shoshana Zuboff",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "surveillance",
+        "weight": 1
+      },
+      {
+        "tag": "maps",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1081",
+    "confidence": 0.9,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-22.png"
+  },
+  {
+    "quote": "All words like Peace and Love, all sane affirmative speech, had been soiled, profaned, debased to a horrid mechanical screech.",
+    "author": "W.H. Auden",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "words",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "machines",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1082",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-23.png"
+  },
+  {
+    "quote": "He watched the stars and noted birds in flight; A river flooded or a fortress fell: He made predictions that were sometimes right; His lucky guesses were rewarded well.",
+    "author": "W.H. Auden",
+    "publication": "The Age of Surveillance Capitalism",
+    "year": "2018",
+    "isbn": null,
+    "book_author": "Shoshana Zuboff",
+    "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
+    "book_description": "*The Age of Surveillance Capitalism* by Shoshana Zuboff explores the rise of digital giants like Google and Meta, suggesting they have birthed a novel form of capitalism centered on the commodification of personal data. Zuboff argues this \"surveillance capitalism\" represents a significant shift in power dynamics, with profound implications for personal autonomy and democracy.",
+    "weighted_tags": [
+      {
+        "tag": "prediction",
+        "weight": 1
+      },
+      {
+        "tag": "luck",
+        "weight": 1
+      },
+      {
+        "tag": "chance",
+        "weight": 1
+      },
+      {
+        "tag": "poems",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+    "id": "quote_1083",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "shoshana-zuboff-24.png"
+  },
+  {
+    "quote": "One of the first pieces of advice I was given as a young curator: never accept a boat.",
+    "author": "Steven D. Lubar",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "collecting",
+        "weight": 1
+      },
+      {
+        "tag": "humour",
+        "weight": 1
+      },
+      {
+        "tag": "objects",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1088",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-06.png"
+  },
+  {
+    "quote": "A finished museum is a dead museum, and a dead museum is a useless museum.",
+    "author": "G. Brown Goode",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Steven D. Lubar",
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1089",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-07.png"
+  },
+  {
+    "quote": "…one of the things our grandchildren will find quaintest about us is that we distinguish the digital from the real, the virtual from the real.",
+    "author": "William Gibson",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Steven D. Lubar",
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "modernity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1090",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-08.png"
+  },
+  {
+    "quote": "Visitors come to museums with certain expectations, and undermining those expectations can stimulate a new understanding of the work exhibitions do.",
+    "author": "Steven D. Lubar",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "expectations",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "exhibitions",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1092",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-10.png"
+  },
+  {
+    "quote": "Explaining science and technology without props can resemble an attempt to tell what it is like to swim without ever letting a person near the water.",
+    "author": "Frank Oppenheimer",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Steven D. Lubar",
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "science",
+        "weight": 1
+      },
+      {
+        "tag": "technology",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "museums",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1094",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-12.png"
+  },
+  {
+    "quote": "A museum’s job is not to chronicle art as a fact but to enact it as an event and to dramatize its function. Its role is not that of a custodian but that of a showman.",
+    "author": "Lee Simonson",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Steven D. Lubar",
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "art",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "exhibitions",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1095",
+    "confidence": 0.96,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-13.png"
+  },
+  {
+    "quote": "The most dramatic way to restore context to a museum artifact is to set it on a stage.",
+    "author": "Steven D. Lubar",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "storytelling",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "objects",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1096",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-14.png"
+  },
+  {
+    "quote": "What matters is what the visitor gets, not what the museum presents.",
+    "author": "Steven D. Lubar",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "individuality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1097",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "steven-lubar-15.png"
+  },
+  {
+    "quote": "To see a thousand objects for the first and last time, what could be more profoundly melancholy? Traveling is a constant birth and death.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "travel",
+        "weight": 1
+      },
+      {
+        "tag": "sadness",
+        "weight": 1
+      },
+      {
+        "tag": "birth",
+        "weight": 1
+      },
+      {
+        "tag": "death",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1100",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-02.png"
+  },
+  {
+    "quote": "The prison makes the convict.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "prison",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "authority",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1101",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-03.png"
+  },
+  {
+    "quote": "A monumental aspect is often produced by ruin.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "ruin",
+        "weight": 1
+      },
+      {
+        "tag": "decay",
+        "weight": 1
+      },
+      {
+        "tag": "beauty",
+        "weight": 1
+      },
+      {
+        "tag": "architecture",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1102",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-04.png"
+  },
+  {
+    "quote": "Tyranny follows the tyrant. Woe to the man who leaves behind a shadow that bears his form.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "authority",
+        "weight": 1
+      },
+      {
+        "tag": "control",
+        "weight": 1
+      },
+      {
+        "tag": "history",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1103",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-05.png"
+  },
+  {
+    "quote": "There is one spectacle greater than the sea: That is the sky; there is one spectacle greater than the sky: That is the interior of the soul.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "the sea",
+        "weight": 1
+      },
+      {
+        "tag": "spirit",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "wonder",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1104",
+    "confidence": 0.98,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-06.png"
+  },
+  {
+    "quote": "An army is a strange composite masterpiece, in which strength results from an enormous sum total of utter weaknesses.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "war",
+        "weight": 1
+      },
+      {
+        "tag": "weakness",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "violence",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1107",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-09.png"
+  },
+  {
+    "quote": "She was a mother because she was a mammal.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "birth",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "evolution",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1108",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-10.png"
+  },
+  {
+    "quote": "Nothing is so stifling as symmetry. Symmetry is boredom... There is something more terrible than a hell of suffering—a hell of boredom.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "banality",
+        "weight": 1
+      },
+      {
+        "tag": "hell",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "sadness",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1109",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-11.png"
+  },
+  {
+    "quote": "All extreme situations have their flashes that sometimes blind us, sometimes illuminate us.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "perception",
+        "weight": 1
+      },
+      {
+        "tag": "vision",
+        "weight": 1
+      },
+      {
+        "tag": "clarity",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1110",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-12.png"
+  },
+  {
+    "quote": "The hand that sweeps around the dial also moves among souls.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "change",
+        "weight": 1
+      },
+      {
+        "tag": "movement",
+        "weight": 1
+      },
+      {
+        "tag": "spirit",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1111",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-13.png"
+  },
+  {
+    "quote": "There is a determined though unseen bravery that defends itself foot by foot in the darkness against the fatal invasions of necessity and dishonesty.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "book_description": "*Les Misérables* is Victor Hugo's sweeping 1862 novel of post-Napoleonic France, following the ex-convict Jean Valjean across two decades as he seeks redemption while pursued by the relentless inspector Javert. Through intertwined lives it becomes a vast meditation on justice, poverty, love, and revolution.",
+    "weighted_tags": [
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "difficulty",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "honesty",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1112",
+    "confidence": 0.94,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "victor-hugo-14.png"
+  },
+  {
+    "quote": "…living is like tearing through a museum. Not until later do you really start absorbing what you saw, thinking about it, looking it up in a book, and remembering—because you can’t take it in all at once.",
+    "author": "Audrey Hepburn",
+    "publication": "Inside the Lost Museum",
+    "year": "2017",
+    "isbn": null,
+    "book_author": "Steven D. Lubar",
+    "cover_url": "covers/inside-the-lost-museum.webp",
+    "book_description": "*Inside the Lost Museum* is Steven Lubar's 2017 account of the work museums do behind the scenes — collecting, preserving, exhibiting, and interpreting objects. Framed by the story of Brown University's vanished Jenks Museum, it considers how curators shape what visitors see, feel, and learn.",
+    "weighted_tags": [
+      {
+        "tag": "museums",
+        "weight": 1
+      },
+      {
+        "tag": "memory",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "experience",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/34758212-inside-the-lost-museum",
+    "id": "quote_1113",
+    "confidence": 0.97,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "audrey-hepburn.png"
+  },
+  {
+    "quote": "Our knowledge can only be finite, while our ignorance must necessarily be infinite.",
+    "author": "Karl Popper",
+    "publication": "Conjectures and Refutations",
+    "year": "1963",
+    "isbn": null,
+    "book_author": null,
+    "cover_url": "covers/conjectures-and-refutations.webp",
+    "book_description": "*Conjectures and Refutations* is Karl Popper's 1963 collection of essays on how knowledge grows — not through verification but through bold conjectures exposed to rigorous attempts at refutation. It is one of the clearest statements of his principle that science advances by trial and the elimination of error.",
+    "weighted_tags": [
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "the unknown",
+        "weight": 1
+      },
+      {
+        "tag": "philosophy",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/61554.Conjectures_and_Refutations",
+    "id": "quote_1114",
+    "confidence": 0.99,
+    "needs_review": false,
+    "notes": "",
+    "source_image": "karl-popper-10.png"
   }
 ]
