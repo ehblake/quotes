@@ -59043,5 +59043,39 @@
     "needs_review": false,
     "notes": "",
     "source_image": "karl-popper-10.png"
+  },
+  {
+    "id": "quote_1115",
+    "source_image": null,
+    "quote": "Stagger onward rejoicing…",
+    "author": "W.H. Auden",
+    "book_author": null,
+    "publication": "The Collected Poetry of W. H. Auden",
+    "year": "1945",
+    "cover_url": "covers/the-collected-poetry-of-w-h-auden.webp",
+    "goodreads_url": null,
+    "book_description": null,
+    "weighted_tags": [
+      {
+        "tag": "acceptance",
+        "weight": 1
+      },
+      {
+        "tag": "happiness",
+        "weight": 1
+      },
+      {
+        "tag": "suffering",
+        "weight": 1
+      },
+      {
+        "tag": "spirit",
+        "weight": 1
+      }
+    ],
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": "",
+    "isbn": null
   }
 ]
