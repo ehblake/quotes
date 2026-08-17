@@ -504,7 +504,7 @@
     "filename_stem": "albert-camus-03",
     "quote": "People hasten to judge in order not to be judged themselves.",
     "author": "Albert Camus",
-    "year": "2004",
+    "year": "1956",
     "publication": "The Fall",
     "notes": "",
     "confidence": 1,
@@ -57427,40 +57427,6 @@
     "source_image": "roger-shattuck-16.png"
   },
   {
-    "quote": "Pleonexia: An ancient Greek philosophical concept defined as the insatiable desire to possess wealth or material things that rightfully belong to others",
-    "author": "Roger Shattuck",
-    "publication": "Forbidden Knowledge",
-    "year": "1997",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/forbidden-knowledge.webp",
-    "book_description": "*Forbidden Knowledge* is Roger Shattuck's 1996 inquiry into the ancient tension between humanity's hunger to know and the taboos that would forbid certain knowledge. Ranging from Prometheus and the Fall to Faust, the Marquis de Sade, and modern science, it asks whether some things are better left unknown.",
-    "weighted_tags": [
-      {
-        "tag": "desire",
-        "weight": 1
-      },
-      {
-        "tag": "property",
-        "weight": 1
-      },
-      {
-        "tag": "ownership",
-        "weight": 1
-      },
-      {
-        "tag": "money",
-        "weight": 1
-      }
-    ],
-    "goodreads_url": "https://www.goodreads.com/book/show/88506.Forbidden_Knowledge",
-    "id": "quote_1058",
-    "confidence": 0.9,
-    "needs_review": false,
-    "notes": "",
-    "source_image": "roger-shattuck-17.png"
-  },
-  {
     "quote": "To see a thing truly is to forget its name.",
     "author": "Paul Valéry",
     "publication": "Forbidden Knowledge",
@@ -57869,7 +57835,7 @@
     "source_image": "roger-shattuck-29.png"
   },
   {
-    "quote": "Not the fruit of experience, but experience itself, is the end. A counted number of pulses only is given to us of a variegated, dramatic life. How may we see in them all that is to be seen in them by the finest senses? How can we pass most swiftly from point to point, and be present always at the focus where the greatest number of vital forces unite in their purest energy? To burn always with this hard, gemlike flame, to maintain this ecstasy, is success in life. Failure is to form habits.",
+    "quote": "Not the fruit of experience, but experience itself, is the end... Failure is to form habits.",
     "author": "Walter Pater",
     "publication": "Forbidden Knowledge",
     "year": "1997",
@@ -58187,7 +58153,7 @@
     "source_image": "shoshana-zuboff-18.png"
   },
   {
-    "quote": "“Maps created empire.”",
+    "quote": "Maps created empire.",
     "author": "John B. Harley",
     "publication": "The Age of Surveillance Capitalism",
     "year": "2018",
@@ -58215,7 +58181,7 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
     "id": "quote_1080",
-    "confidence": 1.0,
+    "confidence": 1,
     "needs_review": false,
     "notes": "",
     "source_image": "shoshana-zuboff-21.png"
