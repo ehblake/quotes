@@ -23348,19 +23348,7 @@
         "relevance": 0.5111
       },
       {
-        "tag": "kurt vonnegut",
-        "weight": 0.269,
-        "corpus_score": 0.5905,
-        "relevance": 0.35
-      },
-      {
-        "tag": "deadeye dick",
-        "weight": 0.2308,
-        "corpus_score": 0.1596,
-        "relevance": 0.5778
-      },
-      {
-        "tag": "error",
+        "tag": "errors",
         "weight": 0.2086,
         "corpus_score": 0.1596,
         "relevance": 0.5222
@@ -59145,10 +59133,6 @@
         "weight": 1
       },
       {
-        "tag": "angry",
-        "weight": 1
-      },
-      {
         "tag": "passion",
         "weight": 1
       }
@@ -59242,10 +59226,6 @@
       },
       {
         "tag": "reality",
-        "weight": 1
-      },
-      {
-        "tag": "frauds",
         "weight": 1
       }
     ],
@@ -59353,11 +59333,11 @@
         "weight": 1
       },
       {
-        "tag": "error",
+        "tag": "errors",
         "weight": 1
       },
       {
-        "tag": "mistake",
+        "tag": "mistakes",
         "weight": 1
       }
     ],
@@ -59449,7 +59429,7 @@
         "weight": 1
       },
       {
-        "tag": "viewpoint",
+        "tag": "views",
         "weight": 1
       }
     ],
@@ -59629,7 +59609,7 @@
         "weight": 1
       },
       {
-        "tag": "invisiblility",
+        "tag": "invisibility",
         "weight": 1
       },
       {
@@ -59905,7 +59885,7 @@
         "weight": 1
       },
       {
-        "tag": "riots",
+        "tag": "riot",
         "weight": 1
       }
     ],
