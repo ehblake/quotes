@@ -57,7 +57,8 @@ cd site && python csv_to_json.py
 
 ## Output Schema
 
-Each processed quote contains:
+Each processed quote contains the following fields (extracted by GPT-4o, then enriched through the editor / curation passes):
+
 - `id` - Unique identifier
 - `source_image` - Original filename
 - `quote` - The quote text (sentence case, single paragraph)
@@ -67,8 +68,14 @@ Each processed quote contains:
 - `notes` - Extraction observations
 - `confidence` - Extraction confidence score (0.0-1.0)
 - `needs_review` - Flag for manual review
-- `goodreads_url` - Direct Goodreads book page URL (if resolved)
-- `cover_url` - Path to local cover image (e.g. `covers/pale-fire.jpg`)
+
+Enriched fields added post-extraction:
+- `goodreads_url` - Direct Goodreads book page URL (validated via `validate_goodreads.py`)
+- `cover_url` - Path to local cover image, mostly `.webp` since the Mar 2026 conversion (e.g. `covers/pale-fire.webp`)
+- `book_description` - Optional 1-2 sentence blurb shown in book modal (Wikipedia API or hand-written via editor)
+- `book_author` - Used when a quote is *quoted via* a book; differs from `author` (e.g. quote_0282 = Rousseau quoted in Becker's *Escape From Evil*)
+- `isbn` - Optional ISBN
+- `weighted_tags` - Active tag list (see Tag Data Model below)
 
 ## Legacy Scripts
 
@@ -104,13 +111,13 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 - **`primary_tags`** — Currently unused/empty on all quotes. Primary tag logic is handled by the `ALLOWED_PRIMARY_TAGS` allowlist in `build_tag_connections.py`.
 
 ### Important Files
-- `site/quotes.json` and `docs/quotes.json` - Quote data (keep in sync)
+- `docs/quotes.json` - Tracked in git. `site/quotes.json` is **not** tracked but is kept in lockstep by `server.py` (every `/api/save*` endpoint writes both).
 - `site/tag_connections.json` and `docs/tag_connections.json` - Tag relationships
-- `covers/` and `docs/covers/` - Book cover images (keep in sync)
+- `docs/covers/` - Cover images (mostly `.webp` since the Mar 2026 conversion: ~571 files, 25 MB). `site/covers` is a symlink to `../docs/covers`. The root-level `covers/` is the source originals folder (mixed `.jpg`/`.webp`) and is **not** the served path.
 
 ---
 
-## Current Issues (Updated: Mar 2026)
+## Current Issues (Updated: Apr 2026)
 
 ### Arrow Up (driftUp) Intermittent Bug
 - **Problem**: Pressing arrow up to navigate to the tag shown above works sometimes but not always
@@ -134,7 +141,71 @@ Interactive quote browser with tag-based navigation, book covers, and flying cov
 
 *Ask me to update this section at the end of each session!*
 
-### Last Session (Mar 14 2026) - Top Bar Redesign, Book Descriptions, Markdown & Bug Fixes
+### Last Session (Aug 17 2026) - Quote-Mark Audit, GoatCounter Analytics, 33 New Quotes & Tag Cleanup
+
+- **Quote-mark audit**: scanned all quotes for stray/extra quote marks (site wraps quote text in its own curly quotes at render time, so marks baked into the data display doubled). Found 1 real offender: quote_1080 ("Maps created empire." — Harley via Zuboff) was fully wrapped in `“”` in the data. quote_1077 flagged but fine (balanced internal quotations).
+- **User fixes via editor** (commit `93ba7d8`): stripped quote_1080's outer marks, Camus *The Fall* year 2004→1956, trimmed Pater quote to short version, deleted the Pleonexia definition card (quote_1058 — definitions live elsewhere).
+- **GoatCounter analytics added** (commit `acdb0aa`): free/privacy-friendly, no cookie banner. Script tag just before `</body>` in both `docs/index.html` and `site/index.html`. Dashboard: **https://ehblake.goatcounter.com** (site code "ehblake"). Ignores localhost traffic automatically. No data exists before Aug 17 2026. Saved to auto-memory (`reference_goatcounter`).
+- **33 new quotes added** by user via editor (commit `d206c1f`): 32 from **Les Misérables** (Hugo), 1 from **A Confederacy of Dunces** (Toole, + new cover). Batch was pristine — all had covers/tags/years/Goodreads URLs, no dupes. Wilde "Ambition is the last refuge of the failure." (quote_0932) intentionally removed.
+- **Tag cleanup** (commit `295fcbe`): fixed `invisiblility` typo; merged singular/plural & variant tags into majority form (`frauds`→`fraud`, `riots`→`riot`, `angry`→`anger`, `viewpoint`→`views`, `mistake`→`mistakes`, `error`→`errors`); stripped junk author/title tags from quote_0342.
+- **Deferred tag work**: ~55 new tags from the Les Mis batch aren't in the connections graph (secondary-only for now, assess when more new tags accumulate). Possible future merge: `errors` (6) → `mistakes` (12, primary). quote_1117 & quote_1137 have no primary tag → unreachable via tag navigation (user OK with this).
+- **Server note**: localhost server.py died silently once mid-session (cause unknown, logs lost with the process); restarted fine.
+- **Console 404s are benign**: the Wikipedia prefetcher tries "Title (novel)"/"Title (book)" variants before plain title — misses log as 404s. Not a bug.
+- **Total quotes**: 1070 · **Commits**: `93ba7d8`, `acdb0aa`, `d206c1f`, `295fcbe` (all pushed → everyepigram.com)
+
+### Previous Session (Jul 26 2026) - "2026" Image Batch: 60 New Quotes Ingested & Pushed Live
+
+- **Ingested the `source images/2026/` batch** (79 quote-card images) → **60 quotes added** after curation (ids `quote_1042`–`quote_1114`, with gaps from review deletions).
+  - Extraction: 5 parallel vision subagents, split by book. High accuracy; `OPENAI_API_KEY` was unset so `extract_quotes.py` wasn't used — read the images directly.
+  - Books added: **Forbidden Knowledge** (Roger Shattuck) ×28, **The Age of Surveillance Capitalism** (Zuboff) ×11, **Les Misérables** (Hugo) ×11, **Inside the Lost Museum** (Steven D. Lubar) ×9, **Conjectures and Refutations** (Popper) ×1.
+  - Many are **cited-via** quotes: Shattuck quotes Chaucer/Dante/Tennyson/Montaigne/Darwin/Goethe/Descartes/Rousseau/Keats/Valéry/Shaw/Barthes/Socrates/Einstein/Gautier/Pater/Blake/Lord Acton/Isaiah Berlin; Zuboff quotes Auden ×2/Arendt/Winner/Weiser/Schwartz/Harley; Lubar quotes Stravinsky/Goode/Gibson/Oppenheimer/Simonson/Audrey Hepburn. Stored with `author` = original speaker, `book_author` = the citing author.
+- **4 new covers** auto-fetched from Open Library → webp (`conjectures-and-refutations`, `forbidden-knowledge`, `inside-the-lost-museum`, `les-miserables`). Zuboff cover reused.
+- **Convention confirmed**: for cited-via quotes, `year` = the **citing book's** year (Shattuck 1997, Zuboff 2018, Lubar 2017), not the original work's date. Matches existing data (Camus-via-Basso=1996).
+- **Dedup was critical** — the batch re-included 4 Zuboff quotes already live (0576/0577/0612/0684); skipped. Also found & **removed 5 pre-existing exact-duplicate pairs** (Stevens, Auden, Kahneman, Rimbaud, Jarrell — kept the enriched copy each). Expanded the existing Weiser quote_0612 to its fuller 2-sentence version.
+- **Editorial fixes**: shattuck-12 card was mislabeled "Goethe, Faust" (source typo) but the text is Descartes' *Discourse on Method* → corrected to René Descartes. Typos (trom→from, iust→just, decorative-scan spange→sponge, hyphenation splits); stray-mark removal; Milton "four stages" list reformatted to prose; embedded Lee Simonson quote reconstructed; name normalization (W.H. Auden, Michel de Montaigne, "X (paraphrasing Y)" format). Dropped the Lubar "Ataxaphobia" definition card (not a quote — user stores definitions separately).
+- **User pruned ~13 longer/denser quotes** during localhost review (don't fit the epigram brief).
+- **Gotcha**: the localhost editor writes `quotes.json` directly, so avoid concurrent direct file edits while it's open (write race). New batch-ingestion workflow + gotchas saved to auto-memory (`project_batch_ingestion`).
+- **Total quotes**: 1038 (was 983) · **Primary tags**: 216 · **Commit**: `15cabdc` (pushed to main → everyepigram.com)
+
+### Previous Session (Apr 29 2026) - Mobile Vignette Fix, Curly Quote Handler & Cover Updates
+
+- **Fixed mobile vignette flash on landing canvas**:
+  - Symptom: `.canvas-edge-fade` overlay (radial gradient at viewport edges) flickered on iOS Safari while panning the infinite cover grid
+  - Cause: each `touchmove` triggers `updateCanvasPosition()` → `updateVisibleChunks()`, which adds/removes `<img>` elements as chunks load. The resulting paint flush briefly redrew the overlay because it wasn't on its own compositor layer.
+  - Fix: promoted `.canvas-edge-fade` and `.canvas-grid` onto their own GPU layers via `will-change: transform`, `transform: translateZ(0)`, `backface-visibility: hidden` ([docs/index.html:670-685](docs/index.html:670))
+
+- **Expanded curly-quote auto-conversion in editor**:
+  - Previously only converted `'` → `’` (curly closing single)
+  - Now handles both `'` and `"`, and picks opening (`‘`/`“`) vs closing (`’`/`”`) based on preceding character (whitespace/start/opening-punctuation → opening)
+  - Same `keyup` handler pattern at ~line 3525 of both index files
+
+- **Replaced Denial of Death cover** with a higher-quality version (modified `docs/covers/the-denial-of-death.webp`)
+
+- **5 new covers**: `a-history-of-reading.webp`, `heaven-hell.webp`, `powershift.webp`, `reaping-and-sowing.webp`, `the-corrections.webp`
+
+- **Quote metadata edits** via editor — `docs/quotes.json` shows ~470 line additions / 119 deletions (book descriptions, tag tweaks, metadata)
+
+- **Becker quote count clarification**: 4 quotes directly *by* Ernest Becker, plus 5 quotes Becker *quoted in* his books (Rousseau, Spinoza, Hardy, Tolstoy, William James) — distinction lives in the `book_author` field
+
+- **Total quotes**: 983 (range `quote_0001` → `quote_1041`, gaps from deleted IDs)
+- **Quotes with `cover_url`**: 937
+- **Quotes with `book_description`**: 583
+- **Primary tags**: 210
+- **Commit**: `e33285f` (pushed to main)
+
+### Interim sessions (Mar 15 – Apr 28 2026)
+
+Summarized from commit log; no detailed notes were captured at the time:
+
+- **Cover format conversion** (`c4d1252`): all covers converted from `.jpg`/`.png` to `.webp`, dropping `docs/covers/` from 61 MB → 25 MB. All `cover_url` fields updated. Originals retained in root `covers/`.
+- **Bulk book descriptions** (`a35b8a8`): 95 auto-generated `book_description` blurbs added (Wikipedia API + manual cleanup); plus `de1c5cf`, `dd2cbee`, `f8568d5` added more.
+- **Quote additions**: 4 Proust (`6c04498`), 16 mixed (`6cbe9ca`), 5 (Klee/Jarrell/Greenblatt/Cole/Le Guin — `49dfa5b`), 2 (Leigh Fermor + Merleau-Ponty — `aa3fde5`), 11 (Calvino/Kerouac/Rousseau/Berger/von Neumann — `99d27f8`), 13 (Borges/Auden/Yunkaporta/Hurley — `00f128a`)
+- **Cover backfill**: 3 missing covers added (`f205dd5` — Amsterdam, Blind Spot, Marvelous Possessions)
+- **Tag cleanup** (`e8176ad`, `e0d1582`): weak tags trimmed from various quotes
+- **Mobile UI tweaks** (`3ff5891`, `3829e18`, `f7a4aa0`, `eb91de7`): book block text sizes bumped, search dropdown centered with 5vw padding, top bar buttons given background tint, search dropdown cutoff fixed
+- **Misc**: page title updated to "Every Epigram" (`fbe79f3`), top bar redesign (`84554b7`), King Lear renamed (`de1c5cf`), curly quote direction fix in editor (`a262ad5` — superseded by Apr 29 expansion above)
+
+### Previous Session (Mar 14 2026) - Top Bar Redesign, Book Descriptions, Markdown & Bug Fixes
 
 - **Top bar redesign** (visible on both canvas and quote views):
   - Moved back-to-canvas button from fixed bottom-left into top-bar flex row
