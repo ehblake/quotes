@@ -53441,35 +53441,6 @@
     "book_description": "*Shorter Prose Pieces* is a collection of essays, reviews, and sketches by Oscar Wilde that showcase his wit and literary prowess across various subjects. First published posthumously, this 1999 edition highlights Wilde's ability to critique society, art, and literature with his trademark eloquence and humor."
   },
   {
-    "quote": "Ambition is the last refuge of the failure.",
-    "author": "Oscar Wilde",
-    "publication": "Shorter Prose Pieces",
-    "year": "1999",
-    "isbn": null,
-    "book_author": null,
-    "cover_url": "covers/short-prose-pieces.webp",
-    "weighted_tags": [
-      {
-        "tag": "ambition",
-        "weight": 1
-      },
-      {
-        "tag": "failure",
-        "weight": 1
-      },
-      {
-        "tag": "work",
-        "weight": 1
-      }
-    ],
-    "goodreads_url": "https://www.goodreads.com/book/show/11492588-shorter-prose-pieces",
-    "id": "quote_0932",
-    "confidence": 1.0,
-    "needs_review": false,
-    "notes": "",
-    "book_description": "*Shorter Prose Pieces* is a collection of essays, reviews, and sketches by Oscar Wilde that showcase his wit and literary prowess across various subjects. First published posthumously, this 1999 edition highlights Wilde's ability to critique society, art, and literature with his trademark eloquence and humor."
-  },
-  {
     "quote": "One should either be a work of art, or wear a work of art.",
     "author": "Oscar Wilde",
     "publication": "Shorter Prose Pieces",
@@ -59043,5 +59014,1133 @@
     "needs_review": false,
     "notes": "",
     "isbn": null
+  },
+  {
+    "quote": "No power is without its worshipers, no fortune without its court. The seekers of the future revolve around the splendid present.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1850",
+    "isbn": "8402065929",
+    "book_author": null,
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "power",
+        "weight": 1
+      },
+      {
+        "tag": "the present",
+        "weight": 1
+      },
+      {
+        "tag": "fortune",
+        "weight": 1
+      },
+      {
+        "tag": "wealth",
+        "weight": 1
+      },
+      {
+        "tag": "money",
+        "weight": 1
+      },
+      {
+        "tag": "the future",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1116",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Beyond the five or six great exceptions, the wonders of their age, contemporary admiration is nothing but shortsightedness. Gilt is gold.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "heroes",
+        "weight": 1
+      },
+      {
+        "tag": "worship",
+        "weight": 1
+      },
+      {
+        "tag": "admiration",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1117",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Success, that pretender to talent, has a dupe—history.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "history",
+        "weight": 1
+      },
+      {
+        "tag": "success",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      },
+      {
+        "tag": "time",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "talent",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1118",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Anger may be foolish and absurd, and one may be wrongly irritated, but a man never feels outraged unless in some respect he is fundamentally right.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "outrage",
+        "weight": 1
+      },
+      {
+        "tag": "madness",
+        "weight": 1
+      },
+      {
+        "tag": "anger",
+        "weight": 1
+      },
+      {
+        "tag": "angry",
+        "weight": 1
+      },
+      {
+        "tag": "passion",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1119",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "O implacable march of human society! Destroying men and souls in its way! Ocean, repository of all that the law lets fall! Ominous disappearance of help! O moral death!",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "ocean",
+        "weight": 1
+      },
+      {
+        "tag": "misery",
+        "weight": 1
+      },
+      {
+        "tag": "law",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1120",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We are unlearning certain things, and that is good. provided that while unlearning one thing we are learning another. No vacuum in the human heart!",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "learning",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1121",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The counterfeits of the past take assumed names, and are fond of calling themselves the future.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "the future",
+        "weight": 1
+      },
+      {
+        "tag": "the past",
+        "weight": 1
+      },
+      {
+        "tag": "fraud",
+        "weight": 1
+      },
+      {
+        "tag": "reality",
+        "weight": 1
+      },
+      {
+        "tag": "frauds",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1122",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To set up a theory that lacks a source of truth is an excellent example of blind assurance.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "hubris",
+        "weight": 1
+      },
+      {
+        "tag": "wisdom",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1123",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...in these rather uninviting spots eternally classified as ‘gloomy,’ the dreamer selects his apparently aimless walks.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "walking",
+        "weight": 1
+      },
+      {
+        "tag": "darkness",
+        "weight": 1
+      },
+      {
+        "tag": "searching",
+        "weight": 1
+      },
+      {
+        "tag": "wandering",
+        "weight": 1
+      },
+      {
+        "tag": "discovery",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1124",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To err is human, To loaf is Parisian.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "relaxing",
+        "weight": 1
+      },
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "work",
+        "weight": 1
+      },
+      {
+        "tag": "error",
+        "weight": 1
+      },
+      {
+        "tag": "mistake",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1125",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Cities, like forests, have their dens in which all their vilest and most terrible monsters hide.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "cities",
+        "weight": 1
+      },
+      {
+        "tag": "nature",
+        "weight": 1
+      },
+      {
+        "tag": "evil",
+        "weight": 1
+      },
+      {
+        "tag": "hiding",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1126",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "What is right, when it triumphs, has no need to be violent.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "violence",
+        "weight": 1
+      },
+      {
+        "tag": "fighting",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "battle",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1127",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Factions are blind men who aim straight.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "fighting",
+        "weight": 1
+      },
+      {
+        "tag": "perspective",
+        "weight": 1
+      },
+      {
+        "tag": "viewpoint",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1128",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "A harmony required in the wrong way is often more onerous than a war.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "harmony",
+        "weight": 1
+      },
+      {
+        "tag": "battle",
+        "weight": 1
+      },
+      {
+        "tag": "war",
+        "weight": 1
+      },
+      {
+        "tag": "fighting",
+        "weight": 1
+      },
+      {
+        "tag": "wrongness",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1129",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is a distribution made by the butcher, who kills what he divides.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "sharing",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1130",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Thought is the labor of the intellect, reverie its pleasure. To replace thought with reverie is to confound poison with nourishment.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "intellect",
+        "weight": 1
+      },
+      {
+        "tag": "knowledge",
+        "weight": 1
+      },
+      {
+        "tag": "thought",
+        "weight": 1
+      },
+      {
+        "tag": "thinking",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1131",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "My child, through laziness you are entering into the most laborious of existences.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "labour",
+        "weight": 1
+      },
+      {
+        "tag": "ignorance",
+        "weight": 1
+      },
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "work",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1132",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "God is behind everything, but everything hides God.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "god",
+        "weight": 1
+      },
+      {
+        "tag": "religion",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "reverence",
+        "weight": 1
+      },
+      {
+        "tag": "invisiblility",
+        "weight": 1
+      },
+      {
+        "tag": "hiding",
+        "weight": 1
+      },
+      {
+        "tag": "seeing",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1133",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Man is not a circle with a single center: he is an ellipse with two focii. Facts are one, ideas are the other.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "facts",
+        "weight": 1
+      },
+      {
+        "tag": "truth",
+        "weight": 1
+      },
+      {
+        "tag": "ideas",
+        "weight": 1
+      },
+      {
+        "tag": "creativity",
+        "weight": 1
+      },
+      {
+        "tag": "duality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1134",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...yet no more in danger than a star in the jaws of the clouds.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "stars",
+        "weight": 1
+      },
+      {
+        "tag": "sky",
+        "weight": 1
+      },
+      {
+        "tag": "clouds",
+        "weight": 1
+      },
+      {
+        "tag": "danger",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1135",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Insurrection borders on the mind, riot on the stomach.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "riot",
+        "weight": 1
+      },
+      {
+        "tag": "hunger",
+        "weight": 1
+      },
+      {
+        "tag": "revolution",
+        "weight": 1
+      },
+      {
+        "tag": "insurrection",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1136",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Feast if you can and eat if you dare.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "food",
+        "weight": 1
+      },
+      {
+        "tag": "eating",
+        "weight": 1
+      },
+      {
+        "tag": "dare",
+        "weight": 1
+      },
+      {
+        "tag": "boldness",
+        "weight": 1
+      },
+      {
+        "tag": "opportunity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1137",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Great perils share this beauty, that they bring to light the fraternity of strangers.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "danger",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "neighbours",
+        "weight": 1
+      },
+      {
+        "tag": "people",
+        "weight": 1
+      },
+      {
+        "tag": "strangers",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1138",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...genius attracts insult, great men are always barked at more or less.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "intelligence",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "genius",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1139",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "Equality has an organ: free and compulsory education. The right to the alphabet, we must begin by that.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "education",
+        "weight": 1
+      },
+      {
+        "tag": "equality",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1140",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "An insurrection breaking out is an idea undergoing its examination before the people.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "insurrection",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "riots",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1141",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "An admirable thing, the poetry of a people is the gauge of its progress.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "progress",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "poetry",
+        "weight": 1
+      },
+      {
+        "tag": "measurements",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1142",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "...there is no man more fearful in action than a dreamer.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "dreamer",
+        "weight": 1
+      },
+      {
+        "tag": "action",
+        "weight": 1
+      },
+      {
+        "tag": "fighting",
+        "weight": 1
+      },
+      {
+        "tag": "dreams",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1143",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "We no longer see such a Mardi Gras nowadays. Everything being a constant carnival, there is no carnival left.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "spectacle",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "carnival",
+        "weight": 1
+      },
+      {
+        "tag": "humanity",
+        "weight": 1
+      },
+      {
+        "tag": "escape",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1144",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "To love or to have loved, that is enough. Ask nothing further. There is no other pearl to be found in the dark folds of life.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "love",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1145",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "The letters of the alphabet can be stolen like a purse or a watch.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "letters",
+        "weight": 1
+      },
+      {
+        "tag": "writing",
+        "weight": 1
+      },
+      {
+        "tag": "language",
+        "weight": 1
+      },
+      {
+        "tag": "understanding",
+        "weight": 1
+      },
+      {
+        "tag": "originality",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1146",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "It is nothing to die: it is horrible not to live.",
+    "author": "Victor Hugo",
+    "publication": "Les Misérables",
+    "year": "1862",
+    "isbn": null,
+    "book_author": "Victor Hugo",
+    "cover_url": "covers/les-miserables.webp",
+    "weighted_tags": [
+      {
+        "tag": "death",
+        "weight": 1
+      },
+      {
+        "tag": "life",
+        "weight": 1
+      },
+      {
+        "tag": "existence",
+        "weight": 1
+      },
+      {
+        "tag": "purpose",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    "id": "quote_1147",
+    "confidence": 1.0,
+    "needs_review": false,
+    "notes": ""
+  },
+  {
+    "quote": "When a true genius appears in the world, you may know him by this sign, that the dunces are all in confederacy against him.",
+    "author": "Jonathan Swift",
+    "publication": "A Confederacy of Dunces",
+    "year": "1981",
+    "isbn": null,
+    "book_author": "John Kennedy Toole",
+    "cover_url": "covers/a-confederacy-of-dunces.webp",
+    "weighted_tags": [
+      {
+        "tag": "intelligence",
+        "weight": 1
+      },
+      {
+        "tag": "society",
+        "weight": 1
+      },
+      {
+        "tag": "stupidity",
+        "weight": 1
+      }
+    ],
+    "goodreads_url": "https://www.goodreads.com/en/book/show/310612.A_Confederacy_of_Dunces",
+    "id": "quote_1148",
+    "confidence": 1,
+    "needs_review": false,
+    "notes": ""
   }
 ]
