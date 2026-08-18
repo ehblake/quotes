@@ -1884,6 +1884,32 @@
     let currentIndex = 0;
     let transitionActive = false;
 
+    // ===== URL / history: deep-linkable quotes + in-site Back button =====
+    let suppressHistory = false;  // true while applying a popstate, so we don't re-write history
+    function quoteIdNum(q){ return (q && q.id) ? (q.id.replace('quote_','').replace(/^0+/,'') || '0') : null; }
+    function quoteUrl(q){ const n = quoteIdNum(q); return n ? `${location.pathname}?q=${n}` : location.pathname; }
+    function findIndexByQParam(v){
+      if (v == null || v === '') return -1;
+      const padded = 'quote_' + String(v).padStart(4, '0');
+      return quotes.findIndex(x => x.id === padded);
+    }
+    function syncQuoteUrl(){
+      if (suppressHistory) return;
+      const q = quotes[currentIndex];
+      if (!q || isLandingVisible) return;
+      const st = { view: 'quote', id: q.id };
+      // From the canvas -> push (keep canvas in history so Back returns to it);
+      // quote-to-quote -> replace (URL tracks the quote without growing history).
+      if (!history.state || history.state.view === 'canvas') history.pushState(st, '', quoteUrl(q));
+      else history.replaceState(st, '', quoteUrl(q));
+    }
+    function setCanvasHistory(push){
+      if (suppressHistory) return;
+      const st = { view: 'canvas' };
+      if (push) history.pushState(st, '', location.pathname);
+      else history.replaceState(st, '', location.pathname);
+    }
+
     // Tag navigation state
     let tagConnections = {};  // Related tags data
     let activeTag = null;     // Current tag we're navigating by
@@ -2357,6 +2383,7 @@
     // Transition back to landing canvas
     function transitionToCanvas() {
       if (isLandingVisible) return;
+      setCanvasHistory(true);  // reset URL to base; Back can return to the quote
       const landingCanvas = document.getElementById('landing-canvas');
       const viewMode = document.getElementById('view-mode');
       const backBtn = document.getElementById('back-to-canvas');
@@ -2637,6 +2664,7 @@
 
           // Update state
           currentIndex = newIndex;
+          syncQuoteUrl();
 
           // Reset all inline styles on panels
           panels.forEach(p => {
@@ -2981,6 +3009,7 @@
 
       // Count removed - replaced with TOPICS link
       currentIndex = index;
+      syncQuoteUrl();
 
       // Render related tags
       renderRelatedTags();
@@ -3408,18 +3437,20 @@
         renderLandingCanvas();
         initLandingCanvas();
 
-        // Check for URL parameter to jump directly to a quote
+        // Read the deep-link param BEFORE normalizing the URL (?q=<id>, e.g. ?q=800 -> quote_0800).
         const urlParams = new URLSearchParams(window.location.search);
         const quoteParam = urlParams.get('q');
+
+        // Seed a canvas history entry so Back from a quote returns to the canvas (stays in-site).
+        setCanvasHistory(false);
+
         if (quoteParam) {
-          // Jump to quote by position (1-indexed), e.g., ?q=100 goes to the 100th quote
-          const position = parseInt(quoteParam, 10);
-          if (position >= 1 && position <= quotes.length) {
-            console.log(`URL param: jumping to quote position ${position}`);
-            // Skip landing canvas, go directly to quote
-            transitionToQuote(position - 1, null);
+          const idx = findIndexByQParam(quoteParam);
+          if (idx >= 0) {
+            console.log(`URL param: opening ${quotes[idx].id}`);
+            transitionToQuote(idx, null);  // pushes a quote entry above the canvas base
           } else {
-            console.log(`URL param: position ${position} out of range (1-${quotes.length})`);
+            console.log(`URL param: q=${quoteParam} did not match a quote`);
           }
         }
       } catch (err) {
@@ -3490,6 +3521,31 @@
           driftDown();
         } else if (e.key === "r") {
           showRandom();
+        }
+      });
+
+      // Browser Back/Forward: move between canvas and quotes in-site (no full exit).
+      window.addEventListener('popstate', (e) => {
+        const params = new URLSearchParams(location.search);
+        const wantQuote = e.state ? e.state.view === 'quote' : params.has('q');
+        suppressHistory = true;  // the view change below must not rewrite history
+        try {
+          if (wantQuote) {
+            let idx = (e.state && e.state.id) ? quotes.findIndex(x => x.id === e.state.id)
+                                              : findIndexByQParam(params.get('q'));
+            if (idx < 0) idx = 0;
+            if (isLandingVisible) {
+              transitionToQuote(idx, null);
+            } else {
+              currentIndex = idx;
+              startTagJourney(quotes[idx]);
+              render(quotes[idx], idx);
+            }
+          } else if (!isLandingVisible) {
+            transitionToCanvas();
+          }
+        } finally {
+          setTimeout(() => { suppressHistory = false; }, 550);  // outlast the view transition
         }
       });
 
