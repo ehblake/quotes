@@ -68,7 +68,7 @@
     "filename_stem": "abbie-hoffman",
     "quote": "Once you get the right image the details aren’t that important.",
     "author": "Abbie Hoffman",
-    "year": null,
+    "year": "1992",
     "publication": "Abbie Hoffman: American Rebel",
     "notes": "Text was in all caps, converted to sentence case.",
     "confidence": 1,
@@ -173,7 +173,8 @@
         "relevance": 0.3433
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/181346850-abbie-hoffman"
+    "goodreads_url": "https://www.goodreads.com/book/show/181346850-abbie-hoffman",
+    "cover_url": "covers/abbie-hoffman-american-rebel.webp"
   },
   {
     "id": "quote_0005",
@@ -274,7 +275,7 @@
     "filename_stem": "adrian-franklin-01",
     "quote": "...a single voice of authority is a lot less interesting than the multiple voices and subject positions that art inevitably generates. It’s the difference between art as a conversation and art as a lecture.",
     "author": "Adrian Franklin",
-    "year": "2007",
+    "year": "2014",
     "publication": "The Making of Mona",
     "notes": "Extracted quote starts in the middle of a sentence.",
     "confidence": 0.95,
@@ -3041,7 +3042,7 @@
     "filename_stem": "arthur-clarke-01",
     "quote": "Many and strange are the universes that drift like bubbles in the foam upon the river of time.",
     "author": "Arthur C. Clarke",
-    "year": null,
+    "year": "1967",
     "publication": "The Nine Billion Names of God",
     "notes": "Quote includes punctuation marks such as quotation marks and italics for publication title.",
     "confidence": 1,
@@ -3052,7 +3053,7 @@
     "publisher": "Fanucci",
     "open_library_key": "/works/OL17365W",
     "catalog_notes": "Found ISBN: 9788834731024; Year from Open Library: 1968",
-    "cover_url": null,
+    "cover_url": "covers/the-nine-billion-names-of-god.webp",
     "_flickr_id": "52896790774",
     "_match_score": 70,
     "tags": [
@@ -3901,7 +3902,7 @@
     "filename_stem": "balzac",
     "quote": "An obsession is a pleasure that has attained the status of an idea.",
     "author": "Honoré de Balzac",
-    "year": "2019",
+    "year": "2018",
     "publication": "Packing My Library",
     "notes": "Quote formatting with quotes and italics included.",
     "confidence": 1,
@@ -4410,7 +4411,7 @@
     "filename_stem": "bertolt-brecht",
     "quote": "In the dark times will there also be singing? Yes, there will also be singing. About the dark times.",
     "author": "Bertolt Brecht",
-    "year": null,
+    "year": "2018",
     "publication": "The Collected Poems of Bertolt Brecht",
     "notes": "Extracted from image attributed to Bertolt Brecht.",
     "confidence": 1,
@@ -4686,7 +4687,7 @@
     "filename_stem": "billy-beane-01",
     "quote": "Let them make the mistakes. When your enemy’s making mistakes, don’t interrupt them. They’re giving you an out. Just giving it to you. Take it. Say “thank you”.",
     "author": "Billy Beane",
-    "year": "2017",
+    "year": "2003",
     "publication": "Moneyball",
     "notes": "",
     "confidence": 1,
@@ -5245,7 +5246,7 @@
     "filename_stem": "byron-02",
     "quote": "Shut up the world at large, let Bedlam out and you will be perhaps surprised to find all things pursue exactly the same route,",
     "author": "Lord Byron",
-    "year": null,
+    "year": "1819",
     "publication": "Don Juan",
     "notes": "",
     "confidence": 1,
@@ -5924,7 +5925,7 @@
     "filename_stem": "charles-darwin",
     "quote": "Ignorance more frequently begets confidence than does knowledge.",
     "author": "Charles Darwin",
-    "year": 1871,
+    "year": "1871",
     "publication": "The Descent of Man, and Selection in Relation to Sex",
     "notes": "",
     "confidence": 1.0,
@@ -6418,7 +6419,7 @@
     "filename_stem": "dana-meadows-06",
     "quote": "Our knowledge is amazing; our ignorance even more so.",
     "author": "Dana Meadows",
-    "year": null,
+    "year": "2008",
     "publication": "Thinking in Systems",
     "notes": "",
     "confidence": 1.0,
@@ -7676,7 +7677,7 @@
     "publisher": "Penguin Books, Limited",
     "open_library_key": "/works/OL37868377W",
     "catalog_notes": "Found ISBN: 9780241611555; Year from Open Library: 2024",
-    "cover_url": "covers/ultimate-hidden-truth.webp",
+    "cover_url": "covers/the-ultimate-hidden-truth-of-the-world.webp",
     "_flickr_id": "54603440621",
     "_match_score": 50,
     "tags": [
@@ -8090,7 +8091,7 @@
     "filename_stem": "david-walsh-05",
     "quote": "Civilisation without books is possible, but it wouldn’t be much fun.",
     "author": "David Walsh",
-    "year": "2020",
+    "year": "2014",
     "publication": "A Bone of Fact",
     "notes": "",
     "confidence": 1.0,
@@ -8182,7 +8183,7 @@
     "filename_stem": "david-walsh-06",
     "quote": "Excessive commitment to one’s own property is known as the endowment effect... I have it big time.",
     "author": "David Walsh",
-    "year": "2020",
+    "year": "2014",
     "publication": "A Bone of Fact",
     "notes": "",
     "confidence": 1.0,
@@ -10292,8 +10293,8 @@
     "filename_stem": "ernest-hemingway-4",
     "quote": "Write the story, take out all the good lines, and see if it still works.",
     "author": "Ernest Hemingway",
-    "year": null,
-    "publication": "On Film Directing",
+    "year": "1991",
+    "publication": "On Directing Film",
     "notes": "",
     "confidence": 1,
     "needs_review": false,
@@ -10362,7 +10363,8 @@
         "relevance": 0.3045
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film"
+    "goodreads_url": "https://www.goodreads.com/book/show/12517.On_Directing_Film",
+    "cover_url": "covers/9780670830336.webp"
   },
   {
     "id": "quote_0149",
@@ -13231,7 +13233,7 @@
     "publisher": "Penguin Books",
     "open_library_key": "/works/OL3179606W",
     "catalog_notes": "Found ISBN: 0140561218",
-    "cover_url": "covers/the-history-of-things.webp",
+    "cover_url": "covers/the-shape-of-time-remarks-on-the-history-of-things.webp",
     "book_author": null,
     "tags": [
       "luck",
@@ -14282,7 +14284,7 @@
     "filename_stem": "gustav-flaubert-01",
     "quote": "Exuberance is better than taste.",
     "author": "Gustav Flaubert",
-    "year": "2007",
+    "year": "2014",
     "publication": "The Making of Mona",
     "notes": "",
     "confidence": 1,
@@ -14375,7 +14377,7 @@
     "filename_stem": "gustav-flaubert",
     "quote": "The more words there are on a gallery wall next to a picture, the worse the picture.",
     "author": "Gustav Flaubert",
-    "year": "2007",
+    "year": "2014",
     "publication": "The Making of Mona",
     "notes": "",
     "confidence": 1,
@@ -14818,7 +14820,7 @@
     "filename_stem": "helvetius",
     "quote": "Men are born ignorant, not stupid; they are made stupid by education.",
     "author": "Claude Adrien Helvétius",
-    "year": "2004",
+    "year": "1945",
     "publication": "The History of Western Philosophy",
     "notes": "Converted to sentence case.",
     "confidence": 1,
@@ -14906,7 +14908,7 @@
     "filename_stem": "henry-david-thoreau-01",
     "quote": "The man I meet with is not often so instructive as the silence he breaks.",
     "author": "Henry David Thoreau",
-    "year": null,
+    "year": "2014",
     "publication": "A Philosophy of Walking",
     "notes": "",
     "confidence": 1,
@@ -15001,7 +15003,7 @@
     "filename_stem": "henry-david-thoreau-02",
     "quote": "Love of the morning is a measure of health.",
     "author": "Henry David Thoreau",
-    "year": null,
+    "year": "2014",
     "publication": "A Philosophy of Walking",
     "notes": "Quote uses uppercase but converted to sentence case. Author matches filename hint.",
     "confidence": 1,
@@ -15315,7 +15317,7 @@
     "filename_stem": "herman-melville-2",
     "quote": "Ignorance is the parent of fear.",
     "author": "Herman Melville",
-    "year": "1850",
+    "year": "1851",
     "publication": "Moby Dick",
     "notes": "",
     "confidence": 1,
@@ -18863,7 +18865,7 @@
     "filename_stem": "jbs-haldane",
     "quote": "The world will not perish for want of wonders, but for want of wonder.",
     "author": "J. B. S. Haldane",
-    "year": "1927",
+    "year": "1995",
     "publication": "Mr. Wilson's Cabinet of Wonders",
     "notes": "",
     "confidence": 1,
@@ -19145,116 +19147,6 @@
     "book_description": "*Escape From Evil* by Ernest Becker delves into the anthropological and psychological roots of human violence and the concept of evil. It examines how cultural and societal structures are built to mitigate the existential fear of death, often resulting in destructive behaviors."
   },
   {
-    "id": "quote_0283",
-    "source_image": "jean-jacques-rousseau-21.png",
-    "filename_stem": "jean-jacques-rousseau-21",
-    "quote": "",
-    "author": "",
-    "year": null,
-    "publication": null,
-    "notes": "Extraction failed: Unterminated string starting at: line 1 column 10 (char 9)",
-    "confidence": 0.0,
-    "needs_review": true,
-    "_flickr_id": "34193502442",
-    "tags": [
-      "Interview",
-      "author",
-      "doctorow",
-      "e.l. doctorow",
-      "concept",
-      "idea",
-      "ideation",
-      "ideas",
-      "vision",
-      "creativity",
-      "creative",
-      "writing",
-      "design",
-      "quote"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "creativity",
-        "weight": 0.279,
-        "corpus_score": 0.9538,
-        "relevance": 0.2857
-      },
-      {
-        "tag": "ideas",
-        "weight": 0.2783,
-        "corpus_score": 0.8605,
-        "relevance": 0.3
-      },
-      {
-        "tag": "design",
-        "weight": 0.2502,
-        "corpus_score": 0.8959,
-        "relevance": 0.2643
-      },
-      {
-        "tag": "vision",
-        "weight": 0.247,
-        "corpus_score": 0.7116,
-        "relevance": 0.2929
-      },
-      {
-        "tag": "writing",
-        "weight": 0.2377,
-        "corpus_score": 0.7671,
-        "relevance": 0.2714
-      },
-      {
-        "tag": "idea",
-        "weight": 0.2019,
-        "corpus_score": 0.4125,
-        "relevance": 0.3143
-      },
-      {
-        "tag": "concept",
-        "weight": 0.1957,
-        "corpus_score": 0.3705,
-        "relevance": 0.3214
-      },
-      {
-        "tag": "ideation",
-        "weight": 0.1735,
-        "corpus_score": 0.3191,
-        "relevance": 0.3071
-      },
-      {
-        "tag": "author",
-        "weight": 0.1724,
-        "corpus_score": 0.2529,
-        "relevance": 0.3429
-      },
-      {
-        "tag": "creative",
-        "weight": 0.1574,
-        "corpus_score": 0.3191,
-        "relevance": 0.2786
-      },
-      {
-        "tag": "interview",
-        "weight": 0.1398,
-        "corpus_score": 0.1596,
-        "relevance": 0.35
-      },
-      {
-        "tag": "doctorow",
-        "weight": 0.1341,
-        "corpus_score": 0.1596,
-        "relevance": 0.3357
-      },
-      {
-        "tag": "e.l. doctorow",
-        "weight": 0.1313,
-        "corpus_score": 0.1596,
-        "relevance": 0.3286
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
     "id": "quote_0284",
     "source_image": "jean-jacques-rousseau.png",
     "filename_stem": "jean-jacques-rousseau",
@@ -19404,7 +19296,7 @@
         "relevance": 0.3423
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/27685771",
+    "goodreads_url": "https://www.goodreads.com/book/show/298275.Nausea",
     "book_description": "* Nausea* is a 1938 philosophical novel by existentialist philosopher Jean-Paul Sartre that explores the themes of existential angst and the absurdity of existence through the eyes of Antoine Roquentin, a historian grappling with the meaninglessness of life. Sartre's debut novel delves into the psychological turmoil and alienation experienced by Roquentin as he confronts the nausea-inducing realization of his own freedom and responsibility."
   },
   {
@@ -19584,7 +19476,7 @@
         "relevance": 0.3433
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/27685771",
+    "goodreads_url": "https://www.goodreads.com/book/show/298275.Nausea",
     "book_description": "* Nausea* is a 1938 philosophical novel by existentialist philosopher Jean-Paul Sartre that explores the themes of existential angst and the absurdity of existence through the eyes of Antoine Roquentin, a historian grappling with the meaninglessness of life. Sartre's debut novel delves into the psychological turmoil and alienation experienced by Roquentin as he confronts the nausea-inducing realization of his own freedom and responsibility."
   },
   {
@@ -20596,7 +20488,7 @@
     "filename_stem": "john-maynard-keynes",
     "quote": "When the facts change, I change my mind. What do you do, sir?",
     "author": "John Maynard Keynes",
-    "year": "2013",
+    "year": "2012",
     "publication": "Coming Apart",
     "notes": "The quote is attributed to John Maynard Keynes in the context of changing his mind about monetary policy.",
     "confidence": 1,
@@ -21290,7 +21182,7 @@
     "open_library_key": "/works/OL110971W",
     "catalog_notes": "Found ISBN: 9782072798153",
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/seven-nights.webp",
     "_flickr_id": "17291626336",
     "tags": [
       "libraries",
@@ -22221,7 +22113,7 @@
     "filename_stem": "kurt-vonnegut-05",
     "quote": "A large part of our brains is devoted to deciding whether what our hands are touching is good or bad for us. Any brain worth a nickel knows books are good for us.",
     "author": "Kurt Vonnegut Jr.",
-    "year": "2016",
+    "year": "2013",
     "publication": "If This Isn't Nice, What Is?",
     "notes": "",
     "confidence": 1,
@@ -22363,7 +22255,7 @@
     "filename_stem": "kurt-vonnegut-07",
     "quote": "A sane person in an insane society must appear insane.",
     "author": "Kurt Vonnegut Jr.",
-    "year": "2004",
+    "year": "2005",
     "publication": "A Man Without a Country",
     "notes": "",
     "confidence": 1,
@@ -22430,7 +22322,7 @@
     "filename_stem": "kurt-vonnegut-10",
     "quote": "Shrapnel was invented by an Englishman of the same name. Don’t you wish you could have something named after you?",
     "author": "Kurt Vonnegut Jr.",
-    "year": "2004",
+    "year": "2005",
     "publication": "A Man Without a Country",
     "notes": "Text is clear and completely visible.",
     "confidence": 1,
@@ -24031,7 +23923,7 @@
     "filename_stem": "kurt-vonnegut-80",
     "quote": "It can make quite a difference not just to you but to humanity: the sort of boss you choose, whose dreams you help come true.",
     "author": "Kurt Vonnegut Jr.",
-    "year": null,
+    "year": "2015",
     "publication": "The Brothers Vonnegut",
     "notes": "No additional information such as year or publication mentioned.",
     "confidence": 1,
@@ -24102,7 +23994,8 @@
         "relevance": 0.5312
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/23848017-the-brothers-vonnegut"
+    "goodreads_url": "https://www.goodreads.com/book/show/23848017-the-brothers-vonnegut",
+    "cover_url": "covers/the-brothers-vonnegut.webp"
   },
   {
     "id": "quote_0354",
@@ -24724,7 +24617,7 @@
     "filename_stem": "lynn-margulis",
     "quote": "Life did not take over the globe by combat, but by networking.",
     "author": "Lynn Margulis",
-    "year": null,
+    "year": "1998",
     "publication": "Symbiotic Planet",
     "notes": "",
     "confidence": 1,
@@ -24808,7 +24701,8 @@
         "relevance": 0.2917
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/91263.Symbiotic_Planet"
+    "goodreads_url": "https://www.goodreads.com/book/show/91263.Symbiotic_Planet",
+    "cover_url": "covers/symbiotic-planet.webp"
   },
   {
     "id": "quote_0365",
@@ -26117,7 +26011,7 @@
     "filename_stem": "michel-de-certeau",
     "quote": "An absence of meaning opens a rift in time.",
     "author": "Michel de Certeau",
-    "year": null,
+    "year": "1995",
     "publication": "Mr. Wilson's Cabinet of Wonders",
     "notes": "",
     "confidence": 1,
@@ -28579,7 +28473,7 @@
     "filename_stem": "neil-postman-27",
     "quote": "...in the country of the blind, the one-eyed man is king. In America, and increasingly Europe, technology is a one-eyed king ruling unopposed amidst idiot cheering.",
     "author": "Neil Postman",
-    "year": "1998",
+    "year": "1988",
     "publication": "Conscientious Objections",
     "notes": "",
     "confidence": 1,
@@ -28671,7 +28565,7 @@
     "filename_stem": "neil-postman-33",
     "quote": "One becomes fastidious about method only when one has no story to tell.",
     "author": "Neil Postman",
-    "year": "1998",
+    "year": "1988",
     "publication": "Conscientious Objections",
     "notes": "",
     "confidence": 1,
@@ -31366,7 +31260,7 @@
     "filename_stem": "rimbaud-09",
     "quote": "I think I am in hell, therefore I am in hell.",
     "author": "Arthur Rimbaud",
-    "year": "1991",
+    "year": "1873",
     "publication": "A Season in Hell",
     "notes": "",
     "confidence": 1,
@@ -31427,7 +31321,7 @@
     "filename_stem": "rimbaud-10",
     "quote": "The clock of life stopped a while ago. I am no longer in the world.",
     "author": "Arthur Rimbaud",
-    "year": "1991",
+    "year": "1873",
     "publication": "A Season in Hell",
     "notes": "",
     "confidence": 1,
@@ -31489,7 +31383,7 @@
     "filename_stem": "rimbaud-11",
     "quote": "I die of lassitude. It is the tomb, I go to the worms, horror of horrors!",
     "author": "Arthur Rimbaud",
-    "year": "1991",
+    "year": "1873",
     "publication": "A Season in Hell",
     "notes": "",
     "confidence": 1,
@@ -31621,7 +31515,7 @@
     "filename_stem": "robert-j-lang",
     "quote": "The secret to productivity in so many fields is letting dead people do your work for you.",
     "author": "Robert J. Lang",
-    "year": null,
+    "year": "2003",
     "publication": "Origami Design Secrets: Mathematical Methods for an Ancient Art",
     "notes": "",
     "confidence": 1,
@@ -32176,7 +32070,7 @@
         "relevance": 0.5286
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/21527802-pale-fire",
+    "goodreads_url": "https://www.goodreads.com/book/show/15924977",
     "book_description": "*Pale Fire* is a 1962 novel by Vladimir Nabokov, structured around a 999-line poem by the fictional poet John Shade. Accompanied by an elaborate commentary from Shade's eccentric neighbor Charles Kinbote, the novel weaves a complex narrative that blurs the lines between reality and fiction."
   },
   {
@@ -32565,7 +32459,7 @@
         "relevance": 0.5875
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/1176075.Critical_Essays_on_The_Tempest_by_William_Shakespeare"
+    "goodreads_url": "https://www.goodreads.com/book/show/12985.The_Tempest"
   },
   {
     "id": "quote_0470",
@@ -32891,7 +32785,7 @@
     "filename_stem": "shakespeare07",
     "quote": "He’s mad that trusts in the tameness of a wolf, a horse’s health, a boy’s love, or a whore’s oath.",
     "author": "William Shakespeare (Fool)",
-    "year": "1735",
+    "year": "1608",
     "publication": "The Tragedy of King Lear",
     "notes": "",
     "confidence": 1,
@@ -32941,7 +32835,7 @@
     "filename_stem": "shakespeare10",
     "quote": "The weight of this sad time we must obey; speak what we feel, not what we ought to say.",
     "author": "William Shakespeare",
-    "year": "1735",
+    "year": "1608",
     "publication": "The Tragedy of King Lear",
     "notes": "Attribution to Edgar, King Lear, 5.3.",
     "confidence": 0.95,
@@ -33578,7 +33472,7 @@
     "filename_stem": "solshenitsyn-alexander",
     "quote": "Stupidity always follows on the heels of smugness.",
     "author": "Alexander Solzhenitsyn",
-    "year": "1979",
+    "year": "1973",
     "publication": "The Gulag Archipelago",
     "notes": "",
     "confidence": 1.0,
@@ -33674,7 +33568,7 @@
         "relevance": 0.3333
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
+    "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
     "book_description": "*The Gulag Archipelago* is a monumental work by Aleksandr Solzhenitsyn that delves into the brutal realities of the Soviet labor camp system, drawing from reports, interviews, and the author's own harrowing experiences. This detailed narrative, constructed from the testimony of hundreds of survivors, serves as both a historical document and a powerful literary achievement."
   },
   {
@@ -34190,7 +34084,8 @@
         "relevance": 0.5167
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/55085874-the-philobiblon?ref=nav_sb_ss_2_11"
+    "goodreads_url": "https://www.goodreads.com/book/show/55085874-the-philobiblon?ref=nav_sb_ss_2_11",
+    "cover_url": "covers/the-philobiblon.webp"
   },
   {
     "id": "quote_0492",
@@ -34459,7 +34354,7 @@
     "filename_stem": "thoreau-01",
     "quote": "The question is not what you look at, but what you see.",
     "author": "Henry David Thoreau",
-    "year": 1854,
+    "year": "1854",
     "publication": "Walden",
     "notes": "The quote and author are clear and legible.",
     "confidence": 1.0,
@@ -37402,7 +37297,7 @@
     "filename_stem": "william-blake-01",
     "quote": "A robin red breast in a cage puts all Heaven in a rage.",
     "author": "William Blake",
-    "year": "1803",
+    "year": "1794",
     "publication": "Songs of Innocence and of Experience",
     "notes": "",
     "confidence": 1,
@@ -38439,7 +38334,7 @@
     "filename_stem": "wordsworth-01",
     "quote": "The eye—it cannot choose but see; we cannot bid the ear be still; our bodies feel, where’er they be, against or with our will.",
     "author": "William Wordsworth",
-    "year": null,
+    "year": "1798",
     "publication": "Lyrical Ballads",
     "notes": "",
     "confidence": 1,
@@ -39083,7 +38978,7 @@
     "quote": "Words and sentences must, by necessity, come only one at a time in linear logical order. Systems happen all at once.",
     "author": "Dana Meadows",
     "publication": "Thinking in Systems",
-    "year": null,
+    "year": "2008",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/thinking-in-systems.webp",
@@ -39130,7 +39025,7 @@
     "quote": "Perpetual growth is impossible. Ultimately, the choice is not to grow forever but to decide what limits to live within.",
     "author": "Dana Meadows",
     "publication": "Thinking in Systems",
-    "year": null,
+    "year": "2008",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/thinking-in-systems.webp",
@@ -39171,7 +39066,7 @@
     "quote": "...the faster you will admit your uncertainties and correct your mistakes... the more flexible you will learn to be.",
     "author": "Dana Meadows",
     "publication": "Thinking in Systems",
-    "year": null,
+    "year": "2008",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/thinking-in-systems.webp",
@@ -39230,7 +39125,7 @@
     "quote": "Fear is a natural reaction to moving closer to the truth.",
     "author": "Pema Chödrön",
     "publication": "When Things Fall Apart: Heart Advice for Difficult Times",
-    "year": null,
+    "year": "1997",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/when-things-fall-apart-heart-advice-for-difficult-.webp",
@@ -39731,7 +39626,7 @@
     "quote": "Uncertainty is not chaos but rather the necessary habitat of the present tense.",
     "author": "Shoshana Zuboff",
     "publication": "The Age of Surveillance Capitalism",
-    "year": "2012",
+    "year": "2018",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-age-of-surveillance-capitalism.webp",
@@ -40190,7 +40085,7 @@
     "quote": "A dream itself is but a shadow.",
     "author": "William Shakespeare",
     "publication": "Hamlet",
-    "year": "1735",
+    "year": "1601",
     "isbn": "9780344207730",
     "book_author": null,
     "cover_url": "covers/hamlet.webp",
@@ -41377,7 +41272,7 @@
     "confidence": 1.0,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
+    "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
     "book_description": "*The Gulag Archipelago* is a monumental work by Aleksandr Solzhenitsyn that delves into the brutal realities of the Soviet labor camp system, drawing from reports, interviews, and the author's own harrowing experiences. This detailed narrative, constructed from the testimony of hundreds of survivors, serves as both a historical document and a powerful literary achievement."
   },
   {
@@ -41424,7 +41319,7 @@
     "confidence": 1,
     "needs_review": false,
     "notes": "",
-    "goodreads_url": "https://www.goodreads.com/book/show/914759.Le_P_re_Goriot_of_Honor_de_Balzac",
+    "goodreads_url": "https://www.goodreads.com/book/show/59145.P_re_Goriot",
     "book_description": "*Pere Goriot* is an 1835 novel by Honoré de Balzac that explores the complex social dynamics of Paris in 1819 through the lives of three central characters: the devoted father Goriot, the enigmatic criminal Vautrin, and the ambitious law student Eugène de Rastignac. As their stories intertwine, the novel delves into themes of ambition, betrayal, and the pursuit of power within the hierarchical structure of society."
   },
   {
@@ -41817,7 +41712,7 @@
     "year": "1982",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/burning-chrome.webp",
     "weighted_tags": [
       {
         "tag": "design",
@@ -43436,7 +43331,7 @@
     "quote": "when the arts and sciences come to perfection in any state, from that moment they naturally, or rather necessarily decline, and seldom or never revive in that nation...",
     "author": "David Hume",
     "publication": "The Bias of Communication",
-    "year": "1961",
+    "year": "1951",
     "isbn": null,
     "book_author": "Harold Innis",
     "cover_url": "covers/the-bias-of-communication.webp",
@@ -43483,7 +43378,7 @@
     "quote": "In the long run, utility, like everything else, is simply a figment of our imagination and may well be the fatal stupidity by which we shall one day perish...",
     "author": "Friedrich Nietzsche",
     "publication": "The Bias of Communication",
-    "year": "1961",
+    "year": "1951",
     "isbn": null,
     "book_author": "Harold Innis",
     "cover_url": "covers/the-bias-of-communication.webp",
@@ -43548,7 +43443,7 @@
     "quote": "Mechanized communication divided reason and emotion and emphasized the latter.",
     "author": "Harold Innis",
     "publication": "The Bias of Communication",
-    "year": "1961",
+    "year": "1951",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-bias-of-communication.webp",
@@ -43595,7 +43490,7 @@
     "quote": "Keep true to the dreams of thy youth.",
     "author": "Herman Melville",
     "publication": "The Whale",
-    "year": "2011",
+    "year": "2010",
     "isbn": null,
     "book_author": "Philip Hoare",
     "cover_url": "covers/the-whale.webp",
@@ -44336,7 +44231,7 @@
     "year": "2001",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/fooled-by-randomness.webp",
     "weighted_tags": [
       {
         "tag": "randomness",
@@ -46343,7 +46238,7 @@
     "year": "2020",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/we-have-been-harmonized-life-in-chinas-surveillanc.webp",
     "weighted_tags": [
       {
         "tag": "technology",
@@ -48415,7 +48310,7 @@
     "quote": "The true conquests, the only ones that cause no regret, are those made of ignorance.",
     "author": "Napoleon Bonaparte",
     "publication": "Napoleon the Great",
-    "year": "2015",
+    "year": "2014",
     "isbn": null,
     "book_author": "Andrew Roberts",
     "cover_url": "covers/napoleon-the-great.webp",
@@ -48870,7 +48765,7 @@
     "quote": "Efficiency is a measure of cost. Effectiveness is a measure of outcome.",
     "author": "Stephen Weil",
     "publication": "Making Museums Matter",
-    "year": "1995",
+    "year": "2002",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/making-museums-matter.webp",
@@ -49599,7 +49494,7 @@
     "quote": "Like all of life’s rich emotional experiences, the full flavor of losing important money cannot be conveyed by literature.",
     "author": "Fred Schwed",
     "publication": "Fortune's Formula",
-    "year": "2006",
+    "year": "2005",
     "isbn": null,
     "book_author": "William Poundstone",
     "cover_url": "covers/fortunes-formula.webp",
@@ -49759,7 +49654,7 @@
     "quote": "The most important service rendered by the press and the magazines is that of educating people to approach printed matter with distrust.",
     "author": "Samuel Butler",
     "publication": "The Bias of Communication",
-    "year": "1961",
+    "year": "1951",
     "isbn": null,
     "book_author": "Harold Innis",
     "cover_url": "covers/the-bias-of-communication.webp",
@@ -49792,7 +49687,7 @@
     "quote": "Perhaps the obsession of each culture with its uniqueness is the ultimate basis of its decline.",
     "author": "Harold Innis",
     "publication": "The Bias of Communication",
-    "year": "1961",
+    "year": "1951",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-bias-of-communication.webp",
@@ -50352,7 +50247,7 @@
     "quote": "It’s not we who lord it over things, it seems, but things which lord it over us.",
     "author": "Bertolt Brecht",
     "publication": "Fashionable Nonsense",
-    "year": "1997",
+    "year": "1998",
     "isbn": null,
     "book_author": "Jean Bricmont & Alan Sokal",
     "cover_url": "covers/fashionable-nonsense.webp",
@@ -50446,7 +50341,7 @@
     "quote": "Ingratitude is the necessary curse of making things new...",
     "author": "John Berryman",
     "publication": "The Dream Songs",
-    "year": "1968",
+    "year": "1969",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-dream-songs.webp",
@@ -50479,7 +50374,7 @@
     "quote": "Our dead frisk us, & later they get better at it.",
     "author": "John Berryman",
     "publication": "The Dream Songs",
-    "year": "1968",
+    "year": "1969",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-dream-songs.webp",
@@ -50832,7 +50727,7 @@
     "quote": "Wherever the law is, crime can be found.",
     "author": "Aleksandr Solzhenitsyn",
     "publication": "The Gulag Archipelago",
-    "year": "1979",
+    "year": "1973",
     "isbn": null,
     "book_author": null,
     "cover_url": "covers/the-gulag-archipelago.webp",
@@ -51542,7 +51437,7 @@
     "quote": "For a writer, that society is best which is most burdensome.",
     "author": "Neil Postman",
     "publication": "Conscientious Objections",
-    "year": "1998",
+    "year": "1988",
     "isbn": "0434593028",
     "book_author": null,
     "cover_url": "covers/0434593028.webp",
@@ -51579,7 +51474,7 @@
     "quote": "There arises from a bad and unapt formation of words a wonderful obstruction to the mind.",
     "author": "Francis Bacon",
     "publication": "Conscientious Objections",
-    "year": "1998",
+    "year": "1988",
     "isbn": "0434593028",
     "book_author": "Neil Postman",
     "cover_url": "covers/0434593028.webp",
@@ -51612,7 +51507,7 @@
     "quote": "It is a form of stupidity to accept without reflection someone else’s definition of a word...",
     "author": "Neil Postman",
     "publication": "Conscientious Objections",
-    "year": "1998",
+    "year": "1988",
     "isbn": "0434593028",
     "book_author": null,
     "cover_url": "covers/0434593028.webp",
@@ -51641,7 +51536,7 @@
     "quote": "Stupidity is a form of behavior. It is not something we have; it is something we do.",
     "author": "Neil Postman",
     "publication": "Conscientious Objections",
-    "year": "1998",
+    "year": "1988",
     "isbn": "0434593028",
     "book_author": null,
     "cover_url": "covers/0434593028.webp",
@@ -51688,7 +51583,7 @@
         "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
+    "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
     "id": "quote_0878",
     "confidence": 1.0,
     "needs_review": false,
@@ -51721,7 +51616,7 @@
         "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/137783586-the-gulag-archipelago-by-alexander-solzhenitsyn",
+    "goodreads_url": "https://www.goodreads.com/book/show/70561.The_Gulag_Archipelago_1918_1956",
     "id": "quote_0879",
     "confidence": 1.0,
     "needs_review": false,
@@ -51818,7 +51713,7 @@
         "weight": 1
       }
     ],
-    "goodreads_url": "https://www.goodreads.com/book/show/914759.Le_P_re_Goriot_of_Honor_de_Balzac",
+    "goodreads_url": "https://www.goodreads.com/book/show/59145.P_re_Goriot",
     "id": "quote_0882",
     "confidence": 1.0,
     "needs_review": false,
@@ -52397,11 +52292,11 @@
   {
     "quote": "The rules only take us so far, even good rules.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/a-man-without-a-country.webp",
     "weighted_tags": [
       {
         "tag": "rules",
@@ -52426,11 +52321,11 @@
   {
     "quote": "The truth is, we know so little about life, we don’t really know what the good news is and what the bad news is.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/a-man-without-a-country.webp",
     "weighted_tags": [
       {
         "tag": "the unknown",
@@ -52459,11 +52354,11 @@
   {
     "quote": "I am one of America’s Great Lakes people, her freshwater people, not an oceanic but a continental people.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/a-man-without-a-country.webp",
     "weighted_tags": [
       {
         "tag": "the midwest",
@@ -52866,11 +52761,11 @@
   {
     "quote": "The arts are not a way to make a living. They are a very human way of making life more bearable.",
     "author": "Kurt Vonnegut Jr.",
-    "publication": "A Man Without A Country",
+    "publication": "A Man Without a Country",
     "year": "2005",
     "isbn": null,
     "book_author": null,
-    "cover_url": null,
+    "cover_url": "covers/a-man-without-a-country.webp",
     "weighted_tags": [
       {
         "tag": "art",
@@ -54080,7 +53975,7 @@
     "quote": "My mother groan’d! my father wept. / Into the dangerous world I leapt: / Helpless, naked, piping loud, / Like a fiend hid in a cloud.",
     "author": "William Blake",
     "publication": "Songs of Innocence and of Experience",
-    "year": "1803",
+    "year": "1794",
     "isbn": null,
     "book_author": "William Blake",
     "cover_url": "covers/songs-of-innocence-and-of-experience.webp",
@@ -55602,12 +55497,12 @@
   },
   {
     "quote": "For progress there is no cure",
-    "author": "John van Neumann",
+    "author": "John von Neumann",
     "publication": "The Brothers Vonnegut",
     "year": "2015",
     "isbn": null,
     "book_author": "Ginger Strand",
-    "cover_url": null,
+    "cover_url": "covers/the-brothers-vonnegut.webp",
     "weighted_tags": [
       {
         "tag": "progress",
@@ -59008,7 +58903,7 @@
     "quote": "No power is without its worshipers, no fortune without its court. The seekers of the future revolve around the splendid present.",
     "author": "Victor Hugo",
     "publication": "Les Misérables",
-    "year": "1850",
+    "year": "1862",
     "isbn": "8402065929",
     "book_author": null,
     "cover_url": "covers/les-miserables.webp",
