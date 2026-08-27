@@ -3685,8 +3685,8 @@
     "filename_stem": "arthur-schopenhauer-31",
     "quote": "We feel pain, but not painlessness.",
     "author": "Arthur Schopenhauer",
-    "year": null,
-    "publication": null,
+    "year": "1851",
+    "publication": "Essays & Aphorisms",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -3767,7 +3767,10 @@
         "relevance": 0.3333
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/19510",
+    "book_author": null,
+    "cover_url": "covers/0140442278.webp",
+    "book_description": "*Essays & Aphorisms* by Arthur Schopenhauer is a selection from his last work, *Parerga and Paralipomena*, published in 1851. It explores themes like religion, ethics, and politics, depicting humanity as driven by irrational will and finding salvation through art, morality, and self-awareness in a Godless world."
   },
   {
     "id": "quote_0055",
@@ -3826,8 +3829,8 @@
     "filename_stem": "augustine",
     "quote": "A free curiosity has more power to make us learn these things than a terrifying obligation.",
     "author": "Saint Augustine",
-    "year": null,
-    "publication": null,
+    "year": "1945",
+    "publication": "The History of Western Philosophy",
     "notes": "The text was in all caps and has been converted to sentence case. The year of the quote is not provided; dates next to the author's name indicate his lifespan.",
     "confidence": 1.0,
     "needs_review": false,
@@ -3894,7 +3897,10 @@
         "relevance": 0.51
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/1179537",
+    "book_author": "Bertrand Russell",
+    "cover_url": "covers/the-history-of-western-philosophy.webp",
+    "book_description": "*The History of Western Philosophy* by Bertrand Russell is a comprehensive exploration of philosophical thought from ancient Greece to the early 20th century, highlighting its influence on social and political life. Russell presents philosophy as both a product and a driver of the cultural and intellectual character of various societies."
   },
   {
     "id": "quote_0057",
@@ -4917,8 +4923,8 @@
     "filename_stem": "buckminster-fuller-01",
     "quote": "Dare to be naïve.",
     "author": "Buckminster Fuller",
-    "year": null,
-    "publication": null,
+    "year": "1975",
+    "publication": "Synergetics",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -4977,268 +4983,10 @@
         "relevance": 0.3375
       }
     ],
-    "goodreads_url": null
-  },
-  {
-    "id": "quote_0074",
-    "source_image": "buckminster-fuller-03.png",
-    "filename_stem": "buckminster-fuller-03",
-    "quote": "Humans beings always do the most intelligent thing... after they’ve tried every stupid alternative and none of them have worked.",
-    "author": "Buckminster Fuller",
-    "year": null,
-    "publication": null,
-    "notes": "Quote text corrected for sentence case.",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "54323542747",
-    "tags": [
-      "quote",
-      "buckminster fuller",
-      "humankind",
-      "ideas",
-      "stupid",
-      "humour",
-      "resolution",
-      "resolve",
-      "design"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "humankind",
-        "weight": 0.7265,
-        "corpus_score": 0.552,
-        "relevance": 0.9778
-      },
-      {
-        "tag": "stupid",
-        "weight": 0.6396,
-        "corpus_score": 0.448,
-        "relevance": 0.9556
-      },
-      {
-        "tag": "ideas",
-        "weight": 0.5256,
-        "corpus_score": 0.8605,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "design",
-        "weight": 0.4838,
-        "corpus_score": 0.8959,
-        "relevance": 0.5111
-      },
-      {
-        "tag": "humour",
-        "weight": 0.435,
-        "corpus_score": 0.6383,
-        "relevance": 0.5444
-      },
-      {
-        "tag": "resolution",
-        "weight": 0.213,
-        "corpus_score": 0.1596,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "resolve",
-        "weight": 0.2086,
-        "corpus_score": 0.1596,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "buckminster fuller",
-        "weight": 0.2063,
-        "corpus_score": 0.3705,
-        "relevance": 0.3389
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
-    "id": "quote_0075",
-    "source_image": "buckminster-fuller-04.png",
-    "filename_stem": "buckminster-fuller-04",
-    "quote": "When I am working on a problem, I never think about beauty... but when I have finished, if the solution is not beautiful, I know it is wrong.",
-    "author": "Buckminster Fuller",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "54324670549",
-    "tags": [
-      "quote",
-      "buckminster fuller",
-      "design",
-      "beauty",
-      "problem solving",
-      "wrong",
-      "incorrect",
-      "ugly"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "wrong",
-        "weight": 0.6486,
-        "corpus_score": 0.4787,
-        "relevance": 0.9375
-      },
-      {
-        "tag": "beauty",
-        "weight": 0.6182,
-        "corpus_score": 0.4125,
-        "relevance": 0.9625
-      },
-      {
-        "tag": "design",
-        "weight": 0.5443,
-        "corpus_score": 0.8959,
-        "relevance": 0.575
-      },
-      {
-        "tag": "problem solving",
-        "weight": 0.4817,
-        "corpus_score": 0.4125,
-        "relevance": 0.75
-      },
-      {
-        "tag": "incorrect",
-        "weight": 0.3196,
-        "corpus_score": 0.3705,
-        "relevance": 0.525
-      },
-      {
-        "tag": "buckminster fuller",
-        "weight": 0.2054,
-        "corpus_score": 0.3705,
-        "relevance": 0.3375
-      },
-      {
-        "tag": "ugly",
-        "weight": 0.2047,
-        "corpus_score": 0.1596,
-        "relevance": 0.5125
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
-    "id": "quote_0076",
-    "source_image": "buckminster-fuller-05.png",
-    "filename_stem": "buckminster-fuller-05",
-    "quote": "If you want to teach people a new way of thinking, don’t bother trying to teach them. Instead, give them a tool, the use of which will lead to new ways of thinking.",
-    "author": "Buckminster Fuller",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "54324852260",
-    "_match_score": 50,
-    "tags": [
-      "quote",
-      "buckminster fuller",
-      "design",
-      "tool",
-      "making",
-      "learning by doing",
-      "creativity",
-      "learning",
-      "learn",
-      "new",
-      "thinking",
-      "use",
-      "using",
-      "teach",
-      "new tools"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "thinking",
-        "weight": 0.8296,
-        "corpus_score": 0.783,
-        "relevance": 0.9375
-      },
-      {
-        "tag": "the new",
-        "weight": 0.6553,
-        "corpus_score": 0.5301,
-        "relevance": 0.9
-      },
-      {
-        "tag": "design",
-        "weight": 0.5561,
-        "corpus_score": 0.8959,
-        "relevance": 0.5875
-      },
-      {
-        "tag": "creativity",
-        "weight": 0.5494,
-        "corpus_score": 0.9538,
-        "relevance": 0.5625
-      },
-      {
-        "tag": "learning",
-        "weight": 0.4946,
-        "corpus_score": 0.7905,
-        "relevance": 0.5563
-      },
-      {
-        "tag": "making",
-        "weight": 0.4349,
-        "corpus_score": 0.5721,
-        "relevance": 0.575
-      },
-      {
-        "tag": "tool",
-        "weight": 0.392,
-        "corpus_score": 0.1596,
-        "relevance": 0.9813
-      },
-      {
-        "tag": "use",
-        "weight": 0.372,
-        "corpus_score": 0.1596,
-        "relevance": 0.9313
-      },
-      {
-        "tag": "teach",
-        "weight": 0.3645,
-        "corpus_score": 0.1596,
-        "relevance": 0.9125
-      },
-      {
-        "tag": "learn",
-        "weight": 0.2766,
-        "corpus_score": 0.2529,
-        "relevance": 0.55
-      },
-      {
-        "tag": "learning by doing",
-        "weight": 0.2272,
-        "corpus_score": 0.1596,
-        "relevance": 0.5687
-      },
-      {
-        "tag": "buckminster fuller",
-        "weight": 0.2092,
-        "corpus_score": 0.3705,
-        "relevance": 0.3438
-      },
-      {
-        "tag": "using",
-        "weight": 0.2072,
-        "corpus_score": 0.1596,
-        "relevance": 0.5188
-      },
-      {
-        "tag": "new tools",
-        "weight": 0.2022,
-        "corpus_score": 0.1596,
-        "relevance": 0.5062
-      }
-    ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": null,
+    "cover_url": "covers/synergetics.webp",
+    "book_description": null
   },
   {
     "id": "quote_0077",
@@ -30794,8 +30542,8 @@
     "filename_stem": "rd-laing",
     "quote": "Life is a sexually transmitted disease and the mortality rate is one hundred percent.",
     "author": "R.D. Laing",
-    "year": null,
-    "publication": null,
+    "year": "2018",
+    "publication": "How to Change Your Mind",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -30853,7 +30601,10 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": "Michael Pollan",
+    "cover_url": "covers/how-to-change-your-mind.webp",
+    "book_description": null
   },
   {
     "id": "quote_0445",
@@ -30914,96 +30665,6 @@
     ],
     "goodreads_url": "https://www.goodreads.com/book/show/78287.Wanderlust",
     "book_author": null
-  },
-  {
-    "id": "quote_0446",
-    "source_image": "richard-feynman-03.png",
-    "filename_stem": "richard-feynman-03",
-    "quote": "Religion is a culture of faith; science is a culture of doubt.",
-    "author": "Richard Feynman",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "_flickr_id": "54878350074",
-    "tags": [
-      "quote",
-      "book",
-      "Richard Feynman",
-      "religion",
-      "culture",
-      "cult",
-      "faith",
-      "science",
-      "doubt",
-      "uncertainty",
-      "hypothesis",
-      "feynman"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "culture",
-        "weight": 0.8093,
-        "corpus_score": 0.7009,
-        "relevance": 0.9667
-      },
-      {
-        "tag": "science",
-        "weight": 0.7523,
-        "corpus_score": 0.6383,
-        "relevance": 0.9417
-      },
-      {
-        "tag": "religion",
-        "weight": 0.7492,
-        "corpus_score": 0.5905,
-        "relevance": 0.975
-      },
-      {
-        "tag": "doubt",
-        "weight": 0.7059,
-        "corpus_score": 0.5721,
-        "relevance": 0.9333
-      },
-      {
-        "tag": "faith",
-        "weight": 0.6101,
-        "corpus_score": 0.4125,
-        "relevance": 0.95
-      },
-      {
-        "tag": "uncertainty",
-        "weight": 0.3971,
-        "corpus_score": 0.5721,
-        "relevance": 0.525
-      },
-      {
-        "tag": "cult",
-        "weight": 0.3029,
-        "corpus_score": 0.1596,
-        "relevance": 0.7583
-      },
-      {
-        "tag": "hypothesis",
-        "weight": 0.2598,
-        "corpus_score": 0.2529,
-        "relevance": 0.5167
-      },
-      {
-        "tag": "richard feynman",
-        "weight": 0.1332,
-        "corpus_score": 0.1596,
-        "relevance": 0.3333
-      },
-      {
-        "tag": "feynman",
-        "weight": 0.1032,
-        "corpus_score": 0.1596,
-        "relevance": 0.2583
-      }
-    ],
-    "goodreads_url": null
   },
   {
     "id": "quote_0447",
@@ -33033,8 +32694,8 @@
     "filename_stem": "sidney-nolan-01",
     "quote": "Nothing is fixed—everything keeps being transformed—and you have to sense where paradise is in the process.",
     "author": "Sidney Nolan",
-    "year": null,
-    "publication": null,
+    "year": "1987",
+    "publication": "Sidney Nolan: Such Is Life",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -33100,7 +32761,10 @@
         "relevance": 0.3389
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": "Brian Adams",
+    "cover_url": "covers/sidney-nolan.webp",
+    "book_description": null
   },
   {
     "id": "quote_0480",
@@ -33108,8 +32772,8 @@
     "filename_stem": "simon-schama-01",
     "quote": "What is the present except an endless chain of memories...? We are all the inheritors of those memories, and we look after them as best we can. All this, so we can pass on their revelation to the future.",
     "author": "Simon Schama",
-    "year": null,
-    "publication": null,
+    "year": "1995",
+    "publication": "Landscape and Memory",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -33176,7 +32840,10 @@
         "relevance": 0.3
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": null,
+    "cover_url": "covers/landscape-and-memory.webp",
+    "book_description": null
   },
   {
     "id": "quote_0481",
@@ -33382,8 +33049,8 @@
     "filename_stem": "simonides",
     "quote": "Time has sharp teeth that destroy everything.",
     "author": "Simonides of Ceos",
-    "year": null,
-    "publication": null,
+    "year": "2012",
+    "publication": "Antifragile: Things That Gain from Disorder",
     "notes": "Author is identified as Simonides of Ceos, with mention of 6th century B.C.",
     "confidence": 0.95,
     "needs_review": false,
@@ -33464,7 +33131,10 @@
         "relevance": 0.3333
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/13530973-antifragile",
+    "book_author": "Nassim Nicholas Taleb",
+    "cover_url": "covers/antifragile.webp",
+    "book_description": "*Antifragile: Things That Gain from Disorder* by Nassim Nicholas Taleb explores the concept of entities that thrive and grow stronger when exposed to volatility, randomness, and stress. Building on his previous works, Taleb introduces \"antifragility\" as a revolutionary framework for understanding how systems can benefit from uncertainty in a chaotic modern world."
   },
   {
     "id": "quote_0484",
@@ -33577,8 +33247,8 @@
     "filename_stem": "stanislas-tanchou",
     "quote": "Cancer, like insanity, seems to increase with the progress of civilization.",
     "author": "Stanislas Tanchou",
-    "year": null,
-    "publication": null,
+    "year": "2023",
+    "publication": "Outlive: The Science and Art of Longevity",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -33645,74 +33315,10 @@
         "relevance": 0.33
       }
     ],
-    "goodreads_url": null
-  },
-  {
-    "id": "quote_0486",
-    "source_image": "stéphane-mallarmé.png",
-    "filename_stem": "stéphane-mallarmé",
-    "quote": "Everything in the world exists to end in a book.",
-    "author": "Stéphane Mallarmé",
-    "year": null,
-    "publication": null,
-    "notes": "",
-    "confidence": 1.0,
-    "needs_review": false,
-    "tags": [
-      "mallarme",
-      "stephane mallarme",
-      "books",
-      "literature",
-      "writing",
-      "meaning",
-      "poetry",
-      "pithy"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "books",
-        "weight": 0.5367,
-        "corpus_score": 0.8712,
-        "relevance": 0.575
-      },
-      {
-        "tag": "writing",
-        "weight": 0.4817,
-        "corpus_score": 0.7671,
-        "relevance": 0.55
-      },
-      {
-        "tag": "poetry",
-        "weight": 0.4034,
-        "corpus_score": 0.5905,
-        "relevance": 0.525
-      },
-      {
-        "tag": "literature",
-        "weight": 0.4001,
-        "corpus_score": 0.5058,
-        "relevance": 0.5625
-      },
-      {
-        "tag": "meaning",
-        "weight": 0.3913,
-        "corpus_score": 0.5301,
-        "relevance": 0.5375
-      },
-      {
-        "tag": "mallarme",
-        "weight": 0.2397,
-        "corpus_score": 0.1596,
-        "relevance": 0.6
-      },
-      {
-        "tag": "stephane mallarme",
-        "weight": 0.2347,
-        "corpus_score": 0.1596,
-        "relevance": 0.5875
-      }
-    ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": "Peter Attia",
+    "cover_url": "covers/outlive.webp",
+    "book_description": null
   },
   {
     "id": "quote_0487",
@@ -33895,8 +33501,8 @@
     "filename_stem": "terence-mckenna-02",
     "quote": "...the true depth of the dark waters of mystery upon which the cheerful world of the everyday is no more than a cork bobbing in an uncharted ocean.",
     "author": "Terence McKenna",
-    "year": null,
-    "publication": null,
+    "year": "1991",
+    "publication": "The Archaic Revival",
     "notes": "The quote starts with an ellipsis indicating it might be part of a larger passage.",
     "confidence": 0.9,
     "needs_review": false,
@@ -33953,7 +33559,10 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": null,
+    "cover_url": "covers/the-archaic-revival.webp",
+    "book_description": null
   },
   {
     "id": "quote_0490",
@@ -33961,8 +33570,8 @@
     "filename_stem": "terence-mckenna-04",
     "quote": "...technology is the real skin of our species. Humanity, correctly seen in the context of the last five hundred years, is an extruder of technological material.",
     "author": "Terence McKenna",
-    "year": null,
-    "publication": null,
+    "year": "1991",
+    "publication": "The Archaic Revival",
     "notes": "The quote appears to be complete in the image and matches known writings of Terence McKenna.",
     "confidence": 0.95,
     "needs_review": false,
@@ -34029,7 +33638,10 @@
         "relevance": 0.34
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": null,
+    "cover_url": "covers/the-archaic-revival.webp",
+    "book_description": null
   },
   {
     "id": "quote_0491",
