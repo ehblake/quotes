@@ -3635,51 +3635,6 @@
     "book_description": "*Essays & Aphorisms* by Arthur Schopenhauer is a selection from his last work, *Parerga and Paralipomena*, published in 1851. It explores themes like religion, ethics, and politics, depicting humanity as driven by irrational will and finding salvation through art, morality, and self-awareness in a Godless world."
   },
   {
-    "id": "quote_0053",
-    "source_image": "arthur-schopenhauer-30.png",
-    "filename_stem": "arthur-schopenhauer-30",
-    "quote": "He sacrifices everything to his rage for symmetry.",
-    "author": "Arthur Schopenhauer",
-    "year": null,
-    "publication": null,
-    "notes": "The quote is attributed to Schopenhauer on Kant.",
-    "confidence": 0.95,
-    "needs_review": false,
-    "_flickr_id": "52750350766",
-    "tags": [
-      "quote",
-      "book",
-      "Arthur Schopenhauer",
-      "Immanuel kant",
-      "kant",
-      "symmetry",
-      "rage",
-      "perfection",
-      "obsession"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "creativity",
-        "weight": 0.4883,
-        "corpus_score": 0.9538,
-        "relevance": 0.5
-      },
-      {
-        "tag": "design",
-        "weight": 0.4733,
-        "corpus_score": 0.8959,
-        "relevance": 0.5
-      },
-      {
-        "tag": "perfection",
-        "weight": 0.3354,
-        "corpus_score": 0.4125,
-        "relevance": 0.5222
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
     "id": "quote_0054",
     "source_image": "arthur-schopenhauer-31.png",
     "filename_stem": "arthur-schopenhauer-31",
@@ -29622,75 +29577,6 @@
     "goodreads_url": "https://www.goodreads.com/book/show/2671377-society-and-solitude"
   },
   {
-    "id": "quote_0430",
-    "source_image": "ralph-waldo-emerson_1.png",
-    "filename_stem": "ralph-waldo-emerson_1",
-    "quote": "If a man owns land, the land owns him.",
-    "author": "Ralph Waldo Emerson",
-    "year": null,
-    "publication": null,
-    "notes": "No year or publication provided in the image. The quote is clearly attributed to Ralph Waldo Emerson.",
-    "confidence": 0.95,
-    "needs_review": false,
-    "_flickr_id": "52750845003",
-    "tags": [
-      "quote",
-      "book",
-      "ownership",
-      "own",
-      "home",
-      "land",
-      "property",
-      "control",
-      "Ralph waldo emerson"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "land",
-        "weight": 0.475,
-        "corpus_score": 0.2529,
-        "relevance": 0.9444
-      },
-      {
-        "tag": "control",
-        "weight": 0.4172,
-        "corpus_score": 0.6383,
-        "relevance": 0.5222
-      },
-      {
-        "tag": "ownership",
-        "weight": 0.3867,
-        "corpus_score": 0.448,
-        "relevance": 0.5778
-      },
-      {
-        "tag": "property",
-        "weight": 0.3013,
-        "corpus_score": 0.3191,
-        "relevance": 0.5333
-      },
-      {
-        "tag": "home",
-        "weight": 0.2794,
-        "corpus_score": 0.2529,
-        "relevance": 0.5556
-      },
-      {
-        "tag": "own",
-        "weight": 0.2264,
-        "corpus_score": 0.1596,
-        "relevance": 0.5667
-      },
-      {
-        "tag": "ralph waldo emerson",
-        "weight": 0.1043,
-        "corpus_score": 0.1596,
-        "relevance": 0.2611
-      }
-    ],
-    "goodreads_url": null
-  },
-  {
     "id": "quote_0432",
     "source_image": "raoul-vaneigem-04.png",
     "filename_stem": "raoul-vaneigem-04",
@@ -33705,8 +33591,8 @@
     "filename_stem": "the-library-03",
     "quote": "When I get a little money I buy books; and if any is left, I buy food and clothes.",
     "author": "Desiderius Erasmus",
-    "year": null,
-    "publication": null,
+    "year": "2009",
+    "publication": "The Library: An Illustrated History",
     "notes": "The author includes a lifespan (1466-1536) instead of a year or publication.",
     "confidence": 0.9,
     "needs_review": false,
@@ -33757,7 +33643,10 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": "Stuart A. P. Murray",
+    "cover_url": "covers/the-library-an-illustrated-history.webp",
+    "book_description": null
   },
   {
     "id": "quote_0493",
@@ -33899,66 +33788,6 @@
     "book_author": null,
     "goodreads_url": "https://mona.net.au/stuff-to-do/art/theatre-of-the-world",
     "book_description": "*Theatre of the World* is an opera by Dutch composer Louis Andriessen, featuring a libretto by Helmut Krausser that explores the life of 17th-century Jesuit scholar Athanasius Kircher. Premiered in 2016, this work is subtitled A Grotesque Stagework in 9 Scenes, reflecting its thematic focus on the concept of life as a divine play."
-  },
-  {
-    "id": "quote_0495",
-    "source_image": "thomas-kempis.png",
-    "filename_stem": "thomas-kempis",
-    "quote": "A man’s library is a sort of harem.",
-    "author": "Thomas à Kempis",
-    "year": null,
-    "publication": null,
-    "notes": "Author's name and years are visible, but publication is not mentioned.",
-    "confidence": 0.9,
-    "needs_review": false,
-    "tags": [
-      "thomas a kempis",
-      "libraries",
-      "books",
-      "reading",
-      "collection",
-      "humour",
-      "pithy"
-    ],
-    "weighted_tags": [
-      {
-        "tag": "books",
-        "weight": 0.5334,
-        "corpus_score": 0.8712,
-        "relevance": 0.5714
-      },
-      {
-        "tag": "libraries",
-        "weight": 0.4904,
-        "corpus_score": 0.7009,
-        "relevance": 0.5857
-      },
-      {
-        "tag": "reading",
-        "weight": 0.4627,
-        "corpus_score": 0.6897,
-        "relevance": 0.5571
-      },
-      {
-        "tag": "humour",
-        "weight": 0.4223,
-        "corpus_score": 0.6383,
-        "relevance": 0.5286
-      },
-      {
-        "tag": "collecting",
-        "weight": 0.3782,
-        "corpus_score": 0.5721,
-        "relevance": 0.5
-      },
-      {
-        "tag": "thomas a kempis",
-        "weight": 0.2397,
-        "corpus_score": 0.1596,
-        "relevance": 0.6
-      }
-    ],
-    "goodreads_url": null
   },
   {
     "id": "quote_0497",
@@ -35119,10 +34948,10 @@
     "id": "quote_0511",
     "source_image": "ursula-k-le-guin.jpg",
     "filename_stem": "ursula-k-le-guin",
-    "quote": "We have a bad habit, encouraged by pendants and sophisticates, of considering happiness as something rather stupid.",
+    "quote": "We have a bad habit, encouraged by pedants and sophisticates, of considering happiness as something rather stupid.",
     "author": "Ursula Le Guin",
-    "year": null,
-    "publication": null,
+    "year": "2020",
+    "publication": "The Dawn of Everything",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -35179,7 +35008,10 @@
         "relevance": 0.5571
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/56269264-the-dawn-of-everything",
+    "book_author": "David Graeber",
+    "cover_url": "covers/the-dawn-of-everything.webp",
+    "book_description": "A dramatically new understanding of human history, challenging our most fundamental assumptions about social evolution—from the development of agriculture and cities to the origins of the state, democracy, and inequality—and revealing new possibilities for human emancipation."
   },
   {
     "id": "quote_0512",
@@ -35642,8 +35474,8 @@
     "filename_stem": "van-gogh",
     "quote": "Normality is a paved road: it’s comfortable to walk, but no flowers grow on it.",
     "author": "Vincent Van Gogh",
-    "year": null,
-    "publication": null,
+    "year": "1996",
+    "publication": "The Letters of Vincent van Gogh",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -35701,7 +35533,10 @@
         "relevance": 0.3375
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": null,
+    "cover_url": "covers/the-letters-of-vincent-van-gogh.webp",
+    "book_description": null
   },
   {
     "id": "quote_0518",
@@ -35799,8 +35634,8 @@
     "filename_stem": "virgil",
     "quote": "What region of the earth is not full of our calamities?",
     "author": "Virgil",
-    "year": null,
-    "publication": null,
+    "year": "19 BC",
+    "publication": "The Aeneid",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -35874,7 +35709,10 @@
         "relevance": 0.5636
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": null,
+    "book_author": null,
+    "cover_url": "covers/the-aeneid.webp",
+    "book_description": null
   },
   {
     "id": "quote_0520",
@@ -35983,8 +35821,8 @@
     "filename_stem": "wallace-stevens-11",
     "quote": "Reality is the beginning not the end, naked Alpha, not the hierophant Omega, of dense investiture, with luminous vassals.",
     "author": "Wallace Stevens",
-    "year": null,
-    "publication": null,
+    "year": "1984",
+    "publication": "The Collected Poems of Wallace Stevens",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -36080,7 +35918,10 @@
         "relevance": 0.3433
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/18847694-the-collected-poems-of-wallace-stevens",
+    "book_author": null,
+    "cover_url": "covers/collected-poems-wallace-stevens.webp",
+    "book_description": null
   },
   {
     "id": "quote_0524",
@@ -36705,8 +36546,8 @@
     "filename_stem": "wilfred-owen",
     "quote": "All the poet can do today is to warn. That is why the true poets must be truthful.",
     "author": "Wilfred Owen",
-    "year": null,
-    "publication": null,
+    "year": "1968",
+    "publication": "Quite Early One Morning: Stories, Poems and Essays",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -36763,7 +36604,10 @@
         "relevance": 0.35
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/297417.Quite_Early_One_Morning",
+    "book_author": "Dylan Thomas",
+    "cover_url": "covers/quite-early-one-morning-stories-poems-and-essays.webp",
+    "book_description": null
   },
   {
     "id": "quote_0533",
@@ -36965,8 +36809,8 @@
     "filename_stem": "william-blake-05",
     "quote": "There is a moment in each day that Satan cannot find, nor can his watch fiends find it, but the industrious find this moment & it multiply, & when it once is found it renovates every moment of the day if rightly placed.",
     "author": "William Blake",
-    "year": null,
-    "publication": null,
+    "year": "1981",
+    "publication": "The Complete Poetry and Prose",
     "notes": "",
     "confidence": 1.0,
     "needs_review": false,
@@ -37047,7 +36891,10 @@
         "relevance": 0.3417
       }
     ],
-    "goodreads_url": null
+    "goodreads_url": "https://www.goodreads.com/book/show/782580",
+    "book_author": null,
+    "cover_url": "covers/the-complete-poetry-and-prose.webp",
+    "book_description": "*The Complete Poetry and Prose of William Blake* is widely considered the authoritative single-volume collection of Blake’s works. First published in 1965, this comprehensive edition includes all his poems, prose, and illuminated books, plus critical commentary, updated variants, and a chronology."
   },
   {
     "id": "quote_0537",
