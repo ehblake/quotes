@@ -6121,7 +6121,7 @@
     "source_image": "dana-meadows-06.png",
     "filename_stem": "dana-meadows-06",
     "quote": "Our knowledge is amazing; our ignorance even more so.",
-    "author": "Dana Meadows",
+    "author": "Donella Meadows",
     "year": "2008",
     "publication": "Thinking in Systems",
     "notes": "",
@@ -38435,7 +38435,7 @@
   },
   {
     "quote": "Words and sentences must, by necessity, come only one at a time in linear logical order. Systems happen all at once.",
-    "author": "Dana Meadows",
+    "author": "Donella Meadows",
     "publication": "Thinking in Systems",
     "year": "2008",
     "isbn": null,
@@ -38482,7 +38482,7 @@
   },
   {
     "quote": "Perpetual growth is impossible. Ultimately, the choice is not to grow forever but to decide what limits to live within.",
-    "author": "Dana Meadows",
+    "author": "Donella Meadows",
     "publication": "Thinking in Systems",
     "year": "2008",
     "isbn": null,
@@ -38523,7 +38523,7 @@
   },
   {
     "quote": "...the faster you will admit your uncertainties and correct your mistakes... the more flexible you will learn to be.",
-    "author": "Dana Meadows",
+    "author": "Donella Meadows",
     "publication": "Thinking in Systems",
     "year": "2008",
     "isbn": null,
@@ -48459,7 +48459,7 @@
     "publication": "Thinking in Systems",
     "year": "2008",
     "isbn": null,
-    "book_author": "Dana Meadows",
+    "book_author": "Donella Meadows",
     "cover_url": "covers/thinking-in-systems.webp",
     "weighted_tags": [
       {
@@ -59825,11 +59825,11 @@
   {
     "quote": "Can you not understand, Winston, that the individual is only a cell? The weariness of the cell is the vigor of the organism.",
     "author": "George Orwell",
-    "publication": "The God Test: Artificial Intelligence and Our Coming Cosmic Reckoning",
+    "publication": "The God Test: AI and Our Coming Cosmic Reckoning",
     "year": "2026",
     "isbn": null,
     "book_author": "Robert Wright",
-    "cover_url": "covers/the-god-test-artificial-intelligence-and-our-comin.webp",
+    "cover_url": "covers/the-god-test-ai-and-our-coming-cosmic-reckoning.webp",
     "weighted_tags": [
       {
         "tag": "humanity",
@@ -59857,11 +59857,11 @@
   {
     "quote": "...the faster you head toward the finish line, the more likely hell is to lie on the other side of it.",
     "author": "Robert Wright",
-    "publication": "The God Test: Artificial Intelligence and Our Coming Cosmic Reckoning",
+    "publication": "The God Test: AI and Our Coming Cosmic Reckoning",
     "year": "2026",
     "isbn": null,
     "book_author": "Robert Wright",
-    "cover_url": "covers/the-god-test-artificial-intelligence-and-our-comin.webp",
+    "cover_url": "covers/the-god-test-ai-and-our-coming-cosmic-reckoning.webp",
     "weighted_tags": [
       {
         "tag": "improvement",
