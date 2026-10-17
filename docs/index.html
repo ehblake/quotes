@@ -2757,15 +2757,13 @@
         const bookAuthor = q.book_author || q.author;
 
         if (hasBook) {
-          let coverUrl = getCoverUrl(q);
-          if (!coverUrl) {
-            coverUrl = await fetchGoodreadsCover(q);
-          }
-
-          const coverHtml = coverUrl
-            ? `<img class="book-cover" src="${coverUrl}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
+          const localCover = getCoverUrl(q);
+          const coverHtml = localCover
+            ? `<img class="book-cover" src="${localCover}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`
             : `<div class="book-cover-placeholder">No cover available</div>`;
 
+          // Render the text immediately — never block the book block on a remote
+          // cover lookup (the fallback API can be slow or down).
           innerBlock.innerHTML = `
             ${coverHtml}
             <div class="book-info">
@@ -2774,6 +2772,16 @@
               ${q.year ? `<div class="book-year">${q.year}</div>` : ''}
             </div>
           `;
+
+          if (!localCover) {
+            // Swap the placeholder for a web cover if one turns up, and only if
+            // we're still showing the same quote.
+            fetchGoodreadsCover(q).then(webCover => {
+              if (!webCover || quotes[currentIndex]?.id !== q.id) return;
+              const ph = innerBlock.querySelector('.book-cover-placeholder');
+              if (ph) ph.outerHTML = `<img class="book-cover" src="${webCover}" alt="Book cover" onerror="this.outerHTML='<div class=\\'book-cover-placeholder\\'>No cover available</div>'">`;
+            });
+          }
         } else {
           innerBlock.innerHTML = `<div class="no-book">No book information available</div>`;
         }
@@ -2804,7 +2812,9 @@
 
       try {
         const params = new URLSearchParams({ book_title: title, author_name: author });
-        const res = await fetch(`https://bookcover.longitood.com/bookcover?${params}`);
+        // Hard timeout — this host goes down periodically and an open socket
+        // would otherwise stall whatever is awaiting the cover.
+        const res = await fetch(`https://bookcover.longitood.com/bookcover?${params}`, { signal: AbortSignal.timeout(4000) });
         if (res.ok) {
           const data = await res.json();
           goodreadsCoverCache[cacheKey] = data.url || null;
